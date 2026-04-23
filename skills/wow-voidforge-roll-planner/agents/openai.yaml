@@ -1,4 +1,4 @@
 interface:
   display_name: "WoW Roll Planner"
-  short_description: "规划 12.0.5/赛季装备与晦暗虚空核心使用路线"
-  default_prompt: "Use $wow-voidforge-roll-planner to plan Patch 12.0.5 Voidforge bonus-roll priorities, Great Vault token choices, and gear routes for a WoW specialization."
+  short_description: "优先规划本周 roll、宝库与 6 代币决策"
+  default_prompt: "Use $wow-voidforge-roll-planner to decide this week's Patch 12.0.5 Voidforge bonus-roll priorities, Great Vault token choices, whether to continue the same knockout pool, and only then explain supporting gear logic."
