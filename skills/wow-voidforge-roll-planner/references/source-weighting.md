@@ -49,6 +49,27 @@
 - 样本会偏向高分、高装等、成熟路线
 - 不要把高层钥石样本直接照搬给小号或低层钥石玩家
 
+### Bloodmallet
+
+适合回答：
+
+- 某个专精在理论环境下的饰品强度
+- 某个专精的副属性分布倾向
+- 部分消耗品、武器附魔等单项模拟
+- 当用户没有 `/simc` 时，给饰品问题提供一个额外的理论参考
+
+结论定位：
+
+- `理论模拟层`
+- `单项部件层`
+
+注意：
+
+- Bloodmallet 常基于 `tier appropriate` 的 SimulationCraft profile，不是用户当前角色
+- 常见图表偏 `Patchwerk / Casting Patchwerk`，不能直接代表 M+ 实战或特定 Boss 环境
+- 它适合辅助判断 `饰品值不值得追`，不适合单独决定 `长期 R 币主池`
+- 如果 Bloodmallet 和 Mythicstats / WCL 冲突，要优先检查是不是战斗环境不同，而不是直接判某一方“错了”
+
 ### Warcraft Logs
 
 适合回答：
@@ -96,12 +117,14 @@
 1. Wowhead
 2. Mythicstats
 3. WCL Mythic+
+4. Bloodmallet
 
 解释：
 
 - 先用 Wowhead 确认理论 BIS 与属性逻辑
 - 再用 Mythicstats 看高分钥石玩家的主流路线
 - 再用 WCL Mythic+ 的 `Rankings` / `Statistics` / `Talents` / `Trinkets` 维度确认这些路线是否也出现在日志侧
+- 如果具体问题落在 `饰品强弱` 或 `副属性分布`，再用 Bloodmallet 做理论补充
 - 不要把 WCL 团本页的单 Boss 结论误当成钥石通用解
 
 ### 双修玩家
@@ -111,12 +134,14 @@
 1. Wowhead
 2. Mythicstats
 3. WCL 团本 + WCL Mythic+
+4. Bloodmallet
 
 但解释方式必须改成：
 
 - 先找三者重叠的“通用强目标”
 - 再列出只对团本特别强、或只对 M+ 特别强的备选目标
 - 最终优先级要偏向“一个装备能同时服务两个场景”
+- 如果某件饰品在理论模拟里很高，但双修实战样本很少见，要明确写“理论强，不一定是双修通吃”
 
 ## 三、双修玩家的输出方式
 
@@ -138,12 +163,14 @@
 - Mythicstats 常见某件 M+ 散件，但 WCL Mythic+ 统计里热度一般
 - Mythicstats 常见某件 M+ 散件，但 WCL 团本日志几乎没人穿
 - WCL 某个 Boss 上大量使用某饰品，但 Mythicstats 与 WCL Mythic+ 完全不带
+- Bloodmallet 说某个饰品理论值高，但 Mythicstats / WCL 实战热度一般
 
 默认裁决方式：
 
 1. 先确认玩家主要内容定位
 2. 再确认该结论是 `全局通用` 还是 `单 Boss / 单场景`
-3. 再看可达性与 roll 成本
+3. 再判断 Bloodmallet 的战斗模型是否和当前问题一致
+4. 再看可达性与 roll 成本
 4. 若仍接近，建议 `/simc`
 
 ## 五、什么时候一定要写“不要过度解读日志”
@@ -155,6 +182,7 @@
 - WCL Mythic+ 结论明显只属于高层特定路线
 - Mythicstats 结论明显只属于高层钥石
 - 用户角色阶段远低于样本角色阶段
+- Bloodmallet 结论来自纯单体 / Casting Patchwerk，而用户问的是大秘境、特定 Boss 或双修路线
 
 ## 六、拾取专精掉落池的来源优先级
 
