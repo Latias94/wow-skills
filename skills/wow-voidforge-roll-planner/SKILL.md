@@ -239,3 +239,4 @@ description: 为《魔兽世界》Patch 12.0.5 及相近版本的晦暗虚空核
 如果需要决定该看 Mythicstats、WCL 团本还是 WCL Mythic+，读取 [references/source-weighting.md](references/source-weighting.md)。
 如果需要按输入完整度决定结论精度，读取 [references/input-granularity.md](references/input-granularity.md)。
 如果用户问 `/simc` 该怎么给、文件该怎么放、或者你准备基于 `/simc` 做精细比较，读取 [references/simc-intake.md](references/simc-intake.md)。
+如果你希望统一“为什么优先这个活动、为什么继续追同一个本、为什么不该立刻做制造武器”这类判断口径，读取 [references/scoring-model.md](references/scoring-model.md)。
