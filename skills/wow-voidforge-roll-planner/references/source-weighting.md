@@ -189,6 +189,7 @@
 常见冲突：
 
 - Wowhead 说某件是 BIS，但 Mythicstats 很少见
+- 同一职业的 `Overview`、`Talent Builds`、`Hero Talents`、`BiS Gear` 页面更新时间不同，结论未同步
 - Mythicstats 常见某件 M+ 散件，但 WCL Mythic+ 统计里热度一般
 - Mythicstats 常见某件 M+ 散件，但 WCL 团本日志几乎没人穿
 - WCL 某个 Boss 上大量使用某饰品，但 Mythicstats 与 WCL Mythic+ 完全不带
@@ -198,10 +199,13 @@
 
 1. 先确认玩家主要内容定位
 2. 先用官方英雄榜或用户给的当前装备信息确认角色真实起点
-3. 再确认该结论是 `全局通用` 还是 `单 Boss / 单场景`
-4. 再判断 Bloodmallet 的战斗模型是否和当前问题一致
-5. 再看可达性与 roll 成本
-6. 若仍接近，建议 `/simc`
+3. 再比较页面更新时间；同站同专精页面冲突时，通常优先采用更新更近的 `Overview / Talent Builds / BiS Gear`，并标注旧页可能未同步
+4. 再确认该结论是 `全局通用` 还是 `单 Boss / 单场景`
+5. 再判断 Bloodmallet 的战斗模型是否和当前问题一致
+6. 再看可达性与 roll 成本
+7. 若仍接近，建议 `/simc`
+
+不要把某个历史职业样例、旧回答或旧快照当成当前版本依据；这类材料只能提示“需要检查哪些维度”，不能直接给出当前结论。
 
 ## 五、什么时候一定要写“不要过度解读日志”
 
