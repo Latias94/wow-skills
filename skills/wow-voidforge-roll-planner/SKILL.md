@@ -28,11 +28,18 @@ description: 为《魔兽世界》Patch 12.0.5 及相近版本的晦暗虚空核
 - 当前宏伟宝库候选
 - 当前是否有火花、制造预算、已做制作装
 - 过去几周各活动 / 各难度已经通过晦暗虚空核心拿到过哪些物品
+- 若用户提供 `/simc`，记录它是 `直接粘贴`、`附件文本文件`、还是 `本地路径文件`
 
 一律按输入完整度分三档处理：
 - `基础档`：只有专精、Hero talents、主玩法、装等、可打内容。只给方向性路线，不给过细“这两件谁强 0.3%”结论
 - `进阶档`：再加当前双饰品、武器、套装进度、最弱槽位、宝库候选。可以给较稳的周计划与宝库判断
 - `精确档`：提供 `/simc` 导出、宝库截图、当前待选装备。可以做武器 / 饰品 / 戒指 / 制作装之间的精细比较
+
+若用户要补 `/simc`，默认按这个优先级接收，不要求固定文件名：
+- `第一优先`：直接把 `/simc` 文本粘贴到消息里，最好用代码块包起来
+- `第二优先`：提供一个纯文本附件文件，例如 `.txt` / `.simc`
+- `第三优先`：给出本地文件路径，让 agent 读取
+- 不要要求用户必须把 `/simc` 放到某个固定目录；目录规范只能作为可选建议，不能作为硬门槛
 
 2. 先核对版本。
 确认补丁、赛季副本池、团本、催化剂规则、晦暗虚空核心获取上限与消耗。用户给了来源时，优先读取用户指定来源。
@@ -231,3 +238,4 @@ description: 为《魔兽世界》Patch 12.0.5 及相近版本的晦暗虚空核
 如果需要处理主号 / 小号 / 宝库 / `/simc` 决策，读取 [references/decision-rules.md](references/decision-rules.md)。
 如果需要决定该看 Mythicstats、WCL 团本还是 WCL Mythic+，读取 [references/source-weighting.md](references/source-weighting.md)。
 如果需要按输入完整度决定结论精度，读取 [references/input-granularity.md](references/input-granularity.md)。
+如果用户问 `/simc` 该怎么给、文件该怎么放、或者你准备基于 `/simc` 做精细比较，读取 [references/simc-intake.md](references/simc-intake.md)。
