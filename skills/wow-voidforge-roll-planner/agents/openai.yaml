@@ -1,0 +1,4 @@
+interface:
+  display_name: "WoW Roll Planner"
+  short_description: "规划 12.0.5/赛季装备与晦暗虚空核心使用路线"
+  default_prompt: "Use $wow-voidforge-roll-planner to plan Patch 12.0.5 Voidforge bonus-roll priorities for an Elemental Shaman."
