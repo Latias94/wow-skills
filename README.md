@@ -12,6 +12,10 @@ This repository focuses on reusable WoW skills rather than one-off prompts. The 
   - Plans `Voidforge / bonus-roll / Great Vault token` decisions for WoW `12.0.5` and nearby versions
   - Supports `class/spec`, `Hero talents`, `raid / Mythic+ / hybrid` playstyles, `main / alt` characters, accessibility constraints, crafting, Great Vault choices, and `/simc`-driven refinement
   - Output language follows the user's input language by default: Chinese input leads to Chinese-first output, English input leads to English-first output, and explicit language requests take priority
+- `wow-pve-spec-coach`
+  - Provides a general PvE spec coach for any WoW class/spec, covering rotations, talents, mechanics reasoning, raid/Mythic+ play, WCL review, SimC/Raidbots interpretation, and mentor-style explanations
+  - Explains why a rotation or talent setup works by connecting guides to the player's current talents, skills, passives, resources, cooldown windows, and combat context
+  - Uses a default roleplay mentor persona, `Yuzu`, to make dense guide content easier to absorb while keeping data, sources, and uncertainty labels strict
 
 ## Repository Layout
 
@@ -21,7 +25,7 @@ wow-skills/
 ├── README.md
 ├── README.zh-CN.md
 └── skills/
-    └── wow-voidforge-roll-planner/
+    ├── wow-voidforge-roll-planner/
         ├── SKILL.md
         ├── agents/
         │   └── openai.yaml
@@ -36,6 +40,18 @@ wow-skills/
             ├── scoring-model.md
             ├── simc-intake.md
             └── source-weighting.md
+    └── wow-pve-spec-coach/
+        ├── SKILL.md
+        ├── agents/
+        │   └── openai.yaml
+        └── references/
+            ├── answer-patterns.md
+            ├── cross-skill-routing.md
+            ├── log-review-rubric.md
+            ├── mechanics-reasoning.md
+            ├── persona-cards.md
+            ├── player-intake.md
+            └── source-weighting.md
 ```
 
 Notes:
@@ -44,7 +60,7 @@ Notes:
 - `skills/<skill-name>/SKILL.md` is the entry file for each skill
 - `agents/openai.yaml` contains Codex-facing UI metadata
 - `evals/` contains behavior regression cases for maintainers
-- `references/` holds supporting docs for pool tables, scoring, input granularity, and source weighting
+- `references/` holds supporting docs for pool tables, scoring, input granularity, source weighting, coaching patterns, mechanics reasoning, and persona cards
 
 ## Install for Codex
 
@@ -63,12 +79,15 @@ Copy-Item -Recurse -Force `
   "$HOME\\.codex\\skills\\wow-voidforge-roll-planner"
 ```
 
+Replace `wow-voidforge-roll-planner` with `wow-pve-spec-coach` to install the PvE coach skill.
+
 Restart Codex after installation.
 
 ### Option 2: Use Codex skill-installer
 
 ```text
 $skill-installer install https://github.com/Latias94/wow-skills/tree/main/skills/wow-voidforge-roll-planner
+$skill-installer install https://github.com/Latias94/wow-skills/tree/main/skills/wow-pve-spec-coach
 ```
 
 Restart Codex after installation.
@@ -90,12 +109,15 @@ Copy-Item -Recurse -Force `
   "$HOME\\.claude\\skills\\wow-voidforge-roll-planner"
 ```
 
+Replace the skill name in both paths to install `wow-pve-spec-coach`.
+
 ### Install to a project
 
 Copy the skill into:
 
 ```text
 .claude/skills/wow-voidforge-roll-planner/
+.claude/skills/wow-pve-spec-coach/
 ```
 
 Notes:
@@ -110,6 +132,9 @@ You can ask for things like:
 - `Analyze where an Elemental Shaman in 12.0.5 should spend Voidforge rolls for Mythic+`
 - `If I am an alt only doing +10s and my Great Vault is weak, should I take gear or 6 tokens?`
 - `Here is my /simc, help me decide whether to take the vault item or keep rolling one dungeon`
+- `Use Yuzu to teach me how to play Assassination Rogue in Mythic+ and explain why the rotation works`
+- `Review my WCL as a Frost Mage and tell me which cooldown windows I am missing`
+- `I copied a Wowhead talent build for Retribution Paladin; explain what each key node changes in my rotation`
 
 The current `wow-voidforge-roll-planner` already includes:
 
@@ -122,6 +147,15 @@ The current `wow-voidforge-roll-planner` already includes:
 - Bonus-roll `knockout` and same-difficulty continuation logic
 - Structured main-pool `n / k / hit-rate / stop-condition` output
 - More precise refinement when `/simc` is available
+
+The `wow-pve-spec-coach` includes:
+
+- General PvE coaching across all classes/specs
+- Rotation explanations that connect guide priority lists to talents, skills, passives, resources, and cooldown windows
+- Mythic+ and raid coaching with practical survival, utility, and encounter-context advice
+- WCL review patterns for uptime, cooldown count, resource waste, target selection, deaths, and utility
+- Source weighting across Wowhead, Icy Veins, Method, Archon, Warcraft Logs, Mythicstats, Bloodmallet, SimulationCraft, and Raidbots
+- Mentor persona cards, defaulting to `Yuzu`, with roleplay kept separate from factual accuracy
 
 ## License
 
