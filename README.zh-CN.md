@@ -48,6 +48,7 @@ wow-skills/
             ├── answer-patterns.md
             ├── cross-skill-routing.md
             ├── log-review-rubric.md
+            ├── localization-rules.md
             ├── mechanics-reasoning.md
             ├── persona-cards.md
             ├── player-intake.md
@@ -155,6 +156,7 @@ Copy-Item -Recurse -Force `
 - 把攻略优先级拆成天赋、技能、被动、资源、冷却窗口和战斗场景的机制因果链
 - 面向大秘境和团本的实战建议，包含生存、功能性、控制、减伤和副本语境
 - WCL 复盘框架，覆盖覆盖率、爆发次数、资源浪费、目标选择、死亡原因和功能性贡献
+- 中文术语优先规则，把英文攻略里的技能、天赋、装备和缩写转换成中文客户端玩家能读懂的表达
 - Wowhead、Icy Veins、Method、Archon、Warcraft Logs、Mythicstats、Bloodmallet、SimulationCraft、Raidbots 的数据源加权规则
 - 默认 `柚子` 角色卡，并支持切换到数据导师、老兵车头、职业宗师、元气助理等口吻
 

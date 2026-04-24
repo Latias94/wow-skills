@@ -48,6 +48,7 @@ wow-skills/
             ├── answer-patterns.md
             ├── cross-skill-routing.md
             ├── log-review-rubric.md
+            ├── localization-rules.md
             ├── mechanics-reasoning.md
             ├── persona-cards.md
             ├── player-intake.md
@@ -154,6 +155,7 @@ The `wow-pve-spec-coach` includes:
 - Rotation explanations that connect guide priority lists to talents, skills, passives, resources, and cooldown windows
 - Mythic+ and raid coaching with practical survival, utility, and encounter-context advice
 - WCL review patterns for uptime, cooldown count, resource waste, target selection, deaths, and utility
+- Chinese-first terminology and localization rules for translating English guide terms into readable Chinese client terminology
 - Source weighting across Wowhead, Icy Veins, Method, Archon, Warcraft Logs, Mythicstats, Bloodmallet, SimulationCraft, and Raidbots
 - Mentor persona cards, defaulting to `Yuzu`, with roleplay kept separate from factual accuracy
 
