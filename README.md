@@ -25,12 +25,16 @@ wow-skills/
         ├── SKILL.md
         ├── agents/
         │   └── openai.yaml
+        ├── evals/
+        │   └── roll-planning-cases.md
         └── references/
             ├── analysis-template.md
             ├── decision-rules.md
-            ├── elemental-shaman-12-0-5.md
             ├── input-granularity.md
             ├── player-profile-template.md
+            ├── pool-table-schema.md
+            ├── scoring-model.md
+            ├── simc-intake.md
             └── source-weighting.md
 ```
 
@@ -39,7 +43,8 @@ Notes:
 - `skills/` stores all skills in the repository
 - `skills/<skill-name>/SKILL.md` is the entry file for each skill
 - `agents/openai.yaml` contains Codex-facing UI metadata
-- `references/` holds supporting docs that can be loaded on demand
+- `evals/` contains behavior regression cases for maintainers
+- `references/` holds supporting docs for pool tables, scoring, input granularity, and source weighting
 
 ## Install for Codex
 
@@ -115,6 +120,7 @@ The current `wow-voidforge-roll-planner` already includes:
 - Mythic+ 1-core vs raid 2-core weighting
 - Great Vault `6 tokens for 1 extra core`
 - Bonus-roll `knockout` and same-difficulty continuation logic
+- Structured main-pool `n / k / hit-rate / stop-condition` output
 - More precise refinement when `/simc` is available
 
 ## License

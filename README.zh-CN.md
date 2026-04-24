@@ -25,12 +25,16 @@ wow-skills/
         ├── SKILL.md
         ├── agents/
         │   └── openai.yaml
+        ├── evals/
+        │   └── roll-planning-cases.md
         └── references/
             ├── analysis-template.md
             ├── decision-rules.md
-            ├── elemental-shaman-12-0-5.md
             ├── input-granularity.md
             ├── player-profile-template.md
+            ├── pool-table-schema.md
+            ├── scoring-model.md
+            ├── simc-intake.md
             └── source-weighting.md
 ```
 
@@ -39,7 +43,8 @@ wow-skills/
 - `skills/`：仓库内所有技能的聚合目录
 - `skills/<skill-name>/SKILL.md`：技能入口文件
 - `agents/openai.yaml`：Codex 侧 UI 元数据
-- `references/`：按需读取的参考资料
+- `evals/`：维护用的行为回归用例
+- `references/`：按需读取的参考资料，包含主池表、评分模型、输入完整度和数据源权重等规则
 
 ## 安装到 Codex
 
@@ -116,6 +121,7 @@ Copy-Item -Recurse -Force `
 - 大秘境 1 币 vs 团本 2 币权重
 - 宏伟宝库 `6 代币换额外核心`
 - `R 币去重 / knockout` 的同难度连续追击逻辑
+- 主池 `n / k / 命中率 / 停手条件` 表格化输出
 - `/simc` 输入后的更精细比较
 
 ## 许可证
