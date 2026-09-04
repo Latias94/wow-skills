@@ -16,6 +16,10 @@
   - 通用 PvE 职业专精导师，覆盖任意职业/专精的循环、天赋、机制理解、团本/大秘境打法、WCL 复盘、SimC/Raidbots 解读和导师式答疑
   - 不只复述攻略优先级，而是结合玩家当前天赋、技能、被动、资源、冷却窗口和战斗场景解释“为什么这么打”
   - 默认使用 `柚子` 角色卡，用温柔但硬核的导师口吻降低攻略阅读门槛，同时保留严格的数据来源和不确定性标注
+- `wow-wcl-performance-analyst`
+  - 分析 WCL 在线报告或本地导出，筛选可比高手，比较战斗轴、技能循环、爆发对齐、目标选择、资源、装备与生存
+  - 支持击杀与开荒/进度两种复盘口径，并把多场日志中的稳定规律整理成带证据和验证指标的中文经验卡
+  - 附带无第三方依赖的本地 JSON 摘要脚本，适合先压缩大事件流再做深度分析
 
 ## 仓库结构
 
@@ -40,7 +44,7 @@ wow-skills/
             ├── scoring-model.md
             ├── simc-intake.md
             └── source-weighting.md
-    └── wow-pve-spec-coach/
+    ├── wow-pve-spec-coach/
         ├── SKILL.md
         ├── agents/
         │   └── openai.yaml
@@ -53,6 +57,22 @@ wow-skills/
             ├── persona-cards.md
             ├── player-intake.md
             └── source-weighting.md
+    └── wow-wcl-performance-analyst/
+        ├── SKILL.md
+        ├── agents/
+        │   └── openai.yaml
+        ├── evals/
+        │   └── wcl-performance-cases.md
+        ├── references/
+        │   ├── benchmark-selection.md
+        │   ├── experience-capture.md
+        │   ├── external-prior-art.md
+        │   ├── input-contract.md
+        │   ├── metric-rubric.md
+        │   ├── online-fetch.md
+        │   └── report-template.md
+        └── scripts/
+            └── summarize_wcl.py
 ```
 
 说明：
@@ -80,7 +100,7 @@ Copy-Item -Recurse -Force `
   "$HOME\\.codex\\skills\\wow-voidforge-roll-planner"
 ```
 
-把示例中的 `wow-voidforge-roll-planner` 替换为 `wow-pve-spec-coach`，即可安装 PvE 导师技能。
+把示例中的 `wow-voidforge-roll-planner` 替换为 `wow-pve-spec-coach`，即可安装 PvE 导师技能；替换为 `wow-wcl-performance-analyst` 即可安装 WCL 分析技能。
 
 安装后建议重启 Codex。
 
@@ -89,6 +109,7 @@ Copy-Item -Recurse -Force `
 ```text
 $skill-installer install https://github.com/Latias94/wow-skills/tree/main/skills/wow-voidforge-roll-planner
 $skill-installer install https://github.com/Latias94/wow-skills/tree/main/skills/wow-pve-spec-coach
+$skill-installer install https://github.com/Latias94/wow-skills/tree/main/skills/wow-wcl-performance-analyst
 ```
 
 安装后同样建议重启 Codex。
@@ -110,7 +131,7 @@ Copy-Item -Recurse -Force `
   "$HOME\\.claude\\skills\\wow-voidforge-roll-planner"
 ```
 
-把两个路径里的技能名替换为 `wow-pve-spec-coach`，即可安装 PvE 导师技能。
+把两个路径里的技能名替换为 `wow-pve-spec-coach` 或 `wow-wcl-performance-analyst`，即可安装对应技能。
 
 ### 安装到当前项目
 
@@ -137,6 +158,8 @@ Copy-Item -Recurse -Force `
 - `用柚子的口吻教我 12.0.5 刺杀贼大秘境怎么循环，并解释为什么这么打`
 - `帮我复盘这个冰法 WCL，看看我漏了哪些爆发窗口`
 - `我抄了惩戒骑 Wowhead 天赋，帮我解释这些关键天赋节点会怎么改变循环`
+- `给我一个 WCL 链接，比较我和同职业高手的爆发、目标选择和技能循环，并整理下一把训练目标`
+- `我有 WCL 导出的 events.json 和伤害表，帮我找出和另一位玩家的差距，并沉淀成经验卡`
 
 当前 `wow-voidforge-roll-planner` 已内置这些关键逻辑：
 
@@ -159,6 +182,15 @@ Copy-Item -Recurse -Force `
 - 中文术语优先规则，把英文攻略里的技能、天赋、装备和缩写转换成中文客户端玩家能读懂的表达
 - Wowhead、Icy Veins、Method、Archon、Warcraft Logs、Mythicstats、Bloodmallet、SimulationCraft、Raidbots 的数据源加权规则
 - 默认 `柚子` 角色卡，并支持切换到数据导师、老兵车头、职业宗师、元气助理等口吻
+
+当前 `wow-wcl-performance-analyst` 已内置这些关键逻辑：
+
+- WCL 在线链接与本地 JSON 的输入契约和降级策略
+- 击杀/开荒模式区分、阶段对齐和团队级联死亡过滤
+- 同场玩家、相近装等高分样本与多样本中位数的基准筛选
+- 施法密度、核心冷却、增益覆盖、目标拆分、资源和装备背景的统一指标口径
+- “日志事实 → 机制后果 → 训练动作 → 验证指标”的因果报告格式
+- 可复制的 Boss/职业经验卡，以及对 `jjholyfield/wcl-analyzer` 的方法层借鉴边界
 
 ## 许可证
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "WoW WCL 表现分析师"
+  short_description: "比较 WCL 与可比高手，提炼可执行的复盘训练计划。"
+  default_prompt: "使用 $wow-wcl-performance-analyst 分析我的 WCL，与可比高手对照并给出可验证的复盘训练计划。"

@@ -16,6 +16,10 @@ This repository focuses on reusable WoW skills rather than one-off prompts. The 
   - Provides a general PvE spec coach for any WoW class/spec, covering rotations, talents, mechanics reasoning, raid/Mythic+ play, WCL review, SimC/Raidbots interpretation, and mentor-style explanations
   - Explains why a rotation or talent setup works by connecting guides to the player's current talents, skills, passives, resources, cooldown windows, and combat context
   - Uses a default roleplay mentor persona, `Yuzu`, to make dense guide content easier to absorb while keeping data, sources, and uncertainty labels strict
+- `wow-wcl-performance-analyst`
+  - Analyzes online Warcraft Logs reports or local exports, selects comparable high-performing references, and compares timelines, rotations, cooldown alignment, target selection, resources, gear, and survival
+  - Separates kill and progression analysis, then turns repeated multi-log patterns into evidence-backed training cards
+  - Includes a dependency-free local JSON summarizer for large event exports
 
 ## Repository Layout
 
@@ -40,7 +44,7 @@ wow-skills/
             ├── scoring-model.md
             ├── simc-intake.md
             └── source-weighting.md
-    └── wow-pve-spec-coach/
+    ├── wow-pve-spec-coach/
         ├── SKILL.md
         ├── agents/
         │   └── openai.yaml
@@ -53,6 +57,22 @@ wow-skills/
             ├── persona-cards.md
             ├── player-intake.md
             └── source-weighting.md
+    └── wow-wcl-performance-analyst/
+        ├── SKILL.md
+        ├── agents/
+        │   └── openai.yaml
+        ├── evals/
+        │   └── wcl-performance-cases.md
+        ├── references/
+        │   ├── benchmark-selection.md
+        │   ├── experience-capture.md
+        │   ├── external-prior-art.md
+        │   ├── input-contract.md
+        │   ├── metric-rubric.md
+        │   ├── online-fetch.md
+        │   └── report-template.md
+        └── scripts/
+            └── summarize_wcl.py
 ```
 
 Notes:
@@ -80,7 +100,7 @@ Copy-Item -Recurse -Force `
   "$HOME\\.codex\\skills\\wow-voidforge-roll-planner"
 ```
 
-Replace `wow-voidforge-roll-planner` with `wow-pve-spec-coach` to install the PvE coach skill.
+Replace `wow-voidforge-roll-planner` with `wow-pve-spec-coach` or `wow-wcl-performance-analyst` to install the corresponding skill.
 
 Restart Codex after installation.
 
@@ -89,6 +109,7 @@ Restart Codex after installation.
 ```text
 $skill-installer install https://github.com/Latias94/wow-skills/tree/main/skills/wow-voidforge-roll-planner
 $skill-installer install https://github.com/Latias94/wow-skills/tree/main/skills/wow-pve-spec-coach
+$skill-installer install https://github.com/Latias94/wow-skills/tree/main/skills/wow-wcl-performance-analyst
 ```
 
 Restart Codex after installation.
@@ -110,7 +131,7 @@ Copy-Item -Recurse -Force `
   "$HOME\\.claude\\skills\\wow-voidforge-roll-planner"
 ```
 
-Replace the skill name in both paths to install `wow-pve-spec-coach`.
+Replace the skill name in both paths with `wow-pve-spec-coach` or `wow-wcl-performance-analyst` to install the corresponding skill.
 
 ### Install to a project
 
@@ -136,6 +157,8 @@ You can ask for things like:
 - `Use Yuzu to teach me how to play Assassination Rogue in Mythic+ and explain why the rotation works`
 - `Review my WCL as a Frost Mage and tell me which cooldown windows I am missing`
 - `I copied a Wowhead talent build for Retribution Paladin; explain what each key node changes in my rotation`
+- `Give me a WCL link, compare my burst, targeting, and rotation with comparable top players, and give me the next training goals`
+- `I have WCL events.json and a damage table; find the gap between me and another player and turn it into reusable experience cards`
 
 The current `wow-voidforge-roll-planner` already includes:
 
@@ -158,6 +181,15 @@ The `wow-pve-spec-coach` includes:
 - Chinese-first terminology and localization rules for translating English guide terms into readable Chinese client terminology
 - Source weighting across Wowhead, Icy Veins, Method, Archon, Warcraft Logs, Mythicstats, Bloodmallet, SimulationCraft, and Raidbots
 - Mentor persona cards, defaulting to `Yuzu`, with roleplay kept separate from factual accuracy
+
+The `wow-wcl-performance-analyst` includes:
+
+- Input contracts and graceful fallback for online reports and local JSON exports
+- Kill/progression mode separation, phase alignment, and cascade-death filtering
+- Same-fight, comparable-ilvl, and multi-sample median benchmark selection
+- A shared rubric for cast density, cooldowns, buff coverage, target splits, resources, and gear context
+- Evidence chains from log fact to mechanism, training action, and verification metric
+- Reusable boss/spec experience cards and documented adaptation boundaries from `jjholyfield/wcl-analyzer`
 
 ## License
 

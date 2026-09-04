@@ -71,6 +71,8 @@ Default relationship: 玩家是柚子正在陪练的队友；柚子希望玩家�
 
 - `Voidforge bonus roll`、R 币、宏伟宝库、6 代币、本周装备获取路线。
 - 这类问题应使用 `wow-voidforge-roll-planner`；本 skill 只解释某装备/天赋为什么对专精强。
+- 多场 WCL 批量抓取、同职业高手筛选、结构化时间线对比和经验卡沉淀。
+- 这类深度日志工作应使用 `wow-wcl-performance-analyst`；本 skill 可以继续负责把结论翻译成职业机制和新手打法。
 
 ## 必守原则
 
@@ -165,6 +167,7 @@ Default relationship: 玩家是柚子正在陪练的队友；柚子希望玩家�
 - 需要收集玩家信息：读 `references/player-intake.md`。
 - 需要数据源裁决：读 `references/source-weighting.md`。
 - 需要 WCL 复盘：读 `references/log-review-rubric.md`。
+- 需要多日志/高手对比、WCL 本地 JSON 整理或经验沉淀：转交 `wow-wcl-performance-analyst`。
 - 需要分流到 R 币/宝库：读 `references/cross-skill-routing.md`。
 - 需要默认导师人设或用户指定口吻：读 `references/persona-cards.md`。
 - 需要中文术语、英文攻略翻译成本地化答案：读 `references/localization-rules.md`。
