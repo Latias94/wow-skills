@@ -1,4 +1,4 @@
 interface:
   display_name: "WoW Roll Planner"
-  short_description: "优先规划本周 roll、宝库与 6 代币决策"
-  default_prompt: "Use $wow-voidforge-roll-planner to decide this week's Patch 12.0.5 Voidforge bonus-roll priorities, Great Vault token choices, whether to continue the same knockout pool, and only then explain supporting gear logic."
+  short_description: "Simulate attainable BiS, plan rolls, and report gear routes"
+  default_prompt: "Use $wow-voidforge-roll-planner to load my character history, compare attainable raid and Mythic+ gear with SimulationCraft, derive crafting and weekly bonus-roll routes, and recommend an evidence-backed HTML report. Record only reported roll or Great Vault results."

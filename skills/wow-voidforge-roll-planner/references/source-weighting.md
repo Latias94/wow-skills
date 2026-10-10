@@ -1,254 +1,28 @@
-# 数据源加权规则
-
-## 目录
-
-- 默认分工
-- 按玩家类型加权
-- 双修玩家的输出方式
-- 结论冲突时怎么裁决
-- 什么时候一定要写“不要过度解读日志”
-- 官方英雄榜 / 角色页怎么用
-- 拾取专精掉落池的来源优先级
-
-## 一、默认分工
-
-### Wowhead
-
-适合回答：
-
-- 当前版本机制
-- 晦暗虚空核心与宏伟宝库规则
-- 职业专精理论 BIS
-- 装备是 `完全 BIS`、`准毕业 / 属性正确`、`现实毕业` 还是远期理论目标
-- 副属性优先级
-- Hero talents 与套装逻辑
-- 副本 / 团本掉落池
-- 目标物品是否适合某个拾取专精
-- 同一 Boss / 副本在不同拾取专精下的候选池差异，前提是页面或过滤结果能明确展示
-
-结论定位：
-
-- `理论层`
-- `掉落池层`
-- `通用起点`
-
-### Mythicstats
-
-适合回答：
-
-- 当前高分玩家在 `M+` 的主流构筑
-- 当前高分玩家常带什么饰品、戒指、散件
-- 当前高分玩家更常用哪套 Hero talents
-- 某件装备在高层钥石环境是否真的常见
-
-结论定位：
-
-- `M+ 实战层`
-- `高分样本层`
-
-注意：
-
-- 样本会偏向高分、高装等、成熟路线
-- 不要把高层钥石样本直接照搬给小号或低层钥石玩家
-
-### Bloodmallet
-
-适合回答：
-
-- 某个专精在理论环境下的饰品强度
-- 某个专精的副属性分布倾向
-- 部分消耗品、武器附魔等单项模拟
-- 当用户没有 `/simc` 时，给饰品问题提供一个额外的理论参考
-
-结论定位：
-
-- `理论模拟层`
-- `单项部件层`
-
-注意：
-
-- Bloodmallet 常基于 `tier appropriate` 的 SimulationCraft profile，不是用户当前角色
-- 常见图表偏 `Patchwerk / Casting Patchwerk`，不能直接代表 M+ 实战或特定 Boss 环境
-- 它适合辅助判断 `饰品值不值得追`，不适合单独决定 `长期 R 币主池`
-- 如果 Bloodmallet 和 Mythicstats / WCL 冲突，要优先检查是不是战斗环境不同，而不是直接判某一方“错了”
-
-### Warcraft Logs
-
-适合回答：
-
-- 当前团本环境下的 Hero talents 与装备倾向
-- 某个 Boss 是否更偏好单体饰品、顺劈饰品或特定副属性
-- 团本玩家在具体 Boss 上常见的装备组合
-- 某件装备是否只是某个 Boss 上特别强，而不是全团通用
-- Mythic+ 环境下的天赋、饰品、职业表现与高层样本构筑
-- 某件饰品或构筑在 WCL Mythic+ 统计页里是否真的高频出现
-
-结论定位：
-
-- `日志实战层`
-- `Boss / 副本维度层`
-
-注意：
-
-- 团本页与 Mythic+ 页要分开看，不能混读
-- 高解析日志可能受团队策略、喂资源、速杀时长、轴对齐影响
-- Mythic+ 页面也可能受特定路线、特定拉法、特定周常 affix、队伍配置影响
-- 某件装备在单 Boss 排名里很强，不等于它是整团通用最优
-- 某件装备在极高层 Mythic+ 很强，也不等于普通玩家同样收益
-
-### 官方英雄榜 / 角色页
-
-适合回答：
-
-- 当前穿着的装备
-- 当前装等
-- 当前专精 / 天赋概况
-- 当前可见的团本进度、钥石分数与记录
-- 当用户没有 `/simc` 时，快速建立角色当前状态
-
-结论定位：
-
-- `角色快照层`
-- `当前状态层`
-
-注意：
-
-- 它是公开角色的网页快照，不一定等于玩家此刻包里和宝库里的真实可选项
-- 它通常看不到背包待选装备、宝库候选、R 币去重历史
-- 如果用户刚改过装备或隐私设置，页面可能有延迟
-- 它适合替代“手打一长串当前装备”，但不能替代 `/simc` 做精细比较
-
-## 二、按玩家类型加权
-
-### 团本玩家
-
-优先级建议：
-
-1. Wowhead
-2. 官方英雄榜 / 角色页
-3. WCL
-4. Mythicstats
-
-解释：
-
-- 先用 Wowhead 确认理论与掉落池
-- 再用官方英雄榜快速确认角色当前状态
-- 再用 WCL 看该专精在当前团本与具体 Boss 上到底怎么穿
-- Mythicstats 只作为补充，避免把 M+ 高分路线误套进纯团本环境
-
-### M+ 玩家
-
-优先级建议：
-
-1. Wowhead
-2. 官方英雄榜 / 角色页
-3. Mythicstats
-4. WCL Mythic+
-5. Bloodmallet
-
-解释：
-
-- 先用 Wowhead 确认理论 BIS 与属性逻辑
-- 再用官方英雄榜快速确认角色当前装备、专精与分数
-- 再用 Mythicstats 看高分钥石玩家的主流路线
-- 再用 WCL Mythic+ 的 `Rankings` / `Statistics` / `Talents` / `Trinkets` 维度确认这些路线是否也出现在日志侧
-- 如果具体问题落在 `饰品强弱` 或 `副属性分布`，再用 Bloodmallet 做理论补充
-- 不要把 WCL 团本页的单 Boss 结论误当成钥石通用解
-
-### 双修玩家
-
-优先级建议：
-
-1. Wowhead
-2. 官方英雄榜 / 角色页
-3. Mythicstats
-4. WCL 团本 + WCL Mythic+
-5. Bloodmallet
-
-但解释方式必须改成：
-
-- 先找三者重叠的“通用强目标”
-- 先用官方英雄榜确认当前角色离这些目标还有多远
-- 再列出只对团本特别强、或只对 M+ 特别强的备选目标
-- 最终优先级要偏向“一个装备能同时服务两个场景”
-- 如果某件饰品在理论模拟里很高，但双修实战样本很少见，要明确写“理论强，不一定是双修通吃”
-
-## 三、双修玩家的输出方式
-
-双修玩家不要只给一条线。
-
-至少拆成：
-
-- `团本与 M+ 都强`
-- `更偏团本`
-- `更偏 M+`
-
-如果一个目标只在单一场景成立，要明确写出来，不要把它包装成通用 BIS。
-
-## 四、结论冲突时怎么裁决
-
-常见冲突：
-
-- Wowhead 说某件是 BIS，但 Mythicstats 很少见
-- 同一职业的 `Overview`、`Talent Builds`、`Hero Talents`、`BiS Gear` 页面更新时间不同，结论未同步
-- Mythicstats 常见某件 M+ 散件，但 WCL Mythic+ 统计里热度一般
-- Mythicstats 常见某件 M+ 散件，但 WCL 团本日志几乎没人穿
-- WCL 某个 Boss 上大量使用某饰品，但 Mythicstats 与 WCL Mythic+ 完全不带
-- Bloodmallet 说某个饰品理论值高，但 Mythicstats / WCL 实战热度一般
-- 物品属性正确、样本也有人用，但并不是职业页写明的完全 BIS
-
-默认裁决方式：
-
-1. 先确认玩家主要内容定位
-2. 先用官方英雄榜或用户给的当前装备信息确认角色真实起点
-3. 再比较页面更新时间；同站同专精页面冲突时，通常优先采用更新更近的 `Overview / Talent Builds / BiS Gear`，并标注旧页可能未同步
-4. 再确认该结论是 `全局通用` 还是 `单 Boss / 单场景`
-5. 再判断 Bloodmallet 的战斗模型是否和当前问题一致
-6. 再看可达性与 roll 成本
-7. 若装备只是属性正确但不是明确 BIS，把它标成 `准毕业 / 现实毕业`，不要包装成 `完全 BIS`
-8. 若仍接近，建议 `/simc`
-
-不要把某个历史职业样例、旧回答或旧快照当成当前版本依据；这类材料只能提示“需要检查哪些维度”，不能直接给出当前结论。
-
-## 五、什么时候一定要写“不要过度解读日志”
-
-出现以下情况时，明确提醒用户：
-
-- WCL 结论来自特定 Boss
-- WCL 结论明显受速推时长影响
-- WCL Mythic+ 结论明显只属于高层特定路线
-- Mythicstats 结论明显只属于高层钥石
-- 用户角色阶段远低于样本角色阶段
-- Bloodmallet 结论来自纯单体 / Casting Patchwerk，而用户问的是大秘境、特定 Boss 或双修路线
-
-## 六、官方英雄榜 / 角色页怎么用
-
-默认只接受 `Blizzard / 魔兽世界官网` 的官方角色页。
-
-推荐定位：
-
-1. 没有 `/simc` 时的首选次优输入
-2. 用来快速读取当前装备、专精、装等、分数与进度
-3. 用来校验用户文字描述里是否遗漏了关键武器、饰品、套装或制作装
-
-但必须明确提醒：
-
-- 它不是宝库快照
-- 它不是背包快照
-- 它不是 R 币历史快照
-- 它不能替代 `/simc` 做武器 / 饰品 / 制作装的精细比较
-
-## 七、拾取专精掉落池的来源优先级
-
-当问题涉及“用哪个拾取专精 roll 更容易出目标”时，优先级改成：
-
-1. 官方游戏内冒险指南 / 地城手册截图，若用户提供
-2. Wowhead 物品页与副本 / Boss 掉落过滤
-3. Wowhead 职业专精页对该物品的推荐
-4. 用户提供的 addon 截图或导出的剩余 Voidforge 池
-5. 日志 / 高分样本，只能证明玩家常用，不等于该物品一定在某个拾取专精池内
-
-如果只能查到“这件物品从哪里掉”，但查不到“哪个拾取专精可 roll”，必须标注不确定，不要硬说某专精池更小。
-
-职业 BiS 页只能证明某装备对该专精有价值，不能自动证明应该用该专精拾取。
-如果另一专精拾取也能出同一个目标，并且能排除无用角色饰品 / 武器，则应把另一专精作为候选拾取专精写进矩阵。
+# Evidence by Claim
+
+| Claim | Preferred evidence | Limits |
+|---|---|---|
+| Costs, release dates, caps, exclusions | Current official notes; live reward UI | PTR and prior-season rules may change |
+| Remaining roll pool | Character's filtered reward preview | Ordinary boss drops may include ineligible items |
+| Item source/spec eligibility | Current database and journal filters | Equippable does not prove roll eligibility |
+| Current gear | Latest SimC with bonuses or newer explicit result | Armory lacks Vault offers and roll history |
+| Item value | Current class-author guide; comparable character sims | Match content, Hero tree, item level and date |
+| High-player practice | Hero-filtered Murlok/Archon; comparable WCL logs | Usage can reflect availability |
+
+Browse unstable claims. Record URL, retrieval date, page patch and update date
+when available. Separate live/PTR evidence. Community reports flag questions
+but cannot establish exact probabilities. Resolve conflicts by claim/version;
+retain unresolved ones and give conditional actions where needed.
+
+WCL/top-player gear cannot establish coin balance, Vault offers, roll exclusions,
+or an exact chance of obtaining the same gear.
+
+For a gear-usage claim, inspect the Hero-filtered page's actual equipped-item
+counts rather than generic suggested items. Preserve denominator and timestamp.
+Refreshes can differ; do not fabricate a single stable count by merging them.
+Current players cannot validate pre-release item superiority. Record future loot
+as candidates and compare equal-level sims once supported. A new item occupying
+the same slot does not by itself make an old strong item obsolete.
+After a Catalyst rule change, tier-item names/counts do not reveal the precursor
+or retained effect. Inspect the sampled character's full bonus IDs/effect list
+before counting converted effect gear separately from ordinary tier gear.

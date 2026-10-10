@@ -1,186 +1,35 @@
-# /simc 输入规范
+# SimC Intake
 
-## 一、核心原则
+Accept pasted SimC, local files, or a character page. Preserve the raw import and
+export timestamp. A Warcraft Logs character URL is not a combat report.
+Keep item IDs, bonuses, gems, enchants, slots, talents, and region/server.
+Read Hero talents from the user's declaration or a verified decoder; retaining
+the talent string is not decoding it. Store the declaration's source.
 
-- `/simc` 很有价值，但不应该成为 skill 的硬门槛。
-- 没有 `/simc` 时，仍然可以给出高质量方向性建议。
-- 如果用户没有 `/simc`，官方英雄榜 / 角色页 URL 是很好的次优输入。
-- 只有在进入“武器 / 饰品 / 戒指 / 制作装 / 宝库”之间的精细比较时，才明显提高 `/simc` 的必要性。
-- 不要强制用户把 `/simc` 放到某个固定目录或固定文件名。
+For repeated inspection, use the PowerShell 7 helper:
 
-## 二、推荐输入方式
-
-按这个优先级接收：
-
-### 1. 直接粘贴到聊天里
-
-这是默认最推荐的方式。
-
-建议用户这样提供：
-
-```text
-/simc
+```powershell
+pwsh -NoProfile -File '<skill-path>/scripts/inspect_simc.ps1' `
+  -SimcPath '<snapshot.simc>' -OutputPath '<snapshot.items.json>'
 ```
 
-然后把游戏导出的整段文本直接贴到消息里，最好用代码块包起来。
+It queries Wowhead's read-only tooltip endpoint with all bonus IDs, saving level,
+upgrade text, slot type, and raw secondary ratings. Results are dated third-party
+lookups. It does not decode talents, simulate DPS, inspect bags, or infer history.
+Errors stay explicit and suppress the average. Only complete standard 16-slot
+loadouts get an average; a two-hander counts twice. Ratings exclude gems, enchants
+and passives and must not be presented as character-panel percentages.
 
-优点：
+Separate offered Vault gear and unequipped items from equipped gear. Current
+level, track, normal ceiling, and special-upgrade ceiling are different facts.
+For close swaps run or request appropriate Top Gear/Droptimizer results; a BiS
+list is not a personal sim.
 
-- 不依赖本地路径
-- 最容易跨设备和跨 agent 复用
-- 不需要额外猜文件编码或路径权限
-
-### 2. 提供官方英雄榜 / 角色页 URL
-
-如果用户没有 `/simc`，这是非常好的次优方案。
-
-推荐接受：
-
-- 国服官方角色页
-- 全球官方 World of Warcraft 角色页
-
-适合读取：
-
-- 当前穿着装备
-- 当前专精 / 天赋概况
-- 当前装等
-- 可见的团本进度、钥石分数与记录
-
-限制：
-
-- 看不到宝库候选
-- 通常看不到背包待选装备
-- 不能替代 R 币去重历史
-- 不能替代 `/simc` 做精细比较
-
-### 3. 提供纯文本文件
-
-如果 `/simc` 很长，或者用户想一次给多个角色 / 多套装备，可以提供：
-
-- `.txt`
-- `.simc`
-- `.log`
-
-前提：
-
-- 必须是纯文本
-- 最好是 UTF-8
-- 不要塞进 PDF、Word、截图、富文本里
-
-### 4. 提供本地文件路径
-
-如果用户明确给了本地路径，也可以直接读取，例如：
-
-```text
-C:\Users\Administrator\Downloads\arms-warrior.simc.txt
-```
-
-这种方式也有效，但仍然不应该成为唯一推荐方式，因为：
-
-- 路径在不同环境下不可复用
-- 其他 agent 或其他机器未必能直接访问
-
-## 三、是否需要固定文件名或固定目录
-
-默认 `不需要`。
-
-不要要求用户：
-
-- 必须命名为 `simc.txt`
-- 必须放到某个仓库根目录
-- 必须放到某个固定文件夹
-
-如果用户本身希望建立长期习惯，可以给一个“推荐但非强制”的命名规则：
-
-```text
-simc/<角色名>-<专精>-<日期>.simc.txt
-```
-
-例如：
-
-```text
-simc/Latias-ArmsWarrior-2026-04-23.simc.txt
-```
-
-这类规范的作用只是方便长期归档，不应成为 skill 的输入门槛。
-
-## 四、如果用户要比较多个方案
-
-建议优先这样组织：
-
-### 1. 单角色当前状态
-
-- 一份当前 `/simc`
-- 一张宝库截图，或文字列出本周宝库候选
-- 列出当前准备比较的装备
-
-### 2. 多角色
-
-- 每个角色一份独立 `/simc`
-- 文件名或消息标题里标清 `角色 / 专精 / Hero talents`
-
-### 3. 多套装备 / 多 Hero talents
-
-不要把不同状态混在一份 `/simc` 里不标注。  
-更推荐：
-
-- 方案 A：当前装备
-- 方案 B：换宝库武器
-- 方案 C：拿 6 代币后继续追某副本
-
-每个方案一份 `/simc` 或一段明确标注的文本。
-
-## 五、仅有 `/simc` 还不够的情况
-
-`/simc` 很强，但它并不会自动包含所有“周决策”信息。  
-如果要做本周装备路线判断，除了 `/simc`，最好还补这些：
-
-- 本周宏伟宝库候选
-- 本周可稳定打的团本难度 / Boss
-- 本周可稳定完成的 M+ 层数
-- 当前想比较的选项
-- 过去几周通过晦暗虚空核心拿到过哪些物品
-
-尤其要提醒：
-
-- `/simc` 本身不能替代“宝库未领取候选”
-- `/simc` 本身不能替代“R 币 knockout 历史”
-
-如果用户只有官方英雄榜 / 角色页，也不要卡住；可以先基于它给方向性建议，但要明确说明还缺：
-
-- 本周宏伟宝库候选
-- 当前待比较的装备
-- 过去几周通过晦暗虚空核心拿到过哪些物品
-
-## 六、agent 的处理规则
-
-当用户提供 `/simc` 时，默认先提取这些信息：
-
-- 职业、专精
-- Hero talents / 天赋倾向
-- 当前双饰品
-- 当前武器
-- 当前套装件数
-- 当前制作装
-- 关键弱槽
-
-然后再结合：
-
-- 宝库候选
-- 可达内容
-- R 币 knockout 历史
-- 当前主玩法
-
-做结论。
-
-## 七、推荐对用户说的话
-
-如果用户问“/simc 该怎么给”，优先用这种表述：
-
-`最方便的是直接把 /simc 导出的整段文本贴到消息里，最好用代码块包起来。`
-
-`如果你现在没有 /simc，也可以直接给我官方英雄榜角色页链接，我可以先按你当前穿着装备帮你做方向性规划。`
-
-`如果内容太长，也可以给我一个 txt 文件，或者直接给本地文件路径。`
-
-`不需要放到固定目录；如果你想长期整理，可以自己用 角色名-专精-日期.simc.txt 这种命名。`
+For preserved-effect Catalyst comparisons, retain the source effect bonus IDs
+and explicitly model the applicable tier bonus if a converted export is absent.
+State this modeling assumption rather than pretending the gear was acquired.
+Verify relevant procs are active in results: default item IDs can omit effects
+that are attached through bonus IDs. Record commit, live/PTR mode, model length,
+targets, iterations/error, talents, and consumables. Unverified special-effect
+implementations must be called out; fixed-target AoE cannot rank a trinket whose
+mechanic depends on repeatedly engaging new enemies as if it were a dungeon run.

@@ -1,144 +1,22 @@
-# 输出骨架
+# Weekly Report Outline
 
-按下面结构组织答案。默认把 `本周动作与 roll 决策` 放在前面，不要先写成长篇专精综述：
+Scale to the decision; a result update may need only a short delta.
 
-默认不要机械填满所有章节；按问题复杂度裁剪。`快速选择题` 约 `500-900` 字，`默认路线题` 约 `1000-1800` 字，`复杂双修 / 精确档` 约 `1800-2800` 字。`术语解释` 默认 `1 句到 3 段`，只有涉及机制、公式或容易误解的背景时才扩展到约 `300-700` 字。周决策类答案的前 300 中文字内必须给出结论、本周动作顺序和核心预算。
+1. Recommendation: actual budget, ordered actions, loot specs, fallback.
+2. Character: content, Hero tree, snapshot date, weak slots, tier/crafting state.
+3. Current rules: patch, regional reset/release dates, cost and reward track.
+4. Pools: completeness, history coverage, target categories, model assumptions.
+5. Vault: offered versus claimed, certain upgrade versus extra roll, unknowns.
+6. Result branches: key item/filler, stop/transfer rules, crafting conflicts.
+7. Next week: new raid release date, value, overlap, conditional priorities.
+8. References: dated guidance, matched players, source URLs and limitations.
+9. Record delta: written paths, confirmed events versus proposals.
 
-如果用户提供 `/simc`、宝库候选，且存在转专精、主池撞槽或宝库候选来自候选主池，不要按“快速选择题”压缩；必须至少输出 `专精路由 + 主池表 + 停手条件`。
+Pool fields follow `pool-table-schema.md`; records follow `weekly-records.md`.
+The ledger establishes completed actions; this report explains decisions.
 
-## 零、玩家画像、问题类型与假设
-- 主号 / 小号
-- 团本玩家 / M+ 玩家 / 双修玩家
-- 当前打本专精 / 当前拾取专精 / 目标配装专精
-- 当前问题是 `本周选择题`、`1-3 周路线题`、还是 `精细比较题`
-- 输入完整度：基础档 / 进阶档 / 精确档
-- 目标偏好：`当前战力优先` / `长期保值优先` / `平衡`
-- 当前装等
-- 当前 2 件套 / 4 件套进度
-- 当前可稳定完成的 M+ 层数
-- 当前可稳定击杀的团本难度 / Boss 段位
-- 当前宝库候选
-- 当前制作装状态
-- 是否大致有多余火花、可用纹章 / 预算
-- 当前武器 / 饰品 / off-piece / 属性分布与高端样本的大致差距
-- 若信息不足，明确写出默认假设
-
-## 一、一句话结论与本周动作
-- 直接回答：这周 `拿哪件 / 换不换 6 代币 / roll 投哪里`
-- 如果有顺序，写成 `先做什么，再做什么`
-- 如果用户给的是二选一 / 三选一，这一节必须在最前面
-- 如果用户没有明确选择题，给出 `本周行动顺序 + 未来 1-3 周主 roll 池`
-- 对每个建议 roll 的活动，写明推荐拾取专精
-- 中文回答优先使用中文副本名、Boss 名和装备名；中文名未核实时，用“中文描述（英文原名）”
-- 如果打本专精和拾取专精不同，写明 `用 A 打内容，roll / 领奖励前切 B 拾取`
-- 若能判断，直接写本周 `2 个核心` 或 `3 个核心` 的分配
-- 若问题涉及“宝库出的就是主池目标”，在这一节直接补一句 `当前 n / k / 下一发命中率 / 是否跨过阈值`
-
-## 二、当前状态与高端差距
-- 当前长期可用武器 / 饰品 / 套装 / off-piece
-- 当前最弱槽位
-- 与攻略 / 高端样本相比，哪些关键毕业位还没成型
-- 当前属性分布、Hero talents 与主流方案是否偏离
-
-## 三、版本与规则确认
-- 补丁与赛季：明确写出绝对版本号与日期
-- 晦暗虚空核心：每周来源、每周上限、单次消耗
-- 宏伟宝库：6 代币是否能换额外 roll，是否占每周上限
-- 如果当前结论依赖同难度去重 / 连续追击，明确写出来
-
-## 四、决策依据
-- 属性优先级：只写会影响当前 roll 决策的内容
-- Hero talents：分别写团本 / M+ 主流选择
-- Hero talents 是否改变装备池：明确写“基本不变”或“需要拆分两套”
-- 数据源加权：说明这一版结论主要参考 Wowhead、Mythicstats、WCL 团本、WCL Mythic+ 中的哪两类
-- 数据新鲜度：若同一职业的 `Overview`、`Talent Builds`、`Hero Talents`、`BiS Gear` 页面互相冲突，写明采用哪一页、更新时间是否更近、以及用什么样本验证
-- 如果相关，补充 Bloodmallet 的理论饰品 / 属性结论
-- 4 件套默认放在哪些槽位
-- 哪些槽位通常不建议用 roll 币追
-- 理论 BIS 与现实毕业是否一致
-- 制作装是否会直接挤占某个掉落位
-- 宝库候选是否会和长期主 roll 池撞槽
-- 推荐拾取专精是否会改变目标池大小
-- 宝库候选来源池是否也是本周 / 未来 1-3 周主池；若是，必须先展开该池 `n / k / 目标列表`
-- 如果某些专精背景知识不影响当前决策，可以明确省略
-
-## 五、本周行动顺序与核心预算
-主池表格式、`n / k` 口径、命中率和停手条件统一参考 `pool-table-schema.md`。如果宝库候选来自主池或与主池撞槽，必须先给主池表，再做宝库判断。
-
-- 本周先做什么，再做什么
-- `2 个核心` 默认怎么分配；若建议拿 6 代币，写成 `3 个核心` 的分配
-- 建议打几次哪个 M+ 或打哪些 Boss，分别用什么拾取专精
-- 对每个主池，写出当前推荐拾取专精下的 `有效池大小 n`、`有效目标数 k`、`当前下一发命中率`
-- 对每个主池，列出 `目标列表`，并标注哪些是 S 级、哪些只是可用 / 过渡；不要只写一个副本名
-- 如果宝库候选就在主池里，补一句 `拿装备 vs 拿代币` 的期望底线结论
-- 若可达性不足，哪些活动本周不该勉强投入
-
-## 六、未来 1-3 周路线
-- 未来 1-3 周的主 roll 池
-- 什么情况下继续追同一个池
-- 什么情况下转向第二主池
-- 如果本周拿到关键武器 / 饰品，后续优先级如何变化
-- 明确写 `停手条件`：例如 `拿到 X 就停`、`只剩 1 件 A/B 级目标就转池`、`宝库若开到同槽强替代则降级`
-
-## 七、目标物品分级
-先按下面三类整理，再做总优先级：
-
-- 团本与 M+ 都强
-- 更偏团本
-- 更偏 M+
-
-每件目标都要标注毕业层级：`完全 BIS`、`准毕业 / 属性正确`、`现实毕业`、`过渡`、`远期理论 BIS`。属性正确但不是最终最优的装备，不要直接写成完全毕业。
-
-### S 级
-- 目标物品
-- 来源活动
-- 推荐拾取专精
-- 该拾取专精下目标池是否更小
-- 当前有效池大小 `n`
-- 当前有效目标数 `k`
-- 当前下一发命中率
-- 推荐理由
-- 适合玩家层级
-
-### A 级
-- 同上
-
-### B 级
-- 同上
-
-### 不建议主动 roll
-- 套装可转化位
-- 可制造位
-- 只提供普通绿字升级的散件
-
-## 八、宝库与代币决策
-- 这周宝库有没有应该直接拿的选项
-- 若没有，6 代币换额外核心是否更值
-- 是否应该先做本周关键 roll，再领取宝库；如果必须先选 6 代币，明确写原因
-- 宝库装备是否与主 roll 池核心目标撞槽；如果撞槽，说明重复风险
-- 若宝库候选本身就在主池里，写清 `当前 n / k / 核心成本` 下的期望底线判断
-- 是否建议先 `/simc`
-- 如果没有 `/simc`，还缺哪些最关键装备信息
-
-## 九、长期毕业、现实毕业与配装参考
-- 快速接近全身 BIS 时，优先补哪些位
-- 哪些理论 BIS 当前应降为远期目标，哪些更适合按现实毕业处理
-- 制作装建议是 `现在做`、`等本周关键 roll / 宝库后再做`、还是 `暂时不做`
-- 上述制作建议主要服务 `当前战力优先` 还是 `长期保值优先`
-- 制作装 / 催化剂 / off-piece 会如何改变路线
-- 高端样本 / 攻略的属性分配与当前角色的差距
-- 高端样本 / 攻略的常见配装与当前角色的差距
-
-## 十、备选路线
-- 如果打不到某个 Boss / 某个层数，用什么次优副本替代
-- 如果套装进度提前完成，优先级如何变化
-- 如果改用另一套 Hero talents，优先级是否变化
-- 如果是小号 / 低装等号，路线如何保守化
-
-## 十一、假设与限制
-- 玩家是否能打英雄团 / 史诗团
-- 玩家是否能稳定打到需要的 M+ 层数
-- 哪些结论依赖当前主流样本而非硬性机制
-- 中文名是否已核到 Wowhead 中文页；若没有，第一次提及时用“中文描述（英文原名）”
-- 哪些分歧需要 `/simc` 才能严谨判断
-- 当前结论属于方向性建议，还是接近精确比较
+For BiS/simulation studies, add complete attainable raid/dungeon loadouts,
+craft/embellishment alternatives, context-labeled stat snapshots and measured
+comparisons with uncertainty. Link clean SimC exports and raw result files.
+Recommend the interactive companion described in `html-report.md`; keep its
+numbers generated from the same measurements rather than a separate narrative.

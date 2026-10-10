@@ -1,372 +1,55 @@
-# 决策规则
-
-## 目录
-
-- 回答顺序
-- 玩家目标与资源态度
-- 先后顺序与长期路线
-- 拾取专精路由
-- 主号 / 小号差异
-- 团本 / M+ / 双修差异
-- 连续追击与去重池
-- 宝库 vs 额外核心
-- 本周行动顺序
-- 何时建议 `/simc`
-- 制造业接入点
-
-## 零、回答顺序
-
-- 先回答用户当前真正要做的动作：`拿哪件`、`换不换 6 代币`、`本周 roll 投哪里`、`要不要继续追同池`。
-- 如果用户给的是二选一 / 三选一，不要先写一篇完整职业攻略；第一屏先给结论，再解释理由。
-- 如果用户没有给出明确选择题，只给了角色状态、玩法目标或 `/simc`，默认产出 `本周行动顺序 + 未来 1-3 周主 roll 池`。
-- 默认答案不应只停在“拿哪件 / 投哪个本”，而应给出：`当前与高端配装差距`、`本周核心预算怎么花`、`未来 1-3 周怎么追`。
-- 专精、属性、Hero talents、套装、制作装都只服务于当前决策；不影响本题的背景知识可以省略。
-- 当问题本质是 `roll 币规划` 时，答案的重点应放在：`活动优先级`、`可达性`、`1 币 vs 2 币`、`去重 / 连续追击`、`宝库代币`，而不是单纯点评哪件装备更漂亮。
-- 对每个建议投入 R 币的副本 / Boss，必须说明推荐拾取专精；若不需要切专精，也要写“保持当前拾取专精”。
-- 用详略档位控制长度：快速选择题约 `500-900` 字，默认路线题约 `1000-1800` 字，复杂双修 / 精确档约 `1800-2800` 字；术语解释默认 `1 句到 3 段`，只有机制、公式或易误解背景才扩展到约 `300-700` 字；不要为了套模板而凑字数。
-- 具体主池表格式、`n / k` 口径、命中率和停手条件统一参考 `pool-table-schema.md`；本文件只保留决策口径。
-
-## 零点一、转专精时先拆三种专精
-
-遇到 `防战想转武器战`、`奶专打本给 DPS 拿装`、`坦克打 M+ 但目标是输出装` 这类问题，必须先拆：
-
-- `打本专精`：玩家实际用来完成 M+ / 团本的专精
-- `拾取专精`：决定宝库 / 掉落 / bonus roll 候选池的专精
-- `目标配装专精`：最终要凑装的专精
-
-默认不要把三者混在一起：
-
-- 可以建议 `用防护打 M+，roll / 领奖励前切武器拾取`
-- 不要因为玩家当前是防护，就把盾牌、单手、坦克饰品当成武器战目标
-- 不要因为目标是武器战，就否定玩家继续用防战完成大米
-- 如果拾取专精是否影响宝库候选的规则不确定，必须先核实或标注不确定
-- 不要默认目标配装专精就是最优拾取专精；如果目标物品是通用戒指、武器、披风、布甲散件等，其他专精可能保留目标并缩小垃圾池。
-
-## 零点二五、玩家目标与资源态度
-
-如果问题会牵涉制作装，不要一上来就问完整制造业面板；先判断两件事：
-
-- 玩家更偏 `当前战力优先`、`长期保值优先`，还是 `平衡`
-- 玩家是否大致有多余火花，以及是否有可用纹章 / 预算支持制作
-
-这里默认只需要轻量信息：
-
-- 不要求精确火花、纹章数量
-- 已做制作装通常可以从 `/simc` 或装备列表直接读
-- 只有当用户明确要细化“先做哪件、做到多高、纹章怎么分”时，才继续追问更细资源
-
-如果用户没有明确说明目标偏好，默认按 `平衡偏保守` 处理：
-
-- 不因为“能做”就立刻做
-- 先看本周主 roll 池与宝库是否会在 1-2 周内补同槽
-- 制作建议优先落到 `等本周结果后再做`，除非该槽位明显不在当前主路线里，且即时收益很大
-
-如果用户明确说“我只打算再认真玩 2-3 个 CD”或“这个角色很快就不追了”，把它当作一个附加修正：
-
-- 剩余 `CD` 很少：提高短期直接收益、降低远期低命中率理论 BIS
-- 剩余 `CD` 很多：更看重主池连续追击与长期去重价值
-
-这不是默认必问项；只有用户主动提到，或问题明显在优化未来几周总收益时，再纳入判断。
-
-## 零点五、先后顺序与长期路线
-
-默认不要把“本周最大装等提升”当成唯一目标。先决定长期主 roll 池，再决定宝库：
-
-1. 先找未来 1-3 周最值得连续投入的主池。
-2. 再判断宝库候选是否替代、补充或冲突这个主池。
-3. 对主池枚举可用拾取专精，确认目标池能否缩小。
-4. 如果宝库候选和主池核心目标撞槽，要显式写出重复槽位风险。
-5. 如果不急着用 6 代币换本周额外核心，可以先完成本周关键 roll，再领宝库。
-6. 如果要用 6 代币换额外核心，本周必须先选择代币，因为核心来源依赖宝库选择。
-7. 如果问题牵涉制作装，默认在主池与宝库判断之后再决定是否制作，而不是默认把制作装前置。
-
-默认还要把本周预算说清楚：
-
-- 若不拿 6 代币，默认按 `2 个核心` 写本周计划。
-- 若建议拿 6 代币，默认按 `3 个核心` 写本周计划。
-- 不要只写“去学院 / 去矿坑”，要写清楚核心如何分配到这些活动上。
-- 如果用户打的是 M+ 路线，优先用“本周 2 次 / 3 次对应高价值 M+ roll”来表达。
-- 如果用户打的是团本路线，优先写成“默认 `2 核 Boss`；若拿 6 代币则 `2 核 Boss + 1 核 M+`”或“`2 核 Boss + 改池条件`”。
-
-典型判断：
-
-- 宝库给出主池外的稀缺 BIS：倾向直接拿，因为它减少了另一个难 farm 目标。
-- 宝库给出主池内同槽位替代品：不要立刻按装等拿，先看继续追主池是否会导致后续出同槽位时血亏。
-- 主池有多个强目标且成本低：即使宝库有一个短期 upgrade，也可能更值得拿代币或先 roll，看是否能吃到主池收益。
-- 主池只有一个目标且宝库已经给出同槽位强替代：主池优先级下降，应该转向下一个主池。
-- 换拾取专精能保留目标且明显减少垃圾池：推荐用该拾取专精 roll。
-- 换拾取专精会排除同池另一个 S 级目标：不要只为了缩池切专精，除非用户明确只追单一目标。
-
-如果宝库候选来自某个你准备连续追的主池，必须先给该池最小表：
-
-- `活动 / 难度`
-- `推荐拾取专精`
-- `有效池大小 n`
-- `有效目标数 k`
-- `目标列表`
-- `本周投入几核`
-- `拿到什么就停 / 剩什么就转池`
-
-没有这张表，就不要给“直接拿宝库装备”或“直接换 6 代币”的强结论。
-
-## 零点六、宝库撞主池时的数学底线
-
-当用户问的是：
-
-- `低保出的这件，正好在我接下来还要连续 roll 的池子里，要不要拿`
-- `拿这件装备，还是拿 6 代币换 1 个额外核心`
-
-先不要只写“撞槽风险高 / 低”，可以先做一个轻量期望判断。
-
-定义：
-
-- `n`：当前推荐 `活动 + 难度 + 拾取专精` 下，当前 bonus roll 的有效池大小
-- `k`：这个池里当前仍值得你追的“有效目标数”
-- `当前下一发命中率 = k / n`
-
-这里的口径要严格：
-
-- 如果某件装备已经通过 `晦暗虚空核心` 从这个池里拿到过，它会被视为去重，通常同时影响 `n` 与 `k`
-- 如果某件装备是通过 `自然掉落 / 宝库 / 队友交易` 拿到的，默认 `不会` 把它从 R 币池里移除；此时通常只影响你主观还想不想要它，也就是影响 `k`，不影响 `n`
-- 如果用户没有提供 R 币历史，就先用“当前推荐拾取专精的原始池子”近似，并明确说明
-- 如果只知道宝库装备很强，但没有查清它所在来源池的 `n / k / 其他目标`，结论必须降级成条件判断，不能直接判定“拿装备”
-
-在“同池里所有目标大致等价、且你准备继续追同一池直到这些目标出完”的前提下，可以用：
-
-- `E(k) = k(n + 1) / (k + 1)`
-
-把它理解成：当前这个池子里，拿齐 `k` 个有效目标，平均还要吃多少次同池 roll。
-
-社区讨论参考：
-
-- `https://nga.178.com/read.php?tid=46628030`
-- 这条链接只作为“公式讨论来源 / 社区推导参考”，不是游戏机制权威来源；机制层面的东西仍以官方说明与可靠资料为准
-
-若宝库正好给了这 `k` 个目标中的 1 件，则：
-
-- `M+` 场景下，宝库装备相当于放弃 `1` 次额外 roll
-- `团本` 场景下，若你把 6 代币换成 1 个额外核心，而一次团本 roll 要 `2` 核，则宝库装备相当于放弃 `0.5` 次团本 roll
-
-于是可以得到一个很实用的底线：
-
-- `M+`：当 `n > k^2 + k - 1` 时，偏向直接拿宝库这件目标装备
-- `团本`：当 `2n > k^2 + k - 2` 时，偏向直接拿宝库这件目标装备
-
-人话版：
-
-- `k` 越小，也就是这个池里真正想要的东西越少，越该直接拿宝库出的那件
-- `k` 越大，也就是这个池里还有很多你都想要的装备，越不该急着拿同池装备，往往更适合拿代币继续追
-
-但这只是底线，不是最终答案。以下情况必须覆盖这条数学结论：
-
-- `k` 里的几件价值差异很大，其中有明显唯一 S 级目标
-- 拿了宝库后，会让你本周或下周直接转池
-- 不同拾取专精会显著改变 `n`
-- 这个池子本身并不是你未来 1-3 周的主池
-- 你已经有明显的连续追击进度，或相反根本没开始追这个池
-
-## 零点七五、拾取专精路由
-
-同一个副本 / Boss 在不同拾取专精下，R 币候选池可能不同。每次推荐具体活动时都要检查：
-
-- 目标物品是否在该拾取专精池内。
-- 该拾取专精是否会排除非目标装备，从而缩小池子。
-- 该拾取专精是否会排除另一个同池 S / A 级目标。
-- 该拾取专精是否会引入玩家完全不想要的武器、盾、副手或饰品。
-- 玩家能否在 roll 前实际切换拾取专精。
-- 对牧师这类既有治疗又有 DPS 的职业，必须比较 `戒律 / 神圣 / 暗影` 这类所有可用拾取专精；不要因为玩家目标是戒律治疗，就自动用戒律拾取。
-
-推荐口径：
-
-- `目标保留 + 池子变小 + 不排除其他核心目标`：推荐切到该拾取专精 roll。
-- `目标保留 + 池子变小 + 排除无用治疗 / 坦克饰品`：推荐切到 DPS 或非当前拾取专精 roll，并明确写出“用当前专精打内容，roll 前切拾取”。
-- `目标保留 + 池子变小 + 排除另一个核心目标`：按用户当前唯一目标拆分建议。
-- `目标不在池内`：禁止推荐该拾取专精。
-- `不同拾取专精池子差不多`：保持当前拾取专精，避免操作错误。
-- `来源无法确认`：不要硬判，建议用游戏内冒险指南 / Wowhead 掉落过滤 / 用户截图复核。
-
-常见失误要避免：
-
-- 戒律牧目标是节点希纳斯的通用戒指 / 多用仪这类目标时，若暗影拾取能保留目标并排除一个低价值治疗饰品，应优先考虑 `暗影拾取`，而不是机械写“保持戒律拾取”。
-- 如果戒律本周真正目标包含治疗专属 S 级饰品，则不能切暗影；应拆成“追治疗饰品用戒律，追通用目标用暗影”。
-
-## 一、主号与小号的默认差异
-
-### 主号
-
-- 如果角色已经接近成型，优先级更偏向稀缺来源 BIS。
-- 这类角色更值得为强力团本饰品、尾王武器、极稀有散件支付 `2 币`。
-- 但前提必须是：该 Boss / 难度可稳定 farm，而不是理论上能打一次。
-
-### 小号或低装等角色
-
-- 更重视 `1 币` 的大秘境路线。
-- 更重视可以重复 farm、同时覆盖多个弱槽的副本。
-- 更重视快速形成 `4 件套 + 两个能用的饰品 + 合格武器`。
-- 在没有明显稀缺团本 BIS 的前提下，不要太早把币压到 `2 币` 团本目标。
-
-## 一点五、团本玩家 / M+ 玩家 / 双修玩家
-
-### 团本玩家
-
-- 可以更积极参考 `WCL` 的当前团本日志与 Boss 维度构筑。
-- 但必须分清“全团通用强装”与“单 Boss 特化装”。
-- 若某个团本饰品只在少数 Boss 特别强，不要默认抬成全局第一优先。
-
-### M+ 玩家
-
-- 优先参考 `Mythicstats` 的高分样本。
-- 也可以用 `WCL Mythic+` 的 `Statistics / Talents / Trinkets` 页面交叉验证。
-- 更强调 `1 币`、可重复 farm、同副本多目标收益。
-- 团本 2 币目标只有在强度明显超模且自己能稳定击杀时才前置。
-
-### 双修玩家
-
-- 优先找 `团本和 M+ 都强` 的共同目标。
-- 对只偏单一场景的装备，要降一档处理，除非该场景正好是用户主目标。
-- 当一个目标在团本和 M+ 同时成立时，它的 roll 价值会显著高于单场景目标。
-
-## 一点七五、连续追击与去重池
-
-这是 `12.0.5` 晦暗虚空核心里非常关键，但很容易漏掉的一条：
-
-- 默认把 `bonus roll 的去重 / knockout` 理解为：你通过晦暗虚空核心在某个活动、某个难度拿到的物品，会从该活动该难度的 bonus roll 池中移除，直到该池子被拿满。
-- 因此，如果你前几周已经在同一个副本 / Boss、同一个难度，用晦暗虚空核心拿到了几件非目标物品，那么后续继续追这个活动的同难度，命中剩余目标的概率会比第一周更高。
-
-这会直接影响规划方式：
-
-- 如果你只差一个高价值目标，而且前面已经通过晦暗虚空核心拿到过同池里的若干垃圾件，那么通常应该 `继续集中追`，不要中途换本。
-- 如果你还没用晦暗虚空核心在这个池子里拿到过任何东西，那么它的价值更接近“原始期望”，此时可以更公平地和其他活动比较。
-- 如果你已经拿到了目标物品，或者这个池子里剩下的都只是低价值散件，那么就应该考虑换活动，而不是机械地继续连投。
-
-还要注意一个限制：
-
-- 默认 `不要` 把自然掉落、宏伟宝库、队友交易得到的同名物品，自动当成已经从 bonus roll 池里移除。
-- 当前规则默认只把 `通过晦暗虚空核心获得` 的物品，当成去重池中的“已消耗结果”。
-
-实战上可以用一个很简单的判断：
-
-- 同活动、同难度、同一高价值目标，已经通过晦暗虚空核心拿过越多非目标物品，这个活动后续的边际价值就越高。
-- 因此，`连续数周集中追 1 个核心活动` 往往优于 `每周换 1 个新活动碰碰运气`。
-
-补充到输出时，尽量不要只写“继续追 / 换池”，而要至少落到下面四个量：
-
-- 当前推荐拾取专精
-- 当前有效池大小 `n`
-- 当前有效目标数 `k`
-- 当前下一发命中率
-
-## 二、宝库优先还是换额外核心
-
-先列出本周宝库所有候选，但不要只按宝库本身决定；必须和未来 1-3 周主 roll 池联动。
-
-### 直接拿宝库装备
-
-优先拿宝库装备的情况：
-- 是当前专精的直接 BIS 或接近 BIS
-- 来自你不常打、很难再 farm 的副本 / Boss
-- 刚好替代你原本计划用核心追的稀缺目标
-- 是高轨道武器 / 饰品，而你当前对应槽位明显落后
-
-### 倾向拿 6 代币换额外核心
-
-倾向拿代币的情况：
-- 宝库没有明确升级
-- 宝库只有可催化套装位、普通绿字散件、容易 farm 的常见掉落
-- 你仍然缺强力目标，比如高价值饰品、稀缺武器、关键 off-piece
-- 你本周仍会继续打对应内容，额外核心马上能转化成真实尝试次数
-- 宝库装备会和当前主 roll 池的核心目标撞槽，而该主池仍有多个值得继续追的目标
-- 在当前 `n / k / 核心成本` 下，还没有跨过“直接拿宝库目标装备更值”的底线
-
-### 暂时不要武断决定
-
-若出现以下情况，先建议 `/simc`：
-- 两件宝库候选都像 upgrade
-- 宝库装备和额外核心目标都很强
-- 涉及 trinket、武器、断点急速、套装拆分、制作装替换
-- Hero talents 切换会影响属性收益
-- 宝库装备与长期主 roll 池撞槽，但该主池仍有多个目标，肉眼难判断机会成本
-
-如果用户没有 `/simc`，但问题集中在 `两件饰品 / 某件饰品值不值得追`，可以先用这个降级顺序：
-
-1. Wowhead 的饰品结论
-2. Bloodmallet 的对应 spec / fight style 图表
-3. Mythicstats 与 WCL 的实战热度
-
-但要明确写出：
-
-- 这是没有 `/simc` 的次优判断
-- Bloodmallet 更偏理论模拟，不等于当前角色下的精确最优
-- 一旦涉及大秘境、多目标、触发机制联动或断点属性，仍应优先建议 `/simc`
-
-## 三、宝库与本周行动顺序
-
-默认顺序：
-
-1. 查看宏伟宝库全部候选
-2. 确定未来 1-3 周最值得连续投入的主 roll 池
-3. 判断宝库是否补充、替代或冲突这个主池
-4. 若宝库不冲突且是稀缺强装，直接拿
-5. 若宝库和主池核心目标撞槽，优先考虑先做关键 roll、拿 6 代币、或把主池降权
-6. 若选代币，尽快换成本周额外核心并投入当前最高价值目标
-7. 再决定本周的制作装、纹章升级、催化剂分配
-
-补充说明：
-
-- 宏伟宝库奖励不会因为你这周继续打本 / 打 M+ 就自动改变；它对应的是上周已完成内容。
-- 但你可以在本周稍后再领取宝库，以便先整理自己这周的计划，再决定拿装备还是拿代币。
-- 如果你需要靠“拿 6 代币”来换本周额外核心，那么就不要把宝库决策无限拖到周后期。
-- 如果你不是明显的 `当前战力优先` 玩家，制作装通常应放在“看完本周关键 roll 与宝库之后”的判断位，而不是最前面。
-
-## 四、何时建议 `/simc`
-
-以下情况建议明确对用户说“这一步最好 `/simc`”：
-
-- 你在比较两件高等级戒指、项链、披风、护腕这类纯绿字散件
-- 你在比较两件不同机制的饰品
-- 你在比较宝库武器与额外核心追的武器
-- 你是否要因为制作装而放弃一个潜在 roll 槽位
-- Hero talents 不同导致副属性价值可能轻微偏移
-- 宝库装备和长期主 roll 池核心目标撞槽，而主池仍有多个强目标
-
-可以这样提示用户：
-
-`如果你愿意，我可以基于你的 /simc 导出、当前宝库候选和本周可打内容，继续做更接近实战的选择题。`
-
-如果用户暂时没有 `/simc`，不要卡住；改为建议他至少补：
-
-- 当前双饰品
-- 当前主手 / 副手
-- 当前套装进度
-- 当前宝库候选
-- 当前制作装状态
-
-## 五、制造业建议的接入点
-
-当前 skill 默认只做“制造位是否该纳入本周路线”的判断，不做完整制造业优化。
-
-但当用户出现以下情况时，应该主动把制造业纳入结论：
-
-- 某个槽位已经有明确毕业或准毕业制作装方案
-- 用户表示大致有多余火花，以及可用纹章 / 预算
-- 某件制作装会直接改变套装位 / off-piece 规划
-- 某件制作武器会让团本 / M+ 武器 roll 价值明显下降
-- 某理论 BIS 只来自 `2 币 + 单目标 + 低可达 + 无去重进展` 的池子，需要判断是否改走现实毕业
-
-默认制造业建议应先按玩家目标偏好分流：
-
-- `当前战力优先`
-  - 只要制作装能立刻明显补强，而短期内被主池 / 宝库顶掉的概率不高，可以建议 `现在做`
-- `平衡`
-  - 默认先完成本周关键 roll、看清宝库，再决定是否制作；输出优先写成 `等本周结果后再做`
-- `长期保值优先`
-  - 如果该槽位仍在未来 1-3 周主 roll 路线里，或 1-2 周内有较高概率被宝库 / R 币补到，默认 `暂时不做`
-
-最终口径不要只写“可以做制作装”，而要明确落到以下四种之一：
-
-- `建议现在做`
-- `建议等本周关键 roll / 宝库后再做`
-- `建议暂时不做，继续追掉落`
-- `只有你更偏当前战力优先时才建议做`
-
-如果用户要求更深入的制造业路线，应该在最终答案里单列一段 `后续可继续细化：制作装与纹章路线`；这时再补问更细的火花 / 纹章信息。
+# Weekly Decision Rules
+
+## Budget
+
+Use the reported balance and current patch's per-activity cost. Verify Vault
+exchange, weekly sources, carryover cap, and access requirements. Never reuse
+Season 1's two-core raid cost or six-token exchange as universal defaults.
+Unknown availability requires conditional plans, not spending future income.
+Plans reserve coins conceptually; only actual results change the ledger.
+
+## Great Vault
+
+Record offered candidates before judging them. Compare the strongest certain
+upgrade with the extra roll's pool, target value, and attainable attempts.
+Vault gear changes targets but does not establish roll exclusion. Keep unclaimed
+candidates separate from owned gear. With no candidate data, record unknown
+rather than recommend abandoning the Vault.
+
+If Vault currency funds this week's rolls, claim it before spending those coins.
+Otherwise, accessible key rolls before claiming may reduce overlap; account for
+the deadline and immediate power needed to clear content.
+
+## Crafting and Catalyst
+
+Delay a craft overlapping a strong upcoming roll when waiting is affordable.
+Immediate weapon or weak-slot gains may instead justify crafting now. Check
+sparks, crests, costs, crafting cap, and embellishment limits for this character.
+
+Track four-piece explicitly. A non-tier drop is not tier until conversion is
+confirmed; check eligibility and the current effect/stat preservation rules.
+For 12.1, official Catalyst notes say eligible class-set conversions inherit
+secondary/tertiary stats and certain cantrip effects. Thus a tier display name
+or ID cannot distinguish an ordinary tier drop from a converted effect item.
+Inspect bonus IDs, effects and conversion preview. Do not downgrade a Venomcursed
+head solely because the high-player table shows tier heads. Eligible converted
+effect head/chest/legs can jointly retain four-piece; charges and eligibility
+are actual constraints, not automatic slot conflicts.
+Source: https://worldofwarcraft.blizzard.com/en-us/news/24293281/curse-of-ulatek-content-update-notes
+Evaluate embellishment swaps as a whole loadout rather than isolated items.
+
+## Result Branches
+
+Before ranking bosses independently, map the intended final loadout by slot.
+Treat dual-wield and two-hand setups as alternatives, not additive upgrades.
+Count a second weapon source only if it remains a realistic preferred fallback.
+An already-crafted cloak lowers a cloak-bearing pool's density; a new raid's
+trinket can lower an old trinket pool's end-state value without proving superiority.
+Check dated slot IDs: an old PTR leather leg item may become a chest later.
+Reserve crafting slots after considering raid overlap and four-piece. Choosing
+two embellished items does not prohibit non-embellished crafts in other slots.
+
+After a roll/Vault claim, update targets and verified exclusions and rerank.
+After a weapon, reassess weapon sources; after a trinket, check on-use conflicts.
+Stay in a pool while remaining value justifies actual cost/access. New raids
+compete on value and overlap, not novelty.

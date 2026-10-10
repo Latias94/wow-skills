@@ -69,7 +69,7 @@
 - 两件高等级武器二选一
 - 两件饰品二选一
 - 多件戒指 / 项链 / 披风 / 护腕这类纯绿字散件比较
-- 宝库装备 vs 6 代币换额外核心
+- Vault equipment versus currency/extra-roll alternatives under verified current-patch exchange rules
 - Hero talents 切换导致属性权重可能变化
 - 制作装会直接改变套装位 / off-piece 规划
 
@@ -104,10 +104,11 @@
 - `必然提升最大`
 - `绝对 BIS`
 
-### 有 `/simc`
+### SimC Input Versus Measured Results
 
-可以更明确：
-
-- `当前角色下更优`
-- `更接近精确结论`
-- `这一步可以按 sim 结果执行`
+A `/simc` export establishes a reproducible character input, not a measured
+ranking. Until a compatible simulation actually runs, keep recommendations
+provisional. After validating model/effect support and uncertainty, describe
+the stronger candidate within that workload and tested search space. Near-ties
+remain acquisition alternatives; unsupported effects remain provisional even
+when the engine prints a higher mean. See `simulation-protocol.md`.

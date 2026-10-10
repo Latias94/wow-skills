@@ -1,208 +1,100 @@
 ---
 name: wow-voidforge-roll-planner
-description: 规划《魔兽世界》12.0.5 晦暗虚空核心 / Voidforge bonus roll、宏伟宝库 6 代币和本周装备获取路线。用于“这周 R 币投哪个 M+ / Boss”“低保拿装备还是换核心”“是否继续追同一去重池”“用哪个拾取专精 roll”“Hero talents / 套装 / 制作装是否改变 roll 路线”等决策；BIS、属性、WCL / Mythicstats 只作为决策依据，不输出通用职业攻略。
+description: Optimize attainable WoW BiS loadouts with SimulationCraft, derive weekly raid bonus-roll and crafting routes, compare Great Vault choices, and track results. Use for gear/stat simulations, R-coin allocation, loot-specialization choices, or evidence-backed HTML equipment reports.
 ---
 
 # WoW Voidforge Roll Planner
 
-## 核心定位
+Turn current gear, attainable content, and actual reward pools into a weekly plan.
+Answer in the user's language. Gear guides and player statistics support roll
+decisions; they cannot replace the character's reward preview or sims.
 
-这是一个 `roll 币 / 晦暗虚空核心 / 宏伟宝库代币` 决策 skill，不是通用职业攻略 skill。
+## Modes and Records
 
-默认优先回答：
+- **Plan:** Load the character/week, refresh current rules and relevant pools,
+  then recommend an affordable sequence with fallback and stop conditions.
+- **Record:** Follow [weekly-records.md](references/weekly-records.md), save the
+  reported Vault, roll, drop, or crafting result, and reassess remaining actions.
+- **Review:** Compare completed weeks with original plans, retain observed
+  results, and explain why next week's priorities changed.
+- **End-state optimization:** When the user prioritizes best attainable gear,
+  read [end-state-optimization.md](references/end-state-optimization.md). Select
+  complete loadouts first, optimize stats/crafts/enchants, then derive roll routes.
+  Existing crafts are replaceable unless the user sets a cost constraint.
+- **Report:** For a substantial gear study, recommend a standalone HTML report;
+  generate it when requested or already within the agreed deliverable. Follow
+  [html-report.md](references/html-report.md), including Chinese Wowhead tips,
+  accessible row-wide equipment links and measured results.
 
-- `这周拿什么`
-- `这周把币投哪里`
-- `要不要继续追同池`
-- `要不要拿 6 代币换额外核心`
-- `roll / 领奖励前该用哪个拾取专精`
+Read `records/<character-id>/profile.json`, the latest week, and prior confirmed
+roll events. Create records when tracking is requested. Keep them in the user's
+workspace outside the installed skill. This repository's pilot is
+`records/cn-barrens-shaseng/`; its dated conclusions are not class defaults.
+For a worked example of the research, simulations and resulting routes, read
+[case-shaseng-2026-10.md](references/case-shaseng-2026-10.md). It summarizes
+the pilot without requiring access to this repository's character records.
 
-`BIS`、副属性、Hero talents、套装、制作装、WCL / Mythicstats / Bloodmallet 都只作为决策证据；除非用户明确要求，不要扩写成完整职业综述。
+## Planning
 
-## 必守原则
+1. Establish region/reset date, patch/season, content, combat spec, Hero talents,
+   target spec, actual coin balance, and attainable bosses. Preserve the user's
+   priorities; distinguish long-term power from an item-level achievement.
+2. Preserve raw SimC and inspect item IDs **with all bonus IDs** before assigning
+   levels/tracks. Read [simc-intake.md](references/simc-intake.md) for this branch.
+3. Verify weekly sources, Vault tradeoffs, roll costs, reward track, lockouts,
+   storage limits, and exclusions for this patch. Read
+   [source-weighting.md](references/source-weighting.md). Historical costs are
+   not defaults; a reported balance is not an income rate. Keep unknowns explicit.
+4. Map boss shorthand to raid and boss name. Retain ambiguous shorthand as
+   unresolved and ask for its name while analyzing known candidates. Compare old
+   and new raids by regional release date, access, value, and overlap. Future
+   content is not spendable this week.
+5. Build pools using [pool-table-schema.md](references/pool-table-schema.md).
+   Inspect full reward pools, not BiS lists or special-effect articles. Compare
+   loot specs when they could retain targets and exclude filler.
+6. Rank targets using [scoring-model.md](references/scoring-model.md). Match
+   guides/player samples to content and Hero talents; record sample date, size,
+   scope, and examples. Observed population stats are not required thresholds.
+   For simulation work, follow [simulation-protocol.md](references/simulation-protocol.md)
+   to separate identity checks, controlled comparisons and uncertainty.
+7. Evaluate Vault/crafting with [decision-rules.md](references/decision-rules.md).
+   Ownership changes target value; confirmed roll history changes exclusions
+   under verified rules. Check four-piece, weapon setup, unique-equipped items,
+   catalyst eligibility, and embellishment limits before proposing replacements.
+   Compare a whole-loadout slot map across all proposed activities: alternative
+   weapon configurations, duplicated cloak/crafted slots, competing on-use
+   trinkets, and newly opening raid effects can downgrade otherwise strong pools.
+   Mark each slot's planned source and fallback before allocating multiple coins.
+8. Give a budgeted allocation, loot spec, targets, fallback, and stop conditions.
+   When costs or eligibility remain unknown, give conditional branches rather
+   than unsupported exact attempts or guaranteed outcomes.
+   Recompute after actual results. Save plans separately from completed events.
 
-1. 第一屏先给结论、本周动作顺序和核心预算。
-2. 周决策必须落到可执行计划，而不是只评价装备强弱。
-3. 所有宝库建议都必须放进未来 `1-3 周` 主 roll 池里判断。
-4. 若宝库候选来自当前或未来主池，必须先展开该主池的 `n / k / 命中率 / 停手条件`，再决定拿装备还是代币。
-5. 对同一副本 / Boss，必须检查 `拾取专精` 是否改变 bonus roll 候选池。
-6. 若玩家用专精 A 打内容、想给专精 B 凑装，必须区分 `打本专精 / 拾取专精 / 目标配装专精`。
-7. 默认按 `每周 2 个核心` 规划；若建议拿 `6 代币`，写清本周是否变成 `3 个核心`。
-8. 默认只把“通过晦暗虚空核心拿到的物品”视为从 bonus roll 池去重；自然掉落、宝库、交易物品不默认去重。
-9. 制作装不是默认前置动作；先判断它是否会与主池、宝库、套装 / off-piece 路线冲突。
-10. 信息不足时可以先按保守假设继续，但必须写明假设与不确定性。
-11. 中文回答必须优先使用中文副本名、Boss 名和装备名；中文名未核实时，写“中文描述（英文原名）”，不要让主要目标列表只剩英文名。
-12. 不要把“属性对”直接等同于“完全毕业”；必须区分 `完全 BIS`、`准毕业 / 属性正确`、`现实毕业`、`过渡`、`远期理论 BIS`。
-13. 不要默认 `目标配装专精 = 推荐拾取专精`；对牧师、德鲁伊、萨满、武僧、骑士等多角色职业，必须比较所有可用拾取专精是否能保留目标并排除无用角色饰品 / 武器。
+## Evidence and Probability
 
-## 问题类型
+Separate drop source, usable gear, loot-spec eligibility, and the actual remaining
+roll pool. A guide establishes value without necessarily establishing eligibility.
+An unfiltered or default-level tooltip does not establish this character's reward.
 
-先识别用户真正要做的动作，再决定展开深度：
+Each pool records completeness, history coverage, source, and verification date.
+Missing history means unknown exclusions, not an empty history. Withhold exact
+percentages if the eligible remaining pool is unknown. Even with a complete pool,
+`k/n` is an equal-weight model unless weights are verified. Simulations are
+separate measurements; never invent DPS deltas.
 
-- `本周选择题`：宝库二选一、拿装备还是 6 代币、本周额外核心投哪里、要不要继续追同池。先直接给结论，篇幅重点放在本周动作和 roll 预算。
-- `1-3 周路线题`：未来几周压哪个副本 / Boss / 难度。可以展开评分逻辑，但仍围绕连续追击、可达性和核心成本。
-- `精细比较题`：武器、饰品、戒指、制作装、宝库装备 vs 代币。若接近，优先建议 `/simc`，不要假装能肉眼精确到小数点。
-- `背景解释题`：只解释与当前 roll 决策相关的机制、专精或术语；能一句话讲清就不要扩写。
+## Output
 
-## 输出长度
+Lead with sequence and actual budget; use a compact comparison table for pools,
+targets, specs, costs, and stop rules. Explain differences that change decisions.
+Include next-week branches and assumptions that could change the recommendation.
 
-按问题复杂度裁剪，不要机械填满模板：
+Persist profile, raw gear snapshot, weekly plan, and reported events following
+[weekly-records.md](references/weekly-records.md). JSON stores facts; dated
+Markdown stores rationale/sources. Separate offered/claimed Vault rewards and
+planned/completed rolls. After an update, report budget and route changes.
 
-- `快速选择题`：约 `500-900` 字。
-- `默认路线题`：约 `1000-1800` 字。
-- `复杂双修 / 精确档`：约 `1800-2800` 字。
-- `术语解释 / 背景题`：默认 `1 句到 3 段`。
-
-无论长短，前 `300` 中文字内必须出现：
-
-- 明确结论
-- 本周动作顺序
-- `2 个核心` 或 `3 个核心` 的预算安排
-- 推荐拾取专精；若不需要切，写“保持当前拾取专精”
-
-## 快速工作流
-
-### 1. 建立玩家画像
-
-优先识别：
-
-- 职业专精与 Hero talents
-- 当前打本专精、当前拾取专精、目标配装专精
-- 主号 / 小号
-- 团本 / M+ / 双修
-- 当前装等、`2 件套 / 4 件套` 进度
-- 当前武器、双饰品、关键稀有装、已做制作装
-- 本周可稳定完成的 M+ 层数
-- 本周可稳定击杀的团本难度 / Boss 段位
-- 当前宏伟宝库候选
-- 当前目标偏好：`当前战力优先 / 长期保值优先 / 平衡`
-- 过去几周通过晦暗虚空核心在各活动 / 难度拿到过哪些物品
-- 是否愿意在 roll / 领奖励前切换拾取专精
-
-输入完整度分三档：
-
-- `基础档`：只有专精、Hero talents、主玩法、装等、可打内容。只给方向性路线。
-- `进阶档`：再有武器、双饰品、套装、弱槽、宝库、制作装或官方角色页。可以给较稳周计划。
-- `精确档`：提供 `/simc`、宝库截图、当前待选装备。可以做精细比较。
-
-### 2. 核对版本与机制
-
-涉及当前版本、掉落池、宏伟宝库、核心上限、消耗、催化剂规则、拾取专精池时，默认联网核实当前资料。
-
-来源优先级：
-
-1. 用户指定来源、官方说明、游戏内冒险指南 / 地城手册截图
-2. Wowhead 规则页、物品页、掉落页与过滤结果
-3. 官方角色页，用于读取角色当前状态
-4. Mythicstats、Warcraft Logs、Bloodmallet，用于主流样本和理论补充
-
-若无法可靠核实，必须标注“不确定”，并给出可复核方式；不要硬判拾取专精池或版本机制。
-
-### 3. 锁定主 roll 池
-
-先找未来 `1-3 周` 最值得连续投入的主池，再反推宝库和制作装：
-
-- 该活动是 `1 核 M+` 还是 `2 核团本`
-- 玩家是否能稳定 farm 对应难度
-- 活动里是否有多个长期强目标
-- 当前是否已有 R 币去重进度
-- 推荐拾取专精是否能缩小池子，且不排除其他 S / A 级目标
-- 宝库候选是否会替代、补充或冲突主池目标
-
-在给主池表之前，先用 2-4 句写清 `目标密度摘要`：
-
-- 哪个副本 / Boss 集中了最多值得 roll 的装备
-- 这些装备分别覆盖哪些槽位：武器、饰品、戒指、鞋、off-piece 等
-- 哪些是 `完全 BIS`，哪些只是 `属性正确的准毕业 / 现实毕业`
-- 若某个本有 2-3 件都能长期使用，可以直接说明“因此适合连续 roll 完这个本 / 先压这个本”
-
-只要把某活动定为主池，就必须输出最小主池表。格式读取 `references/pool-table-schema.md`。
-
-### 4. 处理宝库与代币
-
-默认顺序：
-
-1. 列出宝库候选。
-2. 确定未来 `1-3 周` 主 roll 池。
-3. 判断宝库候选是否补充、替代或冲突主池。
-4. 若宝库给的是主池外稀缺强装，通常倾向直接拿。
-5. 若宝库给的是主池同槽装备，先重算 `n / k / 当前下一发命中率`，再决定。
-6. 若宝库没有明确升级且仍有高价值 roll 目标，倾向拿 `6 代币` 换额外核心。
-7. 若本周需要代币换核心，则必须先选择代币；否则可以先完成关键 roll，再领取宝库。
-
-### 5. 处理拾取专精
-
-对每个建议投入的活动，都要给出：
-
-- 推荐拾取专精
-- 候选拾取专精矩阵：本职业每个可选拾取专精是否保留目标、是否缩池、是否引入无用装备
-- 目标是否仍在池内
-- 池子是否变小
-- 是否排除另一个 S / A 级目标
-- 是否引入玩家不想要的武器、盾、副手或治疗 / 坦克饰品
-- 如果打本专精与拾取专精不同，明确写 `用 A 打内容，roll / 领奖励前切 B 拾取`
-
-治疗专精尤其要小心：
-
-- 若目标是通用戒指、武器、披风、布甲散件，DPS 拾取专精可能保留目标并排除治疗专属饰品。
-- 若治疗专属饰品本身不是当前目标或对该玩家无用，不要默认用治疗拾取专精。
-- 若 DPS 拾取专精会排除治疗真正想要的 S 级饰品或武器，则不能为了缩池硬切。
-
-来源无法确认时，降级为条件判断，并建议用游戏内冒险指南、Wowhead 过滤或用户截图复核。
-
-### 6. 处理制作装
-
-制作建议必须落到四种之一：
-
-- `现在做`
-- `等本周关键 roll / 宝库后再做`
-- `暂时不做，继续追掉落`
-- `只有当前战力优先时才做`
-
-默认按 `平衡偏保守` 处理：先看本周主池、宝库和 R 币结果，再决定是否投入火花 / 纹章 / 预算。
-
-## 轻量评分口径
-
-给候选活动排序时，用半定量框架，不要只看理论 BIS：
-
-```text
-综合优先级 = 物品强度 × 可达性 × 槽位稀缺度 × 同副本多目标收益 × 连续追击加成 × 长期池锚定 × 拾取专精池收益 × 当前阶段修正 × 目标偏好修正 × 现实毕业修正 / 核心成本
-```
-
-要解释哪些因素改变了优先级：
-
-- `1 核 M+` 天然比 `2 核团本` 更容易成为小号 / M+ 玩家的主线。
-- 高价值饰品、武器、稀缺 off-piece 优先于普通绿字散件。
-- `属性正确` 只能证明装备可长期用，不自动等于 `完全 BIS`；若它来自目标密度高、可稳定 farm、1 核成本低的本，才更适合作为主池理由。
-- 可催化套装位、可制造位默认降权。
-- 同活动、同难度已有 R 币非目标去重进度时，连续追击加分。
-- 尾王、史诗后段、低可达目标必须降权，除非玩家能稳定 farm。
-- 双修玩家优先追团本和 M+ 都强的共同目标。
-- 日志和高分样本不能脱离玩家当前阶段、可达性和战斗场景照抄。
-
-更完整的评分说明读取 `references/scoring-model.md`。
-
-## 输出骨架
-
-按需裁剪，优先保留这些块：
-
-1. `一句话结论与本周动作`
-2. `玩家画像与默认假设`
-3. `主 roll 池表`
-4. `本周行动顺序与核心预算`
-5. `宝库与 6 代币判断`
-6. `未来 1-3 周路线与停手条件`
-7. `需要 /simc 才能严谨判断的分歧点`
-
-如果用户给的是二选一 / 三选一，`一句话结论与本周动作` 必须放最前面。
-
-## 按需读取 references
-
-- 需要完整输出骨架：`references/analysis-template.md`
-- 需要收集玩家状态：`references/player-profile-template.md`
-- 需要宝库、代币、主号 / 小号、双修、制造业判断：`references/decision-rules.md`
-- 需要主池表、`n / k`、命中率、停手条件统一格式：`references/pool-table-schema.md`
-- 需要数据源选择与冲突裁决：`references/source-weighting.md`
-- 需要按输入完整度决定结论精度：`references/input-granularity.md`
-- 需要处理 `/simc` 输入：`references/simc-intake.md`
-- 需要解释综合优先级、连续追击、现实毕业：`references/scoring-model.md`
+For a full report read [analysis-template.md](references/analysis-template.md).
+Include clean raid/dungeon SimC exports and measured-result artifacts when
+simulations were run. A simulated target is not an acquisition or a ledger event.
+For partial inputs read [input-granularity.md](references/input-granularity.md);
+the intake checklist is [player-profile-template.md](references/player-profile-template.md).

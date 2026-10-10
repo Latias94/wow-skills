@@ -1,200 +1,55 @@
-# 主池表与 n / k 口径
+# Reward Pools and Probability
 
-## 适用场景
+Identify a pool by region, season, activity, difficulty, and loot specialization.
+Record exclusion scope separately: it may span specs for the same activity and
+difficulty. Switching spec does not automatically reset exclusions.
 
-当答案把某个副本、Boss 或难度定为 `本周 / 未来 1-3 周主 roll 池` 时，必须输出主池表。
-如果宝库候选来自这个主池，或和主池核心目标撞槽，也必须先输出主池表，再决定拿装备还是拿 `6 代币`。
+For each pool save:
 
-主池表的目标不是“看起来专业”，而是把下面几个问题一次说清：
+- Boss/raid name and ID, difficulty, reward track, actual cost, and loot spec.
+- Complete eligible IDs, including filler, shared drops, tokens, or off-role
+  items only when actual reward eligibility is confirmed.
+- Completeness: `verified`, `partial`, or `unknown`; source and verification date.
+- History coverage: `complete` or `unknown`; confirmed exclusions and their scope.
+- Remaining targets categorized as long-term power, temporary upgrade, or
+  item-level-achievement progress. Do not combine these into one success claim.
+- Weights: `verified`, `equal_weight_assumption`, or `unknown`.
 
-- 这次 roll 到底投哪个 `活动 + 难度`
-- 推荐用哪个拾取专精
-- 这个池里当前还有多少候选
-- 真正值得追的目标有几个
-- 本周投几核
-- 拿到什么就停，剩什么就换池
+## Table
 
-## 最小主池表
+| Activity/boss | Loot spec | Cost | Remaining n | Target k | Probability status | Targets | Stop condition |
+|---|---|---:|---:|---:|---|---|---|
+| Named boss, Heroic | Named spec | Verified cost | Unknown | Known targets | Pool incomplete | IDs and slots | Reassess after key item |
 
-表格前先写 `目标密度摘要`。用户需要直观看懂“为什么 roll 这个本”，不要只看到一串装备名：
+List the verified full pool when a probability depends on it. A BiS list or
+special-effect article is not exhaustive. Vault, trade, and ordinary drops may
+lower `k` without lowering `n`. Missing history is not an empty exclusion set.
 
-```markdown
-目标密度摘要：
-- 节点希纳斯：集中戒指 / 武器 / 肩膀等多个可用目标，其中戒指可能是属性正确的准毕业或现实毕业，是否完全 BIS 需要按当前版本资料和 /simc 复核。
-- 若这个本有 2-3 件都能长期用，3 个核心可以优先连续投这里；拿到 S 级目标后再重算是否转池。
-```
+## Equal-Weight Model
 
-优先用 Markdown 表格：
-
-```markdown
-| 主池 | 难度 / 轨道 | 成本 | 推荐拾取专精 | n | k | 下一发命中率 | 目标列表与毕业层级 | 本周投入 | 停手条件 |
-|---|---:|---:|---|---:|---:|---:|---|---:|---|
-| 副本 / Boss 名 | 英雄 / 史诗 / +10 等 | 1 核或 2 核 | 专精名 | 8 | 2 | 25% | S: 目标 A（完全 BIS）；A: 目标 B（属性正确 / 准毕业） | 2 核 | 拿到 A 后转池 |
-```
-
-如果信息不足，仍然给表，但把未知项标成 `待确认`，并在表下写清缺什么信息：
-
-```markdown
-| 主池 | 难度 / 轨道 | 成本 | 推荐拾取专精 | n | k | 下一发命中率 | 目标列表与毕业层级 | 本周投入 | 停手条件 |
-|---|---:|---:|---|---:|---:|---:|---|---:|---|
-| 副本 / Boss 名 | +10 | 1 核 | 待用游戏内冒险指南确认 | 待确认 | 1-2 | 待确认 | S: 目标 A；A: 目标 B | 2 核 | 若目标不在该拾取专精池，改用当前专精 |
-```
-
-不要为了填表而编造 `n`。查不清掉落池时，结论必须降级成条件判断。
-
-## 候选拾取专精矩阵
-
-推荐具体主池之前，先横向比较本职业所有可用拾取专精。
-不要默认当前专精、目标专精或治疗专精就是最优拾取专精。
-
-```markdown
-| 拾取专精 | 保留主目标 | 是否缩池 | 排除的高价值目标 | 引入的无用目标 | 结论 |
-|---|---|---|---|---|---|
-| 戒律 | 是 / 否 / 待确认 | 中 | 无 / 目标 A | 可能有治疗专属饰品 | 若治疗饰品无用则不优先 |
-| 神圣 | 是 / 否 / 待确认 | 中 | 无 / 目标 A | 可能有治疗专属饰品 | 通常只在追治疗饰品时用 |
-| 暗影 | 是 / 否 / 待确认 | 高 / 中 / 低 | 是否排除治疗 S 级饰品 | 可能有 DPS 专属饰品 | 若保留戒指/武器且排除无用治疗饰品，可推荐 |
-```
-
-矩阵结论优先级：
-
-- `目标保留 + 池子变小 + 排除无用角色装备 + 不排除另一个 S / A 目标`：推荐该拾取专精。
-- `目标保留 + 池子变小 + 排除另一个核心目标`：只在用户明确只追单一目标时推荐。
-- `目标不在池内`：禁止推荐该拾取专精。
-- `只能确认物品来源，不能确认拾取专精池`：写 `待游戏内冒险指南 / Wowhead 过滤 / 用户截图确认`，不要硬判。
-
-治疗转 DPS 拾取的典型场景：
-
-- 戒律牧实际打 M+，但目标是节点希纳斯这类副本中的通用戒指 / 武器 / 布甲散件。
-- 如果暗牧拾取仍保留这些目标，并能排除戒律池中的低价值治疗饰品，推荐写成：`用戒律打本，roll 前切暗影拾取`。
-- 如果本周目标包含戒律专属强治疗饰品，则不能切暗影；应拆成“追饰品用戒律，追戒指 / 散件用暗影”的两条路线。
-
-## 字段定义
-
-### 主池
-
-写清具体活动，不要只写“团本”或“大秘境”：
-
-- M+：写副本名
-- 团本：写 Boss 名，必要时补团本名
-- 多 Boss 计划：拆成多行，不要合并成一个模糊池
-
-### 难度 / 轨道
-
-必须标明当前建议 roll 的难度或奖励轨道。
-晦暗虚空核心去重按 `活动 + 难度` 维度理解，不能把不同难度的进度混在一起。
-
-### 成本
-
-默认口径：
-
-- M+：`1 核`
-- 团本：`2 核`
-
-如果版本规则或用户给的来源显示不同，先按当前资料核实后再写。
-
-### 推荐拾取专精
-
-写“推荐用 X 拾取专精 roll”，而不是只写目标专精。
-若玩家用另一个专精完成内容，要写成：
+For a verified complete remaining pool of `n` items and `k` current targets,
+assuming an equally likely item reward:
 
 ```text
-用 A 专精打内容，roll / 领奖励前切 B 拾取。
+P(next target | item reward) = k / n
+P(at least one target in r draws) = 1 - C(n-k,r) / C(n,r)
 ```
 
-如果不同拾取专精会排除另一个高价值目标，不要只为了缩池切专精；应拆成条件判断。
+The second expression also requires a fixed target set, removal after each
+success, the same pool/spec, and `0 <= r <= n`. Recompute if targets change.
+If a no-item outcome is possible, distinguish conditional and unconditional
+probability. Only claim 100% when every verified possible outcome meets the goal.
 
-如果推荐治疗专精拾取，必须写出为什么不切 DPS 拾取；如果推荐 DPS 拾取，也必须写出哪些治疗池垃圾被排除了，以及是否会丢失治疗核心目标。
+Use `E(draws to obtain all k) = k(n+1)/(k+1)` only for a justified uniform random
+order without replacement. A certain Vault reward can beat this expectation when
+one target is much more valuable. Unknown pool/weights mean unknown probability.
 
-### n：当前有效池大小
+## Loot-Spec Comparison
 
-`n` 是当前推荐 `活动 + 难度 + 拾取专精` 下，下一次 bonus roll 仍可能出的候选数量。
+| Spec | Targets retained | Extra filler | Full preview verified? | Recommendation |
+|---|---|---|---|---|
+| Combat spec | IDs | IDs | Yes/no | Conditional explanation |
+| Alternative spec | IDs | IDs | Yes/no | Switch only if justified |
 
-口径：
-
-- 通过晦暗虚空核心已经拿到过的同池物品，默认从 `n` 中移除。
-- 自然掉落、宝库、队友交易得到的同名物品，默认不从 `n` 中移除。
-- 如果用户没有提供 R 币历史，用原始池子近似，并明确写“未扣除历史去重”。
-- 如果拾取专精池查不清，`n` 写 `待确认`，不要硬算。
-
-### k：当前有效目标数
-
-`k` 是这个池里当前仍值得追的目标数量。
-
-口径：
-
-- S 级、A 级、用户明确想要的长期目标计入 `k`。
-- 已经被宝库、自然掉落或制作装替代到“不再值得追”的目标，从 `k` 中移除，但不一定从 `n` 中移除。
-- 只是装等提升、可催化套装位、可制造普通散件，除非用户是小号补装阶段，否则不要轻易计入 `k`。
-- 如果目标价值差异很大，表里仍可写整数 `k`，但在表下注明“其中只有 1 件是 S 级，其他只是 A/B 级”。
-
-### 目标列表与毕业层级
-
-每个目标至少标注一个毕业层级，避免把“属性对”直接说成“毕业”：
-
-- `完全 BIS`：当前版本该专精、该内容场景下的明确顶级选择，且来源 / 轨道符合玩家目标。
-- `准毕业 / 属性正确`：副属性、槽位或装等非常适合，能长期用，但可能不是模拟或高端样本里的唯一最优。
-- `现实毕业`：理论上不是最优，但对当前玩家更可达、更便宜或更稳定，适合作为实际路线目标。
-- `过渡`：短期补装等或补弱槽，拿到后能用，但不应成为长期连续追击主因。
-- `远期理论 BIS`：很强但成本高、低可达、低命中或需要神话团稳定 farm，通常不作为当前主池，除非用户就是冲榜主号。
-
-如果资料显示某件装备只是“属性对”，应写成 `属性正确 / 准毕业`，不要直接写 `完全 BIS`。
-如果是否完全 BIS 依赖饰品机制、武器、断点属性或套装拆分，必须建议 `/simc` 或至少标注“需按当前角色复核”。
-
-### 下一发命中率
-
-公式：
-
-```text
-下一发命中率 = k / n
-```
-
-只在 `n` 与 `k` 都能较可靠估计时写百分比。
-若 `n` 是原始池近似，写成“约 X%，未扣除未知 R 币历史”。
-
-## 宝库目标件 vs 6 代币底线
-
-当宝库给出的正好是主池里的目标件，且用户在比较“拿装备”还是“拿 `6 代币` 换额外核心”时，可以加一层轻量期望判断。
-
-定义：
-
-- `n`：当前主池有效池大小
-- `k`：当前仍值得追的有效目标数
-- `E(k) = k(n + 1) / (k + 1)`：在目标价值相近且准备追到目标拿完的前提下，拿齐 `k` 个目标平均还要吃多少次同池 roll
-
-社区公式参考：
-
-- `https://nga.178.com/read.php?tid=46628030`
-
-这只是社区推导参考，不是游戏机制权威来源；机制仍以官方说明与可靠资料为准。
-
-可读底线：
-
-- `M+`：宝库目标件约等于放弃 `1` 次额外 M+ roll。当 `n > k² + k - 1` 时，更偏向直接拿宝库目标件。
-- `团本`：宝库目标件约等于放弃 `0.5` 次额外团本 roll，因为一次团本 roll 通常要 `2 核`。当 `2n > k² + k - 2` 时，更偏向直接拿宝库目标件。
-
-这条只是一层底线，不能覆盖以下情况：
-
-- 目标价值差异很大，其中有唯一 S 级目标
-- 拿了宝库后会直接转池
-- 不同拾取专精显著改变 `n`
-- 玩家已经有明显连续追击进度
-- 这个池本身不是未来 `1-3 周` 主池
-
-## 停手条件写法
-
-停手条件必须具体，避免“继续追到出”为唯一答案。
-
-推荐写法：
-
-- `拿到 S 级目标 A 后停，转向第二主池`
-- `拿到目标 A 或 B 任意一件后，重算 k；若只剩 B 级目标就转池`
-- `若本周宝库开到同槽强替代，主池降为 A 级`
-- `若确认目标不在推荐拾取专精池内，改用目标专精或放弃缩池`
-- `若后续只能打低一档难度，不继承当前难度去重进度，需重新评估`
-
-## 输出注意事项
-
-- 主池表只列会影响路线的目标，不要列完整掉落长表。
-- 中文回答优先写中文名；中文名不确定时，第一次写“中文描述（英文原名）”，不要编中文名，也不要让目标列表大部分只保留英文名。
-- 如果来源只能证明“这件装备有人用”，不能证明“它在该拾取专精池内”，必须标注不确定。
-- 如果用户没有 `/simc`，武器、饰品、戒指、制作装等接近比较要用保守措辞。
+A class guide's alternate-spec recommendation supports a conditional choice;
+a verified filtered reward preview is needed for exact `n`.

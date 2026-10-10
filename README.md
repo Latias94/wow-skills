@@ -9,7 +9,10 @@ This repository focuses on reusable WoW skills rather than one-off prompts. The 
 ## Current Skills
 
 - `wow-voidforge-roll-planner`
-  - Plans `Voidforge / bonus-roll / Great Vault token` decisions for WoW `12.0.5` and nearby versions
+  - Plans weekly raid/Mythic+ bonus rolls using verified current-patch costs and reward pools
+  - Optimizes attainable complete BiS candidates with reproducible raid/dungeon simulations before choosing crafting and roll routes
+  - Recommends data-driven HTML reports with Chinese Wowhead tooltips, measured comparisons, clean SimC exports and boss watchlists; includes a [dated Windwalker case study](skills/wow-voidforge-roll-planner/references/case-shaseng-2026-10.md)
+  - Maintains per-character weekly plans, confirmed roll results, and Great Vault offers/claims in workspace `records/`; includes a Celestial Conduit Windwalker pilot
   - Supports `class/spec`, `Hero talents`, `raid / Mythic+ / hybrid` playstyles, `main / alt` characters, accessibility constraints, crafting, Great Vault choices, and `/simc`-driven refinement
   - Output language follows the user's input language by default: Chinese input leads to Chinese-first output, English input leads to English-first output, and explicit language requests take priority
 - `wow-pve-spec-coach`
@@ -82,6 +85,7 @@ Notes:
 - `agents/openai.yaml` contains Codex-facing UI metadata
 - `evals/` contains behavior regression cases for maintainers
 - `references/` holds supporting docs for pool tables, scoring, input granularity, source weighting, coaching patterns, mechanics reasoning, and persona cards
+- `records/` stores player history separately from installable skills; `records/cn-barrens-shaseng/` is the first weekly planning pilot
 
 ## Install for Codex
 

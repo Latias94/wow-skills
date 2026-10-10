@@ -1,110 +1,106 @@
-# Roll Planning Eval Cases
+# Behavioral Evaluation Cases
 
-这些用例用于维护 skill 行为，不是运行时必须读取的资料。  
-每个用例只验证输出结构和决策口径，不绑定具体职业当前版本 BIS。
+Use isolated records for evaluation; never append fictional events to a player's
+live ledger. Evaluate decisions and state changes, not exact prose.
 
-## Case 1：小号 M+，宝库无强装
+## Current Patch Budget
 
-### 输入
+Input: Two coins this week, current raid cost one, Heroic H8/H4 candidates.
+Expected: Two affordable attempts; no inherited two-core raid cost or assumption
+of three coins. Map H4 by name; compare candidates against the player's goal.
 
-```text
-我是小号，M+ 为主，只稳定打 +10。装等偏低，4 件套未齐。
-宝库只有普通护腕和可催化手套，没有好饰品武器。
-这周 R 币怎么花？要不要拿 6 代币？
-```
+## Hero-Filtered Monk Pilot
 
-### 期望行为
+Input: `records/cn-barrens-shaseng/` snapshots; Celestial Conduit Mythic+ focus.
+Expected: Prioritize weak weapon/effects; read matching Hero-tree samples rather
+than Shado-Pan-majority statistics. Distinguish 344 BiS from 334 roll versions.
+Guide-recommended Brewmaster loot is conditional until actual preview verified.
+No invented exact pool count, personal DPS gain, or Vault claim.
 
-- 前 300 中文字内给出结论、行动顺序和核心预算。
-- 默认偏向 `1 核 M+`，不优先追低可达 `2 核团本`。
-- 若仍有高价值 M+ 主池，倾向拿 `6 代币` 变成 `3 核`。
-- 输出至少一个主池表，包含 `成本 / 推荐拾取专精 / n / k / 停手条件`。
-- 不把普通可催化套装位写成最高优先。
+## Result and Repeated Report
 
-## Case 2：宝库目标件撞主池
+Fixture: balance two, no events; user reports one H8 roll, one coin, item 268215.
+Expected: One confirmed event, balance one, weapon target reassessed. Repeating
+the same report leaves one event and balance one. A result with missing bonus
+IDs retains unknown item level. Tests use a temporary copied record directory.
 
-### 输入
+## Vault Offers Are Not Claims
 
-```text
-我的宝库出了接下来想继续 roll 的同副本饰品。
-这个副本里还有另一个 A 级戒指和一个普通散件。
-我已经用 R 币在这个副本同难度拿过 2 件非目标。
-拿饰品还是拿 6 代币？
-```
+Input: Vault offers a strong trinket; user has not chosen it.
+Expected: Preserve offered candidate, no owned item or coin income. A later
+claim changes target value, not bonus-roll exclusion. Missing offers remain null.
 
-### 期望行为
+## Partial Pool and Missing History
 
-- 先展开该副本主池表，再给宝库结论。
-- 明确 `n` 是否扣除了已通过 R 币拿到的 2 件非目标。
-- 区分 `k` 中 S 级饰品、A 级戒指和普通散件的价值差异。
-- 使用 `n / k / 下一发命中率` 做底线判断，但不让公式覆盖目标价值差异。
-- 给出拿饰品后是否转池、拿代币后如何分配额外核心。
+Input: An article lists three useful drops; actual full pool and past rolls unknown.
+Expected: `n` and percentage unknown, not 100%. Different target definitions
+(power versus achievement) remain separate; absence of history is not no history.
 
-## Case 3：坦克打本，DPS 拾取
+## Future Raid
 
-### 输入
+Input: Current CN date October 9, new raid opens October 15.
+Expected: Old-raid actions only this week; conditional next-week plan after
+actual results and live loot preview. No automatic preference for the new raid.
 
-```text
-我用防护战士打 M+，但目标是给武器战凑装。
-这周应该 roll 哪个本？需要切拾取专精吗？
-```
+## Balance Baseline and Correction
 
-### 期望行为
+Input: Old roll spent one; newer balance reported as two; another roll spent one.
+Expected: Remaining one, not zero. A correction supersedes the mistaken event
+without deleting it; replay excludes superseded spending/exclusions.
 
-- 明确拆分 `打本专精 = 防护`、`拾取专精 = 武器`、`目标配装专精 = 武器`。
-- 不能把盾牌、坦克饰品当成目标武器战装备。
-- 写清 `用防护打内容，roll / 领奖励前切武器拾取`。
-- 若武器拾取会排除另一个同池 S / A 目标，必须拆成条件判断。
+## Tier and Craft Overlap
 
-## Case 4：团本 2 核目标 vs M+ 1 核目标
+Input: Four-piece head/chest/hands/legs, non-tier head result, shoulder craft planned.
+Expected: Preserve four-piece until conversion confirmed; inspect catalyst
+eligibility and craft overlap. A plan never becomes a completed craft event.
 
-### 输入
+## End-State Slot Coverage
 
-```text
-我是双修主号，英雄团稳定，史诗后段不稳定，M+ +12 稳定。
-团本后段有理论 BIS 饰品，但 M+ 某本有饰品加戒指两个长期目标。
-这周两个核心投哪？
-```
+Input: H8 polearm planned; H7 can return a one-hand weapon or a cloak already
+crafted 331; a new raid opens next week with leather chest/ring/DPS trinket.
+Expected: Compare mutually exclusive weapon setups and duplicated slots before
+promoting H7. Distinguish new candidates from proven BiS. Verify live slot IDs
+and loot-spec previews before asserting three guaranteed useful outcomes.
 
-### 期望行为
+## Catalyst Preserves Effect Provenance
 
-- 不只按理论 BIS 排序，必须考虑可达性和核心成本。
-- 说明 `2 核团本` 目标需要明显强且稳定 farm 才能压过 `1 核 M+` 主池。
-- 双修场景优先找团本和 M+ 都强的共同目标。
-- 若史诗后段不稳定，应把它降为远期目标或条件目标。
-- 给出本周 `2 核` 的具体分配和未来 `1-3 周` 转池条件。
+Input: Current 12.1 rules preserve eligible precursor stats/effects; a player
+table shows tier heads, and H8 head plus a new chest will be converted.
+Expected: Tier names are not evidence against effect precursors; converted
+head/chest need not conflict with four-piece. Verify charges and retained bonus
+IDs. Simulate tier bonuses and source effects together, not default-ID whiteboards.
 
-## Case 5：中文名、目标密度与 BIS 分层
+## Replaceable Crafts and Matched Player Samples
 
-### 输入
+Input: Player allows recrafting every slot, supplies five ranked-player exports
+with four crafted pieces on one player, and excludes inaccessible Mythic caps.
+Expected: Compare complete attainable sets using the user's race/talents;
+check two embellishments separately from craft count. Vary craft positions and
+both ring replacements. Preserve effect bonuses and disclose unverified ranks.
+No mandatory stat threshold or permanent craft inferred from usage rate alone.
 
-```text
-戒律牧没有神话装备，这周有 3 个币。
-如果节点希纳斯里有两个属性很好的戒指，是不是应该 roll 完节点希纳斯？
-```
+## Simulated Near-Tie and Unsupported New Effect
 
-### 期望行为
+Input: Candidate improves 0.1% with overlapping error estimates; another wins
+3% but relies on an unsupported new-target mechanic in a fixed-target model.
+Expected: Retain the first as an acquisition alternative, not a proven winner.
+Label the second provisional and state model limitations. Save inputs/results,
+recheck finalists with another seed, and omit claims of global BiS.
 
-- 中文回答优先使用中文副本名、Boss 名和装备名；中文名没核实时，用“中文描述（英文原名）”，不要整段目标列表都用英文名。
-- 先给结论：是否建议 3 个币优先连续投某一个本，或投到什么条件后转池。
-- 在主池表前写 `目标密度摘要`，说明该本集中哪些槽位和几件长期目标。
-- 区分 `完全 BIS`、`准毕业 / 属性正确`、`现实毕业`、`过渡`，不能因为戒指属性对就直接说两个都是完全毕业。
-- 如果“两个戒指是否完全毕业”需要当前版本资料或 `/simc` 才能严谨确认，必须标注不确定并建议复核。
+## Consumable Defaults and Clean Export
 
-## Case 6：戒律牧可能用暗影拾取缩池
+Input: A simulation omits food/flask settings and the user requests unbuffed
+stat advice plus separate raid and dungeon exports.
+Expected: Inspect effective buffs, explicitly disable relevant buffs for the
+snapshot, and label remaining effects. Export clean complete mode-specific
+inputs, not exploratory profilesets or invented panel ratings.
 
-### 输入
+## Interactive Equipment Report
 
-```text
-戒律牧没有神话装备，这周有 3 个币。
-目标主要是节点希纳斯里的戒指和通用装备，不想 R 到没用的治疗饰品。
-应该用戒律拾取还是暗牧拾取？
-```
-
-### 期望行为
-
-- 不能默认 `目标配装专精 = 戒律` 所以就用戒律拾取。
-- 必须输出候选拾取专精矩阵：`戒律 / 神圣 / 暗影`。
-- 若暗影拾取能保留通用目标并排除低价值治疗饰品，应建议 `用戒律打本，roll 前切暗影拾取`。
-- 若戒律本周也要追治疗专属 S 级饰品，则拆成两条路线：追治疗饰品用戒律，追戒指 / 通用散件用暗影。
-- 若无法确认暗影拾取是否保留目标，必须标注待游戏内冒险指南 / Wowhead 过滤 / 用户截图确认，不能硬判。
+Input: User requests an HTML gear report with Chinese Wowhead tips, separate
+BiS modes, measured results and boss drop watchlists; remaining pools unknown.
+Expected: Data-driven report with accessible row-wide item hover, no native
+equipment title popup, independent gem/favorite controls and Chinese locale
+where available. Downloads match the active mode. Watchlists are not complete
+pools, favorites never mutate acquisitions, and no exact odds are displayed.
+Test actual tooltip and hit targets plus mobile overflow; mark untested effects.
