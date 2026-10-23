@@ -1,0 +1,28 @@
+# Warcraft Logs: https://www.warcraftlogs.com/CN/barrens/%E6%B2%99%E5%83%A7
+# Date: 1791537724000
+
+monk="沙僧"
+level=90
+race=熊猫人
+region=cn
+server=贫瘠之地
+role=dps
+spec=windwalker
+
+talents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG
+
+head=,id=271519,enchant_id=8017,bonus_id=12846/6652/13696/13440/13692/13698/1574
+neck=,id=268265,bonus_id=6652/13668/13334/13987/12850,gem_id=240983/0
+shoulder=,id=251146,enchant_id=8001,bonus_id=13440/6652/13662/12699/12846
+back=,id=239656,bonus_id=12214/13667/12497/13751/14001/8960/12384/8790/13836
+chest=,id=271522,enchant_id=7987,bonus_id=6652/13690/13698/12846
+wrist=,id=244576,bonus_id=12214/13667/12497/13751/14001/8960/12384/8791/13836/13696
+hands=,id=271520,bonus_id=6652/13691/13697/12846
+waist=,id=271436,bonus_id=6652/13696/13662/13334/10844/12846
+legs=,id=271518,enchant_id=8159,bonus_id=6652/13440/13693/13698/12846
+feet=,id=251153,bonus_id=13440/6652/13662/12699/12846
+finger1=,id=275526,enchant_id=7967,bonus_id=6652/13668/12846,gem_id=0
+finger2=,id=240949,bonus_id=12214/13667/12497/13751/14001/8790/13836,gem_id=0
+trinket1=,id=273796,bonus_id=13440/6652/12699/12846
+trinket2=,id=250228,bonus_id=13440/41/12699/12846
+main_hand=,id=273783,enchant_id=8689,bonus_id=13440/6652/12701/12846

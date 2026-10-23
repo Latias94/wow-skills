@@ -1,0 +1,261 @@
+
+DPS Ranking:
+ 174698 100.0%  Raid
+ 174698  100.0%  Shaseng_BIS_refine
+
+HPS Ranking:
+      0 100.0%%  Raid
+
+Player: Shaseng_BIS_refine pandaren monk windwalker 90
+  DPS=174697.5828576322 DPS-Error=280.76091653282/0.16% DPS-Range=19135.391026800353/10.95%
+  DPR=17417.592984084833 RPS-Out=9.958991179304721 RPS-In=9.545780870520469 Resource=energy Waiting=0.46042991624045676 ApM=52.941738937069154
+  Talents: C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG
+  Core Stats:    strength=267|267(267)  agility=2690|2558(2437)  stamina=45293|45293(43137)  intellect=620|620(620)  spirit=0|0(0)  health=905860|905860  mana=0|0
+  Generic Stats: mastery=106.40%|98.88%(1608)  versatility=2.17%|2.17%(117)  leech=0.00%|0.00%(0)  runspeed=7.00%|7.00%(0)
+  Spell Stats:   power=0|3273(0)  hit=15.00%|15.00%(0)  crit=26.87%|26.87%(592)  haste=19.07%|19.07%(839)  speed=19.07%|19.07%  manareg=0|0(0)
+  Attack Stats:  power=2690|2558(0)  hit=7.50%|7.50%(0)  crit=26.87%|26.87%(592)  expertise=7.50%|7.50%(0)  haste=19.07%|19.07%(839)  speed=19.07%|19.07%
+  Defense Stats: armor=1163|1163(1163) miss=3.00%|3.00%  dodge=15.47%|14.93%(0)  parry=3.00%|3.00%(0)  block=0.00%|0.00%(0) crit=0.00%|0.00%  versatility=1.08%|1.08%(117)
+  Priorities (actions.precombat):
+    snapshot_stats
+    use_item,name=algethar_puzzle_box,if=!talent.flurry_strikes&(trinket.1.is.algethar_puzzle_box|trinket.2.is.algethar_puzzle_box)
+    variable,name=patchwerk,value=fight_style.patchwerk|fight_style.castingpatchwerk
+  Priorities (actions.default):
+    auto_attack/touch_of_karma,target_if=max:target.time_to_die/potion,if=buff.invoke_xuen_the_white_tiger.remains>15|fight_remains<=30
+    potion,if=talent.flurry_strikes&chi>2&(time<5|cooldown.zenith.up&time<5|time>300&((trinket.1.is.algethar_puzzle_box&trinket.1.cooldown.remains>100|trinket.2.is.algethar_puzzle_box&trinket.2.cooldown.remains>100)|!trinket.1.has_use_buff&!trinket.2.has_use_buff)&talent.flurry_strikes|time>300&buff.zenith.up)
+    variable,name=has_external_pi,value=cooldown.invoke_power_infusion_0.duration>0/call_action_list,name=opener,if=time<2
+    call_action_list,name=trinket/call_action_list,name=racials
+    invoke_external_buff,name=power_infusion,if=buff.zenith.up&(buff.invoke_xuen_the_white_tiger.up|talent.flurry_strikes)
+    call_action_list,name=big_coc,if=talent.celestial_conduit/call_action_list,name=zenith/call_action_list,name=default_st,if=active_enemies=1
+    call_action_list,name=multitarget,if=active_enemies>1/call_action_list,name=fallback/arcane_torrent,if=chi<chi.max&energy<55/thorn_bloom
+    haymaker/bag_of_tricks/arcane_pulse/rocket_barrage/lights_judgment
+  Priorities (actions.opener):
+    tiger_palm,if=combo_strike&chi<4
+    use_item,name=algethar_puzzle_box,if=target.time_to_die>25&(cooldown.invoke_xuen_the_white_tiger.remains<2|talent.flurry_strikes&cooldown.zenith.up)|fight_remains<25
+  Priorities (actions.trinket):
+    use_item,slot=main_hand
+    use_item,name=algethar_puzzle_box,if=fight_remains>5&(!buff.zenith.up&!talent.flurry_strikes&(target.time_to_die>35&fight_style.dungeonroute|target.time_to_die>25)&(cooldown.potion.remains>30|fight_remains<45|fight_remains>80)&(cooldown.invoke_xuen_the_white_tiger.remains<2|talent.flurry_strikes&cooldown.zenith.up)|fight_remains<25|talent.flurry_strikes&(target.time_to_die>35&fight_style.dungeonroute|target.time_to_die>25)&!buff.zenith.up|fight_style.dungeonslice&(time<5&chi>3|active_enemies>3&target.time_to_die>15))
+    use_item,slot=trinket1,if=trinket.1.has_use_buff&!trinket.2.has_use_buff&(pet.xuen_the_white_tiger.active&talent.invoke_xuen_the_white_tiger|talent.flurry_strikes&buff.zenith.remains>14)
+    use_item,slot=trinket2,if=trinket.2.has_use_buff&!trinket.1.has_use_buff&(pet.xuen_the_white_tiger.active&talent.invoke_xuen_the_white_tiger|talent.flurry_strikes&buff.zenith.remains>14)
+    use_item,slot=trinket1,if=trinket.1.has_use_buff&trinket.2.has_use_buff&(pet.xuen_the_white_tiger.active&talent.invoke_xuen_the_white_tiger|talent.flurry_strikes&buff.zenith.remains>14)
+    use_item,slot=trinket2,if=trinket.1.has_use_buff&trinket.2.has_use_buff&(cooldown.invoke_xuen_the_white_tiger.remains>30&(buff.zenith.up|(cooldown.strike_of_the_windlord.remains<2&talent.strike_of_the_windlord|cooldown.whirling_dragon_punch.remains<2&talent.whirling_dragon_punch))|talent.flurry_strikes&buff.zenith.remains>10)
+    use_item,slot=trinket1,if=!trinket.1.has_use_buff&trinket.2.has_use_buff&trinket.2.cooldown.remains>30
+    use_item,slot=trinket2,if=!trinket.2.has_use_buff&trinket.1.has_use_buff&trinket.1.cooldown.remains>30
+    use_item,slot=trinket1,if=!trinket.1.has_use_buff&!trinket.2.has_use_buff
+    use_item,slot=trinket2,if=!trinket.1.has_use_buff&!trinket.2.has_use_buff
+  Priorities (actions.big_coc):
+    invoke_xuen_the_white_tiger,target_if=max:target.time_to_die,if=(target.time_to_die>35&fight_style.dungeonroute|target.time_to_die>25&!fight_style.dungeonroute)&((cooldown.zenith.up|buff.zenith.remains>13)&!buff.heart_of_the_jade_serpent.up)&(!fight_style.dungeonslice|active_enemies>1|time<100)&(chi>2|chi>1&energy<40)
+    invoke_xuen_the_white_tiger,target_if=max:target.time_to_die,if=(target.time_to_die>35&fight_style.dungeonroute|target.time_to_die>25&!fight_style.dungeonroute)&(trinket.1.is.algethar_puzzle_box&trinket.1.cooldown.remains>100|trinket.2.is.algethar_puzzle_box&trinket.2.cooldown.remains>100)&(!fight_style.dungeonslice|active_enemies>1|time<100)
+    invoke_xuen_the_white_tiger,target_if=max:target.time_to_die,if=fight_style.dungeonslice&target.time_to_die>15&active_enemies>4|fight_remains<=25
+    zenith_stomp,target_if=max:target.time_to_die,if=combo_strike&prev.celestial_conduit&chi<5
+    zenith_stomp,target_if=max:target.time_to_die,if=combo_strike&(chi<2|buff.zenith.remains<2)
+    tiger_palm,,target_if=max:target.time_to_die,if=buff.zenith.up&!buff.heart_of_the_jade_serpent.remains&!buff.heart_of_the_jade_serpent_yulons_avatar.remains&active_enemies=1&!talent.harmonic_combo&chi<2&combo_strike
+    celestial_conduit,target_if=max:target.time_to_die,if=buff.zenith.up&!buff.heart_of_the_jade_serpent.remains&!buff.heart_of_the_jade_serpent_yulons_avatar.remains&(!buff.whirling_dragon_punch.up|cooldown.whirling_dragon_punch.remains|cooldown.strike_of_the_windlord.remains&talent.strike_of_the_windlord)|fight_remains<4|active_enemies>1+1*talent.drinking_horn_cover&(fight_style.dungeonslice|buff.bloodlust.up),cancel_if=(!cooldown.rising_sun_kick.remains|!cooldown.fists_of_fury.remains|!buff.heart_of_the_jade_serpent.up)&(!talent.zenith_stomp|!buff.bloodlust.up|buff.zenith_stomp.stack=0|chi>4)
+    whirling_dragon_punch,if=buff.power_infusion.up&(!buff.heart_of_the_jade_serpent_unity_within.up|buff.heart_of_the_jade_serpent_unity_within.remains<2)
+  Priorities (actions.zenith):
+    zenith,target_if=max:target.time_to_die,if=buff.invoke_xuen_the_white_tiger.remains>10&(!buff.zenith.up|talent.flurry_strikes)
+    zenith,target_if=max:target.time_to_die,if=(buff.bloodlust.remains>10|cooldown.potion.remains>250&variable.patchwerk)&(active_enemies>2|cooldown.rising_sun_kick.remains|buff.rushing_wind_kick.up)&(!buff.zenith.up|!cooldown.fists_of_fury.remains&!buff.heart_of_the_jade_serpent.up&!buff.heart_of_the_jade_serpent_unity_within.up)
+    zenith,target_if=max:target.time_to_die,if=(target.time_to_die>30&fight_style.dungeonroute|target.time_to_die>25&!fight_style.dungeonroute)&(buff.bloodlust.up&cooldown.celestial_conduit.remains&(cooldown.rising_sun_kick.remains|active_enemies>2)&!buff.zenith.up&talent.celestial_conduit)
+    zenith,target_if=max:target.time_to_die,if=(target.time_to_die>30&fight_style.dungeonroute|target.time_to_die>25&!fight_style.dungeonroute)&(talent.flurry_strikes&(buff.bloodlust.up|cooldown.potion.remains>295))&!buff.zenith.up&(buff.bloodlust.remains>30|talent.spiritual_focus)
+    zenith,target_if=max:target.time_to_die,if=time>250&cooldown.potion.remains>295&(!trinket.1.has_use_buff&!trinket.2.has_use_buff|trinket.1.has_use_buff&trinket.1.cooldown.remains>30|trinket.2.has_use_buff&trinket.2.cooldown.remains>30)&(fight_remains>120|fight_remains<50&fight_remains>cooldown.zenith.full_recharge_time)
+    zenith,target_if=max:target.time_to_die,if=(target.time_to_die>30&fight_style.dungeonroute|target.time_to_die>25&!fight_style.dungeonroute)&talent.flurry_strikes&!trinket.1.has_use_buff&!trinket.2.has_use_buff&cooldown.rising_sun_kick.remains&cooldown.fists_of_fury.remains<5&(cooldown.whirling_dragon_punch.remains<10|cooldown.strike_of_the_windlord.remains<10)&cooldown.zenith.full_recharge_time<40&!fight_style.dungeonslice&!buff.zenith.up
+    zenith,target_if=max:target.time_to_die,if=(target.time_to_die>30&fight_style.dungeonroute|target.time_to_die>25&!fight_style.dungeonroute)&(!buff.bloodlust.up&(trinket.1.is.algethar_puzzle_box&trinket.1.cooldown.remains>100|trinket.2.is.algethar_puzzle_box&trinket.2.cooldown.remains>100)&(cooldown.rising_sun_kick.remains|active_enemies>2|talent.drinking_horn_cover&chi<2))&!buff.zenith.up
+    zenith,target_if=max:target.time_to_die,if=(variable.patchwerk|fight_style.dungeonroute&target.time_to_die>27+5*talent.drinking_horn_cover)&talent.flurry_strikes&(buff.tigereye_brew_1.stack>19-2*talent.echo_technique|buff.tigereye_brew_1.stack>11&talent.spiritual_focus-2*talent.echo_technique)&(target.time_to_die>30&fight_style.dungeonroute|target.time_to_die>25&!fight_style.dungeonroute)&(cooldown.rising_sun_kick.remains|active_enemies>1)&(!trinket.1.has_use_buff&!trinket.2.has_use_buff|trinket.1.has_use_buff&(trinket.1.cooldown.remains>40|trinket.1.cooldown.remains>30&talent.spiritual_focus)|trinket.2.has_use_buff&(trinket.2.cooldown.remains>40|trinket.2.cooldown.remains>30&talent.spiritual_focus))&(talent.strike_of_the_windlord&cooldown.strike_of_the_windlord.remains<15-5*talent.revolving_whirl&talent.drinking_horn_cover|talent.whirling_dragon_punch&cooldown.whirling_dragon_punch.remains<15-7*talent.revolving_whirl&talent.drinking_horn_cover|talent.strike_of_the_windlord&cooldown.strike_of_the_windlord.remains<10|talent.whirling_dragon_punch&cooldown.whirling_dragon_punch.remains<10)&cooldown.fists_of_fury.remains<9+4*talent.spiritual_focus
+    zenith,target_if=max:target.time_to_die,if=(cooldown.rising_sun_kick.remains|active_enemies>2)&fight_style.dungeonslice&time>130&time<150&active_enemies>1&talent.flurry_strikes&!buff.zenith.up
+    zenith,target_if=max:target.time_to_die,if=fight_style.dungeonslice&target.time_to_die>15&active_enemies>4&(talent.flurry_strikes|talent.celestial_conduit&talent.restore_balance&cooldown.invoke_xuen_the_white_tiger.remains<cooldown.zenith.full_recharge_time)&!variable.patchwerk&!buff.zenith.up
+    zenith,target_if=max:target.time_to_die,if=!buff.zenith.up&(talent.celestial_conduit&fight_remains<cooldown.invoke_xuen_the_white_tiger.remains&(cooldown.rising_sun_kick.remains|active_enemies>2)&(target.time_to_die>30&fight_style.dungeonroute|target.time_to_die>25&!fight_style.dungeonroute|target.time_to_die>15&active_enemies>4)&!variable.patchwerk)
+    zenith,target_if=max:target.time_to_die,if=!buff.zenith.up&(talent.flurry_strikes|talent.spiritual_focus)&fight_style.dungeonroute&cooldown.zenith.full_recharge_time<30&target.time_to_die>25-5*talent.spiritual_focus
+    zenith,target_if=max:target.time_to_die,if=variable.patchwerk&!buff.zenith.up&cooldown.fists_of_fury.remains<10&(cooldown.whirling_dragon.remains<10|cooldown.strike_of_the_windlord.remains<10)&(cooldown.rising_sun_kick.remains|chi<2&energy<50|active_enemies>1)&cooldown.zenith.full_recharge_time<30&(!trinket.1.has_use_buff&!trinket.2.has_use_buff|trinket.1.has_use_buff&trinket.1.cooldown.remains>30|trinket.2.has_use_buff&trinket.2.cooldown.remains>30)&(fight_remains>120|fight_remains<50&fight_remains>cooldown.zenith.full_recharge_time)
+    zenith,target_if=max:target.time_to_die,if=fight_remains<=23&(cooldown.rising_sun_kick.remains|active_enemies>2)
+    zenith,target_if=max:target.time_to_die,if=fight_remains<45&cooldown.zenith.full_recharge_time<5&(cooldown.rising_sun_kick.remains|active_enemies>1)
+    zenith,target_if=max:target.time_to_die,if=!buff.zenith.up&(variable.patchwerk&!trinket.1.is.algethar_puzzle_box&!trinket.2.is.algethar_puzzle_box&trinket.1.has_use_buff&(trinket.1.cooldown.ready|cooldown.zenith.full_recharge_time<5))&(talent.flurry_strikes|buff.invoke_xuen_the_white_tiger.remains>10)
+    zenith,target_if=max:target.time_to_die,if=!buff.zenith.up&(variable.patchwerk&!trinket.1.is.algethar_puzzle_box&!trinket.2.is.algethar_puzzle_box&trinket.2.has_use_buff&(trinket.2.cooldown.ready|cooldown.zenith.full_recharge_time<5))&(talent.flurry_strikes|buff.invoke_xuen_the_white_tiger.remains>10)
+    zenith,target_if=max:target.time_to_die,if=!buff.zenith.up&talent.celestial_conduit&cooldown.zenith.full_recharge_time<30&active_enemies>4&fight_style.dungeonslice|talent.flurry_strikes&fight_style.dungeonslice&cooldown.zenith.full_recharge_time<20&cooldown.rising_sun_kick.remains&cooldown.fists_of_fury.remains<10&time<60&!buff.zenith.up
+  Priorities (actions.default_st):
+    whirling_dragon_punch,if=(talent.flurry_strikes|buff.heart_of_the_jade_serpent_unity_within.remains<2)&(!cooldown.rising_sun_kick.remains|!cooldown.fists_of_fury.remains)&(talent.echo_technique&buff.combo_breaker.stack<2|talent.revolving_whirl&buff.dance_of_chiji.stack<2|!talent.revolving_whirl&!talent.echo_technique)&(cooldown.invoke_xuen_the_white_tiger.remains>9|talent.flurry_strikes)
+    celestial_conduit,target_if=max:target.time_to_die,if=!buff.heart_of_the_jade_serpent.remains&!buff.heart_of_the_jade_serpent_yulons_avatar.remains&(!buff.whirling_dragon_punch.up|cooldown.whirling_dragon_punch.remains|cooldown.strike_of_the_windlord.remains&talent.strike_of_the_windlord)|fight_remains<4|active_enemies>1+1*talent.drinking_horn_cover&(fight_style.dungeonslice|buff.bloodlust.up),cancel_if=(!cooldown.rising_sun_kick.remains|!cooldown.fists_of_fury.remains|!buff.heart_of_the_jade_serpent.up)&(!talent.zenith_stomp|!buff.bloodlust.up|buff.zenith_stomp.stack=0|chi>4)
+    zenith_stomp,if=combo_strike&(talent.flurry_strikes|buff.zenith_stomp.stack=2|cooldown.celestial_conduit.remains>50)&(chi<2|chi<5&buff.zenith.remains<7|chi<4&cooldown.fists_of_fury.remains&cooldown.rising_sun_kick.remains&(!buff.combo_breaker.up|!talent.energy_burst|buff.zenith.remains<5))&talent.flurry_strikes
+    fists_of_fury,if=buff.heart_of_the_jade_serpent.remains<1&buff.heart_of_the_jade_serpent.up|buff.heart_of_the_jade_serpent_unity_within.remains<1&buff.heart_of_the_jade_serpent_unity_within.up|buff.heart_of_the_jade_serpent_yulons_avatar.remains<1&buff.heart_of_the_jade_serpent_yulons_avatar.up
+    tiger_palm,if=combo_strike&!buff.zenith.up&chi<4+talent.ascension&energy.time_to_max<=gcd.max*3&(!buff.bloodlust.up|chi<1)&buff.combo_breaker.stack<2
+    strike_of_the_windlord,if=(cooldown.invoke_xuen_the_white_tiger.remains>9|talent.flurry_strikes)
+    fists_of_fury,if=cooldown.zenith.full_recharge_time>2/touch_of_death,if=!variable.patchwerk|fight_remains<10|talent.meridian_strikes
+    whirling_dragon_punch,if=(talent.flurry_strikes|buff.heart_of_the_jade_serpent_unity_within.remains<1)&(talent.echo_technique&buff.combo_breaker.stack<2|talent.revolving_whirl&buff.dance_of_chiji.stack<2|!talent.revolving_whirl&!talent.echo_technique)&(cooldown.invoke_xuen_the_white_tiger.remains>9|talent.flurry_strikes)
+    blackout_kick,if=combo_strike&(buff.zenith.up&talent.obsidian_spiral&chi<2-talent.harmonic_combo|buff.zenith.up&chi<1&talent.obsidian_spiral&buff.combo_breaker.up&talent.energy_burst|!buff.zenith.up&chi<3-talent.harmonic_combo&buff.combo_breaker.up&talent.energy_burst)&!cooldown.fists_of_fury.remains
+    tiger_palm,if=combo_strike&chi<3-talent.harmonic_combo&!cooldown.fists_of_fury.remains&(!buff.combo_breaker.up|!talent.obsidian_spiral&!talent.energy_burst|chi<2-talent.harmonic_combo)
+    blackout_kick,if=combo_strike&(buff.zenith.up&talent.obsidian_spiral&chi<1|!buff.zenith.up&chi<2&buff.combo_breaker.up&talent.energy_burst)&(!cooldown.rising_sun_kick.remains|!cooldown.strike_of_the_windlord.remains&talent.strike_of_the_windlord)
+    rushing_wind_kick
+    spinning_crane_kick,if=combo_strike&buff.dance_of_chiji.up&buff.unbroken_rhythm.up&(!talent.sequenced_strikes|buff.combo_breaker.stack<2)
+    rising_sun_kick,if=combo_strike&!cooldown.whirling_dragon_punch.remains&(!buff.dance_of_chiji.up|!buff.unbroken_rhythm.up)
+    rising_sun_kick,if=combo_strike&buff.bloodlust.up&!buff.unbroken_rhythm.up&!buff.dance_of_chiji.up
+    rising_sun_kick,if=combo_strike&buff.bloodlust.up&!buff.dance_of_chiji.up
+    blackout_kick,if=combo_strike&talent.rushing_wind_kick&buff.combo_breaker.stack>1&buff.combo_breaker.remains<8
+    spinning_crane_kick,if=combo_strike&(buff.dance_of_chiji.up&buff.unbroken_rhythm.up|buff.dance_of_chiji.stack>0&buff.dance_of_chiji.remains<5&(!talent.sequenced_strikes|buff.combo_breaker.stack<2))
+    spinning_crane_kick,if=combo_strike&buff.unbroken_rhythm.up&talent.celestial_conduit/rising_sun_kick,if=combo_strike
+    blackout_kick,if=combo_strike&buff.combo_breaker.stack=2
+    blackout_kick,if=combo_strike&buff.zenith.up&cooldown.rising_sun_kick.remains&cooldown.fists_of_fury.remains&(buff.combo_breaker.up|talent.obsidian_spiral&chi<5+talent.ascension)
+    spinning_crane_kick,if=combo_strike&buff.dance_of_chiji.stack=2&(buff.combo_breaker.stack<2|!talent.sequenced_strikes)
+    spinning_crane_kick,if=combo_strike&buff.zenith.up&(buff.dance_of_chiji.up&(buff.combo_breaker.stack<2|!talent.sequenced_strikes)|chi>4)
+    touch_of_death,if=!buff.zenith.up/slicing_winds,if=talent.airborne_rhythm/tiger_palm,if=combo_strike&chi<2
+    blackout_kick,if=combo_strike&buff.combo_breaker.up/spinning_crane_kick,if=combo_strike&buff.dance_of_chiji.up
+    spinning_crane_kick,if=combo_strike&talent.celestial_conduit&(chi>3&!buff.zenith.up&talent.harmonic_combo|chi>4&!buff.zenith.up)
+    blackout_kick,if=combo_strike&buff.zenith.up&chi>3/tiger_palm,if=combo_strike&chi<4+talent.ascension
+  Priorities (actions.fallback):
+    blackout_kick,if=combo_strike/slicing_winds/tiger_palm,if=combo_strike/spinning_crane_kick,if=chi>4&combo_strike
+  Actions:
+    acidbrood_scourge                           Count=  12.6| 13.285sec  DPE= 10896| 0.44%  DPET=     0  DPR=    0  pDPS=  763  Miss= 0.00%  Hit=  7553|  7446|  7950  Crit= 15784| 15586| 16642|40.61%
+    auto_attack                                 Count=   1.0|  0.000sec  DPE=2395029| 0.00%  DPET=     0  DPR=    0  pDPS=    0
+    blackout_kick                               Count=  18.3|  9.527sec  DPE= 68814| 3.16%  DPET= 72308  DPR=    0  pDPS= 5517  Miss= 0.00%  Hit= 35817| 29667| 61169  Crit= 81758| 65345|131288|40.43%
+    celestial_conduit                           Count=   2.0| 91.798sec  DPE=123432| 0.79%  DPET=135640  DPR=    0  pDPS= 1371  TickCount=     4  MissTick= 0.00%  Tick= 37497| 29267| 47380  CritTick= 81123| 63656|104359|55.52%  UpTime=  0.91%
+    celestial_conduit_heal                      Count=   4.0| 30.873sec  DPE=     0| 0.00%  DPET=     0  DPR=    0  pDPS=    0
+    chi_explosion                               Count=   0.0|  0.000sec  DPE=     0| 1.94%  DPET=     0  DPR=    0  pDPS= 3394  Miss= 0.00%  Hit= 14407| 13268| 19972  Crit= 32675| 29225| 44314|40.18%
+    courage_of_the_white_tiger                  Count=  10.3| 15.724sec  DPE= 14386| 0.47%  DPET=     0  DPR=    0  pDPS=  823  Miss= 0.00%  Hit=  9869|  9377| 13631  Crit= 22025| 20654| 29698|37.16%
+    courage_of_the_white_tiger_celestial        Count=   2.0| 91.794sec  DPE= 40173| 0.26%  DPET=     0  DPR=    0  pDPS=  446  Miss= 0.00%  Hit= 24149| 22517| 27244  Crit= 53319| 50221| 59511|54.94%
+    devour_morsel                               Count=  18.7|  6.175sec  DPE= 17829| 1.06%  DPET=     0  DPR=    0  pDPS= 1856  Miss= 0.00%  Hit= 11177| 11067| 11817  Crit= 23406| 23166| 24736|54.40%
+    dual_threat                                 Count=  17.3| 10.061sec  DPE= 82792| 4.56%  DPET=     0  DPR=    0  pDPS= 7967  Miss= 0.00%  Hit= 48331| 43515| 66056  Crit=110151| 95848|149896|55.75%
+    empowered_tiger_lightning                   Count=  10.0| 12.056sec  DPE= 45561| 1.45%  DPET=     0  DPR=    0  pDPS= 2531  Miss= 0.00%  Hit= 45553| 11998| 95874
+    expel_harm                                  Count=  11.2| 15.102sec  DPE=     0| 0.00%  DPET=     0  DPR=    0  pDPS=    0
+    expel_harm_damage                           Count=   0.0|  0.000sec  DPE=     0| 0.33%  DPET=     0  DPR=    0  pDPS=  573  Miss= 0.00%  Hit=  9202|  5756| 16332
+    fists_of_fury                               Count=  19.3|  9.364sec  DPE=354454|20.18%  DPET=147211  DPR=    0  pDPS=35255  TickCount=    96  MissTick= 0.00%  Tick= 42616| 24265| 90271  CritTick= 98602| 53447|193053|42.56%  UpTime= 22.94%
+    fists_of_fury_damage_mid2_2pc               Count=   0.0|  0.000sec  DPE=     0| 1.61%  DPET=     0  DPR=    0  pDPS= 2821  Miss= 0.00%  Hit= 16850| 12133| 29768  Crit= 38928| 26723| 64147|42.62%
+    flight_of_the_red_crane_damage_celestial    Count=   2.0| 91.794sec  DPE= 48022| 0.31%  DPET=     0  DPR=    0  pDPS=  534  Miss= 0.00%  Hit= 28649| 27023| 31774  Crit= 63143| 58781| 71120|56.17%
+    glory_of_the_dawn_rising_sun_kick_damage    Count=   0.0|  0.000sec  DPE=     0| 1.11%  DPET=     0  DPR=    0  pDPS= 1947  Miss= 0.00%  Hit= 25988| 20539| 41265  Crit= 60099| 45240| 92820|66.53%
+    glory_of_the_dawn_rushing_wind_kick_damage  Count=   0.0|  0.000sec  DPE=     0| 0.32%  DPET=     0  DPR=    0  pDPS=  557  Miss= 0.00%  Hit= 24875| 20539| 39914  Crit= 57393| 45240| 92820|66.17%
+    invoke_xuen_the_white_tiger                 Count=   2.0| 92.503sec  DPE=     0| 0.00%  DPET=     0  DPR=    0  pDPS=    0  TickCount=    10  UpTime= 22.22%
+    melee_main_hand                             Count=  75.7|  2.387sec  DPE= 12692| 3.06%  DPET=  6777  DPR=    0  pDPS= 5339  Miss= 0.00%  Hit= 10106|  9219| 13691  Crit= 21659| 19298| 29223|54.97%
+    rising_sun_kick                             Count=  25.5|  6.976sec  DPE=154777| 0.00%  DPET=158905  DPR=    0  pDPS=    0
+    rising_sun_kick_damage                      Count=   0.0|  0.000sec  DPE=     0|11.43%  DPET=     0  DPR=    0  pDPS=19975  Miss= 0.00%  Hit= 76200| 59071|179491  Crit=175674|130110|428221|65.17%
+    rushing_wind_kick                           Count=   8.1| 20.264sec  DPE=300918| 0.00%  DPET=299580  DPR=    0  pDPS=    0
+    rushing_wind_kick_damage                    Count=   0.0|  0.000sec  DPE=     0| 7.45%  DPET=     0  DPR=    0  pDPS=13009  Miss= 0.00%  Hit=154502|106488|335952  Crit=363783|234552|769978|64.06%
+    spinning_crane_kick                         Count=  28.1|  6.285sec  DPE=282576| 0.00%  DPET=235328  DPR=    0  pDPS=    0  TickCount=   112  UpTime= 18.30%
+    spinning_crane_kick_tick                    Count=   0.0|  0.000sec  DPE=     0|23.30%  DPET=     0  DPR=    0  pDPS=40703  Miss= 0.00%  Hit= 42147| 21564| 96268  Crit= 99609| 47498|209753|40.32%
+    strength_of_the_black_ox_damage_celestial   Count=   9.6| 18.212sec  DPE= 16071| 0.49%  DPET=     0  DPR=    0  pDPS=  854  Miss= 0.00%  Hit=  9822|  7560| 21965  Crit= 24756| 16652| 47219|41.82%
+    teachings_of_the_monastery                  Count=   0.0|  0.000sec  DPE=     0| 0.84%  DPET=     0  DPR=    0  pDPS= 1463  Miss= 0.00%  Hit=  3975|  3713|  5484  Crit=  8990|  8178| 12080|39.30%
+    tiger_palm                                  Count=  32.6|  4.899sec  DPE= 24104| 2.50%  DPET= 25265  DPR=  438  pDPS= 4365  Miss= 0.00%  Hit= 16821| 14984| 29295  Crit= 37193| 33005| 66296|35.75%
+    touch_of_death                              Count=   1.0|  0.000sec  DPE=687021| 2.18%  DPET=710466  DPR=    0  pDPS= 3817  Miss= 0.00%  Hit=686984|633298|905860
+    touch_of_karma                              Count=   2.0|  0.000sec  DPE=323632| 2.06%  DPET=     0  DPR=    0  pDPS= 3596  TickCount=    12  MissTick= 0.00%  Tick= 53940| 52842| 56423  UpTime=  6.67%
+    whirling_dragon_punch                       Count=   8.0| 22.844sec  DPE=189789| 0.00%  DPET=191356  DPR=    0  pDPS=    0  TickCount=    40  UpTime=  4.43%
+    whirling_dragon_punch_aoe                   Count=   0.0|  0.000sec  DPE=     0| 3.26%  DPET=     0  DPR=    0  pDPS= 5688  Miss= 0.00%  Hit= 27201| 20908| 42427  Crit= 62271| 46053| 93450|44.49%
+    whirling_dragon_punch_singletarget          Count=   0.0|  0.000sec  DPE=     0| 1.56%  DPET=     0  DPR=    0  pDPS= 2719  Miss= 0.00%  Hit= 38930| 29969| 60813  Crit= 89333| 66010|133264|44.52%
+    zenith                                      Count=   3.0| 46.245sec  DPE=334869| 0.00%  DPET=     0  DPR=    0  pDPS=    0
+    zenith_stomp_cast                           Count=   5.0| 24.400sec  DPE=128399| 2.03%  DPET=131596  DPR=    0  pDPS= 3543  Miss= 0.00%  Hit= 78941| 55498|107254  Crit=173692|122240|234503|52.20%
+    zenith_stomp_trigger                        Count=   0.0|  0.000sec  DPE=     0| 1.17%  DPET=     0  DPR=    0  pDPS= 2038  Miss= 0.00%  Hit= 77814| 62660|108444  Crit=167936|138017|224807|49.37%
+   xuen_the_white_tiger (DPS=5561.675839851423)
+    crackling_tiger_lightning                   Count=   2.0| 92.503sec  DPE= 66419| 0.42%  DPET=     0  DPR=    0  pDPS= 3321  TickCount=    55  MissTick= 0.00%  Tick=  1519|  1292|  1884  CritTick=  3249|  2704|  3919|51.05%  UpTime=100.00%
+    melee_main_hand                             Count=  77.1|  1.466sec  DPE=  1163| 0.29%  DPET=  2268  DPR=    0  pDPS= 2241  Miss= 0.00%  Hit=   731|   616|   898  Crit=  1557|  1289|  1899|52.23%
+
+  Constant Buffs:
+    flask_of_the_magisters/harandar_celebration/voidtouched
+  Dynamic Buffs:
+    akilzons_rite                           : start=  4.3 refresh=  2.8 interval= 39.3 trigger= 22.1 duration= 18.6 uptime= 44.01%
+    arcanoweave_insight                     : start=  3.6 refresh=  3.0 interval= 48.3 trigger= 23.8 duration= 25.8 uptime= 51.21%
+    celestial_conduit                       : start=  2.0 refresh=  0.0 interval= 92.7 trigger= 92.7 duration= 60.0 uptime= 66.67%
+    combat_wisdom                           : start= 11.2 refresh=  0.8 interval= 16.2 trigger= 15.0 duration=  4.8 uptime= 27.03%  benefit= 34.47%
+    combo_breaker                           : start= 12.2 refresh=  2.2 interval= 14.7 trigger= 37.5 duration=  4.4 uptime= 29.59%  benefit= 77.00%
+    courage_of_the_white_tiger              : start=  2.0 refresh=  0.0 interval= 92.7 trigger= 92.7 duration= 22.4 uptime= 24.85%  benefit=  4.92%
+    crane_stance                            : start=  5.8 refresh=  0.0 interval= 32.0 trigger= 32.0 duration=  7.8 uptime= 25.03%
+    dance_of_chiji                          : start= 10.3 refresh=  1.6 interval= 17.3 trigger= 34.3 duration=  4.0 uptime= 20.98%  benefit= 42.22%
+    devastating_power                       : start=  1.0 refresh= 67.5 interval= 89.1 trigger=  2.6 duration=180.0 uptime= 99.98%
+    devoured_strength                       : start=  2.0 refresh= 16.7 interval= 92.1 trigger=  6.2 duration= 19.7 uptime= 21.90%
+    halazzis_rite                           : start=  0.9 refresh=  0.1 interval= 64.2 trigger= 53.4 duration= 14.9 uptime=  7.31%
+    heart_of_the_jade_serpent               : start=  8.0 refresh=  0.0 interval= 22.9 trigger= 22.9 duration=  6.0 uptime= 26.58%
+    heart_of_the_jade_serpent_unity_within  : start=  2.0 refresh=  0.0 interval= 92.0 trigger= 92.0 duration=  6.0 uptime=  6.67%
+    heart_of_the_jade_serpent_yulons_avatar : start=  3.0 refresh=  0.0 interval= 46.3 trigger= 46.3 duration=  4.0 uptime=  6.67%
+    hit_combo                               : start=  1.0 refresh=152.8 interval=  0.0 trigger=  1.2 duration=180.0 uptime=100.00%  benefit= 99.92%
+    invoke_xuen_the_white_tiger             : start=  2.0 refresh=  0.0 interval= 92.7 trigger= 92.7 duration= 20.0 uptime= 22.22%
+    jade_sanctuary                          : start=  2.0 refresh=  0.0 interval= 92.0 trigger= 92.0 duration=  8.0 uptime=  8.89%
+    janalais_rite                           : start=  0.9 refresh=  0.1 interval= 61.9 trigger= 52.5 duration= 14.8 uptime=  7.67%
+    momentum_boost_damage                   : start= 19.3 refresh= 95.5 interval=  9.4 trigger=  1.5 duration=  2.1 uptime= 23.01%  benefit= 79.75%
+    momentum_boost_speed                    : start= 11.9 refresh=  7.2 interval= 15.5 trigger=  9.4 duration= 11.7 uptime= 77.12%
+    nalorakks_rite                          : start=  0.9 refresh=  0.1 interval= 64.6 trigger= 54.4 duration= 14.8 uptime=  7.58%
+    ox_stance                               : start=  5.8 refresh=  0.0 interval= 32.0 trigger= 32.0 duration=  7.8 uptime= 25.01%
+    potion_of_recklessness_Mastery          : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 duration= 30.0 uptime= 16.67%
+    potion_of_recklessness_penalty_Vers     : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 duration= 30.0 uptime= 16.67%
+    rushing_wind_kick                       : start=  8.2 refresh=  0.1 interval= 20.2 trigger= 19.9 duration=  2.6 uptime= 11.74%  benefit= 11.73%
+    serpent_stance                          : start=  5.7 refresh=  0.0 interval= 32.0 trigger= 32.0 duration=  7.8 uptime= 25.00%
+    strength_of_the_black_ox                : start=  7.9 refresh=  2.4 interval= 19.8 trigger= 14.8 duration=  6.0 uptime= 26.34%  benefit= 41.81%
+    teachings_of_the_monastery              : start= 17.3 refresh= 24.9 interval= 10.7 trigger=  4.1 duration=  8.0 uptime= 76.63%  benefit= 90.09%
+    tiger_stance                            : start=  5.7 refresh=  0.0 interval= 32.0 trigger= 32.0 duration=  7.8 uptime= 24.95%
+    tigereye_brew_1                         : start=  3.0 refresh= 64.2 interval= 12.2 trigger=  2.7 duration= 59.8 uptime= 99.76%
+    unbroken_rhythm                         : start= 19.3 refresh= 95.5 interval=  9.4 trigger=  1.5 duration=  3.0 uptime= 32.15%  benefit= 30.85%
+    unity_within                            : start=  2.0 refresh=  0.0 interval= 92.0 trigger= 92.0 duration=  0.8 uptime=  0.91%
+    venomcursed_critical_strike             : start=  4.4 refresh=  2.2 interval= 38.2 trigger= 23.7 duration= 15.4 uptime= 37.35%
+    venomcursed_haste                       : start=  4.4 refresh=  2.2 interval= 37.8 trigger= 23.5 duration= 15.5 uptime= 37.79%
+    venomcursed_mastery                     : start=  4.4 refresh=  2.2 interval= 38.2 trigger= 23.8 duration= 15.5 uptime= 37.50%
+    voracious_heart_of_ulatek               : start=  2.0 refresh=  0.0 interval= 92.7 trigger= 92.7 duration= 20.0 uptime= 22.22%
+    whirling_dragon_punch                   : start= 13.5 refresh= 17.7 interval= 13.1 trigger=  5.7 duration= 11.0 uptime= 82.45%  benefit= 80.43%
+    zenith                                  : start=  2.9 refresh=  0.1 interval= 47.6 trigger= 46.3 duration= 20.3 uptime= 33.29%  benefit= 36.86%
+    zenith_stomp                            : start=  3.0 refresh=  0.0 interval= 46.3 trigger= 46.3 duration= 17.8 uptime= 29.69%
+  Up-Times:
+     29.84% : Energy Cap
+  Procs:
+      7.59706 |  19.89150sec : Teachings of the Monastery - Rising Sun Kick Reset
+     27.84123 |   6.28183sec : Xuen's Battlegear CD SCK Half-Second Reduction
+     18.63576 |   9.61785sec : delayed_aa_channel
+  Gains:
+      1718.4 : Energy Regen                               (energy)         (overflow=31.42%)
+        11.5 : energy_burst                               (chi)            (overflow=17.99%)
+         7.2 : glory_of_the_dawn_rising_sun_kick_damage   (chi)
+         1.3 : glory_of_the_dawn_rushing_wind_kick_damage (chi)            (overflow=38.14%)
+        65.2 : tiger_palm                                 (chi)
+         3.0 : touch_of_death_ww                          (chi)
+         9.4 : zenith_stomp_cast                          (chi)            (overflow=4.90%)
+         5.3 : zenith_stomp_trigger                       (chi)            (overflow=11.42%)
+    Pet "xuen_the_white_tiger" Gains:
+  Waiting:  0.46%
+
+
+ *** Targets ***
+
+Target: Fluffy_Pillow humanoid tank_dummy unknown 93
+  DTPS=174697.58285763217 DTPS-Error=280.7609165328203/0.16% DTPS-Range=19135.39102680041/10.95%
+  DPR=0 RPS-Out=170410.79296963874 RPS-In=0 Resource=health Waiting=0 ApM=0
+  Core Stats:    strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  health=0|30232564  mana=0|0
+  Generic Stats: mastery=0.00%|0.00%(0)  versatility=0.00%|0.00%(0)  leech=0.00%|0.00%(0)  runspeed=7.00%|7.00%(0)
+  Spell Stats:   power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%  manareg=0|0(0)
+  Attack Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00%|0.00%(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%
+  Defense Stats: armor=1470|1470(1470) miss=3.00%|3.00%  dodge=3.00%|3.00%(0)  parry=3.00%|3.00%(0)  block=0.00%|0.00%(0) crit=0.00%|0.00%  versatility=0.00%|0.00%(0)
+  Priorities (actions.precombat):
+    snapshot_stats
+  Priorities (actions.default):
+
+  Actions:
+
+  Constant Buffs:
+    mystic_touch
+  Dynamic Buffs:
+    bleeding      : start= 27.3 refresh=  0.0 interval=  6.5 trigger=  0.0 duration=  1.8 uptime= 27.43%
+    mortal_wounds : start=  3.5 refresh= 39.5 interval= 51.8 trigger=  4.1 duration= 49.0 uptime= 95.42%
+  Waiting:  0.00%
+
+
+Profilesets (median Damage per Second):
+    176988.368 : new_chest_H7_passive
+    175964.429 : H7_passive
+    175769.459 : new_chest
+    175529.082 : both_crit_haste
+    175177.467 : wrist_crit_mastery
+    175079.550 : feet_crit_mastery
+    175023.528 : craft_cloak_shoes
+    175022.437 : both_crit_mastery
+    174881.456 : craft_belt_shoes
+    174363.283 : craft_shoulder_shoes
+
+
+Baseline Performance:
+  Networking    = enabled
+  RNG Engine    = xoshiro256+
+  Iterations    = 1505 (297, 243, 254, 251, 231, 229)
+  TotalEvents   = 80406877
+  MaxEventQueue = 88
+  TargetHealth  = 30232564
+  SimSeconds    = 269820.000
+  CpuSeconds    = 330.515625
+  WallSeconds   = 28.6725039
+  InitSeconds   = 0.4841291
+  MergeSeconds  = 0.0060056
+  AnalyzeSeconds= 0.0074929
+  SpeedUp       = 820
+  EndTime       = 2026-10-10 12:49:44+0800
+
+
+Waiting:
+     0.46% : Shaseng_BIS_refine

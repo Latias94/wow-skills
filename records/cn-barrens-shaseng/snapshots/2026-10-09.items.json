@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-10-09T17:38:40.2482924+08:00",
+  "simc_path": "E:\\github\\wow-skills\\records\\cn-barrens-shaseng\\snapshots\\2026-10-09.simc",
+  "data_environment": 1,
+  "locale": 4,
+  "equipped_average": 322.875,
+  "items": [
+    {
+      "slot": "head",
+      "item_id": 271519,
+      "bonus_ids": "12846/6652/13696/13440/13692/13698/1574",
+      "gem_ids": null,
+      "enchant_id": "8017",
+      "name": "美猴王的不屈面容",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "头部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "mastery": 135,
+        "crit": 55
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/271519?dataEnv=1&locale=4&bonus=12846:6652:13696:13440:13692:13698:1574",
+      "error": null
+    },
+    {
+      "slot": "neck",
+      "item_id": 268265,
+      "bonus_ids": "6652/13668/13334/13987/12850",
+      "gem_ids": "240983/0",
+      "enchant_id": null,
+      "name": "亚基克星藏骨匣",
+      "item_level": 321,
+      "upgrade_text": "神话 2/6",
+      "slot_type": "颈部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "haste": 94,
+        "crit": 94,
+        "versatility": 94,
+        "mastery": 94
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/268265?dataEnv=1&locale=4&bonus=6652:13668:13334:13987:12850",
+      "error": null
+    },
+    {
+      "slot": "shoulder",
+      "item_id": 251146,
+      "bonus_ids": "13440/6652/13662/12699/12846",
+      "gem_ids": null,
+      "enchant_id": "8001",
+      "name": "拾荒者护肩",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "肩部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "versatility": 84,
+        "crit": 59
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/251146?dataEnv=1&locale=4&bonus=13440:6652:13662:12699:12846",
+      "error": null
+    },
+    {
+      "slot": "back",
+      "item_id": 239656,
+      "bonus_ids": "12214/13667/12497/13751/14001/8960/12384/8790/13836",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "信徒的流丝罩袍",
+      "item_level": 331,
+      "upgrade_text": "",
+      "slot_type": "背部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "haste": 56,
+        "crit": 56
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/239656?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8960:12384:8790:13836",
+      "error": null
+    },
+    {
+      "slot": "chest",
+      "item_id": 271522,
+      "bonus_ids": "6652/13690/13698/12846",
+      "gem_ids": null,
+      "enchant_id": "7987",
+      "name": "美猴王战衣",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "胸部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "haste": 59,
+        "mastery": 132
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/271522?dataEnv=1&locale=4&bonus=6652:13690:13698:12846",
+      "error": null
+    },
+    {
+      "slot": "wrist",
+      "item_id": 244576,
+      "bonus_ids": "12214/13667/12497/13751/14001/8960/12384/8791/13836/13696",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "银月城特工的偏斜腕甲",
+      "item_level": 331,
+      "upgrade_text": "",
+      "slot_type": "腕部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "mastery": 56,
+        "crit": 56
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/244576?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8960:12384:8791:13836:13696",
+      "error": null
+    },
+    {
+      "slot": "hands",
+      "item_id": 271520,
+      "bonus_ids": "6652/13691/13697/12846",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "美猴王的斗拳",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "手部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "versatility": 42,
+        "haste": 100
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/271520?dataEnv=1&locale=4&bonus=6652:13691:13697:12846",
+      "error": null
+    },
+    {
+      "slot": "waist",
+      "item_id": 271436,
+      "bonus_ids": "6652/13696/13662/13334/10844/12846",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "游蛇鳞束带",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "腰部",
+      "inventory_type": null,
+      "secondary_ratings": {},
+      "source": "https://nether.wowhead.com/tooltip/item/271436?dataEnv=1&locale=4&bonus=6652:13696:13662:13334:10844:12846",
+      "error": null
+    },
+    {
+      "slot": "legs",
+      "item_id": 271518,
+      "bonus_ids": "6652/13440/13693/13698/12846",
+      "gem_ids": null,
+      "enchant_id": "8159",
+      "name": "美猴王长裤",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "腿部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "versatility": 67,
+        "crit": 123
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/271518?dataEnv=1&locale=4&bonus=6652:13440:13693:13698:12846",
+      "error": null
+    },
+    {
+      "slot": "feet",
+      "item_id": 251153,
+      "bonus_ids": "13440/6652/13662/12699/12846",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "极地探险者裹腿",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "脚部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "haste": 90,
+        "crit": 53
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/251153?dataEnv=1&locale=4&bonus=13440:6652:13662:12699:12846",
+      "error": null
+    },
+    {
+      "slot": "finger1",
+      "item_id": 275526,
+      "bonus_ids": "6652/13668/12846",
+      "gem_ids": "0",
+      "enchant_id": "7967",
+      "name": "猎捕手的指环",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "手指",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "mastery": 161,
+        "crit": 215
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/275526?dataEnv=1&locale=4&bonus=6652:13668:12846",
+      "error": null
+    },
+    {
+      "slot": "finger2",
+      "item_id": 240949,
+      "bonus_ids": "12214/13667/12497/13751/14001/8790/13836",
+      "gem_ids": "0",
+      "enchant_id": null,
+      "name": "精工辛多雷指环",
+      "item_level": 331,
+      "upgrade_text": "",
+      "slot_type": "手指",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "haste": 199,
+        "crit": 199
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/240949?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8790:13836",
+      "error": null
+    },
+    {
+      "slot": "trinket1",
+      "item_id": 273796,
+      "bonus_ids": "13440/6652/12699/12846",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "一瓶肮脏的烈性毒液",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "饰品",
+      "inventory_type": null,
+      "secondary_ratings": {},
+      "source": "https://nether.wowhead.com/tooltip/item/273796?dataEnv=1&locale=4&bonus=13440:6652:12699:12846",
+      "error": null
+    },
+    {
+      "slot": "trinket2",
+      "item_id": 250228,
+      "bonus_ids": "13440/41/12699/12846",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "共鸣咆哮石",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "饰品",
+      "inventory_type": null,
+      "secondary_ratings": {},
+      "source": "https://nether.wowhead.com/tooltip/item/250228?dataEnv=1&locale=4&bonus=13440:41:12699:12846",
+      "error": null
+    },
+    {
+      "slot": "main_hand",
+      "item_id": 273783,
+      "bonus_ids": "13440/6652/12701/12846",
+      "gem_ids": null,
+      "enchant_id": "8689",
+      "name": "涂毒战杖",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "双手",
+      "inventory_type": "two_hand",
+      "secondary_ratings": {
+        "haste": 110,
+        "mastery": 80
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/273783?dataEnv=1&locale=4&bonus=13440:6652:12701:12846",
+      "error": null
+    }
+  ],
+  "limitations": "Tooltip lookup only; no gems/enchants/passives in ratings, no talent decoding or DPS simulation."
+}

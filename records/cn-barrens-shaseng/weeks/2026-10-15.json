@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-barrens-shaseng",
+  "reset_date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "patch": "12.1.5",
+  "season": "Midnight Season 2",
+  "budget": {
+    "reported_balance": 1,
+    "reported_at": "2026-10-15T14:27:00+08:00",
+    "evidence": "User SimC export bonus_roll_currencies=3418:1/3511:0. Preserve raw currency IDs; this is the current snapshot, not recurring income.",
+    "raw_currencies": {"3418": 1, "3511": 0}
+  },
+  "vault": {
+    "status": "offered",
+    "candidates": [
+      {"item_id": 270173, "slot": "trinket", "item_level": 318, "bonus_ids": "6652/13334/12849", "name": "祖尔金的处斩技法", "track": "myth", "rank": "1/6"},
+      {"item_id": 270166, "slot": "trinket", "item_level": 318, "bonus_ids": "6652/13334/12849", "name": "瓦什尼克的血色深仇", "track": "myth", "rank": "1/6"},
+      {"item_id": 268249, "slot": "finger", "item_level": 318, "bonus_ids": "6652/13668/13334/12849", "name": "邪恶炼金师指环", "track": "myth", "rank": "1/6", "socket": true},
+      {"item_id": 251226, "slot": "chest", "item_level": 318, "bonus_ids": "12849/13440/41/13662/12699", "name": "瘟疫兽皮", "track": "myth", "rank": "1/6", "tertiary": "leech"},
+      {"item_id": 159645, "slot": "main_hand", "item_level": 318, "bonus_ids": "12849/13440/6652/12701", "name": "恳求碎颅者", "track": "myth", "rank": "1/6", "weapon_type": "one_hand"},
+      {"item_id": 275517, "slot": "head", "item_level": 279, "bonus_ids": "6652/13696/13662/12825", "name": "猎捕手的流线面具", "track": null},
+      {"item_id": 272148, "slot": "finger", "item_level": 279, "bonus_ids": "12825/6652/13668", "name": "长蛇绕环", "track": null}
+    ],
+    "chosen_event_id": null,
+    "evidence": "User screenshot and Weekly Reward Choices section, October 15 Thursday Vault. Tooltips with actual bonus IDs confirm five 318 offers are Myth 1/6."
+  },
+  "rules": {"raid_roll_cost": 1, "raid_roll_cost_evidence": "Previous verified 12.1 rule; verify current preview before spending.", "storage_cap": null, "exclusion_scope": null},
+  "pools": [],
+  "plan": {
+    "status": "proposed",
+    "vault_recommendation": 268249,
+    "reason": "Attainable final ring remains useful beside new raid ring; controlled current-loadout comparisons favor it for Mythic+. Do not claim until user chooses.",
+    "conditional_actions": [
+      "If claiming ring 268249, remove need to pursue H4 specifically for its ring; shoulder target remains optional.",
+      "Owned H8 head/heart/neck reduce current H8 pursuit to polearm 268215; no exclusion inferred for head/heart without acquisition history.",
+      "Compare actual residual H8 weapon pool against accessible Kith'ix ring/trinket pool before spending the currently exported one coin.",
+      "If keeping Vault open during key rolls, reassess after actual results, especially if ring 268249 is acquired elsewhere."
+    ],
+    "evidence": "analysis/2026-10-15/vault.html"
+  },
+  "events": [],
+  "ownership_update": {"source": "snapshots/2026-10-15-equipped.simc", "owned_h8_core": [271875,270175,268265], "missing_target_weapon": 268215, "head_heart_acquisition_method": null},
+  "unresolved": ["Final Vault selection", "Head/heart acquisition method and any intervening R results", "Complete residual pools", "Available upgrade resources after planned spending", "Whether to attempt key rolls before Vault claim"]
+}

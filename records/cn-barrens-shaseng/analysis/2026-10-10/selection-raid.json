@@ -1,0 +1,46 @@
+{
+  "mode": "raid",
+  "selected_profile": "Joint_CM_flask_of_the_shattered_sun_2_G240906",
+  "shortlist": [
+    {
+      "name": "Joint_CM_flask_of_the_shattered_sun_2_G240906",
+      "mean": 179104.85209359988,
+      "min": 161889.80017609813,
+      "max": 196848.91575488637,
+      "stddev": 4975.397502602996,
+      "mean_stddev": 90.85305826278649,
+      "mean_error": 178.0687221593163,
+      "median": 179067.49747178497,
+      "first_quartile": 175745.642949135,
+      "third_quartile": 182465.61180390997,
+      "iterations": 3000
+    },
+    {
+      "name": "Joint_CM_flask_of_the_shattered_sun_2_G240908",
+      "mean": 179074.669016669,
+      "min": 161593.4661415831,
+      "max": 197160.09247114483,
+      "stddev": 4937.812079218259,
+      "mean_stddev": 90.1667310580117,
+      "mean_error": 176.7235455557514,
+      "median": 179173.64784594314,
+      "first_quartile": 175745.3214576969,
+      "third_quartile": 182286.3361454529,
+      "iterations": 3000
+    },
+    {
+      "name": "Joint_CM_flask_of_the_magisters_2_G240906",
+      "mean": 178968.0974884887,
+      "min": 162302.01751568762,
+      "max": 196087.01346248292,
+      "stddev": 4976.244058370467,
+      "mean_stddev": 90.86851676241884,
+      "mean_error": 178.09902026186418,
+      "median": 178986.26169886865,
+      "first_quartile": 175563.6776569136,
+      "third_quartile": 182358.2901848864,
+      "iterations": 3000
+    }
+  ],
+  "selection_status": "Screening winner pending independent-seed verification; near ties are not proven rankings."
+}

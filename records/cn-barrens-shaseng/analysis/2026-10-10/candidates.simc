@@ -1,0 +1,68 @@
+# Same gear/talents except explicit replacements; keep MID2 four-piece to model eligible catalyst conversion.
+ptr=1
+input=E:/github/wow-skills/records/cn-barrens-shaseng/snapshots/2026-10-09.simc
+race=pandaren
+set_bonus=mid2_2pc=1/mid2_4pc=1
+iterations=1500
+threads=6
+profileset_work_threads=2
+max_time=180
+vary_combat_length=0
+seed=10102026
+fight_style=Patchwerk
+override.bloodlust=0
+temporary_enchant=main_hand:thalassian_phoenix_oil_2
+# Imported BoE random stats are unresolved. Primary assumption follows the NGA haste/mastery belt route.
+waist=,id=271436,ilevel=321,stats=125agi_2527sta_98haste_45mastery
+
+# All candidate rewards normalized to 334; this is not a promise of acquisition level.
+profileset."H8_polearm"=main_hand=,id=268215,ilevel=334,bonus_id=13846,enchant_id=8689
+profileset."H8_head_catalyzed"=head=,id=271519,redirected_base_stats=271875,ilevel=334,bonus_id=13847,enchant_id=8017
+profileset."H8_heart_replaces_poison"=trinket1=,id=270175,ilevel=334
+profileset."H8_heart_replaces_stone"=trinket2=,id=270175,ilevel=334
+profileset."H7_passive_replaces_poison"=trinket1=,id=270173,ilevel=334
+profileset."H2_core_replaces_poison"=trinket1=,id=270165,ilevel=334
+profileset."explorers_bag_replaces_poison"=trinket1=,id=270164,ilevel=334
+profileset."H4_ring"=finger1=,id=268249,ilevel=334,enchant_id=7967
+profileset."H4_shoulders"=shoulder=,id=268246,ilevel=334,enchant_id=8001
+
+# PTR-only candidates; output limitations include unverified AoE effect implementations.
+profileset."new_ring"=finger1=,id=281029,ilevel=334,enchant_id=7967
+profileset."new_chest_catalyzed"=chest=,id=271522,redirected_base_stats=281236,ilevel=334,bonus_id=14049,enchant_id=7987
+profileset."new_trinket_replaces_poison"=trinket1=,id=281215,ilevel=334
+
+# Plan anchor: polearm + heart; compare the remaining passive and new chest/ring in that context.
+profileset."anchor_polearm_heart"=main_hand=,id=268215,ilevel=334,bonus_id=13846,enchant_id=8689
+profileset."anchor_polearm_heart"+=trinket1=,id=270175,ilevel=334
+profileset."anchor_plus_H7"=main_hand=,id=268215,ilevel=334,bonus_id=13846,enchant_id=8689
+profileset."anchor_plus_H7"+=trinket1=,id=270175,ilevel=334
+profileset."anchor_plus_H7"+=trinket2=,id=270173,ilevel=334
+profileset."anchor_plus_H2"=main_hand=,id=268215,ilevel=334,bonus_id=13846,enchant_id=8689
+profileset."anchor_plus_H2"+=trinket1=,id=270175,ilevel=334
+profileset."anchor_plus_H2"+=trinket2=,id=270165,ilevel=334
+profileset."anchor_plus_bag"=main_hand=,id=268215,ilevel=334,bonus_id=13846,enchant_id=8689
+profileset."anchor_plus_bag"+=trinket1=,id=270175,ilevel=334
+profileset."anchor_plus_bag"+=trinket2=,id=270164,ilevel=334
+profileset."anchor_plus_new_trinket"=main_hand=,id=268215,ilevel=334,bonus_id=13846,enchant_id=8689
+profileset."anchor_plus_new_trinket"+=trinket1=,id=270175,ilevel=334
+profileset."anchor_plus_new_trinket"+=trinket2=,id=281215,ilevel=334
+profileset."anchor_plus_H8_head"=main_hand=,id=268215,ilevel=334,bonus_id=13846,enchant_id=8689
+profileset."anchor_plus_H8_head"+=trinket1=,id=270175,ilevel=334
+profileset."anchor_plus_H8_head"+=head=,id=271519,redirected_base_stats=271875,ilevel=334,bonus_id=13847,enchant_id=8017
+profileset."anchor_plus_new_chest"=main_hand=,id=268215,ilevel=334,bonus_id=13846,enchant_id=8689
+profileset."anchor_plus_new_chest"+=trinket1=,id=270175,ilevel=334
+profileset."anchor_plus_new_chest"+=chest=,id=271522,redirected_base_stats=281236,ilevel=334,bonus_id=14049,enchant_id=7987
+
+# Local equal-budget sensitivity tests; these are not obtainable gear sets.
+profileset."stats_100crit_to_mastery"=enchant_crit_rating=-100
+profileset."stats_100crit_to_mastery"+=enchant_mastery_rating=100
+profileset."stats_100crit_to_haste"=enchant_crit_rating=-100
+profileset."stats_100crit_to_haste"+=enchant_haste_rating=100
+profileset."stats_100vers_to_mastery"=enchant_versatility_rating=-100
+profileset."stats_100vers_to_mastery"+=enchant_mastery_rating=100
+profileset."stats_100vers_to_haste"=enchant_versatility_rating=-100
+profileset."stats_100vers_to_haste"+=enchant_haste_rating=100
+profileset."stats_100mastery_to_haste"=enchant_mastery_rating=-100
+profileset."stats_100mastery_to_haste"+=enchant_haste_rating=100
+profileset."stats_100haste_to_mastery"=enchant_haste_rating=-100
+profileset."stats_100haste_to_mastery"+=enchant_mastery_rating=100

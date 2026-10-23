@@ -1,0 +1,46 @@
+{
+  "mode": "dungeon",
+  "selected_profile": "Joint_CM_flask_of_the_magisters_2_G240906",
+  "shortlist": [
+    {
+      "name": "Joint_CM_flask_of_the_magisters_2_G240906",
+      "mean": 320271.58724126994,
+      "min": 260931.2065860531,
+      "max": 377331.13128300814,
+      "stddev": 15142.359025855592,
+      "mean_stddev": 276.5064753303317,
+      "mean_error": 541.9427333797995,
+      "median": 319940.3628213465,
+      "first_quartile": 310271.37833647296,
+      "third_quartile": 330286.6457730305,
+      "iterations": 3000
+    },
+    {
+      "name": "Joint_HM_flask_of_the_magisters_2_G240906",
+      "mean": 320230.42214074504,
+      "min": 264001.73526341934,
+      "max": 370340.92830913584,
+      "stddev": 15234.183293171003,
+      "mean_stddev": 278.18322889705274,
+      "mean_error": 545.2291099829786,
+      "median": 320134.1521696568,
+      "first_quartile": 309821.9236577441,
+      "third_quartile": 330695.0895584833,
+      "iterations": 3000
+    },
+    {
+      "name": "Joint_HM_flask_of_the_magisters_2_G240908",
+      "mean": 320215.12082289485,
+      "min": 265232.76253736153,
+      "max": 373919.18221230985,
+      "stddev": 15366.505817173444,
+      "mean_stddev": 280.59949935109853,
+      "mean_error": 549.9649130519159,
+      "median": 320382.24332292087,
+      "first_quartile": 310031.19156610465,
+      "third_quartile": 330386.5323258282,
+      "iterations": 3000
+    }
+  ],
+  "selection_status": "Screening winner pending independent-seed verification; near ties are not proven rankings."
+}

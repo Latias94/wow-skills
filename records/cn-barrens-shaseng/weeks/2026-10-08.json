@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-barrens-shaseng",
+  "reset_date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "patch": "12.1",
+  "season": "Midnight Season 2",
+  "budget": {
+    "reported_balance": 2,
+    "reported_at": "2026-10-09T17:23:59+08:00",
+    "evidence": "User says this character has two coins this week; this is not a recurring income assertion."
+  },
+  "vault": {"status": "unknown", "candidates": null, "chosen_event_id": null},
+  "rules": {
+    "raid_roll_cost": 1,
+    "raid_roll_cost_source": "https://www.wowhead.com/news/massive-changes-to-end-game-gearing-in-patch-12-1-raid-item-levels-buffed-and-381915",
+    "heroic_roll_track": "myth",
+    "heroic_roll_normal_cap": 334,
+    "special_upgrade_access": null,
+    "same_boss_weekly_roll_limit": null,
+    "exclusion_scope": null,
+    "storage_cap": null
+  },
+  "pools": [
+    {
+      "id": "venomous-abyss-ulatek-heroic-brewmaster",
+      "boss": "Ula'tek",
+      "user_shorthand": "H8",
+      "loot_spec": "brewmaster",
+      "loot_spec_evidence": "Current Windwalker guide explicitly recommends Brewmaster when rolling Ula'tek.",
+      "source": "https://www.wowhead.com/guide/classes/monk/windwalker/bis-gear",
+      "verified_at": "2026-10-10",
+      "completeness": "partial",
+      "history_coverage": "unknown",
+      "remaining_item_ids": null,
+      "confirmed_exclusions": [268265],
+      "confirmed_prior_rolls": [
+        {"event_id": "shaseng-2026-10-01-h8-neck-268265", "item_id": 268265, "week": "2026-10-01", "loot_spec": null}
+      ],
+      "exclusion_note": "User confirmed on 2026-10-10 that last week's necklace is already excluded from the relevant H8 roll pool. This confirms item 268265 exclusion here, not a general cross-loot-spec exclusion rule or completeness of the remaining pool.",
+      "known_target_ids": [268215, 270175, 271875],
+      "known_targets_missing_id": [],
+      "remaining_n": null,
+      "probability": null
+    },
+    {
+      "id": "venomous-abyss-zuljin-heroic-windwalker",
+      "boss": "The Coiled Altar",
+      "user_shorthand": "H7",
+      "loot_spec": "windwalker",
+      "completeness": "partial",
+      "history_coverage": "unknown",
+      "known_targets": ["Zul'jin's Guillotine Technique", "Silken Voodoo Drape", "Sash of the Forlorn Vessel", "Coiled Hex Legguards"],
+      "known_target_ids": [270173, 268253, 268256, 268225],
+      "remaining_item_ids": null,
+      "confirmed_exclusions": [],
+      "remaining_n": null,
+      "probability": null,
+      "source": "https://www.wowhead.com/guide/classes/monk/windwalker/bis-gear"
+    },
+    {
+      "id": "user-h4-unresolved",
+      "boss": null,
+      "user_shorthand": "H4",
+      "completeness": "unknown",
+      "history_coverage": "unknown",
+      "remaining_n": null,
+      "probability": null,
+      "notes": "Published encounter tables contain inconsistent Explorer/Vaashnik numbering. Resolve by boss name before spending. Vaashnik targets include Spaulders of Spite and Ring of the Malicious Alchemist; Gebbo's Bottomless Bag is from the Lost Explorers."
+    }
+  ],
+  "plan": {
+    "status": "proposed",
+    "revised_at": "2026-10-10",
+    "primary_actions": [
+      {"order": 1, "boss": "Ula'tek", "difficulty": "heroic", "loot_spec": "brewmaster", "planned_cost": 1, "condition": "Confirm desired items in reward preview; reachable Heroic kill."},
+      {"order": 2, "boss": null, "action": "reserve", "earmarked_coins": 1, "planned_cost": 0, "condition": "Reserve for next reset only if actual cap/carryover permits. Otherwise reassess passive-trinket sources or Vaashnik after H8 result; no automatic H4 spend."}
+    ],
+    "alternatives": [
+      {"boss": "The Coiled Altar", "condition": "H7 armor targets: cloak 268253, waist 268256, legs 268225; passive 270173 is optional for single target. Compare remaining pool with H4 after H8/new-raid acquisitions; do not discard H7 solely because its weapon overlaps H8."},
+      {"boss": "Entombed Sentinels", "target": "Keeper's Seething Core", "condition": "Alternative passive-trinket route supported by matched sample; preview and personal equal-level comparison needed."},
+      {"boss": "Lost Explorers", "target": "Gebbo's Bottomless Bag", "condition": "Player prioritizes a strong passive Mythic+ trinket; confirm boss name and remaining pool."},
+      {"boss": "Vaashnik", "targets": ["Spaulders of Spite", "Ring of the Malicious Alchemist"], "condition": "Full target-set sims retain this ring alongside the new-raid ring, so new-raid overlap does not invalidate this boss. Shoulder is a viable Catalyst precursor. Inspect the complete residual pool before allocating the second coin; not an automatic recommendation."}
+    ],
+    "stop_rules": [
+      "After a weapon result, reassess weapon routes; do not manufacture a second weapon before reviewing.",
+      "Retain four-piece when replacing head/chest/legs; catalyst state must be known.",
+      "After an on-use trinket, compare paired passive trinkets rather than assuming two on-use items are optimal.",
+      "WCL export cross-check supports flexible hand/cloak acquisition: dungeon tier hands and dungeon/crafted cloak routes are near-equivalent in controlled tests. Do not spend extra coins just to reproduce one fixed armor source.",
+      "An ordinary crafted ring is a viable pre-new-raid alternative, not automatically superior. More than two crafts are allowed in the candidate model, but retain only two embellishments."
+    ],
+    "next_week": {
+      "new_raid": "Kith'ix",
+      "planned_cn_open_date": "2026-10-15",
+      "release_date_source": "https://wow.blizzard.cn/news/24307306/",
+      "allocation": null,
+      "condition": "Inspect live Monk reward pool after actual results. Dungeon candidates: ring 281029 and trinket 281215. New chest 281236 is a conditional raid-single-target objective based on joint gear/stat verification, not a required dungeon upgrade. Mythic Delve legs remain unverified. See raid-dungeon-optimization.md; keep owned neck bonus 13987 in practical targets."
+    }
+  },
+  "events": [],
+  "plan_revision_reason": "Attainable end-state simulations exclude inaccessible M7/M8 and permit replacing all crafts. H8 remains the anchor. New trinket is strongest in the tested dungeon model, H7 passive remains a single-target option, and H4 ring can remain alongside the new ring. Reserve the second coin if carryover allows; verify live pools before assigning numeric odds. No current-week spending reported.",
+  "unresolved": ["Vault offers", "prior roll results", "exact pools/weights", "heroic access to Zul'jin", "H4 boss identity", "actual panel stats", "special-upgrade access"]
+}

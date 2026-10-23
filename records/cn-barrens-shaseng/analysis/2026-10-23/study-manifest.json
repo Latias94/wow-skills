@@ -1,0 +1,334 @@
+{
+  "current-raid": {
+    "mode": "raid",
+    "stage": "current",
+    "baseline_label": "当前导出",
+    "labels": {
+      "Head_enchant": "补头部附魔",
+      "Chest_enchant": "补胸部附魔",
+      "Feet_enchant": "补鞋部附魔",
+      "Empty_sockets": "填三个现有空孔（项链第二孔＋双戒）",
+      "All_prepared": "补齐三处附魔与三个现有空孔",
+      "Craft_feet": "331制造鞋替321鞋，不迁移美化",
+      "Craft_waist": "331制造腰替321腰（普通制造）",
+      "H4_ring": "神话334邪恶炼金师指环替制造戒，保留原戒指宝石",
+      "Both_raid_rings": "334邪恶炼金师指环替虫群指环、保留制造戒（另一槽对照）",
+      "New_tendril": "334触须替334祖尔金饰品",
+      "Myth_tier_shoulder": "获取334同来源神话肩并化生（非直接升级）",
+      "Myth_tier_hands": "获取334神话套装手",
+      "Myth_tier_legs": "获取334同来源神话腿并化生（非直接升级）",
+      "H7_waist": "获取334神话H7腰",
+      "Myth_shoulder_4pc": "取得334神话目标肩并保留四件套",
+      "Myth_shoulder_5pc": "神话肩替英雄肩（五件套无额外收益）",
+      "Current_shoulder_bonus_only": "仅对比当前肩副属性，保持装备与装等"
+    }
+  },
+  "bags-raid": {
+    "mode": "raid",
+    "stage": "bags",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Bag_321": "背包饰品：Bag_321",
+      "Stone_321": "背包饰品：Stone_321",
+      "Poison_321": "背包饰品：Poison_321",
+      "Feather_311": "背包饰品：Feather_311",
+      "Essence_311": "背包饰品：Essence_311",
+      "Order_311": "背包饰品：Order_311",
+      "Fang_311": "背包饰品：Fang_311",
+      "Ritual_305": "背包饰品：Ritual_305",
+      "Vendetta_298": "背包饰品：Vendetta_298"
+    }
+  },
+  "current-dungeon": {
+    "mode": "dungeon",
+    "stage": "current",
+    "baseline_label": "当前导出",
+    "labels": {
+      "Head_enchant": "补头部附魔",
+      "Chest_enchant": "补胸部附魔",
+      "Feet_enchant": "补鞋部附魔",
+      "Empty_sockets": "填三个现有空孔（项链第二孔＋双戒）",
+      "All_prepared": "补齐三处附魔与三个现有空孔",
+      "Craft_feet": "331制造鞋替321鞋，不迁移美化",
+      "Craft_waist": "331制造腰替321腰（普通制造）",
+      "H4_ring": "神话334邪恶炼金师指环替制造戒，保留原戒指宝石",
+      "Both_raid_rings": "334邪恶炼金师指环替虫群指环、保留制造戒（另一槽对照）",
+      "New_tendril": "334触须替334祖尔金饰品",
+      "Myth_tier_shoulder": "获取334同来源神话肩并化生（非直接升级）",
+      "Myth_tier_hands": "获取334神话套装手",
+      "Myth_tier_legs": "获取334同来源神话腿并化生（非直接升级）",
+      "H7_waist": "获取334神话H7腰",
+      "Myth_shoulder_4pc": "取得334神话目标肩并保留四件套",
+      "Myth_shoulder_5pc": "神话肩替英雄肩（五件套无额外收益）",
+      "Current_shoulder_bonus_only": "仅对比当前肩副属性，保持装备与装等"
+    }
+  },
+  "bags-dungeon": {
+    "mode": "dungeon",
+    "stage": "bags",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Bag_321": "背包饰品：Bag_321",
+      "Stone_321": "背包饰品：Stone_321",
+      "Poison_321": "背包饰品：Poison_321",
+      "Feather_311": "背包饰品：Feather_311",
+      "Essence_311": "背包饰品：Essence_311",
+      "Order_311": "背包饰品：Order_311",
+      "Fang_311": "背包饰品：Fang_311",
+      "Ritual_305": "背包饰品：Ritual_305",
+      "Vendetta_298": "背包饰品：Vendetta_298"
+    }
+  },
+  "targets-raid": {
+    "mode": "raid",
+    "stage": "target",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Target_back_wrist_270173": "终装：back_wrist／饰品270173",
+      "Target_back_wrist_281215": "终装：back_wrist／饰品281215",
+      "Target_wrist_feet_270173": "终装：wrist_feet／饰品270173",
+      "Target_wrist_feet_281215": "终装：wrist_feet／饰品281215",
+      "Target_back_feet_270173": "终装：back_feet／饰品270173",
+      "Target_back_feet_281215": "终装：back_feet／饰品281215"
+    }
+  },
+  "targets-dungeon": {
+    "mode": "dungeon",
+    "stage": "target",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Target_back_wrist_270173": "终装：back_wrist／饰品270173",
+      "Target_back_wrist_281215": "终装：back_wrist／饰品281215",
+      "Target_wrist_feet_270173": "终装：wrist_feet／饰品270173",
+      "Target_wrist_feet_281215": "终装：wrist_feet／饰品281215",
+      "Target_back_feet_270173": "终装：back_feet／饰品270173",
+      "Target_back_feet_281215": "终装：back_feet／饰品281215"
+    }
+  },
+  "refine-raid": {
+    "mode": "raid",
+    "stage": "refine",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Stats_CM_Crit": "制造CM＋Crit合剂",
+      "Stats_CM_Mastery": "制造CM＋Mastery合剂",
+      "Stats_CM_Haste": "制造CM＋Haste合剂",
+      "Stats_HM_Crit": "制造HM＋Crit合剂",
+      "Stats_HM_Mastery": "制造HM＋Mastery合剂",
+      "Stats_HM_Haste": "制造HM＋Haste合剂",
+      "Stats_CH_Crit": "制造CH＋Crit合剂",
+      "Stats_CH_Mastery": "制造CH＋Mastery合剂",
+      "Stats_CH_Haste": "制造CH＋Haste合剂",
+      "Gem_CH": "两个空戒指孔改暴击急速，保留原有宝石孔",
+      "Diamond_speed": "主属性钻石改多色移速钻石",
+      "Other_hands": "H5手替密谋手",
+      "Tier_hands": "普通神话套装手替密谋手",
+      "Owned_head": "保持未化生头，改神话套装手维持四件",
+      "Keep_craft_ring": "保留331制造戒，替H4戒，沿用合适宝石",
+      "Other_passive": "换另一件334被动饰品",
+      "Elite_core": "高手样本中的334守护者沸腾核心",
+      "Ordinary_chest": "移除H10胸效果，换普通神话套装胸"
+    },
+    "family": "Target_back_wrist_270173"
+  },
+  "refine-dungeon": {
+    "mode": "dungeon",
+    "stage": "refine",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Stats_CM_Crit": "制造CM＋Crit合剂",
+      "Stats_CM_Mastery": "制造CM＋Mastery合剂",
+      "Stats_CM_Haste": "制造CM＋Haste合剂",
+      "Stats_HM_Crit": "制造HM＋Crit合剂",
+      "Stats_HM_Mastery": "制造HM＋Mastery合剂",
+      "Stats_HM_Haste": "制造HM＋Haste合剂",
+      "Stats_CH_Crit": "制造CH＋Crit合剂",
+      "Stats_CH_Mastery": "制造CH＋Mastery合剂",
+      "Stats_CH_Haste": "制造CH＋Haste合剂",
+      "Gem_CH": "两个空戒指孔改暴击急速，保留原有宝石孔",
+      "Diamond_speed": "主属性钻石改多色移速钻石",
+      "Other_hands": "H5手替密谋手",
+      "Tier_hands": "普通神话套装手替密谋手",
+      "Owned_head": "保持未化生头，改神话套装手维持四件",
+      "Keep_craft_ring": "保留331制造戒，替H4戒，沿用合适宝石",
+      "Other_passive": "换另一件334被动饰品",
+      "Elite_core": "高手样本中的334守护者沸腾核心",
+      "Ordinary_chest": "移除H10胸效果，换普通神话套装胸"
+    },
+    "family": "Target_back_wrist_281215"
+  },
+  "verify-raid": {
+    "mode": "raid",
+    "stage": "verify",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Gem_CH": "两个空戒指孔改暴击急速，保留原有宝石孔",
+      "Stats_CM_Crit": "制造CM＋Crit合剂",
+      "Other_hands": "H5手替密谋手",
+      "Other_passive": "换另一件334被动饰品",
+      "Elite_core": "高手样本中的334守护者沸腾核心",
+      "Keep_craft_ring": "保留331制造戒，替H4戒，沿用合适宝石",
+      "Owned_head": "保持未化生头，改神话套装手维持四件",
+      "Ordinary_chest": "移除H10胸效果，换普通神话套装胸",
+      "Raw_current": "最新实际装备（未补孔附魔）",
+      "Prepared_current": "现装补齐孔附魔"
+    }
+  },
+  "verify-dungeon": {
+    "mode": "dungeon",
+    "stage": "verify",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Other_hands": "H5手替密谋手",
+      "Stats_CM_Mastery": "制造CM＋Mastery合剂",
+      "Gem_CH": "两个空戒指孔改暴击急速，保留原有宝石孔",
+      "Other_passive": "换另一件334被动饰品",
+      "Elite_core": "高手样本中的334守护者沸腾核心",
+      "Keep_craft_ring": "保留331制造戒，替H4戒，沿用合适宝石",
+      "Owned_head": "保持未化生头，改神话套装手维持四件",
+      "Ordinary_chest": "移除H10胸效果，换普通神话套装胸",
+      "Raw_current": "最新实际装备（未补孔附魔）",
+      "Prepared_current": "现装补齐孔附魔"
+    }
+  },
+  "practical-raid": {
+    "mode": "raid",
+    "stage": "practical",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Raw_current": "最新实际装备（未补孔附魔）",
+      "Craft_feet_CM": "普通331制造鞋，暴击精通",
+      "Craft_waist_CM": "普通331制造腰，暴击精通",
+      "Craft_both_CM": "普通331制造鞋＋腰，均暴击精通",
+      "Craft_both_HM": "普通331制造鞋＋腰，均急速精通",
+      "Craft_both_CH": "普通331制造鞋＋腰，均暴击急速",
+      "Craft_ring_CM": "重做制造戒为暴击精通",
+      "Recraft_back_wrist_CM": "保留原美化ID，重造披风护腕为暴击精通",
+      "Recraft_back_wrist_HM": "保留原美化ID，重造披风护腕为急速精通",
+      "Gem_CH": "三个现有空孔选暴击急速",
+      "Bag_321": "321无底袋替334祖尔金",
+      "H4_ring": "334邪恶炼金师指环替制造戒，与虫群指环同时佩戴",
+      "New_tendril": "获取334扭曲恐兽触须",
+      "Both_raid_rings": "H4戒替虫群指环、保留331制造戒（另一槽对照）"
+    }
+  },
+  "practical-dungeon": {
+    "mode": "dungeon",
+    "stage": "practical",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Raw_current": "最新实际装备（未补孔附魔）",
+      "Craft_feet_CM": "普通331制造鞋，暴击精通",
+      "Craft_waist_CM": "普通331制造腰，暴击精通",
+      "Craft_both_CM": "普通331制造鞋＋腰，均暴击精通",
+      "Craft_both_HM": "普通331制造鞋＋腰，均急速精通",
+      "Craft_both_CH": "普通331制造鞋＋腰，均暴击急速",
+      "Craft_ring_CM": "重做制造戒为暴击精通",
+      "Recraft_back_wrist_CM": "保留原美化ID，重造披风护腕为暴击精通",
+      "Recraft_back_wrist_HM": "保留原美化ID，重造披风护腕为急速精通",
+      "Gem_CH": "三个现有空孔选暴击急速",
+      "Bag_321": "321无底袋替334祖尔金",
+      "H4_ring": "334邪恶炼金师指环替制造戒，与虫群指环同时佩戴",
+      "New_tendril": "获取334扭曲恐兽触须",
+      "Both_raid_rings": "H4戒替虫群指环、保留331制造戒（另一槽对照）"
+    }
+  },
+  "weapons-raid": {
+    "mode": "raid",
+    "stage": "weapons",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Polearm_341": "已拥有长柄341（10石）",
+      "Craft_neck_337": "普通制造项链337替H8项链（10石；无毒咒）",
+      "Dual_334_268206": "团本单手剑334＋副手268206334（无毒液石）",
+      "Dual_334_270930": "团本单手剑334＋副手270930334（无毒液石）",
+      "Dual_341_268206": "团本单手剑341＋副手268206334（10石）",
+      "Dual_341_270930": "团本单手剑341＋副手270930334（10石）",
+      "Dual_myth_341": "双神话单手均341（20石；与10石预算不等价）",
+      "Craft_off_32_49": "神话单手334＋制造副手337、属性32/49（10石；保留双奥纹）",
+      "Ritual_off_32_49": "神话单手334＋仪式石制造副手337、属性32/49（10石；单奥纹）",
+      "Craft_off_36_49": "神话单手334＋制造副手337、属性36/49（10石；保留双奥纹）",
+      "Ritual_off_36_49": "神话单手334＋仪式石制造副手337、属性36/49（10石；单奥纹）",
+      "Craft_off_32_36": "神话单手334＋制造副手337、属性32/36（10石；保留双奥纹）",
+      "Ritual_off_32_36": "神话单手334＋仪式石制造副手337、属性32/36（10石；单奥纹）"
+    }
+  },
+  "weapons-dungeon": {
+    "mode": "dungeon",
+    "stage": "weapons",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Polearm_341": "已拥有长柄341（10石）",
+      "Craft_neck_337": "普通制造项链337替H8项链（10石；无毒咒）",
+      "Dual_334_268206": "团本单手剑334＋副手268206334（无毒液石）",
+      "Dual_334_270930": "团本单手剑334＋副手270930334（无毒液石）",
+      "Dual_341_268206": "团本单手剑341＋副手268206334（10石）",
+      "Dual_341_270930": "团本单手剑341＋副手270930334（10石）",
+      "Dual_myth_341": "双神话单手均341（20石；与10石预算不等价）",
+      "Craft_off_32_49": "神话单手334＋制造副手337、属性32/49（10石；保留双奥纹）",
+      "Ritual_off_32_49": "神话单手334＋仪式石制造副手337、属性32/49（10石；单奥纹）",
+      "Craft_off_36_49": "神话单手334＋制造副手337、属性36/49（10石；保留双奥纹）",
+      "Ritual_off_36_49": "神话单手334＋仪式石制造副手337、属性36/49（10石；单奥纹）",
+      "Craft_off_32_36": "神话单手334＋制造副手337、属性32/36（10石；保留双奥纹）",
+      "Ritual_off_32_36": "神话单手334＋仪式石制造副手337、属性32/36（10石；单奥纹）"
+    }
+  },
+  "recommended-raid": {
+    "mode": "raid",
+    "selected": "Baseline",
+    "family": "Target_back_wrist_270173"
+  },
+  "recommended-dungeon": {
+    "mode": "dungeon",
+    "selected": "Stats_CM_Mastery",
+    "family": "Target_back_wrist_281215"
+  },
+  "budget-upgrade-current-raid": {
+    "mode": "raid",
+    "stage": "upgrade",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Weapon_341": "消耗10枚晋升毒液石：H8长柄334→341",
+      "Neck_341": "消耗10枚晋升毒液石：H8项链334→341",
+      "Heart_341": "消耗10枚晋升毒液石：H8乌拉特克之心334→341",
+      "Mode_trinket_341": "消耗10枚晋升毒液石：H7祖尔金饰品334→341"
+    },
+    "context": "current"
+  },
+  "budget-upgrade-raid": {
+    "mode": "raid",
+    "stage": "upgrade",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Weapon_341": "消耗10枚晋升毒液石：H8长柄334→341",
+      "Neck_341": "消耗10枚晋升毒液石：H8项链334→341",
+      "Heart_341": "消耗10枚晋升毒液石：H8乌拉特克之心334→341",
+      "Mode_trinket_341": "消耗10枚晋升毒液石：H7祖尔金饰品334→341"
+    },
+    "context": "target"
+  },
+  "budget-upgrade-current-dungeon": {
+    "mode": "dungeon",
+    "stage": "upgrade",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Weapon_341": "消耗10枚晋升毒液石：H8长柄334→341",
+      "Neck_341": "消耗10枚晋升毒液石：H8项链334→341",
+      "Heart_341": "消耗10枚晋升毒液石：H8乌拉特克之心334→341",
+      "Mode_trinket_341": "消耗10枚晋升毒液石：H7祖尔金饰品334→341"
+    },
+    "context": "current"
+  },
+  "budget-upgrade-dungeon": {
+    "mode": "dungeon",
+    "stage": "upgrade",
+    "baseline_label": "本轮基准",
+    "labels": {
+      "Weapon_341": "消耗10枚晋升毒液石：H8长柄334→341",
+      "Neck_341": "消耗10枚晋升毒液石：H8项链334→341",
+      "Heart_341": "消耗10枚晋升毒液石：H8乌拉特克之心334→341",
+      "Mode_trinket_341": "消耗10枚晋升毒液石：H10扭曲恐兽触须334→341"
+    },
+    "context": "target"
+  }
+}

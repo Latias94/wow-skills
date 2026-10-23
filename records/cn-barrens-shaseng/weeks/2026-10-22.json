@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-barrens-shaseng",
+  "reset_date": "2026-10-22",
+  "reported_at": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "patch": "12.1.5",
+  "season": "Midnight Season 2",
+  "budget": {
+    "reported_balance": 0,
+    "evidence": "October 23 raw SimC export: bonus_roll_currencies=3418:0/3511:0",
+    "raw_currencies": {
+      "3418": 0,
+      "3511": 0
+    }
+  },
+  "resources": {
+    "ascendant_venomstone": {
+      "item_id": 280562,
+      "count": 10
+    },
+    "tidal_spark": {
+      "item_id": 274476,
+      "count": 6
+    },
+    "current_catalyst_currency": {
+      "3465": 0
+    },
+    "raw_upgrade_currencies": "c:3442:184/c:3445:390/c:3443:140/c:3444:44/c:3446:305"
+  },
+  "snapshot": "snapshots/2026-10-23.simc",
+  "historical_acquisition_confirmations": [
+    {
+      "reported_at": "2026-10-23",
+      "activity": "H8",
+      "method": "bonus_roll",
+      "item_ids": [
+        271875,
+        268265,
+        270175,
+        268215
+      ],
+      "acquired_at": null
+    },
+    {
+      "reported_at": "2026-10-23",
+      "activity": "H7",
+      "method": "bonus_roll",
+      "item_ids": [
+        270173
+      ],
+      "acquired_at": null
+    },
+    {
+      "reported_at": "2026-10-23",
+      "activity": "H10 / Kithix",
+      "method": "bonus_roll",
+      "item_ids": [
+        281029,
+        281236
+      ],
+      "acquired_at": null,
+      "catalyst": {
+        "source_item_id": 281236,
+        "display_item_id": 271522,
+        "retained_bonus_id": 14049
+      }
+    }
+  ],
+  "events": [],
+  "pools": [],
+  "plan": {
+    "status": "proposed",
+    "evidence": "analysis/2026-10-23/dashboard.html",
+    "coins_to_spend_now": 0,
+    "venomstone_cost_per_item": 10,
+    "candidate_upgrade_levels": {
+      "mythic": 341,
+      "crafted": 337
+    },
+    "level_source": "User-supplied October 23 hotfix screenshot; scope confirmed by Blizzard announcement. Engine data is October 22; ilevel overrides are provisional.",
+    "recommended_first_ascension": {
+      "item_id": 268215,
+      "current_level": 334,
+      "target_level": 341,
+      "cost": 10,
+      "status": "proposed_not_spent",
+      "basis": "Both current and target complete-loadout models prefer the owned polearm; explicit item-level hotfix override remains provisional."
+    }
+  },
+  "unresolved": [
+    "Exact historical roll dates and full exclusion history",
+    "Current complete difficulty/spec reward preview",
+    "Prior October 15 Vault final claim",
+    "Post-hotfix native SimC bonus data and live proc scaling"
+  ]
+}

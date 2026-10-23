@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-barrens-shaseng",
+  "name": "沙僧",
+  "region": "cn",
+  "server": "贫瘠之地",
+  "timezone": "Asia/Shanghai",
+  "class": "monk",
+  "combat_spec": "windwalker",
+  "target_spec": "windwalker",
+  "hero_talents": "celestial_conduit",
+  "hero_talents_evidence": "User declared Celestial Conduit; talent import has not been decoded.",
+  "primary_content": "mythic_plus",
+  "goal": "Optimize an attainable Celestial-Conduit Mythic+ end-state first, then derive crafting/enchant/bonus-roll routes. Existing crafted slots are replaceable.",
+  "constraints": {
+    "mythic_raid_7_8_access": false,
+    "exclude_9_of_6_raid_ceiling": true,
+    "existing_crafts_fixed": false,
+    "comparison_loot_ilvl": 334,
+    "comparison_crafted_ilvl": 331,
+    "ascended_mythic_ilvl": 341,
+    "ascended_crafted_ilvl": 337,
+    "ascension_scope": "Weapon, trinket and neck only; Oct 23 user screenshot level override pending native SimC DBC support."
+  },
+  "latest_simc": "snapshots/2026-10-23.simc",
+  "target_loadouts": {
+    "raid": "analysis/2026-10-23/recommended-raid.simc",
+    "dungeon": "analysis/2026-10-23/recommended-dungeon.simc",
+    "evidence": "analysis/2026-10-23/dashboard.html",
+    "status": "best_tested_candidate_family_not_global_optimum"
+  },
+  "latest_items": "snapshots/2026-10-23.items.json",
+  "roll_history_coverage": "unknown",
+  "notes": "October 23 full raw export is preserved. User confirms the equipped Mythic H7/H8/H10 items were acquired with bonus rolls; exact acquisition dates and intervening full history are unknown. Current balance is zero; 10 Ascendant Venomstones and 6 Tidal Sparks are exported. Five 321 armor pieces are Hero 6/6, not directly upgradeable to Mythic. Prior Vault claim remains unconfirmed. Target profiles are pre-ascension candidates; separate current/target upgrade simulations compare the 10-stone choice."
+}

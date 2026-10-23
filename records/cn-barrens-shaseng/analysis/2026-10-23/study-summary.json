@@ -1,0 +1,1709 @@
+{
+  "checked_at": "2026-10-23T15:27:23+08:00",
+  "simc_revision": "73a372b761",
+  "wow_version": "12.1.5.70529",
+  "hotfix_date": "2026-10-22",
+  "item_level_hotfix": {
+    "date": "2026-10-23",
+    "source": "用户截图",
+    "mythic": 341,
+    "crafted": 337,
+    "model": "preserve bonuses and override ilevel; not native DBC support"
+  },
+  "profiles": {
+    "raid": {
+      "raw": "# October 23 live-data study. Targets are not owned items.\nptr=0\nmonk=\"沙僧\"\nlevel=90\nrace=pandaren\nregion=cn\nserver=贫瘠之地\nrole=attack\nprofessions=alchemy=25/jewelcrafting=100\nspec=windwalker\ntalents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG\nomnium_talents=136814:1/136818:1/136817:1/136819:1/136822:1\nhead=,id=271519,ilevel=334,redirected_base_stats=271875,bonus_id=13847,enchant_id=8017\nneck=,id=268265,gem_id=240983/240908,bonus_id=6652/13668/13334/13987/12854\nshoulder=,id=271517,ilevel=334,redirected_base_stats=268246,enchant_id=8001\nback=,id=239656,bonus_id=12214/13667/12497/13751/14001/8960/12384/8790/13836,content_tuning=3615,crafted_stats=49/40,crafting_quality=5\nchest=,id=271522,bonus_id=13334/6652/14049/13690/13698/12854,redirected_base_stats=281236,enchant_id=7987\nwrist=,id=244576,bonus_id=12214/13667/12497/13751/14001/8960/12384/8791/13836/13696,content_tuning=3615,crafted_stats=40/36,crafting_quality=5\nhands=,id=251124,ilevel=334\nwaist=,id=268256,ilevel=334\nlegs=,id=271518,ilevel=334,redirected_base_stats=268225,enchant_id=8159\nfeet=,id=251153,ilevel=334,enchant_id=7963\nfinger1=,id=281029,enchant_id=7967,bonus_id=6652/13668/13334/12854,gem_id=240908\nfinger2=,id=268249,ilevel=334,enchant_id=7967,gem_id=240908\ntrinket1=,id=270175,bonus_id=6652/13334/12854\ntrinket2=,id=270173,ilevel=334\nmain_hand=,id=268215,enchant_id=8689,bonus_id=6652/13334/13846/12854\nflask=flask_of_the_shattered_sun_2\nfood=harandar_celebration\naugmentation=void_touched\npotion=potion_of_recklessness_2\ntemporary_enchant=main_hand:thalassian_phoenix_oil_2\noptimal_raid=1\noverride.bloodlust=1\nfight_style=Patchwerk\nmax_time=240\nvary_combat_length=0\nthreads=12\nprofileset_work_threads=2\niterations=6500\nseed=25102026\n",
+      "gear": [
+        {
+          "slot": "head",
+          "id": 271519,
+          "ilevel": 334,
+          "bonus_id": "13847",
+          "gem_id": null,
+          "enchant_id": "8017",
+          "crafted_stats": null,
+          "redirected_base_stats": "271875",
+          "owned": false,
+          "source": null,
+          "note": "已拥有对应装等前驱，目标需化生；本次导出充能0，不是建议再R一次同物品；化生前驱ID 271875，保留来源属性／词缀"
+        },
+        {
+          "slot": "neck",
+          "id": 268265,
+          "ilevel": 334,
+          "bonus_id": "6652/13668/13334/13987/12854",
+          "gem_id": "240983/240908",
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "shoulder",
+          "id": 271517,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": "8001",
+          "crafted_stats": null,
+          "redirected_base_stats": "268246",
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话；化生前驱ID 268246，保留来源属性／词缀"
+        },
+        {
+          "slot": "back",
+          "id": 239656,
+          "ilevel": 331,
+          "bonus_id": "12214/13667/12497/13751/14001/8960/12384/8790/13836",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": "49/40",
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "chest",
+          "id": 271522,
+          "ilevel": 334,
+          "bonus_id": "13334/6652/14049/13690/13698/12854",
+          "gem_id": null,
+          "enchant_id": "7987",
+          "crafted_stats": null,
+          "redirected_base_stats": "281236",
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐；化生前驱ID 281236，保留来源属性／词缀"
+        },
+        {
+          "slot": "wrist",
+          "id": 244576,
+          "ilevel": 331,
+          "bonus_id": "12214/13667/12497/13751/14001/8960/12384/8791/13836/13696",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": "40/36",
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "hands",
+          "id": 251124,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话"
+        },
+        {
+          "slot": "waist",
+          "id": 268256,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话"
+        },
+        {
+          "slot": "legs",
+          "id": 271518,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": "8159",
+          "crafted_stats": null,
+          "redirected_base_stats": "268225",
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话；化生前驱ID 268225，保留来源属性／词缀"
+        },
+        {
+          "slot": "feet",
+          "id": 251153,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": "7963",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话"
+        },
+        {
+          "slot": "finger1",
+          "id": 281029,
+          "ilevel": 334,
+          "bonus_id": "6652/13668/13334/12854",
+          "gem_id": "240908",
+          "enchant_id": "7967",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "finger2",
+          "id": 268249,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": "240908",
+          "enchant_id": "7967",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话"
+        },
+        {
+          "slot": "trinket1",
+          "id": 270175,
+          "ilevel": 334,
+          "bonus_id": "6652/13334/12854",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "trinket2",
+          "id": 270173,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "main_hand",
+          "id": 268215,
+          "ilevel": 334,
+          "bonus_id": "6652/13334/13846/12854",
+          "gem_id": null,
+          "enchant_id": "8689",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        }
+      ],
+      "family": "Target_back_wrist_270173",
+      "selected": "Baseline",
+      "note": "本次复测选择：Baseline。仅当候选对基准的近似差值区间全为正时才替换；不是全局最优或正式显著性检验。毒液石升级另见对照，这里仍是强化前334/331。团本保留现有披风／护腕双美化。",
+      "stats": {
+        "crit_rating": 788.0,
+        "haste_rating": 869.0,
+        "mastery_rating": 1299.0,
+        "versatility_rating": 101.0
+      },
+      "stats_context": "禁用合剂、食物、符文、药水、武器油及团队增益后的SimC快照；保留角色被动／天赋，不等同游戏内手工抄面板。",
+      "buffed_stats": {
+        "crit_rating": 969.0,
+        "haste_rating": 885.0,
+        "mastery_rating": 1299.0,
+        "versatility_rating": 101.0
+      },
+      "consumables": {
+        "flask": "flask_of_the_shattered_sun_2",
+        "food": "harandar_celebration",
+        "augmentation": "void_touched",
+        "potion": "potion_of_recklessness_2",
+        "temporary_enchant": "main_hand:thalassian_phoenix_oil_2"
+      }
+    },
+    "dungeon": {
+      "raw": "# October 23 live-data study. Targets are not owned items.\nptr=0\nmonk=\"沙僧\"\nlevel=90\nrace=pandaren\nregion=cn\nserver=贫瘠之地\nrole=attack\nprofessions=alchemy=25/jewelcrafting=100\nspec=windwalker\ntalents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG\nomnium_talents=136814:1/136818:1/136817:1/136819:1/136822:1\nhead=,id=271519,ilevel=334,redirected_base_stats=271875,bonus_id=13847,enchant_id=8017\nneck=,id=268265,gem_id=240983/240908,bonus_id=6652/13668/13334/13987/12854\nshoulder=,id=271517,ilevel=334,redirected_base_stats=268246,enchant_id=8001\nchest=,id=271522,bonus_id=13334/6652/14049/13690/13698/12854,redirected_base_stats=281236,enchant_id=7987\nhands=,id=251124,ilevel=334\nwaist=,id=268256,ilevel=334\nlegs=,id=271518,ilevel=334,redirected_base_stats=268225,enchant_id=8159\nfeet=,id=251153,ilevel=334,enchant_id=7963\nfinger1=,id=281029,enchant_id=7967,bonus_id=6652/13668/13334/12854,gem_id=240908\nfinger2=,id=268249,ilevel=334,enchant_id=7967,gem_id=240908\ntrinket1=,id=270175,bonus_id=6652/13334/12854\ntrinket2=,id=281215,ilevel=334\nmain_hand=,id=268215,enchant_id=8689,bonus_id=6652/13334/13846/12854\nfood=harandar_celebration\naugmentation=void_touched\npotion=potion_of_recklessness_2\ntemporary_enchant=main_hand:thalassian_phoenix_oil_2\noptimal_raid=0\noverride.bloodlust=0\nfight_style=DungeonSlice\nmax_time=360\nvary_combat_length=0\nthreads=12\nprofileset_work_threads=2\niterations=6500\nseed=25102026\nback=,id=239656,bonus_id=12214/13667/12497/13751/14001/8960/12384/13836,content_tuning=3615,crafted_stats=32/49,crafting_quality=5\nwrist=,id=244576,bonus_id=12214/13667/12497/13751/14001/8960/12384/13836/13696,content_tuning=3615,crafted_stats=32/49,crafting_quality=5\nflask=flask_of_the_magisters_2\n",
+      "gear": [
+        {
+          "slot": "head",
+          "id": 271519,
+          "ilevel": 334,
+          "bonus_id": "13847",
+          "gem_id": null,
+          "enchant_id": "8017",
+          "crafted_stats": null,
+          "redirected_base_stats": "271875",
+          "owned": false,
+          "source": null,
+          "note": "已拥有对应装等前驱，目标需化生；本次导出充能0，不是建议再R一次同物品；化生前驱ID 271875，保留来源属性／词缀"
+        },
+        {
+          "slot": "neck",
+          "id": 268265,
+          "ilevel": 334,
+          "bonus_id": "6652/13668/13334/13987/12854",
+          "gem_id": "240983/240908",
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "shoulder",
+          "id": 271517,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": "8001",
+          "crafted_stats": null,
+          "redirected_base_stats": "268246",
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话；化生前驱ID 268246，保留来源属性／词缀"
+        },
+        {
+          "slot": "chest",
+          "id": 271522,
+          "ilevel": 334,
+          "bonus_id": "13334/6652/14049/13690/13698/12854",
+          "gem_id": null,
+          "enchant_id": "7987",
+          "crafted_stats": null,
+          "redirected_base_stats": "281236",
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐；化生前驱ID 281236，保留来源属性／词缀"
+        },
+        {
+          "slot": "hands",
+          "id": 251124,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话"
+        },
+        {
+          "slot": "waist",
+          "id": 268256,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话"
+        },
+        {
+          "slot": "legs",
+          "id": 271518,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": "8159",
+          "crafted_stats": null,
+          "redirected_base_stats": "268225",
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话；化生前驱ID 268225，保留来源属性／词缀"
+        },
+        {
+          "slot": "feet",
+          "id": 251153,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": "7963",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话"
+        },
+        {
+          "slot": "finger1",
+          "id": 281029,
+          "ilevel": 334,
+          "bonus_id": "6652/13668/13334/12854",
+          "gem_id": "240908",
+          "enchant_id": "7967",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "finger2",
+          "id": 268249,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": "240908",
+          "enchant_id": "7967",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话"
+        },
+        {
+          "slot": "trinket1",
+          "id": 270175,
+          "ilevel": 334,
+          "bonus_id": "6652/13334/12854",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "trinket2",
+          "id": 281215,
+          "ilevel": 334,
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": false,
+          "source": null,
+          "note": "未获取的目标；英雄轨道护甲不能直接用纹章升为神话"
+        },
+        {
+          "slot": "main_hand",
+          "id": 268215,
+          "ilevel": 334,
+          "bonus_id": "6652/13334/13846/12854",
+          "gem_id": null,
+          "enchant_id": "8689",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "back",
+          "id": 239656,
+          "ilevel": 331,
+          "bonus_id": "12214/13667/12497/13751/14001/8960/12384/13836",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": "32/49",
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        },
+        {
+          "slot": "wrist",
+          "id": 244576,
+          "ilevel": 331,
+          "bonus_id": "12214/13667/12497/13751/14001/8960/12384/13836/13696",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": "32/49",
+          "redirected_base_stats": null,
+          "owned": true,
+          "source": null,
+          "note": "已拥有物品；属性／孔附魔可能需重造补齐"
+        }
+      ],
+      "family": "Target_back_wrist_281215",
+      "selected": "Stats_CM_Mastery",
+      "note": "本次复测选择：Stats_CM_Mastery。仅当候选对基准的近似差值区间全为正时才替换；不是全局最优或正式显著性检验。毒液石升级另见对照，这里仍是强化前334/331。披风／护腕、护腕／鞋、披风／鞋三族初筛接近，不能按点估计排名认定唯一位置；护腕／鞋为高手常用可选路线。",
+      "stats": {
+        "crit_rating": 788.0,
+        "haste_rating": 813.0,
+        "mastery_rating": 1355.0,
+        "versatility_rating": 101.0
+      },
+      "stats_context": "禁用合剂、食物、符文、药水、武器油及团队增益后的SimC快照；保留角色被动／天赋，不等同游戏内手工抄面板。",
+      "buffed_stats": {
+        "crit_rating": 804.0,
+        "haste_rating": 829.0,
+        "mastery_rating": 1520.0,
+        "versatility_rating": 101.0
+      },
+      "consumables": {
+        "flask": "flask_of_the_magisters_2",
+        "food": "harandar_celebration",
+        "augmentation": "void_touched",
+        "potion": "potion_of_recklessness_2",
+        "temporary_enchant": "main_hand:thalassian_phoenix_oil_2"
+      }
+    }
+  },
+  "elite_samples": {
+    "retrieved_at": "2026-10-23",
+    "mythic_plus": {
+      "logs": 796,
+      "characters": 172,
+      "period": "最近两周；+20 至 +23"
+    },
+    "raid": {
+      "logs": 896,
+      "characters": 343,
+      "period": "最近三周；神话团本"
+    },
+    "note": "按职业筛选的高分日志装备出现率；同角色可有多份日志，双饰品等槽位百分比不相加。两／三周窗口横跨版本和热更，并非仅12.1.5第二周样本；不等于该装备导致高分。页面未提供逐角色bonus/化生前驱，故不推断保留特效。",
+    "items": [
+      {
+        "slot": "主手：乌拉特克长柄",
+        "id": 268215,
+        "mythic_plus": 99.2,
+        "raid": 95.5
+      },
+      {
+        "slot": "项链：亚基克星藏骨匣",
+        "id": 268265,
+        "mythic_plus": 97.0,
+        "raid": 94.9
+      },
+      {
+        "slot": "饰品：乌拉特克贪婪之心",
+        "id": 270175,
+        "mythic_plus": 99.9,
+        "raid": 99.2
+      },
+      {
+        "slot": "饰品：祖尔金处斩技法",
+        "id": 270173,
+        "mythic_plus": 37.8,
+        "raid": 71.0
+      },
+      {
+        "slot": "饰品：Keeper's Seething Core",
+        "id": 270165,
+        "mythic_plus": 25.1,
+        "raid": 16.4
+      },
+      {
+        "slot": "饰品：扭曲恐兽触须",
+        "id": 281215,
+        "mythic_plus": 17.1,
+        "raid": 4.8
+      },
+      {
+        "slot": "制造：银月城特工偏斜腕甲",
+        "id": 244576,
+        "mythic_plus": 85.9,
+        "raid": 74.1
+      },
+      {
+        "slot": "制造：银月城特工便鞋",
+        "id": 244569,
+        "mythic_plus": 83.2,
+        "raid": 84.2
+      },
+      {
+        "slot": "制造：精工辛多雷指环",
+        "id": 240949,
+        "mythic_plus": 44.3,
+        "raid": 47.4
+      },
+      {
+        "slot": "制造披风",
+        "id": 239656,
+        "mythic_plus": 30.2,
+        "raid": 21.0
+      },
+      {
+        "slot": "团本披风",
+        "id": 268253,
+        "mythic_plus": 27.1,
+        "raid": 36.4
+      },
+      {
+        "slot": "套装手套",
+        "id": 271520,
+        "mythic_plus": 75.5,
+        "raid": 72.1
+      },
+      {
+        "slot": "套装头",
+        "id": 271519,
+        "mythic_plus": 90.6,
+        "raid": 89.3
+      }
+    ]
+  },
+  "runs": [
+    {
+      "key": "current-raid",
+      "mode": "raid",
+      "stage": "current",
+      "label": "当前装备：附魔与空孔",
+      "baseline": 203403.82118355346,
+      "stderr": 142.51635911815967,
+      "iterations": 1511,
+      "seed": 23102026,
+      "model": "Patchwerk",
+      "seconds": 240.0,
+      "results": [
+        {
+          "name": "Head_enchant",
+          "label": "补头部附魔",
+          "mean": 203100.79671114183,
+          "error": 270.0591467304361,
+          "provisional": false
+        },
+        {
+          "name": "Chest_enchant",
+          "label": "补胸部附魔",
+          "mean": 206038.71964085728,
+          "error": 285.5096473132872,
+          "provisional": false
+        },
+        {
+          "name": "H4_ring",
+          "label": "神话334邪恶炼金师指环替制造戒，保留原戒指宝石",
+          "mean": 209783.7563191903,
+          "error": 293.0563241510906,
+          "provisional": false
+        },
+        {
+          "name": "Feet_enchant",
+          "label": "补鞋部附魔",
+          "mean": 202919.20273352883,
+          "error": 276.3012694703888,
+          "provisional": false
+        },
+        {
+          "name": "Empty_sockets",
+          "label": "填三个现有空孔（项链第二孔＋双戒）",
+          "mean": 205949.97252947427,
+          "error": 277.6594384907038,
+          "provisional": false
+        },
+        {
+          "name": "All_prepared",
+          "label": "补齐三处附魔与三个现有空孔",
+          "mean": 208429.50350865262,
+          "error": 291.5943897757629,
+          "provisional": false
+        },
+        {
+          "name": "Craft_feet",
+          "label": "331制造鞋替321鞋，不迁移美化",
+          "mean": 206561.38602147935,
+          "error": 265.2866850598601,
+          "provisional": false
+        },
+        {
+          "name": "Craft_waist",
+          "label": "331制造腰替321腰（普通制造）",
+          "mean": 205766.0773492805,
+          "error": 268.9089008233887,
+          "provisional": false
+        },
+        {
+          "name": "Both_raid_rings",
+          "label": "334邪恶炼金师指环替虫群指环、保留制造戒（另一槽对照）",
+          "mean": 204713.90318988258,
+          "error": 269.08021642776754,
+          "provisional": false
+        },
+        {
+          "name": "New_tendril",
+          "label": "334触须替334祖尔金饰品",
+          "mean": 201002.74810274594,
+          "error": 253.94048382067922,
+          "provisional": false
+        },
+        {
+          "name": "Myth_tier_shoulder",
+          "label": "获取334同来源神话肩并化生（非直接升级）",
+          "mean": 204609.2850678272,
+          "error": 281.60951703493515,
+          "provisional": false
+        },
+        {
+          "name": "Myth_tier_hands",
+          "label": "获取334神话套装手",
+          "mean": 204269.11207681196,
+          "error": 288.3590208654392,
+          "provisional": false
+        },
+        {
+          "name": "Myth_tier_legs",
+          "label": "获取334同来源神话腿并化生（非直接升级）",
+          "mean": 204950.80406317956,
+          "error": 282.3618611676725,
+          "provisional": false
+        },
+        {
+          "name": "H7_waist",
+          "label": "获取334神话H7腰",
+          "mean": 205657.0561563731,
+          "error": 276.0991998886312,
+          "provisional": false
+        },
+        {
+          "name": "Myth_shoulder_4pc",
+          "label": "取得334神话目标肩并保留四件套",
+          "mean": 205396.4666598728,
+          "error": 286.6642674804108,
+          "provisional": false
+        },
+        {
+          "name": "Myth_shoulder_5pc",
+          "label": "神话肩替英雄肩（五件套无额外收益）",
+          "mean": 204111.82506740687,
+          "error": 287.65717183799705,
+          "provisional": false
+        },
+        {
+          "name": "Current_shoulder_bonus_only",
+          "label": "仅对比当前肩副属性，保持装备与装等",
+          "mean": 203106.0086961726,
+          "error": 279.87614359001356,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "current-dungeon",
+      "mode": "dungeon",
+      "stage": "current",
+      "label": "当前装备：附魔与空孔",
+      "baseline": 286275.5233384488,
+      "stderr": 346.9609742167098,
+      "iterations": 1511,
+      "seed": 23102026,
+      "model": "DungeonSlice",
+      "seconds": 360.0,
+      "results": [
+        {
+          "name": "Head_enchant",
+          "label": "补头部附魔",
+          "mean": 285972.90496454434,
+          "error": 684.0667485523458,
+          "provisional": false
+        },
+        {
+          "name": "Chest_enchant",
+          "label": "补胸部附魔",
+          "mean": 289875.2964651685,
+          "error": 677.5137801947325,
+          "provisional": false
+        },
+        {
+          "name": "H4_ring",
+          "label": "神话334邪恶炼金师指环替制造戒，保留原戒指宝石",
+          "mean": 295453.41668935167,
+          "error": 680.6375733769397,
+          "provisional": false
+        },
+        {
+          "name": "Feet_enchant",
+          "label": "补鞋部附魔",
+          "mean": 286074.42826416786,
+          "error": 665.5920846651193,
+          "provisional": false
+        },
+        {
+          "name": "Empty_sockets",
+          "label": "填三个现有空孔（项链第二孔＋双戒）",
+          "mean": 290122.9764926852,
+          "error": 669.7420974837302,
+          "provisional": false
+        },
+        {
+          "name": "All_prepared",
+          "label": "补齐三处附魔与三个现有空孔",
+          "mean": 293894.0652028228,
+          "error": 695.6054155652387,
+          "provisional": false
+        },
+        {
+          "name": "Craft_feet",
+          "label": "331制造鞋替321鞋，不迁移美化",
+          "mean": 291543.58863747766,
+          "error": 691.3104630621921,
+          "provisional": false
+        },
+        {
+          "name": "Craft_waist",
+          "label": "331制造腰替321腰（普通制造）",
+          "mean": 289727.5611342033,
+          "error": 687.3847646374383,
+          "provisional": false
+        },
+        {
+          "name": "Both_raid_rings",
+          "label": "334邪恶炼金师指环替虫群指环、保留制造戒（另一槽对照）",
+          "mean": 288005.8882567008,
+          "error": 674.321922132807,
+          "provisional": false
+        },
+        {
+          "name": "New_tendril",
+          "label": "334触须替334祖尔金饰品",
+          "mean": 295051.51350372145,
+          "error": 731.2747636008314,
+          "provisional": true
+        },
+        {
+          "name": "Myth_tier_shoulder",
+          "label": "获取334同来源神话肩并化生（非直接升级）",
+          "mean": 288115.9456075706,
+          "error": 670.3756455149687,
+          "provisional": false
+        },
+        {
+          "name": "Myth_tier_hands",
+          "label": "获取334神话套装手",
+          "mean": 287337.16840096394,
+          "error": 669.066389243237,
+          "provisional": false
+        },
+        {
+          "name": "Myth_tier_legs",
+          "label": "获取334同来源神话腿并化生（非直接升级）",
+          "mean": 288268.79666894727,
+          "error": 671.7742595078421,
+          "provisional": false
+        },
+        {
+          "name": "H7_waist",
+          "label": "获取334神话H7腰",
+          "mean": 289786.5028136307,
+          "error": 656.6486977345044,
+          "provisional": false
+        },
+        {
+          "name": "Myth_shoulder_4pc",
+          "label": "取得334神话目标肩并保留四件套",
+          "mean": 289171.32701529487,
+          "error": 677.5523621513429,
+          "provisional": false
+        },
+        {
+          "name": "Myth_shoulder_5pc",
+          "label": "神话肩替英雄肩（五件套无额外收益）",
+          "mean": 287470.74903344427,
+          "error": 638.35810096239,
+          "provisional": false
+        },
+        {
+          "name": "Current_shoulder_bonus_only",
+          "label": "仅对比当前肩副属性，保持装备与装等",
+          "mean": 286168.6787130103,
+          "error": 661.4512752386561,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "practical-raid",
+      "mode": "raid",
+      "stage": "practical",
+      "label": "当前装备：零R币改进",
+      "baseline": 208282.62908988007,
+      "stderr": 72.83042433978066,
+      "iterations": 6011,
+      "seed": 26102026,
+      "model": "Patchwerk",
+      "seconds": 240.0,
+      "results": [
+        {
+          "name": "Both_raid_rings",
+          "label": "H4戒替虫群指环、保留331制造戒（另一槽对照）",
+          "mean": 209041.95849932745,
+          "error": 139.78344488431367,
+          "provisional": false
+        },
+        {
+          "name": "Craft_feet_CM",
+          "label": "普通331制造鞋，暴击精通",
+          "mean": 211396.70135275836,
+          "error": 140.49280932622182,
+          "provisional": false
+        },
+        {
+          "name": "Raw_current",
+          "label": "最新实际装备（未补孔附魔）",
+          "mean": 203243.01376833633,
+          "error": 137.71490712306763,
+          "provisional": false
+        },
+        {
+          "name": "Craft_waist_CM",
+          "label": "普通331制造腰，暴击精通",
+          "mean": 210844.79235677465,
+          "error": 139.0214438596126,
+          "provisional": false
+        },
+        {
+          "name": "Craft_both_CM",
+          "label": "普通331制造鞋＋腰，均暴击精通",
+          "mean": 212200.1546437579,
+          "error": 140.81872702663364,
+          "provisional": false
+        },
+        {
+          "name": "Craft_both_CH",
+          "label": "普通331制造鞋＋腰，均暴击急速",
+          "mean": 210644.0985846093,
+          "error": 141.59078757714497,
+          "provisional": false
+        },
+        {
+          "name": "Craft_both_HM",
+          "label": "普通331制造鞋＋腰，均急速精通",
+          "mean": 211461.39972017903,
+          "error": 141.5231753856739,
+          "provisional": false
+        },
+        {
+          "name": "Recraft_back_wrist_CM",
+          "label": "保留原美化ID，重造披风护腕为暴击精通",
+          "mean": 210247.27574101533,
+          "error": 138.7771490594558,
+          "provisional": false
+        },
+        {
+          "name": "Craft_ring_CM",
+          "label": "重做制造戒为暴击精通",
+          "mean": 211809.17177743622,
+          "error": 139.9220429537254,
+          "provisional": false
+        },
+        {
+          "name": "Bag_321",
+          "label": "321无底袋替334祖尔金",
+          "mean": 203666.12243749198,
+          "error": 144.59261676136887,
+          "provisional": false
+        },
+        {
+          "name": "Recraft_back_wrist_HM",
+          "label": "保留原美化ID，重造披风护腕为急速精通",
+          "mean": 208262.18838290812,
+          "error": 144.32544027723202,
+          "provisional": false
+        },
+        {
+          "name": "Gem_CH",
+          "label": "三个现有空孔选暴击急速",
+          "mean": 207965.20478651344,
+          "error": 142.86959248704477,
+          "provisional": false
+        },
+        {
+          "name": "H4_ring",
+          "label": "334邪恶炼金师指环替制造戒，与虫群指环同时佩戴",
+          "mean": 213682.01900419075,
+          "error": 149.84541109303123,
+          "provisional": false
+        },
+        {
+          "name": "New_tendril",
+          "label": "获取334扭曲恐兽触须",
+          "mean": 205833.85943278603,
+          "error": 130.59466688309485,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "practical-dungeon",
+      "mode": "dungeon",
+      "stage": "practical",
+      "label": "当前装备：零R币改进",
+      "baseline": 293774.6547577933,
+      "stderr": 173.03676639158107,
+      "iterations": 6011,
+      "seed": 26102026,
+      "model": "DungeonSlice",
+      "seconds": 360.0,
+      "results": [
+        {
+          "name": "Both_raid_rings",
+          "label": "H4戒替虫群指环、保留331制造戒（另一槽对照）",
+          "mean": 295098.6736753566,
+          "error": 345.0051246052254,
+          "provisional": false
+        },
+        {
+          "name": "Craft_feet_CM",
+          "label": "普通331制造鞋，暴击精通",
+          "mean": 298788.43806450587,
+          "error": 347.8688612231044,
+          "provisional": false
+        },
+        {
+          "name": "Raw_current",
+          "label": "最新实际装备（未补孔附魔）",
+          "mean": 286179.3080883569,
+          "error": 336.5873443590321,
+          "provisional": false
+        },
+        {
+          "name": "Craft_waist_CM",
+          "label": "普通331制造腰，暴击精通",
+          "mean": 297106.2836829455,
+          "error": 347.8636936510748,
+          "provisional": false
+        },
+        {
+          "name": "Craft_both_CM",
+          "label": "普通331制造鞋＋腰，均暴击精通",
+          "mean": 301309.5211778656,
+          "error": 353.72334871936846,
+          "provisional": false
+        },
+        {
+          "name": "Craft_both_CH",
+          "label": "普通331制造鞋＋腰，均暴击急速",
+          "mean": 295813.0226115224,
+          "error": 339.7582788312112,
+          "provisional": false
+        },
+        {
+          "name": "Craft_both_HM",
+          "label": "普通331制造鞋＋腰，均急速精通",
+          "mean": 299932.0230677914,
+          "error": 348.35453369218476,
+          "provisional": false
+        },
+        {
+          "name": "Recraft_back_wrist_CM",
+          "label": "保留原美化ID，重造披风护腕为暴击精通",
+          "mean": 295785.811899904,
+          "error": 342.4434594463006,
+          "provisional": false
+        },
+        {
+          "name": "Craft_ring_CM",
+          "label": "重做制造戒为暴击精通",
+          "mean": 299479.3889303868,
+          "error": 346.9330833426982,
+          "provisional": false
+        },
+        {
+          "name": "Bag_321",
+          "label": "321无底袋替334祖尔金",
+          "mean": 293577.31549592165,
+          "error": 358.5122187837582,
+          "provisional": false
+        },
+        {
+          "name": "Recraft_back_wrist_HM",
+          "label": "保留原美化ID，重造披风护腕为急速精通",
+          "mean": 293869.10336725425,
+          "error": 341.11403513940354,
+          "provisional": false
+        },
+        {
+          "name": "Gem_CH",
+          "label": "三个现有空孔选暴击急速",
+          "mean": 293029.60349128145,
+          "error": 340.66505040383663,
+          "provisional": false
+        },
+        {
+          "name": "H4_ring",
+          "label": "334邪恶炼金师指环替制造戒，与虫群指环同时佩戴",
+          "mean": 301436.05282813683,
+          "error": 355.43528028894565,
+          "provisional": false
+        },
+        {
+          "name": "New_tendril",
+          "label": "获取334扭曲恐兽触须",
+          "mean": 302872.98651384126,
+          "error": 368.9754112885576,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "targets-raid",
+      "mode": "raid",
+      "stage": "targets",
+      "label": "完整候选套装初筛",
+      "baseline": 208516.37389660228,
+      "stderr": 145.57585109954815,
+      "iterations": 1511,
+      "seed": 23102026,
+      "model": "Patchwerk",
+      "seconds": 240.0,
+      "results": [
+        {
+          "name": "Target_wrist_feet_281215",
+          "label": "终装：wrist_feet／饰品281215",
+          "mean": 219967.72978802276,
+          "error": 308.33596563287756,
+          "provisional": false
+        },
+        {
+          "name": "Target_back_wrist_270173",
+          "label": "终装：back_wrist／饰品270173",
+          "mean": 221089.39140894657,
+          "error": 306.5589220888365,
+          "provisional": false
+        },
+        {
+          "name": "Target_back_wrist_281215",
+          "label": "终装：back_wrist／饰品281215",
+          "mean": 220216.00336037859,
+          "error": 302.9626233742658,
+          "provisional": false
+        },
+        {
+          "name": "Target_wrist_feet_270173",
+          "label": "终装：wrist_feet／饰品270173",
+          "mean": 220497.3274717724,
+          "error": 313.49213282469793,
+          "provisional": false
+        },
+        {
+          "name": "Target_back_feet_270173",
+          "label": "终装：back_feet／饰品270173",
+          "mean": 221082.38154986597,
+          "error": 315.6439476327793,
+          "provisional": false
+        },
+        {
+          "name": "Target_back_feet_281215",
+          "label": "终装：back_feet／饰品281215",
+          "mean": 220102.86749587453,
+          "error": 311.45705873422344,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "targets-dungeon",
+      "mode": "dungeon",
+      "stage": "targets",
+      "label": "完整候选套装初筛",
+      "baseline": 293704.9217378889,
+      "stderr": 343.5942340415272,
+      "iterations": 1511,
+      "seed": 23102026,
+      "model": "DungeonSlice",
+      "seconds": 360.0,
+      "results": [
+        {
+          "name": "Target_wrist_feet_281215",
+          "label": "终装：wrist_feet／饰品281215",
+          "mean": 323683.4955412364,
+          "error": 764.5751696918319,
+          "provisional": true
+        },
+        {
+          "name": "Target_back_wrist_270173",
+          "label": "终装：back_wrist／饰品270173",
+          "mean": 312341.6991761783,
+          "error": 723.2382613325507,
+          "provisional": true
+        },
+        {
+          "name": "Target_back_wrist_281215",
+          "label": "终装：back_wrist／饰品281215",
+          "mean": 323947.4010443666,
+          "error": 768.4723447512838,
+          "provisional": true
+        },
+        {
+          "name": "Target_wrist_feet_270173",
+          "label": "终装：wrist_feet／饰品270173",
+          "mean": 312287.5066279065,
+          "error": 722.2368924288298,
+          "provisional": true
+        },
+        {
+          "name": "Target_back_feet_270173",
+          "label": "终装：back_feet／饰品270173",
+          "mean": 312800.1233097968,
+          "error": 712.1335333075981,
+          "provisional": true
+        },
+        {
+          "name": "Target_back_feet_281215",
+          "label": "终装：back_feet／饰品281215",
+          "mean": 323603.51398690045,
+          "error": 743.4080783869028,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "verify-raid",
+      "mode": "raid",
+      "stage": "verify",
+      "label": "目标套装高迭代复测",
+      "baseline": 221309.84535016047,
+      "stderr": 77.49132206994423,
+      "iterations": 6511,
+      "seed": 25102026,
+      "model": "Patchwerk",
+      "seconds": 240.0,
+      "results": [
+        {
+          "name": "Prepared_current",
+          "label": "现装补齐孔附魔",
+          "mean": 208452.90136370668,
+          "error": 134.82360629242987,
+          "provisional": false
+        },
+        {
+          "name": "Elite_core",
+          "label": "高手样本中的334守护者沸腾核心",
+          "mean": 218456.9136962062,
+          "error": 145.53046138185175,
+          "provisional": false
+        },
+        {
+          "name": "Gem_CH",
+          "label": "两个空戒指孔改暴击急速，保留原有宝石孔",
+          "mean": 221265.47557952287,
+          "error": 148.7228784349605,
+          "provisional": false
+        },
+        {
+          "name": "Stats_CM_Crit",
+          "label": "制造CM＋Crit合剂",
+          "mean": 221181.45230458403,
+          "error": 149.28471822054524,
+          "provisional": false
+        },
+        {
+          "name": "Keep_craft_ring",
+          "label": "保留331制造戒，替H4戒，沿用合适宝石",
+          "mean": 218545.76486953042,
+          "error": 136.77472290471118,
+          "provisional": false
+        },
+        {
+          "name": "Other_hands",
+          "label": "H5手替密谋手",
+          "mean": 220937.6314566976,
+          "error": 150.84040332948314,
+          "provisional": false
+        },
+        {
+          "name": "Other_passive",
+          "label": "换另一件334被动饰品",
+          "mean": 220299.06148720375,
+          "error": 144.97338665935632,
+          "provisional": false
+        },
+        {
+          "name": "Ordinary_chest",
+          "label": "移除H10胸效果，换普通神话套装胸",
+          "mean": 219811.99802818315,
+          "error": 151.8927660027803,
+          "provisional": false
+        },
+        {
+          "name": "Owned_head",
+          "label": "保持未化生头，改神话套装手维持四件",
+          "mean": 220340.0502344891,
+          "error": 152.83999025847834,
+          "provisional": false
+        },
+        {
+          "name": "Raw_current",
+          "label": "最新实际装备（未补孔附魔）",
+          "mean": 203389.2156094075,
+          "error": 134.76595839037947,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "verify-dungeon",
+      "mode": "dungeon",
+      "stage": "verify",
+      "label": "目标套装高迭代复测",
+      "baseline": 323395.2411446076,
+      "stderr": 190.84820117987107,
+      "iterations": 6511,
+      "seed": 25102026,
+      "model": "DungeonSlice",
+      "seconds": 360.0,
+      "results": [
+        {
+          "name": "Keep_craft_ring",
+          "label": "保留331制造戒，替H4戒，沿用合适宝石",
+          "mean": 317552.49360284826,
+          "error": 365.84425619752636,
+          "provisional": true
+        },
+        {
+          "name": "Other_hands",
+          "label": "H5手替密谋手",
+          "mean": 324091.01474462013,
+          "error": 375.74782421044495,
+          "provisional": true
+        },
+        {
+          "name": "Other_passive",
+          "label": "换另一件334被动饰品",
+          "mean": 311971.8959183115,
+          "error": 345.09912920530024,
+          "provisional": true
+        },
+        {
+          "name": "Stats_CM_Mastery",
+          "label": "制造CM＋Mastery合剂",
+          "mean": 324345.09872539813,
+          "error": 368.6198001382355,
+          "provisional": true
+        },
+        {
+          "name": "Prepared_current",
+          "label": "现装补齐孔附魔",
+          "mean": 293794.4129682073,
+          "error": 326.7578889701611,
+          "provisional": true
+        },
+        {
+          "name": "Elite_core",
+          "label": "高手样本中的334守护者沸腾核心",
+          "mean": 313871.3482324761,
+          "error": 356.608486807739,
+          "provisional": true
+        },
+        {
+          "name": "Gem_CH",
+          "label": "两个空戒指孔改暴击急速，保留原有宝石孔",
+          "mean": 323402.0867561597,
+          "error": 370.6627803886024,
+          "provisional": true
+        },
+        {
+          "name": "Ordinary_chest",
+          "label": "移除H10胸效果，换普通神话套装胸",
+          "mean": 322381.54756334034,
+          "error": 369.9177761890304,
+          "provisional": true
+        },
+        {
+          "name": "Owned_head",
+          "label": "保持未化生头，改神话套装手维持四件",
+          "mean": 323039.55476464547,
+          "error": 367.2115428664554,
+          "provisional": true
+        },
+        {
+          "name": "Raw_current",
+          "label": "最新实际装备（未补孔附魔）",
+          "mean": 286221.9476971256,
+          "error": 319.50068069755804,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "budget-upgrade-current-raid",
+      "mode": "raid",
+      "stage": "upgrade-current",
+      "label": "当前装备：10枚毒液石选择（341显式覆盖）",
+      "baseline": 208364.15931381637,
+      "stderr": 68.78504198219196,
+      "iterations": 6511,
+      "seed": 28102026,
+      "model": "Patchwerk",
+      "seconds": 240.0,
+      "results": [
+        {
+          "name": "Weapon_341",
+          "label": "消耗10枚晋升毒液石：H8长柄334→341",
+          "mean": 212293.78428325945,
+          "error": 137.14752414672546,
+          "provisional": true
+        },
+        {
+          "name": "Mode_trinket_341",
+          "label": "消耗10枚晋升毒液石：H7祖尔金饰品334→341",
+          "mean": 210069.71192055856,
+          "error": 139.40386248042094,
+          "provisional": true
+        },
+        {
+          "name": "Neck_341",
+          "label": "消耗10枚晋升毒液石：H8项链334→341",
+          "mean": 209079.63684548688,
+          "error": 138.4069828475688,
+          "provisional": true
+        },
+        {
+          "name": "Heart_341",
+          "label": "消耗10枚晋升毒液石：H8乌拉特克之心334→341",
+          "mean": 209924.74381858023,
+          "error": 139.33939295073736,
+          "provisional": true
+        }
+      ],
+      "note": "基准为当前装备补齐孔附魔；每个候选只强化一件、均消耗10石。新装等为截图规则的显式覆盖，不代表引擎已更新。"
+    },
+    {
+      "key": "budget-upgrade-current-dungeon",
+      "mode": "dungeon",
+      "stage": "upgrade-current",
+      "label": "当前装备：10枚毒液石选择（341显式覆盖）",
+      "baseline": 293844.98597073206,
+      "stderr": 167.84465384879675,
+      "iterations": 6511,
+      "seed": 28102026,
+      "model": "DungeonSlice",
+      "seconds": 360.0,
+      "results": [
+        {
+          "name": "Weapon_341",
+          "label": "消耗10枚晋升毒液石：H8长柄334→341",
+          "mean": 299632.9754837937,
+          "error": 332.3944813635953,
+          "provisional": true
+        },
+        {
+          "name": "Mode_trinket_341",
+          "label": "消耗10枚晋升毒液石：H7祖尔金饰品334→341",
+          "mean": 295454.7387248885,
+          "error": 323.01838099162455,
+          "provisional": true
+        },
+        {
+          "name": "Neck_341",
+          "label": "消耗10枚晋升毒液石：H8项链334→341",
+          "mean": 294914.6718343413,
+          "error": 335.62980909686974,
+          "provisional": true
+        },
+        {
+          "name": "Heart_341",
+          "label": "消耗10枚晋升毒液石：H8乌拉特克之心334→341",
+          "mean": 295700.7508955107,
+          "error": 332.66324098059783,
+          "provisional": true
+        }
+      ],
+      "note": "基准为当前装备补齐孔附魔；每个候选只强化一件、均消耗10石。新装等为截图规则的显式覆盖，不代表引擎已更新。"
+    },
+    {
+      "key": "budget-upgrade-raid",
+      "mode": "raid",
+      "stage": "upgrade",
+      "label": "目标套装：10枚毒液石选择（341显式覆盖）",
+      "baseline": 221195.93230386905,
+      "stderr": 75.84364468974542,
+      "iterations": 6511,
+      "seed": 28102026,
+      "model": "Patchwerk",
+      "seconds": 240.0,
+      "results": [
+        {
+          "name": "Weapon_341",
+          "label": "消耗10枚晋升毒液石：H8长柄334→341",
+          "mean": 224992.00096583518,
+          "error": 152.5910037460638,
+          "provisional": true
+        },
+        {
+          "name": "Mode_trinket_341",
+          "label": "消耗10枚晋升毒液石：H7祖尔金饰品334→341",
+          "mean": 222459.2701998356,
+          "error": 149.73314712617696,
+          "provisional": true
+        },
+        {
+          "name": "Neck_341",
+          "label": "消耗10枚晋升毒液石：H8项链334→341",
+          "mean": 221869.43252108878,
+          "error": 149.51173347899473,
+          "provisional": true
+        },
+        {
+          "name": "Heart_341",
+          "label": "消耗10枚晋升毒液石：H8乌拉特克之心334→341",
+          "mean": 222663.30685602836,
+          "error": 150.6888979179046,
+          "provisional": true
+        }
+      ],
+      "note": "基准为上方推荐目标套装；每个候选只强化一件、均消耗10石。新装等为截图规则的显式覆盖，不代表引擎已更新。"
+    },
+    {
+      "key": "budget-upgrade-dungeon",
+      "mode": "dungeon",
+      "stage": "upgrade",
+      "label": "目标套装：10枚毒液石选择（341显式覆盖）",
+      "baseline": 324062.2146988346,
+      "stderr": 192.48572486189863,
+      "iterations": 6511,
+      "seed": 28102026,
+      "model": "DungeonSlice",
+      "seconds": 360.0,
+      "results": [
+        {
+          "name": "Weapon_341",
+          "label": "消耗10枚晋升毒液石：H8长柄334→341",
+          "mean": 330242.2118169731,
+          "error": 378.2253876137227,
+          "provisional": true
+        },
+        {
+          "name": "Mode_trinket_341",
+          "label": "消耗10枚晋升毒液石：H10扭曲恐兽触须334→341",
+          "mean": 325873.97649969644,
+          "error": 378.7983907150103,
+          "provisional": true
+        },
+        {
+          "name": "Neck_341",
+          "label": "消耗10枚晋升毒液石：H8项链334→341",
+          "mean": 324970.8838273718,
+          "error": 376.5032288813001,
+          "provisional": true
+        },
+        {
+          "name": "Heart_341",
+          "label": "消耗10枚晋升毒液石：H8乌拉特克之心334→341",
+          "mean": 325981.66432942904,
+          "error": 373.76522283479625,
+          "provisional": true
+        }
+      ],
+      "note": "基准为上方推荐目标套装；每个候选只强化一件、均消耗10石。新装等为截图规则的显式覆盖，不代表引擎已更新。"
+    },
+    {
+      "key": "weapons-raid",
+      "mode": "raid",
+      "stage": "weapons",
+      "label": "当前装：长柄／双持／337制造副手（显式装等覆盖）",
+      "baseline": 208448.77360075762,
+      "stderr": 93.40830392002961,
+      "iterations": 3511,
+      "seed": 29102026,
+      "model": "Patchwerk",
+      "seconds": 240.0,
+      "results": [
+        {
+          "name": "Polearm_341",
+          "label": "已拥有长柄341（10石）",
+          "mean": 212272.6805621887,
+          "error": 189.2789047306881,
+          "provisional": true
+        },
+        {
+          "name": "Craft_neck_337",
+          "label": "普通制造项链337替H8项链（10石；无毒咒）",
+          "mean": 209027.0118972547,
+          "error": 175.25567555816002,
+          "provisional": true
+        },
+        {
+          "name": "Dual_334_268206",
+          "label": "团本单手剑334＋副手268206334（无毒液石）",
+          "mean": 200506.42329403068,
+          "error": 170.38911858551774,
+          "provisional": true
+        },
+        {
+          "name": "Dual_334_270930",
+          "label": "团本单手剑334＋副手270930334（无毒液石）",
+          "mean": 199151.0757368659,
+          "error": 167.8502836763361,
+          "provisional": true
+        },
+        {
+          "name": "Craft_off_32_36",
+          "label": "神话单手334＋制造副手337、属性32/36（10石；保留双奥纹）",
+          "mean": 199876.46906279793,
+          "error": 168.39540697890038,
+          "provisional": true
+        },
+        {
+          "name": "Dual_341_268206",
+          "label": "团本单手剑341＋副手268206334（10石）",
+          "mean": 203141.4454859108,
+          "error": 169.96047582176533,
+          "provisional": true
+        },
+        {
+          "name": "Dual_myth_341",
+          "label": "双神话单手均341（20石；与10石预算不等价）",
+          "mean": 202618.39497028934,
+          "error": 169.71849844357706,
+          "provisional": true
+        },
+        {
+          "name": "Dual_341_270930",
+          "label": "团本单手剑341＋副手270930334（10石）",
+          "mean": 202197.3887262474,
+          "error": 168.74513416959869,
+          "provisional": true
+        },
+        {
+          "name": "Craft_off_32_49",
+          "label": "神话单手334＋制造副手337、属性32/49（10石；保留双奥纹）",
+          "mean": 201096.42649622756,
+          "error": 176.4089679963673,
+          "provisional": true
+        },
+        {
+          "name": "Ritual_off_32_49",
+          "label": "神话单手334＋仪式石制造副手337、属性32/49（10石；单奥纹）",
+          "mean": 201644.53223960864,
+          "error": 172.54843424040496,
+          "provisional": true
+        },
+        {
+          "name": "Craft_off_36_49",
+          "label": "神话单手334＋制造副手337、属性36/49（10石；保留双奥纹）",
+          "mean": 200489.76822725934,
+          "error": 168.50611068528846,
+          "provisional": true
+        },
+        {
+          "name": "Ritual_off_36_49",
+          "label": "神话单手334＋仪式石制造副手337、属性36/49（10石；单奥纹）",
+          "mean": 201200.41404465443,
+          "error": 172.6665440818885,
+          "provisional": true
+        },
+        {
+          "name": "Ritual_off_32_36",
+          "label": "神话单手334＋仪式石制造副手337、属性32/36（10石；单奥纹）",
+          "mean": 200493.82411466728,
+          "error": 173.14267128709167,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "weapons-dungeon",
+      "mode": "dungeon",
+      "stage": "weapons",
+      "label": "当前装：长柄／双持／337制造副手（显式装等覆盖）",
+      "baseline": 293578.41695966385,
+      "stderr": 228.34072454036905,
+      "iterations": 3511,
+      "seed": 29102026,
+      "model": "DungeonSlice",
+      "seconds": 360.0,
+      "results": [
+        {
+          "name": "Polearm_341",
+          "label": "已拥有长柄341（10石）",
+          "mean": 299196.9589002351,
+          "error": 458.2254312247497,
+          "provisional": true
+        },
+        {
+          "name": "Craft_neck_337",
+          "label": "普通制造项链337替H8项链（10石；无毒咒）",
+          "mean": 295511.9070281527,
+          "error": 453.77335920459257,
+          "provisional": true
+        },
+        {
+          "name": "Dual_334_268206",
+          "label": "团本单手剑334＋副手268206334（无毒液石）",
+          "mean": 284835.36159290397,
+          "error": 437.93534909928275,
+          "provisional": true
+        },
+        {
+          "name": "Dual_334_270930",
+          "label": "团本单手剑334＋副手270930334（无毒液石）",
+          "mean": 283182.0281347377,
+          "error": 429.35253213829355,
+          "provisional": true
+        },
+        {
+          "name": "Craft_off_32_36",
+          "label": "神话单手334＋制造副手337、属性32/36（10石；保留双奥纹）",
+          "mean": 284035.79949839984,
+          "error": 430.00639918233577,
+          "provisional": true
+        },
+        {
+          "name": "Dual_341_268206",
+          "label": "团本单手剑341＋副手268206334（10石）",
+          "mean": 288667.5751773533,
+          "error": 444.3070829729559,
+          "provisional": true
+        },
+        {
+          "name": "Dual_myth_341",
+          "label": "双神话单手均341（20石；与10石预算不等价）",
+          "mean": 288387.1007173169,
+          "error": 446.93420815983444,
+          "provisional": true
+        },
+        {
+          "name": "Dual_341_270930",
+          "label": "团本单手剑341＋副手270930334（10石）",
+          "mean": 287262.03403978294,
+          "error": 439.82213267550685,
+          "provisional": true
+        },
+        {
+          "name": "Craft_off_32_49",
+          "label": "神话单手334＋制造副手337、属性32/49（10石；保留双奥纹）",
+          "mean": 285648.20282257337,
+          "error": 442.9516943395592,
+          "provisional": true
+        },
+        {
+          "name": "Ritual_off_32_49",
+          "label": "神话单手334＋仪式石制造副手337、属性32/49（10石；单奥纹）",
+          "mean": 286860.507510494,
+          "error": 445.25577254775243,
+          "provisional": true
+        },
+        {
+          "name": "Craft_off_36_49",
+          "label": "神话单手334＋制造副手337、属性36/49（10石；保留双奥纹）",
+          "mean": 284958.5466900734,
+          "error": 436.27269824790073,
+          "provisional": true
+        },
+        {
+          "name": "Ritual_off_36_49",
+          "label": "神话单手334＋仪式石制造副手337、属性36/49（10石；单奥纹）",
+          "mean": 286067.13040890446,
+          "error": 441.1114783770796,
+          "provisional": true
+        },
+        {
+          "name": "Ritual_off_32_36",
+          "label": "神话单手334＋仪式石制造副手337、属性32/36（10石；单奥纹）",
+          "mean": 285038.54693476314,
+          "error": 443.82177387680775,
+          "provisional": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-10-23T13:22:16+08:00",
+  "artifact_validation": "PASS: 14 measured runs, 2 exact exports, 30 target slots, fresh simulation outputs, relative evidence files and hotfix wording",
+  "effective_model_checks": {
+    "mythic_341": "Engine result gear confirms level=341 and retained bonuses; expected venom/heart procs active",
+    "crafted_337_ritual": "Offhand level=337; critical/hasty/masterful/versatile ritual and one remaining arcanoweave lining active",
+    "recraft": "Back and wrists are crit/mastery after removing old missive bonuses; embellishment 12384 retained"
+  },
+  "browser": {
+    "desktop_width": 1440,
+    "mobile_width": 390,
+    "broken_images": 0,
+    "export_content_matches": {
+      "raid": true,
+      "dungeon": true
+    },
+    "weapon_stage_tables": 2,
+    "raid_filtered_tables": 1,
+    "desktop_overflow": false,
+    "mobile_overflow": false,
+    "tooltip_provider_loaded": true,
+    "cached_item_tooltips": 15,
+    "offline_gear_rows": 15,
+    "offline_elite_rows": 13,
+    "page_errors": [],
+    "network_note": "Offline test deliberately blocks external HTTPS, so the optional Wowhead network request fails by design; embedded content remains functional."
+  },
+  "snapshot_sha256": "ad27536cf700521bb2b27454edb32ff9f9c633d5e800ad6ec19b23c75770760c",
+  "limitations": [
+    "No new full per-player WCL event analysis; current statistics are aggregated high-log samples.",
+    "Oct 23 levels use explicit ilevel overrides on Oct 22 DBC, not verified new native bonus IDs.",
+    "No commit, push, publication or material-spending event was performed."
+  ],
+  "code_review": {
+    "state": "Independent Codex review completed; three P2 findings addressed",
+    "reviewer": "01a1679b-a4d2-72b1-a7a7-b08185fd601f",
+    "fixes": [
+      "Label ID-only offline tooltips as generic reference, not actual configuration",
+      "Validate all bonus IDs, gems, enchants, crafted stats, catalyst source and tuning against measured recommended results",
+      "Mark dungeon target and verification comparisons provisional for target-acquisition trinket modeling"
+    ],
+    "reverified_at": "2026-10-23T15:28:18+08:00"
+  }
+}

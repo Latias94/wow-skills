@@ -1,0 +1,53 @@
+# Best tested attainable dungeon candidate, not a proven global BiS.
+# Local SimC midnight 71a76b73cc; PTR 12.1.5.70077 required.
+# Loot capped at 334; crafts at 331; no inaccessible M7/M8 or 9/6.
+ptr=1
+monk=Shaseng_Target_BIS
+level=90
+race=pandaren
+region=cn
+server=barrens
+role=dps
+spec=windwalker
+position=back
+talents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG
+# Four converted/ordinary tier slots: head, shoulders, chest, legs.
+set_bonus=mid2_2pc=1/mid2_4pc=1
+# H8 effect head, Catalyst source retained.
+head=,id=271519,redirected_base_stats=271875,ilevel=334,bonus_id=13847,enchant_id=8017,gem_id=240967
+# H8 neck target variant; owned necklace bonus 13987 differs from tested 13708.
+neck=,id=268265,ilevel=334,bonus_id=13708,gem_id=240914/240890,crafted_stats=32/40
+# Vaashnik shoulder, converted; inspect actual boss reward preview.
+shoulder=,id=271517,redirected_base_stats=268246,ilevel=334,enchant_id=8001
+# H7 The Coiled Altar: cloak, waist and leg precursor.
+back=,id=268253,ilevel=334
+# Tier chest: obtainable through tier/Vault/Catalyst, not necessarily a coin.
+chest=,id=271522,ilevel=334,enchant_id=7987
+# Craft 1: haste/mastery, Arcanoweave Lining.
+wrist=,id=244576,ilevel=331,bonus_id=12384,crafted_stats=36/49,crafting_quality=5,gem_id=240908
+# Murder Row dungeon hands.
+hands=,id=251124,ilevel=334
+waist=,id=268256,ilevel=334,gem_id=240908
+legs=,id=271518,redirected_base_stats=268225,ilevel=334,enchant_id=8159
+# Craft 2: haste/mastery, Arcanoweave Lining.
+feet=,id=244569,ilevel=331,bonus_id=12384,crafted_stats=36/49,crafting_quality=5,enchant_id=7963
+# Retain Vaashnik ring alongside the new ring.
+finger1=,id=268249,ilevel=334,enchant_id=7967,gem_id=240908
+finger2=,id=281029,ilevel=334,enchant_id=7967,gem_id=240900
+trinket1=,id=270175,ilevel=334
+trinket2=,id=281215,ilevel=334
+main_hand=,id=268215,ilevel=334,bonus_id=13846,enchant_id=8689
+# Explicit effective defaults from the tested report, not an unflasked snapshot.
+flask=flask_of_the_magisters_2
+food=harandar_celebration
+augmentation=void_touched
+potion=potion_of_recklessness_2
+temporary_enchant=main_hand:thalassian_phoenix_oil_2
+optimal_raid=0
+override.bloodlust=0
+fight_style=DungeonSlice
+iterations=2500
+threads=6
+max_time=360
+vary_combat_length=0
+seed=10102026

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-barrens-shaseng",
+  "reset_date": "2026-10-01",
+  "timezone": "Asia/Shanghai",
+  "patch": "12.1",
+  "season": "Midnight Season 2",
+  "budget": {"reported_balance": null, "reported_at": null, "evidence": null},
+  "vault": {"status": "unknown", "candidates": null, "chosen_event_id": null},
+  "plan": null,
+  "events": [
+    {
+      "event_id": "shaseng-2026-10-01-h8-neck-268265",
+      "reported_at": "2026-10-09T17:59:54+08:00",
+      "occurred_at": null,
+      "occurred_week": "2026-10-01",
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "evidence": "User reports the equipped necklace was obtained by rolling H8 last week. Exact date and loot spec not supplied.",
+      "season": "Midnight Season 2",
+      "boss": "Ula'tek",
+      "difficulty": "heroic",
+      "loot_spec": null,
+      "actual_coin_cost": null,
+      "item_id": 268265,
+      "item_identity_evidence": "Matched to the sole necklace in the supplied SimC snapshot.",
+      "bonus_ids_at_acquisition": null,
+      "item_level_at_acquisition": null,
+      "outcome": "item"
+    }
+  ],
+  "history_coverage": "unknown"
+}

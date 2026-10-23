@@ -1,0 +1,72 @@
+# Obtainable-end-state comparison, not an exhaustive proof of global BiS.
+# Source: SimulationCraft MID2 Conduit generator; crafted 331, all loot 334.
+ptr=1
+monk=Shaseng_BIS
+level=90
+race=pandaren
+role=dps
+spec=windwalker
+position=back
+# Hold the user's declared Celestial Conduit build fixed for gear comparisons.
+talents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG
+set_bonus=mid2_2pc=1/mid2_4pc=1
+head=,id=271519,redirected_base_stats=271875,ilevel=334,bonus_id=13847,enchant_id=8017,gem_id=240967
+neck=,id=268265,ilevel=334,bonus_id=13708,gem_id=240914/240890,crafted_stats=32/40
+shoulder=,id=271517,ilevel=334,enchant_id=8001
+back=,id=268253,ilevel=334
+chest=,id=271522,ilevel=334,enchant_id=7987
+wrist=,id=244576,ilevel=331,bonus_id=12384,crafted_stats=36/49,crafting_quality=5,gem_id=240908
+hands=,id=251124,ilevel=334
+waist=,id=268256,ilevel=334,gem_id=240908
+legs=,id=271518,redirected_base_stats=268225,ilevel=334,enchant_id=8159
+feet=,id=244569,ilevel=331,bonus_id=12384,crafted_stats=36/49,crafting_quality=5,enchant_id=7963
+finger1=,id=268249,ilevel=334,enchant_id=7967,gem_id=240908
+finger2=,id=252258,ilevel=334,enchant_id=7967,gem_id=240900
+trinket1=,id=270175,ilevel=334
+trinket2=,id=270173,ilevel=334
+main_hand=,id=268215,ilevel=334,bonus_id=13846,enchant_id=8689
+temporary_enchant=main_hand:thalassian_phoenix_oil_2
+optimal_raid=0
+override.bloodlust=0
+iterations=1500
+threads=6
+profileset_work_threads=2
+max_time=180
+vary_combat_length=0
+seed=10102026
+fight_style=Patchwerk
+
+# Passive alternatives at identical item level, paired with the H8 heart.
+profileset."H2_core"=trinket2=,id=270165,ilevel=334
+profileset."explorers_bag"=trinket2=,id=270164,ilevel=334
+profileset."MurderRow_stone"=trinket2=,id=250228,ilevel=334
+profileset."new_trinket"=trinket2=,id=281215,ilevel=334
+
+# New raid effects with Catalyst source stats retained.
+profileset."new_chest"=chest=,id=271522,redirected_base_stats=281236,ilevel=334,bonus_id=14049,enchant_id=7987
+profileset."new_ring_replaces_H4"=finger1=,id=281029,ilevel=334,enchant_id=7967,gem_id=240908
+profileset."new_ring_replaces_Atroxus"=finger2=,id=281029,ilevel=334,enchant_id=7967,gem_id=240900
+profileset."new_three"=chest=,id=271522,redirected_base_stats=281236,ilevel=334,bonus_id=14049,enchant_id=7987
+profileset."new_three"+=finger1=,id=281029,ilevel=334,enchant_id=7967,gem_id=240908
+profileset."new_three"+=trinket2=,id=281215,ilevel=334
+
+# Retain old passive options after obtaining new chest/ring.
+profileset."new_chest_ring_H7"=chest=,id=271522,redirected_base_stats=281236,ilevel=334,bonus_id=14049,enchant_id=7987
+profileset."new_chest_ring_H7"+=finger1=,id=281029,ilevel=334,enchant_id=7967,gem_id=240908
+profileset."new_chest_ring_H2"=chest=,id=271522,redirected_base_stats=281236,ilevel=334,bonus_id=14049,enchant_id=7987
+profileset."new_chest_ring_H2"+=finger1=,id=281029,ilevel=334,enchant_id=7967,gem_id=240908
+profileset."new_chest_ring_H2"+=trinket2=,id=270165,ilevel=334
+
+# H4 shoulder can be catalyzed and therefore does not automatically conflict with H8 head.
+profileset."H4_shoulder_catalyzed"=shoulder=,id=271517,redirected_base_stats=268246,ilevel=334,enchant_id=8001
+# Existing crafted slots as an obtainable alternative, not raw current gear.
+profileset."crafted_cloak_ring"=back=,id=239656,ilevel=331,crafted_stats=36/49
+profileset."crafted_cloak_ring"+=finger2=,id=240949,ilevel=331,crafted_stats=36/49,enchant_id=7967,gem_id=240900
+
+# Local redistribution, identical total secondary-rating budget.
+profileset."100crit_to_mastery"=enchant_crit_rating=-100
+profileset."100crit_to_mastery"+=enchant_mastery_rating=100
+profileset."100mastery_to_haste"=enchant_mastery_rating=-100
+profileset."100mastery_to_haste"+=enchant_haste_rating=100
+profileset."100haste_to_mastery"=enchant_haste_rating=-100
+profileset."100haste_to_mastery"+=enchant_mastery_rating=100

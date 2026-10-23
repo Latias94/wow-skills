@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-15",
+  "vault_status": "offered_not_claimed",
+  "recommendation": 268249,
+  "runs": {
+    "raid": {
+      "baseline": 183282.66859678988,
+      "baseline_standard_error": 64.37924419819859,
+      "git": "3dcabb94dd",
+      "dbc": {
+        "Live": {
+          "build_level": 70391,
+          "wow_version": "12.1.5.70391",
+          "hotfix_date": "2026-10-14",
+          "hotfix_build": 70391,
+          "hotfix_hash": "fb543b39e582d70f687907fbe374d5a4387febfd55906d36522ef90ec28d101f"
+        },
+        "PTR": {
+          "build_level": 70340,
+          "wow_version": "12.1.5.70340",
+          "hotfix_date": "2026-10-13",
+          "hotfix_build": 70340,
+          "hotfix_hash": "267c3c8d85dfcb1897e4e25a268ab51061d3ead4bf8f4ab8d3fdea9115ae77a0"
+        },
+        "version_used": "Live"
+      },
+      "iterations": 6005,
+      "seed": 15103726,
+      "results": [
+        {
+          "name": "H4_ring_334_replace_craft",
+          "mean": 188989.27292741358,
+          "min": 170509.21116399628,
+          "max": 207093.10963285193,
+          "stddev": 5504.192404953008,
+          "mean_stddev": 71.06474070417964,
+          "mean_error": 139.28433241261268,
+          "median": 188952.98703250114,
+          "first_quartile": 185249.61799878982,
+          "third_quartile": 192647.31385678198,
+          "iterations": 6000
+        },
+        {
+          "name": "Vault_1H334_with_owned1H321",
+          "mean": 181893.25220592698,
+          "min": 164542.80308460683,
+          "max": 202013.8990522437,
+          "stddev": 4828.183873641958,
+          "mean_stddev": 62.33678073166789,
+          "mean_error": 122.17784520039937,
+          "median": 181911.94670506293,
+          "first_quartile": 178592.19592631728,
+          "third_quartile": 185070.94839138718,
+          "iterations": 6000
+        },
+        {
+          "name": "H7_trinket_318",
+          "mean": 185033.27711751315,
+          "min": 167218.52884343293,
+          "max": 202855.22354243338,
+          "stddev": 4678.745229760791,
+          "mean_stddev": 60.4073753444138,
+          "mean_error": 118.39628012812747,
+          "median": 185037.44313805143,
+          "first_quartile": 181857.4937446896,
+          "third_quartile": 188178.1345047541,
+          "iterations": 6000
+        },
+        {
+          "name": "H4_ring_318",
+          "mean": 184837.0141742848,
+          "min": 166247.79406816192,
+          "max": 207387.99202273707,
+          "stddev": 5004.47205718626,
+          "mean_stddev": 64.61284107460091,
+          "mean_error": 126.63884150116547,
+          "median": 184716.4665081257,
+          "first_quartile": 181514.06661999962,
+          "third_quartile": 188123.04361297283,
+          "iterations": 6000
+        },
+        {
+          "name": "Chest334_keep4pc",
+          "mean": 183078.8051539073,
+          "min": 166615.35148800735,
+          "max": 201941.13728096284,
+          "stddev": 4943.614748470031,
+          "mean_stddev": 63.827111117199486,
+          "mean_error": 125.09883908240184,
+          "median": 183002.14172103442,
+          "first_quartile": 179681.46966285293,
+          "third_quartile": 186347.388875717,
+          "iterations": 6000
+        },
+        {
+          "name": "H7_trinket_334",
+          "mean": 188083.011469593,
+          "min": 168378.29150472893,
+          "max": 208244.20395806903,
+          "stddev": 4925.206240186751,
+          "mean_stddev": 63.58943849028969,
+          "mean_error": 124.6330092933411,
+          "median": 187987.90312550278,
+          "first_quartile": 184759.7960205497,
+          "third_quartile": 191398.2771013881,
+          "iterations": 6000
+        },
+        {
+          "name": "H4_ring_334",
+          "mean": 188803.17884619944,
+          "min": 167429.8976044396,
+          "max": 210001.31495478918,
+          "stddev": 5426.454567662347,
+          "mean_stddev": 70.06106589713741,
+          "mean_error": 137.31716593774772,
+          "median": 188816.56270422682,
+          "first_quartile": 185084.3653111249,
+          "third_quartile": 192471.4279893406,
+          "iterations": 6000
+        },
+        {
+          "name": "H4_trinket_334",
+          "mean": 184818.33506823497,
+          "min": 168355.20366572836,
+          "max": 202921.0915132204,
+          "stddev": 4696.40016233793,
+          "mean_stddev": 60.635318539970555,
+          "mean_error": 118.84304058213773,
+          "median": 184815.66219381106,
+          "first_quartile": 181712.7070244022,
+          "third_quartile": 187932.92816920896,
+          "iterations": 6000
+        }
+      ]
+    },
+    "dungeon": {
+      "baseline": 257308.4964569866,
+      "baseline_standard_error": 157.58597964730703,
+      "git": "3dcabb94dd",
+      "dbc": {
+        "Live": {
+          "build_level": 70391,
+          "wow_version": "12.1.5.70391",
+          "hotfix_date": "2026-10-14",
+          "hotfix_build": 70391,
+          "hotfix_hash": "fb543b39e582d70f687907fbe374d5a4387febfd55906d36522ef90ec28d101f"
+        },
+        "PTR": {
+          "build_level": 70340,
+          "wow_version": "12.1.5.70340",
+          "hotfix_date": "2026-10-13",
+          "hotfix_build": 70340,
+          "hotfix_hash": "267c3c8d85dfcb1897e4e25a268ab51061d3ead4bf8f4ab8d3fdea9115ae77a0"
+        },
+        "version_used": "Live"
+      },
+      "iterations": 6005,
+      "seed": 15103726,
+      "results": [
+        {
+          "name": "H4_ring_334_replace_craft",
+          "mean": 268908.6256768451,
+          "min": 225989.33482218243,
+          "max": 316035.0204080072,
+          "stddev": 12776.156100235607,
+          "mean_stddev": 164.95321268972208,
+          "mean_error": 323.30235614934656,
+          "median": 268810.7641133691,
+          "first_quartile": 260223.05674871118,
+          "third_quartile": 277466.2046277817,
+          "iterations": 6000
+        },
+        {
+          "name": "Vault_1H334_with_owned1H321",
+          "mean": 257097.32043805646,
+          "min": 214761.4991538263,
+          "max": 304781.48710606474,
+          "stddev": 12256.131841918013,
+          "mean_stddev": 158.23916885579501,
+          "mean_error": 310.143072038393,
+          "median": 256962.45655746444,
+          "first_quartile": 248987.57479065203,
+          "third_quartile": 265284.6403667041,
+          "iterations": 6000
+        },
+        {
+          "name": "H7_trinket_318",
+          "mean": 254832.09046228172,
+          "min": 214762.16000481776,
+          "max": 293043.6806590411,
+          "stddev": 11533.7030758431,
+          "mean_stddev": 148.91187628292707,
+          "mean_error": 291.8619145142,
+          "median": 254817.18420276802,
+          "first_quartile": 247068.16004039923,
+          "third_quartile": 262658.5454279873,
+          "iterations": 6000
+        },
+        {
+          "name": "H4_ring_318",
+          "mean": 261509.530021456,
+          "min": 219974.64173311612,
+          "max": 308061.75566634606,
+          "stddev": 12340.117830125982,
+          "mean_stddev": 159.32351366710878,
+          "mean_error": 312.26834881633295,
+          "median": 261429.451544202,
+          "first_quartile": 253006.76750207474,
+          "third_quartile": 269730.0722157995,
+          "iterations": 6000
+        },
+        {
+          "name": "Chest334_keep4pc",
+          "mean": 256361.7927754074,
+          "min": 208084.65652441108,
+          "max": 300327.2872202082,
+          "stddev": 12072.681437407999,
+          "mean_stddev": 155.87063693150222,
+          "mean_error": 305.5008347684879,
+          "median": 256402.63846855392,
+          "first_quartile": 248283.68621420086,
+          "third_quartile": 264375.56794906803,
+          "iterations": 6000
+        },
+        {
+          "name": "H7_trinket_334",
+          "mean": 257755.65931253115,
+          "min": 217307.1002637993,
+          "max": 304187.3953983381,
+          "stddev": 11839.753413401486,
+          "mean_stddev": 152.863298450045,
+          "mean_error": 299.6065596528975,
+          "median": 257758.9125962779,
+          "first_quartile": 249655.04408388352,
+          "third_quartile": 265811.52494275477,
+          "iterations": 6000
+        },
+        {
+          "name": "H4_ring_334",
+          "mean": 265175.944636123,
+          "min": 225036.25477808912,
+          "max": 309163.3439059327,
+          "stddev": 12726.333972032993,
+          "mean_stddev": 164.30995817360758,
+          "mean_error": 322.04160046431053,
+          "median": 265093.7501588565,
+          "first_quartile": 256584.26772635183,
+          "third_quartile": 273798.8509171322,
+          "iterations": 6000
+        },
+        {
+          "name": "H4_trinket_334",
+          "mean": 256905.053075869,
+          "min": 216545.04330085622,
+          "max": 299751.4222142369,
+          "stddev": 11866.057734192158,
+          "mean_stddev": 153.20291407371153,
+          "mean_error": 300.27219404416604,
+          "median": 257044.06548416242,
+          "first_quartile": 248976.80049376062,
+          "third_quartile": 264773.11120268225,
+          "iterations": 6000
+        }
+      ]
+    }
+  }
+}

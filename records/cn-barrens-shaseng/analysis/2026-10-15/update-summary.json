@@ -1,0 +1,244 @@
+{
+  "checked_at": "2026-10-15T14:18:55.1259416+08:00",
+  "source_commit": "3dcabb94dd32f786786c67541dfd10db9f39e43b",
+  "previous_commit": "71a76b73cc",
+  "character_snapshot_date": "2026-10-10",
+  "runs": {
+    "raid": {
+      "baseline": 218132.78542168206,
+      "baseline_standard_error": 79.08326357195789,
+      "iterations": 6005,
+      "seed": 15102026,
+      "dbc": {
+        "Live": {
+          "build_level": 70391,
+          "wow_version": "12.1.5.70391",
+          "hotfix_date": "2026-10-14",
+          "hotfix_build": 70391,
+          "hotfix_hash": "fb543b39e582d70f687907fbe374d5a4387febfd55906d36522ef90ec28d101f"
+        },
+        "PTR": {
+          "build_level": 70340,
+          "wow_version": "12.1.5.70340",
+          "hotfix_date": "2026-10-13",
+          "hotfix_build": 70340,
+          "hotfix_hash": "267c3c8d85dfcb1897e4e25a268ab51061d3ead4bf8f4ab8d3fdea9115ae77a0"
+        },
+        "version_used": "Live"
+      },
+      "git_revision": "3dcabb94dd",
+      "results": [
+        {
+          "name": "Haste_mastery_crafts",
+          "mean": 217765.45093102657,
+          "min": 194575.72552245948,
+          "max": 241803.80948719414,
+          "stddev": 6041.993604351472,
+          "mean_stddev": 78.00830298795032,
+          "mean_error": 152.89346441924667,
+          "median": 217620.71185168848,
+          "first_quartile": 213632.992978461,
+          "third_quartile": 221780.78790558505,
+          "iterations": 6000
+        },
+        {
+          "name": "Alternative_neck_13708",
+          "mean": 219218.0021215805,
+          "min": 194669.48615752865,
+          "max": 242271.9343393582,
+          "stddev": 6203.386975586151,
+          "mean_stddev": 80.0920561045465,
+          "mean_error": 156.9775454822587,
+          "median": 219206.16307702105,
+          "first_quartile": 215046.20086733412,
+          "third_quartile": 223333.66809305255,
+          "iterations": 6000
+        },
+        {
+          "name": "Crafted_ring_CM",
+          "mean": 217083.78872324203,
+          "min": 195020.7680638342,
+          "max": 238095.42152956332,
+          "stddev": 6191.468971115298,
+          "mean_stddev": 79.93818250509341,
+          "mean_error": 156.6759587690254,
+          "median": 217097.01229874732,
+          "first_quartile": 212828.09964539044,
+          "third_quartile": 221302.77712977648,
+          "iterations": 6000
+        },
+        {
+          "name": "Old_ring_Atroxus",
+          "mean": 217424.06689114182,
+          "min": 195983.1741641484,
+          "max": 241264.88080346366,
+          "stddev": 6063.40944860663,
+          "mean_stddev": 78.28480339109473,
+          "mean_error": 153.43539525136075,
+          "median": 217278.367347505,
+          "first_quartile": 213166.90112163234,
+          "third_quartile": 221514.07172443168,
+          "iterations": 6000
+        },
+        {
+          "name": "Haste_flask",
+          "mean": 217557.227742367,
+          "min": 194865.77643615016,
+          "max": 242102.67438408907,
+          "stddev": 6105.259533698821,
+          "mean_stddev": 78.82513069557778,
+          "mean_error": 154.4944173084806,
+          "median": 217548.5950731073,
+          "first_quartile": 213410.92386510424,
+          "third_quartile": 221657.32393108323,
+          "iterations": 6000
+        },
+        {
+          "name": "Old_chest",
+          "mean": 215945.18618695484,
+          "min": 194570.3792796857,
+          "max": 237648.81409555205,
+          "stddev": 6265.268441342909,
+          "mean_stddev": 80.89100897444278,
+          "mean_error": 158.54346433329448,
+          "median": 215874.67310391885,
+          "first_quartile": 211626.7847659563,
+          "third_quartile": 220146.3495430409,
+          "iterations": 6000
+        },
+        {
+          "name": "New_passive",
+          "mean": 217274.26137135597,
+          "min": 196374.45557456271,
+          "max": 241564.4716179153,
+          "stddev": 6132.937839211714,
+          "mean_stddev": 79.18248586409167,
+          "mean_error": 155.19482056876754,
+          "median": 217191.3958603282,
+          "first_quartile": 213044.64763283788,
+          "third_quartile": 221371.42121530822,
+          "iterations": 6000
+        }
+      ],
+      "warnings": null
+    },
+    "dungeon": {
+      "baseline": 318715.69535312883,
+      "baseline_standard_error": 197.79074687443844,
+      "iterations": 6005,
+      "seed": 15102026,
+      "dbc": {
+        "Live": {
+          "build_level": 70391,
+          "wow_version": "12.1.5.70391",
+          "hotfix_date": "2026-10-14",
+          "hotfix_build": 70391,
+          "hotfix_hash": "fb543b39e582d70f687907fbe374d5a4387febfd55906d36522ef90ec28d101f"
+        },
+        "PTR": {
+          "build_level": 70340,
+          "wow_version": "12.1.5.70340",
+          "hotfix_date": "2026-10-13",
+          "hotfix_build": 70340,
+          "hotfix_hash": "267c3c8d85dfcb1897e4e25a268ab51061d3ead4bf8f4ab8d3fdea9115ae77a0"
+        },
+        "version_used": "Live"
+      },
+      "git_revision": "3dcabb94dd",
+      "results": [
+        {
+          "name": "Haste_mastery_crafts",
+          "mean": 318304.7435424863,
+          "min": 266004.9446654894,
+          "max": 370653.7598406757,
+          "stddev": 15174.113147269974,
+          "mean_stddev": 195.91328516355352,
+          "mean_error": 383.9829831837051,
+          "median": 318064.2322156165,
+          "first_quartile": 307717.64554843423,
+          "third_quartile": 328494.357987744,
+          "iterations": 6000
+        },
+        {
+          "name": "Alternative_neck_13708",
+          "mean": 319496.93415973743,
+          "min": 252782.72120617155,
+          "max": 377953.55324103154,
+          "stddev": 15373.115937173006,
+          "mean_stddev": 198.48261425371058,
+          "mean_error": 389.0187756670763,
+          "median": 319401.56024114956,
+          "first_quartile": 309156.397648861,
+          "third_quartile": 329851.93830547575,
+          "iterations": 6000
+        },
+        {
+          "name": "New_chest",
+          "mean": 319194.6100747721,
+          "min": 261745.9337442176,
+          "max": 376515.89694604825,
+          "stddev": 15321.920329384535,
+          "mean_stddev": 197.82162671457465,
+          "mean_error": 387.72326389556576,
+          "median": 319085.89917573414,
+          "first_quartile": 308802.5596417283,
+          "third_quartile": 329349.54401501676,
+          "iterations": 6000
+        },
+        {
+          "name": "H7_passive",
+          "mean": 307107.4464539599,
+          "min": 254601.89351013684,
+          "max": 359426.67571980134,
+          "stddev": 14059.154721625708,
+          "mean_stddev": 181.51803412853332,
+          "mean_error": 355.7688095941455,
+          "median": 307105.0656364994,
+          "first_quartile": 297677.6104099705,
+          "third_quartile": 316539.1009841707,
+          "iterations": 6000
+        },
+        {
+          "name": "Crit_flask",
+          "mean": 318166.163213488,
+          "min": 253815.4906705758,
+          "max": 372129.4563688794,
+          "stddev": 15212.54582481022,
+          "mean_stddev": 196.40949024924552,
+          "mean_error": 384.9555272810381,
+          "median": 317845.90977872687,
+          "first_quartile": 307872.8900575847,
+          "third_quartile": 328711.16964501183,
+          "iterations": 6000
+        },
+        {
+          "name": "Crafted_ring_CM",
+          "mean": 316134.3763478893,
+          "min": 267436.8089889737,
+          "max": 377427.33872186666,
+          "stddev": 14990.744825569696,
+          "mean_stddev": 193.5458130120959,
+          "mean_error": 379.34282303038964,
+          "median": 316070.9768577958,
+          "first_quartile": 305805.1193224433,
+          "third_quartile": 326187.24305411935,
+          "iterations": 6000
+        },
+        {
+          "name": "Old_ring_Atroxus",
+          "mean": 314595.1508830238,
+          "min": 266608.59563138004,
+          "max": 374522.27404610615,
+          "stddev": 14971.164047083646,
+          "mean_stddev": 193.2930051806246,
+          "mean_error": 378.8473287854766,
+          "median": 314592.93781727535,
+          "first_quartile": 304297.9462000516,
+          "third_quartile": 324871.30140245974,
+          "iterations": 6000
+        }
+      ],
+      "warnings": null
+    }
+  }
+}
