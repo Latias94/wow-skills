@@ -1,0 +1,34 @@
+{
+  "retrieved_at": "2026-10-23T17:17:55+08:00",
+  "modes": {
+    "mplus": {
+      "source": "https://mythicstats.com/spec/elemental-shaman",
+      "sha256": "e15d36b30a96d0bfb2344740d0878f60a031a1a26809c8f0d393de39e9ee0528",
+      "sample_text": "Top talents, gear, gems and enchants based on the top 800 (160 unique characters) Elemental Shaman Mythic+ logs from the last two weeks ranging in difficulty from +22 to +24.",
+      "shoulder_text": ">Shoulder 271481 97.9% 244580 1.4% 268231 0.8%",
+      "crafted_shoulder_id": 244580,
+      "crafted_shoulder_percent": 1.4,
+      "sample": {
+        "logs": 800,
+        "unique_characters": 160,
+        "window_weeks": 2,
+        "difficulty": "+22 to +24"
+      }
+    },
+    "raid": {
+      "source": "https://mythicstats.com/raid/spec/elemental-shaman",
+      "sha256": "3d7cd2e175c8c9d200f52d1b63da34135eb251ab9cf4d017c5ad859e766944a8",
+      "sample_text": "Top talents, gear, gems and enchants based on the top 896 (450 unique characters) Elemental Shaman mythic raid logs from the last three weeks.",
+      "shoulder_text": ">Shoulder 271481 93.6% 268231 4.4% 244580 1.8%",
+      "crafted_shoulder_id": 244580,
+      "crafted_shoulder_percent": 1.8,
+      "sample": {
+        "logs": 896,
+        "unique_characters": 450,
+        "window_weeks": 3,
+        "difficulty": "Mythic all bosses"
+      }
+    }
+  },
+  "note": "Independent follow-up snapshots. Do not merge these denominators or proportions into the earlier 15:21 elite-research snapshot."
+}

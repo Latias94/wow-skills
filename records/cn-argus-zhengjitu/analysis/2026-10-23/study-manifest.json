@@ -1,0 +1,504 @@
+{
+  "current-raid": {
+    "mode": "raid",
+    "stage": "current",
+    "labels": {
+      "Prepared": "补头部附魔、虫群戒附魔与唯一现有空孔",
+      "Shoulder_334": "同来源神话肩334并化生；不是英雄321直接升轨道",
+      "Shoulder_raid": "334游魂护肩化生套肩，保留四件套",
+      "Venom_334": "另获神话毒液饰品334替英雄321毒液",
+      "Tendril_for_venom": "334触须替321毒液；需要获取，目标节奏暂定",
+      "Tendril_for_bag": "334触须替334无底袋；保留321毒液",
+      "Owned_dagger_shield": "背包331简斯拉泽＋321风暴庇护；不额外搬美化"
+    }
+  },
+  "practical-raid": {
+    "mode": "raid",
+    "stage": "practical",
+    "labels": {
+      "Raw_current": "原始现装未补齐",
+      "Owned_dagger_shield": "背包331简斯拉泽＋321盾；无制造重做",
+      "Dagger334_shield321": "背包神话匕首331升334＋现有321盾",
+      "Dagger331_craftshield": "背包331匕首＋331普通制造盾CH",
+      "Dagger334_shield334": "334简斯拉泽＋另获334盾",
+      "Venom_334": "神话334毒液替英雄321",
+      "Tendril_for_venom": "334触须替321毒液",
+      "Loa_ring": "331洛阿制造戒替邪恶戒，保留虫群；武器去仪式石保持2美化",
+      "Current_crafts_CH": "全部现有普通／美化制造改暴击急速，保留原美化",
+      "Current_crafts_CM": "全部现有普通／美化制造改暴击精通，保留原美化",
+      "Current_crafts_HM": "全部现有普通／美化制造改急速精通，保留原美化",
+      "Double_lining_staff": "保留法杖：仪式石改为披风第二奥纹（替钥匙链）",
+      "Double_lining_dagger": "334匕首＋331普通盾；腕披双奥纹完整组合"
+    }
+  },
+  "bags-raid": {
+    "mode": "raid",
+    "stage": "bags",
+    "labels": {
+      "Bag_270161": "背包实际饰品270161替321毒液",
+      "Bag_251783": "背包实际饰品251783替321毒液",
+      "Bag_270173": "背包实际饰品270173替321毒液",
+      "Bag_273794": "背包实际饰品273794替321毒液"
+    }
+  },
+  "current-dungeon": {
+    "mode": "dungeon",
+    "stage": "current",
+    "labels": {
+      "Prepared": "补头部附魔、虫群戒附魔与唯一现有空孔",
+      "Shoulder_334": "同来源神话肩334并化生；不是英雄321直接升轨道",
+      "Shoulder_raid": "334游魂护肩化生套肩，保留四件套",
+      "Venom_334": "另获神话毒液饰品334替英雄321毒液",
+      "Tendril_for_venom": "334触须替321毒液；需要获取，目标节奏暂定",
+      "Tendril_for_bag": "334触须替334无底袋；保留321毒液",
+      "Owned_dagger_shield": "背包331简斯拉泽＋321风暴庇护；不额外搬美化"
+    }
+  },
+  "practical-dungeon": {
+    "mode": "dungeon",
+    "stage": "practical",
+    "labels": {
+      "Raw_current": "原始现装未补齐",
+      "Owned_dagger_shield": "背包331简斯拉泽＋321盾；无制造重做",
+      "Dagger334_shield321": "背包神话匕首331升334＋现有321盾",
+      "Dagger331_craftshield": "背包331匕首＋331普通制造盾CH",
+      "Dagger334_shield334": "334简斯拉泽＋另获334盾",
+      "Venom_334": "神话334毒液替英雄321",
+      "Tendril_for_venom": "334触须替321毒液",
+      "Loa_ring": "331洛阿制造戒替邪恶戒，保留虫群；武器去仪式石保持2美化",
+      "Current_crafts_CH": "全部现有普通／美化制造改暴击急速，保留原美化",
+      "Current_crafts_CM": "全部现有普通／美化制造改暴击精通，保留原美化",
+      "Current_crafts_HM": "全部现有普通／美化制造改急速精通，保留原美化",
+      "Double_lining_staff": "保留法杖：仪式石改为披风第二奥纹（替钥匙链）",
+      "Double_lining_dagger": "334匕首＋331普通盾；腕披双奥纹完整组合"
+    }
+  },
+  "bags-dungeon": {
+    "mode": "dungeon",
+    "stage": "bags",
+    "labels": {
+      "Bag_270161": "背包实际饰品270161替321毒液",
+      "Bag_251783": "背包实际饰品251783替321毒液",
+      "Bag_270173": "背包实际饰品270173替321毒液",
+      "Bag_273794": "背包实际饰品273794替321毒液"
+    }
+  },
+  "targets-raid": {
+    "mode": "raid",
+    "stage": "target",
+    "labels": {
+      "Set_back_wrist_legs": "完整目标：back_wrist双奥纹／legs腿",
+      "Set_back_wrist_craft_legs": "完整目标：back_wrist双奥纹／craft_legs腿",
+      "Set_back_wrist_raid_legs": "完整目标：back_wrist双奥纹／raid_legs腿",
+      "Set_wrist_feet_legs": "完整目标：wrist_feet双奥纹／legs腿",
+      "Set_wrist_feet_craft_legs": "完整目标：wrist_feet双奥纹／craft_legs腿",
+      "Set_wrist_feet_raid_legs": "完整目标：wrist_feet双奥纹／raid_legs腿",
+      "Set_wrist_waist_legs": "完整目标：wrist_waist双奥纹／legs腿",
+      "Set_wrist_waist_craft_legs": "完整目标：wrist_waist双奥纹／craft_legs腿",
+      "Set_wrist_waist_raid_legs": "完整目标：wrist_waist双奥纹／raid_legs腿",
+      "Set_staff": "完整目标：现有331法杖＋双奥纹＋制造腿"
+    }
+  },
+  "targets-dungeon": {
+    "mode": "dungeon",
+    "stage": "target",
+    "labels": {
+      "Set_back_wrist_legs": "完整目标：back_wrist双奥纹／legs腿",
+      "Set_back_wrist_craft_legs": "完整目标：back_wrist双奥纹／craft_legs腿",
+      "Set_back_wrist_raid_legs": "完整目标：back_wrist双奥纹／raid_legs腿",
+      "Set_wrist_feet_legs": "完整目标：wrist_feet双奥纹／legs腿",
+      "Set_wrist_feet_craft_legs": "完整目标：wrist_feet双奥纹／craft_legs腿",
+      "Set_wrist_feet_raid_legs": "完整目标：wrist_feet双奥纹／raid_legs腿",
+      "Set_wrist_waist_legs": "完整目标：wrist_waist双奥纹／legs腿",
+      "Set_wrist_waist_craft_legs": "完整目标：wrist_waist双奥纹／craft_legs腿",
+      "Set_wrist_waist_raid_legs": "完整目标：wrist_waist双奥纹／raid_legs腿",
+      "Set_staff": "完整目标：现有331法杖＋双奥纹＋制造腿"
+    }
+  },
+  "refine-raid": {
+    "mode": "raid",
+    "stage": "refine",
+    "labels": {
+      "Stats_CH_Crit": "制造暴击急速＋Crit合剂",
+      "Stats_CH_Haste": "制造暴击急速＋Haste合剂",
+      "Stats_CH_Mastery": "制造暴击急速＋Mastery合剂",
+      "Stats_CM_Crit": "制造暴击精通＋Crit合剂",
+      "Stats_CM_Haste": "制造暴击精通＋Haste合剂",
+      "Stats_CM_Mastery": "制造暴击精通＋Mastery合剂",
+      "Stats_HM_Crit": "制造急速精通＋Crit合剂",
+      "Stats_HM_Haste": "制造急速精通＋Haste合剂",
+      "Stats_HM_Mastery": "制造急速精通＋Mastery合剂",
+      "Gem_240890": "非钻石孔统一宝石240890",
+      "Gem_240908": "非钻石孔统一宝石240908",
+      "Gem_240906": "非钻石孔统一宝石240906",
+      "Gem_240900": "非钻石孔统一宝石240900",
+      "Trinket_281215_for_venom": "334饰品281215替334毒液",
+      "Trinket_250215_for_venom": "334饰品250215替334毒液",
+      "Trinket_270167_for_venom": "334饰品270167替334毒液",
+      "Trinket_270169_for_venom": "334饰品270169替334毒液",
+      "Tendril_for_bag": "334触须替334无底袋",
+      "Shield_268262": "替代盾牌268262，制造盾按331",
+      "Shield_237831": "替代盾牌237831，制造盾按331",
+      "Weapon_268210": "334替代单手268210",
+      "Weapon_268203": "334替代单手268203",
+      "Ring_251136_for_alchemist": "戒指251136替邪恶戒，保留虫群",
+      "Ring_268252_for_alchemist": "戒指268252替邪恶戒，保留虫群",
+      "Ring_240949_for_alchemist": "戒指240949替邪恶戒，保留虫群",
+      "Loa_ring": "331洛阿制造戒替邪恶戒；披风去奥纹保留2美化",
+      "Ordinary_hands": "去H10特效，普通神话套装手",
+      "Ordinary_chest": "去H8毒咒，普通神话套胸",
+      "Tier_legs": "换回已有334套装腿（可能为第五件）"
+    },
+    "family": "Set_back_wrist_craft_legs"
+  },
+  "refine-dungeon": {
+    "mode": "dungeon",
+    "stage": "refine",
+    "labels": {
+      "Stats_CH_Crit": "制造暴击急速＋Crit合剂",
+      "Stats_CH_Haste": "制造暴击急速＋Haste合剂",
+      "Stats_CH_Mastery": "制造暴击急速＋Mastery合剂",
+      "Stats_CM_Crit": "制造暴击精通＋Crit合剂",
+      "Stats_CM_Haste": "制造暴击精通＋Haste合剂",
+      "Stats_CM_Mastery": "制造暴击精通＋Mastery合剂",
+      "Stats_HM_Crit": "制造急速精通＋Crit合剂",
+      "Stats_HM_Haste": "制造急速精通＋Haste合剂",
+      "Stats_HM_Mastery": "制造急速精通＋Mastery合剂",
+      "Gem_240890": "非钻石孔统一宝石240890",
+      "Gem_240908": "非钻石孔统一宝石240908",
+      "Gem_240906": "非钻石孔统一宝石240906",
+      "Gem_240900": "非钻石孔统一宝石240900",
+      "Trinket_281215_for_venom": "334饰品281215替334毒液",
+      "Trinket_250215_for_venom": "334饰品250215替334毒液",
+      "Trinket_270167_for_venom": "334饰品270167替334毒液",
+      "Trinket_270169_for_venom": "334饰品270169替334毒液",
+      "Tendril_for_bag": "334触须替334无底袋",
+      "Shield_268262": "替代盾牌268262，制造盾按331",
+      "Shield_237831": "替代盾牌237831，制造盾按331",
+      "Weapon_268210": "334替代单手268210",
+      "Weapon_268203": "334替代单手268203",
+      "Ring_251136_for_alchemist": "戒指251136替邪恶戒，保留虫群",
+      "Ring_268252_for_alchemist": "戒指268252替邪恶戒，保留虫群",
+      "Ring_240949_for_alchemist": "戒指240949替邪恶戒，保留虫群",
+      "Loa_ring": "331洛阿制造戒替邪恶戒；披风去奥纹保留2美化",
+      "Ordinary_hands": "去H10特效，普通神话套装手",
+      "Ordinary_chest": "去H8毒咒，普通神话套胸",
+      "Tier_legs": "换回已有334套装腿（可能为第五件）"
+    },
+    "family": "Set_back_wrist_craft_legs"
+  },
+  "joint-raid": {
+    "mode": "raid",
+    "stage": "joint",
+    "labels": {
+      "Ring_Keep": "双戒对照：Keep",
+      "Ring_Craft_for_alch": "双戒对照：Craft_for_alch",
+      "Ring_251136_for_alch": "双戒对照：251136_for_alch",
+      "Ring_268252_for_alch": "双戒对照：268252_for_alch",
+      "Ring_Craft_for_swarm": "双戒对照：Craft_for_swarm",
+      "Ring_251136_for_swarm": "双戒对照：251136_for_swarm",
+      "Ring_268252_for_swarm": "双戒对照：268252_for_swarm",
+      "Joint_Craft_for_alch_BagVenom_CH_Crit": "联合：Craft_for_alch／BagVenom／暴击急速／Crit合剂",
+      "Joint_Craft_for_alch_BagVenom_CH_Haste": "联合：Craft_for_alch／BagVenom／暴击急速／Haste合剂",
+      "Joint_Craft_for_alch_BagVenom_CM_Crit": "联合：Craft_for_alch／BagVenom／暴击精通／Crit合剂",
+      "Joint_Craft_for_alch_BagVenom_CM_Haste": "联合：Craft_for_alch／BagVenom／暴击精通／Haste合剂",
+      "Joint_Craft_for_alch_BagVenom_HM_Crit": "联合：Craft_for_alch／BagVenom／急速精通／Crit合剂",
+      "Joint_Craft_for_alch_BagVenom_HM_Haste": "联合：Craft_for_alch／BagVenom／急速精通／Haste合剂",
+      "Joint_Craft_for_alch_VenomTendril_CH_Crit": "联合：Craft_for_alch／VenomTendril／暴击急速／Crit合剂",
+      "Joint_Craft_for_alch_VenomTendril_CH_Haste": "联合：Craft_for_alch／VenomTendril／暴击急速／Haste合剂",
+      "Joint_Craft_for_alch_VenomTendril_CM_Crit": "联合：Craft_for_alch／VenomTendril／暴击精通／Crit合剂",
+      "Joint_Craft_for_alch_VenomTendril_CM_Haste": "联合：Craft_for_alch／VenomTendril／暴击精通／Haste合剂",
+      "Joint_Craft_for_alch_VenomTendril_HM_Crit": "联合：Craft_for_alch／VenomTendril／急速精通／Crit合剂",
+      "Joint_Craft_for_alch_VenomTendril_HM_Haste": "联合：Craft_for_alch／VenomTendril／急速精通／Haste合剂",
+      "Joint_268252_for_alch_BagVenom_CH_Crit": "联合：268252_for_alch／BagVenom／暴击急速／Crit合剂",
+      "Joint_268252_for_alch_BagVenom_CH_Haste": "联合：268252_for_alch／BagVenom／暴击急速／Haste合剂",
+      "Joint_268252_for_alch_BagVenom_CM_Crit": "联合：268252_for_alch／BagVenom／暴击精通／Crit合剂",
+      "Joint_268252_for_alch_BagVenom_CM_Haste": "联合：268252_for_alch／BagVenom／暴击精通／Haste合剂",
+      "Joint_268252_for_alch_BagVenom_HM_Crit": "联合：268252_for_alch／BagVenom／急速精通／Crit合剂",
+      "Joint_268252_for_alch_BagVenom_HM_Haste": "联合：268252_for_alch／BagVenom／急速精通／Haste合剂",
+      "Joint_268252_for_alch_VenomTendril_CH_Crit": "联合：268252_for_alch／VenomTendril／暴击急速／Crit合剂",
+      "Joint_268252_for_alch_VenomTendril_CH_Haste": "联合：268252_for_alch／VenomTendril／暴击急速／Haste合剂",
+      "Joint_268252_for_alch_VenomTendril_CM_Crit": "联合：268252_for_alch／VenomTendril／暴击精通／Crit合剂",
+      "Joint_268252_for_alch_VenomTendril_CM_Haste": "联合：268252_for_alch／VenomTendril／暴击精通／Haste合剂",
+      "Joint_268252_for_alch_VenomTendril_HM_Crit": "联合：268252_for_alch／VenomTendril／急速精通／Crit合剂",
+      "Joint_268252_for_alch_VenomTendril_HM_Haste": "联合：268252_for_alch／VenomTendril／急速精通／Haste合剂"
+    }
+  },
+  "joint-dungeon": {
+    "mode": "dungeon",
+    "stage": "joint",
+    "labels": {
+      "Ring_Keep": "双戒对照：Keep",
+      "Ring_Craft_for_alch": "双戒对照：Craft_for_alch",
+      "Ring_251136_for_alch": "双戒对照：251136_for_alch",
+      "Ring_268252_for_alch": "双戒对照：268252_for_alch",
+      "Ring_Craft_for_swarm": "双戒对照：Craft_for_swarm",
+      "Ring_251136_for_swarm": "双戒对照：251136_for_swarm",
+      "Ring_268252_for_swarm": "双戒对照：268252_for_swarm",
+      "Joint_251136_for_alch_BagTendril_CH_Crit": "联合：251136_for_alch／BagTendril／暴击急速／Crit合剂",
+      "Joint_251136_for_alch_BagTendril_CH_Haste": "联合：251136_for_alch／BagTendril／暴击急速／Haste合剂",
+      "Joint_251136_for_alch_BagTendril_CM_Crit": "联合：251136_for_alch／BagTendril／暴击精通／Crit合剂",
+      "Joint_251136_for_alch_BagTendril_CM_Haste": "联合：251136_for_alch／BagTendril／暴击精通／Haste合剂",
+      "Joint_251136_for_alch_BagTendril_HM_Crit": "联合：251136_for_alch／BagTendril／急速精通／Crit合剂",
+      "Joint_251136_for_alch_BagTendril_HM_Haste": "联合：251136_for_alch／BagTendril／急速精通／Haste合剂",
+      "Joint_251136_for_alch_VenomTendril_CH_Crit": "联合：251136_for_alch／VenomTendril／暴击急速／Crit合剂",
+      "Joint_251136_for_alch_VenomTendril_CH_Haste": "联合：251136_for_alch／VenomTendril／暴击急速／Haste合剂",
+      "Joint_251136_for_alch_VenomTendril_CM_Crit": "联合：251136_for_alch／VenomTendril／暴击精通／Crit合剂",
+      "Joint_251136_for_alch_VenomTendril_CM_Haste": "联合：251136_for_alch／VenomTendril／暴击精通／Haste合剂",
+      "Joint_251136_for_alch_VenomTendril_HM_Crit": "联合：251136_for_alch／VenomTendril／急速精通／Crit合剂",
+      "Joint_251136_for_alch_VenomTendril_HM_Haste": "联合：251136_for_alch／VenomTendril／急速精通／Haste合剂",
+      "Joint_Craft_for_swarm_BagTendril_CH_Crit": "联合：Craft_for_swarm／BagTendril／暴击急速／Crit合剂",
+      "Joint_Craft_for_swarm_BagTendril_CH_Haste": "联合：Craft_for_swarm／BagTendril／暴击急速／Haste合剂",
+      "Joint_Craft_for_swarm_BagTendril_CM_Crit": "联合：Craft_for_swarm／BagTendril／暴击精通／Crit合剂",
+      "Joint_Craft_for_swarm_BagTendril_CM_Haste": "联合：Craft_for_swarm／BagTendril／暴击精通／Haste合剂",
+      "Joint_Craft_for_swarm_BagTendril_HM_Crit": "联合：Craft_for_swarm／BagTendril／急速精通／Crit合剂",
+      "Joint_Craft_for_swarm_BagTendril_HM_Haste": "联合：Craft_for_swarm／BagTendril／急速精通／Haste合剂",
+      "Joint_Craft_for_swarm_VenomTendril_CH_Crit": "联合：Craft_for_swarm／VenomTendril／暴击急速／Crit合剂",
+      "Joint_Craft_for_swarm_VenomTendril_CH_Haste": "联合：Craft_for_swarm／VenomTendril／暴击急速／Haste合剂",
+      "Joint_Craft_for_swarm_VenomTendril_CM_Crit": "联合：Craft_for_swarm／VenomTendril／暴击精通／Crit合剂",
+      "Joint_Craft_for_swarm_VenomTendril_CM_Haste": "联合：Craft_for_swarm／VenomTendril／暴击精通／Haste合剂",
+      "Joint_Craft_for_swarm_VenomTendril_HM_Crit": "联合：Craft_for_swarm／VenomTendril／急速精通／Crit合剂",
+      "Joint_Craft_for_swarm_VenomTendril_HM_Haste": "联合：Craft_for_swarm／VenomTendril／急速精通／Haste合剂"
+    }
+  },
+  "verify-raid": {
+    "mode": "raid",
+    "stage": "verify",
+    "labels": {
+      "Joint_268252_for_alch_VenomTendril_CH_Haste": "联合：268252_for_alch／VenomTendril／暴击急速／Haste合剂",
+      "Joint_Craft_for_alch_VenomTendril_CH_Crit": "联合：Craft_for_alch／VenomTendril／暴击急速／Crit合剂",
+      "Joint_Craft_for_alch_VenomTendril_CH_Haste": "联合：Craft_for_alch／VenomTendril／暴击急速／Haste合剂",
+      "Ring_Craft_for_alch": "双戒对照：Craft_for_alch",
+      "Joint_268252_for_alch_BagVenom_CH_Haste": "联合：268252_for_alch／BagVenom／暴击急速／Haste合剂",
+      "Ring_268252_for_alch": "双戒对照：268252_for_alch",
+      "Trinket_281215_for_venom": "334饰品281215替334毒液",
+      "Tendril_for_bag": "334触须替334无底袋",
+      "Tier_legs": "换回已有334套装腿（可能为第五件）",
+      "Ordinary_hands": "去H10特效，普通神话套装手",
+      "Ordinary_chest": "去H8毒咒，普通神话套胸",
+      "Current_staff337": "现装制造法杖升337，其他仍现装补齐（未来10石）",
+      "Raw_current": "原始实际装备",
+      "Prepared_current": "现装补齐孔附魔"
+    }
+  },
+  "verify-dungeon": {
+    "mode": "dungeon",
+    "stage": "verify",
+    "labels": {
+      "Joint_251136_for_alch_VenomTendril_CH_Crit": "联合：251136_for_alch／VenomTendril／暴击急速／Crit合剂",
+      "Joint_251136_for_alch_VenomTendril_CH_Haste": "联合：251136_for_alch／VenomTendril／暴击急速／Haste合剂",
+      "Joint_251136_for_alch_BagTendril_CH_Haste": "联合：251136_for_alch／BagTendril／暴击急速／Haste合剂",
+      "Joint_Craft_for_swarm_VenomTendril_CH_Crit": "联合：Craft_for_swarm／VenomTendril／暴击急速／Crit合剂",
+      "Joint_Craft_for_swarm_VenomTendril_CH_Haste": "联合：Craft_for_swarm／VenomTendril／暴击急速／Haste合剂",
+      "Joint_Craft_for_swarm_BagTendril_CH_Haste": "联合：Craft_for_swarm／BagTendril／暴击急速／Haste合剂",
+      "Trinket_281215_for_venom": "334饰品281215替334毒液",
+      "Tendril_for_bag": "334触须替334无底袋",
+      "Tier_legs": "换回已有334套装腿（可能为第五件）",
+      "Ordinary_hands": "去H10特效，普通神话套装手",
+      "Ordinary_chest": "去H8毒咒，普通神话套胸",
+      "Current_staff337": "现装制造法杖升337，其他仍现装补齐（未来10石）",
+      "Raw_current": "原始实际装备",
+      "Prepared_current": "现装补齐孔附魔"
+    }
+  },
+  "recommended-raid": {
+    "mode": "raid",
+    "stage": "recommended",
+    "labels": {},
+    "selected": "Tier_legs",
+    "selected_from": "final-raid",
+    "joint_selected": "Joint_268252_for_alch_VenomTendril_CH_Haste",
+    "family": "Set_back_wrist_craft_legs",
+    "selection_rule": "Keep owned 334 legs when within the approximate combined 95% error of the best final candidate; not an equivalence proof."
+  },
+  "recommended-dungeon": {
+    "mode": "dungeon",
+    "stage": "recommended",
+    "labels": {},
+    "selected": "Tier_legs",
+    "selected_from": "final-dungeon",
+    "joint_selected": "Joint_251136_for_alch_VenomTendril_CH_Haste",
+    "family": "Set_back_wrist_craft_legs",
+    "selection_rule": "Keep owned 334 legs when within the approximate combined 95% error of the best final candidate; not an equivalence proof."
+  },
+  "upgrade-current-raid": {
+    "mode": "raid",
+    "stage": "upgrade-current",
+    "labels": {
+      "Staff337": "10石：现有制造法杖331→337",
+      "Neck341": "10石：现有项链334→341",
+      "Bag341": "10石：现有无底袋334→341"
+    }
+  },
+  "upgrade-target-raid": {
+    "mode": "raid",
+    "stage": "upgrade-target",
+    "labels": {
+      "Upgrade_main_hand": "10石：目标武器升341",
+      "Upgrade_neck": "10石：目标项链升341",
+      "Upgrade_trinket1": "10石：目标饰品一升341",
+      "Upgrade_trinket2": "10石：目标饰品二升341"
+    }
+  },
+  "upgrade-current-dungeon": {
+    "mode": "dungeon",
+    "stage": "upgrade-current",
+    "labels": {
+      "Staff337": "10石：现有制造法杖331→337",
+      "Neck341": "10石：现有项链334→341",
+      "Bag341": "10石：现有无底袋334→341"
+    }
+  },
+  "upgrade-target-dungeon": {
+    "mode": "dungeon",
+    "stage": "upgrade-target",
+    "labels": {
+      "Upgrade_main_hand": "10石：目标武器升341",
+      "Upgrade_neck": "10石：目标项链升341",
+      "Upgrade_trinket1": "10石：目标饰品一升341",
+      "Upgrade_trinket2": "10石：目标饰品二升341"
+    }
+  },
+  "final-raid": {
+    "mode": "raid",
+    "stage": "final",
+    "labels": {
+      "Tier_legs": "最终戒指／饰品／合剂不变，保留已有334套腿省火花",
+      "CraftLegs_CH": "最终组合：制造腿＋制造暴击急速",
+      "CraftLegs_CM": "最终组合：制造腿＋制造暴击精通",
+      "CraftLegs_HM": "最终组合：制造腿＋制造急速精通",
+      "TierLegs_CH": "最终组合：已有334套腿＋制造暴击急速",
+      "TierLegs_CM": "最终组合：已有334套腿＋制造暴击精通",
+      "TierLegs_HM": "最终组合：已有334套腿＋制造急速精通",
+      "wrist_feet_Craft": "最终组合：wrist_feet双奥纹＋制造腿",
+      "wrist_feet_Tier": "最终组合：wrist_feet双奥纹＋已有334套腿",
+      "wrist_waist_Craft": "最终组合：wrist_waist双奥纹＋制造腿",
+      "wrist_waist_Tier": "最终组合：wrist_waist双奥纹＋已有334套腿"
+    }
+  },
+  "final-dungeon": {
+    "mode": "dungeon",
+    "stage": "final",
+    "labels": {
+      "Tier_legs": "最终戒指／饰品／合剂不变，保留已有334套腿省火花",
+      "CraftLegs_CH": "最终组合：制造腿＋制造暴击急速",
+      "CraftLegs_CM": "最终组合：制造腿＋制造暴击精通",
+      "CraftLegs_HM": "最终组合：制造腿＋制造急速精通",
+      "TierLegs_CH": "最终组合：已有334套腿＋制造暴击急速",
+      "TierLegs_CM": "最终组合：已有334套腿＋制造暴击精通",
+      "TierLegs_HM": "最终组合：已有334套腿＋制造急速精通",
+      "wrist_feet_Craft": "最终组合：wrist_feet双奥纹＋制造腿",
+      "wrist_feet_Tier": "最终组合：wrist_feet双奥纹＋已有334套腿",
+      "wrist_waist_Craft": "最终组合：wrist_waist双奥纹＋制造腿",
+      "wrist_waist_Tier": "最终组合：wrist_waist双奥纹＋已有334套腿"
+    }
+  },
+  "robust-5t40": {
+    "mode": "dungeon",
+    "stage": "robustness",
+    "labels": {
+      "Raw_current": "原始实装，固定大米当前天赋",
+      "Prepared_current": "现装补齐孔与附魔",
+      "BagVenom": "同套装：334无底袋＋334毒液",
+      "VenomTendril": "同套装：334毒液＋334触须",
+      "BagTendril": "同套装：334触须＋334无底袋",
+      "Craft_legs": "同套装：另做331制造腿"
+    }
+  },
+  "robust-8t40": {
+    "mode": "dungeon",
+    "stage": "robustness",
+    "labels": {
+      "Raw_current": "原始实装，固定大米当前天赋",
+      "Prepared_current": "现装补齐孔与附魔",
+      "BagVenom": "同套装：334无底袋＋334毒液",
+      "VenomTendril": "同套装：334毒液＋334触须",
+      "BagTendril": "同套装：334触须＋334无底袋",
+      "Craft_legs": "同套装：另做331制造腿"
+    }
+  },
+  "robust-1t180": {
+    "mode": "dungeon",
+    "stage": "robustness",
+    "labels": {
+      "Raw_current": "原始实装，固定大米当前天赋",
+      "Prepared_current": "现装补齐孔与附魔",
+      "BagVenom": "同套装：334无底袋＋334毒液",
+      "VenomTendril": "同套装：334毒液＋334触须",
+      "BagTendril": "同套装：334触须＋334无底袋",
+      "Craft_legs": "同套装：另做331制造腿"
+    }
+  },
+  "validation-raid": {
+    "mode": "raid",
+    "stage": "validation",
+    "labels": {
+      "Raw_current": "原始实装；固定对应模式天赋",
+      "Prepared_current": "实装补齐头附魔／虫群戒附魔与唯一现有空孔"
+    }
+  },
+  "validation-dungeon": {
+    "mode": "dungeon",
+    "stage": "validation",
+    "labels": {
+      "Raw_current": "原始实装；固定对应模式天赋",
+      "Prepared_current": "实装补齐头附魔／虫群戒附魔与唯一现有空孔"
+    }
+  },
+  "followup-raid": {
+    "mode": "raid",
+    "stage": "followup",
+    "labels": {
+      "Shoulder_CH": "331普通制造肩：暴击急速，保留现有头胸手腿四件",
+      "Shoulder_CM": "331普通制造肩：暴击精通，保留现有头胸手腿四件",
+      "Shoulder_HM": "331普通制造肩：急速精通，保留现有头胸手腿四件",
+      "Shoulder_H7": "H7神话334游魂护肩化生；需获取",
+      "H3_owned_dagger": "H3盾334＋背包已有匕首331，不迁移第二美化",
+      "H3_dagger334": "H3盾334＋已有匕首升334，不迁移第二美化",
+      "H3_complete": "H3盾334＋已有匕首升334＋腕披双奥纹",
+      "Craft_shield_complete": "331普通制造盾＋已有匕首升334＋腕披双奥纹",
+      "H10_tendril": "H10触须334替现有321毒液，保留无底袋",
+      "H3_H10_complete": "H3与H10两目标均获取＋334匕首＋双奥纹",
+      "Shoulder_CH_H10": "331暴击急速普通制造肩＋H10触须334"
+    }
+  },
+  "followup-dungeon": {
+    "mode": "dungeon",
+    "stage": "followup",
+    "labels": {
+      "Shoulder_CH": "331普通制造肩：暴击急速，保留现有头胸手腿四件",
+      "Shoulder_CM": "331普通制造肩：暴击精通，保留现有头胸手腿四件",
+      "Shoulder_HM": "331普通制造肩：急速精通，保留现有头胸手腿四件",
+      "Shoulder_H7": "H7神话334游魂护肩化生；需获取",
+      "H3_owned_dagger": "H3盾334＋背包已有匕首331，不迁移第二美化",
+      "H3_dagger334": "H3盾334＋已有匕首升334，不迁移第二美化",
+      "H3_complete": "H3盾334＋已有匕首升334＋腕披双奥纹",
+      "Craft_shield_complete": "331普通制造盾＋已有匕首升334＋腕披双奥纹",
+      "H10_tendril": "H10触须334替现有321毒液，保留无底袋",
+      "H3_H10_complete": "H3与H10两目标均获取＋334匕首＋双奥纹",
+      "Shoulder_CH_H10": "331暴击急速普通制造肩＋H10触须334"
+    }
+  },
+  "followup-target-raid": {
+    "mode": "raid",
+    "stage": "followup-target",
+    "labels": {
+      "Shoulder_CH": "成型套装改331普通制造肩暴击急速，保留头胸手腿四件",
+      "Shoulder_CM": "成型套装改331普通制造肩暴击精通，保留头胸手腿四件",
+      "Shoulder_HM": "成型套装改331普通制造肩急速精通，保留头胸手腿四件",
+      "Keep_321": "成型套装暂用已有321肩，其余配置不变",
+      "Other_334": "另获现有同来源272252神话334肩并化生"
+    }
+  },
+  "followup-target-dungeon": {
+    "mode": "dungeon",
+    "stage": "followup-target",
+    "labels": {
+      "Shoulder_CH": "成型套装改331普通制造肩暴击急速，保留头胸手腿四件",
+      "Shoulder_CM": "成型套装改331普通制造肩暴击精通，保留头胸手腿四件",
+      "Shoulder_HM": "成型套装改331普通制造肩急速精通，保留头胸手腿四件",
+      "Keep_321": "成型套装暂用已有321肩，其余配置不变",
+      "Other_334": "另获现有同来源272252神话334肩并化生"
+    }
+  }
+}

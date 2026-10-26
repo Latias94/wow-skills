@@ -1,0 +1,11 @@
+### Result
+{"runs":29,"followupCandidates":32,"h3ExclusionVisible":true,"headings":["立即：补齐实装与保留现有资源","H10／基希克斯：触须候选","H3／迷失探险者：毒痕鳞甲盾","已有331简斯拉泽升级＋盾牌来源","H7肩／制造肩与保留四件套","戒指／饰品后续获取"],"time":"2026-10-23T09:32:49.241Z"}
+### Ran Playwright code
+```js
+await (async page => { await page.goto("file:///E:/github/wow-skills/records/cn-argus-zhengjitu/analysis/2026-10-23/dashboard.html"); const data=await page.locator("#report-data").evaluate(el=>JSON.parse(el.textContent)); if(data.runs.length!==29)throw new Error("wrong batch count"); await page.locator("#run-stage").selectOption("followup"); if(await page.locator("#runs .run").count()!==2)throw new Error("followup filter"); const h3=page.locator("#routes .route").filter({has:page.getByRole("heading",{name:"H3／迷失探险者：毒痕鳞甲盾"})}); if(!await h3.innerText().then(t=>t.includes("已R排除（独立记录） · 1")))throw new Error("missing H3 exclusion"); return {runs:data.runs.length,followupCandidates:data.runs.filter(r=>r.stage.startsWith("followup")).reduce((n,r)=>n+r.results.length,0),h3ExclusionVisible:true,headings:await page.locator("#routes h3").allTextContents(),time:new Date().toISOString()}; })(page);
+```
+### Page
+- Page URL: file:///E:/github/wow-skills/records/cn-argus-zhengjitu/analysis/2026-10-23/dashboard.html
+- Page Title: 正极兔 · 元素萨 · 12.1.5 第二周 装备实验室
+### Events
+- New console entries: .playwright-cli\console-2026-10-23T09-32-45-170Z.log#L1

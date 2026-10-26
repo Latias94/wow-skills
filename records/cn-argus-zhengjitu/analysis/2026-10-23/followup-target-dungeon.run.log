@@ -1,0 +1,140 @@
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+SimulationCraft 1210-01 for World of Warcraft 12.1.5.70529 Live (hotfix 2026-10-22/70529, git build midnight 73a372b761)
+
+Simulating... ( iterations=6000, threads=12, target_error=0.000, max_time=90, vary_combat_length=0.00, optimal_raid=0, fight_style=Patchwerk )
+
+Generating Baseline: 1/2 [....................] 66/6000 102.913 4sec
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Generating Baseline: 1/3 [....................] 134/6000 114.964 4sec
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Generating Baseline: 1/4 [>...................] 195/6000 117.768 4sec
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Generating Baseline: 1/5 [>...................] 257/6000 121.156 3sec
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Generating Baseline: 1/5 [>...................] 317/6000 124.914 3sec
+Generating Baseline: 1/6 [>...................] 383/6000 126.463 3sec
+Generating Baseline: 1/6 [>...................] 447/6000 127.546 3sec
+Generating Baseline: 1/6 [=>..................] 507/6000 128.592 3sec
+Generating Baseline: 1/6 [=>..................] 575/6000 129.221 3sec
+Generating Baseline: 1/6 [=>..................] 638/6000 128.830 3sec
+Generating Baseline: 1/6 [=>..................] 700/6000 129.467 3sec
+Generating Baseline: 1/6 [==>.................] 769/6000 130.967 3sec
+Generating Baseline: 1/6 [==>.................] 842/6000 129.465 3sec
+Generating Baseline: 1/6 [==>.................] 905/6000 129.981 3sec
+Generating Baseline: 1/6 [==>.................] 974/6000 130.298 3sec
+Generating Baseline: 1/6 [==>.................] 1040/6000 129.784 3sec
+Generating Baseline: 1/6 [===>................] 1111/6000 130.329 3sec
+Generating Baseline: 1/6 [===>................] 1178/6000 130.437 3sec
+Generating Baseline: 1/6 [===>................] 1238/6000 130.842 3sec
+Generating Baseline: 1/6 [===>................] 1307/6000 131.039 2sec
+Generating Baseline: 1/6 [====>...............] 1373/6000 131.071 2sec
+Generating Baseline: 1/6 [====>...............] 1440/6000 131.076 2sec
+Generating Baseline: 1/6 [====>...............] 1507/6000 131.420 2sec
+Generating Baseline: 1/6 [====>...............] 1571/6000 131.727 2sec
+Generating Baseline: 1/6 [====>...............] 1640/6000 131.959 2sec
+Generating Baseline: 1/6 [=====>..............] 1700/6000 131.808 2sec
+Generating Baseline: 1/6 [=====>..............] 1763/6000 131.411 2sec
+Generating Baseline: 1/6 [=====>..............] 1832/6000 131.035 2sec
+Generating Baseline: 1/6 [=====>..............] 1900/6000 131.101 2sec
+Generating Baseline: 1/6 [======>.............] 1962/6000 130.053 2sec
+Generating Baseline: 1/6 [======>.............] 2030/6000 129.559 2sec
+Generating Baseline: 1/6 [======>.............] 2098/6000 129.337 2sec
+Generating Baseline: 1/6 [======>.............] 2159/6000 129.713 2sec
+Generating Baseline: 1/6 [======>.............] 2223/6000 129.993 2sec
+Generating Baseline: 1/6 [=======>............] 2283/6000 127.059 2sec
+Generating Baseline: 1/6 [=======>............] 2350/6000 125.598 2sec
+Generating Baseline: 1/6 [=======>............] 2420/6000 125.194 2sec
+Generating Baseline: 1/6 [=======>............] 2483/6000 124.302 2sec
+Generating Baseline: 1/6 [=======>............] 2549/6000 123.911 2sec
+Generating Baseline: 1/6 [========>...........] 2616/6000 123.671 2sec
+Generating Baseline: 1/6 [========>...........] 2684/6000 123.561 2sec
+Generating Baseline: 1/6 [========>...........] 2747/6000 123.808 2sec
+Generating Baseline: 1/6 [========>...........] 2812/6000 124.228 2sec
+Generating Baseline: 1/6 [=========>..........] 2880/6000 124.167 2sec
+Generating Baseline: 1/6 [=========>..........] 2940/6000 124.491 2sec
+Generating Baseline: 1/6 [=========>..........] 3002/6000 124.879 2sec
+Generating Baseline: 1/6 [=========>..........] 3070/6000 125.295 1sec
+Generating Baseline: 1/6 [=========>..........] 3135/6000 125.560 1sec
+Generating Baseline: 1/6 [==========>.........] 3197/6000 125.719 1sec
+Generating Baseline: 1/6 [==========>.........] 3263/6000 125.999 1sec
+Generating Baseline: 1/6 [==========>.........] 3333/6000 126.385 1sec
+Generating Baseline: 1/6 [==========>.........] 3398/6000 126.864 1sec
+Generating Baseline: 1/6 [===========>........] 3462/6000 125.072 1sec
+Generating Baseline: 1/6 [===========>........] 3525/6000 123.496 1sec
+Generating Baseline: 1/6 [===========>........] 3591/6000 122.602 1sec
+Generating Baseline: 1/6 [===========>........] 3652/6000 122.356 1sec
+Generating Baseline: 1/6 [===========>........] 3714/6000 121.900 1sec
+Generating Baseline: 1/6 [============>.......] 3781/6000 121.207 1sec
+Generating Baseline: 1/6 [============>.......] 3846/6000 120.914 1sec
+Generating Baseline: 1/6 [============>.......] 3913/6000 120.783 1sec
+Generating Baseline: 1/6 [============>.......] 3974/6000 120.398 1sec
+Generating Baseline: 1/6 [============>.......] 4038/6000 119.995 1sec
+Generating Baseline: 1/6 [=============>......] 4105/6000 119.950 1sec
+Generating Baseline: 1/6 [=============>......] 4167/6000 119.837 1sec
+Generating Baseline: 1/6 [=============>......] 4228/6000 119.786 1sec
+Generating Baseline: 1/6 [=============>......] 4293/6000 119.375 1sec
+Generating Baseline: 1/6 [==============>.....] 4356/6000 119.545 1sec
+Generating Baseline: 1/6 [==============>.....] 4426/6000 119.434 1sec
+Generating Baseline: 1/6 [==============>.....] 4492/6000 119.306 1sec
+Generating Baseline: 1/6 [==============>.....] 4555/6000 119.266 1sec
+Generating Baseline: 1/6 [==============>.....] 4616/6000 119.196     
+Generating Baseline: 1/6 [===============>....] 4683/6000 119.319     
+Generating Baseline: 1/6 [===============>....] 4746/6000 119.562     
+Generating Baseline: 1/6 [===============>....] 4811/6000 119.660     
+Generating Baseline: 1/6 [===============>....] 4874/6000 119.725     
+Generating Baseline: 1/6 [===============>....] 4943/6000 119.616     
+Generating Baseline: 1/6 [================>...] 5007/6000 119.817     
+Generating Baseline: 1/6 [================>...] 5075/6000 120.013     
+Generating Baseline: 1/6 [================>...] 5138/6000 120.149     
+Generating Baseline: 1/6 [================>...] 5205/6000 120.483     
+Generating Baseline: 1/6 [=================>..] 5270/6000 120.757     
+Generating Baseline: 1/6 [=================>..] 5331/6000 120.797     
+Generating Baseline: 1/6 [=================>..] 5392/6000 120.868     
+Generating Baseline: 1/6 [=================>..] 5457/6000 120.932     
+Generating Baseline: 1/6 [=================>..] 5522/6000 121.007     
+Generating Baseline: 1/6 [==================>.] 5589/6000 120.982     
+Generating Baseline: 1/6 [==================>.] 5658/6000 120.997     
+Generating Baseline: 1/6 [==================>.] 5728/6000 121.165     
+Generating Baseline: 1/6 [==================>.] 5794/6000 121.263     
+Generating Baseline: 1/6 [===================>] 5866/6000 121.540     
+Generating Baseline: 1/6 [===================>] 5930/6000 121.603     
+Generating Baseline: 1/6 [===================>] 5994/6000 121.707     
+Generating Baseline: 1/6 [===================>] 6000/6000 121.689 4.108 (21s)
+Profilesets (6*2): 1/5 [===>................] avg=0s done=0.017ms left=0s     
+Profilesets (6*2): 1/5 [===>................] avg=0s done=0.09ms left=0s     
+Profilesets (6*2): 1/5 [===>................] avg=0s done=0.124ms left=0s     
+Profilesets (6*2): 1/5 [===>................] avg=0s done=0.157ms left=0s     
+Profilesets (6*2): 1/5 [===>................] avg=0s done=0.188ms left=0s     
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Profilesets (6*2): 5/5 [===================>] avg=3.149s done=19s left=0s     
+
+Generating reports...
+text report took 0.0044375 seconds.
+JSON report version 2.0.0 took 0.0051015 seconds.

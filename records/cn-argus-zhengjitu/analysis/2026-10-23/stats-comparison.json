@@ -1,0 +1,235 @@
+{
+  "as_of": "2026-10-23T18:28:40+08:00",
+  "source_context": "Current user exports dated 2026-10-23; not a new in-game equipment update. Fresh Mythicstats pages inspected for this comparison only, without merging older snapshots.",
+  "comparison_limits": [
+    "Current values are direct supported SimC precombat snapshots with consumables, weapon oil and external raid buffs explicitly disabled; actor passives remain.",
+    "Published site ratings/percentages have no verified identical buff/race/talent normalization or clearly labeled average/median. Use them as directional summaries, not exact thresholds or DPS weights.",
+    "Four stat summaries need not belong to any single sampled player. Do not infer a total DPS deficit from rating differences.",
+    "Target snapshots are hypothetical recommended gear, not currently equipped.",
+    "A current-to-target stat shift coincides with gear/proc/consumable changes; do not attribute the full DPS gain to stats alone."
+  ],
+  "characters": {
+    "cn-argus-zhengjitu": {
+      "name": "正极兔／元素萨",
+      "current": {
+        "dungeon": {
+          "ratings": {
+            "crit": 916.0,
+            "haste": 600.0,
+            "mastery": 1281.0,
+            "versatility": 101.0
+          },
+          "percentages": {
+            "crit": 24.91304347826087,
+            "haste": 17.04545454545452,
+            "mastery": 72.83967391304348,
+            "versatility": 1.8703703703703705
+          },
+          "source": "records/cn-argus-zhengjitu/analysis/2026-10-23/panel-current-dungeon.json",
+          "source_sha256": "268dbcca6fa572dfc78c4adfd37d2a7bc969a760b779677c5eb513ddabd9c12d",
+          "valid_fight_style": true
+        },
+        "raid": {
+          "ratings": {
+            "crit": 916.0,
+            "haste": 600.0,
+            "mastery": 1281.0,
+            "versatility": 101.0
+          },
+          "percentages": {
+            "crit": 24.91304347826087,
+            "haste": 17.04545454545452,
+            "mastery": 72.83967391304348,
+            "versatility": 1.8703703703703705
+          },
+          "source": "records/cn-argus-zhengjitu/analysis/2026-10-23/panel-current-raid.json",
+          "source_sha256": "553ec8fc6918bc3ca08632b9c60c3cee91f226f29774216aaca48e0a18e01db4",
+          "valid_fight_style": true
+        }
+      },
+      "target_reference": {
+        "dungeon": {
+          "ratings": {
+            "crit": 1012.0,
+            "haste": 740.0,
+            "mastery": 1079.0,
+            "versatility": 101.0
+          },
+          "percentages": {
+            "crit": 27.0,
+            "haste": 20.32272727272728,
+            "mastery": 64.60597826086956,
+            "versatility": 1.8703703703703705
+          },
+          "status": "hypothetical_not_owned"
+        },
+        "raid": {
+          "ratings": {
+            "crit": 1101.0,
+            "haste": 807.0,
+            "mastery": 923.0,
+            "versatility": 101.0
+          },
+          "percentages": {
+            "crit": 28.934782608695652,
+            "haste": 21.891136363636356,
+            "mastery": 58.24728260869565,
+            "versatility": 1.8703703703703705
+          },
+          "status": "hypothetical_not_owned"
+        }
+      },
+      "elite": {
+        "dungeon": {
+          "ratings": {
+            "crit": 955,
+            "haste": 761,
+            "mastery": 1076,
+            "versatility": 169
+          },
+          "percentages": {
+            "crit": 25.2,
+            "haste": 20.2,
+            "mastery": 64.0,
+            "versatility": 2.7
+          },
+          "logs": 800,
+          "characters": 160,
+          "period": "最近两周，+22至+24",
+          "hero_scope": "100%先知",
+          "source": "https://mythicstats.com/spec/elemental-shaman"
+        },
+        "raid": {
+          "ratings": {
+            "crit": 969,
+            "haste": 789,
+            "mastery": 1014,
+            "versatility": 170
+          },
+          "percentages": {
+            "crit": 25.6,
+            "haste": 21.0,
+            "mastery": 61.5,
+            "versatility": 2.7
+          },
+          "logs": 896,
+          "characters": 450,
+          "period": "最近三周，神话全首领",
+          "hero_scope": "100%先知",
+          "source": "https://mythicstats.com/raid/spec/elemental-shaman"
+        }
+      }
+    },
+    "cn-barrens-shaseng": {
+      "name": "沙僧／踏风",
+      "current": {
+        "dungeon": {
+          "ratings": {
+            "crit": 837.0,
+            "haste": 1089.0,
+            "mastery": 777.0,
+            "versatility": 237.0
+          },
+          "percentages": {
+            "crit": 32.19565217391304,
+            "haste": 24.750000000000007,
+            "mastery": 57.965624999999996,
+            "versatility": 4.388888888888888
+          },
+          "source": "records/cn-barrens-shaseng/analysis/2026-10-23/panel-current-dungeon.json",
+          "source_sha256": "a71d7f2ec77a33b7293b1e717f1f4467ab1d201f61abfddb1cf309452f79c161",
+          "valid_fight_style": true
+        },
+        "raid": {
+          "ratings": {
+            "crit": 837.0,
+            "haste": 1089.0,
+            "mastery": 777.0,
+            "versatility": 237.0
+          },
+          "percentages": {
+            "crit": 32.19565217391304,
+            "haste": 24.750000000000007,
+            "mastery": 57.965624999999996,
+            "versatility": 4.388888888888888
+          },
+          "source": "records/cn-barrens-shaseng/analysis/2026-10-23/panel-current-raid.json",
+          "source_sha256": "e81fc44df1d15119bdf08185a422cc750fcf3f163d889c4f4f1c7bf62ce1178c",
+          "valid_fight_style": true
+        }
+      },
+      "target_reference": {
+        "dungeon": {
+          "ratings": {
+            "crit": 788.0,
+            "haste": 813.0,
+            "mastery": 1355.0,
+            "versatility": 101.0
+          },
+          "percentages": {
+            "crit": 31.130434782608692,
+            "haste": 18.47727272727273,
+            "mastery": 87.226875,
+            "versatility": 1.8703703703703705
+          },
+          "status": "hypothetical_not_owned"
+        },
+        "raid": {
+          "ratings": {
+            "crit": 788.0,
+            "haste": 869.0,
+            "mastery": 1299.0,
+            "versatility": 101.0
+          },
+          "percentages": {
+            "crit": 31.130434782608692,
+            "haste": 19.75,
+            "mastery": 84.391875,
+            "versatility": 1.8703703703703705
+          },
+          "status": "hypothetical_not_owned"
+        }
+      },
+      "elite": {
+        "dungeon": {
+          "ratings": {
+            "crit": 832,
+            "haste": 881,
+            "mastery": 1204,
+            "versatility": 143
+          },
+          "percentages": {
+            "crit": 31.7,
+            "haste": 19.7,
+            "mastery": 79.1,
+            "versatility": 1.9
+          },
+          "logs": 797,
+          "characters": 160,
+          "period": "最近两周，+20至+23",
+          "hero_scope": "98%天神引导，非纯英雄树筛选",
+          "source": "https://mythicstats.com/spec/windwalker-monk"
+        },
+        "raid": {
+          "ratings": {
+            "crit": 862,
+            "haste": 924,
+            "mastery": 1156,
+            "versatility": 127
+          },
+          "percentages": {
+            "crit": 32.3,
+            "haste": 20.7,
+            "mastery": 76.6,
+            "versatility": 1.7
+          },
+          "logs": 897,
+          "characters": 337,
+          "period": "最近三周，神话全首领",
+          "hero_scope": "99%天神引导，非纯英雄树筛选",
+          "source": "https://mythicstats.com/raid/spec/windwalker-monk"
+        }
+      }
+    }
+  }
+}

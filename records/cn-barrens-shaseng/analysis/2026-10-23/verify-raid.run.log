@@ -1,0 +1,173 @@
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+SimulationCraft 1210-01 for World of Warcraft 12.1.5.70529 Live (hotfix 2026-10-22/70529, git build midnight 73a372b761)
+
+Simulating... ( iterations=6500, threads=12, target_error=0.000, max_time=240, vary_combat_length=0.00, optimal_raid=1, fight_style=Patchwerk )
+
+Generating Baseline: 1/2 [....................] 71/6500 62.667 8sec
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Generating Baseline: 1/4 [....................] 144/6500 68.459 7sec
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Generating Baseline: 1/5 [>...................] 212/6500 71.030 7sec
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Generating Baseline: 1/7 [>...................] 283/6500 72.669 7sec
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Generating Baseline: 1/8 [>...................] 358/6500 71.469 7sec
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Generating Baseline: 1/10 [>...................] 432/6500 70.367 7sec
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Generating Baseline: 1/11 [=>..................] 507/6500 69.003 7sec
+Generating Baseline: 1/11 [=>..................] 572/6500 68.279 7sec
+Generating Baseline: 1/11 [=>..................] 639/6500 68.387 7sec
+Generating Baseline: 1/11 [=>..................] 707/6500 67.361 7sec
+Generating Baseline: 1/11 [=>..................] 776/6500 66.998 7sec
+Generating Baseline: 1/11 [==>.................] 842/6500 65.888 7sec
+Generating Baseline: 1/11 [==>.................] 917/6500 65.410 7sec
+Generating Baseline: 1/11 [==>.................] 990/6500 65.188 7sec
+Generating Baseline: 1/11 [==>.................] 1061/6500 65.175 6sec
+Generating Baseline: 1/11 [==>.................] 1136/6500 65.579 6sec
+Generating Baseline: 1/11 [===>................] 1212/6500 66.493 6sec
+Generating Baseline: 1/11 [===>................] 1278/6500 67.070 6sec
+Generating Baseline: 1/11 [===>................] 1343/6500 67.777 6sec
+Generating Baseline: 1/11 [===>................] 1410/6500 68.348 6sec
+Generating Baseline: 1/11 [====>...............] 1482/6500 68.695 6sec
+Generating Baseline: 1/11 [====>...............] 1547/6500 69.337 5sec
+Generating Baseline: 1/11 [====>...............] 1612/6500 69.936 5sec
+Generating Baseline: 1/11 [====>...............] 1687/6500 70.282 5sec
+Generating Baseline: 1/11 [====>...............] 1762/6500 70.552 5sec
+Generating Baseline: 1/11 [=====>..............] 1829/6500 70.889 5sec
+Generating Baseline: 1/11 [=====>..............] 1896/6500 71.142 5sec
+Generating Baseline: 1/11 [=====>..............] 1962/6500 71.370 5sec
+Generating Baseline: 1/11 [=====>..............] 2030/6500 71.487 5sec
+Generating Baseline: 1/11 [=====>..............] 2099/6500 70.985 5sec
+Generating Baseline: 1/11 [======>.............] 2167/6500 70.536 5sec
+Generating Baseline: 1/11 [======>.............] 2241/6500 70.512 5sec
+Generating Baseline: 1/11 [======>.............] 2307/6500 70.629 4sec
+Generating Baseline: 1/11 [======>.............] 2377/6500 70.295 4sec
+Generating Baseline: 1/11 [=======>............] 2448/6500 70.025 4sec
+Generating Baseline: 1/11 [=======>............] 2520/6500 70.114 4sec
+Generating Baseline: 1/11 [=======>............] 2596/6500 70.387 4sec
+Generating Baseline: 1/11 [=======>............] 2662/6500 70.701 4sec
+Generating Baseline: 1/11 [=======>............] 2732/6500 71.032 4sec
+Generating Baseline: 1/11 [========>...........] 2802/6500 71.364 4sec
+Generating Baseline: 1/11 [========>...........] 2876/6500 71.618 4sec
+Generating Baseline: 1/11 [========>...........] 2945/6500 71.921 4sec
+Generating Baseline: 1/11 [========>...........] 3014/6500 72.090 4sec
+Generating Baseline: 1/11 [=========>..........] 3088/6500 72.078 3sec
+Generating Baseline: 1/11 [=========>..........] 3161/6500 72.116 3sec
+Generating Baseline: 1/11 [=========>..........] 3237/6500 71.994 3sec
+Generating Baseline: 1/11 [=========>..........] 3305/6500 71.614 3sec
+Generating Baseline: 1/11 [=========>..........] 3379/6500 71.253 3sec
+Generating Baseline: 1/11 [==========>.........] 3449/6500 70.996 3sec
+Generating Baseline: 1/11 [==========>.........] 3514/6500 70.855 3sec
+Generating Baseline: 1/11 [==========>.........] 3582/6500 70.703 3sec
+Generating Baseline: 1/11 [==========>.........] 3651/6500 70.687 3sec
+Generating Baseline: 1/11 [==========>.........] 3724/6500 70.591 3sec
+Generating Baseline: 1/11 [===========>........] 3799/6500 70.619 3sec
+Generating Baseline: 1/11 [===========>........] 3866/6500 70.549 3sec
+Generating Baseline: 1/11 [===========>........] 3940/6500 70.690 3sec
+Generating Baseline: 1/11 [===========>........] 4013/6500 70.830 2sec
+Generating Baseline: 1/11 [============>.......] 4081/6500 71.020 2sec
+Generating Baseline: 1/11 [============>.......] 4153/6500 71.107 2sec
+Generating Baseline: 1/11 [============>.......] 4226/6500 71.215 2sec
+Generating Baseline: 1/11 [============>.......] 4291/6500 71.338 2sec
+Generating Baseline: 1/11 [============>.......] 4358/6500 71.380 2sec
+Generating Baseline: 1/11 [=============>......] 4424/6500 71.416 2sec
+Generating Baseline: 1/11 [=============>......] 4496/6500 71.430 2sec
+Generating Baseline: 1/11 [=============>......] 4570/6500 71.482 2sec
+Generating Baseline: 1/11 [=============>......] 4641/6500 71.425 2sec
+Generating Baseline: 1/11 [=============>......] 4711/6500 71.412 2sec
+Generating Baseline: 1/11 [==============>.....] 4781/6500 71.380 2sec
+Generating Baseline: 1/11 [==============>.....] 4855/6500 71.313 1sec
+Generating Baseline: 1/11 [==============>.....] 4928/6500 71.400 1sec
+Generating Baseline: 1/11 [==============>.....] 4995/6500 71.518 1sec
+Generating Baseline: 1/11 [===============>....] 5065/6500 71.581 1sec
+Generating Baseline: 1/11 [===============>....] 5137/6500 71.586 1sec
+Generating Baseline: 1/11 [===============>....] 5206/6500 71.564 1sec
+Generating Baseline: 1/11 [===============>....] 5281/6500 71.611 1sec
+Generating Baseline: 1/11 [===============>....] 5350/6500 71.792 1sec
+Generating Baseline: 1/11 [================>...] 5415/6500 71.983 1sec
+Generating Baseline: 1/11 [================>...] 5484/6500 72.191 1sec
+Generating Baseline: 1/11 [================>...] 5551/6500 72.345 1sec
+Generating Baseline: 1/11 [================>...] 5617/6500 72.529 1sec
+Generating Baseline: 1/11 [=================>..] 5688/6500 72.748     
+Generating Baseline: 1/11 [=================>..] 5759/6500 72.925     
+Generating Baseline: 1/11 [=================>..] 5829/6500 73.051     
+Generating Baseline: 1/11 [=================>..] 5905/6500 73.117     
+Generating Baseline: 1/11 [=================>..] 5978/6500 73.183     
+Generating Baseline: 1/11 [==================>.] 6052/6500 73.178     
+Generating Baseline: 1/11 [==================>.] 6117/6500 73.222     
+Generating Baseline: 1/11 [==================>.] 6188/6500 73.321     
+Generating Baseline: 1/11 [==================>.] 6265/6500 73.328     
+Generating Baseline: 1/11 [==================>.] 6337/6500 73.342     
+Generating Baseline: 1/11 [===================>] 6406/6500 73.424     
+Generating Baseline: 1/11 [===================>] 6480/6500 73.474     
+Generating Baseline: 1/11 [===================>] 6500/6500 73.390 7.380 (1m, 14s)
+Profilesets (6*2): 1/10 [=>..................] avg=0s done=0.021ms left=0s     
+Profilesets (6*2): 1/10 [=>..................] avg=0s done=0.136ms left=0s     
+Profilesets (6*2): 1/10 [=>..................] avg=0s done=0.174ms left=0s     
+Profilesets (6*2): 1/10 [=>..................] avg=0s done=0.21ms left=0s     
+Profilesets (6*2): 1/10 [=>..................] avg=0s done=0.243ms left=0s     
+Profilesets (6*2): 1/10 [=>..................] avg=0s done=0.272ms left=0s     
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Profilesets (6*2): 2/10 [===>................] avg=4.06s done=49s left=32s     
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Profilesets (6*2): 3/10 [=====>..............] avg=5.423s done=49s left=38s     
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Profilesets (6*2): 4/10 [=======>............] avg=6.122s done=49s left=37s     
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Profilesets (6*2): 5/10 [=========>..........] avg=6.562s done=50s left=33s     
+Implementation Not Yet Verified: Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Profilesets (6*2): 10/10 [===================>] avg=8.517s done=1m, 43s left=0s     
+
+Generating reports...
+text report took 0.0033379 seconds.
+JSON report version 2.0.0 took 0.0058138 seconds.

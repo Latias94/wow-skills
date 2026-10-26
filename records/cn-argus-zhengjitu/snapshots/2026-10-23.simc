@@ -1,0 +1,289 @@
+# 正极兔 - Elemental - 2026-10-23 09:57 - CN/阿古斯
+# SimC Addon 12.1.5-02
+# WoW 12.1.5.70529, TOC 120105
+# Requires SimulationCraft 1000-01 or newer
+
+shaman="正极兔"
+level=90
+race=dark_iron_dwarf
+region=cn
+server=阿古斯
+role=spell
+professions=alchemy=100/engineering=98
+spec=elemental
+# loot_spec=elemental
+
+talents=CYQALMl7AwW51MWzGneuHE3tPCAAAAzMbLzMGjZZbZMmhZAAAAgFzstZmZYzwCz2MTDNzCAMbzMzYstYajZGjlZMzYMLzyMzywYmZBAYGgZmZGDDD
+
+# Saved Loadout: GI-M5-斯索拉克-#1
+# talents=CYQALMl7AwW51MWzGneuHE3tPCAAAAzMbLzMmZmZZbZMMjBAAAAsYmNYADY2YAmFAw2MzMGbLzYjZmFWmZmZMDzyMWMzwMLDAYAgZGDDD
+# Saved Loadout: 单体
+# talents=CYQALMl7AwW51MWzGneuHE3tPCAAAAzMbLzMmZmZZbZgZMAAAAgFzstZmZYzwCz2MjBzsAA2mZmxMbLzYjZGsMzMzYGsMjFzMjZWGAwMAzMzMGGGA
+# Saved Loadout: GI-M1-盘魂者内克扎莉-1
+# talents=CYQALMl7AwW51MWzGneuHE3tPCAAAAzMbLzMmZmZZbZMMjBAAAAsYmNYADY2YAmFAY2mZmZGbLGbMzYsMzMzYYxyMWMzwMLDAYAgZGDDD
+# Saved Loadout: GI-H7-盘卷祭坛-#2
+# talents=CYQALMl7AwW51MWzGneuHE3tPCAAAAzMbLzMmZmZZbZMMjBAAAAsYmNYADY2YAmFAY2mZmxYbxYjZmlxyMzMjhFLDLmZYmlBAMMAmZMMMA
+# Saved Loadout: H8
+# talents=CYQALMl7AwW51MWzGneuHE3tPCAAAAzMbLzMGjZZbZMmhZAAAAgFzstZmZYzwCz2MjBzsAAz2MzMYbBbYGzsMzMz8ADLzyMzywYmZBAYGgZmZGDDD
+# Saved Loadout: 大米AOE1
+# talents=CYQALMl7AwW51MWzGneuHE3tPCAAAAzMbLzMGjZZbZMmhZAAAAgFzstZmZYzwCz2MjBzsAAz2MzMGbLGbMzYsMjZGjZZWmZWGGzMLAAzAMzMzYYYA
+
+omnium_talents=136814:1/136818:1/136817:1/136816:1/136822:1
+
+# 蛇裔神谕者蛇冠 (334)
+head=,id=271483,gem_id=240906,bonus_id=13334/6652/13695/13692/13698/12854,redirected_base_stats=268230
+# 亚基克星藏骨匣 (334)
+neck=,id=268265,gem_id=240983/240890,bonus_id=6652/13668/13334/13987/12854
+# 蛇裔神谕者嘶鸣披肩 (321)
+shoulder=,id=271481,enchant_id=8001,bonus_id=6652/13694/13697/12846,redirected_base_stats=272252
+# 信徒的流丝罩袍 (331)
+back=,id=239656,bonus_id=12214/13667/12497/13751/14001/12715/8790/13836,content_tuning=3615,crafted_stats=49/36,crafting_quality=5
+# 蛇裔神谕者尖牙法服 (334)
+chest=,id=271486,enchant_id=7987,bonus_id=13334/6652/13846/13690/13698/12854,redirected_base_stats=271876
+# 幸运衬衣 (1)
+shirt=,id=138385,content_tuning=378
+# 远行者的板层护腕 (331)
+wrist=,id=244584,bonus_id=12214/13667/12497/13751/14001/8960/12384/8790/13836/13696,content_tuning=3615,crafted_stats=32/49,crafting_quality=5
+# 蛇裔神谕者妖术之握 (334)
+hands=,id=271484,bonus_id=13334/6652/14049/13691/13697/12854,redirected_base_stats=281238
+# 远行者的战利品腰带 (331)
+waist=,id=244581,bonus_id=12214/13667/12497/13751/14001/8791/13836/13696,content_tuning=3615,crafted_stats=32/40,crafting_quality=5
+# 蛇裔神谕者护腿 (334)
+legs=,id=271482,enchant_id=7935,bonus_id=13334/40/13693/13698/12854,redirected_base_stats=268237
+# 鲁莽旅人战靴 (334)
+feet=,id=268258,enchant_id=7963,bonus_id=6652/13662/13334/12854
+# 邪恶炼金师指环 (334)
+finger1=,id=268249,enchant_id=7967,gem_id=240890,bonus_id=42/13668/13334/12854
+# 虫群召唤者指环 (334)
+finger2=,id=281029,bonus_id=6652/13668/13334/12854
+# 一瓶肮脏的烈性毒液 (321)
+trinket1=,id=273796,bonus_id=13440/6652/12699/12846,content_tuning=1279
+# 盖博的无底袋 (334)
+trinket2=,id=270164,bonus_id=6652/13334/13696/12854
+# 艾林哈籁手杖 (331)
+main_hand=,id=245770,enchant_id=8689,bonus_id=12214/13667/12497/13751/14004/13771/8960/8790/13836,content_tuning=3615,crafted_stats=36/40,crafting_quality=5
+
+### Gear from Bags
+#
+# 红色冬帽 (1)
+# head=,id=21524,content_tuning=441
+#
+# 纳洛拉克的梦魇 (311)
+# head=,id=251158,bonus_id=12843/13440/6652/13696/13662/12699,content_tuning=1279
+#
+# 焰缚军官的头盔 (311)
+# head=,id=193765,bonus_id=12843/13440/6652/13696/13662/12699,content_tuning=1279
+#
+# 蛇裔神谕者蛇冠 (321)
+# head=,id=271483,enchant_id=8017,bonus_id=6652/13696/13440/13692/13698/12846,redirected_base_stats=251220
+#
+# 蛇裔神谕者蛇冠 (321)
+# head=,id=271483,bonus_id=6652/13696/13440/13692/13698/12846,redirected_base_stats=239035
+#
+# 侵蚀巨怪罩帽 (298)
+# head=,id=281239,bonus_id=6652/13696/13662/13333/12835/11215/14049,content_tuning=7307
+#
+# 冲锋巨熊项圈 (311)
+# neck=,id=251173,bonus_id=12843/13440/6652/13668/12699,content_tuning=1279
+#
+# 恶毒之怒吊坠 (321)
+# neck=,id=251142,bonus_id=13440/6652/13668/12699/12846,content_tuning=1279
+#
+# 多曼纳尔的寄生契约 (311)
+# neck=,id=251234,gem_id=240906,bonus_id=12843/13440/40/13668/12699,content_tuning=1279
+#
+# 护卫之牙束带 (321)
+# neck=,id=273781,gem_id=240983,bonus_id=13440/6652/13668/12699/12846,content_tuning=1279
+#
+# 首皇护肩 (321)
+# shoulder=,id=239049,bonus_id=13440/41/13662/12699/12846,content_tuning=1279
+#
+# 游魂护肩 (321)
+# shoulder=,id=268231,bonus_id=6652/13662/13334/12846,content_tuning=4240
+#
+# 铁根肩甲 (311)
+# shoulder=,id=251184,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 叮当作响的邪能护肩 (311)
+# shoulder=,id=251131,bonus_id=12843/13440/40/13662/12699,content_tuning=1279
+#
+# 克拉西斯封印者肩铠 (298)
+# shoulder=,id=239037,bonus_id=12835/6652/13662/12699/11215,content_tuning=1279
+#
+# 协同披风 (13)
+# back=,id=65360
+#
+# 协和披风 (12)
+# back=,id=63206
+#
+# 蛇裔神谕者尖牙法服 (321)
+# chest=,id=271486,enchant_id=7987,bonus_id=6652/13440/13690/13698/12846,redirected_base_stats=273789
+#
+# 驭风者锁衫 (321)
+# chest=,id=272247,bonus_id=6652/13662/12846,content_tuning=6015
+#
+# 元素流动胸甲 (305)
+# chest=,id=171558,bonus_id=8902/12841/7756/13662/12699,content_tuning=440
+#
+# 蛇裔神谕者尖牙法服 (321)
+# chest=,id=271486,enchant_id=7987,bonus_id=12846/6652/13440/13690/13698/1574,redirected_base_stats=251233
+#
+# 猎捕手的粗糙链甲衫 (279)
+# chest=,id=275507,bonus_id=12825/6652/13662,content_tuning=5223
+#
+# 闪闪的项圈 (1)
+# shirt=,id=268274,content_tuning=3606
+#
+# 蛇裔神谕者护腕 (321)
+# wrist=,id=271479,bonus_id=6652/13696/13440/12846,redirected_base_stats=159380
+#
+# 誓言使者板腕 (292)
+# wrist=,id=272262,bonus_id=12833/6652/13696/11215/13662,content_tuning=6015
+#
+# 驭风者网甲护腕 (295)
+# wrist=,id=272254,bonus_id=12834/6652/13695/13662,content_tuning=6015
+#
+# 蛇裔神谕者妖术之握 (321)
+# hands=,id=271484,bonus_id=12846/6652/13440/13691/13697/1574,redirected_base_stats=193752
+#
+# 猎捕手的粗糙握柄 (292)
+# hands=,id=275506,bonus_id=12833/6652/13662,content_tuning=5236
+#
+# 巨兽束腰 (311)
+# waist=,id=251228,bonus_id=12843/13440/6652/13695/13662/12699,content_tuning=1279
+#
+# 牢固信息保全容器 (141)
+# waist=,id=245965,bonus_id=12533/1489,content_tuning=2892,titan_disc_id=1236122
+#
+# 失魂颅骨束带 (295)
+# waist=,id=268227,bonus_id=6652/13696/13662/13333/12834/11215,content_tuning=7359
+#
+# 碧空鞍座腰索 (298)
+# waist=,id=193691,bonus_id=12835/6652/13696/13662/12699/11215,content_tuning=1279
+#
+# 蛇形调配腰带 (321)
+# waist=,id=268254,bonus_id=43/13696/13662/13334/12846
+#
+# 护卵者的护腿 (311)
+# legs=,id=193759,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 蛇裔神谕者护腿 (321)
+# legs=,id=271482,enchant_id=7935,bonus_id=6652/13440/13693/13698/12846,redirected_base_stats=251141
+#
+# 驭风者的护胫 (305)
+# legs=,id=272251,bonus_id=12841/6652/13662,content_tuning=6015
+#
+# 利希尔的锁链护腿 (311)
+# legs=,id=251141,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 蛇裔神谕者鳞片鞋 (321)
+# feet=,id=271485,enchant_id=7963,bonus_id=41/13440/12846,redirected_base_stats=251145
+#
+# 驭风者护足 (321)
+# feet=,id=272248,enchant_id=7963,bonus_id=6652/13662/12846,content_tuning=4898
+#
+# 凶暴鳞靴 (321)
+# feet=,id=268233,bonus_id=6652/13662/13334/12846
+#
+# 邪能浸透之靴 (311)
+# feet=,id=251125,enchant_id=7963,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 猎捕手的指圈 (292)
+# finger1=,id=275529,bonus_id=12833/6652/13668,content_tuning=5236
+#
+# 妖术指环 (321)
+# finger1=,id=272149,enchant_id=7967,bonus_id=6652/13668/12846,content_tuning=4898
+#
+# 充能沙石指环 (311)
+# finger1=,id=158366,bonus_id=12843/13440/6652/13668/12699,content_tuning=1279
+#
+# 阿特洛苏斯的腐化玺戒 (321)
+# finger1=,id=252258,enchant_id=7967,gem_id=240898,bonus_id=13440/6652/13668/12699/12846,content_tuning=1279
+#
+# 仪式束缚者之戒 (321)
+# finger1=,id=159459,bonus_id=13440/6652/13668/12699/12846,content_tuning=1279
+#
+# 阿曼尼督军的指环 (321)
+# finger1=,id=273792,enchant_id=7967,gem_id=240890,bonus_id=13440/6652/13668/12699/12846,content_tuning=1279
+#
+# 原始点金石 (165)
+# trinket1=,id=241291,bonus_id=12249/12248/4785/12493,content_tuning=3615,crafting_quality=1
+#
+# 幽影恶念之牙 (311)
+# trinket1=,id=270161,bonus_id=42/13334/12843
+#
+# 失落的哈谢神像 (311)
+# trinket1=,id=251783,bonus_id=6652/12843,content_tuning=6013
+#
+# 祖尔金的处斩技法 (315)
+# trinket1=,id=270173,bonus_id=6652/13334/12844
+#
+# 蠕动毒蛇之结 (321)
+# trinket1=,id=273794,bonus_id=13440/6652/12699/12846,content_tuning=1279
+#
+# 咬咬的训练棒 (311)
+# main_hand=,id=251123,bonus_id=12843/13440/6652/12701,content_tuning=1279
+#
+# 被遗忘的幻灵匕首 (295)
+# main_hand=,id=272266,bonus_id=12834/6652,content_tuning=6015
+#
+# 受难游击戟 (292)
+# main_hand=,id=272272,bonus_id=12833/6652/11215,content_tuning=6015
+#
+# 毒术师的飞翼导能杖 (321)
+# main_hand=,id=268205,bonus_id=6652/13334/12846
+#
+# 抛光的光木引导匕首 (321)
+# main_hand=,id=273778,bonus_id=13440/6652/12701/12846,content_tuning=1279
+#
+# 简斯拉泽，灵魂之牙 (331)
+# main_hand=,id=271092,bonus_id=6652/13334/12853
+#
+# 骨粉研杵 (305)
+# main_hand=,id=272270,bonus_id=12841/6652,content_tuning=6015
+#
+# 阿曼穆索，督军的复仇 (308)
+# main_hand=,id=268209,bonus_id=6652/13333/12838
+#
+# 墓穴行者之爪 (305)
+# main_hand=,id=270930,bonus_id=6652/13334/12841
+#
+# 灵魂掠夺者 (292)
+# main_hand=,id=272277,bonus_id=12833/6652/11215,content_tuning=6015
+#
+# 寒妆的注能法杖 (311)
+# main_hand=,id=193761,bonus_id=12843/13440/6652/12701,content_tuning=1279
+#
+# 传染之牙 (311)
+# main_hand=,id=251225,bonus_id=12843/13440/40/12701,content_tuning=1279
+#
+# 咒魇裂魂匕首 (321)
+# main_hand=,id=268203,bonus_id=6652/13334/12846
+#
+# 游蛇蛮兵之槌 (321)
+# main_hand=,id=268206,bonus_id=6652/13334/12846
+#
+# 毒液蚀刻新月刃 (311)
+# main_hand=,id=273780,bonus_id=12843/13440/6652/12701,content_tuning=1279
+#
+# 满溢希望壁垒 (311)
+# off_hand=,id=159664,bonus_id=12843/13440/42/12699,content_tuning=1279
+#
+# 风暴庇护 (321)
+# off_hand=,id=251150,bonus_id=13440/6652/12699/12846,content_tuning=1279
+
+### Additional Character Info
+#
+# catalyst_currencies=2813:8/3269:8/3116:8/3378:8/3465:7
+#
+# upgrade_currencies=c:2122:5/c:3442:807/c:3445:295/c:3443:1120/c:1813:3530/c:3444:728/c:3446:4/i:210233:6/i:230906:2/i:268552:3/i:280562:7/i:224072:1/i:274476:2/i:231756:2/i:204276:16/i:232875:6/i:211296:8
+#
+# slot_high_watermarks=0:334:334/1:334:334/2:321:321/3:334:334/4:331:331/5:334:334/6:334:334/7:331:331/8:334:334/9:334:334/10:321:334/11:331:331/12:331:334/13:331:331/14:321:321/15:305:321/16:321:321
+#
+# upgrade_achievements=19577/19578/19579/40107/40115/40118/40939/40942/40943/40944/40945/41886/41887/41888/41892/42767/42768/42769/42770/61809/62410/62411/62412/62414/62416
+#
+# bonus_roll_currencies=3418:2/3511:0
+
+
+
+# Checksum: 154913ae

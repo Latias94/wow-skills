@@ -1,0 +1,115 @@
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+SimulationCraft 1210-01 for World of Warcraft 12.1.5.70529 Live (hotfix 2026-10-22/70529, git build midnight 73a372b761)
+
+Simulating... ( iterations=6000, threads=12, target_error=0.000, max_time=90, vary_combat_length=0.00, optimal_raid=0, fight_style=Patchwerk )
+
+Generating Baseline: 1/1 [....................] 67/6000 81.240 6sec
+Generating Baseline: 1/1 [....................] 129/6000 96.281 5sec
+Generating Baseline: 1/1 [>...................] 196/6000 103.750 4sec
+Generating Baseline: 1/1 [>...................] 266/6000 106.299 4sec
+Generating Baseline: 1/1 [>...................] 329/6000 109.295 4sec
+Generating Baseline: 1/1 [>...................] 396/6000 111.601 4sec
+Generating Baseline: 1/1 [=>..................] 461/6000 112.441 4sec
+Generating Baseline: 1/1 [=>..................] 528/6000 113.842 4sec
+Generating Baseline: 1/1 [=>..................] 595/6000 115.490 3sec
+Generating Baseline: 1/1 [=>..................] 655/6000 116.987 3sec
+Generating Baseline: 1/1 [=>..................] 720/6000 117.904 3sec
+Generating Baseline: 1/1 [==>.................] 782/6000 119.511 3sec
+Generating Baseline: 1/1 [==>.................] 850/6000 120.725 3sec
+Generating Baseline: 1/1 [==>.................] 913/6000 121.965 3sec
+Generating Baseline: 1/1 [==>.................] 984/6000 122.541 3sec
+Generating Baseline: 1/1 [==>.................] 1047/6000 122.502 3sec
+Generating Baseline: 1/1 [===>................] 1111/6000 123.593 3sec
+Generating Baseline: 1/1 [===>................] 1177/6000 124.214 3sec
+Generating Baseline: 1/1 [===>................] 1243/6000 125.025 3sec
+Generating Baseline: 1/1 [===>................] 1306/6000 124.505 3sec
+Generating Baseline: 1/1 [====>...............] 1367/6000 123.616 3sec
+Generating Baseline: 1/1 [====>...............] 1439/6000 123.567 3sec
+Generating Baseline: 1/1 [====>...............] 1506/6000 123.829 3sec
+Generating Baseline: 1/1 [====>...............] 1567/6000 124.332 2sec
+Generating Baseline: 1/1 [====>...............] 1628/6000 124.682 2sec
+Generating Baseline: 1/1 [=====>..............] 1692/6000 124.772 2sec
+Generating Baseline: 1/1 [=====>..............] 1753/6000 124.710 2sec
+Generating Baseline: 1/1 [=====>..............] 1820/6000 124.947 2sec
+Generating Baseline: 1/1 [=====>..............] 1882/6000 124.802 2sec
+Generating Baseline: 1/1 [=====>..............] 1947/6000 124.347 2sec
+Generating Baseline: 1/1 [======>.............] 2012/6000 124.339 2sec
+Generating Baseline: 1/1 [======>.............] 2076/6000 123.989 2sec
+Generating Baseline: 1/1 [======>.............] 2147/6000 123.769 2sec
+Generating Baseline: 1/1 [======>.............] 2210/6000 123.460 2sec
+Generating Baseline: 1/1 [=======>............] 2275/6000 123.209 2sec
+Generating Baseline: 1/1 [=======>............] 2335/6000 122.468 2sec
+Generating Baseline: 1/1 [=======>............] 2406/6000 121.763 2sec
+Generating Baseline: 1/1 [=======>............] 2469/6000 121.516 2sec
+Generating Baseline: 1/1 [=======>............] 2537/6000 121.658 2sec
+Generating Baseline: 1/1 [========>...........] 2603/6000 121.678 2sec
+Generating Baseline: 1/1 [========>...........] 2668/6000 121.591 2sec
+Generating Baseline: 1/1 [========>...........] 2728/6000 121.509 2sec
+Generating Baseline: 1/1 [========>...........] 2791/6000 121.459 2sec
+Generating Baseline: 1/1 [=========>..........] 2856/6000 121.472 2sec
+Generating Baseline: 1/1 [=========>..........] 2919/6000 120.814 2sec
+Generating Baseline: 1/1 [=========>..........] 2979/6000 120.776 2sec
+Generating Baseline: 1/1 [=========>..........] 3041/6000 120.769 2sec
+Generating Baseline: 1/1 [=========>..........] 3111/6000 120.456 1sec
+Generating Baseline: 1/1 [==========>.........] 3183/6000 120.267 1sec
+Generating Baseline: 1/1 [==========>.........] 3243/6000 119.969 1sec
+Generating Baseline: 1/1 [==========>.........] 3307/6000 120.150 1sec
+Generating Baseline: 1/1 [==========>.........] 3371/6000 120.107 1sec
+Generating Baseline: 1/1 [==========>.........] 3433/6000 120.098 1sec
+Generating Baseline: 1/1 [===========>........] 3498/6000 120.006 1sec
+Generating Baseline: 1/1 [===========>........] 3569/6000 119.974 1sec
+Generating Baseline: 1/1 [===========>........] 3638/6000 120.047 1sec
+Generating Baseline: 1/1 [===========>........] 3702/6000 120.166 1sec
+Generating Baseline: 1/1 [============>.......] 3767/6000 120.083 1sec
+Generating Baseline: 1/1 [============>.......] 3839/6000 120.233 1sec
+Generating Baseline: 1/1 [============>.......] 3908/6000 120.488 1sec
+Generating Baseline: 1/1 [============>.......] 3974/6000 120.593 1sec
+Generating Baseline: 1/1 [============>.......] 4042/6000 120.870 1sec
+Generating Baseline: 1/1 [=============>......] 4102/6000 120.985 1sec
+Generating Baseline: 1/1 [=============>......] 4169/6000 121.358 1sec
+Generating Baseline: 1/1 [=============>......] 4241/6000 121.564 1sec
+Generating Baseline: 1/1 [=============>......] 4308/6000 121.553 1sec
+Generating Baseline: 1/1 [==============>.....] 4368/6000 121.460 1sec
+Generating Baseline: 1/1 [==============>.....] 4435/6000 121.528 1sec
+Generating Baseline: 1/1 [==============>.....] 4500/6000 121.543 1sec
+Generating Baseline: 1/1 [==============>.....] 4565/6000 121.659     
+Generating Baseline: 1/1 [==============>.....] 4631/6000 121.908     
+Generating Baseline: 1/1 [===============>....] 4695/6000 121.973     
+Generating Baseline: 1/1 [===============>....] 4760/6000 121.905     
+Generating Baseline: 1/1 [===============>....] 4828/6000 121.888     
+Generating Baseline: 1/1 [===============>....] 4892/6000 121.987     
+Generating Baseline: 1/1 [================>...] 4955/6000 121.923     
+Generating Baseline: 1/1 [================>...] 5024/6000 121.958     
+Generating Baseline: 1/1 [================>...] 5087/6000 121.978     
+Generating Baseline: 1/1 [================>...] 5156/6000 122.281     
+Generating Baseline: 1/1 [================>...] 5218/6000 122.308     
+Generating Baseline: 1/1 [=================>..] 5285/6000 122.401     
+Generating Baseline: 1/1 [=================>..] 5356/6000 122.204     
+Generating Baseline: 1/1 [=================>..] 5421/6000 121.876     
+Generating Baseline: 1/1 [=================>..] 5484/6000 121.856     
+Generating Baseline: 1/1 [==================>.] 5555/6000 122.031     
+Generating Baseline: 1/1 [==================>.] 5622/6000 122.222     
+Generating Baseline: 1/1 [==================>.] 5688/6000 122.241     
+Generating Baseline: 1/1 [==================>.] 5757/6000 122.452     
+Generating Baseline: 1/1 [==================>.] 5820/6000 122.637     
+Generating Baseline: 1/1 [===================>] 5880/6000 122.733     
+Generating Baseline: 1/1 [===================>] 5949/6000 122.752     
+Generating Baseline: 1/1 [===================>] 6000/6000 122.744 4.73
+Merging data from thread-11 ...
+Merging data from thread-8 ...
+Merging data from thread-3 ...
+Merging data from thread-2 ...
+Merging data from thread-4 ...
+Merging data from thread-9 ...
+Merging data from thread-10 ...
+Merging data from thread-1 ...
+Merging data from thread-5 ...
+Merging data from thread-6 ...
+Merging data from thread-7 ...
+Analyzing actor data ...
+
+Generating reports...
+text report took 0.0028537 seconds.
+JSON report version 2.0.0 took 0.0033152 seconds.

@@ -1,0 +1,193 @@
+{
+  "checked_at": "2026-10-23T21:41:57+08:00",
+  "status": "pass",
+  "measured_batches": 29,
+  "profile_candidates": 306,
+  "all_report_workloads_supported": true,
+  "unsupported_batch_selection_guard": "pass",
+  "exact_raw_snapshot_preserved": true,
+  "current_resources": {
+    "coins": null,
+    "venomstones": 7,
+    "tidal_sparks": 2,
+    "catalyst_charges": 7,
+    "spent_now": 0,
+    "snapshot_coins": 2,
+    "snapshot_at": "2026-10-23T09:57:00+08:00",
+    "coin_balance_status": "Unknown: H10 roll timing relative to export not provided; no duplicate deduction."
+  },
+  "browser": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "images": 40,
+      "titledGear": 0
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "localTableScrolls": 4
+    },
+    "offline": {
+      "slots": 16,
+      "budget": "预算 待确认",
+      "title": "正极兔 · 元素萨 · 12.1.5 第二周 装备实验室"
+    },
+    "downloads": [
+      "zhengjitu-raid-2026-10-23.simc",
+      "zhengjitu-dungeon-2026-10-23.simc",
+      "zhengjitu-current-2026-10-23.simc"
+    ],
+    "onlineTooltip": false,
+    "gemTooltip": true,
+    "rowHitAreas": [
+      true,
+      true
+    ],
+    "weeklyRoute": {
+      "h3": "本周剩余首选／条件规划最多1币",
+      "h10": "本周不可再安排／10月29日后复核",
+      "currentBalance": null,
+      "conditionalProbabilityOnly": true
+    },
+    "pageErrors": [],
+    "checkedAt": "2026-10-23T13:10:55.288Z"
+  },
+  "download_bytes": [
+    {
+      "name": "zhengjitu-raid-2026-10-23.simc",
+      "matches_embedded_utf8": true,
+      "sha256": "023dcbcd1dbe659c70bfa990c97ba1147c35eb80b59eb18daab184430248aa32"
+    },
+    {
+      "name": "zhengjitu-dungeon-2026-10-23.simc",
+      "matches_embedded_utf8": true,
+      "sha256": "342379b924028051a82747e43815345323f2c3385d59e84ea84f1c3b6b1c9b4e"
+    },
+    {
+      "name": "zhengjitu-current-2026-10-23.simc",
+      "matches_embedded_utf8": true,
+      "sha256": "da3be68f9a25f8e6ea90cf400ec349347ad4b2d297f423589369a0a59ddaa15b"
+    }
+  ],
+  "independent_review": {
+    "p1_p2_findings": 0,
+    "previous_findings_resolved": [
+      "Unsupported DungeonSlice results isolated and replaced",
+      "Existing334 tier legs rechecked in final joint gear and retained"
+    ],
+    "scope": "Prior 25-batch study reviewed independently; four added follow-up batches validated locally, pool research performed separately."
+  },
+  "artifact_sha256": {
+    "dashboard.html": "9006c8147760258a5e55ea1f8f6b0e60eb8f8c9819c8cacec7184be3d22b5338",
+    "study-summary.json": "eb151903cf5a54e8fb0d72678db4437685d05f04fa0cc02bc5a1f1851dd3c67a",
+    "recommendation.md": "b291210c92897dda83deb1eb02b99ffa6818086c54aff47ee5cebfca6c96f5b7",
+    "recommended-raid.simc": "b546ec3b3e01b1e10b9cb29c930f2bebaead24f2ff0708969e778936bff60a24",
+    "recommended-dungeon.simc": "9c621217a6d5d54418655545ec47c17a1b5fc4d6a066decce93702a8833f1381",
+    "build-report.py": "719ed847f69c2d436c6ea372c3d122b40048f36199516a02dfbde09198c76c5d",
+    "dashboard.template.html": "89478cd838694497470532158b6a47adad59407e016a47a660fc5c73ec80eb94",
+    "followup-pools.json": "5eef7b59b0ee67f4fd189a53d986b59a07a14e9a3baaefc3dbf315440f2b8b6a",
+    "weekly-roll-update.md": "b234f47e257fc39be9590473b4c32aa7fa0cc45033d48d009399bb428f50f51a",
+    "validate-study.py": "a2374ede5e2146c71fceafe7090a311b350b43f35a5af0eaaa13e2193b6dabe4",
+    "verify-dashboard.js": "452c3deb7dc4441051bdb23f125a5b514f962c81f576c0934be155758b8f9fda",
+    "../../weeks/2026-10-22.json": "75de2f910e1ef81f048d4373d6c41e99f4cec982e21681606bbc0fdacb1e03c0",
+    "ring-roll-review.md": "f5efdd571334c4ae0b36f0fcf0787ce861360bbb8e4bd7026925e33d54a01718",
+    "ring-roll-source.json": "c59e2f604fe7360ab7dd06d21ae03ff630f19d52a244cd06801cb71ce08d4ab6"
+  },
+  "history_update": {
+    "H3_bonus_rolled_item": 270164,
+    "H7_prior_rolls": 0,
+    "budget_effect_now": null,
+    "remaining_pool_complete": false,
+    "H10_current_week_roll_confirmed": true,
+    "H10_item_id": null,
+    "no_new_spending_performed": true
+  },
+  "followup_browser": {
+    "runs": 29,
+    "followupCandidates": 32,
+    "h3ExclusionVisible": true,
+    "headings": [
+      "立即：补齐实装与保留现有资源",
+      "H10／基希克斯：触须候选",
+      "H3／迷失探险者：毒痕鳞甲盾",
+      "已有331简斯拉泽升级＋盾牌来源",
+      "H7肩／制造肩与保留四件套",
+      "戒指／饰品后续获取"
+    ],
+    "time": "2026-10-23T09:32:49.241Z"
+  },
+  "browser_scope": "Current 29-batch page checked on desktop1440/mobile390, offline, real downloads and weekly H3/H10 routes. Initial external item tooltip timed out; reload recheck passed. No simulation workload rerun for the history-only update. Subsequent ring-only route addition validated against generated JSON, existing simulations and week facts; no new layout or browser receipt is claimed for that addition.",
+  "stat_comparison": {
+    "status": "pass",
+    "new_controlled_current_stat_snapshots": 4,
+    "characters": [
+      "cn-argus-zhengjitu",
+      "cn-barrens-shaseng"
+    ],
+    "source": "stats-comparison.json",
+    "snapshot_kind": "Current equipment, no consumables/external raid buffs; not DPS ranking batches."
+  },
+  "browser_before_weekly_update": {
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "images": 40,
+      "titledGear": 0
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "localTableScrolls": 4
+    },
+    "offline": {
+      "slots": 16,
+      "budget": "预算 2 枚",
+      "title": "正极兔 · 元素萨 · 12.1.5 第二周 装备实验室"
+    },
+    "downloads": [
+      "zhengjitu-raid-2026-10-23.simc",
+      "zhengjitu-dungeon-2026-10-23.simc",
+      "zhengjitu-current-2026-10-23.simc"
+    ],
+    "onlineTooltip": true,
+    "gemTooltip": true,
+    "rowHitAreas": [
+      true,
+      true
+    ],
+    "pageErrors": [],
+    "checkedAt": "2026-10-23T08:51:00.735Z"
+  },
+  "online_tooltip_retry": {
+    "onlineTooltip": true,
+    "retryReason": "First hover raced external tooltip loading",
+    "checkedAt": "2026-10-23T13:14:08.268Z"
+  },
+  "weekly_route_update": {
+    "status": "pass",
+    "source": "../../weeks/2026-10-22.json",
+    "H3_useful_targets": [
+      268196,
+      270924
+    ],
+    "H3_token_eligibility": "unknown",
+    "H3_current_week_eligibility": "unknown",
+    "H10_this_week": "unavailable_already_used_as_reported",
+    "H10_earliest_reset": "2026-10-29",
+    "conditional_half_probability_only": true
+  },
+  "ring_review": {
+    "status": "pass",
+    "target_item_id": 268252,
+    "replacement_item_id": 268249,
+    "retain_item_id": 281029,
+    "decision": "conditional_secondary_not_allocated",
+    "current_gear_DPS_not_measured": true,
+    "source": "ring-roll-review.md",
+    "ordinary_source": "ring-roll-source.json",
+    "new_spending_events": 0,
+    "new_simulation_batches": 0,
+    "rendered_route_count": 7
+  }
+}

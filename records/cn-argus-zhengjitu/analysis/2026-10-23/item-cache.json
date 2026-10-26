@@ -1,0 +1,229 @@
+{
+  "head": {
+    "name": "蛇裔神谕者蛇冠",
+    "quality": 4,
+    "icon": "inv_helm_mail_raidshamanulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">蛇裔神谕者蛇冠</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>头部</td><th><!--scstart4:3--><span class=\"q1\">锁甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->217护甲</span><br><span><!--stat73-->+189 [敏捷 or 智力]</span><br><span><!--stat7-->+3,910 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->61暴击</span><br><span class=\"q2\">+<!--rtg36-->140急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><br /><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><!--ps--><br /><br />耐久: 100 / 100<div class=\"wowhead-tooltip-item-classes\">职业：<a href=\"/cn/class=7/萨满祭司\" class=\"c7\">萨满</a></div></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br /><br /><span class=\"q\"><a href=\"/cn/item-set=2065/蛇裔神谕者的预言\" class=\"q\">蛇裔神谕者的预言</a> (0/5)</span><div class=\"q0 indent\"><span><!--si271486--><a href=\"/cn/item=271486/蛇裔神谕者尖牙法服\">蛇裔神谕者尖牙法服</a></span><br /><span><!--si271484--><a href=\"/cn/item=271484/蛇裔神谕者妖术之握\">蛇裔神谕者妖术之握</a></span><br /><span><!--si271483--><a href=\"/cn/item=271483/蛇裔神谕者蛇冠\">蛇裔神谕者蛇冠</a></span><br /><span><!--si271482--><a href=\"/cn/item=271482/蛇裔神谕者护腿\">蛇裔神谕者护腿</a></span><br /><span><!--si271481--><a href=\"/cn/item=271481/蛇裔神谕者嘶鸣披肩\">蛇裔神谕者嘶鸣披肩</a></span></div><br /><span class=\"q0\"><!--itemeffectspec262:0--><span>(2) 组合 元素: <a href=\"/cn/spell=1296625/shaman-elemental-12-1-class-set-2pc\">大地震击、地震术和元素冲击的伤害提高25%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec263:0--><span>(2) 组合 增强: <a href=\"/cn/spell=1296627/shaman-enhancement-12-1-class-set-2pc\">流电炽焰使你的主要目标每2秒爆发一次火焰新星，持续6秒。火焰新星对你流电炽焰的主要目标造成的伤害提高200%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec264:0--><span>(2) 组合 恢复: <a href=\"/cn/spell=1296629/shaman-restoration-12-1-class-set-2pc\">治疗波和治疗链有几率在目标位置生成一道治疗之雨，持续8.0秒。</a></span><!--itemeffectspec--><br /><!--itemeffectspec262:0--><span>(4) 组合 元素: <a href=\"/cn/spell=1296626/shaman-elemental-12-1-class-set-4pc\">当风暴守护者或升腾结束时，你的下2次闪电箭、闪电链或熔岩爆裂造成的伤害提高25%，并使你的下一次地震术、大地震击或元素冲击消耗的漩涡值降低100%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec263:0--><span>(4) 组合 增强: <a href=\"/cn/spell=1296628/shaman-enhancement-12-1-class-set-4pc\">火焰新星使毁灭闪电的冷却时间缩短2.0秒，并使你的下一次毁灭闪电造成的伤害提高8%，最多可叠加5层。</a></span><!--itemeffectspec--><br /><!--itemeffectspec264:0--><span>(4) 组合 恢复: <a href=\"/cn/spell=1296630/shaman-restoration-12-1-class-set-4pc\">每1秒，治疗之雨范围内的1名盟友会获得一层水之护盾，吸收0点伤害，持续10秒。</a></span><!--itemeffectspec--></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">43</span> <span class=\"moneysilver\">72</span> <span class=\"moneycopper\">74</span></div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/271483?locale=4&dataEnv=1&bonus=13334:6652:13695:13692:13698:12854",
+    "sockets": 1
+  },
+  "neck": {
+    "name": "亚基克星藏骨匣",
+    "quality": 4,
+    "icon": "inv_121_jewelry_neck03_green",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">亚基克星藏骨匣</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span><br><span style=\"color: #00BF0D\">毒咒</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>颈部</td><th><!--scstart4:-3--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat7-->+2,199 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->101暴击</span><br><span class=\"q2\">+<!--rtg36-->101急速</span><br><span class=\"q2\">+<!--rtg40-->101全能</span><br><span class=\"q2\">+<!--rtg49-->101精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><br /><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><!--ps--><br /><br /></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1305838\" class=\"q2\"><a href=\"/cn/spell=1305830/解除盘卷守卫结界\" target=\"_blank\">在盘卷蛇岛与烈毒之渊中，受到致命剧毒的伤害降低7%。</a></a><!--useEffect:1--></span><!--useText:1--><br><br><!--useText:0:2--><span id=\"useText2\" class=\"q2\">装备： <!--useEffect:0:2--><a href=\"/cn/spell=1317582\" class=\"q2\">你的法术和技能有几率使你的一项随机次要属性提高<!--pts1:0:0:1317582:0.997962-->411<!---->，但会使你的其他次要属性降低<!--pts2:0:0:1317582:0.167881-->69<!---->，持续12秒。</a><!--useEffect:2--></span><!--useText:2--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;亚基虫群在她暴虐的攻势下败走，然而她身后溃流的毒液之河却无差别地剥夺着生灵。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">24</span> <span class=\"moneysilver\">93</span> <span class=\"moneycopper\">18</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 乌拉特克</div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/268265?locale=4&dataEnv=1&bonus=6652:13668:13334:13987:12854",
+    "sockets": 2
+  },
+  "shoulder": {
+    "name": "蛇裔神谕者嘶鸣披肩",
+    "quality": 4,
+    "icon": "inv_shoulder_mail_raidshamanulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">蛇裔神谕者嘶鸣披肩</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->321</span><br><span class=\"q\">升级：英雄 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>肩部</td><th><!--scstart4:3--><span class=\"q1\">锁甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->182护甲</span><br><span><!--stat73-->+125 [敏捷 or 智力]</span><br><span><!--stat7-->+2,527 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->49暴击</span><br><span class=\"q2\">+<!--rtg49-->94精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 100 / 100<div class=\"wowhead-tooltip-item-classes\">职业：<a href=\"/cn/class=7/萨满祭司\" class=\"c7\">萨满</a></div></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br /><br /><span class=\"q\"><a href=\"/cn/item-set=2065/蛇裔神谕者的预言\" class=\"q\">蛇裔神谕者的预言</a> (0/5)</span><div class=\"q0 indent\"><span><!--si271486--><a href=\"/cn/item=271486/蛇裔神谕者尖牙法服\">蛇裔神谕者尖牙法服</a></span><br /><span><!--si271484--><a href=\"/cn/item=271484/蛇裔神谕者妖术之握\">蛇裔神谕者妖术之握</a></span><br /><span><!--si271483--><a href=\"/cn/item=271483/蛇裔神谕者蛇冠\">蛇裔神谕者蛇冠</a></span><br /><span><!--si271482--><a href=\"/cn/item=271482/蛇裔神谕者护腿\">蛇裔神谕者护腿</a></span><br /><span><!--si271481--><a href=\"/cn/item=271481/蛇裔神谕者嘶鸣披肩\">蛇裔神谕者嘶鸣披肩</a></span></div><br /><span class=\"q0\"><!--itemeffectspec262:0--><span>(2) 组合 元素: <a href=\"/cn/spell=1296625/shaman-elemental-12-1-class-set-2pc\">大地震击、地震术和元素冲击的伤害提高25%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec263:0--><span>(2) 组合 增强: <a href=\"/cn/spell=1296627/shaman-enhancement-12-1-class-set-2pc\">流电炽焰使你的主要目标每2秒爆发一次火焰新星，持续6秒。火焰新星对你流电炽焰的主要目标造成的伤害提高200%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec264:0--><span>(2) 组合 恢复: <a href=\"/cn/spell=1296629/shaman-restoration-12-1-class-set-2pc\">治疗波和治疗链有几率在目标位置生成一道治疗之雨，持续8.0秒。</a></span><!--itemeffectspec--><br /><!--itemeffectspec262:0--><span>(4) 组合 元素: <a href=\"/cn/spell=1296626/shaman-elemental-12-1-class-set-4pc\">当风暴守护者或升腾结束时，你的下2次闪电箭、闪电链或熔岩爆裂造成的伤害提高25%，并使你的下一次地震术、大地震击或元素冲击消耗的漩涡值降低100%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec263:0--><span>(4) 组合 增强: <a href=\"/cn/spell=1296628/shaman-enhancement-12-1-class-set-4pc\">火焰新星使毁灭闪电的冷却时间缩短2.0秒，并使你的下一次毁灭闪电造成的伤害提高8%，最多可叠加5层。</a></span><!--itemeffectspec--><br /><!--itemeffectspec264:0--><span>(4) 组合 恢复: <a href=\"/cn/spell=1296630/shaman-restoration-12-1-class-set-4pc\">每1秒，治疗之雨范围内的1名盟友会获得一层水之护盾，吸收0点伤害，持续10秒。</a></span><!--itemeffectspec--></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">43</span> <span class=\"moneysilver\">11</span> <span class=\"moneycopper\">36</span></div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/271481?locale=4&dataEnv=1&bonus=6652:13694:13697:12846",
+    "sockets": 0
+  },
+  "back": {
+    "name": "信徒的流丝罩袍",
+    "quality": 4,
+    "icon": "inv_cape_cloth_questbloodelf_b_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">信徒的流丝罩袍</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #19FF19\">潮汐制造</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->331</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>背部</td></tr></table><!--rf--><span><!--amr-->77护甲</span><br><span><!--stat71-->+103 [敏捷 or 力量 or 智力]</span><br><span><!--stat7-->+2,124 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->56暴击</span><br><span class=\"q2\">+<!--rtg36-->56急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1246298\" class=\"q2\">+1 闪烁。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br>品质：<img style=\"vertical-align: middle\" src=\"https://wow.zamimg.com/images/wow/TextureAtlas/live/professions-chaticon-quality-tier2.png\"><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">71</span> <span class=\"moneysilver\">90</span> <span class=\"moneycopper\">89</span></div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/239656?locale=4&dataEnv=1&bonus=12214:13667:12497:13751:14001:12715:8790:13836",
+    "sockets": 0
+  },
+  "chest": {
+    "name": "蛇裔神谕者尖牙法服",
+    "quality": 4,
+    "icon": "inv_robe_mail_raidshamanulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">蛇裔神谕者尖牙法服</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span><br><span style=\"color: #00BF0D\">毒咒</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>胸部</td><th><!--scstart4:3--><span class=\"q1\">锁甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->289护甲</span><br><span><!--stat73-->+189 [敏捷 or 智力]</span><br><span><!--stat7-->+3,910 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->141暴击</span><br><span class=\"q2\">+<!--rtg36-->60急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 165 / 165<div class=\"wowhead-tooltip-item-classes\">职业：<a href=\"/cn/class=7/萨满祭司\" class=\"c7\">萨满</a></div></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1307923\" class=\"q2\">你的法术和技能有几率使你的精通提高<!--pts1:0:0:1307923:1.26479-->363<!---->，但会使你的其他次要属性降低<!--pts2:0:0:1307923:0.210792-->60<!---->，持续12秒。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br /><br /><span class=\"q\"><a href=\"/cn/item-set=2065/蛇裔神谕者的预言\" class=\"q\">蛇裔神谕者的预言</a> (0/5)</span><div class=\"q0 indent\"><span><!--si271486--><a href=\"/cn/item=271486/蛇裔神谕者尖牙法服\">蛇裔神谕者尖牙法服</a></span><br /><span><!--si271484--><a href=\"/cn/item=271484/蛇裔神谕者妖术之握\">蛇裔神谕者妖术之握</a></span><br /><span><!--si271483--><a href=\"/cn/item=271483/蛇裔神谕者蛇冠\">蛇裔神谕者蛇冠</a></span><br /><span><!--si271482--><a href=\"/cn/item=271482/蛇裔神谕者护腿\">蛇裔神谕者护腿</a></span><br /><span><!--si271481--><a href=\"/cn/item=271481/蛇裔神谕者嘶鸣披肩\">蛇裔神谕者嘶鸣披肩</a></span></div><br /><span class=\"q0\"><!--itemeffectspec262:0--><span>(2) 组合 元素: <a href=\"/cn/spell=1296625/shaman-elemental-12-1-class-set-2pc\">大地震击、地震术和元素冲击的伤害提高25%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec263:0--><span>(2) 组合 增强: <a href=\"/cn/spell=1296627/shaman-enhancement-12-1-class-set-2pc\">流电炽焰使你的主要目标每2秒爆发一次火焰新星，持续6秒。火焰新星对你流电炽焰的主要目标造成的伤害提高200%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec264:0--><span>(2) 组合 恢复: <a href=\"/cn/spell=1296629/shaman-restoration-12-1-class-set-2pc\">治疗波和治疗链有几率在目标位置生成一道治疗之雨，持续8.0秒。</a></span><!--itemeffectspec--><br /><!--itemeffectspec262:0--><span>(4) 组合 元素: <a href=\"/cn/spell=1296626/shaman-elemental-12-1-class-set-4pc\">当风暴守护者或升腾结束时，你的下2次闪电箭、闪电链或熔岩爆裂造成的伤害提高25%，并使你的下一次地震术、大地震击或元素冲击消耗的漩涡值降低100%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec263:0--><span>(4) 组合 增强: <a href=\"/cn/spell=1296628/shaman-enhancement-12-1-class-set-4pc\">火焰新星使毁灭闪电的冷却时间缩短2.0秒，并使你的下一次毁灭闪电造成的伤害提高8%，最多可叠加5层。</a></span><!--itemeffectspec--><br /><!--itemeffectspec264:0--><span>(4) 组合 恢复: <a href=\"/cn/spell=1296630/shaman-restoration-12-1-class-set-4pc\">每1秒，治疗之雨范围内的1名盟友会获得一层水之护盾，吸收0点伤害，持续10秒。</a></span><!--itemeffectspec--></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">60</span> <span class=\"moneysilver\">66</span> <span class=\"moneycopper\">70</span></div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/271486?locale=4&dataEnv=1&bonus=13334:6652:13846:13690:13698:12854",
+    "sockets": 0
+  },
+  "wrist": {
+    "name": "远行者的板层护腕",
+    "quality": 4,
+    "icon": "inv_bracer_mail_questbloodelf_b_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">远行者的板层护腕</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #19FF19\">潮汐制造</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->331</span><!--bo--><br>拾取后绑定<!--ue--><br>装备唯一：美化（2）<!--ue--><table width=\"100%\"><tr><td>腕部</td><th><!--scstart4:3--><span class=\"q1\">锁甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->142护甲</span><br><span><!--stat73-->+103 [敏捷 or 智力]</span><br><span><!--stat7-->+2,124 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->56暴击</span><br><span class=\"q2\">+<!--rtg36-->56急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1283697\" class=\"q2\">你的法术和技能有几率吸引一只法力浮龙，以<span style=\"color:#FFFFFF\">奥纹洞察</span>强化你和一名盟友，使你的[Primary Stat]提高(<!--pts1:0:0:1283697:0.24066-->84<!----> * 80 / 100)点，盟友的主要属性提高(<!--pts1:0:0:1283697:0.24066-->84<!----> * 20 / 100)点。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br>品质：<img style=\"vertical-align: middle\" src=\"https://wow.zamimg.com/images/wow/TextureAtlas/live/professions-chaticon-quality-tier2.png\"><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">47</span> <span class=\"moneysilver\">41</span> <span class=\"moneycopper\">38</span></div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/244584?locale=4&dataEnv=1&bonus=12214:13667:12497:13751:14001:8960:12384:8790:13836:13696",
+    "sockets": 0
+  },
+  "hands": {
+    "name": "蛇裔神谕者妖术之握",
+    "quality": 4,
+    "icon": "inv_glove_mail_raidshamanulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">蛇裔神谕者妖术之握</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>手部</td><th><!--scstart4:3--><span class=\"q1\">锁甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->163护甲</span><br><span><!--stat73-->+141 [敏捷 or 智力]</span><br><span><!--stat7-->+2,932 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->46暴击</span><br><span class=\"q2\">+<!--rtg49-->105精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55<div class=\"wowhead-tooltip-item-classes\">职业：<a href=\"/cn/class=7/萨满祭司\" class=\"c7\">萨满</a></div></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1310208\" class=\"q2\">你的攻击有几率爆发出虚空能量，对附近所有敌人造成(<!--sp137028:0--><!--sp137028--><!--sp137023:0--><!--sp137023--><!--sp137010:0--><!--sp137010--><!--sp212613:0--><!--sp212613--><!--sp137008:0--><!--sp137008--><!--sp137039:0--><!--sp137039--><!--sp137031:0--><!--sp137031--><!--sp137032:0--><!--sp137032--><!--sp137029:0--><!--sp137029--><!--sp137024:0--><!--sp137024--><!--sp356810:0--><!--sp356810--><!--sp137012:0--><!--sp137012--><!--sp137048:0-->1<!--sp137048--> * <!--pts1:0:0:1310208:7.36735-->5163<!---->)点暗影伤害。若你处于毒咒状态，此伤害提高15%。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br /><br /><span class=\"q\"><a href=\"/cn/item-set=2065/蛇裔神谕者的预言\" class=\"q\">蛇裔神谕者的预言</a> (0/5)</span><div class=\"q0 indent\"><span><!--si271486--><a href=\"/cn/item=271486/蛇裔神谕者尖牙法服\">蛇裔神谕者尖牙法服</a></span><br /><span><!--si271484--><a href=\"/cn/item=271484/蛇裔神谕者妖术之握\">蛇裔神谕者妖术之握</a></span><br /><span><!--si271483--><a href=\"/cn/item=271483/蛇裔神谕者蛇冠\">蛇裔神谕者蛇冠</a></span><br /><span><!--si271482--><a href=\"/cn/item=271482/蛇裔神谕者护腿\">蛇裔神谕者护腿</a></span><br /><span><!--si271481--><a href=\"/cn/item=271481/蛇裔神谕者嘶鸣披肩\">蛇裔神谕者嘶鸣披肩</a></span></div><br /><span class=\"q0\"><!--itemeffectspec262:0--><span>(2) 组合 元素: <a href=\"/cn/spell=1296625/shaman-elemental-12-1-class-set-2pc\">大地震击、地震术和元素冲击的伤害提高25%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec263:0--><span>(2) 组合 增强: <a href=\"/cn/spell=1296627/shaman-enhancement-12-1-class-set-2pc\">流电炽焰使你的主要目标每2秒爆发一次火焰新星，持续6秒。火焰新星对你流电炽焰的主要目标造成的伤害提高200%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec264:0--><span>(2) 组合 恢复: <a href=\"/cn/spell=1296629/shaman-restoration-12-1-class-set-2pc\">治疗波和治疗链有几率在目标位置生成一道治疗之雨，持续8.0秒。</a></span><!--itemeffectspec--><br /><!--itemeffectspec262:0--><span>(4) 组合 元素: <a href=\"/cn/spell=1296626/shaman-elemental-12-1-class-set-4pc\">当风暴守护者或升腾结束时，你的下2次闪电箭、闪电链或熔岩爆裂造成的伤害提高25%，并使你的下一次地震术、大地震击或元素冲击消耗的漩涡值降低100%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec263:0--><span>(4) 组合 增强: <a href=\"/cn/spell=1296628/shaman-enhancement-12-1-class-set-4pc\">火焰新星使毁灭闪电的冷却时间缩短2.0秒，并使你的下一次毁灭闪电造成的伤害提高8%，最多可叠加5层。</a></span><!--itemeffectspec--><br /><!--itemeffectspec264:0--><span>(4) 组合 恢复: <a href=\"/cn/spell=1296630/shaman-restoration-12-1-class-set-4pc\">每1秒，治疗之雨范围内的1名盟友会获得一层水之护盾，吸收0点伤害，持续10秒。</a></span><!--itemeffectspec--></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">29</span> <span class=\"moneysilver\">48</span> <span class=\"moneycopper\">59</span></div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/271484?locale=4&dataEnv=1&bonus=13334:6652:14049:13691:13697:12854",
+    "sockets": 0
+  },
+  "waist": {
+    "name": "远行者的战利品腰带",
+    "quality": 4,
+    "icon": "inv_belt_mail_questbloodelf_b_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">远行者的战利品腰带</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #19FF19\">潮汐制造</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->331</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腰部</td><th><!--scstart4:3--><span class=\"q1\">锁甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->159护甲</span><br><span><!--stat73-->+138 [敏捷 or 智力]</span><br><span><!--stat7-->+2,832 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->74暴击</span><br><span class=\"q2\">+<!--rtg49-->74精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br>品质：<img style=\"vertical-align: middle\" src=\"https://wow.zamimg.com/images/wow/TextureAtlas/live/professions-chaticon-quality-tier2.png\"><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">46</span> <span class=\"moneysilver\">87</span> <span class=\"moneycopper\">7</span></div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/244581?locale=4&dataEnv=1&bonus=12214:13667:12497:13751:14001:8791:13836:13696",
+    "sockets": 0
+  },
+  "legs": {
+    "name": "蛇裔神谕者护腿",
+    "quality": 4,
+    "icon": "inv_pant_mail_raidshamanulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">蛇裔神谕者护腿</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腿部</td><th><!--scstart4:3--><span class=\"q1\">锁甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->253护甲</span><br><span><!--stat73-->+189 [敏捷 or 智力]</span><br><span><!--stat7-->+3,910 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg36-->70急速</span><br><span class=\"q2\">+<!--rtg40-->131全能</span><br><span class=\"q2\">+<!--rtg63-->86免除</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 120 / 120<div class=\"wowhead-tooltip-item-classes\">职业：<a href=\"/cn/class=7/萨满祭司\" class=\"c7\">萨满</a></div></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br /><br /><span class=\"q\"><a href=\"/cn/item-set=2065/蛇裔神谕者的预言\" class=\"q\">蛇裔神谕者的预言</a> (0/5)</span><div class=\"q0 indent\"><span><!--si271486--><a href=\"/cn/item=271486/蛇裔神谕者尖牙法服\">蛇裔神谕者尖牙法服</a></span><br /><span><!--si271484--><a href=\"/cn/item=271484/蛇裔神谕者妖术之握\">蛇裔神谕者妖术之握</a></span><br /><span><!--si271483--><a href=\"/cn/item=271483/蛇裔神谕者蛇冠\">蛇裔神谕者蛇冠</a></span><br /><span><!--si271482--><a href=\"/cn/item=271482/蛇裔神谕者护腿\">蛇裔神谕者护腿</a></span><br /><span><!--si271481--><a href=\"/cn/item=271481/蛇裔神谕者嘶鸣披肩\">蛇裔神谕者嘶鸣披肩</a></span></div><br /><span class=\"q0\"><!--itemeffectspec262:0--><span>(2) 组合 元素: <a href=\"/cn/spell=1296625/shaman-elemental-12-1-class-set-2pc\">大地震击、地震术和元素冲击的伤害提高25%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec263:0--><span>(2) 组合 增强: <a href=\"/cn/spell=1296627/shaman-enhancement-12-1-class-set-2pc\">流电炽焰使你的主要目标每2秒爆发一次火焰新星，持续6秒。火焰新星对你流电炽焰的主要目标造成的伤害提高200%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec264:0--><span>(2) 组合 恢复: <a href=\"/cn/spell=1296629/shaman-restoration-12-1-class-set-2pc\">治疗波和治疗链有几率在目标位置生成一道治疗之雨，持续8.0秒。</a></span><!--itemeffectspec--><br /><!--itemeffectspec262:0--><span>(4) 组合 元素: <a href=\"/cn/spell=1296626/shaman-elemental-12-1-class-set-4pc\">当风暴守护者或升腾结束时，你的下2次闪电箭、闪电链或熔岩爆裂造成的伤害提高25%，并使你的下一次地震术、大地震击或元素冲击消耗的漩涡值降低100%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec263:0--><span>(4) 组合 增强: <a href=\"/cn/spell=1296628/shaman-enhancement-12-1-class-set-4pc\">火焰新星使毁灭闪电的冷却时间缩短2.0秒，并使你的下一次毁灭闪电造成的伤害提高8%，最多可叠加5层。</a></span><!--itemeffectspec--><br /><!--itemeffectspec264:0--><span>(4) 组合 恢复: <a href=\"/cn/spell=1296630/shaman-restoration-12-1-class-set-4pc\">每1秒，治疗之雨范围内的1名盟友会获得一层水之护盾，吸收0点伤害，持续10秒。</a></span><!--itemeffectspec--></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">58</span> <span class=\"moneysilver\">19</span> <span class=\"moneycopper\">22</span></div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/271482?locale=4&dataEnv=1&bonus=13334:40:13693:13698:12854",
+    "sockets": 0
+  },
+  "feet": {
+    "name": "鲁莽旅人战靴",
+    "quality": 4,
+    "icon": "inv_boot_mail_raidevokerulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">鲁莽旅人战靴</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>脚部</td><th><!--scstart4:3--><span class=\"q1\">锁甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->181护甲</span><br><span><!--stat73-->+141 [敏捷 or 智力]</span><br><span><!--stat7-->+2,932 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->101暴击</span><br><span class=\"q2\">+<!--rtg49-->50精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 80 / 80</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">46</span> <span class=\"moneysilver\">88</span> <span class=\"moneycopper\">84</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 莫尔扎希</div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/268258?locale=4&dataEnv=1&bonus=6652:13662:13334:12854",
+    "sockets": 0
+  },
+  "finger1": {
+    "name": "邪恶炼金师指环",
+    "quality": 4,
+    "icon": "inv_121_jewelry_ring01_purple",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">邪恶炼金师指环</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>手指</td><th><!--scstart4:-2--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat7-->+2,199 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->73暴击</span><br><span class=\"q2\">+<!--rtg49-->332精通</span><br><span class=\"q2\">+<!--rtg61-->69速度</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><br /><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><!--ps--><br /><br /></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1305830\" class=\"q2\">在盘卷蛇岛与烈毒之渊中，受到致命剧毒的伤害降低7%。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;一个活体样本！&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">37</span> <span class=\"moneysilver\">12</span> <span class=\"moneycopper\">54</span></div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/268249?locale=4&dataEnv=1&bonus=42:13668:13334:12854",
+    "sockets": 1
+  },
+  "finger2": {
+    "name": "虫群召唤者指环",
+    "quality": 4,
+    "icon": "8268560",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">虫群召唤者指环</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>手指</td><th><!--scstart4:-2--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat7-->+2,199 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg36-->110急速</span><br><span class=\"q2\">+<!--rtg49-->295精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><br /><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><!--ps--><br /><br /></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1310082\" class=\"q2\">你的攻击有几率放大指环中的低语，召唤一只酸巢灾虫。灾虫会飞向你的目标并引爆，对附近所有敌人造成(<!--sp137028:0--><!--sp137028--><!--sp137023:0--><!--sp137023--><!--sp137010:0--><!--sp137010--><!--sp212613:0--><!--sp212613--><!--sp137008:0--><!--sp137008--><!--sp137039:0--><!--sp137039--><!--sp137031:0--><!--sp137031--><!--sp137032:0--><!--sp137032--><!--sp137029:0--><!--sp137029--><!--sp137024:0--><!--sp137024--><!--sp356810:0--><!--sp356810--><!--sp137012:0--><!--sp137012--><!--sp137048:0-->1<!--sp137048--> * <!--pts1:0:0:1310082:9.82314-->6884<!---->)点自然伤害。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;指环中传出不祥的低语，虽隐约可闻，却怎么也听不真切。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">38</span> <span class=\"moneysilver\">86</span> <span class=\"moneycopper\">98</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: [Kith'ix]</div><div class=\"whtt-extra whtt-dropchance\">掉落几率: 33.61%</div></td></tr></table>",
+    "spells": {
+      "137008": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137010": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137012": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137023": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137024": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137028": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137029": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137031": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137032": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137039": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137048": [
+        [
+          "1",
+          "0.66",
+          ""
+        ]
+      ],
+      "212613": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "356810": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ]
+    },
+    "url": "https://nether.wowhead.com/tooltip/item/281029?locale=4&dataEnv=1&bonus=6652:13668:13334:12854",
+    "sockets": 1
+  },
+  "trinket1": {
+    "name": "一瓶肮脏的烈性毒液",
+    "quality": 4,
+    "icon": "inv_121_trinket_dungeon_ulatek_vile",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">一瓶肮脏的烈性毒液</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗钥石</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->321</span><br><span class=\"q\">升级：英雄 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>饰品</td><th><!--scstart4:-4--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat71-->+159 [敏捷 or 力量 or 智力]</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1293316\" class=\"q2\">只需小口啜饮这瓶毒液，就能使你的一项随机次要属性提升<!--pts1:0:0:1295179:3.36027-->914<!---->，持续15秒。但代价是，随后你的另一项随机次要属性将降低<!--pts2:0:0:1295179:0.480109-->131<!---->，同样持续15秒。</a> (2​分钟 冷却)<!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;可疑吗？没错。能喝吗？……严格来说，能喝。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">49</span> <span class=\"moneysilver\">76</span> <span class=\"moneycopper\">57</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 拉维</div><div class=\"whtt-extra whtt-dropchance\">掉落几率: 13.51%</div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/273796?locale=4&dataEnv=1&bonus=13440:6652:12699:12846",
+    "sockets": 0
+  },
+  "trinket2": {
+    "name": "盖博的无底袋",
+    "quality": 4,
+    "icon": "inv_10_tailoring_bag1_color2",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">盖博的无底袋</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>饰品</td><th><!--scstart4:-4--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat71-->+179 [敏捷 or 力量 or 智力]</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1292291\" class=\"q2\">施放法术和技能时，你有几率从包里掏出一件价值存疑的神器，以各种方式提高你的副属性。包里可能已经没有鱼了，但也说不准。（750毫秒 冷却）</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;恶心的烂鱼！没完没了了？我本该完全掌控这具躯体的！&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">49</span> <span class=\"moneysilver\">48</span> <span class=\"moneycopper\">78</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 莫尔扎希</div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/270164?locale=4&dataEnv=1&bonus=6652:13334:13696:12854",
+    "sockets": 0
+  },
+  "main_hand": {
+    "name": "艾林哈籁手杖",
+    "quality": 4,
+    "icon": "inv_staff_2h_dungeonharronir_c_02",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">艾林哈籁手杖</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #19FF19\">潮汐制造</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->331</span><!--bo--><br>拾取后绑定<!--ue--><br>装备唯一：美化（2）<!--ue--><table width=\"100%\"><tr><td>双手</td><th><!--scstart2:10--><span class=\"q1\">法杖</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->211 - 286点伤害</span></td>\n    <th>速度 <!--spd-->3.60</th>\n</tr></table><!--dps-->（每秒伤害69.0点）<br><span><!--stat5-->+815 智力</span><br><span><!--stat7-->+3,777 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->99暴击</span><br><span class=\"q2\">+<!--rtg36-->99急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 120 / 120</td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1297382\" class=\"q2\">你的伤害性法术和技能有一定几率使一项随机次要属性提高<!--pts2:0:0:1297382:0.507458-->101<!---->，持续15秒。<br /><br />在猎物追猎期间，此效果提高50%。该加成仅在户外追猎猎物时生效。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br>品质：<img style=\"vertical-align: middle\" src=\"https://wow.zamimg.com/images/wow/TextureAtlas/live/professions-chaticon-quality-tier2.png\"><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">170</span> <span class=\"moneysilver\">35</span> <span class=\"moneycopper\">38</span></div></td></tr></table>",
+    "spells": [],
+    "url": "https://nether.wowhead.com/tooltip/item/245770?locale=4&dataEnv=1&bonus=12214:13667:12497:13751:14004:13771:8960:8790:13836",
+    "sockets": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-argus-zhengjitu",
+  "name": "正极兔",
+  "region": "cn",
+  "server": "阿古斯",
+  "timezone": "Asia/Shanghai",
+  "class": "shaman",
+  "combat_spec": "elemental",
+  "target_spec": "elemental",
+  "hero_talents": "farseer",
+  "hero_talents_evidence": "Current full talent string decoded against local 12.1.5 SimC trait data; active hero subtree 56, corroborated by ancestor pet/call_of_the_ancestors in smoke output.",
+  "primary_content": "mythic_plus",
+  "goal": "Compare personal current improvements and attainable complete Mythic+ and raid loadouts, then derive crafting/ascension/roll routes.",
+  "constraints": {
+    "comparison_loot_ilvl": 334,
+    "comparison_crafted_ilvl": 331,
+    "ascended_mythic_ilvl": 341,
+    "ascended_crafted_ilvl": 337,
+    "ascended_model": "Oct 23 screenshot rule explicitly overrides Oct 22 engine item levels; pending native DBC",
+    "mythic_overcap_loot_assumed": false
+  },
+  "latest_simc": "snapshots/2026-10-23.simc",
+  "latest_items": "snapshots/2026-10-23.items.json",
+  "roll_history_coverage": "partial",
+  "notes": "Character is separate from Shaseng. No roll acquisition method is inferred from gear. Raid uses saved 单体 talents; dungeon uses exported active talents. Both trees are Farseer; gear comparisons keep chosen mode talents and race fixed. User subsequently confirms H3 bag270164 was bonus-rolled and H7 has never been bonus-rolled; other history remains incomplete.",
+  "snapshot_sha256": "11540efcd8f44631c9031ee47463d6c6d04bb3e227df0f5c1b7d828193cebbee",
+  "latest_analysis": "analysis/2026-10-23/dashboard.html",
+  "latest_recommendation": "analysis/2026-10-23/recommendation.md",
+  "recommended_raid_simc": "analysis/2026-10-23/recommended-raid.simc",
+  "recommended_dungeon_reference_simc": "analysis/2026-10-23/recommended-dungeon.simc",
+  "model_constraints": {
+    "raid": "Patchwerk 1 target, 240 seconds, saved single-target talents",
+    "dungeon_reference": "Supported Patchwerk 5 targets, 90 seconds; sensitivity 5/8 targets 40 seconds and 1 target 180 seconds, exported active talents. Not an actual dungeon route.",
+    "rejected": [
+      "DungeonSlice",
+      "DungeonRoute"
+    ],
+    "rejection_reason": "Elemental module explicitly rejects these models; old DungeonSlice outputs archived and excluded from recommendations."
+  },
+  "latest_roll_followup": "analysis/2026-10-23/followup-comparison.md"
+}

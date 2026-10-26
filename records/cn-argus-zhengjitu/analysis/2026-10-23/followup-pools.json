@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-argus-zhengjitu",
+  "researched_at": "2026-10-23T17:18:34+08:00",
+  "region": "cn",
+  "patch": "12.1.5",
+  "season": "Midnight Season 2",
+  "budget_reported": 2,
+  "budget_reported_at": "2026-10-23T09:57:00+08:00",
+  "current_balance": null,
+  "history_updated_at": "2026-10-23T21:04:05+08:00",
+  "scope": {
+    "bosses": ["H3: The Lost Explorers", "H7: The Coiled Altar", "H10: Kith'ix"],
+    "loot_specs": {"elemental": 262, "restoration": 264},
+    "excluded_work": ["simulations", "crafted-shoulder usage research", "other bosses", "commits", "other file changes"],
+    "method": "Current official rules plus direct retrieval of live Wowhead item/NPC HTML, its embedded specs fields, and live tooltip JSON. No character reward preview or in-game filtered Journal output was available."
+  },
+  "conclusions": [
+    "The user explicitly confirmed an H3 bonus-roll acquisition of Gebbo's Bottomless Bag 270164. Its acquisition method is confirmed; its date, acquisition loot spec, and other H3 roll results remain unknown.",
+    "Under the published knockout rule, 270164 is an exclusion for this character's Heroic Lost Explorers pool until that pool is exhausted/reset. This is a rule-based exclusion, not a newly observed character reward preview; do not extend it to Normal or Mythic kills.",
+    "After that confirmed exclusion, the identified H3 equipment candidates are shield 268196, intellect one-hand mace 268210, and mail boots 268258. All three have both 262 and 264 in live item specs. Other unreported rolls could remove additional items. Shoulder token 270924 is a separate unresolved R-eligibility question.",
+    "There is no verified H3 pool reduction from changing Elemental to Restoration. The bag itself also has both specs in live data, and its confirmed roll already supplies the relevant exclusion. Do not advertise Restoration as a way to remove it again.",
+    "H7 has no prior R acquisitions according to the user. Shoulder 268231, mail legs 268237, and cloak 268253 have both specs in live data. Trinket 270169 is a plausible additional candidate, but its live item/NPC records retrieved here omit specs. Four ordinary usable candidates do not establish a four-item actual R pool or a 1/4 chance.",
+    "H10 live data lists both specs for gloves 281238, sigil 280835, and tendril 281215; ring 281029 lacks a retrieved specs field. A community addon's static table disagrees about the two trinkets and omits most H10 equipment, so it cannot settle the actual pool or justify changing to Restoration.",
+    "Exact remaining pool sizes, reward weights, and target probabilities are unknown for all three bosses. The user subsequently confirmed H10 was already rolled during the current 2026-10-22 reset week, outcome unknown; do not schedule another H10 roll this week. Timing relative to the two-coin export is unknown, so the current balance remains unresolved.",
+    "Both an eligible Mythic-track H3 shoulder token and shield would be useful upgrades. If the actual remaining preview contains exactly shoulder token 270924, shield 268196, mace 268210 and boots 268258, and outcomes are equally weighted, useful-target probability would be 2/4=50%, shield alone 1/4=25%. Neither that complete preview nor equal weighting is verified. A question proposing one-half is not an observed preview."
+  ],
+  "confirmed_history": {
+    "H3": {
+      "coverage": "partial",
+      "events": [
+        {
+          "item_id": 270164,
+          "item_name": "Gebbo's Bottomless Bag",
+          "method": "bonus_roll",
+          "activity_difficulty": "Heroic",
+          "acquired_at": null,
+          "loot_spec_at_acquisition": "unknown",
+          "evidence": "Explicit user confirmation in the follow-up message; not inferred from inventory or item level."
+        }
+      ],
+      "other_prior_rolls": "unknown",
+      "confirmed_exclusions_under_published_rule": [270164],
+      "exclusion_scope": "This character, The Lost Explorers, Heroic activity difficulty, until pool exhaustion/reset.",
+      "cross_spec_application": {
+        "status": "rule_based_inference",
+        "basis": "Official baseline describes a character-bound record and per-difficulty removal without specifying a separate per-spec record. Both specs include this item. No direct cross-spec reward-preview test was performed.",
+        "sources": ["official_knockout_baseline", "official_character_record", "current_s2_guide"]
+      },
+      "pool_exhaustion_or_reset_state": "unknown",
+      "live_exclusion_preview_verified": false
+    },
+    "H7": {
+      "coverage": "complete_for_prior_bonus_rolls_as_reported",
+      "prior_roll_count": 0,
+      "confirmed_exclusions": [],
+      "evidence": "User explicitly confirmed never using R on H7. This says nothing about ordinary drops, trades, or Vault acquisitions."
+    },
+    "H10": {
+      "coverage": "partial_current_week_roll_confirmed_outcome_unknown",
+      "prior_roll_count": null,
+      "confirmed_exclusions": null,
+      "current_week_roll_confirmed": true,
+      "current_week_reset_date": "2026-10-22",
+      "earliest_next_reset_date": "2026-10-29",
+      "current_week_eligibility": "unavailable_already_used_as_reported",
+      "result_item_id": null,
+      "event_id": "confirmed-h10-current-week-roll-2026-10-23",
+      "evidence": "User: 因为h10我已经r了，要下周才能roll到饰品. The roll is confirmed but its outcome and timing relative to the 09:57 export are unknown. Owned H10 items and another character's history are not exclusions."
+    }
+  },
+  "rules": {
+    "raid_roll_cost": {
+      "value": 1,
+      "status": "confirmed_current_official_rule",
+      "source": "official_s2_notes"
+    },
+    "loot_specialization": {
+      "status": "published_official_baseline",
+      "rule": "The roll selects an item appropriate for the selected loot specialization from that activity. Equippability and ordinary group-loot presence are different claims.",
+      "source": "official_knockout_baseline"
+    },
+    "knockout": {
+      "status": "official_baseline_with_current_s2_corroboration",
+      "rule": "An item received through a bonus roll is removed for that player on that activity/difficulty until all eligible items have been obtained. A later exhaustion/reset must not be ruled out from an incomplete history.",
+      "sources": ["official_knockout_baseline", "official_character_record", "current_s2_guide"],
+      "limitation": "The detailed official explanation was published for Season 1. Current Season 2 notes change costs and reward scaling; the current Season 2 guide corroborates continued per-difficulty knockout. No fresh CN character preview was obtained."
+    },
+    "ordinary_acquisition": {
+      "automatically_removes_item_from_R_pool": false,
+      "status": "published_rule_based_interpretation",
+      "rule": "Ordinary drops, trades, Vault rewards, ownership, upgrades, and Catalyst conversion are not bonus-roll acquisition evidence. Do not subtract them from n without an explicit applicable rule or character preview.",
+      "sources": ["official_knockout_baseline", "official_character_record"],
+      "limitation": "No separate current official sentence explicitly enumerating every non-R acquisition method was located. The published removal condition is receiving the item through the bonus-roll system."
+    },
+    "tier_tokens": {
+      "can_bonus_roll": "unknown",
+      "rule": "Neither an ordinary drop-table entry, a compatible class restriction, nor an addon's static classification independently proves current token R eligibility. No verified current official token-specific inclusion/exclusion or live R preview was obtained.",
+      "h3_relevant_token_id": 270924,
+      "do_not_conflate": "Class shoulder tokens are distinct from universal curios. A statement excluding a universal curio does not prove that class tokens are excluded."
+    },
+    "weekly_eligibility": {
+      "status": "confirmed_current_official_rule",
+      "rule": "Since the announced September maintenance change, a raid bonus roll requires loot eligibility on that encounter/difficulty. A repeat kill after that week's loot lockout does not provide another R opportunity.",
+      "source": "official_raid_eligibility_update",
+      "character_this_week_eligibility": {"H3": "unknown_bag_roll_date_not_reported", "H7": "unknown_no_prior_rolls_does_not_prove_weekly_loot_eligibility", "H10": "unavailable_already_used_as_reported"},
+      "cn_exact_effective_maintenance_date": "unknown"
+    },
+    "probability": {
+      "remaining_n": "unknown",
+      "weights": "unknown",
+      "numeric_probability": null,
+      "reason": "No complete character-specific remaining R preview. H3/H10 history is incomplete, H3 token eligibility is unresolved, and equal weights are unverified. Even a verified item count alone would not prove equal probability.",
+      "h3_two_targets_scenario": {"status": "conditional_only", "hypothetical_remaining_ids": [270924, 268196, 268210, 268258], "useful_target_ids": [270924, 268196], "equal_weight_fraction_if_exact_preview": 0.5, "shield_only_fraction_if_exact_preview": 0.25}
+    }
+  },
+  "pools": {
+    "H3": {
+      "boss_name_cn": "迷失探险者",
+      "boss_name_en": "The Lost Explorers",
+      "journal_encounter_id": 2894,
+      "identity_note": "Use the user's named encounter and shield 268196 to anchor H3. Live Wowhead associates its loot with Mor'zahi NPC 267077 and Lost Explorer's Bounty object 673637; Mor'zahi is not a reason to substitute a different encounter.",
+      "ordinary_gear_and_token_ids": [268196, 268200, 268210, 268227, 268239, 268242, 268258, 270160, 270164, 270922, 270923, 270924, 270925],
+      "ordinary_source": "live_h3_loot",
+      "relevant_items": [
+        {"id": 268196, "name_cn": "毒痕鳞甲盾", "name_en": "Venom-Slashed Scuteward", "slot": "shield", "shaman_equippable": true, "live_spec_262": true, "live_spec_264": true, "bonus_roll_acquisition_confirmed": false, "current_remaining_R_status": "unknown", "source": "live_item_268196"},
+        {"id": 268210, "name_en": "Malevolent Spiritcudgel", "slot": "intellect_one_hand_mace", "shaman_equippable": true, "live_spec_262": true, "live_spec_264": true, "bonus_roll_acquisition_confirmed": false, "current_remaining_R_status": "unknown", "source": "live_item_268210"},
+        {"id": 268258, "name_en": "Boots of the Reckless Wayfarer", "slot": "mail_feet", "shaman_equippable": true, "live_spec_262": true, "live_spec_264": true, "bonus_roll_acquisition_confirmed": false, "current_remaining_R_status": "unknown", "source": "live_item_268258"},
+        {"id": 270164, "name_cn": "无底袋", "name_en": "Gebbo's Bottomless Bag", "slot": "trinket", "shaman_equippable": true, "live_spec_262": true, "live_spec_264": true, "bonus_roll_acquisition_confirmed": true, "current_remaining_R_status": "excluded_under_published_rule_until_pool_exhaustion_or_reset", "source": "live_item_270164"},
+        {"id": 270924, "name_en": "Venomcast Remnant", "slot": "class_shoulder_token", "shaman_equippable": "not_applicable_token", "usable_by_shaman": true, "live_spec_262": "unknown", "live_spec_264": "unknown", "can_bonus_roll": "unknown", "bonus_roll_acquisition_confirmed": false, "current_remaining_R_status": "unknown", "source": "live_token_270924"}
+      ],
+      "ordinary_items_not_in_either_retrieved_spec_filter": [268200, 268227, 268239, 268242, 270160],
+      "other_token_ids_not_for_shaman": [270922, 270923, 270925],
+      "identified_equipment_candidates_after_confirmed_exclusions": {
+        "elemental": [268196, 268210, 268258],
+        "restoration": [268196, 268210, 268258],
+        "unresolved_extra_candidate": [270924],
+        "meaning": "Candidate membership after applying the one confirmed exclusion, not a certified full remaining R pool. Additional unreported R outcomes may remove items."
+      },
+      "restoration_reduces_pool": "not_demonstrated",
+      "useful_target_ids_if_eligible": [268196, 270924],
+      "shoulder_value": "Current shoulder is Heroic321; a Mythic-track tier shoulder can upgrade to334 and save a crafted shoulder while preserving four-piece. No H3-native shoulder DPS measurement is asserted.",
+      "current_week_eligibility": "unknown_bag_roll_date_not_reported",
+      "restoration_comparison": "The identified equipment candidates are identical. No verified item is removed by switching from 262 to 264; token eligibility and actual preview remain unresolved.",
+      "pool_completeness": "partial",
+      "remaining_n": "unknown",
+      "shield_probability": "unknown"
+    },
+    "H7": {
+      "boss_name_cn": "盘卷祭坛",
+      "boss_name_en": "The Coiled Altar",
+      "journal_encounter_id": 2883,
+      "ordinary_gear_ids": [268209, 268211, 268213, 268222, 268225, 268231, 268237, 268243, 268253, 268255, 268256, 268259, 270169, 270173],
+      "ordinary_source": "live_h7_loot",
+      "relevant_items": [
+        {"id": 268231, "name_cn": "游魂护肩", "name_en": "Soulslither Spaulders", "slot": "mail_shoulders", "shaman_equippable": true, "live_spec_262": true, "live_spec_264": true, "current_remaining_R_status": "candidate_not_verified_in_R_preview", "source": "live_item_268231"},
+        {"id": 268237, "name_en": "Cuisses of the Uncoiled Union", "slot": "mail_legs", "shaman_equippable": true, "live_spec_262": true, "live_spec_264": true, "current_remaining_R_status": "candidate_not_verified_in_R_preview", "source": "live_h7_loot"},
+        {"id": 268253, "name_en": "Silken Voodoo Drape", "slot": "back", "shaman_equippable": true, "live_spec_262": true, "live_spec_264": true, "current_remaining_R_status": "candidate_not_verified_in_R_preview", "source": "live_h7_loot"},
+        {"id": 270169, "name_en": "Hex Lord's Dooming Idol", "slot": "trinket", "shaman_equippable": true, "live_spec_262": "unknown", "live_spec_264": "unknown", "static_addon_shaman_specs": [262, 264], "current_remaining_R_status": "unknown", "source": "live_item_270169", "limitation": "Both retrieved live NPC/item objects omit specs and no specialization icon list was present. The addon static table is corroboration only, not an observed EJ filter result."},
+        {"id": 268209, "name_en": "Aman'muso, Warlord's Vengeance", "slot": "one_hand_axe", "shaman_equippable": true, "live_spec_262": false, "live_spec_264": false, "live_spec_263": true, "current_remaining_R_status": "not_an_elemental_or_restoration_candidate_from_live_spec_data", "source": "live_h7_loot"}
+      ],
+      "confirmed_prior_roll_exclusions": [],
+      "identified_equipment_candidates": {"elemental": [268231, 268237, 268253], "restoration": [268231, 268237, 268253], "unresolved_extra_candidate": [270169]},
+      "restoration_reduces_pool": "not_demonstrated",
+      "shoulder_is_tier_token": false,
+      "pool_completeness": "partial",
+      "remaining_n": "unknown",
+      "shoulder_probability": "unknown",
+      "one_in_four_claim": "Not established. It requires confirming all four actual R outcomes and their weights; never having rolled only resolves prior R exclusions."
+    },
+    "H10": {
+      "boss_name_cn": "基希克斯",
+      "boss_name_en": "Kith'ix",
+      "journal_encounter_id": 3513,
+      "ordinary_gear_ids": [280617, 280799, 280835, 281029, 281056, 281215, 281235, 281236, 281238, 281239],
+      "ordinary_source": "live_h10_loot",
+      "ordinary_table_contains_tier_token": false,
+      "relevant_items": [
+        {"id": 281238, "name_en": "Aberrant Commander's Gauntlets", "slot": "mail_hands", "shaman_equippable": true, "live_spec_262": true, "live_spec_264": true, "current_remaining_R_status": "unknown", "source": "live_h10_loot"},
+        {"id": 281029, "name_en": "Band of the Swarmcaller", "slot": "finger", "shaman_equippable": true, "live_spec_262": "unknown", "live_spec_264": "unknown", "current_remaining_R_status": "unknown", "source": "live_item_281029", "limitation": "Retrieved live item/NPC objects omit specs; wearability and current ownership do not establish R inclusion or exclusion."},
+        {"id": 280835, "name_en": "Sigil of the Impending Eclipse", "slot": "trinket", "shaman_equippable": true, "live_spec_262": true, "live_spec_264": true, "visible_item_spec_icons_include": [262, 264], "static_addon_shaman_specs": [264], "current_remaining_R_status": "unknown", "source": "live_item_280835", "limitation": "Direct live item HTML supports both specs, conflicting with the addon's static healer-only mapping. This was not a character R-preview test."},
+        {"id": 281215, "name_cn": "扭曲恐兽触须", "name_en": "Twisted Horror's Tendril", "slot": "trinket", "shaman_equippable": true, "live_spec_262": true, "live_spec_264": true, "static_addon_shaman_specs": [262, 263], "current_remaining_R_status": "unknown", "source": "live_item_281215", "limitation": "Both specs occur in the embedded live specs array, but the visible page has no individual specialization icon list. Static addon mapping instead excludes Restoration. Treat actual R eligibility as unresolved."},
+        {"id": 280617, "name_en": "Lightbearer's Shield Fragment", "slot": "trinket_not_shield", "shaman_equippable": true, "live_spec_262": false, "live_spec_264": false, "live_spec_263": true, "current_remaining_R_status": "not_an_elemental_or_restoration_candidate_from_live_spec_data", "source": "live_h10_loot"}
+      ],
+      "identified_equipment_candidates_from_live_spec_fields": {"elemental": [281238, 280835, 281215], "restoration": [281238, 280835, 281215], "unresolved_extra_candidate": [281029]},
+      "confirmed_prior_roll_exclusions": null,
+      "current_week_eligibility": "unavailable_already_used_as_reported",
+      "earliest_next_reset_date": "2026-10-29",
+      "restoration_reduces_pool": "unknown",
+      "recommendation": "Do not switch to Restoration on the assumption that it preserves tendril while eliminating another trinket. Neither a complete actual pool nor that comparison is verified.",
+      "pool_completeness": "partial_with_conflicting_supporting_data",
+      "remaining_n": "unknown",
+      "tendril_probability": "unknown"
+    }
+  },
+  "evidence_sources": {
+    "official_s2_notes": {"url": "https://worldofwarcraft.blizzard.com/en-gb/news/24293281", "type": "official_current_season", "evidence": "Curse of Ula'tek notes reduce raid roll cost from two to one and retain Great Vault-equivalent reward scaling."},
+    "official_raid_eligibility_update": {"url": "https://us.forums.blizzard.com/en/wow/t/raid-bonus-roll-update/2341990", "type": "official_current_season_blue_post", "published_at": "2026-08-28", "evidence": "Kaivax limits R use to encounters where the player is eligible for loot; repeat kills after a weekly difficulty lockout provide no roll opportunity."},
+    "official_knockout_baseline": {"url": "https://worldofwarcraft.blizzard.com/en-us/news/24271858", "type": "official_season_1_baseline", "evidence": "Power Up With the Voidforge defines loot-specialization selection and removal after R acquisition per difficulty, until all eligible items have been obtained.", "limitation": "Historical baseline, not a new Season 2 token-specific statement. Search-service indexed official text was available; direct official-page open returned 403."},
+    "official_character_record": {"url": "https://eu.forums.blizzard.com/en/wow/t/bonus-rolls-%E2%80%93-what-happened-and-next-steps/617132", "type": "official_season_1_baseline_blue_post", "published_at": "2026-04-23", "evidence": "Kaivax explains that R acquisitions are checked off a list tied to the character. This supports character-based history rather than ownership-based exclusions."},
+    "official_1215_notes": {"url": "https://news.blizzard.com/en-us/article/24304162/12-1-5-content-update-notes", "type": "official_current_patch", "evidence": "Current patch continues the Season 2 Voidcore system and adds an additional weekly source; it does not provide item-by-item token or specialization pools."},
+    "current_s2_guide": {"url": "https://www.icy-veins.com/wow/voidforge-bonus-rolls-guide/", "type": "secondary_current_season_corroboration", "page_last_updated_display": "2026-10-06", "changelog_patch_update_display": "2026-10-10", "evidence": "Season 2 guide describes removing bonus-roll acquisitions from future rolls of the same difficulty and the reward window's available-loot preview.", "limitation": "Used to corroborate continuity, not to certify specific item membership or probabilities."},
+    "live_h3_loot": {"urls": ["https://www.wowhead.com/object=673637", "https://www.wowhead.com/npc=267077"], "type": "live_database_direct_data", "evidence": "Read ordinary contains/drops Listview data. Shield, mace, boots and bag specs include both 262 and 264; the ordinary table also contains the four shoulder tokens.", "heroic_difficulty_id_observed": 15, "limitation": "Ordinary loot data, not a character R pool. NPC placeholder negative counts are not observed drop rates."},
+    "live_h7_loot": {"url": "https://www.wowhead.com/npc=259854", "type": "live_database_direct_data", "evidence": "Heroic drops rows contain 268231, 268237, 268253 with both specs. 270169 omits specs. One-hand axe 268209 lists Enhancement rather than Elemental/Restoration.", "heroic_difficulty_id_observed": 15},
+    "live_h10_loot": {"url": "https://www.wowhead.com/npc=267861", "type": "live_database_direct_data", "evidence": "Read Heroic drops rows for all ten equipment items. Gloves and both caster/general trinkets include both specs; the ring omits specs. The tank-named trinket omits 262/264.", "heroic_difficulty_id_observed": 15},
+    "live_item_268196": {"url": "https://www.wowhead.com/item=268196", "type": "live_item_direct_data", "observed_shaman_spec_ids": [262, 264], "visible_specialization_icons_verified": true},
+    "live_item_268210": {"url": "https://www.wowhead.com/item=268210", "type": "live_item_direct_data", "observed_shaman_spec_ids": [262, 264], "visible_specialization_icons_verified": true},
+    "live_item_268258": {"url": "https://www.wowhead.com/item=268258", "type": "live_item_direct_data", "observed_shaman_spec_ids": [262, 263, 264], "visible_specialization_icons_verified": true},
+    "live_item_270164": {"url": "https://www.wowhead.com/item=270164", "type": "live_item_direct_data", "observed_shaman_spec_ids": [262, 263, 264], "visible_individual_specialization_icons_present": false},
+    "live_token_270924": {"urls": ["https://www.wowhead.com/item=270924", "https://nether.wowhead.com/tooltip/item/270924?dataEnv=1&locale=0"], "type": "live_item_and_tooltip_direct_data", "evidence": "Venomcast Remnant is restricted to Hunter, Shaman and Evoker and creates a class set shoulder. Retrieved class mask is 4164. No token-specific R flag was established."},
+    "live_item_268231": {"url": "https://www.wowhead.com/item=268231", "type": "live_item_direct_data", "observed_shaman_spec_ids": [262, 263, 264], "visible_specialization_icons_verified": true},
+    "live_item_270169": {"url": "https://www.wowhead.com/item=270169", "type": "live_item_direct_data", "specs_field": "absent", "visible_individual_specialization_icons_present": false},
+    "live_item_281029": {"url": "https://www.wowhead.com/item=281029", "type": "live_item_direct_data", "specs_field": "absent", "visible_individual_specialization_icons_present": false},
+    "live_item_280835": {"url": "https://www.wowhead.com/item=280835", "type": "live_item_direct_data", "observed_shaman_spec_ids": [262, 264], "visible_specialization_icons_verified": true},
+    "live_item_281215": {"url": "https://www.wowhead.com/item=281215", "type": "live_item_direct_data", "observed_shaman_spec_ids": [262, 263, 264], "visible_individual_specialization_icons_present": false},
+    "journal_context": {"urls": ["https://www.wowhead.com/npc=267861/kithix/heroic-encounter-journal", "https://www.wowhead.com/guide/midnight/raids/venomous-abyss-lost-explorers-boss-strategy-abilities", "https://www.wowhead.com/guide/midnight/raids/venomous-abyss-coiled-altar-boss-strategy-abilities", "https://www.wowhead.com/guide/midnight/raids/the-unbinding-of-kithix-boss-strategy-abilities-rewards"], "type": "identity_and_ordinary_table_support", "evidence": "Names, normal equipment/token lists and Kith'ix's lack of tier drops are consistent with direct loot rows.", "limitation": "No filtered in-game EJ query was executed. Guide reward sections and an encounter's mechanics Journal do not establish actual R membership."},
+    "static_addon_not_accepted_as_actual_pool": {"urls": ["https://raw.githubusercontent.com/cptlemons/SpecLoot/main/SpecLoot/Data.lua", "https://raw.githubusercontent.com/cptlemons/SpecLoot/main/SpecLoot/Scraper.lua"], "type": "community_static_mapping_and_query_implementation", "evidence": "Static Data.lua lists 270169 for 262/264, 280835 only for 264 and 281215 for 262/263. Its Kith'ix manifest lists only three trinkets, omitting gloves/ring/weapons. Encounter IDs are 2894, 2883 and 3513.", "limitation": "Scraper code can run EJ_SetLootFilter and read GetLootInfoByIndex, but reading that code is not executing it or observing its output. Conflicting static class maps are not first-hand live Journal filter results."}
+  },
+  "unresolved": [
+    "Current character-specific R previews for Heroic Lost Explorers, Coiled Altar and Kith'ix, separately for 262 and 264.",
+    "Any H3 bonus-roll results other than the explicitly confirmed bag, and whether the H3 pool has ever exhausted/reset.",
+    "H10 bonus-roll history; do not infer it from equipped H10 gear.",
+    "H3 class shoulder-token R eligibility, including whether the reward is represented as a token or a class set item.",
+    "Live filtered EJ/R evidence for H7 270169 and H10 281029, and resolution of the H10 trinket mapping conflict.",
+    "Actual reward weights and this week's encounter/difficulty eligibility."
+  ],
+  "tool_call_brief": {
+    "time": "2026-10-23T17:18:34+08:00",
+    "mcp_service": "Search Service web_run",
+    "purpose": "Find current official rules and relevant live loot sources.",
+    "inputs": "Only H3/H7/H10, their identified item IDs, Voidforge knockout/spec rules and raid eligibility.",
+    "query_batch_max": 4,
+    "local_tools": "Read-only PowerShell/Python retrieval and JSON extraction; apply_patch writes this file only.",
+    "source_domains": ["worldofwarcraft.blizzard.com", "news.blizzard.com", "us.forums.blizzard.com", "eu.forums.blizzard.com", "wowhead.com", "nether.wowhead.com", "icy-veins.com", "github.com", "raw.githubusercontent.com"],
+    "fallbacks": "Some search-service opens returned 403, a JavaScript challenge, or an inaccessible JSON endpoint. Used the official Blizzard News mirror where available and directly retrieved public HTML/tooltip data for targeted fields.",
+    "retry_and_backoff": "No automatic retry loop or backoff. Follow-up reads targeted missing source/spec fields and conflicting H10 mappings; no simulation or broad repeated crawling.",
+    "sensitive_data": "None collected or recorded."
+  }
+}

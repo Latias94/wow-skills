@@ -1,0 +1,329 @@
+{
+  "checked_at": "2026-10-23T17:23:54+08:00",
+  "baseline": "Each batch declares its current or final-target baseline. Chosen-mode talents, race, buffs and consumables are controlled within each batch.",
+  "batches": [
+    {
+      "key": "followup-raid",
+      "mode": "raid",
+      "baseline": 222998.99286120402,
+      "baseline_stderr": 95.2929969995936,
+      "context": "prepared current gear and its crit flask",
+      "targets": 1,
+      "seconds": 240.0,
+      "model": "Patchwerk",
+      "valid_fight_style": true,
+      "requested_iterations": 6000,
+      "seed": 36102026,
+      "results": [
+        {
+          "name": "Shoulder_HM",
+          "label": "331普通制造肩：急速精通，保留现有头胸手腿四件",
+          "mean": 223700.21596640893,
+          "gain_percent": 0.3144512431234814,
+          "error95": 187.18952584994258,
+          "difference_error95": 264.4325018992213
+        },
+        {
+          "name": "H10_tendril",
+          "label": "H10触须334替现有321毒液，保留无底袋",
+          "mean": 225540.1430133736,
+          "gain_percent": 1.1395343627184973,
+          "error95": 178.3240004596578,
+          "difference_error95": 258.2326056343222
+        },
+        {
+          "name": "Shoulder_CH",
+          "label": "331普通制造肩：暴击急速，保留现有头胸手腿四件",
+          "mean": 224727.4710485806,
+          "gain_percent": 0.7751058268018252,
+          "error95": 185.59686148451902,
+          "difference_error95": 263.3074713441666
+        },
+        {
+          "name": "Shoulder_CM",
+          "label": "331普通制造肩：暴击精通，保留现有头胸手腿四件",
+          "mean": 223780.77304736085,
+          "gain_percent": 0.35057565782075084,
+          "error95": 185.2047671285057,
+          "difference_error95": 263.03124384734105
+        },
+        {
+          "name": "H3_complete",
+          "label": "H3盾334＋已有匕首升334＋腕披双奥纹",
+          "mean": 226540.41582227862,
+          "gain_percent": 1.5880892176400208,
+          "error95": 188.52508397869326,
+          "difference_error95": 265.37960879074467
+        },
+        {
+          "name": "Craft_shield_complete",
+          "label": "331普通制造盾＋已有匕首升334＋腕披双奥纹",
+          "mean": 226145.42437865262,
+          "gain_percent": 1.4109622097741692,
+          "error95": 187.8141447225393,
+          "difference_error95": 264.8750317236683
+        },
+        {
+          "name": "Shoulder_H7",
+          "label": "H7神话334游魂护肩化生；需获取",
+          "mean": 223652.6418082899,
+          "gain_percent": 0.29311744358087033,
+          "error95": 183.31541325476567,
+          "difference_error95": 261.70435649702296
+        },
+        {
+          "name": "H3_owned_dagger",
+          "label": "H3盾334＋背包已有匕首331，不迁移第二美化",
+          "mean": 223535.42960849128,
+          "gain_percent": 0.24055568162191232,
+          "error95": 183.50478642783406,
+          "difference_error95": 261.83704114330413
+        },
+        {
+          "name": "H3_dagger334",
+          "label": "H3盾334＋已有匕首升334，不迁移第二美化",
+          "mean": 224626.04275374458,
+          "gain_percent": 0.7296220810975695,
+          "error95": 185.6990778889393,
+          "difference_error95": 263.37953033893444
+        },
+        {
+          "name": "H3_H10_complete",
+          "label": "H3与H10两目标均获取＋334匕首＋双奥纹",
+          "mean": 229423.05063828637,
+          "gain_percent": 2.880756408205265,
+          "error95": 187.81403682407463,
+          "difference_error95": 264.87495521643837
+        },
+        {
+          "name": "Shoulder_CH_H10",
+          "label": "331暴击急速普通制造肩＋H10触须334",
+          "mean": 227348.29800673178,
+          "gain_percent": 1.950369860295642,
+          "error95": 179.55734053771454,
+          "difference_error95": 259.08583136430315
+        }
+      ]
+    },
+    {
+      "key": "followup-dungeon",
+      "mode": "dungeon",
+      "baseline": 672836.8343956887,
+      "baseline_stderr": 559.5318253521289,
+      "context": "prepared current gear and its crit flask",
+      "targets": 5,
+      "seconds": 90.0,
+      "model": "Patchwerk",
+      "valid_fight_style": true,
+      "requested_iterations": 6000,
+      "seed": 36102026,
+      "results": [
+        {
+          "name": "Shoulder_HM",
+          "label": "331普通制造肩：急速精通，保留现有头胸手腿四件",
+          "mean": 676684.5102641245,
+          "gain_percent": 0.5718586842665241,
+          "error95": 1089.197243415404,
+          "difference_error95": 1545.6593649960153
+        },
+        {
+          "name": "H10_tendril",
+          "label": "H10触须334替现有321毒液，保留无底袋",
+          "mean": 687042.1537744314,
+          "gain_percent": 2.111257685751,
+          "error95": 1137.2771995274002,
+          "difference_error95": 1579.908752460425
+        },
+        {
+          "name": "Shoulder_CH",
+          "label": "331普通制造肩：暴击急速，保留现有头胸手腿四件",
+          "mean": 679109.091327136,
+          "gain_percent": 0.9322106951948905,
+          "error95": 1117.0112093369605,
+          "difference_error95": 1565.3837482612976
+        },
+        {
+          "name": "Shoulder_CM",
+          "label": "331普通制造肩：暴击精通，保留现有头胸手腿四件",
+          "mean": 675862.7259804279,
+          "gain_percent": 0.44972145252080153,
+          "error95": 1106.4277215692673,
+          "difference_error95": 1557.849331801099
+        },
+        {
+          "name": "H3_complete",
+          "label": "H3盾334＋已有匕首升334＋腕披双奥纹",
+          "mean": 682487.0658821354,
+          "gain_percent": 1.434260283195421,
+          "error95": 1109.7777558291536,
+          "difference_error95": 1560.2304012130269
+        },
+        {
+          "name": "Craft_shield_complete",
+          "label": "331普通制造盾＋已有匕首升334＋腕披双奥纹",
+          "mean": 681836.5852480598,
+          "gain_percent": 1.337582961024153,
+          "error95": 1124.6291172027018,
+          "difference_error95": 1570.8287267542248
+        },
+        {
+          "name": "Shoulder_H7",
+          "label": "H7神话334游魂护肩化生；需获取",
+          "mean": 674441.1287482772,
+          "gain_percent": 0.23843735517681264,
+          "error95": 1107.2339680022867,
+          "difference_error95": 1558.4220536922144
+        },
+        {
+          "name": "H3_owned_dagger",
+          "label": "H3盾334＋背包已有匕首331，不迁移第二美化",
+          "mean": 673709.0383770189,
+          "gain_percent": 0.12963083124208907,
+          "error95": 1117.6068080440477,
+          "difference_error95": 1565.8088053535066
+        },
+        {
+          "name": "H3_dagger334",
+          "label": "H3盾334＋已有匕首升334，不迁移第二美化",
+          "mean": 677606.3976777045,
+          "gain_percent": 0.7088736879721447,
+          "error95": 1101.4934513971023,
+          "difference_error95": 1554.348757842612
+        },
+        {
+          "name": "H3_H10_complete",
+          "label": "H3与H10两目标均获取＋334匕首＋双奥纹",
+          "mean": 697781.0184732737,
+          "gain_percent": 3.7073154741875447,
+          "error95": 1145.7523580987806,
+          "difference_error95": 1586.0203982373894
+        },
+        {
+          "name": "Shoulder_CH_H10",
+          "label": "331暴击急速普通制造肩＋H10触须334",
+          "mean": 693103.7460377344,
+          "gain_percent": 3.01215846190237,
+          "error95": 1142.1235044810712,
+          "difference_error95": 1583.4008769178745
+        }
+      ]
+    },
+    {
+      "key": "followup-target-raid",
+      "mode": "raid",
+      "baseline": 234097.217235222,
+      "baseline_stderr": 94.76790032516755,
+      "context": "recommended target gear and its haste flask",
+      "targets": 1,
+      "seconds": 240.0,
+      "model": "Patchwerk",
+      "valid_fight_style": true,
+      "requested_iterations": 6000,
+      "seed": 37102026,
+      "results": [
+        {
+          "name": "Shoulder_HM",
+          "label": "成型套装改331普通制造肩急速精通，保留头胸手腿四件",
+          "mean": 233792.75056601875,
+          "gain_percent": -0.1300599267257896,
+          "error95": 183.52681607727894,
+          "difference_error95": 261.1193763135774
+        },
+        {
+          "name": "Shoulder_CH",
+          "label": "成型套装改331普通制造肩暴击急速，保留头胸手腿四件",
+          "mean": 233489.00023320317,
+          "gain_percent": -0.25981385392022105,
+          "error95": 180.8997065727111,
+          "difference_error95": 259.2796565583603
+        },
+        {
+          "name": "Shoulder_CM",
+          "label": "成型套装改331普通制造肩暴击精通，保留头胸手腿四件",
+          "mean": 233891.00379618118,
+          "gain_percent": -0.08808880407733533,
+          "error95": 180.7006530697059,
+          "difference_error95": 259.14081594134586
+        },
+        {
+          "name": "Keep_321",
+          "label": "成型套装暂用已有321肩，其余配置不变",
+          "mean": 232831.15387089545,
+          "gain_percent": -0.5408280283205613,
+          "error95": 181.5052708770657,
+          "difference_error95": 259.7025217880744
+        },
+        {
+          "name": "Other_334",
+          "label": "另获现有同来源272252神话334肩并化生",
+          "mean": 234172.7575247942,
+          "gain_percent": 0.03226876870403572,
+          "error95": 181.71355679640843,
+          "difference_error95": 259.84813486059477
+        }
+      ]
+    },
+    {
+      "key": "followup-target-dungeon",
+      "mode": "dungeon",
+      "baseline": 711013.4064450779,
+      "baseline_stderr": 560.4120223445543,
+      "context": "recommended target gear and its haste flask",
+      "targets": 5,
+      "seconds": 90.0,
+      "model": "Patchwerk",
+      "valid_fight_style": true,
+      "requested_iterations": 6000,
+      "seed": 37102026,
+      "results": [
+        {
+          "name": "Shoulder_HM",
+          "label": "成型套装改331普通制造肩急速精通，保留头胸手腿四件",
+          "mean": 709864.4219416229,
+          "gain_percent": -0.16159814892938718,
+          "error95": 1116.3414471511128,
+          "difference_error95": 1566.1153861801579
+        },
+        {
+          "name": "Shoulder_CH",
+          "label": "成型套装改331普通制造肩暴击急速，保留头胸手腿四件",
+          "mean": 711645.4344947394,
+          "gain_percent": 0.08889115787866775,
+          "error95": 1120.023309945861,
+          "difference_error95": 1568.741977198566
+        },
+        {
+          "name": "Shoulder_CM",
+          "label": "成型套装改331普通制造肩暴击精通，保留头胸手腿四件",
+          "mean": 711715.7023623014,
+          "gain_percent": 0.09877393462029982,
+          "error95": 1116.9386537607727,
+          "difference_error95": 1566.54113653862
+        },
+        {
+          "name": "Keep_321",
+          "label": "成型套装暂用已有321肩，其余配置不变",
+          "mean": 707681.8620677365,
+          "gain_percent": -0.468562807275108,
+          "error95": 1106.443237653055,
+          "difference_error95": 1559.0753074662425
+        },
+        {
+          "name": "Other_334",
+          "label": "另获现有同来源272252神话334肩并化生",
+          "mean": 712263.1549990989,
+          "gain_percent": 0.17577004071829272,
+          "error95": 1127.302653207779,
+          "difference_error95": 1573.947409582697
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Candidate acquisition is hypothetical, not a guaranteed bonus-roll result or spending event.",
+    "H3 dagger334 requires normal upgrade costs and two-lining conversion requires a complete craft plan.",
+    "Plain crafted shoulder331 replaces the fifth tier piece; current head/chest/hands/legs remain four-piece.",
+    "Dungeon reference is supported fixed-five-target90s Patchwerk, with unverified split-AOE effects and target-switching limitations.",
+    "Difference intervals use an independence approximation and do not correct multiple comparisons."
+  ]
+}

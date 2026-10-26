@@ -1,0 +1,3399 @@
+{
+  "checked_at": "2026-10-23T21:40:43+08:00",
+  "simc_revision": "73a372b761",
+  "meta": {
+    "date": "2026-10-23",
+    "patch": "12.1.5 第二周",
+    "character": "正极兔 · 元素萨 · CN阿古斯",
+    "engine_commit": "73a372b761",
+    "wow_version": "12.1.5.70529 Live",
+    "hotfix_date": "引擎10月22日；晋升装等按10月23日截图",
+    "budget": null,
+    "budget_note": "09:57导出为2枚；后续确认H10本周已R，但发生时间与导出先后未知。当前余额待确认，不重复扣币。本周H10不可再安排；H3为首选，大暴击戒为条件次选，不据未知余额分配总次数。",
+    "average_ilevel": 331.4375,
+    "catalyst_charges": 7,
+    "empty_sockets": "仅虫群戒一个已确认空孔；腕／腰tooltip无孔",
+    "armor_upgrade_track": "肩321英雄6/6，不能纹章升神话；背包匕首331神话5/6可正常升334，具体成本看预览",
+    "upgrade_materials": "晋升毒液石7，差3枚；潮汐火花2。341/337为旧DBC显式覆盖，尚未消费。",
+    "scope": "元素先知；大米当前天赋、团本保存单体天赋。个人模拟＋高手聚合分布，非完整WCL操作复盘。",
+    "snapshot": {
+      "角色": "黑铁矮人元素萨，当前先知；原始导出09:57",
+      "当前装等": 331.4375,
+      "套装": "五件：头胸手腿334＋肩321；四件效果已满足",
+      "美化": "法杖仪式石13771＋护腕奥纹12384；披风钥匙链12715未计作输出美化",
+      "资源": "09:57为R币2／毒液石7／火花2／化生7；H10本周已R但时间／结果未知，当前R币余额待确认；H3已R袋、H7未R",
+      "已拥有的关键背包物品": "331神话5/6简斯拉泽、321风暴庇护，不能视为未获得",
+      "当前属性（非未来目标）": "暴击24.9%（916等级）／急速17.0%（600等级）／精通72.8%（1281等级）／全能1.9%（101等级）；关闭消耗品及外部团队增益，保留角色被动"
+    }
+  },
+  "profiles": {
+    "raid": {
+      "raw": "# Zhengjitu 2026-10-23; hypothetical targets are not acquisitions.\nptr=0\nshaman=\"正极兔\"\nlevel=90\nrace=dark_iron_dwarf\nregion=cn\nserver=阿古斯\nrole=spell\nprofessions=alchemy=100/engineering=98\nspec=elemental\nomnium_talents=136814:1/136818:1/136817:1/136816:1/136822:1\ntalents=CYQALMl7AwW51MWzGneuHE3tPCAAAAzMbLzMmZmZZbZgZMAAAAgFzstZmZYzwCz2MjBzsAA2mZmxMbLzYjZGsMzMzYGsMjFzMjZWGAwMAzMzMGGGA\nhead=,id=271483,gem_id=240906,bonus_id=13334/6652/13695/13692/13698/12854,redirected_base_stats=268230,enchant_id=8017\nneck=,id=268265,gem_id=240983/240890,bonus_id=6652/13668/13334/13987/12854\nshoulder=,id=271481,ilevel=334,redirected_base_stats=268231,enchant_id=8001\nback=,id=239656,ilevel=331,crafted_stats=32/36,crafting_quality=5,bonus_id=12384\nchest=,id=271486,enchant_id=7987,bonus_id=13334/6652/13846/13690/13698/12854,redirected_base_stats=271876\nwrist=,id=244584,ilevel=331,crafted_stats=32/36,crafting_quality=5,bonus_id=12384\nhands=,id=271484,bonus_id=13334/6652/14049/13691/13697/12854,redirected_base_stats=281238\nwaist=,id=244581,ilevel=331,crafted_stats=32/36,crafting_quality=5\nlegs=,id=271482,enchant_id=7935,bonus_id=13334/40/13693/13698/12854,redirected_base_stats=268237\nfeet=,id=268258,enchant_id=7963,bonus_id=6652/13662/13334/12854\nfinger1=,id=268252,ilevel=334,enchant_id=7967,gem_id=240906\nfinger2=,id=281029,bonus_id=6652/13668/13334/12854,enchant_id=7967,gem_id=240906\ntrinket1=,id=273796,ilevel=334\ntrinket2=,id=281215,ilevel=334\nmain_hand=,id=271092,ilevel=334,enchant_id=8689\noff_hand=,id=268196,ilevel=334\nflask=flask_of_the_blood_knights_2\nfood=harandar_celebration\npotion=lights_potential_2\naugmentation=void_touched\ntemporary_enchant=main_hand:thalassian_phoenix_oil_2,if=!talent.flametongue_weapon\noptimal_raid=1\noverride.bloodlust=1\nfight_style=Patchwerk\ndesired_targets=1\nmax_time=240\nvary_combat_length=0\nthreads=12\nprofileset_work_threads=2\niterations=6000\nseed=33102026\n",
+      "gear": [
+        {
+          "slot": "head",
+          "id": 271483,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐；化生前驱ID 268230，与普通套装属性不同",
+          "source": "未核实",
+          "bonus_id": "13334/6652/13695/13692/13698/12854",
+          "gem_id": "240906",
+          "enchant_id": "8017",
+          "crafted_stats": null,
+          "redirected_base_stats": "268230",
+          "content_tuning": null
+        },
+        {
+          "slot": "neck",
+          "id": 268265,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "掉落于: 乌拉特克",
+          "bonus_id": "6652/13668/13334/13987/12854",
+          "gem_id": "240983/240890",
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "shoulder",
+          "id": 271481,
+          "ilevel": 334,
+          "owned": false,
+          "status": "目标配置未拥有",
+          "note": "未来候选，未记录为获取；当前同名肩为英雄321，不能直接升神话334；需神话来源后化生；化生前驱ID 268231，与普通套装属性不同",
+          "source": "未核实",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": "8001",
+          "crafted_stats": null,
+          "redirected_base_stats": "268231",
+          "content_tuning": null
+        },
+        {
+          "slot": "back",
+          "id": 239656,
+          "ilevel": 331,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "专业制造／重造",
+          "bonus_id": "12384",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": "32/36",
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "chest",
+          "id": 271486,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐；化生前驱ID 271876，与普通套装属性不同",
+          "source": "掉落于: 乌拉特克",
+          "bonus_id": "13334/6652/13846/13690/13698/12854",
+          "gem_id": null,
+          "enchant_id": "7987",
+          "crafted_stats": null,
+          "redirected_base_stats": "271876",
+          "content_tuning": null
+        },
+        {
+          "slot": "wrist",
+          "id": 244584,
+          "ilevel": 331,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "专业制造／重造",
+          "bonus_id": "12384",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": "32/36",
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "hands",
+          "id": 271484,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐；化生前驱ID 281238，与普通套装属性不同",
+          "source": "掉落于: [Kith'ix]",
+          "bonus_id": "13334/6652/14049/13691/13697/12854",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": "281238",
+          "content_tuning": null
+        },
+        {
+          "slot": "waist",
+          "id": 244581,
+          "ilevel": 331,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "专业制造／重造",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": "32/36",
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "legs",
+          "id": 271482,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐；化生前驱ID 268237，与普通套装属性不同",
+          "source": "未核实",
+          "bonus_id": "13334/40/13693/13698/12854",
+          "gem_id": null,
+          "enchant_id": "7935",
+          "crafted_stats": null,
+          "redirected_base_stats": "268237",
+          "content_tuning": null
+        },
+        {
+          "slot": "feet",
+          "id": 268258,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "掉落于: 莫尔扎希",
+          "bonus_id": "6652/13662/13334/12854",
+          "gem_id": null,
+          "enchant_id": "7963",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "finger1",
+          "id": 268252,
+          "ilevel": 334,
+          "owned": false,
+          "status": "目标配置未拥有",
+          "note": "未来候选，未记录为获取",
+          "source": "掉落于: 斯索拉克",
+          "bonus_id": null,
+          "gem_id": "240906",
+          "enchant_id": "7967",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "finger2",
+          "id": 281029,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "掉落于: [Kith'ix]",
+          "bonus_id": "6652/13668/13334/12854",
+          "gem_id": "240906",
+          "enchant_id": "7967",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "trinket1",
+          "id": 273796,
+          "ilevel": 334,
+          "owned": false,
+          "status": "目标配置未拥有",
+          "note": "未来候选，未记录为获取",
+          "source": "掉落于: 拉维",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "trinket2",
+          "id": 281215,
+          "ilevel": 334,
+          "owned": false,
+          "status": "目标配置未拥有",
+          "note": "未来候选，未记录为获取",
+          "source": "掉落于: [Kith'ix]",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "main_hand",
+          "id": 271092,
+          "ilevel": 334,
+          "owned": true,
+          "status": "背包已有331，目标需升级",
+          "note": "已拥有神话5/6简斯拉泽331；目标334只需正常升级，不需重新获取，具体纹章费用看游戏预览",
+          "source": "掉落于: 乌拉特克",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": "8689",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "off_hand",
+          "id": 268196,
+          "ilevel": 334,
+          "owned": false,
+          "status": "目标配置未拥有",
+          "note": "未来候选，未记录为获取；盾牌方案不自动改成雷击结界天赋",
+          "source": "掉落于: 莫尔扎希",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        }
+      ],
+      "selected": "Tier_legs",
+      "selected_from": "final-raid",
+      "joint_selected": "Joint_268252_for_alch_VenomTendril_CH_Haste",
+      "family": "Set_back_wrist_craft_legs",
+      "arrangement": "制造暴击急速＋急速合剂；保留已有334套腿；顶级蛮兵爪戒／一瓶肮脏的烈性毒液／扭曲恐兽触须",
+      "stats": {
+        "crit_rating": 1101.0,
+        "haste_rating": 807.0,
+        "mastery_rating": 923.0,
+        "versatility_rating": 101.0
+      },
+      "stats_context": "已禁用合剂／食物／药水／符文／武器油及团队增益的模拟快照，保留角色被动；不是强制属性阈值。",
+      "consumables": {
+        "flask": "flask_of_the_blood_knights_2",
+        "food": "harandar_celebration",
+        "potion": "lights_potential_2",
+        "augmentation": "void_touched",
+        "temporary_enchant": "main_hand:thalassian_phoenix_oil_2,if=!talent.flametongue_weapon"
+      },
+      "note": "本次已测推荐：制造暴击急速＋急速合剂；保留已有334套腿；顶级蛮兵爪戒／一瓶肮脏的烈性毒液／扭曲恐兽触须。普通掉落334／制造331，强化另测；部分目标尚未拥有。团本固定导出保存的单体先知天赋，240秒单目标；其他Boss机制未逐场模拟。"
+    },
+    "dungeon": {
+      "raw": "# Zhengjitu 2026-10-23; hypothetical targets are not acquisitions.\nptr=0\nshaman=\"正极兔\"\nlevel=90\nrace=dark_iron_dwarf\nregion=cn\nserver=阿古斯\nrole=spell\nprofessions=alchemy=100/engineering=98\nspec=elemental\nomnium_talents=136814:1/136818:1/136817:1/136816:1/136822:1\ntalents=CYQALMl7AwW51MWzGneuHE3tPCAAAAzMbLzMGjZZbZMmhZAAAAgFzstZmZYzwCz2MTDNzCAMbzMzYstYajZGjlZMzYMLzyMzywYmZBAYGgZmZGDDD\nhead=,id=271483,gem_id=240906,bonus_id=13334/6652/13695/13692/13698/12854,redirected_base_stats=268230,enchant_id=8017\nneck=,id=268265,gem_id=240983/240890,bonus_id=6652/13668/13334/13987/12854\nshoulder=,id=271481,ilevel=334,redirected_base_stats=268231,enchant_id=8001\nback=,id=239656,ilevel=331,crafted_stats=32/36,crafting_quality=5,bonus_id=12384\nchest=,id=271486,enchant_id=7987,bonus_id=13334/6652/13846/13690/13698/12854,redirected_base_stats=271876\nwrist=,id=244584,ilevel=331,crafted_stats=32/36,crafting_quality=5,bonus_id=12384\nhands=,id=271484,bonus_id=13334/6652/14049/13691/13697/12854,redirected_base_stats=281238\nwaist=,id=244581,ilevel=331,crafted_stats=32/36,crafting_quality=5\nlegs=,id=271482,enchant_id=7935,bonus_id=13334/40/13693/13698/12854,redirected_base_stats=268237\nfeet=,id=268258,enchant_id=7963,bonus_id=6652/13662/13334/12854\nfinger1=,id=251136,ilevel=334,enchant_id=7967,gem_id=240906\nfinger2=,id=281029,bonus_id=6652/13668/13334/12854,enchant_id=7967,gem_id=240906\ntrinket1=,id=273796,ilevel=334\ntrinket2=,id=281215,ilevel=334\nmain_hand=,id=271092,ilevel=334,enchant_id=8689\noff_hand=,id=268196,ilevel=334\nflask=flask_of_the_blood_knights_2\nfood=harandar_celebration\npotion=lights_potential_2\naugmentation=void_touched\ntemporary_enchant=main_hand:thalassian_phoenix_oil_2,if=!talent.flametongue_weapon\noptimal_raid=0\noverride.bloodlust=0\nfight_style=Patchwerk\ndesired_targets=5\nmax_time=90\nvary_combat_length=0\nthreads=12\nprofileset_work_threads=2\niterations=6000\nseed=33102026\n",
+      "gear": [
+        {
+          "slot": "head",
+          "id": 271483,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐；化生前驱ID 268230，与普通套装属性不同",
+          "source": "未核实",
+          "bonus_id": "13334/6652/13695/13692/13698/12854",
+          "gem_id": "240906",
+          "enchant_id": "8017",
+          "crafted_stats": null,
+          "redirected_base_stats": "268230",
+          "content_tuning": null
+        },
+        {
+          "slot": "neck",
+          "id": 268265,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "掉落于: 乌拉特克",
+          "bonus_id": "6652/13668/13334/13987/12854",
+          "gem_id": "240983/240890",
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "shoulder",
+          "id": 271481,
+          "ilevel": 334,
+          "owned": false,
+          "status": "目标配置未拥有",
+          "note": "未来候选，未记录为获取；当前同名肩为英雄321，不能直接升神话334；需神话来源后化生；化生前驱ID 268231，与普通套装属性不同",
+          "source": "未核实",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": "8001",
+          "crafted_stats": null,
+          "redirected_base_stats": "268231",
+          "content_tuning": null
+        },
+        {
+          "slot": "back",
+          "id": 239656,
+          "ilevel": 331,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "专业制造／重造",
+          "bonus_id": "12384",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": "32/36",
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "chest",
+          "id": 271486,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐；化生前驱ID 271876，与普通套装属性不同",
+          "source": "掉落于: 乌拉特克",
+          "bonus_id": "13334/6652/13846/13690/13698/12854",
+          "gem_id": null,
+          "enchant_id": "7987",
+          "crafted_stats": null,
+          "redirected_base_stats": "271876",
+          "content_tuning": null
+        },
+        {
+          "slot": "wrist",
+          "id": 244584,
+          "ilevel": 331,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "专业制造／重造",
+          "bonus_id": "12384",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": "32/36",
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "hands",
+          "id": 271484,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐；化生前驱ID 281238，与普通套装属性不同",
+          "source": "掉落于: [Kith'ix]",
+          "bonus_id": "13334/6652/14049/13691/13697/12854",
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": "281238",
+          "content_tuning": null
+        },
+        {
+          "slot": "waist",
+          "id": 244581,
+          "ilevel": 331,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "专业制造／重造",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": "32/36",
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "legs",
+          "id": 271482,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐；化生前驱ID 268237，与普通套装属性不同",
+          "source": "未核实",
+          "bonus_id": "13334/40/13693/13698/12854",
+          "gem_id": null,
+          "enchant_id": "7935",
+          "crafted_stats": null,
+          "redirected_base_stats": "268237",
+          "content_tuning": null
+        },
+        {
+          "slot": "feet",
+          "id": 268258,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "掉落于: 莫尔扎希",
+          "bonus_id": "6652/13662/13334/12854",
+          "gem_id": null,
+          "enchant_id": "7963",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "finger1",
+          "id": 251136,
+          "ilevel": 334,
+          "owned": false,
+          "status": "目标配置未拥有",
+          "note": "未来候选，未记录为获取",
+          "source": "掉落于: 歼灭者萨祖克斯",
+          "bonus_id": null,
+          "gem_id": "240906",
+          "enchant_id": "7967",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "finger2",
+          "id": 281029,
+          "ilevel": 334,
+          "owned": true,
+          "status": "已拥有，可能需补齐",
+          "note": "当前已拥有；目标属性或宝石／附魔可能需要重造补齐",
+          "source": "掉落于: [Kith'ix]",
+          "bonus_id": "6652/13668/13334/12854",
+          "gem_id": "240906",
+          "enchant_id": "7967",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "trinket1",
+          "id": 273796,
+          "ilevel": 334,
+          "owned": false,
+          "status": "目标配置未拥有",
+          "note": "未来候选，未记录为获取",
+          "source": "掉落于: 拉维",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "trinket2",
+          "id": 281215,
+          "ilevel": 334,
+          "owned": false,
+          "status": "目标配置未拥有",
+          "note": "未来候选，未记录为获取",
+          "source": "掉落于: [Kith'ix]",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "main_hand",
+          "id": 271092,
+          "ilevel": 334,
+          "owned": true,
+          "status": "背包已有331，目标需升级",
+          "note": "已拥有神话5/6简斯拉泽331；目标334只需正常升级，不需重新获取，具体纹章费用看游戏预览",
+          "source": "掉落于: 乌拉特克",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": "8689",
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        },
+        {
+          "slot": "off_hand",
+          "id": 268196,
+          "ilevel": 334,
+          "owned": false,
+          "status": "目标配置未拥有",
+          "note": "未来候选，未记录为获取；盾牌方案不自动改成雷击结界天赋",
+          "source": "掉落于: 莫尔扎希",
+          "bonus_id": null,
+          "gem_id": null,
+          "enchant_id": null,
+          "crafted_stats": null,
+          "redirected_base_stats": null,
+          "content_tuning": null
+        }
+      ],
+      "selected": "Tier_legs",
+      "selected_from": "final-dungeon",
+      "joint_selected": "Joint_251136_for_alch_VenomTendril_CH_Haste",
+      "family": "Set_back_wrist_craft_legs",
+      "arrangement": "制造暴击急速＋急速合剂；保留已有334套腿；咆哮奴役玺戒／一瓶肮脏的烈性毒液／扭曲恐兽触须",
+      "stats": {
+        "crit_rating": 1012.0,
+        "haste_rating": 740.0,
+        "mastery_rating": 1079.0,
+        "versatility_rating": 101.0
+      },
+      "stats_context": "已禁用合剂／食物／药水／符文／武器油及团队增益的模拟快照，保留角色被动；不是强制属性阈值。",
+      "consumables": {
+        "flask": "flask_of_the_blood_knights_2",
+        "food": "harandar_celebration",
+        "potion": "lights_potential_2",
+        "augmentation": "void_touched",
+        "temporary_enchant": "main_hand:thalassian_phoenix_oil_2,if=!talent.flametongue_weapon"
+      },
+      "note": "本次已测推荐：制造暴击急速＋急速合剂；保留已有334套腿；咆哮奴役玺戒／一瓶肮脏的烈性毒液／扭曲恐兽触须。普通掉落334／制造331，强化另测；部分目标尚未拥有。固定当前先知天赋、5目标90秒；只作大米装备参考，非实际路线最佳解，暂不据此决定重造或花币。"
+    }
+  },
+  "runs": [
+    {
+      "key": "current-raid",
+      "mode": "raid",
+      "stage": "current",
+      "label": "原始装备：补齐与单件初筛",
+      "baseline": 217195.77809705108,
+      "stderr": 153.24144798845398,
+      "iterations": 2011,
+      "seed": 23102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Shoulder_334",
+          "label": "同来源神话肩334并化生；不是英雄321直接升轨道",
+          "mean": 218496.14988292582,
+          "error": 307.35305433925026,
+          "provisional": false
+        },
+        {
+          "name": "Prepared",
+          "label": "补头部附魔、虫群戒附魔与唯一现有空孔",
+          "mean": 223216.72749869453,
+          "error": 323.8727960770159,
+          "provisional": false
+        },
+        {
+          "name": "Tendril_for_bag",
+          "label": "334触须替334无底袋；保留321毒液",
+          "mean": 218576.58694785868,
+          "error": 296.93175892410295,
+          "provisional": true
+        },
+        {
+          "name": "Shoulder_raid",
+          "label": "334游魂护肩化生套肩，保留四件套",
+          "mean": 217778.3028359227,
+          "error": 312.73970653919486,
+          "provisional": false
+        },
+        {
+          "name": "Owned_dagger_shield",
+          "label": "背包331简斯拉泽＋321风暴庇护；不额外搬美化",
+          "mean": 212289.2141313067,
+          "error": 299.6168961319236,
+          "provisional": false
+        },
+        {
+          "name": "Venom_334",
+          "label": "另获神话毒液饰品334替英雄321毒液",
+          "mean": 218870.63007484676,
+          "error": 309.3896989875259,
+          "provisional": false
+        },
+        {
+          "name": "Tendril_for_venom",
+          "label": "334触须替321毒液；需要获取，目标节奏暂定",
+          "mean": 219855.86533190712,
+          "error": 301.3306323884133,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "current-dungeon",
+      "mode": "dungeon",
+      "stage": "current",
+      "label": "原始装备：补齐与单件初筛",
+      "baseline": 655974.2953988288,
+      "stderr": 938.1342956230152,
+      "iterations": 2011,
+      "seed": 23102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Shoulder_334",
+          "label": "同来源神话肩334并化生；不是英雄321直接升轨道",
+          "mean": 658847.8424899575,
+          "error": 1887.6970183263154,
+          "provisional": true
+        },
+        {
+          "name": "Prepared",
+          "label": "补头部附魔、虫群戒附魔与唯一现有空孔",
+          "mean": 671711.8680327196,
+          "error": 1931.0629722833962,
+          "provisional": true
+        },
+        {
+          "name": "Tendril_for_bag",
+          "label": "334触须替334无底袋；保留321毒液",
+          "mean": 669548.3635938878,
+          "error": 1844.139969550257,
+          "provisional": true
+        },
+        {
+          "name": "Shoulder_raid",
+          "label": "334游魂护肩化生套肩，保留四件套",
+          "mean": 659731.5716765965,
+          "error": 1825.8811887815461,
+          "provisional": true
+        },
+        {
+          "name": "Owned_dagger_shield",
+          "label": "背包331简斯拉泽＋321风暴庇护；不额外搬美化",
+          "mean": 643162.8778137878,
+          "error": 1821.9086656152638,
+          "provisional": true
+        },
+        {
+          "name": "Venom_334",
+          "label": "另获神话毒液饰品334替英雄321毒液",
+          "mean": 660044.9705726464,
+          "error": 1862.7534109605513,
+          "provisional": true
+        },
+        {
+          "name": "Tendril_for_venom",
+          "label": "334触须替321毒液；需要获取，目标节奏暂定",
+          "mean": 669180.4913148183,
+          "error": 1891.5515113145873,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "practical-raid",
+      "mode": "raid",
+      "stage": "practical",
+      "label": "当前装备：武器／制造完整组合",
+      "baseline": 222809.6446366149,
+      "stderr": 146.94143510058362,
+      "iterations": 2511,
+      "seed": 24102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Venom_334",
+          "label": "神话334毒液替英雄321",
+          "mean": 224442.01718007904,
+          "error": 291.33303258555634,
+          "provisional": false
+        },
+        {
+          "name": "Double_lining_dagger",
+          "label": "334匕首＋331普通盾；腕披双奥纹完整组合",
+          "mean": 226198.91784469548,
+          "error": 288.06787199015605,
+          "provisional": false
+        },
+        {
+          "name": "Owned_dagger_shield",
+          "label": "背包331简斯拉泽＋321盾；无制造重做",
+          "mean": 220876.73857967096,
+          "error": 282.71266531553835,
+          "provisional": false
+        },
+        {
+          "name": "Raw_current",
+          "label": "原始现装未补齐",
+          "mean": 217187.93654924067,
+          "error": 279.25097948538826,
+          "provisional": false
+        },
+        {
+          "name": "Dagger334_shield321",
+          "label": "背包神话匕首331升334＋现有321盾",
+          "mean": 221545.78167756065,
+          "error": 285.1802508192045,
+          "provisional": false
+        },
+        {
+          "name": "Dagger331_craftshield",
+          "label": "背包331匕首＋331普通制造盾CH",
+          "mean": 223189.61187801094,
+          "error": 284.91135050262784,
+          "provisional": false
+        },
+        {
+          "name": "Tendril_for_venom",
+          "label": "334触须替321毒液",
+          "mean": 225628.4521055627,
+          "error": 280.28031658099735,
+          "provisional": true
+        },
+        {
+          "name": "Dagger334_shield334",
+          "label": "334简斯拉泽＋另获334盾",
+          "mean": 224471.1774438221,
+          "error": 280.2758827799726,
+          "provisional": false
+        },
+        {
+          "name": "Loa_ring",
+          "label": "331洛阿制造戒替邪恶戒，保留虫群；武器去仪式石保持2美化",
+          "mean": 223872.5182867763,
+          "error": 280.3856255216979,
+          "provisional": false
+        },
+        {
+          "name": "Current_crafts_CH",
+          "label": "全部现有普通／美化制造改暴击急速，保留原美化",
+          "mean": 223913.4415762744,
+          "error": 285.08947314565785,
+          "provisional": false
+        },
+        {
+          "name": "Current_crafts_CM",
+          "label": "全部现有普通／美化制造改暴击精通，保留原美化",
+          "mean": 219585.36125307594,
+          "error": 289.7859589409982,
+          "provisional": false
+        },
+        {
+          "name": "Current_crafts_HM",
+          "label": "全部现有普通／美化制造改急速精通，保留原美化",
+          "mean": 218518.42514491358,
+          "error": 286.1872058176861,
+          "provisional": false
+        },
+        {
+          "name": "Double_lining_staff",
+          "label": "保留法杖：仪式石改为披风第二奥纹（替钥匙链）",
+          "mean": 222438.23750646212,
+          "error": 290.3241015253622,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "practical-dungeon",
+      "mode": "dungeon",
+      "stage": "practical",
+      "label": "当前装备：武器／制造完整组合",
+      "baseline": 672234.2485281235,
+      "stderr": 873.8566500613465,
+      "iterations": 2511,
+      "seed": 24102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Venom_334",
+          "label": "神话334毒液替英雄321",
+          "mean": 677517.3046395621,
+          "error": 1722.2480276792576,
+          "provisional": true
+        },
+        {
+          "name": "Double_lining_dagger",
+          "label": "334匕首＋331普通盾；腕披双奥纹完整组合",
+          "mean": 681999.554658212,
+          "error": 1714.1496385058122,
+          "provisional": true
+        },
+        {
+          "name": "Owned_dagger_shield",
+          "label": "背包331简斯拉泽＋321盾；无制造重做",
+          "mean": 665375.0922440538,
+          "error": 1701.5826087320602,
+          "provisional": true
+        },
+        {
+          "name": "Raw_current",
+          "label": "原始现装未补齐",
+          "mean": 653392.7523501425,
+          "error": 1677.4207459494467,
+          "provisional": true
+        },
+        {
+          "name": "Dagger334_shield321",
+          "label": "背包神话匕首331升334＋现有321盾",
+          "mean": 668568.1834161517,
+          "error": 1673.26329434886,
+          "provisional": true
+        },
+        {
+          "name": "Dagger331_craftshield",
+          "label": "背包331匕首＋331普通制造盾CH",
+          "mean": 674487.2093424506,
+          "error": 1700.699967596466,
+          "provisional": true
+        },
+        {
+          "name": "Tendril_for_venom",
+          "label": "334触须替321毒液",
+          "mean": 686000.9218872865,
+          "error": 1754.7329827916737,
+          "provisional": true
+        },
+        {
+          "name": "Dagger334_shield334",
+          "label": "334简斯拉泽＋另获334盾",
+          "mean": 676363.6029258851,
+          "error": 1699.0150000111953,
+          "provisional": true
+        },
+        {
+          "name": "Loa_ring",
+          "label": "331洛阿制造戒替邪恶戒，保留虫群；武器去仪式石保持2美化",
+          "mean": 674335.7004943688,
+          "error": 1728.8954626439963,
+          "provisional": true
+        },
+        {
+          "name": "Current_crafts_CH",
+          "label": "全部现有普通／美化制造改暴击急速，保留原美化",
+          "mean": 675300.8363670121,
+          "error": 1714.6801083782655,
+          "provisional": true
+        },
+        {
+          "name": "Current_crafts_CM",
+          "label": "全部现有普通／美化制造改暴击精通，保留原美化",
+          "mean": 656614.2395708204,
+          "error": 1727.1872155462706,
+          "provisional": true
+        },
+        {
+          "name": "Current_crafts_HM",
+          "label": "全部现有普通／美化制造改急速精通，保留原美化",
+          "mean": 661651.1699140512,
+          "error": 1620.0635702118109,
+          "provisional": true
+        },
+        {
+          "name": "Double_lining_staff",
+          "label": "保留法杖：仪式石改为披风第二奥纹（替钥匙链）",
+          "mean": 670588.8208557155,
+          "error": 1731.650890352787,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "bags-raid",
+      "mode": "raid",
+      "stage": "bags",
+      "label": "背包现有饰品",
+      "baseline": 223000.2866926024,
+      "stderr": 187.733418557513,
+      "iterations": 1511,
+      "seed": 23102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Bag_270161",
+          "label": "背包实际饰品270161替321毒液",
+          "mean": 218290.17334243088,
+          "error": 351.77863955426056,
+          "provisional": false
+        },
+        {
+          "name": "Bag_273794",
+          "label": "背包实际饰品273794替321毒液",
+          "mean": 219568.21847295196,
+          "error": 345.20138705312917,
+          "provisional": false
+        },
+        {
+          "name": "Bag_251783",
+          "label": "背包实际饰品251783替321毒液",
+          "mean": 215224.55158764805,
+          "error": 388.0752727275366,
+          "provisional": false
+        },
+        {
+          "name": "Bag_270173",
+          "label": "背包实际饰品270173替321毒液",
+          "mean": 208285.67068003427,
+          "error": 329.6153143334712,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "bags-dungeon",
+      "mode": "dungeon",
+      "stage": "bags",
+      "label": "背包现有饰品",
+      "baseline": 674144.4883973526,
+      "stderr": 1101.2655823124803,
+      "iterations": 1511,
+      "seed": 23102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Bag_270161",
+          "label": "背包实际饰品270161替321毒液",
+          "mean": 649207.8803753395,
+          "error": 2094.5395420127725,
+          "provisional": true
+        },
+        {
+          "name": "Bag_273794",
+          "label": "背包实际饰品273794替321毒液",
+          "mean": 653814.0122089859,
+          "error": 2128.9196233277275,
+          "provisional": true
+        },
+        {
+          "name": "Bag_251783",
+          "label": "背包实际饰品251783替321毒液",
+          "mean": 644262.529057906,
+          "error": 2314.5719167724383,
+          "provisional": true
+        },
+        {
+          "name": "Bag_270173",
+          "label": "背包实际饰品270173替321毒液",
+          "mean": 621257.8455207823,
+          "error": 2049.298311676734,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "targets-raid",
+      "mode": "raid",
+      "stage": "target",
+      "label": "完整目标套装初筛",
+      "baseline": 222727.12530021902,
+      "stderr": 175.50900134980242,
+      "iterations": 1811,
+      "seed": 25102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Set_back_wrist_legs",
+          "label": "完整目标：腕＋披风双奥纹／legs腿",
+          "mean": 230168.0186612848,
+          "error": 345.25881896945134,
+          "provisional": false
+        },
+        {
+          "name": "Set_back_wrist_craft_legs",
+          "label": "完整目标：腕＋披风双奥纹／制造腿腿",
+          "mean": 230259.7920393588,
+          "error": 348.6985332340539,
+          "provisional": false
+        },
+        {
+          "name": "Set_wrist_feet_legs",
+          "label": "完整目标：腕＋鞋双奥纹／legs腿",
+          "mean": 229654.84798942495,
+          "error": 354.33215268617204,
+          "provisional": false
+        },
+        {
+          "name": "Set_back_wrist_raid_legs",
+          "label": "完整目标：腕＋披风双奥纹／团本散件腿腿",
+          "mean": 229976.40221569774,
+          "error": 342.9995670468261,
+          "provisional": false
+        },
+        {
+          "name": "Set_wrist_feet_craft_legs",
+          "label": "完整目标：腕＋鞋双奥纹／制造腿腿",
+          "mean": 230151.89072317258,
+          "error": 350.6516235379728,
+          "provisional": false
+        },
+        {
+          "name": "Set_wrist_feet_raid_legs",
+          "label": "完整目标：腕＋鞋双奥纹／团本散件腿腿",
+          "mean": 229460.06693284295,
+          "error": 346.5996469927224,
+          "provisional": false
+        },
+        {
+          "name": "Set_wrist_waist_legs",
+          "label": "完整目标：腕＋腰双奥纹／legs腿",
+          "mean": 229364.40646208273,
+          "error": 354.43396275392723,
+          "provisional": false
+        },
+        {
+          "name": "Set_wrist_waist_craft_legs",
+          "label": "完整目标：腕＋腰双奥纹／制造腿腿",
+          "mean": 229607.86488625972,
+          "error": 347.31435350449266,
+          "provisional": false
+        },
+        {
+          "name": "Set_wrist_waist_raid_legs",
+          "label": "完整目标：腕＋腰双奥纹／团本散件腿腿",
+          "mean": 228984.7455812772,
+          "error": 344.2661896337549,
+          "provisional": false
+        },
+        {
+          "name": "Set_staff",
+          "label": "完整目标：现有331法杖＋双奥纹＋制造腿",
+          "mean": 225933.90228500764,
+          "error": 348.85276771047154,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "targets-dungeon",
+      "mode": "dungeon",
+      "stage": "target",
+      "label": "完整目标套装初筛",
+      "baseline": 673742.4121639908,
+      "stderr": 1019.8881888710953,
+      "iterations": 1811,
+      "seed": 25102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Set_back_wrist_legs",
+          "label": "完整目标：腕＋披风双奥纹／legs腿",
+          "mean": 691643.3720311512,
+          "error": 2121.91263546912,
+          "provisional": true
+        },
+        {
+          "name": "Set_back_wrist_craft_legs",
+          "label": "完整目标：腕＋披风双奥纹／制造腿腿",
+          "mean": 693058.4431504606,
+          "error": 2071.072452186944,
+          "provisional": true
+        },
+        {
+          "name": "Set_wrist_feet_legs",
+          "label": "完整目标：腕＋鞋双奥纹／legs腿",
+          "mean": 689547.6445714787,
+          "error": 2007.212928387563,
+          "provisional": true
+        },
+        {
+          "name": "Set_back_wrist_raid_legs",
+          "label": "完整目标：腕＋披风双奥纹／团本散件腿腿",
+          "mean": 692179.4647359586,
+          "error": 2098.896161585672,
+          "provisional": true
+        },
+        {
+          "name": "Set_wrist_feet_craft_legs",
+          "label": "完整目标：腕＋鞋双奥纹／制造腿腿",
+          "mean": 690221.7977765229,
+          "error": 2025.563962176911,
+          "provisional": true
+        },
+        {
+          "name": "Set_wrist_feet_raid_legs",
+          "label": "完整目标：腕＋鞋双奥纹／团本散件腿腿",
+          "mean": 688358.9701945927,
+          "error": 1992.0633359755084,
+          "provisional": true
+        },
+        {
+          "name": "Set_wrist_waist_legs",
+          "label": "完整目标：腕＋腰双奥纹／legs腿",
+          "mean": 690286.1348915797,
+          "error": 2091.549089010841,
+          "provisional": true
+        },
+        {
+          "name": "Set_wrist_waist_craft_legs",
+          "label": "完整目标：腕＋腰双奥纹／制造腿腿",
+          "mean": 691116.2397301618,
+          "error": 2141.2248321846782,
+          "provisional": true
+        },
+        {
+          "name": "Set_wrist_waist_raid_legs",
+          "label": "完整目标：腕＋腰双奥纹／团本散件腿腿",
+          "mean": 689901.909538834,
+          "error": 2033.7453652303811,
+          "provisional": true
+        },
+        {
+          "name": "Set_staff",
+          "label": "完整目标：现有331法杖＋双奥纹＋制造腿",
+          "mean": 681020.5338191543,
+          "error": 2057.679544374274,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "refine-raid",
+      "mode": "raid",
+      "stage": "refine",
+      "label": "目标套装：属性、戒指、饰品与盾牌初筛",
+      "baseline": 230372.25761022314,
+      "stderr": 177.371572988399,
+      "iterations": 1811,
+      "seed": 26102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Stats_HM_Crit",
+          "label": "制造急速精通＋暴击合剂",
+          "mean": 225419.0512879806,
+          "error": 351.1307265014876,
+          "provisional": false
+        },
+        {
+          "name": "Stats_CH_Crit",
+          "label": "制造暴击急速＋暴击合剂",
+          "mean": 230444.80031892325,
+          "error": 349.7415885165824,
+          "provisional": false
+        },
+        {
+          "name": "Stats_HM_Haste",
+          "label": "制造急速精通＋急速合剂",
+          "mean": 224503.83743367047,
+          "error": 348.3955850145664,
+          "provisional": false
+        },
+        {
+          "name": "Ring_268252_for_alchemist",
+          "label": "戒指268252替邪恶戒，保留虫群",
+          "mean": 232460.7312420309,
+          "error": 343.670965791575,
+          "provisional": false
+        },
+        {
+          "name": "Stats_CH_Haste",
+          "label": "制造暴击急速＋急速合剂",
+          "mean": 230504.88182919388,
+          "error": 346.6126732550692,
+          "provisional": false
+        },
+        {
+          "name": "Gem_240900",
+          "label": "非钻石孔统一宝石240900",
+          "mean": 229706.1143869101,
+          "error": 342.42966065817603,
+          "provisional": false
+        },
+        {
+          "name": "Stats_CH_Mastery",
+          "label": "制造暴击急速＋精通合剂",
+          "mean": 227988.85950023017,
+          "error": 351.3884198558069,
+          "provisional": false
+        },
+        {
+          "name": "Stats_CM_Crit",
+          "label": "制造暴击精通＋暴击合剂",
+          "mean": 225863.68112208287,
+          "error": 343.4598648445909,
+          "provisional": false
+        },
+        {
+          "name": "Stats_CM_Haste",
+          "label": "制造暴击精通＋急速合剂",
+          "mean": 225215.27107531767,
+          "error": 355.41536591413814,
+          "provisional": false
+        },
+        {
+          "name": "Stats_CM_Mastery",
+          "label": "制造暴击精通＋精通合剂",
+          "mean": 222240.296302034,
+          "error": 332.0353943281684,
+          "provisional": false
+        },
+        {
+          "name": "Stats_HM_Mastery",
+          "label": "制造急速精通＋精通合剂",
+          "mean": 220529.66147746763,
+          "error": 343.6180835579216,
+          "provisional": false
+        },
+        {
+          "name": "Gem_240906",
+          "label": "非钻石孔统一宝石240906",
+          "mean": 230202.2548665074,
+          "error": 346.3064671882285,
+          "provisional": false
+        },
+        {
+          "name": "Gem_240890",
+          "label": "非钻石孔统一宝石240890",
+          "mean": 230206.73873852417,
+          "error": 349.1726971470387,
+          "provisional": false
+        },
+        {
+          "name": "Gem_240908",
+          "label": "非钻石孔统一宝石240908",
+          "mean": 230207.8237216656,
+          "error": 351.692862212814,
+          "provisional": false
+        },
+        {
+          "name": "Trinket_281215_for_venom",
+          "label": "334饰品281215替334毒液",
+          "mean": 231524.83606683512,
+          "error": 330.76080618490596,
+          "provisional": true
+        },
+        {
+          "name": "Trinket_250215_for_venom",
+          "label": "334饰品250215替334毒液",
+          "mean": 231029.30041401595,
+          "error": 346.125806009131,
+          "provisional": false
+        },
+        {
+          "name": "Trinket_270167_for_venom",
+          "label": "334饰品270167替334毒液",
+          "mean": 229427.59370089436,
+          "error": 339.68368956748145,
+          "provisional": false
+        },
+        {
+          "name": "Trinket_270169_for_venom",
+          "label": "334饰品270169替334毒液",
+          "mean": 223075.7404939271,
+          "error": 344.11281064197954,
+          "provisional": false
+        },
+        {
+          "name": "Loa_ring",
+          "label": "331洛阿制造戒替邪恶戒；披风去奥纹保留2美化",
+          "mean": 231182.69491345485,
+          "error": 352.08086458328796,
+          "provisional": false
+        },
+        {
+          "name": "Tendril_for_bag",
+          "label": "334触须替334无底袋",
+          "mean": 231900.91255151655,
+          "error": 328.45100000566214,
+          "provisional": true
+        },
+        {
+          "name": "Shield_268262",
+          "label": "替代盾牌268262，制造盾按331",
+          "mean": 229572.27569129012,
+          "error": 355.33772197475025,
+          "provisional": false
+        },
+        {
+          "name": "Shield_237831",
+          "label": "替代盾牌237831，制造盾按331",
+          "mean": 229825.03610565598,
+          "error": 349.29679042753315,
+          "provisional": false
+        },
+        {
+          "name": "Weapon_268210",
+          "label": "334替代单手268210",
+          "mean": 226791.16571881858,
+          "error": 341.21079587561815,
+          "provisional": false
+        },
+        {
+          "name": "Weapon_268203",
+          "label": "334替代单手268203",
+          "mean": 226826.7915782599,
+          "error": 348.2454782735339,
+          "provisional": false
+        },
+        {
+          "name": "Ring_251136_for_alchemist",
+          "label": "戒指251136替邪恶戒，保留虫群",
+          "mean": 231808.5872884246,
+          "error": 343.8778982550005,
+          "provisional": false
+        },
+        {
+          "name": "Ring_240949_for_alchemist",
+          "label": "戒指240949替邪恶戒，保留虫群",
+          "mean": 232620.4684305784,
+          "error": 332.3239959216396,
+          "provisional": false
+        },
+        {
+          "name": "Ordinary_hands",
+          "label": "去H10特效，普通神话套装手",
+          "mean": 228785.7162594479,
+          "error": 347.9320871896022,
+          "provisional": false
+        },
+        {
+          "name": "Ordinary_chest",
+          "label": "去H8毒咒，普通神话套胸",
+          "mean": 229922.81375327907,
+          "error": 346.7956233500253,
+          "provisional": false
+        },
+        {
+          "name": "Tier_legs",
+          "label": "换回已有334套装腿（可能为第五件）",
+          "mean": 230248.83723407914,
+          "error": 344.2638889367193,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "refine-dungeon",
+      "mode": "dungeon",
+      "stage": "refine",
+      "label": "目标套装：属性、戒指、饰品与盾牌初筛",
+      "baseline": 692831.4866731759,
+      "stderr": 1025.647063404722,
+      "iterations": 1811,
+      "seed": 26102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Stats_HM_Crit",
+          "label": "制造急速精通＋暴击合剂",
+          "mean": 678981.3747093272,
+          "error": 2046.5306819929745,
+          "provisional": true
+        },
+        {
+          "name": "Stats_CH_Crit",
+          "label": "制造暴击急速＋暴击合剂",
+          "mean": 694151.1323612768,
+          "error": 2002.8753136681053,
+          "provisional": true
+        },
+        {
+          "name": "Stats_HM_Haste",
+          "label": "制造急速精通＋急速合剂",
+          "mean": 676847.5262033137,
+          "error": 1984.2438453205746,
+          "provisional": true
+        },
+        {
+          "name": "Ring_268252_for_alchemist",
+          "label": "戒指268252替邪恶戒，保留虫群",
+          "mean": 701496.4848589118,
+          "error": 2078.5463255898812,
+          "provisional": true
+        },
+        {
+          "name": "Stats_CH_Haste",
+          "label": "制造暴击急速＋急速合剂",
+          "mean": 689530.7948038211,
+          "error": 2000.5261924261572,
+          "provisional": true
+        },
+        {
+          "name": "Gem_240900",
+          "label": "非钻石孔统一宝石240900",
+          "mean": 689207.2509543961,
+          "error": 2059.7190757463545,
+          "provisional": true
+        },
+        {
+          "name": "Stats_CH_Mastery",
+          "label": "制造暴击急速＋精通合剂",
+          "mean": 684848.6035680883,
+          "error": 2015.2227205651711,
+          "provisional": true
+        },
+        {
+          "name": "Stats_CM_Crit",
+          "label": "制造暴击精通＋暴击合剂",
+          "mean": 677595.1258333253,
+          "error": 2065.6799478541225,
+          "provisional": true
+        },
+        {
+          "name": "Stats_CM_Haste",
+          "label": "制造暴击精通＋急速合剂",
+          "mean": 681293.6207878004,
+          "error": 1987.1326027025684,
+          "provisional": true
+        },
+        {
+          "name": "Stats_CM_Mastery",
+          "label": "制造暴击精通＋精通合剂",
+          "mean": 668132.3614254325,
+          "error": 2012.598919424275,
+          "provisional": true
+        },
+        {
+          "name": "Stats_HM_Mastery",
+          "label": "制造急速精通＋精通合剂",
+          "mean": 667457.2210046565,
+          "error": 1937.6233120194152,
+          "provisional": true
+        },
+        {
+          "name": "Gem_240906",
+          "label": "非钻石孔统一宝石240906",
+          "mean": 693349.9681302033,
+          "error": 2096.063812332655,
+          "provisional": true
+        },
+        {
+          "name": "Gem_240890",
+          "label": "非钻石孔统一宝石240890",
+          "mean": 692221.3565432783,
+          "error": 2128.1781851172423,
+          "provisional": true
+        },
+        {
+          "name": "Gem_240908",
+          "label": "非钻石孔统一宝石240908",
+          "mean": 692850.8991595882,
+          "error": 2058.394581657898,
+          "provisional": true
+        },
+        {
+          "name": "Trinket_281215_for_venom",
+          "label": "334饰品281215替334毒液",
+          "mean": 703282.1575112264,
+          "error": 2090.109399392106,
+          "provisional": true
+        },
+        {
+          "name": "Trinket_250215_for_venom",
+          "label": "334饰品250215替334毒液",
+          "mean": 690364.4553712753,
+          "error": 2048.6686147509145,
+          "provisional": true
+        },
+        {
+          "name": "Trinket_270167_for_venom",
+          "label": "334饰品270167替334毒液",
+          "mean": 687375.9687063538,
+          "error": 2119.7050701226017,
+          "provisional": true
+        },
+        {
+          "name": "Trinket_270169_for_venom",
+          "label": "334饰品270169替334毒液",
+          "mean": 670509.2115567605,
+          "error": 2032.4873391572141,
+          "provisional": true
+        },
+        {
+          "name": "Loa_ring",
+          "label": "331洛阿制造戒替邪恶戒；披风去奥纹保留2美化",
+          "mean": 695678.2708660485,
+          "error": 2120.8151746902818,
+          "provisional": true
+        },
+        {
+          "name": "Tendril_for_bag",
+          "label": "334触须替334无底袋",
+          "mean": 707285.6352105046,
+          "error": 1991.3435724616036,
+          "provisional": true
+        },
+        {
+          "name": "Shield_268262",
+          "label": "替代盾牌268262，制造盾按331",
+          "mean": 691059.9160571446,
+          "error": 2026.3913275859124,
+          "provisional": true
+        },
+        {
+          "name": "Shield_237831",
+          "label": "替代盾牌237831，制造盾按331",
+          "mean": 692496.7098072339,
+          "error": 2104.7742108574566,
+          "provisional": true
+        },
+        {
+          "name": "Weapon_268210",
+          "label": "334替代单手268210",
+          "mean": 682946.2461303889,
+          "error": 2071.7202291832846,
+          "provisional": true
+        },
+        {
+          "name": "Weapon_268203",
+          "label": "334替代单手268203",
+          "mean": 682878.0750725181,
+          "error": 2046.6354169824235,
+          "provisional": true
+        },
+        {
+          "name": "Ring_251136_for_alchemist",
+          "label": "戒指251136替邪恶戒，保留虫群",
+          "mean": 698170.889561135,
+          "error": 2141.2540519625923,
+          "provisional": true
+        },
+        {
+          "name": "Ring_240949_for_alchemist",
+          "label": "戒指240949替邪恶戒，保留虫群",
+          "mean": 699276.310659173,
+          "error": 2093.3931152822415,
+          "provisional": true
+        },
+        {
+          "name": "Ordinary_hands",
+          "label": "去H10特效，普通神话套装手",
+          "mean": 687682.6954818555,
+          "error": 2032.4466267837156,
+          "provisional": true
+        },
+        {
+          "name": "Ordinary_chest",
+          "label": "去H8毒咒，普通神话套胸",
+          "mean": 691637.7276950812,
+          "error": 2109.6924258621802,
+          "provisional": true
+        },
+        {
+          "name": "Tier_legs",
+          "label": "换回已有334套装腿（可能为第五件）",
+          "mean": 692245.2862318845,
+          "error": 2023.098771509229,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "joint-raid",
+      "mode": "raid",
+      "stage": "joint",
+      "label": "戒指×饰品×制造属性×合剂联合搜索",
+      "baseline": 230387.48514305244,
+      "stderr": 177.57145445291778,
+      "iterations": 1811,
+      "seed": 31102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Joint_268252_for_alch_VenomTendril_CH_Crit",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋触须／暴击急速／暴击合剂",
+          "mean": 232387.9577025297,
+          "error": 313.6190397612794,
+          "provisional": true
+        },
+        {
+          "name": "Ring_251136_for_swarm",
+          "label": "双戒对照：咆哮奴役玺戒替虫群戒",
+          "mean": 230563.57270947754,
+          "error": 333.29774672575434,
+          "provisional": false
+        },
+        {
+          "name": "Joint_Craft_for_alch_BagVenom_CH_Haste",
+          "label": "联合：制造戒替邪恶戒／毒液＋无底袋／暴击急速／急速合剂",
+          "mean": 231820.39539150055,
+          "error": 354.77810892130304,
+          "provisional": false
+        },
+        {
+          "name": "Ring_Craft_for_swarm",
+          "label": "双戒对照：制造戒替虫群戒",
+          "mean": 231509.72729455476,
+          "error": 347.98793399697126,
+          "provisional": false
+        },
+        {
+          "name": "Ring_251136_for_alch",
+          "label": "双戒对照：咆哮奴役玺戒替邪恶戒",
+          "mean": 231972.43717706494,
+          "error": 329.97427369495307,
+          "provisional": false
+        },
+        {
+          "name": "Joint_Craft_for_alch_BagVenom_HM_Haste",
+          "label": "联合：制造戒替邪恶戒／毒液＋无底袋／急速精通／急速合剂",
+          "mean": 225268.7952256561,
+          "error": 346.183536006388,
+          "provisional": false
+        },
+        {
+          "name": "Ring_Craft_for_alch",
+          "label": "双戒对照：制造戒替邪恶戒",
+          "mean": 232798.42776928146,
+          "error": 346.7081656913082,
+          "provisional": false
+        },
+        {
+          "name": "Ring_Keep",
+          "label": "双戒对照：Keep",
+          "mean": 230265.02422367194,
+          "error": 355.98772917079117,
+          "provisional": false
+        },
+        {
+          "name": "Ring_268252_for_alch",
+          "label": "双戒对照：顶级蛮兵爪戒替邪恶戒",
+          "mean": 232573.73615303304,
+          "error": 340.8081960937194,
+          "provisional": false
+        },
+        {
+          "name": "Joint_Craft_for_alch_BagVenom_CM_Haste",
+          "label": "联合：制造戒替邪恶戒／毒液＋无底袋／暴击精通／急速合剂",
+          "mean": 227401.03950919906,
+          "error": 352.8493908917397,
+          "provisional": false
+        },
+        {
+          "name": "Ring_268252_for_swarm",
+          "label": "双戒对照：顶级蛮兵爪戒替虫群戒",
+          "mean": 231043.30411414086,
+          "error": 339.1576906357014,
+          "provisional": false
+        },
+        {
+          "name": "Joint_Craft_for_alch_BagVenom_CH_Crit",
+          "label": "联合：制造戒替邪恶戒／毒液＋无底袋／暴击急速／暴击合剂",
+          "mean": 232395.06620866046,
+          "error": 343.113319430742,
+          "provisional": false
+        },
+        {
+          "name": "Joint_Craft_for_alch_BagVenom_CM_Crit",
+          "label": "联合：制造戒替邪恶戒／毒液＋无底袋／暴击精通／暴击合剂",
+          "mean": 228384.2867677437,
+          "error": 331.3799207042976,
+          "provisional": false
+        },
+        {
+          "name": "Joint_Craft_for_alch_BagVenom_HM_Crit",
+          "label": "联合：制造戒替邪恶戒／毒液＋无底袋／急速精通／暴击合剂",
+          "mean": 227583.33889711485,
+          "error": 356.9722814239447,
+          "provisional": false
+        },
+        {
+          "name": "Joint_Craft_for_alch_VenomTendril_CH_Crit",
+          "label": "联合：制造戒替邪恶戒／毒液＋触须／暴击急速／暴击合剂",
+          "mean": 233703.8410301094,
+          "error": 318.6428176728259,
+          "provisional": true
+        },
+        {
+          "name": "Joint_268252_for_alch_BagVenom_HM_Crit",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋无底袋／急速精通／暴击合剂",
+          "mean": 231115.0169329956,
+          "error": 356.3148116843468,
+          "provisional": false
+        },
+        {
+          "name": "Joint_Craft_for_alch_VenomTendril_CH_Haste",
+          "label": "联合：制造戒替邪恶戒／毒液＋触须／暴击急速／急速合剂",
+          "mean": 233402.63979263624,
+          "error": 329.83790949088564,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_alch_VenomTendril_CM_Crit",
+          "label": "联合：制造戒替邪恶戒／毒液＋触须／暴击精通／暴击合剂",
+          "mean": 229220.91014831502,
+          "error": 334.92913865047467,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_alch_VenomTendril_CM_Haste",
+          "label": "联合：制造戒替邪恶戒／毒液＋触须／暴击精通／急速合剂",
+          "mean": 229502.44153786174,
+          "error": 322.8207766771852,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_alch_VenomTendril_HM_Crit",
+          "label": "联合：制造戒替邪恶戒／毒液＋触须／急速精通／暴击合剂",
+          "mean": 229536.7217550996,
+          "error": 338.68308930561994,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_alch_VenomTendril_HM_Haste",
+          "label": "联合：制造戒替邪恶戒／毒液＋触须／急速精通／急速合剂",
+          "mean": 227784.0265796179,
+          "error": 335.0484439550458,
+          "provisional": true
+        },
+        {
+          "name": "Joint_268252_for_alch_BagVenom_CH_Crit",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋无底袋／暴击急速／暴击合剂",
+          "mean": 232566.89503551493,
+          "error": 348.8782693026081,
+          "provisional": false
+        },
+        {
+          "name": "Joint_268252_for_alch_BagVenom_CH_Haste",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋无底袋／暴击急速／急速合剂",
+          "mean": 232693.11828462227,
+          "error": 346.5878032129579,
+          "provisional": false
+        },
+        {
+          "name": "Joint_268252_for_alch_BagVenom_CM_Crit",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋无底袋／暴击精通／暴击合剂",
+          "mean": 231104.54118041508,
+          "error": 339.6992617888799,
+          "provisional": false
+        },
+        {
+          "name": "Joint_268252_for_alch_BagVenom_CM_Haste",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋无底袋／暴击精通／急速合剂",
+          "mean": 230909.44630317387,
+          "error": 357.5601677505783,
+          "provisional": false
+        },
+        {
+          "name": "Joint_268252_for_alch_BagVenom_HM_Haste",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋无底袋／急速精通／急速合剂",
+          "mean": 230828.24288954065,
+          "error": 353.42757548398544,
+          "provisional": false
+        },
+        {
+          "name": "Joint_268252_for_alch_VenomTendril_CH_Haste",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋触须／暴击急速／急速合剂",
+          "mean": 233846.66568334066,
+          "error": 335.44556537837127,
+          "provisional": true
+        },
+        {
+          "name": "Joint_268252_for_alch_VenomTendril_CM_Crit",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋触须／暴击精通／暴击合剂",
+          "mean": 231543.49060707763,
+          "error": 328.45651533894414,
+          "provisional": true
+        },
+        {
+          "name": "Joint_268252_for_alch_VenomTendril_CM_Haste",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋触须／暴击精通／急速合剂",
+          "mean": 232117.89155161637,
+          "error": 331.5780805172813,
+          "provisional": true
+        },
+        {
+          "name": "Joint_268252_for_alch_VenomTendril_HM_Crit",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋触须／急速精通／暴击合剂",
+          "mean": 232460.12797113406,
+          "error": 334.92622659618576,
+          "provisional": true
+        },
+        {
+          "name": "Joint_268252_for_alch_VenomTendril_HM_Haste",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋触须／急速精通／急速合剂",
+          "mean": 232540.10616175408,
+          "error": 325.0400474110327,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "joint-dungeon",
+      "mode": "dungeon",
+      "stage": "joint",
+      "label": "戒指×饰品×制造属性×合剂联合搜索",
+      "baseline": 694711.5387663145,
+      "stderr": 1046.521588319474,
+      "iterations": 1810,
+      "seed": 31102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Joint_251136_for_alch_VenomTendril_HM_Haste",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／毒液＋触须／急速精通／急速合剂",
+          "mean": 701843.4287765953,
+          "error": 2046.084091021988,
+          "provisional": true
+        },
+        {
+          "name": "Ring_251136_for_swarm",
+          "label": "双戒对照：咆哮奴役玺戒替虫群戒",
+          "mean": 693116.2041130105,
+          "error": 2105.623923682911,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_VenomTendril_HM_Haste",
+          "label": "联合：制造戒替虫群戒／毒液＋触须／急速精通／急速合剂",
+          "mean": 690863.5857260784,
+          "error": 1944.182194656866,
+          "provisional": true
+        },
+        {
+          "name": "Ring_Craft_for_swarm",
+          "label": "双戒对照：制造戒替虫群戒",
+          "mean": 696002.9260553923,
+          "error": 2077.8881038384716,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_VenomTendril_CH_Haste",
+          "label": "联合：制造戒替虫群戒／毒液＋触须／暴击急速／急速合剂",
+          "mean": 705381.8995476088,
+          "error": 2049.718255617706,
+          "provisional": true
+        },
+        {
+          "name": "Ring_251136_for_alch",
+          "label": "双戒对照：咆哮奴役玺戒替邪恶戒",
+          "mean": 697144.8705395837,
+          "error": 2067.086370210929,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_VenomTendril_CH_Haste",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／毒液＋触须／暴击急速／急速合剂",
+          "mean": 708890.344978677,
+          "error": 2061.1461881517666,
+          "provisional": true
+        },
+        {
+          "name": "Ring_Craft_for_alch",
+          "label": "双戒对照：制造戒替邪恶戒",
+          "mean": 696267.5693165001,
+          "error": 2126.9796051583176,
+          "provisional": true
+        },
+        {
+          "name": "Ring_Keep",
+          "label": "双戒对照：Keep",
+          "mean": 692190.4858660093,
+          "error": 2059.751876828316,
+          "provisional": true
+        },
+        {
+          "name": "Ring_268252_for_alch",
+          "label": "双戒对照：顶级蛮兵爪戒替邪恶戒",
+          "mean": 700340.8590951486,
+          "error": 2172.957943429512,
+          "provisional": true
+        },
+        {
+          "name": "Ring_268252_for_swarm",
+          "label": "双戒对照：顶级蛮兵爪戒替虫群戒",
+          "mean": 695850.1067133006,
+          "error": 2133.32204041084,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_BagTendril_CH_Crit",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／无底袋＋触须／暴击急速／暴击合剂",
+          "mean": 704689.151075968,
+          "error": 2116.5903138818485,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_BagTendril_CH_Haste",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／无底袋＋触须／暴击急速／急速合剂",
+          "mean": 707276.450018365,
+          "error": 2119.0810603844407,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_VenomTendril_CM_Haste",
+          "label": "联合：制造戒替虫群戒／毒液＋触须／暴击精通／急速合剂",
+          "mean": 695645.9312851446,
+          "error": 2114.961224396401,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_BagTendril_CM_Crit",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／无底袋＋触须／暴击精通／暴击合剂",
+          "mean": 690692.2563078651,
+          "error": 2132.324183543347,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_BagTendril_CM_Haste",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／无底袋＋触须／暴击精通／急速合剂",
+          "mean": 699894.4470450218,
+          "error": 2120.160574636119,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_BagTendril_HM_Crit",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／无底袋＋触须／急速精通／暴击合剂",
+          "mean": 701487.5619392884,
+          "error": 2026.8627890526004,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_VenomTendril_CH_Crit",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／毒液＋触须／暴击急速／暴击合剂",
+          "mean": 710211.1837973841,
+          "error": 2069.4156266421533,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_BagTendril_HM_Haste",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／无底袋＋触须／急速精通／急速合剂",
+          "mean": 700051.0103826092,
+          "error": 2088.5061354319328,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_VenomTendril_CM_Crit",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／毒液＋触须／暴击精通／暴击合剂",
+          "mean": 696279.854453257,
+          "error": 1984.3765057392575,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_BagTendril_CM_Crit",
+          "label": "联合：制造戒替虫群戒／无底袋＋触须／暴击精通／暴击合剂",
+          "mean": 681945.2848981036,
+          "error": 2113.260302610447,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_VenomTendril_CM_Haste",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／毒液＋触须／暴击精通／急速合剂",
+          "mean": 704143.801595589,
+          "error": 1997.9414626144967,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_VenomTendril_HM_Crit",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／毒液＋触须／急速精通／暴击合剂",
+          "mean": 704025.2126770635,
+          "error": 2038.851777333403,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_BagTendril_CH_Crit",
+          "label": "联合：制造戒替虫群戒／无底袋＋触须／暴击急速／暴击合剂",
+          "mean": 703674.0658916582,
+          "error": 2201.4362658059094,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_BagTendril_CH_Haste",
+          "label": "联合：制造戒替虫群戒／无底袋＋触须／暴击急速／急速合剂",
+          "mean": 705238.4401312112,
+          "error": 2109.5251923122673,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_BagTendril_CM_Haste",
+          "label": "联合：制造戒替虫群戒／无底袋＋触须／暴击精通／急速合剂",
+          "mean": 690100.6618782982,
+          "error": 2144.703887102835,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_BagTendril_HM_Crit",
+          "label": "联合：制造戒替虫群戒／无底袋＋触须／急速精通／暴击合剂",
+          "mean": 692852.9497453755,
+          "error": 2020.1434065641945,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_VenomTendril_CH_Crit",
+          "label": "联合：制造戒替虫群戒／毒液＋触须／暴击急速／暴击合剂",
+          "mean": 706505.0797880328,
+          "error": 2010.0040820916931,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_BagTendril_HM_Haste",
+          "label": "联合：制造戒替虫群戒／无底袋＋触须／急速精通／急速合剂",
+          "mean": 689599.7194688355,
+          "error": 2074.20233487483,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_VenomTendril_CM_Crit",
+          "label": "联合：制造戒替虫群戒／毒液＋触须／暴击精通／暴击合剂",
+          "mean": 684337.410009434,
+          "error": 2067.4926891449754,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_VenomTendril_HM_Crit",
+          "label": "联合：制造戒替虫群戒／毒液＋触须／急速精通／暴击合剂",
+          "mean": 695479.6616431208,
+          "error": 1988.338721121741,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "verify-raid",
+      "mode": "raid",
+      "stage": "verify",
+      "label": "独立种子高迭代复测",
+      "baseline": 230263.4687392555,
+      "stderr": 97.67770212048865,
+      "iterations": 6011,
+      "seed": 27102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Ring_268252_for_alch",
+          "label": "双戒对照：顶级蛮兵爪戒替邪恶戒",
+          "mean": 232492.15249769905,
+          "error": 187.27348242313653,
+          "provisional": false
+        },
+        {
+          "name": "Joint_268252_for_alch_VenomTendril_CH_Haste",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋触须／暴击急速／急速合剂",
+          "mean": 233669.2128485205,
+          "error": 178.65917291854547,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_alch_VenomTendril_CH_Crit",
+          "label": "联合：制造戒替邪恶戒／毒液＋触须／暴击急速／暴击合剂",
+          "mean": 233134.64785535107,
+          "error": 185.5028505459209,
+          "provisional": true
+        },
+        {
+          "name": "Ring_Craft_for_alch",
+          "label": "双戒对照：制造戒替邪恶戒",
+          "mean": 232632.43373420887,
+          "error": 188.4084137402983,
+          "provisional": false
+        },
+        {
+          "name": "Joint_Craft_for_alch_VenomTendril_CH_Haste",
+          "label": "联合：制造戒替邪恶戒／毒液＋触须／暴击急速／急速合剂",
+          "mean": 233324.6101294189,
+          "error": 180.19304635277965,
+          "provisional": true
+        },
+        {
+          "name": "Trinket_281215_for_venom",
+          "label": "334饰品281215替334毒液",
+          "mean": 231476.87800248282,
+          "error": 187.6645601011173,
+          "provisional": true
+        },
+        {
+          "name": "Joint_268252_for_alch_BagVenom_CH_Haste",
+          "label": "联合：顶级蛮兵爪戒替邪恶戒／毒液＋无底袋／暴击急速／急速合剂",
+          "mean": 232888.76424304722,
+          "error": 192.33608509278665,
+          "provisional": false
+        },
+        {
+          "name": "Tendril_for_bag",
+          "label": "334触须替334无底袋",
+          "mean": 231726.3025385519,
+          "error": 181.71176025044608,
+          "provisional": true
+        },
+        {
+          "name": "Tier_legs",
+          "label": "换回已有334套装腿（可能为第五件）",
+          "mean": 230016.55418224863,
+          "error": 190.179561744161,
+          "provisional": false
+        },
+        {
+          "name": "Ordinary_hands",
+          "label": "去H10特效，普通神话套装手",
+          "mean": 228839.43231618332,
+          "error": 191.72435989156634,
+          "provisional": false
+        },
+        {
+          "name": "Ordinary_chest",
+          "label": "去H8毒咒，普通神话套胸",
+          "mean": 229938.47078568893,
+          "error": 190.1086418558644,
+          "provisional": false
+        },
+        {
+          "name": "Current_staff337",
+          "label": "现装制造法杖升337，其他仍现装补齐（未来10石）",
+          "mean": 226151.41495671173,
+          "error": 184.1597108696216,
+          "provisional": false
+        },
+        {
+          "name": "Raw_current",
+          "label": "原始实际装备",
+          "mean": 217275.94091875997,
+          "error": 177.8389808888928,
+          "provisional": false
+        },
+        {
+          "name": "Prepared_current",
+          "label": "现装补齐孔附魔",
+          "mean": 222894.44188140315,
+          "error": 183.47948971051403,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "verify-dungeon",
+      "mode": "dungeon",
+      "stage": "verify",
+      "label": "独立种子高迭代复测",
+      "baseline": 693445.7208061815,
+      "stderr": 579.8500599660942,
+      "iterations": 6011,
+      "seed": 27102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Joint_Craft_for_swarm_BagTendril_CH_Haste",
+          "label": "联合：制造戒替虫群戒／无底袋＋触须／暴击急速／急速合剂",
+          "mean": 703892.0370473302,
+          "error": 1178.840402395479,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_VenomTendril_CH_Crit",
+          "label": "联合：制造戒替虫群戒／毒液＋触须／暴击急速／暴击合剂",
+          "mean": 707303.1453787804,
+          "error": 1123.8899748832264,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_BagTendril_CH_Haste",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／无底袋＋触须／暴击急速／急速合剂",
+          "mean": 708627.9316503895,
+          "error": 1175.3028532205635,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_VenomTendril_CH_Crit",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／毒液＋触须／暴击急速／暴击合剂",
+          "mean": 709857.1073006939,
+          "error": 1133.7093289392437,
+          "provisional": true
+        },
+        {
+          "name": "Joint_Craft_for_swarm_VenomTendril_CH_Haste",
+          "label": "联合：制造戒替虫群戒／毒液＋触须／暴击急速／急速合剂",
+          "mean": 706476.4299846091,
+          "error": 1127.832101111442,
+          "provisional": true
+        },
+        {
+          "name": "Joint_251136_for_alch_VenomTendril_CH_Haste",
+          "label": "联合：咆哮奴役玺戒替邪恶戒／毒液＋触须／暴击急速／急速合剂",
+          "mean": 710876.364966693,
+          "error": 1130.828608369452,
+          "provisional": true
+        },
+        {
+          "name": "Trinket_281215_for_venom",
+          "label": "334饰品281215替334毒液",
+          "mean": 702510.5944941437,
+          "error": 1190.1349361458178,
+          "provisional": true
+        },
+        {
+          "name": "Tendril_for_bag",
+          "label": "334触须替334无底袋",
+          "mean": 707142.3497489406,
+          "error": 1122.1335970924201,
+          "provisional": true
+        },
+        {
+          "name": "Tier_legs",
+          "label": "换回已有334套装腿（可能为第五件）",
+          "mean": 692096.7560272727,
+          "error": 1124.212085795187,
+          "provisional": true
+        },
+        {
+          "name": "Ordinary_hands",
+          "label": "去H10特效，普通神话套装手",
+          "mean": 687908.3238006392,
+          "error": 1125.2340337846292,
+          "provisional": true
+        },
+        {
+          "name": "Ordinary_chest",
+          "label": "去H8毒咒，普通神话套胸",
+          "mean": 692028.4323928625,
+          "error": 1134.6827937421253,
+          "provisional": true
+        },
+        {
+          "name": "Current_staff337",
+          "label": "现装制造法杖升337，其他仍现装补齐（未来10石）",
+          "mean": 682604.220033632,
+          "error": 1117.1008195020008,
+          "provisional": true
+        },
+        {
+          "name": "Raw_current",
+          "label": "原始实际装备",
+          "mean": 655380.960127593,
+          "error": 1072.9023926142947,
+          "provisional": true
+        },
+        {
+          "name": "Prepared_current",
+          "label": "现装补齐孔附魔",
+          "mean": 673273.5664456915,
+          "error": 1099.6200693876178,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "final-raid",
+      "mode": "raid",
+      "stage": "final",
+      "label": "最终组合：保留已有套腿与制造位置复核",
+      "baseline": 233993.2351914795,
+      "stderr": 92.38204295573028,
+      "iterations": 6011,
+      "seed": 32102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Tier_legs",
+          "label": "最终戒指／饰品／合剂不变，保留已有334套腿省火花",
+          "mean": 234336.36217864184,
+          "error": 181.2626799571935,
+          "provisional": false
+        },
+        {
+          "name": "TierLegs_HM",
+          "label": "最终组合：已有334套腿＋制造急速精通",
+          "mean": 233175.07408912334,
+          "error": 183.833420202314,
+          "provisional": false
+        },
+        {
+          "name": "TierLegs_CH",
+          "label": "最终组合：已有334套腿＋制造暴击急速",
+          "mean": 234317.70118802166,
+          "error": 180.2649176445359,
+          "provisional": false
+        },
+        {
+          "name": "CraftLegs_HM",
+          "label": "最终组合：制造腿＋制造急速精通",
+          "mean": 232627.97226896932,
+          "error": 184.8915415597646,
+          "provisional": false
+        },
+        {
+          "name": "CraftLegs_CH",
+          "label": "最终组合：制造腿＋制造暴击急速",
+          "mean": 233709.81010966568,
+          "error": 178.1117587940516,
+          "provisional": false
+        },
+        {
+          "name": "TierLegs_CM",
+          "label": "最终组合：已有334套腿＋制造暴击精通",
+          "mean": 233057.28797306417,
+          "error": 185.19619204456444,
+          "provisional": false
+        },
+        {
+          "name": "CraftLegs_CM",
+          "label": "最终组合：制造腿＋制造暴击精通",
+          "mean": 231871.7271984131,
+          "error": 180.0567795463059,
+          "provisional": false
+        },
+        {
+          "name": "wrist_feet_Craft",
+          "label": "最终组合：腕＋鞋双奥纹＋制造腿",
+          "mean": 233706.3632630298,
+          "error": 180.38408257712916,
+          "provisional": false
+        },
+        {
+          "name": "wrist_feet_Tier",
+          "label": "最终组合：腕＋鞋双奥纹＋已有334套腿",
+          "mean": 233767.42111865626,
+          "error": 181.75976771322976,
+          "provisional": false
+        },
+        {
+          "name": "wrist_waist_Craft",
+          "label": "最终组合：腕＋腰双奥纹＋制造腿",
+          "mean": 234023.37859566367,
+          "error": 180.73558651905887,
+          "provisional": false
+        },
+        {
+          "name": "wrist_waist_Tier",
+          "label": "最终组合：腕＋腰双奥纹＋已有334套腿",
+          "mean": 234265.56258135792,
+          "error": 181.78245023701737,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "final-dungeon",
+      "mode": "dungeon",
+      "stage": "final",
+      "label": "最终组合：保留已有套腿与制造位置复核",
+      "baseline": 711628.3440486117,
+      "stderr": 578.3769387380929,
+      "iterations": 6011,
+      "seed": 32102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Tier_legs",
+          "label": "最终戒指／饰品／合剂不变，保留已有334套腿省火花",
+          "mean": 711136.7585368973,
+          "error": 1125.5839896967889,
+          "provisional": true
+        },
+        {
+          "name": "TierLegs_HM",
+          "label": "最终组合：已有334套腿＋制造急速精通",
+          "mean": 705411.1946086867,
+          "error": 1083.22429365349,
+          "provisional": true
+        },
+        {
+          "name": "TierLegs_CH",
+          "label": "最终组合：已有334套腿＋制造暴击急速",
+          "mean": 712329.4797106002,
+          "error": 1126.390362102906,
+          "provisional": true
+        },
+        {
+          "name": "CraftLegs_HM",
+          "label": "最终组合：制造腿＋制造急速精通",
+          "mean": 703817.4889266221,
+          "error": 1097.9723416953143,
+          "provisional": true
+        },
+        {
+          "name": "CraftLegs_CH",
+          "label": "最终组合：制造腿＋制造暴击急速",
+          "mean": 710809.7739530716,
+          "error": 1113.7170603868612,
+          "provisional": true
+        },
+        {
+          "name": "TierLegs_CM",
+          "label": "最终组合：已有334套腿＋制造暴击精通",
+          "mean": 706449.3848334299,
+          "error": 1107.9298815400732,
+          "provisional": true
+        },
+        {
+          "name": "CraftLegs_CM",
+          "label": "最终组合：制造腿＋制造暴击精通",
+          "mean": 703703.6144427337,
+          "error": 1127.0227608627438,
+          "provisional": true
+        },
+        {
+          "name": "wrist_feet_Craft",
+          "label": "最终组合：腕＋鞋双奥纹＋制造腿",
+          "mean": 710258.7049675635,
+          "error": 1135.633391268882,
+          "provisional": true
+        },
+        {
+          "name": "wrist_feet_Tier",
+          "label": "最终组合：腕＋鞋双奥纹＋已有334套腿",
+          "mean": 709048.1495806103,
+          "error": 1118.788272918214,
+          "provisional": true
+        },
+        {
+          "name": "wrist_waist_Craft",
+          "label": "最终组合：腕＋腰双奥纹＋制造腿",
+          "mean": 710422.0176087948,
+          "error": 1143.009648421185,
+          "provisional": true
+        },
+        {
+          "name": "wrist_waist_Tier",
+          "label": "最终组合：腕＋腰双奥纹＋已有334套腿",
+          "mean": 710566.0150156753,
+          "error": 1124.1882525751362,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "validation-raid",
+      "mode": "raid",
+      "stage": "validation",
+      "label": "最终配装对原装：同批6000次验证",
+      "baseline": 234123.77600804804,
+      "stderr": 92.71194583605262,
+      "iterations": 6011,
+      "seed": 35102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Raw_current",
+          "label": "原始实装；固定对应模式天赋",
+          "mean": 217293.43689488072,
+          "error": 179.0298362606574,
+          "provisional": false
+        },
+        {
+          "name": "Prepared_current",
+          "label": "实装补齐头附魔／虫群戒附魔与唯一现有空孔",
+          "mean": 223074.34700945782,
+          "error": 184.91323742780466,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "validation-dungeon",
+      "mode": "dungeon",
+      "stage": "validation",
+      "label": "最终配装对原装：同批6000次验证",
+      "baseline": 711952.1599650633,
+      "stderr": 567.4588332575075,
+      "iterations": 6011,
+      "seed": 35102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Raw_current",
+          "label": "原始实装；固定对应模式天赋",
+          "mean": 656054.3293866804,
+          "error": 1052.6827334002114,
+          "provisional": true
+        },
+        {
+          "name": "Prepared_current",
+          "label": "实装补齐头附魔／虫群戒附魔与唯一现有空孔",
+          "mean": 670957.924793431,
+          "error": 1092.9790720904246,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "upgrade-current-raid",
+      "mode": "raid",
+      "stage": "upgrade-current",
+      "label": "未来10石：当前装备选择（当前仅7石）",
+      "baseline": 222811.84720000194,
+      "stderr": 92.49640336799938,
+      "iterations": 6011,
+      "seed": 29102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。毒液石未花费，341／337为旧DBC上的截图装等覆盖，英雄毒液321的热更终点未知未纳入本批。",
+      "results": [
+        {
+          "name": "Staff337",
+          "label": "10石：现有制造法杖331→337",
+          "mean": 226164.51057024323,
+          "error": 185.982181142817,
+          "provisional": true
+        },
+        {
+          "name": "Neck341",
+          "label": "10石：现有项链334→341",
+          "mean": 223728.26210356032,
+          "error": 186.25508259146352,
+          "provisional": true
+        },
+        {
+          "name": "Bag341",
+          "label": "10石：现有无底袋334→341",
+          "mean": 223816.9097968188,
+          "error": 185.70729003111765,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "upgrade-current-dungeon",
+      "mode": "dungeon",
+      "stage": "upgrade-current",
+      "label": "未来10石：当前装备选择（当前仅7石）",
+      "baseline": 672639.7636762732,
+      "stderr": 562.5863426125395,
+      "iterations": 6011,
+      "seed": 29102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。毒液石未花费，341／337为旧DBC上的截图装等覆盖，英雄毒液321的热更终点未知未纳入本批。",
+      "results": [
+        {
+          "name": "Staff337",
+          "label": "10石：现有制造法杖331→337",
+          "mean": 681732.6092730849,
+          "error": 1124.3275889658073,
+          "provisional": true
+        },
+        {
+          "name": "Neck341",
+          "label": "10石：现有项链334→341",
+          "mean": 674657.4470541903,
+          "error": 1105.7207748399828,
+          "provisional": true
+        },
+        {
+          "name": "Bag341",
+          "label": "10石：现有无底袋334→341",
+          "mean": 675664.8037841133,
+          "error": 1123.6865188604393,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "upgrade-target-raid",
+      "mode": "raid",
+      "stage": "upgrade-target",
+      "label": "未来10石：目标套装选择（当前仅7石）",
+      "baseline": 234166.47234068776,
+      "stderr": 92.11569831172604,
+      "iterations": 6011,
+      "seed": 30102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。毒液石未花费，341／337为旧DBC上的截图装等覆盖，英雄毒液321的热更终点未知未纳入本批。",
+      "results": [
+        {
+          "name": "Upgrade_trinket2",
+          "label": "10石：目标饰品二升341",
+          "mean": 235352.53392841908,
+          "error": 183.9199395289404,
+          "provisional": true
+        },
+        {
+          "name": "Upgrade_neck",
+          "label": "10石：目标项链升341",
+          "mean": 234877.82172658388,
+          "error": 183.33152198558577,
+          "provisional": true
+        },
+        {
+          "name": "Upgrade_main_hand",
+          "label": "10石：目标武器升341",
+          "mean": 236688.03743402284,
+          "error": 185.03765354845774,
+          "provisional": true
+        },
+        {
+          "name": "Upgrade_trinket1",
+          "label": "10石：目标饰品一升341",
+          "mean": 235093.47805316153,
+          "error": 183.57060598945057,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "upgrade-target-dungeon",
+      "mode": "dungeon",
+      "stage": "upgrade-target",
+      "label": "未来10石：目标套装选择（当前仅7石）",
+      "baseline": 711015.481659262,
+      "stderr": 566.3703335841562,
+      "iterations": 6011,
+      "seed": 30102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。毒液石未花费，341／337为旧DBC上的截图装等覆盖，英雄毒液321的热更终点未知未纳入本批。",
+      "results": [
+        {
+          "name": "Upgrade_trinket2",
+          "label": "10石：目标饰品二升341",
+          "mean": 715100.6145867679,
+          "error": 1126.2190656506605,
+          "provisional": true
+        },
+        {
+          "name": "Upgrade_neck",
+          "label": "10石：目标项链升341",
+          "mean": 713860.0742426077,
+          "error": 1126.0248106281051,
+          "provisional": true
+        },
+        {
+          "name": "Upgrade_main_hand",
+          "label": "10石：目标武器升341",
+          "mean": 718738.5936543854,
+          "error": 1128.9111890402044,
+          "provisional": true
+        },
+        {
+          "name": "Upgrade_trinket1",
+          "label": "10石：目标饰品一升341",
+          "mean": 714260.97553511,
+          "error": 1121.2673562093987,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "robust-5t40",
+      "mode": "dungeon",
+      "stage": "robustness",
+      "label": "多目标／时长敏感性检查",
+      "baseline": 859680.631609627,
+      "stderr": 965.3663161902849,
+      "iterations": 6011,
+      "seed": 34102071,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 40.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Raw_current",
+          "label": "原始实装，固定大米当前天赋",
+          "mean": 779252.0663818994,
+          "error": 1700.3142278908042,
+          "provisional": true
+        },
+        {
+          "name": "VenomTendril",
+          "label": "同套装：334毒液＋334触须",
+          "mean": 861338.273306944,
+          "error": 1890.3116161053413,
+          "provisional": true
+        },
+        {
+          "name": "Prepared_current",
+          "label": "现装补齐孔与附魔",
+          "mean": 800160.9113440715,
+          "error": 1754.6775480809044,
+          "provisional": true
+        },
+        {
+          "name": "BagVenom",
+          "label": "同套装：334无底袋＋334毒液",
+          "mean": 826659.9354156997,
+          "error": 1875.5257954792244,
+          "provisional": true
+        },
+        {
+          "name": "Craft_legs",
+          "label": "同套装：另做331制造腿",
+          "mean": 860749.9930552492,
+          "error": 1885.3213328813872,
+          "provisional": true
+        },
+        {
+          "name": "BagTendril",
+          "label": "同套装：334触须＋334无底袋",
+          "mean": 824099.9374798959,
+          "error": 1894.3829848783712,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "robust-8t40",
+      "mode": "dungeon",
+      "stage": "robustness",
+      "label": "多目标／时长敏感性检查",
+      "baseline": 1185403.6858238548,
+      "stderr": 1323.1707939355645,
+      "iterations": 6011,
+      "seed": 34102074,
+      "model": "Patchwerk",
+      "targets": 8,
+      "seconds": 40.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Raw_current",
+          "label": "原始实装，固定大米当前天赋",
+          "mean": 1069738.3617119717,
+          "error": 2350.797124150718,
+          "provisional": true
+        },
+        {
+          "name": "VenomTendril",
+          "label": "同套装：334毒液＋334触须",
+          "mean": 1183913.9341180436,
+          "error": 2585.6599875453394,
+          "provisional": true
+        },
+        {
+          "name": "Prepared_current",
+          "label": "现装补齐孔与附魔",
+          "mean": 1094805.1956761137,
+          "error": 2394.6497263513284,
+          "provisional": true
+        },
+        {
+          "name": "BagVenom",
+          "label": "同套装：334无底袋＋334毒液",
+          "mean": 1131565.9986036369,
+          "error": 2482.459867924535,
+          "provisional": true
+        },
+        {
+          "name": "Craft_legs",
+          "label": "同套装：另做331制造腿",
+          "mean": 1183004.0257326688,
+          "error": 2561.6904683726866,
+          "provisional": true
+        },
+        {
+          "name": "BagTendril",
+          "label": "同套装：334触须＋334无底袋",
+          "mean": 1138383.0692336208,
+          "error": 2636.334138811735,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "robust-1t180",
+      "mode": "dungeon",
+      "stage": "robustness",
+      "label": "多目标／时长敏感性检查",
+      "baseline": 188491.36287187907,
+      "stderr": 99.30827928354039,
+      "iterations": 6011,
+      "seed": 34102207,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 180.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Raw_current",
+          "label": "原始实装，固定大米当前天赋",
+          "mean": 176862.2574197133,
+          "error": 179.11390268845392,
+          "provisional": true
+        },
+        {
+          "name": "VenomTendril",
+          "label": "同套装：334毒液＋334触须",
+          "mean": 188442.215674358,
+          "error": 193.51011027670856,
+          "provisional": true
+        },
+        {
+          "name": "Prepared_current",
+          "label": "现装补齐孔与附魔",
+          "mean": 181414.31719427393,
+          "error": 188.25327218090115,
+          "provisional": true
+        },
+        {
+          "name": "BagVenom",
+          "label": "同套装：334无底袋＋334毒液",
+          "mean": 187677.22609971324,
+          "error": 202.8500562426982,
+          "provisional": true
+        },
+        {
+          "name": "Craft_legs",
+          "label": "同套装：另做331制造腿",
+          "mean": 187976.97216253902,
+          "error": 189.7253412429769,
+          "provisional": true
+        },
+        {
+          "name": "BagTendril",
+          "label": "同套装：334触须＋334无底袋",
+          "mean": 187482.54877619626,
+          "error": 196.78232208374666,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "followup-raid",
+      "mode": "raid",
+      "stage": "followup",
+      "label": "追加：H3／H10与当前制造肩选择",
+      "baseline": 222998.99286120402,
+      "stderr": 95.2929969995936,
+      "iterations": 6011,
+      "seed": 36102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Shoulder_HM",
+          "label": "331普通制造肩：急速精通，保留现有头胸手腿四件",
+          "mean": 223700.21596640893,
+          "error": 187.18952584994258,
+          "provisional": false
+        },
+        {
+          "name": "H10_tendril",
+          "label": "H10触须334替现有321毒液，保留无底袋",
+          "mean": 225540.1430133736,
+          "error": 178.3240004596578,
+          "provisional": true
+        },
+        {
+          "name": "Shoulder_CH",
+          "label": "331普通制造肩：暴击急速，保留现有头胸手腿四件",
+          "mean": 224727.4710485806,
+          "error": 185.59686148451902,
+          "provisional": false
+        },
+        {
+          "name": "Shoulder_CM",
+          "label": "331普通制造肩：暴击精通，保留现有头胸手腿四件",
+          "mean": 223780.77304736085,
+          "error": 185.2047671285057,
+          "provisional": false
+        },
+        {
+          "name": "H3_complete",
+          "label": "H3盾334＋已有匕首升334＋腕披双奥纹",
+          "mean": 226540.41582227862,
+          "error": 188.52508397869326,
+          "provisional": false
+        },
+        {
+          "name": "Craft_shield_complete",
+          "label": "331普通制造盾＋已有匕首升334＋腕披双奥纹",
+          "mean": 226145.42437865262,
+          "error": 187.8141447225393,
+          "provisional": false
+        },
+        {
+          "name": "Shoulder_H7",
+          "label": "H7神话334游魂护肩化生；需获取",
+          "mean": 223652.6418082899,
+          "error": 183.31541325476567,
+          "provisional": false
+        },
+        {
+          "name": "H3_owned_dagger",
+          "label": "H3盾334＋背包已有匕首331，不迁移第二美化",
+          "mean": 223535.42960849128,
+          "error": 183.50478642783406,
+          "provisional": false
+        },
+        {
+          "name": "H3_dagger334",
+          "label": "H3盾334＋已有匕首升334，不迁移第二美化",
+          "mean": 224626.04275374458,
+          "error": 185.6990778889393,
+          "provisional": false
+        },
+        {
+          "name": "H3_H10_complete",
+          "label": "H3与H10两目标均获取＋334匕首＋双奥纹",
+          "mean": 229423.05063828637,
+          "error": 187.81403682407463,
+          "provisional": false
+        },
+        {
+          "name": "Shoulder_CH_H10",
+          "label": "331暴击急速普通制造肩＋H10触须334",
+          "mean": 227348.29800673178,
+          "error": 179.55734053771454,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "followup-dungeon",
+      "mode": "dungeon",
+      "stage": "followup",
+      "label": "追加：H3／H10与当前制造肩选择",
+      "baseline": 672836.8343956887,
+      "stderr": 559.5318253521289,
+      "iterations": 6011,
+      "seed": 36102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Shoulder_HM",
+          "label": "331普通制造肩：急速精通，保留现有头胸手腿四件",
+          "mean": 676684.5102641245,
+          "error": 1089.197243415404,
+          "provisional": true
+        },
+        {
+          "name": "H10_tendril",
+          "label": "H10触须334替现有321毒液，保留无底袋",
+          "mean": 687042.1537744314,
+          "error": 1137.2771995274002,
+          "provisional": true
+        },
+        {
+          "name": "Shoulder_CH",
+          "label": "331普通制造肩：暴击急速，保留现有头胸手腿四件",
+          "mean": 679109.091327136,
+          "error": 1117.0112093369605,
+          "provisional": true
+        },
+        {
+          "name": "Shoulder_CM",
+          "label": "331普通制造肩：暴击精通，保留现有头胸手腿四件",
+          "mean": 675862.7259804279,
+          "error": 1106.4277215692673,
+          "provisional": true
+        },
+        {
+          "name": "H3_complete",
+          "label": "H3盾334＋已有匕首升334＋腕披双奥纹",
+          "mean": 682487.0658821354,
+          "error": 1109.7777558291536,
+          "provisional": true
+        },
+        {
+          "name": "Craft_shield_complete",
+          "label": "331普通制造盾＋已有匕首升334＋腕披双奥纹",
+          "mean": 681836.5852480598,
+          "error": 1124.6291172027018,
+          "provisional": true
+        },
+        {
+          "name": "Shoulder_H7",
+          "label": "H7神话334游魂护肩化生；需获取",
+          "mean": 674441.1287482772,
+          "error": 1107.2339680022867,
+          "provisional": true
+        },
+        {
+          "name": "H3_owned_dagger",
+          "label": "H3盾334＋背包已有匕首331，不迁移第二美化",
+          "mean": 673709.0383770189,
+          "error": 1117.6068080440477,
+          "provisional": true
+        },
+        {
+          "name": "H3_dagger334",
+          "label": "H3盾334＋已有匕首升334，不迁移第二美化",
+          "mean": 677606.3976777045,
+          "error": 1101.4934513971023,
+          "provisional": true
+        },
+        {
+          "name": "H3_H10_complete",
+          "label": "H3与H10两目标均获取＋334匕首＋双奥纹",
+          "mean": 697781.0184732737,
+          "error": 1145.7523580987806,
+          "provisional": true
+        },
+        {
+          "name": "Shoulder_CH_H10",
+          "label": "331暴击急速普通制造肩＋H10触须334",
+          "mean": 693103.7460377344,
+          "error": 1142.1235044810712,
+          "provisional": true
+        }
+      ]
+    },
+    {
+      "key": "followup-target-raid",
+      "mode": "raid",
+      "stage": "followup-target",
+      "label": "追加：未来成型套装的制造肩替代",
+      "baseline": 234097.217235222,
+      "stderr": 94.76790032516755,
+      "iterations": 6011,
+      "seed": 37102026,
+      "model": "Patchwerk",
+      "targets": 1,
+      "seconds": 240.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。",
+      "results": [
+        {
+          "name": "Shoulder_HM",
+          "label": "成型套装改331普通制造肩急速精通，保留头胸手腿四件",
+          "mean": 233792.75056601875,
+          "error": 183.52681607727894,
+          "provisional": false
+        },
+        {
+          "name": "Shoulder_CH",
+          "label": "成型套装改331普通制造肩暴击急速，保留头胸手腿四件",
+          "mean": 233489.00023320317,
+          "error": 180.8997065727111,
+          "provisional": false
+        },
+        {
+          "name": "Shoulder_CM",
+          "label": "成型套装改331普通制造肩暴击精通，保留头胸手腿四件",
+          "mean": 233891.00379618118,
+          "error": 180.7006530697059,
+          "provisional": false
+        },
+        {
+          "name": "Keep_321",
+          "label": "成型套装暂用已有321肩，其余配置不变",
+          "mean": 232831.15387089545,
+          "error": 181.5052708770657,
+          "provisional": false
+        },
+        {
+          "name": "Other_334",
+          "label": "另获现有同来源272252神话334肩并化生",
+          "mean": 234172.7575247942,
+          "error": 181.71355679640843,
+          "provisional": false
+        }
+      ]
+    },
+    {
+      "key": "followup-target-dungeon",
+      "mode": "dungeon",
+      "stage": "followup-target",
+      "label": "追加：未来成型套装的制造肩替代",
+      "baseline": 711013.4064450779,
+      "stderr": 560.4120223445543,
+      "iterations": 6011,
+      "seed": 37102026,
+      "model": "Patchwerk",
+      "targets": 5,
+      "seconds": 90.0,
+      "note": "大米用导出当前天赋，团本用保存的“单体”天赋；同批种族／天赋不变。小幅差异需结合误差；不同批次绝对DPS不能横比。元素萨不支持DungeonSlice／DungeonRoute，原批次已弃用；本批为支持的固定目标Patchwerk，不是实际大米路线。H10手／虫群戒AOE未分摊假设及触须新目标节奏仍待实战验证。",
+      "results": [
+        {
+          "name": "Shoulder_HM",
+          "label": "成型套装改331普通制造肩急速精通，保留头胸手腿四件",
+          "mean": 709864.4219416229,
+          "error": 1116.3414471511128,
+          "provisional": true
+        },
+        {
+          "name": "Shoulder_CH",
+          "label": "成型套装改331普通制造肩暴击急速，保留头胸手腿四件",
+          "mean": 711645.4344947394,
+          "error": 1120.023309945861,
+          "provisional": true
+        },
+        {
+          "name": "Shoulder_CM",
+          "label": "成型套装改331普通制造肩暴击精通，保留头胸手腿四件",
+          "mean": 711715.7023623014,
+          "error": 1116.9386537607727,
+          "provisional": true
+        },
+        {
+          "name": "Keep_321",
+          "label": "成型套装暂用已有321肩，其余配置不变",
+          "mean": 707681.8620677365,
+          "error": 1106.443237653055,
+          "provisional": true
+        },
+        {
+          "name": "Other_334",
+          "label": "另获现有同来源272252神话334肩并化生",
+          "mean": 712263.1549990989,
+          "error": 1127.302653207779,
+          "provisional": true
+        }
+      ]
+    }
+  ],
+  "conclusions": [
+    "09:57导出为2枚R币、7枚晋升毒液石、2枚潮汐火花、7次化生。后续确认H3无底袋由R获得、H7从未R、H10本周已经R过。H10发生时间与09:57余额先后未知，不能直接再扣一枚，也不能把2枚当作已确认当前余额。H10结果未知，不据此排除手套或戒指。",
+    "本周剩余路线改为H3优先、其他币尽量保留；H10本周已用，不再安排，10月29日重置后再看触须。H3的神话轨道套肩和盾都能解决缺口：肩321→神话肩有价值，头胸手腿四件334仍保留。前提是H3本周仍有资格，且实际预览含职业肩兑换物；历史R袋日期未知，不能默认H3本周一定还能R。",
+    "H3的1/2只能是条件模型：实际剩余恰为肩兑换物270924、盾268196、智力锤268210、鞋268258四项且等权时，肩或盾合计2/4=50%，盾单独1/4=25%。当前没有完整角色R预览或权重证据，不把条件算术写成已核实概率；普通掉落表含肩token也不等于可R。",
+    "当前真实装备的无消耗品属性快照：暴击24.9%、急速17.0%、精通72.8%、全能1.9%。对照本次刷新高分大米页面的25.2%／20.2%／64.0%／2.7%，暴击已接近、精通偏多而急速偏少，全能已经低；网站未确认完全同口径，不把这些数值当硬阈值。新做制造肩可优先已测暴击急速，不需要为了对齐网站马上全部重造。",
+    "当前五件套装，肩膀321为英雄6/6；四件套已满足，第五件没有额外套装奖励。头／胸／手／腿均334：可先保留四件334，把弱肩换更好的散件，或取神话肩化生后再评估制造腿。不得先拆成三件套。",
+    "确认仅虫群戒有一个现有空孔；头部缺附魔、虫群戒缺附魔。腕／腰本次完整tooltip无孔，不凭bonus编号或制造部位推断插槽。先补这三处，不重插全部宝石。",
+    "背包331简斯拉泽＋321风暴庇护直接替现装法杖并非提升：本次补齐基准对照团本-0.87%／大米-1.02%。换武器会同时失去法杖仪式石，不能把不完整转换当作一手盾毕业强度。",
+    "未来获取334触须替321毒液，在当前装备的5目标90秒支持模型约+2.05%；这不是整场大米收益。DungeonSlice已被元素萨模块明确判定不支持，旧结果全部弃用；不得用旧约6%的结果决定花币或重造。",
+    "高分样本与踏风不同：元素萨制造腕很普遍，制造戒／腰／腿也常见；不是默认照抄踏风腕＋鞋。双奥纹在样本中常见，但当前仪式石＋奥纹的合法组合不能仅因使用率低就认定必须重做。",
+    "制造属性必须同时清理旧missive bonus；原导出的crafted_stats可能与最终有效属性不符。所有重造保留或明确迁移美化，最多两个输出美化；钥匙链没有被当作第三份DPS美化收益。",
+    "制造肩不是高手常规部位：17:17单独抓取的大米800日志／160角色约1.4%、团本896日志／450角色约1.8%；没有与15:21旧样本混合。对你当前321第五件套肩，331普通暴击急速制造肩保留头胸手腿四件，补测团本约+0.78%、5目标90秒约+0.93%。属于可确定补短板的过渡，不需要把奥纹移到肩。",
+    "制造肩也在成型戒指／饰品／急速合剂下单独复测：最佳制造属性与H7来源334肩约0.1%量级差异，近似误差内可保留制造替代路线；不因制造肩使用率低就认为不能穿，也不把过渡的暴击急速写成所有成型组合固定属性。",
+    "H3神话334盾有长期配装价值，但不是必须消耗R币才能补齐。补测同为334匕首＋腕披双奥纹时，334掉落盾对331普通制造盾仅团本约+0.17%、5目标约+0.10%，多目标差异接近误差。若盾和肩都能用制造或其他来源补齐，可以不R H3并留币；仅制造盾并不自动消除神话套肩的价值。本次未单独测H3原生套肩，不能冒用H7化生肩的精确收益。",
+    "大米参考成型候选：制造暴击急速＋急速合剂；保留已有334套腿；咆哮奴役玺戒／一瓶肮脏的烈性毒液／扭曲恐兽触须。简斯拉泽334＋毒痕鳞甲盾334；保留H8胸／H10手特效。6000次同批对原装约+8.52%，对补齐现装约+6.11%。只代表固定5目标90秒，不能外推实际钥石路线。",
+    "团本成型候选：制造暴击急速＋急速合剂；保留已有334套腿；顶级蛮兵爪戒／一瓶肮脏的烈性毒液／扭曲恐兽触须。简斯拉泽334＋毒痕鳞甲盾334；保留H8胸／H10手特效。6000次同批对原装约+7.75%，对补齐现装约+4.95%。只代表240秒单目标。",
+    "保留已有334套腿是正式候选，不强行追制造腿。最终戒指／饰品／合剂不变的独立复核若近似误差内，优先不花火花；制造位置也按最终组合复核，不拿旧基准的腿部单件结果代替。神话肩化生不是更换制造腿之前的已完成事实。",
+    "现有331制造腰先保留，不能把元素萨直接套成踏风的鞋腰组合。仪式石仍在法杖时，单把它搬成第二奥纹并无明确收益；等单手盾和制造配套一并成立再迁移，避免先拆法杖收益。",
+    "大暴击戒若指斯索拉克的顶级蛮兵爪戒268252，值得列为H3之后的条件次选，不是已有双戒334就没用。同334参考属性为338暴击／67急速，对比邪恶戒73暴击／332精通，可替邪恶戒、保留虫群戒；附魔与宝石另行核对。已有团本成型基准6000次复测约+0.97%，不是当前装备立即提升的承诺；大米最终联合候选仍选251136，不把它写成所有场景唯一毕业。实际R池、历史、资格及余额未知前不默认追加一枚预算。",
+    "饰品按阶段区分：成型的334毒液＋触须在5目标40秒对照里，改毒液＋无底袋约-3.84%，改触须＋无底袋约-4.14%；8目标40秒改触须＋无底袋约-3.97%。这是完整目标套装的短战斗参考，现有321毒液不等同目标334毒液；无底袋继续保留作不同战斗／配装备选，不据此报废。",
+    "若凑齐10石但还没转单手盾，当前已测5目标90秒中法杖331→337约+1.35%，高于项链／无底袋；但英雄321毒液热更终点未知，未纳入。近期准备转匕首盾时应先等路线明确，避免把10石投给将换下的法杖。",
+    "若凑齐10石但还没转单手盾，当前已测团本中法杖331→337约+1.50%，高于项链／无底袋；但英雄321毒液热更终点未知，未纳入。近期准备转匕首盾时应先等路线明确，避免把10石投给将换下的法杖。",
+    "未来目标套装大米10石选择：10石：目标武器升341，相对本批约+1.09%；领先次选超过本批近似误差。不等同今天可以花，必须先凑齐10石、确认目标可达与游戏预览。",
+    "未来目标套装团本10石选择：10石：目标武器升341，相对本批约+1.08%；领先次选超过本批近似误差。不等同今天可以花，必须先凑齐10石、确认目标可达与游戏预览。"
+  ],
+  "elite_samples": {
+    "retrieved_at": "2026-10-23；冻结15:21快照，不混合刷新比例",
+    "mythic_plus": {
+      "logs": 800,
+      "characters": 160,
+      "period": "最近两周，+22至+24，100%先知"
+    },
+    "raid": {
+      "logs": 900,
+      "characters": 473,
+      "period": "最近三周，神话全首领，100%先知"
+    },
+    "note": "逐物品边际频率，不等于同一整套同时使用率或个人BiS；窗口跨版本／热更。同名套装不能判定化生前驱。双奥纹组合出现率大米78.6%／团本83.4%，并不证明奥纹一定放在特定部位。",
+    "items": [
+      {
+        "slot": "主手",
+        "id": 271092,
+        "mythic_plus": 91.5,
+        "raid": 83.2
+      },
+      {
+        "slot": "主手制造法杖",
+        "id": 245770,
+        "mythic_plus": 1.1,
+        "raid": 8.0
+      },
+      {
+        "slot": "副手盾",
+        "id": 268196,
+        "mythic_plus": 57.5,
+        "raid": 44.3
+      },
+      {
+        "slot": "制造盾",
+        "id": 237831,
+        "mythic_plus": 10.8,
+        "raid": 7.1
+      },
+      {
+        "slot": "无底袋",
+        "id": 270164,
+        "mythic_plus": 84.4,
+        "raid": 81.9
+      },
+      {
+        "slot": "毒液",
+        "id": 273796,
+        "mythic_plus": 63.5,
+        "raid": 66.3
+      },
+      {
+        "slot": "触须",
+        "id": 281215,
+        "mythic_plus": 30.8,
+        "raid": 21.8
+      },
+      {
+        "slot": "制造腕",
+        "id": 244584,
+        "mythic_plus": 92.0,
+        "raid": 81.9
+      },
+      {
+        "slot": "制造戒",
+        "id": 240949,
+        "mythic_plus": 55.6,
+        "raid": 43.4
+      },
+      {
+        "slot": "制造腰",
+        "id": 244581,
+        "mythic_plus": 41.0,
+        "raid": 33.4
+      },
+      {
+        "slot": "制造腿",
+        "id": 244582,
+        "mythic_plus": 17.6,
+        "raid": 25.8
+      },
+      {
+        "slot": "制造鞋",
+        "id": 244577,
+        "mythic_plus": 11.1,
+        "raid": 24.2
+      },
+      {
+        "slot": "制造披风",
+        "id": 239656,
+        "mythic_plus": 24.5,
+        "raid": 29.7
+      },
+      {
+        "slot": "洛阿戒",
+        "id": 251513,
+        "mythic_plus": 28.7,
+        "raid": 11.3
+      }
+    ]
+  },
+  "routes": [
+    {
+      "boss": "立即：补齐实装与保留现有资源",
+      "priority": "先做",
+      "targets": [],
+      "excluded": [],
+      "spec": "元素",
+      "note": "头部附魔、虫群戒附魔和一个现有空孔；7石不足一次晋升，不提前花。腰／腕已有331，不照抄踏风做鞋腰。",
+      "stop": "保留原装与原宝石，先确认价格；先不为小幅重造或低装等盾浪费金币。"
+    },
+    {
+      "boss": "H3／迷失探险者：盾或套装肩",
+      "priority": "本周剩余首选／条件规划最多1币",
+      "targets": [
+        268196,
+        271481,
+        268210,
+        268258,
+        270164
+      ],
+      "excluded": [
+        270164
+      ],
+      "spec": "元素；未证实恢复能缩池",
+      "note": "盾和神话套肩都是有效目标：现肩321，头胸手腿334仍保四件。肩通过职业兑换物270924获取，列表展示成品271481，但token可R资格仍须实机预览。无底袋已确认由R取得，排除限对应英雄池尚未耗尽／重置。若实际剩余恰为肩、盾、锤、鞋且等权，则肩或盾2/4=50%，盾单独25%；不是已核实概率。",
+      "stop": "先确认当前至少1币及H3本周仍有资格，历史R袋日期未知。拿到肩后先别制造肩；拿到盾后再完成匕首升级／第二奥纹配套。若肩和盾都已有满意替代，可留币，不为了清池追加。"
+    },
+    {
+      "boss": "H10／基希克斯：本周已R，下周再看触须",
+      "priority": "本周不可再安排／10月29日后复核",
+      "targets": [
+        281215,
+        281238,
+        281029
+      ],
+      "excluded": [],
+      "spec": "元素；当前角色奖励预览为准",
+      "note": "用户确认本周已经R过H10，结果未知；本周不再分配H10币，也不把未知结果写成手套或戒指排除。触须补测相对补齐现装5目标90秒约+2.11%、团本约+1.14%，仅为模型结果。尚无切恢复缩池的可靠依据。",
+      "stop": "10月29日重置后，先确认本次R结果、实际剩余池及可用币，再决定一枚追触须；拿到目标或实际池不含目标就停止。09:57的2币快照不视为最新余额。"
+    },
+    {
+      "boss": "已有331简斯拉泽升级＋盾牌来源",
+      "priority": "先改善配套，不重复追武器",
+      "targets": [
+        271092,
+        268196,
+        268262,
+        237831
+      ],
+      "excluded": [],
+      "spec": "元素",
+      "note": "331匕首已在背包且是神话5/6，先看升334所需资源；盾牌来自实际掉落／低保或331制造。低盾直接配匕首未必胜过法杖。",
+      "stop": "匕首无需因未装备而当作未拥有；只有具备整套收益和资源时才迁移法杖仪式石。"
+    },
+    {
+      "boss": "H7肩／制造肩与保留四件套",
+      "priority": "不默认投入币追肩",
+      "targets": [
+        271481,
+        268231,
+        244580
+      ],
+      "excluded": [],
+      "spec": "元素",
+      "note": "用户确认H7从未R；1/4只是待验证估计。当前四件334加321肩，普通331制造肩可保留头胸手腿四件。H7神话肩仍是可用来源，但制造肩与大米／低保肩都能替代，不再默认新做腿或为肩清H7池。",
+      "stop": "有可用331制造肩或334神话肩后，不为极小差距专门投H7币；保留H8胸／H10手效果，不拆四件。"
+    },
+    {
+      "boss": "斯索拉克：大暴击戒顶级蛮兵爪戒",
+      "priority": "H3后条件次选／不预分配额外预算",
+      "targets": [
+        268252
+      ],
+      "excluded": [],
+      "spec": "元素；实际奖励预览为准",
+      "note": "同334为338暴击／67急速，对比现有邪恶戒73暴击／332精通，适合替邪恶戒并保留虫群戒，不能因双戒已334而否定。团本成型基准6000次单戒复测约+0.97%，不是你现装即时收益。大米成型联合方案仍保留251136替代。完整剩余池和既往R记录未知，不报命中率。",
+      "stop": "若H3仍有肩＋盾两种有效目标，先看H3；若H3已解决／无资格，或此Boss实际池更集中，可考虑这一枚。先核对余额、当周资格及历史；拿到满意戒指就停，不为清池硬花，也不虚构下周预算。"
+    },
+    {
+      "boss": "其他目标／保留币而非强行消费",
+      "priority": "不默认新增本周R",
+      "targets": [
+        240949,
+        251136,
+        273796,
+        270164
+      ],
+      "excluded": [],
+      "spec": "元素",
+      "note": "H7专追肩暂不推荐；H9尼姆瑞莎盾只是H3盾的替代，不同时排两套追盾预算。大米咆哮奴役戒和更高轨道毒液属于后续目标，池／费用／资格未完整核实，不包装成本周必R清单。斯索拉克暴击戒已单列条件次选，不是一律不R。",
+      "stop": "已有双戒334和无底袋334不代表所有同槽物品无收益，但应比较实际提升与机会成本。H3和暴击戒都没有满意机会就保留，待10月29日H10或低保更新后重排；不承诺未知囤币上限。"
+    }
+  ],
+  "limitations": [
+    "本次目标普通神话334、制造331；不借用全服顶尖玩家更高装等掉落。未来目标不是当前背包；仅神话轨道匕首331→334属于已有物品正常升级，具体纹章成本与当前4枚神话纹章是否足够需游戏预览。",
+    "当前只有7枚毒液石。341／337比较是截图规则在10月22日旧DBC上的显式装等覆盖；未确认英雄321毒液的热更终点，因此未将它的毒液石强化纳入完整排名。不得声称已搜索所有合资格当前升级。",
+    "元素萨模块明确拒绝DungeonSlice和DungeonRoute；所有旧DungeonSlice结果已隔离，不进入正文排名和建议。重跑为支持的5目标90秒Patchwerk，再以5／8目标40秒及1目标180秒检查；均不代表实际钥石路线，也不构成全路线最佳解。",
+    "触须首次新目标叠层、高低波次、目标死亡与转火均影响收益。H10套装手和虫群戒AOE在引擎中明确标记未验证、不分摊伤害假设；Rune of Unleashed Fire的目标选择也尚未验证。因此多目标推荐仍暂定，不单凭此决定两枚R币和全套重造。",
+    "当前导出先知已点烈焰武器、未点雷击结界。单手盾比较不同时改成雷击结界；武器油带if条件且烈焰武器时不生效，报告保存油字符串不等于重复灌注收益。天赋优化不是本次全球穷举范围。",
+    "同批保持个人种族／对应天赋；团本用保存的单体天赋，大米用当前导出。不能横比两个模式的绝对DPS。各profileset估计近似独立，显示95%均值误差；差值独立近似未校正多重比较，不是全局最优证明。",
+    "腕／腰未确认额外孔位，不添加假孔。未来戒指候选按具备一个合法插槽建模，实际获得的插槽／打孔资源需要核对，不把无孔装备视为已打孔。",
+    "完整候选先筛制造位置，再做属性／戒指／饰品联合优化，并非穷举所有可掉落物品和每一种宝石混搭。普通参考tooltip不代表本槽真实配置；实际参数以下载和模拟结果为准。",
+    "仅观察两／三周高分日志分布，没有逐角色完整WCL事件或新独立前五名复盘。已确认本角色H3无底袋由R获得、H7未R、H10本周已R但结果未知；当前余额、H3本周资格、肩token可R资格、完整剩余池、排除是否耗尽重置及低保仍未知。不能把沙僧H7/H8/H10记录迁移；50%仅四项等权条件算例，不是实测命中率。",
+    "未来制造腿／戒指会消耗火花和金币，当前只2火花；配方材料成本未完整核实，不承诺本周全部可做。已有334部位不为极小差距强行报废；近似误差内保留替代路线。"
+  ]
+}

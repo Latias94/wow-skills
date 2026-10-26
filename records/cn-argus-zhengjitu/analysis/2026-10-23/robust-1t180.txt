@@ -1,0 +1,210 @@
+
+DPS Ranking:
+ 188491 100.0%  Raid
+ 188491  100.0%  正极兔
+
+HPS Ranking:
+      0 100.0%%  Raid
+
+Player: 正极兔 dark_iron_dwarf shaman elemental 90
+  DPS=188491.36287187907 DPS-Error=194.64065084866607/0.10% DPS-Range=26388.75192625067/14.00%
+  DPR=649.3583175897668 RPS-Out=220.61084254783205 RPS-In=220.15687777592706 Resource=mana Waiting=0 ApM=53.06762238150802
+  Talents: CYQALMl7AwW51MWzGneuHE3tPCAAAAzMbLzMGjZZbZMmhZAAAAgFzstZmZYzwCz2MTDNzCAMbzMzYstYajZGjlZMzYMLzyMzywYmZBAYGgZmZGDDD
+  Core Stats:    strength=363|363(363)  agility=618|618(618)  stamina=49520|49520(43061)  intellect=3619|3538(3272)  spirit=0|0(0)  health=990400|990400  mana=275000|275000
+  Generic Stats: mastery=64.61%|64.61%(1079)  versatility=1.87%|1.87%(101)  leech=0.00%|0.00%(0)  runspeed=7.28%|7.28%(0)
+  Spell Stats:   power=3619|3538(0)  hit=15.00%|15.00%(0)  crit=27.00%|27.00%(1012)  haste=24.19%|20.32%(740)  speed=24.19%|20.32%  manareg=2560|2560(0)
+  Attack Stats:  power=618|618(0)  hit=7.50%|7.50%(0)  crit=27.00%|27.00%(1012)  expertise=7.50%|7.50%(0)  haste=24.19%|20.32%(740)  speed=24.19%|20.32%
+  Defense Stats: armor=2954|2954(2954) miss=3.00%|3.00%  dodge=6.23%|6.23%(0)  parry=0.00%|0.00%(0)  block=0.00%|0.00%(0) crit=0.00%|0.00%  versatility=0.94%|0.94%(101)
+  Priorities (actions.precombat):
+    snapshot_stats/flametongue_weapon,if=talent.flametongue_weapon/lightning_shield/thunderstrike_ward
+    variable,name=trinket_1_buffs,value=(trinket.1.has_use_buff|trinket.1.is.funhouse_lens)
+    variable,name=trinket_2_buffs,value=(trinket.2.has_use_buff|trinket.2.is.funhouse_lens)
+    variable,name=trinket_1_special,value=(trinket.1.is.stormbound_emblem_of_dazar|trinket.1.is.hex_lords_dooming_idol|trinket.1.is.font_of_venomous_rage)
+    variable,name=trinket_2_special,value=(trinket.2.is.stormbound_emblem_of_dazar|trinket.2.is.hex_lords_dooming_idol|trinket.2.is.font_of_venomous_rage)
+    stormkeeper
+  Priorities (actions.default):
+    spiritwalkers_grace,moving=1,if=movement.distance>6/wind_shear/blood_fury/berserking/fireblood/ancestral_call
+    use_item,name=stormbound_emblem_of_dazar,if=cooldown.ascendance.ready&(cooldown.stormkeeper.remains>15|cooldown.stormkeeper.remains<2)|fight_remains<23
+    use_item,name=hex_lords_dooming_idol,use_off_gcd=1,if=cooldown.ascendance.ready&cooldown.stormkeeper.remains>15|fight_remains<23
+    use_item,slot=trinket1,use_off_gcd=1,if=!variable.trinket_1_special&variable.trinket_1_buffs&(cooldown.ascendance.remains>trinket.1.cooldown.duration-5|cooldown.ascendance.ready&(!buff.stormkeeper.up|spell_targets.chain_lightning>=2)|fight_remains<21)
+    use_item,slot=trinket2,use_off_gcd=1,if=!variable.trinket_2_special&variable.trinket_2_buffs&(cooldown.ascendance.remains>trinket.2.cooldown.duration-5|cooldown.ascendance.ready&(!buff.stormkeeper.up|spell_targets.chain_lightning>=2)|fight_remains<21)
+    use_item,slot=main_hand,use_off_gcd=1
+    use_item,name=font_of_venomous_rage,if=!variable.trinket_1_buffs&!variable.trinket_2_buffs&!buff.ascendance.up|!buff.ascendance.up&!cooldown.ascendance.ready|fight_remains<23
+    use_item,slot=trinket1,use_off_gcd=1,if=!variable.trinket_1_special&!variable.trinket_1_buffs&(cooldown.ascendance.remains>20|trinket.2.cooldown.remains>20)
+    use_item,slot=trinket2,use_off_gcd=1,if=!variable.trinket_2_special&!variable.trinket_2_buffs&(cooldown.ascendance.remains>20|trinket.1.cooldown.remains>20)
+    lightning_shield,if=buff.lightning_shield.down/natures_swiftness/invoke_external_buff,name=power_infusion
+    potion,if=buff.bloodlust.up|cooldown.ascendance.ready|fight_remains<31/run_action_list,name=aoe,if=spell_targets.chain_lightning>=3
+    run_action_list,name=single_target
+  Priorities (actions.single_target):
+    stormkeeper,if=!buff.stormkeeper.up&!buff.tempest.up&set_bonus.mid2_4pc|!set_bonus.mid2_4pc&(cooldown.ascendance.remains>10|cooldown.ascendance.remains<gcd|fight_remains<20)
+    ancestral_swiftness
+    lightning_bolt,if=set_bonus.mid2_4pc&buff.stormkeeper.up&cooldown.ascendance.remains<2*gcd&(spell_targets.chain_lightning=1|talent.tempest)
+    flame_shock,if=!buff.master_of_the_elements.up&dot.flame_shock.refreshable&cooldown.ascendance.remains>5
+    flame_shock,target_if=min:dot.flame_shock.remains,if=!buff.master_of_the_elements.up&!buff.ascendance.up&buff.fire_elemental.up&buff.fire_elemental.remains<6*active_enemies-4
+    voltaic_blaze,if=!buff.master_of_the_elements.up&(dot.flame_shock.refreshable&cooldown.ascendance.remains>5|talent.purging_flames&spell_targets.chain_lightning=2)
+    ascendance,if=set_bonus.mid2_4pc|cooldown.stormkeeper.remains>15|fight_remains<20
+    earthquake,if=buff.flowing_elements.up&buff.overcharge_tier.up&buff.call_of_the_ancestors.stack>=3&spell_targets.chain_lightning=2
+    elemental_blast,if=buff.flowing_elements.up&buff.overcharge_tier.up
+    earthquake,if=buff.flowing_elements.up&buff.overcharge_tier.up&buff.call_of_the_ancestors.up&spell_targets.chain_lightning=2
+    earth_shock,if=buff.flowing_elements.up&buff.overcharge_tier.up
+    lava_burst,if=talent.master_of_the_elements&!buff.master_of_the_elements.up&maelstrom.deficit>15&cooldown.lava_burst.charges_fractional>1.8&((!buff.storm_elemental.up|buff.wind_gust.stack=4)+talent.call_of_the_ancestors>=spell_targets.chain_lightning)
+    lava_burst,if=talent.master_of_the_elements&!buff.master_of_the_elements.up&maelstrom.deficit>15&(maelstrom>52-5*talent.eye_of_the_storm*(1+talent.elemental_blast)+30*talent.elemental_blast)
+    lava_burst,if=talent.master_of_the_elements&!buff.master_of_the_elements.up&maelstrom.deficit>15&(maelstrom>52-5*talent.eye_of_the_storm)&buff.call_of_the_ancestors.stack>=3&spell_targets.chain_lightning=2
+    lava_burst,if=!talent.master_of_the_elements&maelstrom.deficit>15&(!buff.storm_elemental.up|buff.wind_gust.stack=4)&((cooldown.lava_burst.charges_fractional>1.8|!buff.call_of_the_ancestors.up)&(talent.molten_wrath|talent.purging_flames)|buff.lava_surge.up)
+    lava_burst,if=!buff.master_of_the_elements.up&maelstrom.deficit>15&buff.flowing_elements.up
+    lava_burst,if=!buff.master_of_the_elements.up&maelstrom.deficit>15&buff.purging_flames.up&cooldown.voltaic_blaze.remains<2&active_dot.flame_shock=2
+    tempest,if=buff.master_of_the_elements.up|!talent.master_of_the_elements
+    lightning_bolt,if=buff.stormkeeper.up&buff.master_of_the_elements.up&talent.tempest
+    earthquake,if=buff.call_of_the_ancestors.stack>=3&(buff.master_of_the_elements.up|!talent.master_of_the_elements|maelstrom.deficit<15)&spell_targets.chain_lightning=2
+    elemental_blast,target_if=min:debuff.lightning_rod.remains,if=buff.master_of_the_elements.up|maelstrom.deficit<15
+    earthquake,if=(buff.master_of_the_elements.up|!talent.master_of_the_elements|maelstrom.deficit<15)&buff.call_of_the_ancestors.up&!talent.elemental_blast&spell_targets.chain_lightning=2
+    earth_shock,target_if=min:debuff.lightning_rod.remains,if=buff.master_of_the_elements.up|maelstrom.deficit<15
+    flame_shock,target_if=min:dot.flame_shock.remains,if=buff.master_of_the_elements.up&dot.flame_shock.refreshable
+    voltaic_blaze,if=talent.crackling_fury&!buff.ascendance.up/tempest/chain_lightning,if=spell_targets.chain_lightning=2/lightning_bolt
+    flame_shock,moving=1/voltaic_blaze,moving=1/frost_shock,moving=1
+  Actions:
+    acidbrood_scourge                      Count=  13.5| 12.496sec  DPE= 10033| 0.40%  DPET=     0  DPR=    0  pDPS=  752  Miss= 0.00%  Hit=  7071|  6884|  8944  Crit= 14700| 14324| 18611|38.83%
+    ancestral_swiftness                    Count=   6.0| 30.649sec  DPE=     0| 0.00%  DPET=     0  DPR=    0  pDPS=    0
+    ascendance                             Count=   2.0|120.452sec  DPE=199067| 0.00%  DPET=182882  DPR=    0  pDPS=    0
+    elemental_blast                        Count=  24.3|  7.200sec  DPE=436803|24.90%  DPET=301815  DPR=    0  pDPS=46929  Miss= 0.00%  Hit=161469|118130|247447  Crit=519774|383273|774776|52.22%
+    elemental_blast_overload               Count=  31.9|  7.948sec  DPE= 68301| 6.43%  DPET=     0  DPR=    0  pDPS=12114  Miss= 0.00%  Hit= 31444| 20486| 55289  Crit=102148| 66026|177790|52.44%
+    fireblood                              Count=   2.0|  0.000sec  DPE=     0| 0.00%  DPET=     0  DPR=    0  pDPS=    0
+    flame_shock                            Count=  18.1| 10.160sec  DPE= 52534| 2.80%  DPET=     0  DPR=    0  pDPS= 5274  Miss= 0.00%  Hit=  3978|  3237|  5880  Crit= 12734| 10408| 19060|52.22%  TickCount=   151  MissTick= 0.00%  Tick=  2431|  1925|  4143  CritTick=  7813|  6192| 13413|52.90%  UpTime= 98.53%
+    lava_burst                             Count=  41.0|  4.344sec  DPE=166629|13.07%  DPET=142140  DPR=    0  pDPS=24635  Miss= 0.00%  Crit=108461| 81542|180357|100.00%
+    lava_burst_asc                         Count=   2.0|120.452sec  DPE=199067| 0.79%  DPET=     0  DPR=    0  pDPS= 1489  Miss= 0.00%  Crit=134037| 87332|176321|100.00%
+    lava_burst_overload                    Count=  56.2|  4.763sec  DPE= 42750| 7.08%  DPET=     0  DPR=    0  pDPS=13354  Miss= 0.00%  Crit= 42870| 27214| 87573|100.00%
+    lava_burst_overload_asc                Count=   4.5|120.452sec  DPE= 28601| 0.38%  DPET=     0  DPR=    0  pDPS=  723  Miss= 0.00%  Crit= 28602| 18945| 37692|100.00%
+    lightning_bolt                         Count=  60.2|  3.034sec  DPE= 89931|10.47%  DPET= 75777  DPR=  196  pDPS=19736  Miss= 0.00%  Hit= 25104| 16562| 76279  Crit= 79657| 53256|253504|62.34%
+    lightning_bolt_overload                Count=  79.8|  3.267sec  DPE= 23370| 5.49%  DPET=     0  DPR=    0  pDPS=10356  Miss= 0.00%  Hit=  9748|  5693| 35229  Crit= 31485| 18307|113285|62.95%
+    rune_of_unleashed_fire                 Count=  29.9|  5.873sec  DPE=  7340| 0.50%  DPET=     0  DPR=    0  pDPS=  938  Miss= 0.00%  Hit=  5639|  5490|  7133
+    rune_of_unleashed_fire_lingering       Count=  29.9|  5.873sec  DPE=  1700| 0.15%  DPET=     0  DPR=    0  pDPS=  283  TickCount=   144  MissTick= 0.00%  Tick=   353|   343|   446  UpTime= 80.22%
+    stormkeeper                            Count=   4.8| 44.169sec  DPE=     0| 0.00%  DPET=     0  DPR=    0  pDPS=    0
+    void_eruption                          Count=  18.3|  9.307sec  DPE=  7504| 0.40%  DPET=     0  DPR=    0  pDPS=  763  Miss= 0.00%  Hit=  5304|  5163|  6708  Crit= 11021| 10743| 13958|38.48%
+    voltaic_blaze                          Count=  16.1| 10.075sec  DPE= 66016| 3.14%  DPET= 59387  DPR=   88  pDPS= 5911  Miss= 0.00%  Crit= 66016| 57284| 88004|100.00%
+   primal_storm_elemental (DPS=27709.791950944647)
+    call_lightning                         Count=   4.7| 43.747sec  DPE= 32605| 0.45%  DPET= 21509  DPR=    0  pDPS= 3479  Miss= 0.00%  Hit= 23502| 20099| 33628  Crit= 48731| 41823| 69948|36.09%
+    stormfury                              Count=   4.7| 43.747sec  DPE=155909| 2.16%  DPET= 53836  DPR=    0  pDPS=16614  TickCount=    18  MissTick= 0.00%  Tick= 26889| 20723| 42624  CritTick= 55564| 42812| 85546|46.99%  UpTime= 30.91%
+    wind_gust                              Count=  13.3| 11.895sec  DPE= 25200| 0.98%  DPET= 17896  DPR=    0  pDPS= 7616  Miss= 0.00%  Hit= 18044| 14661| 27345  Crit= 37354| 30507| 56900|38.88%
+   ancestor (DPS=44316.49880167177)
+    elemental_blast                        Count=  23.7|  7.738sec  DPE= 27764| 1.94%  DPET=     0  DPR=    0  pDPS= 5369  Miss= 0.00%  Hit= 15032| 12513| 23338  Crit= 48219| 40236| 73665|38.72%
+    lava_burst                             Count= 156.6|  1.800sec  DPE= 30467|14.06%  DPET=     0  DPR=    0  pDPS=38947  Miss= 0.00%  Crit= 30578| 23512| 48572|100.00%
+   primal_fire_elemental (DPS=37382.03478783999)
+    fire_blast                             Count=  16.7|  8.690sec  DPE= 65285| 3.21%  DPET= 31066  DPR=    0  pDPS=27210  Miss= 0.00%  Hit= 45420| 34159| 64348  Crit= 93558| 70569|133764|41.27%
+    immolate                               Count=   2.0|120.468sec  DPE= 90593| 0.53%  DPET= 62650  DPR=    0  pDPS= 4530  Miss= 0.00%  Hit= 13965| 10884| 17983  Crit= 28451| 22862| 36044|37.54%  TickCount=    21  MissTick= 0.00%  Tick=  4764|     2|  7150  CritTick=  9871|     5| 14863|40.67%  UpTime=105.00%
+    meteor                                 Count=   2.0|120.452sec  DPE=112844| 0.67%  DPET=     0  DPR=    0  pDPS= 5642  Miss= 0.00%  Hit= 81384| 63492|101829  Crit=165517|133365|212272|37.40%
+
+  Constant Buffs:
+    flask_of_the_blood_knights/harandar_celebration/lightning_shield/voidtouched
+  Dynamic Buffs:
+    akilzons_rite                         : start=  3.1 refresh=  1.6 interval= 46.1 trigger= 27.3 duration= 17.7 uptime= 30.32%
+    ancestral_swiftness                   : start=  6.0 refresh=  0.0 interval= 31.2 trigger= 30.7 duration=  2.2 uptime=  2.36%  benefit=  5.16%
+    arcanoweave_insight                   : start=  3.5 refresh=  3.0 interval= 48.6 trigger= 23.8 duration= 25.8 uptime= 50.77%
+    ascendance                            : start=  2.0 refresh=  0.0 interval=120.4 trigger=120.4 duration= 15.0 uptime= 16.67%  benefit= 16.87%
+    call_of_the_ancestors                 : start=  7.9 refresh= 17.0 interval= 14.6 trigger=  7.4 duration= 15.6 uptime= 68.32%
+    debilitating_venom_Crit               : start=  0.5 refresh=  0.0 interval=121.4 trigger=121.4 duration= 15.0 uptime=  4.09%
+    debilitating_venom_Haste              : start=  0.5 refresh=  0.0 interval=121.4 trigger=121.4 duration= 15.0 uptime=  4.29%
+    debilitating_venom_Mastery            : start=  0.5 refresh=  0.0 interval=121.3 trigger=121.3 duration= 15.0 uptime=  4.22%
+    debilitating_venom_Vers               : start=  0.5 refresh=  0.0 interval=121.3 trigger=121.3 duration= 15.0 uptime=  4.06%
+    devastating_power                     : start=  1.0 refresh= 66.6 interval= 90.4 trigger=  2.7 duration=180.0 uptime= 99.98%
+    elemental_blast_critical_strike       : start=  7.0 refresh= 19.6 interval= 26.0 trigger=  6.5 duration= 21.8 uptime= 84.85%
+    elemental_blast_haste                 : start=  7.0 refresh= 19.7 interval= 26.1 trigger=  6.5 duration= 21.9 uptime= 84.77%
+    elemental_blast_mastery               : start=  7.0 refresh= 19.7 interval= 26.0 trigger=  6.5 duration= 21.9 uptime= 84.96%
+    empowering_venom_Crit                 : start=  0.5 refresh=  0.0 interval=121.3 trigger=121.3 duration= 15.0 uptime=  4.14%
+    empowering_venom_Haste                : start=  0.5 refresh=  0.0 interval=121.3 trigger=121.3 duration= 15.0 uptime=  4.19%
+    empowering_venom_Mastery              : start=  0.5 refresh=  0.0 interval=121.3 trigger=121.3 duration= 15.0 uptime=  4.22%
+    empowering_venom_Vers                 : start=  0.5 refresh=  0.0 interval=121.3 trigger=121.3 duration= 15.0 uptime=  4.12%
+    fire_elemental                        : start=  2.0 refresh=  0.0 interval=120.4 trigger=120.4 duration= 20.0 uptime= 22.22%  benefit= 28.94%
+    fireblood                             : start=  2.0 refresh=  0.0 interval=120.4 trigger=  0.0 duration=  8.0 uptime=  8.89%
+    flowing_elements                      : start=  5.8 refresh=  0.0 interval= 33.6 trigger= 33.6 duration=  4.9 uptime= 15.71%  benefit= 13.91%
+    halazzis_rite                         : start=  2.0 refresh=  0.7 interval= 55.6 trigger= 35.3 duration= 16.5 uptime= 18.65%
+    janalais_rite                         : start=  1.3 refresh=  0.2 interval= 61.6 trigger= 44.2 duration= 15.5 uptime= 11.29%
+    lava_surge                            : start= 15.2 refresh=  0.0 interval= 11.5 trigger= 11.5 duration=  1.4 uptime= 11.97%  benefit= 37.58%
+    lights_potential                      : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 duration= 30.0 uptime= 16.67%
+    master_of_the_elements                : start= 41.0 refresh=  0.0 interval=  4.3 trigger=  4.3 duration=  1.6 uptime= 36.59%  benefit= 37.55%
+    nalorakks_rite                        : start=  0.9 refresh=  0.1 interval= 61.8 trigger= 51.4 duration= 14.9 uptime=  7.76%
+    overcharge_tier                       : start= 12.6 refresh=  0.0 interval= 13.6 trigger= 13.6 duration=  1.9 uptime= 13.16%
+    purging_flames                        : start= 15.9 refresh=  0.2 interval= 10.2 trigger= 10.1 duration=  3.8 uptime= 33.31%
+    rune_of_masterful_cunning             : start=  7.0 refresh= 22.9 interval= 18.7 trigger=  5.9 duration= 22.2 uptime= 86.95%
+    soul_fang_alacrity                    : start=  5.6 refresh=  4.3 interval= 31.0 trigger= 16.5 duration= 15.7 uptime= 48.92%
+    storm_elemental                       : start=  4.8 refresh=  0.0 interval= 43.9 trigger= 44.1 duration=  9.2 uptime= 24.42%
+    stormkeeper                           : start=  4.8 refresh=  0.0 interval= 43.9 trigger= 44.1 duration=  2.9 uptime=  7.84%  benefit=  8.54%
+    venomcursed_ascendance                : start=  4.4 refresh=  2.2 interval= 37.9 trigger= 23.6 duration= 15.5 uptime= 37.75%
+    venomcursed_mastery                   : start=  4.4 refresh=  2.2 interval= 37.7 trigger= 23.6 duration= 15.5 uptime= 37.77%
+    wind_gust                             : start=  4.7 refresh=  8.5 interval= 44.3 trigger= 14.6 duration=  8.1 uptime= 21.02%
+    primal_storm_elemental-call_lightning : start=  4.7 refresh=  0.0 interval= 43.8 trigger= 43.8 duration=  7.8 uptime= 83.67%  benefit= 88.49%
+  Up-Times:
+     82.45% : Mana Cap                      
+  Procs:
+      4.27121 |  38.51037sec : Ascendance: Elemental Blast
+     10.63461 |  13.80895sec : Ascendance: Lava Burst
+      9.29688 |  15.29765sec : Ascendance: Lightning Bolt
+     26.61060 |   6.84377sec : Elemental Blast: Critical Strike
+     26.66361 |   6.84329sec : Elemental Blast: Haste
+     26.66078 |   6.83316sec : Elemental Blast: Mastery
+     15.23271 |  11.45314sec : Lava Surge
+      3.23621 |  40.40468sec : Lava Surge: During Lava Burst
+      0.01034 |   0.00000sec : Lava Surge: Wasted
+     22.88715 |   7.68602sec : Master of the Elements: Elemental Blast
+      5.21954 |  29.70173sec : Master of the Elements: Flame Shock
+     12.58810 |  13.35309sec : Master of the Elements: Lightning Bolt
+  Gains:
+       344.3 : Lava Burst              (maelstrom)    
+       182.3 : Lava Burst Overload     (maelstrom)    
+       361.4 : Lightning Bolt          (maelstrom)    
+       159.5 : Lightning Bolt Overload (maelstrom)    
+     39628.4 : Mana Regen              (mana)           (overflow=91.38%)
+        96.7 : Voltaic Blaze           (maelstrom)    
+    Pet "primal_storm_elemental" Gains:
+    Pet "ancestor" Gains:
+    Pet "primal_fire_elemental" Gains:
+  Waiting:  0.00%
+
+
+ *** Targets *** 
+
+Target: Fluffy_Pillow humanoid tank_dummy unknown 93
+  DTPS=188491.3628718789 DTPS-Error=194.6406508486661/0.10% DTPS-Range=26388.75192625074/14.00%
+  DPR=0 RPS-Out=184343.15036080312 RPS-In=0 Resource=health Waiting=0 ApM=0
+  Core Stats:    strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  health=0|33035063  mana=0|0
+  Generic Stats: mastery=0.00%|0.00%(0)  versatility=0.00%|0.00%(0)  leech=0.00%|0.00%(0)  runspeed=7.00%|7.00%(0)
+  Spell Stats:   power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%  manareg=0|0(0)
+  Attack Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00%|0.00%(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%
+  Defense Stats: armor=1470|1470(1470) miss=3.00%|3.00%  dodge=3.00%|3.00%(0)  parry=3.00%|3.00%(0)  block=0.00%|0.00%(0) crit=0.00%|0.00%  versatility=0.00%|0.00%(0)
+  Priorities (actions.precombat):
+    snapshot_stats
+  Priorities (actions.default):
+
+  Actions:
+
+  Waiting:  0.00%
+
+
+Profilesets (median Damage per Second):
+    188537.991 : VenomTendril
+    187870.585 : Craft_legs
+    187457.323 : BagVenom
+    187392.245 : BagTendril
+    181242.884 : Prepared_current
+    176619.120 : Raw_current
+
+
+Baseline Performance:
+  Networking    = enabled
+  RNG Engine    = xoshiro256+
+  Iterations    = 6011 (566, 540, 513, 470, 386, 358, 547, 552, 553, 528, 510, 488)
+  TotalEvents   = 135647965
+  MaxEventQueue = 83
+  TargetHealth  = 33035064
+  SimSeconds    = 1079820.000
+  CpuSeconds    = 954.953125
+  WallSeconds   = 20.5550676
+  InitSeconds   = 0.3180431
+  MergeSeconds  = 0.0128525
+  AnalyzeSeconds= 0.0314934
+  SpeedUp       = 1133
+  EndTime       = 2026-10-23 16:33:17+0800
+
+
+Waiting:
+    All players active 100% of the time.
+

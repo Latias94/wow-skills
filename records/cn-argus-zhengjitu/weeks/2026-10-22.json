@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-argus-zhengjitu",
+  "reset_date": "2026-10-22",
+  "observed_at": "2026-10-23T09:57:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "patch": "12.1.5",
+  "season": "Midnight Season 2",
+  "budget": {
+    "reported_balance": 2,
+    "reported_at": "2026-10-23T09:57:00+08:00",
+    "current_balance": null,
+    "current_balance_status": "unknown_after_h10_confirmation",
+    "raw_currencies": {
+      "3418": 2,
+      "3511": 0
+    },
+    "evidence": "bonus_roll_currencies=3418:2/3511:0 in full export",
+    "reconciliation_note": "H10 was confirmed rolled this week, but its timing relative to the 09:57 export is unknown. Preserve the historical two-coin balance and do not subtract the same spend twice."
+  },
+  "resources": {
+    "venomstones": 7,
+    "venomstone_item_id": 280562,
+    "tidal_sparks": 2,
+    "tidal_spark_item_id": 274476,
+    "current_catalyst_charges": 7,
+    "catalyst_currency_id": 3465,
+    "raw_upgrade_currencies": "c:2122:5/c:3442:807/c:3445:295/c:3443:1120/c:1813:3530/c:3444:728/c:3446:4"
+  },
+  "vault": {
+    "status": "unknown",
+    "candidates": [],
+    "chosen_event_id": null
+  },
+  "events": [
+    {
+      "event_id": "confirmed-h3-bag270164-history-2026-10-23",
+      "reported_at": "2026-10-23T17:19:35+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "season": "Midnight Season 2",
+      "activity": "H3 / The Lost Explorers",
+      "difficulty": "heroic",
+      "loot_spec": null,
+      "cost": 1,
+      "item_id": 270164,
+      "item_level_at_acquisition": null,
+      "bonus_ids_at_acquisition": null,
+      "outcome": "item",
+      "evidence": {
+        "source": "user",
+        "quote": "H3的话 我R过无底袋"
+      },
+      "accounting": "Historical acquisition confirmation, not a newly reported spend; retain latest exported balance of two.",
+      "budget_effect_now": 0
+    },
+    {
+      "event_id": "confirmed-h10-current-week-roll-2026-10-23",
+      "reported_at": "2026-10-23T21:04:05+08:00",
+      "occurred_at": null,
+      "reset_date": "2026-10-22",
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "season": "Midnight Season 2",
+      "activity": "H10 / Kithix",
+      "difficulty": "heroic",
+      "loot_spec": null,
+      "cost": 1,
+      "item_id": null,
+      "item_level_at_acquisition": null,
+      "bonus_ids_at_acquisition": null,
+      "outcome": "unknown",
+      "evidence": {
+        "source": "user",
+        "quote": "因为h10我已经r了，要下周才能roll到饰品"
+      },
+      "accounting": "Confirmed current-week use, not a new instruction to spend. Relation to the 09:57 balance is unknown; no duplicate deduction or item exclusion.",
+      "budget_effect_now": null
+    }
+  ],
+  "pools": [
+    {
+      "activity": "H3 / The Lost Explorers",
+      "difficulty": "heroic",
+      "loot_spec": "elemental",
+      "completeness": "incomplete",
+      "history_coverage": "partial",
+      "confirmed_roll_item_ids": [
+        270164
+      ],
+      "excluded_under_published_rule": [
+        270164
+      ],
+      "exclusion_condition": "Same activity difficulty; pool not exhausted/reset. Current reward preview has not been observed.",
+      "identified_remaining_equipment_candidate_ids": [
+        268196,
+        268210,
+        268258
+      ],
+      "unresolved_token_candidate_ids": [
+        270924
+      ],
+      "remaining_n": null,
+      "weights": null,
+      "source": "../analysis/2026-10-23/followup-pools.json"
+    },
+    {
+      "activity": "H7 / The Coiled Altar",
+      "difficulty": "heroic",
+      "completeness": "incomplete",
+      "history_coverage": "user_reports_no_prior_rolls",
+      "confirmed_roll_item_ids": [],
+      "remaining_n": null,
+      "weights": null,
+      "source": "../analysis/2026-10-23/followup-pools.json"
+    },
+    {
+      "activity": "H10 / Kithix",
+      "difficulty": "heroic",
+      "completeness": "incomplete",
+      "history_coverage": "partial_current_week_roll_confirmed_outcome_unknown",
+      "current_week_roll_eligibility": "unavailable_already_used_as_reported",
+      "confirmed_roll_item_ids": null,
+      "remaining_n": null,
+      "weights": null,
+      "source": "../analysis/2026-10-23/followup-pools.json"
+    }
+  ],
+  "rules": {
+    "raid_roll_cost": 1,
+    "exclusion_scope": null,
+    "remaining_pool_verified": false
+  },
+  "plan": {
+    "status": "proposed",
+    "analysis": "../analysis/2026-10-23/dashboard.html",
+    "venomstones_to_spend_now": 0,
+    "coins_allocated_now": 0,
+    "coins_reserved": null,
+    "reason": "H10 already rolled this week; do not schedule another attempt before next reset. Current balance is unresolved relative to the 09:57 two-coin export. H3 is the first remaining conditional target, counting both shield and shoulder token if the actual preview includes them. Save other coins rather than force a low-value roll; crafted alternatives remain available. Seven stones remain insufficient for ascension.",
+    "sequence": [
+      {
+        "action": "Complete missing head enchant, Swarmcaller ring enchant and its one confirmed empty socket.",
+        "status": "proposed"
+      },
+      {
+        "action": "Keep staff until the owned Mythic 5/6 dagger can reach 334 and a suitable shield plus embellishment transfer are available as a complete improvement.",
+        "status": "proposed"
+      },
+      {
+        "action": "Compare tier shoulder acquisition and preserve four-piece; retain existing 334 tier legs if final differences are within approximate uncertainty. Do not pre-commit a spark to crafted legs.",
+        "status": "proposed"
+      },
+      {
+        "action": "This week: inspect H3 remaining rewards and weekly eligibility. Shield and class shoulder token are both useful targets if eligible. At most one conditional coin after confirming balance; do not repeat H10. Preserve other coins, with H10 tendril reconsidered after the next reset on 2026-10-29. H7 shoulder does not receive a default coin.",
+        "status": "conditional"
+      },
+      {
+        "action": "At ten stones, recheck current weapon route and in-game hotfix item preview before choosing staff337 or future dagger341. Heroic321 venom endpoint remains unresolved.",
+        "status": "conditional"
+      }
+    ],
+    "history_update": "H3 bag270164 confirmed bonus-rolled; H7 no prior rolls confirmed. H10 rolled during the 2026-10-22 week, outcome and relation to exported balance unknown. No H10 item exclusion inferred.",
+    "conditional_allocation": [
+      {
+        "activity": "H10 / Kithix",
+        "cost": 1,
+        "target_item_id": 281215,
+        "status": "deferred_to_next_reset",
+        "earliest_reset_date": "2026-10-29",
+        "condition": "Not available this week. Next week, confirm balance, remaining pool and tendril eligibility; the current-week unknown outcome cannot establish an item exclusion."
+      },
+      {
+        "activity": "H3 / The Lost Explorers",
+        "cost": 1,
+        "target_item_id": 268196,
+        "alternative_target_item_ids": [270924],
+        "status": "proposed_conditional",
+        "condition": "Confirm current balance, unused weekly loot eligibility and actual remaining rewards. Apply bag exclusion if still active. Shoulder token eligibility remains unverified; a crafted shield alone does not remove the separate value of a shoulder upgrade. Skip if both target slots are adequately solved."
+      }
+    ],
+    "h3_probability_scenario": {
+      "status": "conditional_equal_weight_model_not_verified_probability",
+      "hypothetical_remaining_item_ids": [270924, 268196, 268210, 268258],
+      "useful_target_item_ids": [270924, 268196],
+      "useful_target_fraction_if_exact_and_equal_weight": 0.5,
+      "shield_only_fraction_if_exact_and_equal_weight": 0.25,
+      "requirements": "Actual preview must confirm exactly these four remaining outcomes, token eligibility and equal weights. The user's question is not confirmation of that preview."
+    },
+    "secondary_ring_candidate": {
+      "item_id": 268252,
+      "name": "顶级蛮兵爪戒",
+      "activity": "Heroic Sszorak / 斯索拉克; do not infer boss number",
+      "identification": "Assumed referent of the user's 大爆击的戒指; also distinguish M+ ring251136.",
+      "status": "conditional_alternative_not_allocated",
+      "planned_spend": null,
+      "replaces_item_id": 268249,
+      "retain_item_id": 281029,
+      "reason": "Same334 item level does not mean no upgrade: 338crit/67haste versus existing73crit/332mastery. A useful conditional second candidate after H3, not a required extra roll or a confirmed acquisition.",
+      "condition": "Confirm current balance, encounter weekly eligibility, selected-spec actual remaining pool and prior R exclusions. Consider especially if H3 is solved/unavailable or this ring is among very few useful remaining outcomes. Do not assume equal weights or a clean pool.",
+      "stop": "Stop after a satisfactory ring replacement; do not spend to clear filler. M+251136 and crafted ring remain alternatives. Next-week H10 must be reassessed with actual balance rather than promised an unknown budget.",
+      "evidence": "../analysis/2026-10-23/ring-roll-review.md"
+    },
+    "shoulder_alternative": {
+      "item_id": 244580,
+      "ilevel": 331,
+      "embellishment": null,
+      "status": "proposed_not_crafted",
+      "keeps_four_piece_ids": [
+        271483,
+        271486,
+        271484,
+        271482
+      ],
+      "short_term_stats": "crit_haste",
+      "full_target_stats": "Recheck by final loadout; crit/mastery near-ties permitted.",
+      "costs": "Check actual order material and gold costs; no expenditure recorded."
+    }
+  },
+  "unresolved": [
+    "H10 current-week roll outcome and timing relative to the 09:57 two-coin export; current balance unknown",
+    "H3 current-week loot eligibility and shoulder-token R eligibility; the bag acquisition date is unknown",
+    "Exact boss/difficulty/spec remaining roll reward preview",
+    "Remaining unreported bonus-roll history and exact exclusion scope; H3 bag is confirmed",
+    "Current Vault offers and claim",
+    "Exact currency costs for 331->334 dagger; exported Mythic crest currency is only 4",
+    "Post-hotfix ascension bonus data",
+    "Actual dungeon route validation for target-switching trinkets and unverified split-AOE effects"
+  ],
+  "roll_history_declarations": [
+    {
+      "reported_at": "2026-10-23T17:19:35+08:00",
+      "activity": "H7 / The Coiled Altar",
+      "difficulty": "heroic",
+      "season": "Midnight Season 2",
+      "status": "confirmed_no_prior_bonus_rolls",
+      "evidence": {
+        "source": "user",
+        "quote": "肩膀由于H7我没R过"
+      }
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "checked_at": "2026-10-23T21:40:43+08:00",
+  "source": "https://www.wowhead.com/npc=257347",
+  "boss_name_en": "Sszorak",
+  "boss_name_cn": "斯索拉克",
+  "npc_id": 257347,
+  "ordinary_drops": [
+    {
+      "id": 244343,
+      "name": "Vessel of the Howling Ossuary",
+      "displayName": "Vessel of the Howling Ossuary",
+      "slot": 0,
+      "classs": 20,
+      "subclass": 0
+    },
+    {
+      "id": 265695,
+      "name": "Elementary Voidcore Shard",
+      "displayName": "Elementary Voidcore Shard",
+      "slot": 0,
+      "classs": 12,
+      "subclass": 0
+    },
+    {
+      "id": 268201,
+      "name": "Venomous Boneglaive",
+      "displayName": "Venomous Boneglaive",
+      "specs": [
+        581,
+        1456,
+        1480,
+        577
+      ],
+      "slot": 13,
+      "classs": 2,
+      "subclass": 9
+    },
+    {
+      "id": 268206,
+      "name": "Slithering Savage's Gavel",
+      "displayName": "Slithering Savage's Gavel",
+      "specs": [
+        260,
+        268,
+        1450,
+        269,
+        263
+      ],
+      "slot": 13,
+      "classs": 2,
+      "subclass": 4
+    },
+    {
+      "id": 268233,
+      "name": "Ferocious Scaleboots",
+      "displayName": "Ferocious Scaleboots",
+      "specs": [
+        253,
+        262,
+        1468,
+        1444,
+        264,
+        1473,
+        1465,
+        1467,
+        1448,
+        254,
+        255,
+        263
+      ],
+      "slot": 8,
+      "classs": 4,
+      "subclass": 3
+    },
+    {
+      "id": 268234,
+      "name": "Ruthless Slaughtergrips",
+      "displayName": "Ruthless Slaughtergrips",
+      "specs": [
+        102,
+        1447,
+        105,
+        270,
+        1450,
+        581,
+        268,
+        1456,
+        1480,
+        577,
+        103,
+        104,
+        269,
+        259,
+        1453,
+        260,
+        261
+      ],
+      "slot": 10,
+      "classs": 4,
+      "subclass": 2
+    },
+    {
+      "id": 268252,
+      "name": "Apex Brute's Claw Ring",
+      "displayName": "Apex Brute's Claw Ring",
+      "slot": 11,
+      "classs": 4,
+      "subclass": -2
+    },
+    {
+      "id": 268257,
+      "name": "Caustic Chain-Wrapped Sash",
+      "displayName": "Caustic Chain-Wrapped Sash",
+      "specs": [
+        62,
+        1449,
+        1452,
+        256,
+        63,
+        64,
+        265,
+        257,
+        258,
+        266,
+        267,
+        1454
+      ],
+      "slot": 6,
+      "classs": 4,
+      "subclass": 1
+    },
+    {
+      "id": 270163,
+      "name": "Sszorak's Ferocity",
+      "displayName": "Sszorak's Ferocity",
+      "specs": [
+        66,
+        250,
+        251,
+        1455,
+        252,
+        72,
+        1451,
+        70,
+        71,
+        1446,
+        73
+      ],
+      "slot": 12,
+      "classs": 4,
+      "subclass": -4
+    },
+    {
+      "id": 270174,
+      "name": "Idol of the Howling Nexus",
+      "displayName": "Idol of the Howling Nexus",
+      "slot": 12,
+      "classs": 4,
+      "subclass": -4
+    },
+    {
+      "id": 270918,
+      "name": "Venomwoven Relic",
+      "displayName": "Venomwoven Relic",
+      "slot": 0,
+      "classs": 15,
+      "subclass": 0
+    },
+    {
+      "id": 270919,
+      "name": "Venomcured Relic",
+      "displayName": "Venomcured Relic",
+      "slot": 0,
+      "classs": 15,
+      "subclass": 0
+    },
+    {
+      "id": 270920,
+      "name": "Venomcast Relic",
+      "displayName": "Venomcast Relic",
+      "slot": 0,
+      "classs": 15,
+      "subclass": 0
+    },
+    {
+      "id": 270921,
+      "name": "Venomforged Relic",
+      "displayName": "Venomforged Relic",
+      "slot": 0,
+      "classs": 15,
+      "subclass": 0
+    },
+    {
+      "id": 274476,
+      "name": "Spark of Tides",
+      "displayName": "Spark of Tides",
+      "slot": 0,
+      "classs": 7,
+      "subclass": 11
+    },
+    {
+      "id": 280562,
+      "name": "Ascendant Venomstone",
+      "displayName": "Ascendant Venomstone",
+      "slot": 0,
+      "classs": 0,
+      "subclass": 8
+    },
+    {
+      "id": 280678,
+      "name": "Primordial Venom Mote",
+      "displayName": "Primordial Venom Mote",
+      "slot": 0,
+      "classs": 12,
+      "subclass": 0
+    }
+  ],
+  "R_pool_completeness": "unknown",
+  "character_history": "unknown",
+  "limitation": "Ordinary drop and live spec metadata only; not a character reward preview, probability or proof of weekly R eligibility."
+}

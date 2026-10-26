@@ -12,6 +12,14 @@ data-mode options before actor creation when required by the tested branch.
 New-raid candidates require compatible item data and implemented effects.
 An imported item that parses is not proof that its proc works correctly.
 
+Before ranking or publishing any batch, check the actor's `valid_fight_style`
+and the run's severe diagnostics. An unsupported workload is rejected evidence,
+not a usable result with a softer confidence label. Stop automatic selection,
+isolate those outputs, and rerun a supported model. In the October 23, 2026
+Elemental branch, both DungeonSlice and DungeonRoute are explicitly rejected;
+supported fixed-target Patchwerk tests can explore target count and duration,
+but must not be relabeled as a measured dungeon route or whole-key BiS.
+
 Normalize attainable gear ceilings and common comparison settings. Preserve
 relevant effect bonuses, sockets and source stats. When comparing player gear,
 keep the user's talents/race constant unless those are themselves being tested.
@@ -49,6 +57,13 @@ those counts are examples, not evidence of sufficient precision for all cases.
 Near-ties permit alternate acquisition routes. Overlapping error estimates are
 a conservative warning, not a statistical equivalence test. State whether an
 error field is a standard error or a confidence-interval half-width.
+
+After joint optimization changes rings, trinkets or consumables, recheck costly
+craft replacements against keeping the owned item in that final combination.
+An earlier single-item comparison on a different baseline cannot justify a new
+spark expenditure. Prefer the owned alternative inside approximate uncertainty
+when the user has not requested marginal gains at any cost; do not call the
+alternatives statistically equivalent.
 
 ## Stats and Artifacts
 

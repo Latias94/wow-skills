@@ -1,0 +1,182 @@
+{
+  "files": [
+    {
+      "sha256": "A11973F8474A4AF5A6F95C718A359011DA91DB15688C2BED0224451DEC462FE3",
+      "name": "bags-dungeon.json"
+    },
+    {
+      "sha256": "5B097A9EBABBB7B08CFDB6EF0774C2CCBE3CCF77A4EE45480ACD1E949E7B2DE5",
+      "name": "bags-dungeon.run.log"
+    },
+    {
+      "sha256": "04424B85ABDCA3961E6652D6B07D53CE4A788C9A9FB1D82A908194E227584DE2",
+      "name": "bags-dungeon.simc"
+    },
+    {
+      "sha256": "634BF6BC6201463C47BAAC4545CA3C981215DA6930682EF7A2A1A460B7298305",
+      "name": "bags-dungeon.txt"
+    },
+    {
+      "sha256": "96809A187E527331631AC9FDD6D9F5983B408CEA997F46A18543876B39035433",
+      "name": "current-dungeon.json"
+    },
+    {
+      "sha256": "2DD0F671E65108621DD5F805579457F447FA2531586A98F1F24E28EDC643BFB9",
+      "name": "current-dungeon.run.log"
+    },
+    {
+      "sha256": "33D2F19BC243C1C5142DA56AC04C1B0FA25071095026307EEFE24B7B60813080",
+      "name": "current-dungeon.simc"
+    },
+    {
+      "sha256": "7145963335BD760863701E48A9FFBAFBD9CA9FBFAE1A09933E0552BA2617CC2B",
+      "name": "current-dungeon.txt"
+    },
+    {
+      "sha256": "7767A8B601EB710534F03128FA2618311A01A48B2774740387CD0C446DE6AB19",
+      "name": "joint-dungeon.json"
+    },
+    {
+      "sha256": "0DF8E81AA4CA22B511378F68E4FD11B38AD8B99B528EB8B36569E842EBF232E2",
+      "name": "joint-dungeon.run.log"
+    },
+    {
+      "sha256": "0659942C18AFA4F10B263F1EEF81304FE19C05BF791CFF694F5AE43543248982",
+      "name": "joint-dungeon.simc"
+    },
+    {
+      "sha256": "90AE3E938CDF8EA81CAF4BB839E48F8B6AFB3DF0927FC657A37267C4E4519802",
+      "name": "joint-dungeon.txt"
+    },
+    {
+      "sha256": "723BB2A5FC10D6F9AD53733923DE4467B900EA30F52691FB2D7492CBAB76187F",
+      "name": "practical-dungeon.json"
+    },
+    {
+      "sha256": "60080C4E8DE146FF8562703876C0FA8953A998565D92E3CF3B5ED1C7E34CF361",
+      "name": "practical-dungeon.run.log"
+    },
+    {
+      "sha256": "D28D56A38C2006C057FF95F7C48B8D4FB49DDA35BE46C0E86B35D8EFD6D36BB7",
+      "name": "practical-dungeon.simc"
+    },
+    {
+      "sha256": "3D5BBD8ED0FBF2706F7BBA29328F02A8FA959DA096882401B5366FC4DEE05662",
+      "name": "practical-dungeon.txt"
+    },
+    {
+      "sha256": "4877414C2EAFDBDD8DEA59AC1710212DF85C6E8EAD7FC5C5FCB721C95B49197C",
+      "name": "recommended-dungeon.json"
+    },
+    {
+      "sha256": "13E240DC0495A66B3B33C7911142A397CD7B733F8AC7B0AA5356EBF7D904F513",
+      "name": "recommended-dungeon.run.log"
+    },
+    {
+      "sha256": "1C7E85FE214DF18FE9C7C860A5041CE78FA0D1FA5ABD5C3C6E7519160E34F207",
+      "name": "recommended-dungeon.simc"
+    },
+    {
+      "sha256": "8242626028FDE38E63E566A091ED03CBD56A6CCA744FCA09EA87C89039C87E97",
+      "name": "recommended-dungeon.txt"
+    },
+    {
+      "sha256": "BC3228402309DDECDBF2678D75469F227B1CFC12CF7099C3C7FFC847D8D1ABD2",
+      "name": "refine-dungeon.json"
+    },
+    {
+      "sha256": "5390FB5821C2FFB5F5FDF6E1A5DDDC47929C2DBC7C93043539567CA44B2F154B",
+      "name": "refine-dungeon.run.log"
+    },
+    {
+      "sha256": "6A4786356534A8A8AD3796058DBAED80700D7D23E61BBE016F2D107D9F1782C5",
+      "name": "refine-dungeon.simc"
+    },
+    {
+      "sha256": "89DB4787BE9F674607C9ED2190EAC0C1B66558CE8F3C28D7A2F52250D9C5BD43",
+      "name": "refine-dungeon.txt"
+    },
+    {
+      "sha256": "D76DA081ECDFB1190B82149CA9EFB7DD85EC298BDDB64EB6C3DB0AD14FEBCB0A",
+      "name": "targets-dungeon.json"
+    },
+    {
+      "sha256": "78BBD04FFFDB34CE5796A1F81F8464FE7480ABA18BC5F0A84B7CE9FB4AAE834E",
+      "name": "targets-dungeon.run.log"
+    },
+    {
+      "sha256": "D9D9A3CF1D6164F7A908510E5F78A200FDDC88230DD96D98283324CE3F665874",
+      "name": "targets-dungeon.simc"
+    },
+    {
+      "sha256": "B0CFB4C7EFEFBC44D2F90D1E59BF9AA41BEA93D3E863BEF6493137A4AC7DE27F",
+      "name": "targets-dungeon.txt"
+    },
+    {
+      "sha256": "5B7E6C87089403D87E3A17225642D16C5B73CF632590AE086F965DE9A7AFDCB3",
+      "name": "unbuffed-dungeon.json"
+    },
+    {
+      "sha256": "F857A56B731C49C8C7100E5CD8F09784BD5316756881D5F47A7BFFDED42A854A",
+      "name": "unbuffed-dungeon.run.log"
+    },
+    {
+      "sha256": "6BEB3FC8955F460F41EE12DA188AE4D081344DE0271370C2A38C9D88082C12AC",
+      "name": "unbuffed-dungeon.simc"
+    },
+    {
+      "sha256": "D54F1CA10914FE78D8B7AC21069D13B735DB9163CCEBD1CA3F5685D62FEB9FA4",
+      "name": "unbuffed-dungeon.txt"
+    },
+    {
+      "sha256": "B01DD8D0A51AC9F2607236050B7D1EA555D512A525B295F929A9E23F265E75BE",
+      "name": "upgrade-current-dungeon.json"
+    },
+    {
+      "sha256": "3A1AA44107021C267AEA9D82C568B5E3761874E483ABC0112B94333E758E48DD",
+      "name": "upgrade-current-dungeon.run.log"
+    },
+    {
+      "sha256": "BB3561864C380A56CA49A1D0B333E7A7BE411421382B6F7F72A8732F28C37D29",
+      "name": "upgrade-current-dungeon.simc"
+    },
+    {
+      "sha256": "450845E12890C575C7DF441E052C8B685A24F3439708BEE918BDC7B2A195263F",
+      "name": "upgrade-current-dungeon.txt"
+    },
+    {
+      "sha256": "33D4E8AC7D55099C11CEB4798126387B8CD9C1CDB3E2A34CC85B7AD8EE1DB846",
+      "name": "upgrade-target-dungeon.json"
+    },
+    {
+      "sha256": "005841E27385C192BB1C5F10B1D4EB2B958AE7EEFD31814B3AC9099BAA0356F8",
+      "name": "upgrade-target-dungeon.run.log"
+    },
+    {
+      "sha256": "44661BD64FDAE681709697E4991FEEA55AC2C8243D1A36E11CE0F37B1EC4D935",
+      "name": "upgrade-target-dungeon.simc"
+    },
+    {
+      "sha256": "CD7AE40BFC216E583414FFE1998A11F14448311D463FEB237D3E22BD4095BA96",
+      "name": "upgrade-target-dungeon.txt"
+    },
+    {
+      "sha256": "3E14A5F0CA61EACEC4CD1E44F7CF86EA32CE562C5193622E0E0A2D9C66313B8A",
+      "name": "verify-dungeon.json"
+    },
+    {
+      "sha256": "00BEEF830D2FE0A75F7F49E3D43597E7A3B8F7DCC1D0E7C54B99650C6454E77C",
+      "name": "verify-dungeon.run.log"
+    },
+    {
+      "sha256": "ED04DA7AC864885AAF6AB767A2EC655C5676E93DE567B9578C980B3AF61C1263",
+      "name": "verify-dungeon.simc"
+    },
+    {
+      "sha256": "76C05B37DA41156809FDBACCCAB4904A34E0C1089D5300F8C21112909F84DFB5",
+      "name": "verify-dungeon.txt"
+    }
+  ],
+  "status": "rejected",
+  "reason": "Elemental Shaman validate_fight_style rejects DungeonSlice and DungeonRoute. Results must not drive recommendations."
+}

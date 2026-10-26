@@ -1,0 +1,24 @@
+### Result
+{"onlineTooltip":true,"retryReason":"First hover raced external tooltip loading","checkedAt":"2026-10-23T13:14:08.268Z"}
+### Ran Playwright code
+```js
+await (async page => {
+  await page.context().unroute('https://**');
+  await page.setViewportSize({width:1440,height:1080});
+  await page.goto('http://127.0.0.1:8767/records/cn-argus-zhengjitu/analysis/2026-10-23/dashboard.html', {waitUntil:'load'});
+  const item=page.locator('#target-gear .item-name').first();
+  await item.hover();
+  await page.locator('.wowhead-tooltip').first().waitFor({state:'visible',timeout:15000});
+  const text=await page.locator('.wowhead-tooltip').first().innerText();
+  if (!text.trim()) throw new Error('empty online item tooltip');
+  return {onlineTooltip:true, retryReason:'First hover raced external tooltip loading', checkedAt:new Date().toISOString()};
+})(page);
+```
+### Open tabs
+- 0: (current) [正极兔 · 元素萨 · 12.1.5 第二周 装备实验室](http://127.0.0.1:8767/records/cn-argus-zhengjitu/analysis/2026-10-23/dashboard.html)
+- 1: [下载](edge://downloads-hub/)
+### Page
+- Page URL: http://127.0.0.1:8767/records/cn-argus-zhengjitu/analysis/2026-10-23/dashboard.html
+- Page Title: 正极兔 · 元素萨 · 12.1.5 第二周 装备实验室
+### Events
+- New console entries: .playwright-cli\console-2026-10-23T13-09-49-929Z.log#L3

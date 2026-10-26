@@ -1,0 +1,141 @@
+Severe: Player '正极兔' does not support fight style DungeonSlice, results are inaccurate and should not be used.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Severe: Player '正极兔' does not support fight style DungeonSlice, results are inaccurate and should not be used.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Severe: Player '正极兔' does not support fight style DungeonSlice, results are inaccurate and should not be used.
+SimulationCraft 1210-01 for World of Warcraft 12.1.5.70529 Live (hotfix 2026-10-22/70529, git build midnight 73a372b761)
+
+Simulating... ( iterations=6000, threads=12, target_error=0.000, max_time=360, vary_combat_length=0.00, optimal_raid=0, fight_style=DungeonSlice )
+
+Generating Baseline: 1/2 [....................] 63/6000 30.482 16sec
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Severe: Player '正极兔' does not support fight style DungeonSlice, results are inaccurate and should not be used.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Severe: Player '正极兔' does not support fight style DungeonSlice, results are inaccurate and should not be used.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Generating Baseline: 1/5 [....................] 131/6000 29.582 16sec
+Generating Baseline: 1/5 [>...................] 195/6000 32.355 14sec
+Generating Baseline: 1/5 [>...................] 320/6000 35.161 13sec
+Generating Baseline: 1/5 [>...................] 384/6000 36.682 12sec
+Generating Baseline: 1/5 [=>..................] 454/6000 37.834 12sec
+Generating Baseline: 1/5 [=>..................] 516/6000 38.893 11sec
+Generating Baseline: 1/5 [=>..................] 588/6000 39.988 11sec
+Generating Baseline: 1/5 [=>..................] 656/6000 40.816 10sec
+Generating Baseline: 1/5 [=>..................] 729/6000 41.328 10sec
+Generating Baseline: 1/5 [==>.................] 796/6000 41.307 10sec
+Generating Baseline: 1/5 [==>.................] 856/6000 41.484 10sec
+Generating Baseline: 1/5 [==>.................] 923/6000 41.603 10sec
+Generating Baseline: 1/5 [==>.................] 990/6000 41.724 10sec
+Generating Baseline: 1/5 [===>................] 1053/6000 41.889 9sec
+Generating Baseline: 1/5 [===>................] 1121/6000 42.355 9sec
+Generating Baseline: 1/5 [===>................] 1184/6000 42.766 9sec
+Generating Baseline: 1/5 [===>................] 1253/6000 43.215 9sec
+Generating Baseline: 1/5 [===>................] 1327/6000 43.195 9sec
+Generating Baseline: 1/5 [====>...............] 1389/6000 43.244 8sec
+Generating Baseline: 1/5 [====>...............] 1454/6000 43.430 8sec
+Generating Baseline: 1/5 [====>...............] 1518/6000 43.741 8sec
+Generating Baseline: 1/5 [====>...............] 1581/6000 44.277 8sec
+Generating Baseline: 1/5 [====>...............] 1643/6000 44.746 8sec
+Generating Baseline: 1/5 [=====>..............] 1711/6000 44.945 7sec
+Generating Baseline: 1/5 [=====>..............] 1776/6000 45.122 7sec
+Generating Baseline: 1/5 [=====>..............] 1839/6000 45.100 7sec
+Generating Baseline: 1/5 [=====>..............] 1900/6000 44.689 7sec
+Generating Baseline: 1/5 [======>.............] 1965/6000 44.402 7sec
+Generating Baseline: 1/5 [======>.............] 2027/6000 44.108 7sec
+Generating Baseline: 1/5 [======>.............] 2128/6000 42.968 7sec
+Generating Baseline: 1/5 [======>.............] 2193/6000 42.653 7sec
+Generating Baseline: 1/5 [=======>............] 2260/6000 42.505 7sec
+Generating Baseline: 1/5 [=======>............] 2334/6000 42.488 7sec
+Generating Baseline: 1/5 [=======>............] 2396/6000 42.404 7sec
+Generating Baseline: 1/5 [=======>............] 2457/6000 42.444 6sec
+Generating Baseline: 1/5 [=======>............] 2522/6000 42.525 6sec
+Generating Baseline: 1/5 [========>...........] 2587/6000 42.866 6sec
+Generating Baseline: 1/5 [========>...........] 2651/6000 43.213 6sec
+Generating Baseline: 1/5 [========>...........] 2718/6000 43.604 6sec
+Generating Baseline: 1/5 [========>...........] 2785/6000 43.934 6sec
+Generating Baseline: 1/5 [=========>..........] 2855/6000 44.358 5sec
+Generating Baseline: 1/5 [=========>..........] 2915/6000 44.634 5sec
+Generating Baseline: 1/5 [=========>..........] 2984/6000 45.013 5sec
+Generating Baseline: 1/5 [=========>..........] 3047/6000 45.272 5sec
+Generating Baseline: 1/5 [=========>..........] 3107/6000 45.518 5sec
+Generating Baseline: 1/5 [==========>.........] 3174/6000 45.796 5sec
+Generating Baseline: 1/5 [==========>.........] 3234/6000 45.984 5sec
+Generating Baseline: 1/5 [==========>.........] 3298/6000 46.127 4sec
+Generating Baseline: 1/5 [==========>.........] 3367/6000 46.259 4sec
+Generating Baseline: 1/5 [==========>.........] 3431/6000 46.318 4sec
+Generating Baseline: 1/5 [===========>........] 3499/6000 46.444 4sec
+Generating Baseline: 1/5 [===========>........] 3565/6000 46.521 4sec
+Generating Baseline: 1/5 [===========>........] 3630/6000 46.558 4sec
+Generating Baseline: 1/5 [===========>........] 3696/6000 46.638 4sec
+Generating Baseline: 1/5 [============>.......] 3757/6000 46.609 4sec
+Generating Baseline: 1/5 [============>.......] 3819/6000 46.747 3sec
+Generating Baseline: 1/5 [============>.......] 3884/6000 46.878 3sec
+Generating Baseline: 1/5 [============>.......] 3952/6000 47.002 3sec
+Generating Baseline: 1/5 [============>.......] 4019/6000 47.135 3sec
+Generating Baseline: 1/5 [=============>......] 4084/6000 47.254 3sec
+Generating Baseline: 1/5 [=============>......] 4146/6000 47.422 3sec
+Generating Baseline: 1/5 [=============>......] 4212/6000 47.609 3sec
+Generating Baseline: 1/5 [=============>......] 4272/6000 47.759 3sec
+Generating Baseline: 1/5 [=============>......] 4337/6000 47.955 2sec
+Generating Baseline: 1/5 [==============>.....] 4404/6000 48.156 2sec
+Generating Baseline: 1/5 [==============>.....] 4473/6000 48.367 2sec
+Generating Baseline: 1/5 [==============>.....] 4534/6000 48.436 2sec
+Generating Baseline: 1/5 [==============>.....] 4597/6000 48.550 2sec
+Generating Baseline: 1/5 [===============>....] 4657/6000 48.593 2sec
+Generating Baseline: 1/5 [===============>....] 4724/6000 48.621 2sec
+Generating Baseline: 1/5 [===============>....] 4784/6000 48.588 2sec
+Generating Baseline: 1/5 [===============>....] 4847/6000 48.561 1sec
+Generating Baseline: 1/5 [===============>....] 4912/6000 48.526 1sec
+Generating Baseline: 1/5 [================>...] 4977/6000 48.412 1sec
+Generating Baseline: 1/5 [================>...] 5042/6000 48.292 1sec
+Generating Baseline: 1/5 [================>...] 5102/6000 48.191 1sec
+Generating Baseline: 1/5 [================>...] 5167/6000 47.986 1sec
+Generating Baseline: 1/5 [================>...] 5231/6000 47.864 1sec
+Generating Baseline: 1/5 [=================>..] 5293/6000 47.839 1sec
+Generating Baseline: 1/5 [=================>..] 5357/6000 47.871 1sec
+Generating Baseline: 1/5 [=================>..] 5418/6000 47.949 1sec
+Generating Baseline: 1/5 [=================>..] 5478/6000 48.113     
+Generating Baseline: 1/5 [=================>..] 5538/6000 48.209     
+Generating Baseline: 1/5 [==================>.] 5609/6000 48.397     
+Generating Baseline: 1/5 [==================>.] 5672/6000 48.508     
+Generating Baseline: 1/5 [==================>.] 5741/6000 48.667     
+Generating Baseline: 1/5 [==================>.] 5805/6000 48.782     
+Generating Baseline: 1/5 [===================>] 5869/6000 48.846     
+Generating Baseline: 1/5 [===================>] 5931/6000 48.908     
+Generating Baseline: 1/5 [===================>] 5994/6000 48.972     
+Generating Baseline: 1/5 [===================>] 6000/6000 48.945 10.215 (41s)
+Profilesets (6*2): 1/4 [====>...............] avg=0s done=0.035ms left=0s     
+Profilesets (6*2): 1/4 [====>...............] avg=0s done=0.19ms left=0s     
+Profilesets (6*2): 1/4 [====>...............] avg=0s done=0.248ms left=0s     
+Profilesets (6*2): 1/4 [====>...............] avg=0s done=0.296ms left=0s     
+Severe: Player '正极兔' does not support fight style DungeonSlice, results are inaccurate and should not be used.
+Severe: Player '正极兔' does not support fight style DungeonSlice, results are inaccurate and should not be used.
+Severe: Player '正极兔' does not support fight style DungeonSlice, results are inaccurate and should not be used.
+Severe: Player '正极兔' does not support fight style DungeonSlice, results are inaccurate and should not be used.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Implementation Not Yet Verified: Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal.
+Profilesets (6*2): 4/4 [===================>] avg=8.993s done=54s left=0s     
+
+Generating reports...
+text report took 0.0043009 seconds.
+JSON report version 2.0.0 took 0.0067292 seconds.
