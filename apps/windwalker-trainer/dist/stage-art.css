@@ -1,0 +1,381 @@
+@media (min-width: 701px) {
+  .dojo {
+    grid-template-columns: clamp(280px, 22vw, 320px) minmax(0, 1fr);
+  }
+}
+
+.training-stage .stage-top {
+  display: block;
+  padding: 10px 12px;
+  background: linear-gradient(#0b1917ed, #10251cbd 70%, transparent);
+}
+
+.stage-top > div:first-child {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+}
+
+.training-stage .stage-metrics {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+  gap: 5px;
+  margin-top: 7px;
+  font-size: 9px;
+}
+
+.stage-metrics b {
+  margin-left: 3px;
+  font-size: 17px;
+}
+
+.training-stage .stage-metrics .clock {
+  grid-column: auto;
+  font-size: 20px;
+}
+
+.training-stage .stage-art {
+  inset: 0 0 20px;
+  width: auto;
+  isolation: isolate;
+  background: linear-gradient(150deg, #314239, #152b23 65%, #203025);
+}
+
+.stage-backdrop {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 60%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.training-stage .monk-sprite {
+  left: -2%;
+  bottom: 30px;
+  width: 75%;
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  aspect-ratio: 1;
+  z-index: 3;
+  filter: drop-shadow(0 7px 4px #06100d85);
+}
+
+.training-stage .training-dummy {
+  display: block;
+  left: auto;
+  right: 2%;
+  bottom: 33px;
+  width: 30%;
+  height: auto;
+  max-height: 53%;
+  object-fit: contain;
+  object-position: bottom;
+  opacity: 1;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.sprite-auras {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.sprite-fx,
+.sprite-aura {
+  position: absolute;
+  aspect-ratio: 1;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  animation: none;
+  transition: none;
+}
+
+.sprite-fx {
+  left: -9%;
+  bottom: 24px;
+  width: 106%;
+  z-index: 4;
+}
+
+.sprite-fx[data-sprite-layer^="cast:"] {
+  left: 5%;
+  width: 94%;
+}
+
+.sprite-fx[data-sprite-layer="channel:fists"] {
+  left: 12%;
+  bottom: 4px;
+  width: 100%;
+}
+
+.sprite-fx[data-sprite-layer="cast:palm"] {
+  left: 13%;
+  bottom: 4px;
+}
+
+.sprite-fx[data-sprite-layer="channel:crane"],
+.sprite-fx[data-sprite-layer="cast:stomp"] {
+  bottom: 40px;
+  transform: translateY(50%);
+}
+
+.sprite-fx[data-sprite-layer="cast:zenith"] {
+  opacity: 0.35;
+}
+
+.sprite-fx[data-sprite-layer="buff:xuen"] {
+  left: 40%;
+  bottom: 10px;
+  width: 36%;
+  z-index: 1;
+}
+
+.sprite-aura {
+  left: -6%;
+  bottom: 22px;
+  width: 89%;
+  opacity: 0.4;
+}
+
+.sprite-aura[data-sprite-layer="buff:greatJade"] {
+  left: -13%;
+  width: 110%;
+  opacity: 0.55;
+}
+
+.sprite-aura[data-fallback="true"] {
+  left: 8%;
+  bottom: 24px;
+  width: 62%;
+  height: 23%;
+  border: 1px solid #a8e6bc66;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, #83e1ad44, transparent 68%);
+  box-shadow: 0 0 20px #7adba42b;
+}
+
+.sprite-aura[data-sprite-layer="buff:greatJade"][data-fallback="true"] {
+  left: 1%;
+  width: 78%;
+  border-color: #edd68d99;
+  box-shadow: 0 0 28px #e6c57244;
+}
+
+.sprite-aura[data-sprite-layer="buff:bloodlust"][data-fallback="true"] {
+  border-color: #ed947c88;
+  background: radial-gradient(ellipse, #d9715e44, transparent 68%);
+}
+
+.stage-readout {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 5px;
+  display: grid;
+  gap: 3px;
+  color: #e7e7c9;
+  font-size: 10px;
+  line-height: 1.4;
+  text-shadow: 0 1px 4px #071510, 0 0 8px #071510;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.stage-readout small {
+  color: #b1bead;
+  font-size: 8px;
+}
+
+.training-stage .stage-overlay {
+  inset: auto 9px 46px;
+  align-items: flex-start;
+  padding: 8px;
+  border: 1px solid #9aae784a;
+  border-radius: 5px;
+  background: #0a1a14c4;
+  backdrop-filter: none;
+  text-align: left;
+  pointer-events: none;
+}
+
+.stage-overlay .overlay-seal {
+  display: none;
+}
+
+.training-stage .stage-overlay h1 {
+  margin: 0 0 3px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.training-stage .stage-overlay p,
+.training-stage .stage-overlay small {
+  max-width: none;
+  margin: 0;
+  font-size: 9px;
+  line-height: 1.6;
+}
+
+.training-stage .stage-overlay small {
+  margin-top: 3px;
+  font-size: 8px;
+}
+
+.reduced-motion .stage-art *,
+.reduced-motion .stage-art *::before,
+.reduced-motion .stage-art *::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+@media (max-width: 700px) {
+  .dojo {
+    height: calc(100dvh - 56px);
+    min-height: calc(100dvh - 56px);
+  }
+
+  .training-stage {
+    height: 124px;
+    min-height: 124px;
+    flex: 0 0 124px;
+  }
+
+  .routine-panel {
+    min-height: 200px;
+    flex-basis: 200px;
+  }
+
+  .training-stage .stage-top {
+    display: flex;
+    align-items: flex-start;
+    padding: 6px 8px;
+    gap: 5px;
+  }
+
+  .stage-top > div:first-child {
+    display: grid;
+    gap: 3px;
+  }
+
+  .training-stage .stage-metrics {
+    display: flex;
+    margin: 0;
+    gap: 9px;
+    font-size: 8px;
+  }
+
+  .stage-metrics b {
+    font-size: 12px;
+  }
+
+  .training-stage .stage-metrics .clock {
+    font-size: 18px;
+  }
+
+  .training-stage .stage-art {
+    inset: 0;
+  }
+
+  .training-stage .monk-sprite {
+    left: 20%;
+    bottom: 20px;
+    width: 30%;
+    max-width: 140px;
+  }
+
+  .training-stage .training-dummy {
+    right: 12%;
+    bottom: 22px;
+    width: 22%;
+    max-height: 60%;
+  }
+
+  .sprite-fx,
+  .sprite-fx[data-sprite-layer="channel:fists"] {
+    left: 13%;
+    bottom: 14px;
+    width: 57%;
+  }
+
+  .sprite-fx[data-sprite-layer^="cast:"] {
+    left: 26%;
+    width: 62%;
+  }
+
+  .sprite-fx[data-sprite-layer="buff:xuen"] {
+    left: 48%;
+    bottom: 0;
+    width: 26%;
+  }
+
+  .sprite-fx[data-sprite-layer="channel:crane"],
+  .sprite-fx[data-sprite-layer="cast:stomp"] {
+    bottom: 24px;
+  }
+
+  .sprite-fx[data-sprite-layer="channel:fists"],
+  .sprite-fx[data-sprite-layer="cast:palm"] {
+    bottom: 0;
+  }
+
+  .sprite-aura,
+  .sprite-aura[data-sprite-layer="buff:greatJade"] {
+    left: 12%;
+    bottom: 15px;
+    width: 58%;
+  }
+
+  .sprite-aura[data-fallback="true"],
+  .sprite-aura[data-sprite-layer="buff:greatJade"][data-fallback="true"] {
+    left: 21%;
+    bottom: 19px;
+    width: 36%;
+    height: 21%;
+  }
+
+  .stage-readout {
+    bottom: 4px;
+    gap: 1px;
+    font-size: 9px;
+  }
+
+  .stage-readout small {
+    font-size: 7px;
+  }
+
+  .training-stage .stage-overlay {
+    display: flex;
+    inset: 46px 8px auto auto;
+    width: 45%;
+    padding: 6px;
+  }
+
+  .training-stage .stage-overlay h1 {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+
+  .training-stage .stage-overlay p {
+    font-size: 8px;
+  }
+
+  .training-stage .stage-overlay small {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stage-art *,
+  .stage-art *::before,
+  .stage-art *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

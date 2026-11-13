@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#11251e" />
+    <meta
+      name="description"
+      content="沙僧的踏风练习场：熊猫人动作、实时后续拳谱、暴击分支与防断条训练。"
+    />
+    <title>踏风演武场 · 拳谱与判断</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="routine-map.css" />
+    <link rel="stylesheet" href="routine-layout.css" />
+    <link rel="stylesheet" href="stage-art.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="brand" href="#"
+        ><span class="seal">风</span
+        ><span>踏风演武场<small>WINDWALKER DOJO</small></span></a
+      ><span class="edition">沙僧 · 天神御师 <b>研究版 04</b></span>
+      <div class="header-actions">
+        <button id="source-open" class="quiet">拳谱依据</button
+        ><button id="review-open" class="quiet">复盘</button
+        ><button id="settings-open" class="quiet">设置</button>
+      </div>
+    </header>
+    <main class="dojo">
+      <section class="session-toolbar" aria-label="训练控制">
+        <label>练习<select id="scenario"></select></label
+        ><span id="scenario-description" class="scenario-description"></span>
+        <div class="session-buttons">
+          <button id="demo" class="quiet">参考演示</button
+          ><button id="start" class="primary">开始练习 ↵</button
+          ><button id="pause" class="quiet" disabled>暂停</button
+          ><button id="finish" class="quiet" disabled>结束</button>
+        </div>
+      </section>
+      <section
+        class="training-stage"
+        id="training-stage"
+        aria-label="熊猫人演武场"
+      >
+        <div class="stage-top">
+          <div>
+            <span class="eyebrow" id="target-label">单体木桩</span
+            ><span id="phase">准备就绪</span>
+          </div>
+          <div class="stage-metrics">
+            <span>怒雷 <b id="fists-count">0</b></span
+            ><span>青龙起手 <b id="jade-count">0</b></span
+            ><span class="damage-metric"
+              >核心近似伤害 <b id="damage-total">0</b></span
+            ><strong class="clock"
+              ><span id="clock">00.0</span
+              ><small id="clock-limit"> / 45s</small></strong
+            >
+          </div>
+        </div>
+        <div class="stage-art" id="arena">
+          <img
+            class="stage-backdrop"
+            data-sprite-scene="background"
+            alt=""
+            aria-hidden="true"
+            decoding="async"
+            hidden
+          />
+          <div id="jade-aura" class="sprite-auras" aria-hidden="true">
+            <div class="sprite-aura" data-sprite-layer="buff:jade" hidden></div>
+            <div class="sprite-aura" data-sprite-layer="buff:greatJade" hidden></div>
+            <div class="sprite-aura" data-sprite-layer="buff:avatar" hidden></div>
+            <div class="sprite-aura" data-sprite-layer="buff:zenith" hidden></div>
+            <div class="sprite-aura" data-sprite-layer="buff:bloodlust" hidden></div>
+          </div>
+          <div
+            id="monk-sprite"
+            class="monk-sprite"
+            role="img"
+            aria-label="熊猫武僧练习插画"
+          ></div>
+          <img
+            class="training-dummy"
+            data-sprite-scene="dummy"
+            alt="训练木桩练习插画"
+            decoding="async"
+            hidden
+          />
+          <div class="sprite-fx" data-sprite-layer="channel:crane" aria-hidden="true" hidden></div>
+          <div class="sprite-fx" data-sprite-layer="channel:fists" aria-hidden="true" hidden></div>
+          <div class="sprite-fx" data-sprite-layer="channel:conduit" aria-hidden="true" hidden></div>
+          <div class="sprite-fx" data-sprite-layer="cast:palm" aria-hidden="true" hidden></div>
+          <div class="sprite-fx" data-sprite-layer="cast:blackout" aria-hidden="true" hidden></div>
+          <div class="sprite-fx" data-sprite-layer="cast:sun" aria-hidden="true" hidden></div>
+          <div class="sprite-fx" data-sprite-layer="cast:wind" aria-hidden="true" hidden></div>
+          <div class="sprite-fx" data-sprite-layer="cast:dragon" aria-hidden="true" hidden></div>
+          <div class="sprite-fx" data-sprite-layer="buff:xuen" aria-hidden="true" hidden></div>
+          <div class="sprite-fx" data-sprite-layer="cast:zenith" aria-hidden="true" hidden></div>
+          <div class="sprite-fx" data-sprite-layer="cast:stomp" aria-hidden="true" hidden></div>
+          <div class="stage-readout">
+            <span id="sprite-status">凝神待势</span>
+            <small>熊猫武僧 · 生成练习插画</small>
+          </div>
+          <div id="floating-damage" aria-hidden="true"></div>
+          <div id="impact-label" class="impact-label" aria-hidden="true"></div>
+          <div class="stage-overlay" id="stage-overlay">
+            <span class="overlay-seal">练</span>
+            <h1>看清这一拳。</h1>
+            <p>下一键、读条与资源，都在手边。</p>
+            <small>Enter 开始 · 空格暂停 · Esc / X 主动断条</small>
+          </div>
+        </div>
+        <div class="stage-bottom">
+          <span id="encounter-note">当前天赋固定 · 场景不会自动切换天赋</span
+          ><span>动作随战斗时钟播放</span>
+        </div>
+      </section>
+      <section class="routine-panel" aria-label="爆发分支拳谱">
+        <div class="routine-heading">
+          <div>
+            <span class="eyebrow">看路线 · 读分支 · 接下一拳</span>
+            <h2 id="route-status">沿公共段推进 · 旭日结算后点亮分支</h2>
+          </div>
+          <div>
+            <button id="route-focus" class="text-button">定位当前节点</button
+            ><button id="alternatives-open" class="text-button">
+              比较候选 ↗
+            </button>
+          </div>
+        </div>
+        <div
+          id="routine-map"
+          class="routine-map"
+          aria-label="当前爆发的技能路线与旭日分支"
+        ></div>
+        <p id="route-detail" class="routine-caption">
+          实线为当前参考；虚线为条件后续。
+        </p>
+      </section>
+      <section
+        id="crit-feedback"
+        class="crit-feedback"
+        aria-label="最近一次旭日暴击分支"
+      >
+        <strong id="crit-badge">等待旭日</strong>
+        <div id="crit-parts" class="crit-parts">
+          <span>本体与晨晖分别判定</span>
+        </div>
+        <span id="crit-cooldown">暴击后重新读取怒雷冷却</span
+        ><b id="fists-ready-note">F 怒雷</b>
+      </section>
+      <section class="control-dock" aria-label="拳谱和技能操作区">
+        <div class="channel-zone">
+          <div class="channel-title">
+            <strong id="cast-label">当前没有引导</strong
+            ><span id="channel-rule"></span><b id="cast-time">—</b>
+          </div>
+          <div class="cast-track" id="cast-track">
+            <i id="cast-progress"></i>
+            <div id="cast-ticks" class="cast-ticks"></div>
+          </div>
+          <div class="channel-detail">
+            <span id="cast-effect">伤害命中与通道分开观察。</span
+            ><span id="gcd-text">公共冷却就绪</span>
+          </div>
+        </div>
+        <div class="resource-zone">
+          <div class="energy">
+            <span>能量</span>
+            <div><i id="energy-fill"></i></div>
+            <b id="energy-text">150</b>
+          </div>
+          <div class="chi">
+            <span>真气</span>
+            <div id="chi-pips"></div>
+            <span id="brew">虎酒10</span>
+          </div>
+          <div
+            id="buff-bars"
+            class="buff-bars"
+            aria-label="青龙和爆发状态"
+          ></div>
+        </div>
+        <div class="live-decision">
+          <div class="next-action">
+            <span class="eyebrow"
+              >现在这一键 <small id="planner-label">分支拳谱</small></span
+            >
+            <div>
+              <kbd id="next-key">2</kbd><strong id="next-skill">猛虎掌</strong>
+            </div>
+          </div>
+          <div class="recent-inputs">
+            <span class="eyebrow">你刚才的操作</span>
+            <ol id="recent-casts"></ol>
+          </div>
+        </div>
+        <div id="skillbar" class="skillbar" aria-label="技能栏"></div>
+        <div class="dock-footer">
+          <p id="coach-text" role="status">先看真气，再看冷却和青龙。</p>
+          <div>
+            <button class="text-button" id="spell-open">技能说明</button
+            ><button class="text-button" id="bindings-open">改键</button
+            ><button class="text-button" id="cancel">Esc 断条</button
+            ><button class="text-button" id="retry">重练节点</button
+            ><button class="text-button" id="reset">重置</button>
+          </div>
+        </div>
+      </section>
+      <p id="input-message" class="input-message" role="status">
+        默认保护怒雷，可在设置中切换裸键练习。
+      </p>
+    </main>
+    <dialog id="settings-dialog">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">把练习调到你的节奏</span>
+          <h2>训练设置</h2>
+        </div>
+        <button data-close="settings-dialog" class="quiet">关闭 ×</button>
+      </div>
+      <form id="settings-form">
+        <div class="settings-grid">
+          <label
+            >目标数<select id="targets">
+              <option value="1">单体</option>
+              <option value="2">双目标</option>
+              <option value="3">三目标</option>
+              <option value="5">五目标</option>
+              <option value="8">八目标 · 近似缩放</option>
+            </select></label
+          ><label
+            >旭日结果<select id="crit-mode">
+              <option value="random">随机</option>
+              <option value="none">固定未暴 · 含晨晖</option>
+              <option value="single">固定本体单暴</option>
+              <option value="dawn">固定晨晖单暴</option>
+              <option value="double">固定双暴</option>
+              <option value="no-dawn">未暴 · 无晨晖</option>
+            </select></label
+          ><label
+            >流速<select id="speed">
+              <option value="1">1× 实时</option>
+              <option value="0.5">0.5× 慢速</option>
+              <option value="0.75">0.75× 过渡</option>
+            </select></label
+          ><label
+            >时长<select id="duration">
+              <option value="45">45秒</option>
+              <option value="60">60秒</option>
+              <option value="120">120秒</option>
+            </select></label
+          ><label
+            >随机种子<input
+              id="seed"
+              type="number"
+              min="1"
+              value="1026" /></label
+          ><label
+            >嗜血<select id="bloodlust">
+              <option value="off">无嗜血</option>
+              <option value="on">起手嗜血40秒</option>
+            </select></label
+          ><label
+            >候选比较<select id="planner-mode">
+              <option value="apl">APL基线对照</option>
+              <option value="search">局部候选搜索 · 核心模型</option>
+            </select></label
+          ><label
+            >输入方式<select id="input-mode">
+              <option value="protected">保护宏练习</option>
+              <option value="raw">裸键 · 可剪断通道</option>
+            </select></label
+          ><label class="check"
+            ><input id="protect-crane" type="checkbox" checked />
+            怒雷防误断神鹤</label
+          ><label class="check"
+            ><input id="hints" type="checkbox" checked />
+            显示下一键与拳谱</label
+          ><label class="check"
+            ><input id="sound" type="checkbox" /> 暴击音效</label
+          ><label class="check"
+            ><input id="reduce-motion" type="checkbox" /> 减少动作与闪动</label
+          >
+        </div>
+        <p>
+          固定分支用于专项练习；候选搜索只比较当前核心模型中的有限后续，不代表完整角色的全局最优。改场景或资源设置会开始新一轮。
+        </p>
+        <button class="primary" type="submit">应用并准备新一轮</button>
+      </form>
+    </dialog>
+    <dialog id="review-dialog" class="wide-dialog">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">从判断发生的地方再练</span>
+          <h2>这一轮，哪里值得改？</h2>
+        </div>
+        <button data-close="review-dialog" class="quiet">关闭 ×</button>
+      </div>
+      <div id="review-summary" class="review-summary"></div>
+      <div id="review-findings" class="review-findings"></div>
+      <h3>拳谱路径 · 保留实际分支与偏离</h3>
+      <div id="review-route-log" class="review-route-log"></div>
+      <div id="review-map" class="routine-map"></div>
+      <h3>怒雷机会</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>冷却转好</th>
+              <th>最早合法</th>
+              <th>首次参考</th>
+              <th>实际施放</th>
+              <th>首次建议后间隔</th>
+            </tr>
+          </thead>
+          <tbody id="fists-opportunities"></tbody>
+        </table>
+      </div>
+      <p class="small-note">
+        间隔不是DPS损失；期间优先级、资源和公共冷却可能改变。
+      </p>
+      <h3>逐键复盘 · 选择一个节点重练</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>时间</th>
+              <th>你的按键</th>
+              <th>当时状态</th>
+              <th>参考与分支</th>
+              <th>重练</th>
+            </tr>
+          </thead>
+          <tbody id="review-rows"></tbody>
+        </table>
+      </div>
+      <div class="dialog-footer">
+        <button id="export" class="quiet">导出本轮 JSON</button
+        ><button id="event-open" class="text-button">查看输入和事件记录</button>
+      </div>
+    </dialog>
+    <dialog id="alternatives-dialog">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">同一状态下比较</span>
+          <h2>为什么选这一键？</h2>
+        </div>
+        <button data-close="alternatives-dialog" class="quiet">关闭 ×</button>
+      </div>
+      <p id="alternatives-note"></p>
+      <div id="alternatives-list"></div>
+    </dialog>
+    <dialog id="source-dialog">
+      <div class="dialog-heading">
+        <div>
+          <span class="eyebrow">来源与适用范围</span>
+          <h2>拳谱与模型</h2>
+        </div>
+        <button data-close="source-dialog" class="quiet">关闭 ×</button>
+      </div>
+      <p>
+        固定沙僧当前天赋与装备参考，SimC 73a372b /
+        12.1.5.70529。普通场景截取300秒木桩前段；波次场景为公开的合成训练，不是具体副本路线。
+      </p>
+      <p>
+        伤害取个人报告非暴击参考值，缺少完整宠物、饰品及部分被动。拳谱保留未暴、单暴、双暴的条件走法。已选分支由实际结果确认；候选搜索用于核心模型内比较，不能对标WCL或输出精确DPS损失。
+      </p>
+      <p>
+        当前按SimC取消模型：结束天神立即触发大青龙。国服伪打断、神鹤接怒雷掉跳与天神内免费踏等攻略差异仍待实服日志核验。乾元参考调度等待白虎公共冷却结束。
+      </p>
+      <a id="policy-source" target="_blank" rel="noreferrer"
+        >查看固定APL源码 ↗</a
+      >
+      <details id="simc-evidence">
+        <summary>查看实际跑过的 SimC 分支样例</summary>
+        <p>
+          固定 SimC
+          12.1.5.70529，64个自然随机种子；单次300秒模拟，查看前45秒。默认APL含宠物、装备触发与延迟，因此时间不会与训练器完全相同。
+        </p>
+        <label>选择实际路径<select id="simc-sample-picker"></select></label>
+        <div id="simc-sample-detail"></div>
+      </details>
+      <details>
+        <summary>查看原图（不同天赋与触发假设）</summary>
+        <div id="reference-images"></div>
+      </details>
+      <p class="small-note">
+        Wowhead图标和中文资料为本地快照。用户原图来自NGA讨论；图片次数不是合格线。
+      </p>
+    </dialog>
+    <dialog id="spell-dialog">
+      <div class="dialog-heading">
+        <h2>技能说明</h2>
+        <button data-close="spell-dialog" class="quiet">关闭 ×</button>
+      </div>
+      <label>查看技能<select id="spell-picker"></select></label>
+      <div id="spell-detail"></div>
+    </dialog>
+    <dialog id="bindings-dialog">
+      <div class="dialog-heading">
+        <h2>熟悉的按键</h2>
+        <button data-close="bindings-dialog" class="quiet">关闭 ×</button>
+      </div>
+      <p>八个动态按钮；Esc / X 主动断条，空格暂停。键位只存本浏览器。</p>
+      <form id="bindings-form">
+        <div id="binding-fields" class="settings-grid"></div>
+        <p id="binding-error"></p>
+        <button class="primary" type="submit">保存</button>
+      </form>
+    </dialog>
+    <dialog id="event-dialog" class="wide-dialog">
+      <div class="dialog-heading">
+        <h2>战斗与输入记录</h2>
+        <button data-close="event-dialog" class="quiet">关闭 ×</button>
+      </div>
+      <ol id="event-log"></ol>
+    </dialog>
+    <div id="spell-tooltip" class="spell-tooltip" role="tooltip" hidden></div>
+    <div id="live-announcement" class="sr-only" aria-live="polite"></div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
