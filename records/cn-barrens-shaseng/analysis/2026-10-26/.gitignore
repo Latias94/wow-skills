@@ -1,0 +1,12 @@
+# Only redundant simulation outputs remain local. WCL text is source evidence.
+/*.run.log
+/gear-*.txt
+/__pycache__/
+/*.py[cod]
+
+# Keep every input, validation, finalist, static snapshot and WCL response.
+/gear-screen-*.json
+/gear-smoke-*.json
+/gear-elite-smoke-*.json
+/gear-compat341-smoke-*.json
+!/*.validation.json

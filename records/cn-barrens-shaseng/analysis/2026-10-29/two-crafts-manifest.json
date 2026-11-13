@@ -1,0 +1,15 @@
+{
+  "updated_at": "2026-10-29T20:57:22.989556+08:00",
+  "scope": "Two additional crafted gear purchases allowed; no assumed current H7 loot, new bags or talent adoption.",
+  "confirmed_resources": "User says sufficient sparks; exact count, crests, current crafted level changes not provided.",
+  "cases": {
+    "baseline": "Redeemed shoulder modeled as Catalyst334; H7 legs and belt not assumed acquired.",
+    "belt_cm": "One new331 CM ordinary belt.",
+    "belt_hm": "One new331 HM ordinary belt.",
+    "belt_legs_cm_oldhands": "Two new331 CM crafts. Requires still owning the old321 tier gloves; no current bag claim.",
+    "belt_legs_hm_oldhands": "New331 CM belt and HM legs. Requires old321 tier gloves for four-piece.",
+    "belt_loa": "Two new331 crafts: CM belt+Loa ring. Remove cloak lining, retain wrist lining, so exactly two embellishments.",
+    "belt_legs_hm_gloves334": "Conditional future334 tier gloves with same precursor272241. Not an owned item."
+  },
+  "engine": "Same Live70575 binary and controls as personal-study.py"
+}

@@ -1,0 +1,396 @@
+{
+  "checked_at": "2026-11-13T17:04:17.902762+08:00",
+  "status": "passed_with_documented_reproduction_limits",
+  "date": "2026-11-10",
+  "json_files_parsed_before_receipt": 187,
+  "python_syntax_checked": [
+    "assemble-report.py",
+    "build-report.py",
+    "personal-study.py"
+  ],
+  "javascript_syntax_checked": [],
+  "inline_report_scripts_syntax_checked": 1,
+  "native_results": {
+    "total": 91,
+    "archived": 41,
+    "local_only": 50,
+    "existing_acceptance_counts": {
+      "true": 90,
+      "unknown": 1
+    },
+    "all_measurements_and_result_hashes_match_summary": true
+  },
+  "retention_guards": {
+    "all_existing_simc_inputs_retained": true,
+    "all_existing_validation_records_retained": true,
+    "ignored_json_contains_native_simulation_data_only": true,
+    "ignored_text_has_matching_native_result": true
+  },
+  "dependency_check": {
+    "required_report_builder_files": [
+      "report-data.json",
+      "elite-evidence.json",
+      "item-icons.json",
+      "candidate-tooltips.json",
+      "../../snapshots/2026-11-10-2203.items.json",
+      "../2026-10-29/report-data.json",
+      "live70783-slice-current-6000-26111029.validation.json",
+      "live70783-slice-legs_h7-6000-26111029.validation.json",
+      "live70783-slice-legs_delve-6000-26111029.validation.json",
+      "live70783-slice-bag_gloves_hm-6000-26111029.validation.json",
+      "live70783-slice-ring_268249-6000-26111029.validation.json",
+      "live70783-slice-ring_268252-6000-26111029.validation.json",
+      "live70783-slice-owned_h5_prepared-6000-26111029.validation.json",
+      "live70783-slice-core_h7-6000-26111029.validation.json",
+      "live70783-slice-target_mc_sockets-6000-26111029.validation.json",
+      "live70783-slice-target_mh_keep_crafted_ring-6000-26111029.validation.json",
+      "live70783-st-current-6000-26111029.validation.json",
+      "live70783-st-legs_h7-6000-26111029.validation.json",
+      "live70783-st-legs_delve-6000-26111029.validation.json",
+      "live70783-st-bag_gloves_hm-6000-26111029.validation.json",
+      "live70783-st-ring_268249-6000-26111029.validation.json",
+      "live70783-st-ring_268252-6000-26111029.validation.json",
+      "live70783-st-owned_h5_prepared-6000-26111029.validation.json",
+      "live70783-st-core_h7-6000-26111029.validation.json",
+      "live70783-st-target_mc_sockets-6000-26111029.validation.json",
+      "live70783-st-target_mh_keep_crafted_ring-6000-26111029.validation.json",
+      "live70783-aoe-current-6000-26111029.validation.json",
+      "live70783-aoe-legs_h7-6000-26111029.validation.json",
+      "live70783-aoe-legs_delve-6000-26111029.validation.json",
+      "live70783-aoe-bag_gloves_hm-6000-26111029.validation.json",
+      "live70783-aoe-ring_268249-6000-26111029.validation.json",
+      "live70783-aoe-ring_268252-6000-26111029.validation.json",
+      "live70783-aoe-owned_h5_prepared-6000-26111029.validation.json",
+      "live70783-aoe-core_h7-6000-26111029.validation.json",
+      "live70783-aoe-target_mc_sockets-6000-26111029.validation.json",
+      "live70783-aoe-target_mh_keep_crafted_ring-6000-26111029.validation.json",
+      "live70783-slice-current-6000-26111029.simc",
+      "live70783-slice-target_mh_keep_crafted_ring-6000-26111029.simc",
+      "live70783-slice-target_mc_sockets-6000-26111029.simc",
+      "live70783-st-target_mh_keep_crafted_ring-6000-26111029.simc",
+      "live70783-stats-current-20-26111001.validation.json",
+      "live70783-stats-target_mh_keep_crafted_ring-20-26111003.validation.json"
+    ],
+    "missing_or_ignored_required_files": [],
+    "local_links_checked": 39,
+    "broken_or_ignored_links": [],
+    "links": [
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "#main",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "#overview",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "#stats",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "#equipment",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "#branches",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "#comparisons",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "#actions",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "#samples",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "#consumables",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "#evidence",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "../../snapshots/2026-11-10-2203.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "current-equipped.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "recommended-dungeon.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "alternate-raid-ring.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "comparison-single-target.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "comparison-results.json",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "elite-evidence.json",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "simc-manifest.json",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/report.html",
+        "target": "../../weeks/2026-11-05.json",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "report.html",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "review.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "comparison-results.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "../../snapshots/2026-11-10.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "../../snapshots/2026-11-10-2203.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "../../weeks/2026-11-05.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "screening-summary.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "screening-summary.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "export-validation.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "../2026-10-29/report-data.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/README.md",
+        "target": "archive-validation.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-11-10/report-data.json",
+        "target": "../../snapshots/2026-11-10-2203.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-11-10/report-data.json",
+        "target": "current-equipped.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-11-10/report-data.json",
+        "target": "recommended-dungeon.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-11-10/report-data.json",
+        "target": "alternate-raid-ring.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-11-10/report-data.json",
+        "target": "comparison-single-target.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-11-10/report-data.json",
+        "target": "comparison-results.json",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-11-10/report-data.json",
+        "target": "elite-evidence.json",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-11-10/report-data.json",
+        "target": "simc-manifest.json",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-11-10/report-data.json",
+        "target": "../../weeks/2026-11-05.json",
+        "kind": "download"
+      }
+    ]
+  },
+  "in_memory_render": {
+    "mode": "Pure render function; in memory only",
+    "matches_existing_html_after_newline_decoding": true
+  },
+  "git_roundtrip": {
+    "files_checked": 1437,
+    "unexpected_conversions": 0,
+    "index_or_objects_written": false,
+    "historical_tracked_files_outside_archive_text_normalization": 286
+  },
+  "provenance": {
+    "original_files_in_character_scope_checked_against_preparation_baseline": 3033,
+    "changed_original_files": 0,
+    "deleted_original_files": 0,
+    "original_simc_reformatted": false,
+    "manifest_raw_crlf_hash_matches": true,
+    "intake_lf_normalized_hashes_match": true,
+    "full_exports": [
+      {
+        "file": "snapshots/2026-11-10.simc",
+        "original_sha256": "9598e7c8c67a01443321325400030f0d087b904d3ad1cf16ce37165dbee61624",
+        "lf_normalized_sha256": "b7284e8b222747ecf7752942ab2e6173aa7ae650162622b5d013b762751a8755",
+        "original_bytes_preserved": true
+      },
+      {
+        "file": "snapshots/2026-11-10-2203.simc",
+        "original_sha256": "00190cdc6efc2a8d44ed1d36002514eb0d36df4d0c31d26b1d4214ab0e484854",
+        "lf_normalized_sha256": "8cc72cecb95e0aaf015392e5a9574a8ffd9ec02ab6a9edc16f28a8db03a04e31",
+        "original_bytes_preserved": true
+      }
+    ]
+  },
+  "file_pattern_inventory_before_receipt": [
+    {
+      "extension": "(none)",
+      "files": 1,
+      "bytes": 271,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".html",
+      "files": 1,
+      "bytes": 140374,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".json",
+      "files": 101,
+      "bytes": 57172489,
+      "local_only_files": 50,
+      "local_only_bytes": 37571814
+    },
+    {
+      "extension": ".log",
+      "files": 5,
+      "bytes": 9589,
+      "local_only_files": 5,
+      "local_only_bytes": 9589
+    },
+    {
+      "extension": ".md",
+      "files": 3,
+      "bytes": 24515,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".png",
+      "files": 2,
+      "bytes": 154780,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".py",
+      "files": 3,
+      "bytes": 58459,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".run.log",
+      "files": 86,
+      "bytes": 591166,
+      "local_only_files": 86,
+      "local_only_bytes": 591166
+    },
+    {
+      "extension": ".simc",
+      "files": 91,
+      "bytes": 207815,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".txt",
+      "files": 91,
+      "bytes": 3788980,
+      "local_only_files": 91,
+      "local_only_bytes": 3788980
+    },
+    {
+      "extension": ".validation.json",
+      "files": 86,
+      "bytes": 190649,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    }
+  ],
+  "limitations": [
+    "No SimulationCraft execution, browser session or external-source refresh was performed. Browser receipts/screenshots are historical.",
+    "Engine binaries and source/build directories remain external prerequisites; recorded source/binary identities were not replaced.",
+    "Only the generated report HTML and Markdown links are checked as offline report dependencies. Saved WCL HTML captures retain original site-relative assets and are source evidence, not standalone offline sites.",
+    "JSON parsing covers all existing dated JSON, including local-only native results. This receipt itself was serialized and parsed immediately after writing.",
+    "Original scientific conclusions, resource balances, profile and weekly ledger were not changed.",
+    "Four reimport runs retain base exports and full native JSON but lack original standalone input files/command-line transcripts; no command-line history was invented.",
+    "identity-old70575 has no standalone acceptance receipt; new summary acceptance remains null.",
+    "The original runner treats accepted validation as a cache hit even if raw JSON is absent. Regenerate omitted screens by invoking preserved inputs directly."
+  ]
+}

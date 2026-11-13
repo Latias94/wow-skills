@@ -1,0 +1,3637 @@
+{
+  "schema_version": 1,
+  "title": "2026-10-29 国服12.1.5第三周踏风天神御师大秘境高手实际配装研究",
+  "recorded_at": "2026-10-29T15:34:26+08:00",
+  "timezone": "Asia/Shanghai",
+  "research_window_local": "2026-10-29，查询窗口约14:50起；各tooltip请求的精确时间见条目retrieved_at；完成时间见recorded_at。",
+  "scope": {
+    "character": "cn-barrens-shaseng",
+    "hero_tree": "Conduit of the Celestials",
+    "content": "Mythic+",
+    "patch": "12.1.5",
+    "region_week": "CN维护后第3周，10/15第1周、10/22第2周、10/29第3周；具体当日维护是否结束未另查服务状态。",
+    "simulations_run": 0,
+    "commits_made": 0,
+    "write_ownership": [
+      "elite-research.md",
+      "elite-evidence.json"
+    ]
+  },
+  "regional_context": {
+    "source_url": "https://wow.blizzard.cn/news/24307306/",
+    "published_on": "2026-10-15",
+    "patch_launch_cn": "2026-10-15 after weekly maintenance",
+    "venomstone_unlock_cn": "2026-10-22 after weekly maintenance",
+    "week_three_start": "2026-10-29 after weekly maintenance",
+    "week_three_basis": "日历推导，非新赛季第3周。"
+  },
+  "user_current_corrections": {
+    "head": {
+      "current_item_id": 271519,
+      "precursor_item_id": 271875,
+      "preserves_source_stats_and_effect": true,
+      "evidence": "10/29-equipped.simc当前完整bonus＋主线转交的271875化生来源；不采用.items缺前驱时的默认套装头绿字。",
+      "effect": "保留271875毒咒头来源绿字与毒咒急速；当前raw确认含13847。",
+      "bonus_ids": [
+        13334,
+        6652,
+        12854,
+        13696,
+        13847,
+        13692,
+        13698,
+        1587
+      ],
+      "enchant_id": 8017,
+      "known_effect_bonus_id": 13847
+    },
+    "shoulder": {
+      "item_id": 271517,
+      "precursor_item_id": 251146,
+      "item_level": 321,
+      "track": "Hero",
+      "upgrade": "6/6"
+    },
+    "chest": {
+      "item_id": 271522,
+      "precursor_item_id": 281236,
+      "known_effect_bonus_id": 14049,
+      "effect": "虚空爆发",
+      "effect_driver_spell": 1310208,
+      "effect_damage_spell": 1310209
+    },
+    "hands": {
+      "current_item_id": 244575,
+      "name_zh": "银月城特工的裹手",
+      "current_item_level": 331,
+      "bonus_ids": [
+        12214,
+        13667,
+        12497,
+        13751,
+        14001,
+        8793,
+        13836
+      ],
+      "missive_bonus_id": 8793,
+      "secondary_ratings": {
+        "haste": 74,
+        "mastery": 74
+      },
+      "enchant_id": null,
+      "tier_set_piece": false,
+      "embellished": false,
+      "evidence": "10/29-equipped.simc与.items.json一致；不是271520，未附8727。",
+      "superseded_history": "271520及前驱272241属于旧实装，本报告不再作为当前手。"
+    },
+    "waist": {
+      "item_id": 271516,
+      "precursor_item_id": 271436,
+      "crafted_stats": [
+        36,
+        49
+      ],
+      "item_level": 321,
+      "track": "Hero",
+      "upgrade": "6/6",
+      "tier_set_piece": false
+    },
+    "legs": {
+      "item_id": 271518,
+      "precursor_item_id": 251130,
+      "item_level": 321,
+      "track": "Hero",
+      "upgrade": "6/6"
+    },
+    "trinkets": {
+      "item_ids_from_existing_record": [
+        270175,
+        270173
+      ],
+      "current_item_levels": [
+        341,
+        341
+      ],
+      "evidence": "10/29当前raw双饰均含12856，实服341状态按主线确认；旧tooltip340另列局限。",
+      "supersedes": "10-26祖尔金334和仍需晋升的诊断",
+      "item_ids": [
+        270175,
+        270173
+      ],
+      "bonus_ids_by_slot": {
+        "trinket1": [
+          6652,
+          13334,
+          12856
+        ],
+        "trinket2": [
+          6652,
+          13334,
+          12856
+        ]
+      }
+    },
+    "source_rule": "用户确认化生保留原绿字及特效。名字/正式套装ID不能独自证明前驱；先保留当前实物/完整bonus及前驱，缺失时标未知。",
+    "set_rule": "当前四件明确为头/肩/胸/腿，手是331普通制作244575；单换套装腿或其他四件之一会失去四件效果，需同步补另一套装部位。不能按五件套规划。",
+    "current_tier_slots": [
+      "head",
+      "shoulder",
+      "chest",
+      "legs"
+    ],
+    "current_tier_piece_count": 4
+  },
+  "sources": [
+    {
+      "id": "murlok_cc",
+      "url": "https://murlok.io/monk/windwalker/conduit-of-the-celestials/m%2B",
+      "access": "Search Service解析正文；Python直连403后停止直连",
+      "read_on": "2026-10-29",
+      "hero_filtered": true,
+      "sample_size": 50,
+      "regions": [
+        "US",
+        "EU",
+        "KR",
+        "TW"
+      ],
+      "cn_included": false,
+      "season": "Midnight Season 2",
+      "page_patch_label": "12.1",
+      "page_refresh_policy_hours": 8,
+      "displayed_updated_relative": "3 hours ago",
+      "initial_header_rating_range": [
+        3984,
+        4235
+      ],
+      "initial_top_players": [
+        {
+          "name": "Эльпочита",
+          "score": 4235,
+          "ilvl": 335
+        },
+        {
+          "name": "Bisset",
+          "score": 4228,
+          "ilvl": 334
+        },
+        {
+          "name": "Kreemoncow",
+          "score": 4150,
+          "ilvl": 339
+        },
+        {
+          "name": "Gerlox",
+          "score": 4148,
+          "ilvl": 339
+        },
+        {
+          "name": "Freevalon",
+          "score": 4140,
+          "ilvl": 338
+        }
+      ],
+      "later_table_refresh_disagreement": "同URL后续正文出现榜末3993等刷新；本JSON不把不同刷新当成同一原子快照。个人页优先用于5人数据，初始榜头单独保留。",
+      "displayed_summary_stats": {
+        "crit": {
+          "rating": 804,
+          "percent": 32
+        },
+        "haste": {
+          "rating": 922,
+          "percent": 21
+        },
+        "mastery": {
+          "rating": 1273,
+          "percent": 83
+        },
+        "versatility": {
+          "rating": 134,
+          "percent": 2
+        }
+      },
+      "summary_stat_method": "页面称Optimal Secondary Stats，未核实是算术均值/中位数；只记网站汇总，不称阈值或边际权重。",
+      "stat_buff_basis": "Battle.net角色快照，严格无增益口径未由页面确认。"
+    },
+    {
+      "id": "rio_eu",
+      "url": "https://raider.io/fr/mythic-plus-character-rankings/season-mn-2/eu/monk/dps/0",
+      "access": "Search Service解析正文",
+      "read_on": "2026-10-29",
+      "season": "season-mn-2",
+      "hero_filtered": false,
+      "purpose": "仅核实5人的精确分数与各本最高得分层数，英雄树另由Murlok确认",
+      "sample_used": 5,
+      "page_population_size": null,
+      "max_key_in_selected_samples": 23,
+      "gear_at_run_not_proven": true
+    },
+    {
+      "id": "archon_gear",
+      "url": "https://www.archon.gg/wow/builds/windwalker/monk/mythic-plus/gear-and-tier-set/high-keys/all-dungeons/this-week",
+      "access": "直接正文403；仅搜索索引返回",
+      "search_crawled_label": "yesterday",
+      "displayed_updated_relative": "13 hours ago",
+      "sample_size_parses": 2538,
+      "window_days": 14,
+      "filter": "top 5% of keys",
+      "hero_filtered": false,
+      "season": "Midnight Season 2",
+      "usable_as": "混合英雄树高层旁证；不伪称Hero已过滤或2538独立玩家"
+    },
+    {
+      "id": "archon_enchants",
+      "url": "https://www.archon.gg/wow/builds/windwalker/monk/mythic-plus/enchants-and-gems/high-keys/all-dungeons/this-week",
+      "access": "直接正文403；仅搜索索引返回",
+      "search_crawled_label": "yesterday",
+      "displayed_updated_relative": "13 hours ago",
+      "sample_size_parses": 2538,
+      "window_days": 14,
+      "filter": "top 5% of keys",
+      "hero_filtered": false
+    },
+    {
+      "id": "archon_consumables",
+      "url": "https://www.archon.gg/wow/builds/windwalker/monk/mythic-plus/consumables/high-keys/all-dungeons/this-week",
+      "access": "直接正文403；搜索索引返回但缓存标注last month",
+      "search_crawled_label": "last month",
+      "displayed_updated_relative": "7 hours ago",
+      "sample_size_parses": 4151,
+      "window_days": 14,
+      "filter": "top 5% of keys",
+      "hero_filtered": false,
+      "status": "stale_index_support_only",
+      "warning": "页面相对更新时间无法覆盖搜索缓存旧一个月的标记，不能作为10/29现势精确占比。"
+    },
+    {
+      "id": "method_stats",
+      "url": "https://www.method.gg/guides/windwalker-monk/stats-races-and-consumables",
+      "author": "J-Funk",
+      "page_patch": "12.1.5",
+      "updated_on": "2026-10-14",
+      "type": "职业作者指南，非玩家人口统计",
+      "stats": "Agility > Haste > Mastery = Crit >>> Versatility",
+      "flasks": [
+        "Flask of the Blood Knights",
+        "Flask of the Shattered Sun",
+        "Flask of the Magisters"
+      ],
+      "note": "根据已有属性选择，非锁定精通或暴击优先。原指南多个Wowhead链接指向PTR/beta，本研究物品效果另查dataEnv=1。"
+    },
+    {
+      "id": "method_gearing",
+      "url": "https://www.method.gg/guides/windwalker-monk/gearing",
+      "author": "J-Funk",
+      "page_patch": "12.1.5",
+      "updated_on": "2026-10-14",
+      "embellishments": "两件Arcanoweave Lining，可放腕/披风/鞋；指南默认部位不排除样本放在制作手。",
+      "catalyst_source_examples": [
+        "Gaze of the Coiled Watcher -> Tier head",
+        "Chestwrap of Palpable Terror -> Tier chest",
+        "Gauntlets of Fevered Defense -> Tier gloves",
+        "Coiled Hex Legguards -> Tier legs"
+      ],
+      "note": "这些是指南候选，不能逆推每个套装名字样本的实际前驱。"
+    },
+    {
+      "id": "icy_stats",
+      "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-stat-priority",
+      "author": "Babylonius",
+      "page_patch": "12.1.5",
+      "updated_on": "2026-10-12",
+      "type": "职业作者指南",
+      "priority": "Agility > Haste > Critical Strike > Mastery > Versatility",
+      "no_breakpoint_original_excerpt": "There are no \"recommended stat levels\" or \"breakpoint of X stat\" or \"required\" amount of any stats.",
+      "diminishing_return_rating_10pct": {
+        "mastery": 1380,
+        "crit": 1380,
+        "haste": 1320,
+        "versatility": 1620
+      },
+      "note": "指南反对全局必须达到的属性目标；不用于否认某个特定技能时间窗可能出现的急速条件。"
+    },
+    {
+      "id": "icy_consumables",
+      "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gems-enchants-consumables",
+      "author": "Babylonius",
+      "page_patch": "12.1.5",
+      "updated_on": "2026-10-12",
+      "flask": "Flask of the Blood Knights",
+      "combat_potion": "Potion of Recklessness",
+      "weapon_oil": "Thalassian Phoenix Oil",
+      "diamond": "Indecipherable Eversong Diamond",
+      "ring_enchant_options": [
+        "Silvermoon's Alacrity",
+        "Nature's Fury"
+      ],
+      "evidence_type": "通用指南，与实际样本鹰眼神视/旧日志精通合剂存在差异，不能冒称实际高手共同选择。"
+    },
+    {
+      "id": "cn_battle_art_hotfix",
+      "url": "https://wow.blizzard.cn/24266320/index.html",
+      "read_on": "2026-10-29",
+      "page_updated_on": "2026-10-27",
+      "entry_date": "2026-10-15",
+      "type": "国服官方热修原文",
+      "effect_scope": "修正远古哈谢战技在地下堡/金多赞迷宫以外也能触发的问题；应用物品等级上限改为344。",
+      "precedence": "官方适用范围高于角色装备使用率；样本佩戴不能证明大秘境生效。"
+    },
+    {
+      "id": "method_demo_281215_roll",
+      "url": "https://www.method.gg/guides/demonology-warlock/gearing",
+      "retrieved_at": "2026-10-29T15:33:25+08:00",
+      "patch": "12.1.5",
+      "page_updated_on": "2026-10-13",
+      "author": "Sjeletyven",
+      "evidence_type": "职业作者明确的物品获取表，不用于踏风价值排序",
+      "section": "Bonus Rolls (Nebulous Voidcores)",
+      "target_item": "Twisted Horror's Tendril",
+      "target_item_id": 281215,
+      "boss": "Kith’ix",
+      "difficulty": "Mythic/Heroic",
+      "statement": "该饰品在英雄/史诗基希克斯的R目标表逐项列出。",
+      "limitations": "指南非当前玩家奖励预览；不确认沙僧当前排除池、拾取专精预览、数量或概率。"
+    },
+    {
+      "id": "method_windwalker_281215_scope",
+      "url": "https://www.method.gg/guides/windwalker-monk/gearing",
+      "retrieved_at": "2026-10-29T15:33:25+08:00",
+      "patch": "12.1.5",
+      "page_updated_on": "2026-10-14",
+      "author": "J-Funk",
+      "statement": "被动饰品Good列表含281215；R优先短表列基希克斯戒指而未列触须。短表非完整可R物品池，未列入不构成排除证据。",
+      "item_link_observed": "https://www.wowhead.com/ptr-2/item=281215/twisted-horrors-tendril",
+      "link_caution": "指南链接指向PTR-2；此处只以其识别itemID，正式服机制来自独立dataEnv=1 tooltip。"
+    }
+  ],
+  "murlok_hero_filtered_usage": {
+    "source_url": "https://murlok.io/monk/windwalker/conduit-of-the-celestials/m%2B",
+    "sample_size_characters": 50,
+    "denominator_rule": "装备/头肩附魔按角色；戒指附魔/美化按已记录实例，宝石按颗，不混用分母。表格为页面摘录非穷尽。",
+    "gear_counts_by_slot": {
+      "shoulder": {
+        "271517": 49,
+        "Silvermoon Agent's Mantle": 1
+      },
+      "hands": {
+        "271520": 33,
+        "244575": 15,
+        "Desiccator's Blessed Gloves": 1,
+        "Ruthless Slaughtergrips": 1
+      },
+      "waist": {
+        "268256": 22,
+        "271516": 11,
+        "268227": 7,
+        "Silvermoon Agent's Utility Belt": 5,
+        "Slitherscale Girdle": 4
+      },
+      "back": {
+        "239656": 21,
+        "268253": 18,
+        "271514": 6
+      },
+      "wrist": {
+        "244576": 41,
+        "268240": 6
+      },
+      "feet": {
+        "244569": 45,
+        "271521": 4
+      },
+      "legs": {
+        "271518": 42,
+        "268225": 4,
+        "Silvermoon Agent's Leggings": 4
+      },
+      "rings": {
+        "281029": 41,
+        "Masterwork Sin'dorei Band": 22,
+        "268249": 12
+      },
+      "trinkets": {
+        "270175": 50,
+        "281215": 37,
+        "Zul'jin's Guillotine Technique": 11
+      },
+      "main_hand": {
+        "268215": 50
+      }
+    },
+    "embellishment_instances": {
+      "Arcanoweave Lining": 97,
+      "Loa Worshiper's Band": 3
+    },
+    "enchant_instances": {
+      "head": {
+        "Empowered Rune of Avoidance": 45
+      },
+      "shoulder": {
+        "Amirdrassil's Grace": 46,
+        "Silvermoon's Mending": 3,
+        "Nature's Grace": 1
+      },
+      "chest": {
+        "Mark of the Worldsoul": 50
+      },
+      "hands": {
+        "Falco Strikes": 10,
+        "Eye of the Lynx": 4,
+        "Heat Wave": 3
+      },
+      "legs": {
+        "Forest Hunter's Armor Kit": 50
+      },
+      "feet": {
+        "Lynx's Dexterity": 43,
+        "Shaladrassil's Roots": 7
+      },
+      "rings": {
+        "Eyes of the Eagle": 100
+      },
+      "main_hand": {
+        "Rite of the Hash'ey": 47
+      }
+    },
+    "gem_instances_by_name": {
+      "Indecipherable Eversong Diamond": 44,
+      "Powerful Eversong Diamond": 5,
+      "Flawless Masterful Garnet": 43,
+      "Flawless Deadly Amethyst": 42,
+      "Flawless Quick Amethyst": 33,
+      "Flawless Masterful Peridot": 31,
+      "Flawless Quick Garnet": 31
+    },
+    "catalyst_warning": "上述同名套装合并了未知转化来源，不可读成49人全是同一默认绿字肩、33人都穿急速全能手。"
+  },
+  "current_player_samples": [
+    {
+      "name": "Эльпочита",
+      "realm": "Howling Fjord",
+      "murlok_score": 4235,
+      "rio_score": 4235.4,
+      "ilvl": 335,
+      "ratings": {
+        "crit": 765,
+        "haste": 896,
+        "mastery": 1321,
+        "versatility": 176
+      },
+      "percent": [
+        31,
+        20,
+        86,
+        3
+      ],
+      "gem_counts": {
+        "240983": 1,
+        "240898": 4,
+        "240900": 1
+      },
+      "hands_enchant": "Ancient Hash'ey Battle Art: Heat Wave",
+      "shoulder_enchant": "Amirdrassil's Grace",
+      "boot_enchant": "Lynx's Dexterity",
+      "region": "eu",
+      "race": "Night Elf",
+      "hero_tree": "Conduit of the Celestials",
+      "source_url": "https://murlok.io/character/eu/howling-fjord/%D1%8D%D0%BB%D1%8C%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0/pve",
+      "ranking_url": "https://raider.io/fr/mythic-plus-character-rankings/season-mn-2/eu/monk/dps/0",
+      "observed_on": "2026-10-29",
+      "page_updated_relative": "6 hours ago",
+      "page_patch_label": "12.1",
+      "page_season": "Midnight Season 2",
+      "stat_basis": "页面基于Battle.net的角色快照；未明确保证无合剂、食物或角色被动。不是combatantinfo，不是本研究计算的无增益面板。",
+      "display_percent_rounded": {
+        "crit": 31,
+        "haste": 20,
+        "mastery": 86,
+        "versatility": 3
+      },
+      "highest_secondary_rating": "mastery",
+      "gear": {
+        "head": {
+          "item_id": 271519,
+          "name_en": "Monkey King's Unyielding Visage",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "neck": {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "shoulder": {
+          "item_id": 271517,
+          "name_en": "Tassels of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "chest": {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "trinket1": {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "back": {
+          "item_id": 268253,
+          "name_en": "Silken Voodoo Drape",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "wrist": {
+          "item_id": 244576,
+          "name_en": "Silvermoon Agent's Deflectors",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "hands": {
+          "item_id": 244575,
+          "name_en": "Silvermoon Agent's Handwraps",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "waist": {
+          "item_id": 268227,
+          "name_en": "Unpossessed Skullsash",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "legs": {
+          "item_id": 271518,
+          "name_en": "Pantaloons of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "feet": {
+          "item_id": 244569,
+          "name_en": "Silvermoon Agent's Sneakers",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "finger1": {
+          "item_id": 272150,
+          "name_en": "Ouroboric Signet",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "finger2": {
+          "item_id": 281029,
+          "name_en": "Band of the Swarmcaller",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        }
+      },
+      "craft_slots_observed": [
+        "wrist",
+        "hands",
+        "feet"
+      ],
+      "embellishment_name": "Arcanoweave Lining",
+      "embellishment_slots": [
+        "wrist",
+        "feet"
+      ],
+      "runs_by_dungeon": {
+        "AOF": 23,
+        "BV": 22,
+        "DON": 23,
+        "KR": 23,
+        "MR": 23,
+        "RLP": 23,
+        "TOS": 23,
+        "VSA": 23
+      },
+      "gear_at_listed_runs_proven": false,
+      "current_full_bonus_available": false,
+      "shared_enchants": {
+        "head": "Empowered Rune of Avoidance",
+        "chest": "Mark of the Worldsoul",
+        "legs": "Forest Hunter's Armor Kit",
+        "rings": [
+          "Eyes of the Eagle",
+          "Eyes of the Eagle"
+        ],
+        "main_hand": "Rite of the Hash'ey"
+      },
+      "missing_hand_enchant_interpretation": "未列出不等于建议不附魔；没有补出缺失记录。"
+    },
+    {
+      "name": "Bisset",
+      "realm": "Kazzak",
+      "murlok_score": 4238,
+      "rio_score": 4238.9,
+      "ilvl": 335,
+      "ratings": {
+        "crit": 858,
+        "haste": 760,
+        "mastery": 1217,
+        "versatility": 303
+      },
+      "percent": [
+        33,
+        17,
+        80,
+        6
+      ],
+      "gem_counts": {
+        "240983": 1,
+        "240892": 3,
+        "240890": 1
+      },
+      "hands_enchant": "Ancient Hash'ey Battle Art: Falco Strikes",
+      "shoulder_enchant": "Amirdrassil's Grace",
+      "boot_enchant": "Lynx's Dexterity",
+      "region": "eu",
+      "race": "Night Elf",
+      "hero_tree": "Conduit of the Celestials",
+      "source_url": "https://murlok.io/character/eu/kazzak/bisset/pve",
+      "ranking_url": "https://raider.io/fr/mythic-plus-character-rankings/season-mn-2/eu/monk/dps/0",
+      "observed_on": "2026-10-29",
+      "page_updated_relative": "6 hours ago",
+      "page_patch_label": "12.1",
+      "page_season": "Midnight Season 2",
+      "stat_basis": "页面基于Battle.net的角色快照；未明确保证无合剂、食物或角色被动。不是combatantinfo，不是本研究计算的无增益面板。",
+      "display_percent_rounded": {
+        "crit": 33,
+        "haste": 17,
+        "mastery": 80,
+        "versatility": 6
+      },
+      "highest_secondary_rating": "mastery",
+      "gear": {
+        "head": {
+          "item_id": 271519,
+          "name_en": "Monkey King's Unyielding Visage",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "neck": {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "shoulder": {
+          "item_id": 271517,
+          "name_en": "Tassels of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "chest": {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "trinket1": {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "back": {
+          "item_id": 239656,
+          "name_en": "Adherent's Silken Shroud",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "wrist": {
+          "item_id": 244576,
+          "name_en": "Silvermoon Agent's Deflectors",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "hands": {
+          "item_id": 271520,
+          "name_en": "Monkey King's Fighting Fists",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "waist": {
+          "item_id": 271516,
+          "name_en": "Agile Cord of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "legs": {
+          "item_id": 271518,
+          "name_en": "Pantaloons of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "feet": {
+          "item_id": 271521,
+          "name_en": "Shinguards of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "finger1": {
+          "item_id": 268249,
+          "name_en": "Vile Alchemist's Band",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "finger2": {
+          "item_id": 268252,
+          "name_en": "Apex Brute's Claw Ring",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        }
+      },
+      "craft_slots_observed": [
+        "back",
+        "wrist"
+      ],
+      "embellishment_name": "Arcanoweave Lining",
+      "embellishment_slots": [
+        "back",
+        "wrist"
+      ],
+      "runs_by_dungeon": {
+        "AOF": 23,
+        "BV": 23,
+        "DON": 23,
+        "KR": 23,
+        "MR": 23,
+        "RLP": 23,
+        "TOS": 23,
+        "VSA": 22
+      },
+      "gear_at_listed_runs_proven": false,
+      "current_full_bonus_available": false,
+      "shared_enchants": {
+        "head": "Empowered Rune of Avoidance",
+        "chest": "Mark of the Worldsoul",
+        "legs": "Forest Hunter's Armor Kit",
+        "rings": [
+          "Eyes of the Eagle",
+          "Eyes of the Eagle"
+        ],
+        "main_hand": "Rite of the Hash'ey"
+      },
+      "missing_hand_enchant_interpretation": "未列出不等于建议不附魔；没有补出缺失记录。"
+    },
+    {
+      "name": "Kreemoncow",
+      "realm": "Draenor",
+      "murlok_score": 4158,
+      "rio_score": 4158.9,
+      "ilvl": 339,
+      "ratings": {
+        "crit": 687,
+        "haste": 1014,
+        "mastery": 1412,
+        "versatility": 107
+      },
+      "percent": [
+        29,
+        23,
+        90,
+        2
+      ],
+      "gem_counts": {
+        "240983": 1,
+        "240890": 3,
+        "240892": 3
+      },
+      "hands_enchant": null,
+      "shoulder_enchant": "Amirdrassil's Grace",
+      "boot_enchant": "Lynx's Dexterity",
+      "region": "eu",
+      "race": "Night Elf",
+      "hero_tree": "Conduit of the Celestials",
+      "source_url": "https://murlok.io/character/eu/draenor/kreemoncow/pve",
+      "ranking_url": "https://raider.io/fr/mythic-plus-character-rankings/season-mn-2/eu/monk/dps/0",
+      "observed_on": "2026-10-29",
+      "page_updated_relative": "6 hours ago",
+      "page_patch_label": "12.1",
+      "page_season": "Midnight Season 2",
+      "stat_basis": "页面基于Battle.net的角色快照；未明确保证无合剂、食物或角色被动。不是combatantinfo，不是本研究计算的无增益面板。",
+      "display_percent_rounded": {
+        "crit": 29,
+        "haste": 23,
+        "mastery": 90,
+        "versatility": 2
+      },
+      "highest_secondary_rating": "mastery",
+      "gear": {
+        "head": {
+          "item_id": 271519,
+          "name_en": "Monkey King's Unyielding Visage",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "neck": {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "shoulder": {
+          "item_id": 271517,
+          "name_en": "Tassels of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "chest": {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "trinket1": {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "back": {
+          "item_id": 268253,
+          "name_en": "Silken Voodoo Drape",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "wrist": {
+          "item_id": 268240,
+          "name_en": "Restless Spirit Shackles",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "hands": {
+          "item_id": 244575,
+          "name_en": "Silvermoon Agent's Handwraps",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "waist": {
+          "item_id": 268256,
+          "name_en": "Sash of the Forlorn Vessel",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "legs": {
+          "item_id": 271518,
+          "name_en": "Pantaloons of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "feet": {
+          "item_id": 244569,
+          "name_en": "Silvermoon Agent's Sneakers",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "finger1": {
+          "item_id": 268249,
+          "name_en": "Vile Alchemist's Band",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "finger2": {
+          "item_id": 281029,
+          "name_en": "Band of the Swarmcaller",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        }
+      },
+      "craft_slots_observed": [
+        "hands",
+        "feet"
+      ],
+      "embellishment_name": "Arcanoweave Lining",
+      "embellishment_slots": [
+        "hands",
+        "feet"
+      ],
+      "runs_by_dungeon": {
+        "AOF": 23,
+        "BV": 22,
+        "DON": 23,
+        "KR": 23,
+        "MR": 22,
+        "RLP": 22,
+        "TOS": 21,
+        "VSA": 22
+      },
+      "gear_at_listed_runs_proven": false,
+      "current_full_bonus_available": false,
+      "shared_enchants": {
+        "head": "Empowered Rune of Avoidance",
+        "chest": "Mark of the Worldsoul",
+        "legs": "Forest Hunter's Armor Kit",
+        "rings": [
+          "Eyes of the Eagle",
+          "Eyes of the Eagle"
+        ],
+        "main_hand": "Rite of the Hash'ey"
+      },
+      "missing_hand_enchant_interpretation": "未列出不等于建议不附魔；没有补出缺失记录。"
+    },
+    {
+      "name": "Gerlox",
+      "realm": "Sylvanas",
+      "murlok_score": 4148,
+      "rio_score": 4148.4,
+      "ilvl": 339,
+      "ratings": {
+        "crit": 820,
+        "haste": 984,
+        "mastery": 1247,
+        "versatility": 123
+      },
+      "percent": [
+        32,
+        22,
+        82,
+        2
+      ],
+      "gem_counts": {
+        "240967": 1
+      },
+      "other_gems_by_page_name": {
+        "Flawless Deadly Lapis": 1,
+        "Flawless Deadly Peridot": 1,
+        "Flawless Masterful Garnet": 1,
+        "Flawless Quick Amethyst": 1
+      },
+      "hands_enchant": "Ancient Hash'ey Battle Art: Eye of the Lynx",
+      "shoulder_enchant": "Silvermoon's Mending",
+      "boot_enchant": "Shaladrassil's Roots",
+      "region": "eu",
+      "race": "Night Elf",
+      "hero_tree": "Conduit of the Celestials",
+      "source_url": "https://murlok.io/character/eu/sylvanas/gerlox/pve",
+      "ranking_url": "https://raider.io/fr/mythic-plus-character-rankings/season-mn-2/eu/monk/dps/0",
+      "observed_on": "2026-10-29",
+      "page_updated_relative": "6 hours ago",
+      "page_patch_label": "12.1",
+      "page_season": "Midnight Season 2",
+      "stat_basis": "页面基于Battle.net的角色快照；未明确保证无合剂、食物或角色被动。不是combatantinfo，不是本研究计算的无增益面板。",
+      "display_percent_rounded": {
+        "crit": 32,
+        "haste": 22,
+        "mastery": 82,
+        "versatility": 2
+      },
+      "highest_secondary_rating": "mastery",
+      "gear": {
+        "head": {
+          "item_id": 271519,
+          "name_en": "Monkey King's Unyielding Visage",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "neck": {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "shoulder": {
+          "item_id": 271517,
+          "name_en": "Tassels of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "chest": {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "trinket1": {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "back": {
+          "item_id": 271514,
+          "name_en": "Cape of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "wrist": {
+          "item_id": 244576,
+          "name_en": "Silvermoon Agent's Deflectors",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "hands": {
+          "item_id": 271520,
+          "name_en": "Monkey King's Fighting Fists",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "waist": {
+          "item_id": 271516,
+          "name_en": "Agile Cord of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "legs": {
+          "item_id": 271518,
+          "name_en": "Pantaloons of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "feet": {
+          "item_id": 244569,
+          "name_en": "Silvermoon Agent's Sneakers",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "finger1": {
+          "item_id": 281029,
+          "name_en": "Band of the Swarmcaller",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "finger2": {
+          "item_id": 268252,
+          "name_en": "Apex Brute's Claw Ring",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        }
+      },
+      "craft_slots_observed": [
+        "wrist",
+        "feet"
+      ],
+      "embellishment_name": "Arcanoweave Lining",
+      "embellishment_slots": [
+        "wrist",
+        "feet"
+      ],
+      "runs_by_dungeon": {
+        "AOF": 22,
+        "BV": 22,
+        "DON": 23,
+        "KR": 22,
+        "MR": 22,
+        "RLP": 22,
+        "TOS": 22,
+        "VSA": 22
+      },
+      "gear_at_listed_runs_proven": false,
+      "current_full_bonus_available": false,
+      "shared_enchants": {
+        "head": "Empowered Rune of Avoidance",
+        "chest": "Mark of the Worldsoul",
+        "legs": "Forest Hunter's Armor Kit",
+        "rings": [
+          "Eyes of the Eagle",
+          "Eyes of the Eagle"
+        ],
+        "main_hand": "Rite of the Hash'ey"
+      },
+      "missing_hand_enchant_interpretation": "未列出不等于建议不附魔；没有补出缺失记录。"
+    },
+    {
+      "name": "Freevalon",
+      "realm": "Ravencrest",
+      "murlok_score": 4140,
+      "rio_score": 4140.5,
+      "ilvl": 339,
+      "ratings": {
+        "crit": 696,
+        "haste": 893,
+        "mastery": 1479,
+        "versatility": 107
+      },
+      "percent": [
+        29,
+        20,
+        93,
+        2
+      ],
+      "gem_counts": {
+        "240983": 1,
+        "240900": 3
+      },
+      "other_gems_by_page_name": {
+        "Flawless Quick Garnet": 1
+      },
+      "hands_enchant": null,
+      "shoulder_enchant": "Nature's Grace",
+      "boot_enchant": "Lynx's Dexterity",
+      "region": "eu",
+      "race": "Night Elf",
+      "hero_tree": "Conduit of the Celestials",
+      "source_url": "https://murlok.io/character/eu/ravencrest/freevalon/pve",
+      "ranking_url": "https://raider.io/fr/mythic-plus-character-rankings/season-mn-2/eu/monk/dps/0",
+      "observed_on": "2026-10-29",
+      "page_updated_relative": "6 hours ago",
+      "page_patch_label": "12.1",
+      "page_season": "Midnight Season 2",
+      "stat_basis": "页面基于Battle.net的角色快照；未明确保证无合剂、食物或角色被动。不是combatantinfo，不是本研究计算的无增益面板。",
+      "display_percent_rounded": {
+        "crit": 29,
+        "haste": 20,
+        "mastery": 93,
+        "versatility": 2
+      },
+      "highest_secondary_rating": "mastery",
+      "gear": {
+        "head": {
+          "item_id": 271519,
+          "name_en": "Monkey King's Unyielding Visage",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "neck": {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "shoulder": {
+          "item_id": 271517,
+          "name_en": "Tassels of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "chest": {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "trinket1": {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "back": {
+          "item_id": 268253,
+          "name_en": "Silken Voodoo Drape",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "wrist": {
+          "item_id": 244576,
+          "name_en": "Silvermoon Agent's Deflectors",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "hands": {
+          "item_id": 271520,
+          "name_en": "Monkey King's Fighting Fists",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "waist": {
+          "item_id": 268256,
+          "name_en": "Sash of the Forlorn Vessel",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "legs": {
+          "item_id": 268225,
+          "name_en": "Coiled Hex Legguards",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "feet": {
+          "item_id": 244569,
+          "name_en": "Silvermoon Agent's Sneakers",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "finger1": {
+          "item_id": 281029,
+          "name_en": "Band of the Swarmcaller",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        },
+        "finger2": {
+          "item_id": 268249,
+          "name_en": "Vile Alchemist's Band",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor": null,
+          "effective_secondary_stats": null,
+          "effect_verification": "未核实当前完整bonus/转化前驱，不能按名称套用默认属性或宣称有/无毒咒。"
+        }
+      },
+      "craft_slots_observed": [
+        "wrist",
+        "feet"
+      ],
+      "embellishment_name": "Arcanoweave Lining",
+      "embellishment_slots": [
+        "wrist",
+        "feet"
+      ],
+      "runs_by_dungeon": {
+        "AOF": 22,
+        "BV": 22,
+        "DON": 23,
+        "KR": 22,
+        "MR": 22,
+        "RLP": 22,
+        "TOS": 22,
+        "VSA": 22
+      },
+      "gear_at_listed_runs_proven": false,
+      "current_full_bonus_available": false,
+      "shared_enchants": {
+        "head": "Empowered Rune of Avoidance",
+        "chest": "Mark of the Worldsoul",
+        "legs": "Forest Hunter's Armor Kit",
+        "rings": [
+          "Eyes of the Eagle",
+          "Eyes of the Eagle"
+        ],
+        "main_hand": "Rite of the Hash'ey"
+      },
+      "missing_hand_enchant_interpretation": "未列出不等于建议不附魔；没有补出缺失记录。"
+    }
+  ],
+  "archon_support": {
+    "gear_source": "archon_gear",
+    "unfiltered_hero": true,
+    "item_usage_pct": {
+      "shoulder_tier": 89.5,
+      "hands_tier": 68.3,
+      "crafted_hands": 20.1,
+      "waist_forlorn_vessel": 33.3,
+      "waist_monkey_king": 23.1,
+      "waist_unpossessed": 17.1,
+      "crafted_wrist": 85.4,
+      "crafted_feet": 82.3,
+      "crafted_ring": 42.7,
+      "crafted_cloak": 37.2
+    },
+    "double_arcanoweave_pct": 84.1,
+    "consumables_stale_index_only": {
+      "source_id": "archon_consumables",
+      "sample_size_parses": 4151,
+      "mastery_flask_pct": 76.2,
+      "haste_flask_pct": 13.7,
+      "crit_flask_pct": 6.6,
+      "recklessness_pct": 87.9,
+      "weapon_oil_pct": 94.7,
+      "max_recorded_key": 22,
+      "not_current_10_29_evidence": true
+    },
+    "excluded_archon_overview": "搜索索引标注2 months ago；1906样本/旧物品组合，未用于当前属性结论。"
+  },
+  "historical_bonus_aware_bisset": {
+    "status": "2026-10-26存档，不能替代2026-10-29全套快照",
+    "page_saved_at": "2026-10-26T04:49:35.826Z",
+    "page_url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55",
+    "page_score_exact": 4226.85,
+    "page_equipped_average": 334.81,
+    "report_url": "https://cn.warcraftlogs.com/reports/4Ab97gnVjKhZP1Nf?fight=28&type=summary&source=1",
+    "combatant_source_url": "https://cn.warcraftlogs.com/reports/summary-events/4Ab97gnVjKhZP1Nf/28/28623648/30387879/1/0/Any/0/-1.0.-1.-1/0?lang=cn&",
+    "report_created_display": "Sat Oct 24 2026",
+    "exact_fight_wall_clock_date": "未从现有归档独立还原；不把报告创建日期硬当该场日期。",
+    "fight": {
+      "id": 28,
+      "name": "毒牙祭坛",
+      "start_time": 28623648,
+      "end_time": 30387879,
+      "keystoneLevel": 23,
+      "completionTime": 1770801,
+      "rating": 530.6099853515625,
+      "affixes": [
+        9,
+        10,
+        147
+      ]
+    },
+    "hero_tree": "Conduit of the Celestials",
+    "full_simc_export_original": "# Warcraft Logs: https://www.warcraftlogs.com/EU/kazzak/Bisset\n# Date: 1792990171000\n\nmonk=\"Bisset\"\nlevel=90\nrace=暗夜精灵\nregion=eu\nserver=kazzak\nrole=dps\nspec=windwalker\n\ntalents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYbmx2MAAAAAAAAAAAALDz0MmhhBMMMzMzwsxMDWmJAgFmtxMmZmZgAYxMLz2YCCAYGDgZAGLDgZmZzA\n\nhead=,id=271519,enchant_id=8017,bonus_id=6652/13335/12854/13696/13692/13698/1587\nneck=,id=268265,bonus_id=6652/13668/13334/13987/12856,gem_id=240983/240892\nshoulder=,id=271517,enchant_id=8001,bonus_id=13334/13694/6652/13697/12846\nback=,id=239656,bonus_id=12214/13667/12497/13751/14001/8960/12384/8793/13836\nchest=,id=271522,enchant_id=7987,bonus_id=13334/6652/14049/13690/13698/12854\nwrist=,id=244576,bonus_id=12214/13667/13695/12497/13751/14001/8960/12384/8791/13836/13696,gem_id=240892\nhands=,id=271520,enchant_id=8727,bonus_id=13335/13691/6652/13697/12854\nwaist=,id=271516,bonus_id=13334/6652/12854/13696/1587\nlegs=,id=244574,enchant_id=8159,bonus_id=12214/13667/12497/13751/14001/8793/13836\nfeet=,id=271521,enchant_id=7963,bonus_id=6652/12854/13440/1587\nfinger1=,id=268249,enchant_id=7967,bonus_id=6652/13668/13335/12854,gem_id=240892\nfinger2=,id=268252,enchant_id=7967,bonus_id=42/13668/13335/12854,gem_id=240890\ntrinket1=,id=270173,bonus_id=6652/13334/12856\ntrinket2=,id=270175,bonus_id=6652/13334/13696/12856\nmain_hand=,id=268215,enchant_id=8689,bonus_id=6652/13334/13846/13696/12856",
+    "combatant_gear_original": [
+      {
+        "id": 271519,
+        "quality": 4,
+        "icon": "inv_helm_leather_raidmonkulatek_d_01.jpg",
+        "itemLevel": 334,
+        "permanentEnchant": 8017,
+        "bonusIDs": [
+          6652,
+          13335,
+          12854,
+          13696,
+          13692,
+          13698,
+          1587
+        ],
+        "setID": 2061
+      },
+      {
+        "id": 268265,
+        "quality": 4,
+        "icon": "inv_121_jewelry_neck03_green.jpg",
+        "itemLevel": 341,
+        "bonusIDs": [
+          6652,
+          13668,
+          13334,
+          13987,
+          12856
+        ],
+        "gems": [
+          {
+            "id": 240983,
+            "itemLevel": 295,
+            "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green.jpg"
+          },
+          {
+            "id": 240892,
+            "itemLevel": 295,
+            "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green.jpg"
+          }
+        ]
+      },
+      {
+        "id": 271517,
+        "quality": 4,
+        "icon": "inv_shoulder_leather_raidmonkulatek_d_01.jpg",
+        "itemLevel": 321,
+        "permanentEnchant": 8001,
+        "bonusIDs": [
+          13334,
+          13694,
+          6652,
+          13697,
+          12846
+        ],
+        "setID": 2061
+      },
+      {
+        "id": 98082,
+        "quality": 3,
+        "icon": "inv_shirt_black_01.jpg",
+        "itemLevel": 1
+      },
+      {
+        "id": 271522,
+        "quality": 4,
+        "icon": "inv_chest_leather_raidmonkulatek_d_01.jpg",
+        "itemLevel": 334,
+        "permanentEnchant": 7987,
+        "bonusIDs": [
+          13334,
+          6652,
+          14049,
+          13690,
+          13698,
+          12854
+        ],
+        "setID": 2061
+      },
+      {
+        "id": 271516,
+        "quality": 4,
+        "icon": "inv_belt_leather_raidmonkulatek_d_01.jpg",
+        "itemLevel": 334,
+        "bonusIDs": [
+          13334,
+          6652,
+          12854,
+          13696,
+          1587
+        ]
+      },
+      {
+        "id": 244574,
+        "quality": 4,
+        "icon": "inv_pant_leather_questbloodelf_b_01.jpg",
+        "itemLevel": 331,
+        "permanentEnchant": 8159,
+        "bonusIDs": [
+          12214,
+          13667,
+          12497,
+          13751,
+          14001,
+          8793,
+          13836
+        ]
+      },
+      {
+        "id": 271521,
+        "quality": 4,
+        "icon": "inv_boot_leather_raidmonkulatek_d_01.jpg",
+        "itemLevel": 334,
+        "permanentEnchant": 7963,
+        "bonusIDs": [
+          6652,
+          12854,
+          13440,
+          1587
+        ]
+      },
+      {
+        "id": 244576,
+        "quality": 4,
+        "icon": "inv_bracer_leather_questbloodelf_b_01.jpg",
+        "itemLevel": 331,
+        "bonusIDs": [
+          12214,
+          13667,
+          13695,
+          12497,
+          13751,
+          14001,
+          8960,
+          12384,
+          8791,
+          13836,
+          13696
+        ],
+        "gems": [
+          {
+            "id": 240892,
+            "itemLevel": 295,
+            "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green.jpg"
+          }
+        ]
+      },
+      {
+        "id": 271520,
+        "quality": 4,
+        "icon": "inv_glove_leather_raidmonkulatek_d_01.jpg",
+        "itemLevel": 334,
+        "permanentEnchant": 8727,
+        "bonusIDs": [
+          13335,
+          13691,
+          6652,
+          13697,
+          12854
+        ],
+        "setID": 2061
+      },
+      {
+        "id": 268249,
+        "quality": 4,
+        "icon": "inv_121_jewelry_ring01_purple.jpg",
+        "itemLevel": 334,
+        "permanentEnchant": 7967,
+        "bonusIDs": [
+          6652,
+          13668,
+          13335,
+          12854
+        ],
+        "gems": [
+          {
+            "id": 240892,
+            "itemLevel": 295,
+            "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green.jpg"
+          }
+        ]
+      },
+      {
+        "id": 268252,
+        "quality": 4,
+        "icon": "inv_121_jewelry_ring03_red.jpg",
+        "itemLevel": 334,
+        "permanentEnchant": 7967,
+        "bonusIDs": [
+          42,
+          13668,
+          13335,
+          12854
+        ],
+        "gems": [
+          {
+            "id": 240890,
+            "itemLevel": 295,
+            "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green.jpg"
+          }
+        ]
+      },
+      {
+        "id": 270173,
+        "quality": 4,
+        "icon": "inv_121_trinket_raid_ulatek_trolltablet.jpg",
+        "itemLevel": 341,
+        "bonusIDs": [
+          6652,
+          13334,
+          12856
+        ],
+        "setID": 2070
+      },
+      {
+        "id": 270175,
+        "quality": 4,
+        "icon": "inv_121_trinket_raid_ulatek_heart.jpg",
+        "itemLevel": 341,
+        "bonusIDs": [
+          6652,
+          13334,
+          13696,
+          12856
+        ]
+      },
+      {
+        "id": 239656,
+        "quality": 4,
+        "icon": "inv_cape_cloth_questbloodelf_b_01.jpg",
+        "itemLevel": 331,
+        "bonusIDs": [
+          12214,
+          13667,
+          12497,
+          13751,
+          14001,
+          8960,
+          12384,
+          8793,
+          13836
+        ]
+      },
+      {
+        "id": 268215,
+        "quality": 4,
+        "icon": "inv_polearm_2h_ulatek_d_01.jpg",
+        "itemLevel": 341,
+        "permanentEnchant": 8689,
+        "temporaryEnchant": 8052,
+        "bonusIDs": [
+          6652,
+          13334,
+          13846,
+          13696,
+          12856
+        ]
+      },
+      {
+        "id": 0,
+        "quality": 1,
+        "icon": "inv_axe_02.jpg",
+        "itemLevel": 0
+      },
+      {
+        "id": 5976,
+        "quality": 2,
+        "icon": "inv_shirt_guildtabard_01.jpg",
+        "itemLevel": 1
+      }
+    ],
+    "raw_combat_start_stats": {
+      "agility": 2633,
+      "strength": 265,
+      "stamina": 45389,
+      "intellect": 620,
+      "critMelee": 801,
+      "hasteMelee": 801,
+      "mastery": 1388,
+      "versatilityDamageDone": 303,
+      "versatilityHealingDone": 303,
+      "versatilityDamageReduction": 303
+    },
+    "start_auras": [
+      {
+        "source": 1,
+        "ability": 450574,
+        "stacks": 1,
+        "icon": "ability_rogue_sprint_blue.jpg",
+        "name": "真气流转"
+      },
+      {
+        "source": 1,
+        "ability": 392993,
+        "stacks": 1,
+        "icon": "monk_stance_whitetiger.jpg",
+        "name": "雪怒的战甲"
+      },
+      {
+        "source": 1,
+        "ability": 1234969,
+        "stacks": 1,
+        "icon": "inv_alchemy_90_stone_purple.jpg",
+        "name": "虚灵强化"
+      },
+      {
+        "source": 6,
+        "ability": 1126,
+        "stacks": 1,
+        "icon": "spell_nature_regeneration.jpg",
+        "name": "野性印记"
+      },
+      {
+        "source": 1,
+        "ability": 1235108,
+        "stacks": 1,
+        "icon": "inv_12_profession_alchemy_flask_sindoreipotion_black.jpg",
+        "name": "魔导师合剂"
+      },
+      {
+        "source": 3,
+        "ability": 6673,
+        "stacks": 1,
+        "icon": "ability_warrior_battleshout.jpg",
+        "name": "战斗怒吼"
+      },
+      {
+        "source": 1,
+        "ability": 1285644,
+        "stacks": 1,
+        "icon": "spell_misc_food.jpg",
+        "name": "丰盛进食充分"
+      },
+      {
+        "source": 2,
+        "ability": 462854,
+        "stacks": 1,
+        "icon": "achievement_raidprimalist_windelemental.jpg",
+        "name": "天怒"
+      }
+    ],
+    "stat_basis": "战斗开场combatantinfo原字段，含合剂/食物/队伍增益，绝不称无增益面板。",
+    "observed_mastery_flask_spell_id": 1235108,
+    "observed_flask_name": "魔导师合剂",
+    "weapon_temporary_enchant_id": 8052,
+    "recklessness_applybuff_count": 6,
+    "recklessness_application_interpretation": "原始完整buff事件只显示共同spell1236994，不能据此识别每次药水具体加哪种次级。",
+    "captured_bonus_item_tooltips": [
+      {
+        "slot": "head",
+        "item_id": 271519,
+        "bonus_ids": "6652/13335/12854/13696/13692/13698/1587",
+        "gem_ids": null,
+        "enchant_id": "8017",
+        "name": "美猴王的不屈面容",
+        "item_level": 334,
+        "upgrade_text": "神话 6/6",
+        "slot_type": "头部",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "crit": 58,
+          "mastery": 142
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/271519?dataEnv=1&locale=4&bonus=6652:13335:12854:13696:13692:13698:1587",
+        "error": null
+      },
+      {
+        "slot": "neck",
+        "item_id": 268265,
+        "bonus_ids": "6652/13668/13334/13987/12856",
+        "gem_ids": "240983/240892",
+        "enchant_id": null,
+        "name": "亚基克星藏骨匣",
+        "item_level": 340,
+        "upgrade_text": "",
+        "slot_type": "颈部",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "haste": 105,
+          "versatility": 105,
+          "crit": 105,
+          "mastery": 105
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/268265?dataEnv=1&locale=4&bonus=6652:13668:13334:13987:12856",
+        "error": null
+      },
+      {
+        "slot": "shoulder",
+        "item_id": 271517,
+        "bonus_ids": "13334/13694/6652/13697/12846",
+        "gem_ids": null,
+        "enchant_id": "8001",
+        "name": "美猴王流苏护肩",
+        "item_level": 321,
+        "upgrade_text": "英雄 6/6",
+        "slot_type": "肩部",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "mastery": 45,
+          "haste": 98
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/271517?dataEnv=1&locale=4&bonus=13334:13694:6652:13697:12846",
+        "error": null
+      },
+      {
+        "slot": "back",
+        "item_id": 239656,
+        "bonus_ids": "12214/13667/12497/13751/14001/8960/12384/8793/13836",
+        "gem_ids": null,
+        "enchant_id": null,
+        "name": "信徒的流丝罩袍",
+        "item_level": 331,
+        "upgrade_text": "",
+        "slot_type": "背部",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "mastery": 56,
+          "haste": 56
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/239656?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8960:12384:8793:13836",
+        "error": null
+      },
+      {
+        "slot": "chest",
+        "item_id": 271522,
+        "bonus_ids": "13334/6652/14049/13690/13698/12854",
+        "gem_ids": null,
+        "enchant_id": "7987",
+        "name": "美猴王战衣",
+        "item_level": 334,
+        "upgrade_text": "神话 6/6",
+        "slot_type": "胸部",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "mastery": 139,
+          "haste": 62
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/271522?dataEnv=1&locale=4&bonus=13334:6652:14049:13690:13698:12854",
+        "error": null
+      },
+      {
+        "slot": "wrist",
+        "item_id": 244576,
+        "bonus_ids": "12214/13667/13695/12497/13751/14001/8960/12384/8791/13836/13696",
+        "gem_ids": "240892",
+        "enchant_id": null,
+        "name": "银月城特工的偏斜腕甲",
+        "item_level": 331,
+        "upgrade_text": "",
+        "slot_type": "腕部",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "crit": 56,
+          "mastery": 56
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/244576?dataEnv=1&locale=4&bonus=12214:13667:13695:12497:13751:14001:8960:12384:8791:13836:13696",
+        "error": null
+      },
+      {
+        "slot": "hands",
+        "item_id": 271520,
+        "bonus_ids": "13335/13691/6652/13697/12854",
+        "gem_ids": null,
+        "enchant_id": "8727",
+        "name": "美猴王的斗拳",
+        "item_level": 334,
+        "upgrade_text": "神话 6/6",
+        "slot_type": "手部",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "versatility": 45,
+          "haste": 106
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/271520?dataEnv=1&locale=4&bonus=13335:13691:6652:13697:12854",
+        "error": null
+      },
+      {
+        "slot": "waist",
+        "item_id": 271516,
+        "bonus_ids": "13334/6652/12854/13696/1587",
+        "gem_ids": null,
+        "enchant_id": null,
+        "name": "美猴王敏捷束带",
+        "item_level": 334,
+        "upgrade_text": "神话 6/6",
+        "slot_type": "腰部",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "crit": 53,
+          "haste": 98
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/271516?dataEnv=1&locale=4&bonus=13334:6652:12854:13696:1587",
+        "error": null
+      },
+      {
+        "slot": "legs",
+        "item_id": 244574,
+        "bonus_ids": "12214/13667/12497/13751/14001/8793/13836",
+        "gem_ids": null,
+        "enchant_id": "8159",
+        "name": "银月城特工的护腿",
+        "item_level": 331,
+        "upgrade_text": "",
+        "slot_type": "腿部",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "mastery": 99,
+          "haste": 99
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/244574?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8793:13836",
+        "error": null
+      },
+      {
+        "slot": "feet",
+        "item_id": 271521,
+        "bonus_ids": "6652/12854/13440/1587",
+        "gem_ids": null,
+        "enchant_id": "7963",
+        "name": "美猴王护胫",
+        "item_level": 334,
+        "upgrade_text": "神话 6/6",
+        "slot_type": "脚部",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "crit": 105,
+          "mastery": 46
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/271521?dataEnv=1&locale=4&bonus=6652:12854:13440:1587",
+        "error": null
+      },
+      {
+        "slot": "finger1",
+        "item_id": 268249,
+        "bonus_ids": "6652/13668/13335/12854",
+        "gem_ids": "240892",
+        "enchant_id": "7967",
+        "name": "邪恶炼金师指环",
+        "item_level": 334,
+        "upgrade_text": "神话 6/6",
+        "slot_type": "手指",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "crit": 73,
+          "mastery": 332
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/268249?dataEnv=1&locale=4&bonus=6652:13668:13335:12854",
+        "error": null
+      },
+      {
+        "slot": "finger2",
+        "item_id": 268252,
+        "bonus_ids": "42/13668/13335/12854",
+        "gem_ids": "240890",
+        "enchant_id": "7967",
+        "name": "顶级蛮兵爪戒",
+        "item_level": 334,
+        "upgrade_text": "神话 6/6",
+        "slot_type": "手指",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "crit": 338,
+          "haste": 67
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/268252?dataEnv=1&locale=4&bonus=42:13668:13335:12854",
+        "error": null
+      },
+      {
+        "slot": "trinket1",
+        "item_id": 270173,
+        "bonus_ids": "6652/13334/12856",
+        "gem_ids": null,
+        "enchant_id": null,
+        "name": "祖尔金的处斩技法",
+        "item_level": 340,
+        "upgrade_text": "",
+        "slot_type": "饰品",
+        "inventory_type": null,
+        "secondary_ratings": {},
+        "source": "https://nether.wowhead.com/tooltip/item/270173?dataEnv=1&locale=4&bonus=6652:13334:12856",
+        "error": null
+      },
+      {
+        "slot": "trinket2",
+        "item_id": 270175,
+        "bonus_ids": "6652/13334/13696/12856",
+        "gem_ids": null,
+        "enchant_id": null,
+        "name": "乌拉特克贪婪之心",
+        "item_level": 340,
+        "upgrade_text": "",
+        "slot_type": "饰品",
+        "inventory_type": null,
+        "secondary_ratings": {
+          "crit": 147
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/270175?dataEnv=1&locale=4&bonus=6652:13334:13696:12856",
+        "error": null
+      },
+      {
+        "slot": "main_hand",
+        "item_id": 268215,
+        "bonus_ids": "6652/13334/13846/13696/12856",
+        "gem_ids": null,
+        "enchant_id": "8689",
+        "name": "深渊巢魔的长柄大斧",
+        "item_level": 340,
+        "upgrade_text": "",
+        "slot_type": "双手",
+        "inventory_type": "two_hand",
+        "secondary_ratings": {
+          "mastery": 206
+        },
+        "source": "https://nether.wowhead.com/tooltip/item/268215?dataEnv=1&locale=4&bonus=6652:13334:13846:13696:12856",
+        "error": null
+      }
+    ],
+    "tooltip_caution": "旧gear-elite-items缺高手redirected_base_stats。其默认绿字解析仅是旧数据库结果，不能证明特效转套后的实际绿字；341对340冲突依combatant/网页341，不以默认tooltip覆盖。",
+    "changes_against_current_murlok": [
+      "10-26腿是244574制作腿；10-29个人页列271518套装腿。",
+      "10-26第二饰品为270173祖尔金；10-29个人页列281215恐魔触须。",
+      "10-26肩有完整bonus且显示321英雄6/6；10-29个人页未给当前肩bonus与装等。"
+    ],
+    "no_precursor_inference": "不因271519头名推成普通暴击精通头，也不把用户271875前驱强行赋给Bisset；高手转化来源未知。",
+    "local_sources": [
+      {
+        "path": "records/cn-barrens-shaseng/analysis/2026-10-26/wcl-elite-profile.simc",
+        "sha256": "c517d3a845a33684f576b94bbbc0d5aea5f79e86859db86cd72c8d69328bda15"
+      },
+      {
+        "path": "records/cn-barrens-shaseng/analysis/2026-10-26/wcl-elite-page.json",
+        "sha256": "0783182c885195d9d3f0249bc79c3e34b19dafd7e1f2fe933855a8f39b3f1a14"
+      },
+      {
+        "path": "records/cn-barrens-shaseng/analysis/2026-10-26/wcl-elite-combatant.json",
+        "sha256": "9a8605d0ea104609a63350d7fb53bf8553905c1dd0cfd5d6ba62783f783fc1ac"
+      },
+      {
+        "path": "records/cn-barrens-shaseng/analysis/2026-10-26/wcl-elite-metadata.json",
+        "sha256": "8d7e93480ca3e6d9b95d655376601da94a6ba2c3232b4dd5da711ce7ee1e2596"
+      },
+      {
+        "path": "records/cn-barrens-shaseng/analysis/2026-10-26/wcl-elite-buffs.json",
+        "sha256": "96590f2c1d558e166fb1e75d97e005275feee0a249f9765a50288ba01d18c05c"
+      },
+      {
+        "path": "records/cn-barrens-shaseng/analysis/2026-10-26/gear-elite-items.json",
+        "sha256": "b5d5ba39461a5ecea2853f0a233a3ad01e0df10686dc59912e1afcdf3827ce10"
+      },
+      {
+        "path": "records/cn-barrens-shaseng/analysis/2026-10-26/gear-source-evidence.json",
+        "sha256": "fce917dd4380e49fada1633801b562b797f820c352f7c2da27af929dbf1c949d"
+      },
+      {
+        "path": "records/cn-barrens-shaseng/analysis/2026-10-26/gear-review.md",
+        "sha256": "aea9b62c4577753b361126f32ef572c4144f7cfdafa8bdf2f42bc53fd4cfaa7c"
+      }
+    ]
+  },
+  "item_tooltips_live": [
+    {
+      "item_id": 268256,
+      "url": "https://nether.wowhead.com/tooltip/item/268256?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:15+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 06:58:35 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "e1ac88002745865ad95ce6f441c433682e8c11d17e0acc247e9535fde0b5c3c3",
+      "raw": {
+        "name": "孤寂容器束带",
+        "quality": 4,
+        "icon": "inv_belt_leather_raiddruidulatek_d_01",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">孤寂容器束带</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->344</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腰部</td><th><!--scstart4:2--><span class=\"q1\">皮甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->118护甲</span><br><span><!--stat73-->+155 [敏捷 or 智力]</span><br><span><!--stat7-->+3,288 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg36-->49急速</span><br><span class=\"q2\">+<!--rtg49-->108精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">31</span> <span class=\"moneysilver\">43</span> <span class=\"moneycopper\">38</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "孤寂容器束带 史诗 物品等级： 344 拾取后绑定 腰部 皮甲 118护甲 +155 [敏捷 or 智力] +3,288 耐力 + 49急速 + 108精通 耐久: 55 / 55 \b需要等级 90 售价: 31 43 38",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 268227,
+      "url": "https://nether.wowhead.com/tooltip/item/268227?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:15+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:11 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "0c99c2d9760f285bd9bafd71493f5eabf629a10d8fa1fd8e62b26c579d1d0aa0",
+      "raw": {
+        "name": "失魂颅骨束带",
+        "quality": 4,
+        "icon": "inv_belt_leather_raidrogueulatek_d_01",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">失魂颅骨束带</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腰部</td><th><!--scstart4:2--><span class=\"q1\">皮甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->110护甲</span><br><span><!--stat73-->+141 [敏捷 or 智力]</span><br><span><!--stat7-->+2,932 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->107暴击</span><br><span class=\"q2\">+<!--rtg49-->43精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;用鱼肉进行了彻底的净化，以期驱散所有被附身的痕迹。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">29</span> <span class=\"moneysilver\">48</span> <span class=\"moneycopper\">29</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 莫尔扎希</div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "失魂颅骨束带 史诗 物品等级： 334 升级：神话 6/6 拾取后绑定 腰部 皮甲 110护甲 +141 [敏捷 or 智力] +2,932 耐力 + 107暴击 + 43精通 耐久: 55 / 55 \b需要等级 90 \"用鱼肉进行了彻底的净化，以期驱散所有被附身的痕迹。\" 售价: 29 48 29 掉落于: 莫尔扎希",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 244575,
+      "url": "https://nether.wowhead.com/tooltip/item/244575?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:15+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:10 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "e94f744b4f245f3cf59eecff16035d0594bdabd78842eecb3399389f5bfec784",
+      "raw": {
+        "name": "银月城特工的裹手",
+        "quality": 4,
+        "icon": "inv_glove_leather_questbloodelf_b_01",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">银月城特工的裹手</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->246</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>手部</td><th><!--scstart4:2--><span class=\"q1\">皮甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->65护甲</span><br><span><!--stat73-->+62 [敏捷 or 智力]</span><br><span><!--stat7-->+1,039 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg24-->49 随机属性1</span><br><span class=\"q2\">+<!--rtg25-->49 随机属性2</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">49</span> <span class=\"moneysilver\">39</span> <span class=\"moneycopper\">53</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "银月城特工的裹手 物品等级： 246 拾取后绑定 手部 皮甲 65护甲 +62 [敏捷 or 智力] +1,039 耐力 + 49 随机属性1 + 49 随机属性2 耐久: 55 / 55 \b需要等级 90 售价: 49 39 53",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 268253,
+      "url": "https://nether.wowhead.com/tooltip/item/268253?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:16+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:11 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "84e0209b9751c1f7c7b6b58fd1789160bd59f33a756540a10d48e7bb498b5229",
+      "raw": {
+        "name": "丝质巫毒斗篷",
+        "quality": 4,
+        "icon": "inv_cape_leather_raidrogueulatek_d_01",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">丝质巫毒斗篷</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->344</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>背部</td></tr></table><!--rf--><span><!--amr-->84护甲</span><br><span><!--stat71-->+116 [敏捷 or 力量 or 智力]</span><br><span><!--stat7-->+2,466 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg36-->35急速</span><br><span class=\"q2\">+<!--rtg49-->83精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">45</span> <span class=\"moneysilver\">9</span> <span class=\"moneycopper\">89</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "丝质巫毒斗篷 史诗 物品等级： 344 拾取后绑定 背部 84护甲 +116 [敏捷 or 力量 or 智力] +2,466 耐力 + 35急速 + 83精通 \b需要等级 90 售价: 45 9 89",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 268240,
+      "url": "https://nether.wowhead.com/tooltip/item/268240?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:16+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:12 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "4198b5be1ab017a7598f18ce148e74b1a34cc509a20384a46354c1a2df19c08f",
+      "raw": {
+        "name": "无眠精魂镣铐",
+        "quality": 4,
+        "icon": "8095063",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">无眠精魂镣铐</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腕部</td><th><!--scstart4:2--><span class=\"q1\">皮甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->98护甲</span><br><span><!--stat73-->+106 [敏捷 or 智力]</span><br><span><!--stat7-->+2,199 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->74暴击</span><br><span class=\"q2\">+<!--rtg36-->39急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">28</span> <span class=\"moneysilver\">70</span> <span class=\"moneycopper\">6</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "无眠精魂镣铐 史诗 物品等级： 334 升级：神话 6/6 拾取后绑定 腕部 皮甲 98护甲 +106 [敏捷 or 智力] +2,199 耐力 + 74暴击 + 39急速 耐久: 55 / 55 \b需要等级 90 售价: 28 70 6",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 268225,
+      "url": "https://nether.wowhead.com/tooltip/item/268225?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:16+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:13 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "f1e73d718d17e2e1ec746df9fd6b9a8ad1efc23ecea78d7f41e6fc674e157b27",
+      "raw": {
+        "name": "盘卷妖术护腿",
+        "quality": 4,
+        "icon": "inv_pant_leather_raidmonkulatek_d_01",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">盘卷妖术护腿</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->344</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腿部</td><th><!--scstart4:2--><span class=\"q1\">皮甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->184护甲</span><br><span><!--stat73-->+207 [敏捷 or 智力]</span><br><span><!--stat7-->+4,385 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg36-->66急速</span><br><span class=\"q2\">+<!--rtg49-->143精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 120 / 120</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">58</span> <span class=\"moneysilver\">47</span> <span class=\"moneycopper\">78</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "盘卷妖术护腿 史诗 物品等级： 344 拾取后绑定 腿部 皮甲 184护甲 +207 [敏捷 or 智力] +4,385 耐力 + 66急速 + 143精通 耐久: 120 / 120 \b需要等级 90 售价: 58 47 78",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 272150,
+      "url": "https://nether.wowhead.com/tooltip/item/272150?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:17+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 04:21:00 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "251e223e478742d614137aca34dc4bb987955751aff4b37cfadb6d0089f6e7b2",
+      "raw": {
+        "name": "衔尾蛇印玺",
+        "quality": 4,
+        "icon": "inv_jewelry_ring_181",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">衔尾蛇印玺</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->321</span><br><span class=\"q\">升级：英雄 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>手指</td><th><!--scstart4:-2--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat7-->+1,895 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg36-->140急速</span><br><span class=\"q2\">+<!--rtg49-->236精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">38</span> <span class=\"moneysilver\">71</span> <span class=\"moneycopper\">93</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "衔尾蛇印玺 物品等级： 321 升级：英雄 6/6 拾取后绑定 装备唯一 手指 +1,895 耐力 + 140急速 + 236精通 \b需要等级 90 售价: 38 71 93",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 240983,
+      "url": "https://nether.wowhead.com/tooltip/item/240983?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:18+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:13 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "b81390cf0158e4655812dea8947f33fb14e1918bf8d6ca35b8a097e1d8c1ab4c",
+      "raw": {
+        "name": "费解之永歌钻石",
+        "quality": 4,
+        "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">费解之永歌钻石</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><br>装备唯一：萨拉斯钻石（1）<!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->32 <!----> 主属性<!--i?240983:0:80:90:-15:951:0:0--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">6</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "费解之永歌钻石 物品等级： 295 装备唯一：萨拉斯钻石（1） + 32 主属性 最大叠加: 200 售价: 6",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 240967,
+      "url": "https://nether.wowhead.com/tooltip/item/240967?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:18+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:15 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "1828863ddcb277c754e7ab648e621a4bbb8d18a000b65d30a2bf2813b1548fe8",
+      "raw": {
+        "name": "强能之永歌钻石",
+        "quality": 4,
+        "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_orange",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">强能之永歌钻石</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><br>装备唯一：萨拉斯钻石（1）<!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br /><span class=\"q1\">+<!--gem1-->23 <!----> 主属性，每种不同的至暗之夜宝石颜色+0.15%爆击效果</span><!--i?240967:0:80:90:-15:684:0:0--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">6</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "强能之永歌钻石 物品等级： 295 装备唯一：萨拉斯钻石（1） + 23 主属性，每种不同的至暗之夜宝石颜色+0.15%爆击效果 最大叠加: 200 售价: 6",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 240892,
+      "url": "https://nether.wowhead.com/tooltip/item/240892?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:19+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:14 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "ae19e39db44c38d9faba8561a611042077646504d473faa5abfaee57b82d6cca",
+      "raw": {
+        "name": "无瑕精湛榄石",
+        "quality": 3,
+        "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕精湛榄石</b><!--nend--><!--ndstart--><br /><span style=\"color: #43E023\">榄石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->16 <!----> 急速和+<!--gem2-->7 <!----> 精通<!--i?240892:0:80:90:-15:476:208:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+        "spells": {
+          "436341": [
+            [
+              "",
+              "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+              ""
+            ]
+          ]
+        }
+      },
+      "plain_tooltip": "无瑕精湛榄石 榄石 物品等级： 295 + 16 急速和+ 7 精通 使用: 最大叠加: 200 售价: 2 60",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 240890,
+      "url": "https://nether.wowhead.com/tooltip/item/240890?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:19+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:14 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "2bc7043b27e4f5231e38b6b7d753342ab6284340eebbad8a97fc7e325a12903e",
+      "raw": {
+        "name": "无瑕致命榄石",
+        "quality": 3,
+        "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕致命榄石</b><!--nend--><!--ndstart--><br /><span style=\"color: #43E023\">榄石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->16 <!----> 急速和+<!--gem2-->7 <!----> 爆击<!--i?240890:0:80:90:-15:476:208:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+        "spells": {
+          "436341": [
+            [
+              "",
+              "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+              ""
+            ]
+          ]
+        }
+      },
+      "plain_tooltip": "无瑕致命榄石 榄石 物品等级： 295 + 16 急速和+ 7 爆击 使用: 最大叠加: 200 售价: 2 60",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 240908,
+      "url": "https://nether.wowhead.com/tooltip/item/240908?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:21+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:15 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "00984ed36721fbba524d8e0c08e04c1eec8540ef36a43563cc153b2b2f123523",
+      "raw": {
+        "name": "无瑕精湛榴石",
+        "quality": 3,
+        "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕精湛榴石</b><!--nend--><!--ndstart--><br /><span style=\"color: #EA4B4B\">榴石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->16 <!----> 爆击和+<!--gem2-->7 <!----> 精通<!--i?240908:0:80:90:-15:476:208:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+        "spells": {
+          "436341": [
+            [
+              "",
+              "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+              ""
+            ]
+          ]
+        }
+      },
+      "plain_tooltip": "无瑕精湛榴石 榴石 物品等级： 295 + 16 爆击和+ 7 精通 使用: 最大叠加: 200 售价: 2 60",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 240898,
+      "url": "https://nether.wowhead.com/tooltip/item/240898?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:22+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:14:22 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "01d7bb0b58c8e32001d7d51e486a640be1fa802740a200e3c4bfeabda50c2692",
+      "raw": {
+        "name": "无瑕致命紫晶",
+        "quality": 3,
+        "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_purple",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕致命紫晶</b><!--nend--><!--ndstart--><br /><span style=\"color: #B622C6\">紫晶</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->16 <!----> 精通和+<!--gem2-->7 <!----> 爆击<!--i?240898:0:80:90:-15:476:208:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+        "spells": {
+          "436341": [
+            [
+              "",
+              "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+              ""
+            ]
+          ]
+        }
+      },
+      "plain_tooltip": "无瑕致命紫晶 紫晶 物品等级： 295 + 16 精通和+ 7 爆击 使用: 最大叠加: 200 售价: 2 60",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 240900,
+      "url": "https://nether.wowhead.com/tooltip/item/240900?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:22+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:14:23 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "ce946380271cfff9c2eef7afc1eaca51a6a3060ce3e9524d4d8bf83a98b5a26e",
+      "raw": {
+        "name": "无瑕迅捷紫晶",
+        "quality": 3,
+        "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕迅捷紫晶</b><!--nend--><!--ndstart--><br /><span style=\"color: #B622C6\">紫晶</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->16 <!----> 精通和+<!--gem2-->7 <!----> 急速<!--i?240900:0:80:90:-15:476:208:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+        "spells": {
+          "436341": [
+            [
+              "",
+              "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+              ""
+            ]
+          ]
+        }
+      },
+      "plain_tooltip": "无瑕迅捷紫晶 紫晶 物品等级： 295 + 16 精通和+ 7 急速 使用: 最大叠加: 200 售价: 2 60",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 241324,
+      "url": "https://nether.wowhead.com/tooltip/item/241324?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:22+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:16 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "55331853182079136b8d8d7f2930b9f95aaf4fcb1f91f4b7783250045f585540",
+      "raw": {
+        "name": "血骑士合剂",
+        "quality": 1,
+        "icon": "inv_12_profession_alchemy_flask_sindoreipotion_white-",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">血骑士合剂</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1235110\" class=\"q2\">使你的急速提高<!--pts1:0:0:1235110-->165<!---->，持续1小时。<br /><br /><a href=\"/cn/spell=431970/合剂\" target=\"_blank\">持续1小时并且在死亡后仍可继续存在。消耗第二瓶会额外延长1小时。</a><!--?241324:81:1300:295:15468:0:0:0--></a> (3​秒 冷却)<!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->81<br><span class=\"q\">&quot;由经验丰富的炼金师制作。可以在拍卖行购买和出售。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">92</span> <span class=\"moneycopper\">50</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "血骑士合剂 物品等级： 295 使用: 使你的急速提高 165 ，持续1小时。 持续1小时并且在死亡后仍可继续存在。消耗第二瓶会额外延长1小时。 (3​秒 冷却) \b需要等级 81 \"由经验丰富的炼金师制作。可以在拍卖行购买和出售。\" 最大叠加: 200 售价: 2 92 50",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 241326,
+      "url": "https://nether.wowhead.com/tooltip/item/241326?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:23+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:16 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "b22e5c31c9eee32105060b12e7a182472cccd587e2c995bd8d0bfbd8eb812845",
+      "raw": {
+        "name": "破碎残阳合剂",
+        "quality": 1,
+        "icon": "inv_12_profession_alchemy_flask_sindoreipotion_red--",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">破碎残阳合剂</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1235111\" class=\"q2\">使你的爆击提高<!--pts1:0:0:1235111-->165<!---->，持续1小时。<br /><br /><a href=\"/cn/spell=431970/合剂\" target=\"_blank\">持续1小时并且在死亡后仍可继续存在。消耗第二瓶会额外延长1小时。</a><!--?241326:81:1300:295:15469:0:0:0--></a> (3​秒 冷却)<!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->81<br><span class=\"q\">&quot;由经验丰富的炼金师制作。可以在拍卖行购买和出售。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">98</span> <span class=\"moneycopper\">24</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "破碎残阳合剂 物品等级： 295 使用: 使你的爆击提高 165 ，持续1小时。 持续1小时并且在死亡后仍可继续存在。消耗第二瓶会额外延长1小时。 (3​秒 冷却) \b需要等级 81 \"由经验丰富的炼金师制作。可以在拍卖行购买和出售。\" 最大叠加: 200 售价: 2 98 24",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 241322,
+      "url": "https://nether.wowhead.com/tooltip/item/241322?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:24+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:16 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "5e08120f26547f5b4be19bbc8a4c11c69087186ca98661ecd5e6fd7509f5f331",
+      "raw": {
+        "name": "魔导师合剂",
+        "quality": 1,
+        "icon": "inv_12_profession_alchemy_flask_sindoreipotion_black",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">魔导师合剂</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1235108\" class=\"q2\">使你的精通提高<!--pts1:0:0:1235108-->165<!---->，持续1小时。<br /><br /><a href=\"/cn/spell=431970/合剂\" target=\"_blank\">持续1小时并且在死亡后仍可继续存在。消耗第二瓶会额外延长1小时。</a><!--?241322:81:1300:295:15467:0:0:0--></a> (3​秒 冷却)<!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->81<br><span class=\"q\">&quot;由经验丰富的炼金师制作。可以在拍卖行购买和出售。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">94</span> <span class=\"moneycopper\">50</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "魔导师合剂 物品等级： 295 使用: 使你的精通提高 165 ，持续1小时。 持续1小时并且在死亡后仍可继续存在。消耗第二瓶会额外延长1小时。 (3​秒 冷却) \b需要等级 81 \"由经验丰富的炼金师制作。可以在拍卖行购买和出售。\" 最大叠加: 200 售价: 2 94 50",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 241288,
+      "url": "https://nether.wowhead.com/tooltip/item/241288?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:24+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:17 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "33ecef9cb7ed44c606463ef06c0545b5efa940c8e95919039f1f154ced263e82",
+      "raw": {
+        "name": "鲁莽药水",
+        "quality": 1,
+        "icon": "inv_12_profession_alchemy_voidpotion_red",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">鲁莽药水</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1236994\" class=\"q2\">使你最高的次要属性提高<!--pts2:0:0:1236994-->1725<!---->，同时使最低次要属性降低<!--pts6:0:0:1236994-->232<!---->，持续30秒。<!--?241288:81:1300:295:15553:0:0:0--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->81<br><span class=\"q\">&quot;由经验丰富的炼金师制作。可以在拍卖行购买和出售。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneysilver\">83</span> <span class=\"moneycopper\">80</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "鲁莽药水 物品等级： 295 使用: 使你最高的次要属性提高 1725 ，同时使最低次要属性降低 232 ，持续30秒。 \b需要等级 81 \"由经验丰富的炼金师制作。可以在拍卖行购买和出售。\" 最大叠加: 200 售价: 83 80",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 243991,
+      "url": "https://nether.wowhead.com/tooltip/item/243991?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:24+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:19 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "919a9edafde5c7fc6b105f191a5fce8e634f1997f6489ef9d5aca90992b52a72",
+      "raw": {
+        "name": "附魔护肩 - 阿梅达希尔之赐",
+        "quality": 3,
+        "icon": "inv_12_profession_enchanting_enchantedvellum_blue",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">附魔护肩 - 阿梅达希尔之赐</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->85</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1236076\" class=\"q2\">永久性地为肩甲附魔阿梅达希尔之赐，使闪避提高111。不能对物品等级低于120的物品使用。<br /><br /><span style=\"color: #FFD200\">哈籁尼尔强化 - 世界之魂结界</span> </a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->70<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">5</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "附魔护肩 - 阿梅达希尔之赐 物品等级： 85 使用: 永久性地为肩甲附魔阿梅达希尔之赐，使闪避提高111。不能对物品等级低于120的物品使用。 哈籁尼尔强化 - 世界之魂结界 \b需要等级 70 最大叠加: 200 售价: 5",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 243957,
+      "url": "https://nether.wowhead.com/tooltip/item/243957?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:25+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:19 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "0dd310c2b96c5edaffe37d8470b6437c6201d6ce2e1c43585d558457c67a66b8",
+      "raw": {
+        "name": "附魔戒指 - 鹰眼神视",
+        "quality": 3,
+        "icon": "inv_12_profession_enchanting_enchantedvellum_blue",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">附魔戒指 - 鹰眼神视</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->85</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1236059\" class=\"q2\">永久性地为戒指附魔鹰眼神视，使爆击效果提高2%。不能对物品等级低于120的物品使用。<br /><br /><span style=\"color: #FFD200\">阿曼尼增强 - 祖阿曼热忱</span> </a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->70<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneysilver\">3</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "附魔戒指 - 鹰眼神视 物品等级： 85 使用: 永久性地为戒指附魔鹰眼神视，使爆击效果提高2%。不能对物品等级低于120的物品使用。 阿曼尼增强 - 祖阿曼热忱 \b需要等级 70 最大叠加: 200 售价: 3",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 273071,
+      "url": "https://nether.wowhead.com/tooltip/item/273071?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:25+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:18 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "72386458925cfb53900fd50f082c6b84eb6bc87ab8c5429b57dcc4d1357411c4",
+      "raw": {
+        "name": "附魔武器 - 哈谢仪式",
+        "quality": 3,
+        "icon": "inv_12_profession_enchanting_enchantedvellum_purple",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">附魔武器 - 哈谢仪式</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->580</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1291694\" class=\"q2\">永久性地为武器附魔哈谢仪式，使你的法术和技能赋予你哈谢之力，使你获得120点随机次要属性，持续15秒。当你的生命值高于80%时，该效果会优先提升你最高的次要属性。无法对物品等级低于120的物品使用。<br /><br /><span style=\"color: #FFD200\">阿曼尼增强 - 祖阿曼热忱</span> </a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->70<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">5</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "附魔武器 - 哈谢仪式 物品等级： 580 使用: 永久性地为武器附魔哈谢仪式，使你的法术和技能赋予你哈谢之力，使你获得120点随机次要属性，持续15秒。当你的生命值高于80%时，该效果会优先提升你最高的次要属性。无法对物品等级低于120的物品使用。 阿曼尼增强 - 祖阿曼热忱 \b需要等级 70 最大叠加: 200 售价: 5",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 240167,
+      "url": "https://nether.wowhead.com/tooltip/item/240167?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:25+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 07:01:20 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "6f4720c581ee531cdf1cdaecc1a5502ef95c5e2e678ca761c7b9f5d884bd5eac",
+      "raw": {
+        "name": "奥纹内衬",
+        "quality": 3,
+        "icon": "inv_12_tailoring_rare_cloth_violet_rare-cloth",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">奥纹内衬</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->72</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><span class=\"toycolor\">附加制作材料</span><div class=\"q2\">+5 配方难度</div><br><div class=\"q2\">提供下列属性：你的法术和技能有几率吸引一只法力浮龙，使你和一名盟友获得奥纹洞察。奥纹洞察会提高你和盟友的主要属性。</div><br><div class=\"q\">用于：<span style=\"color:#ffffff\">至暗之夜大部分未经修饰的护甲配方。</span><br><br></div><span class=\"q\">&quot;可以在拍卖行购买和出售。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">6</span> <span class=\"moneysilver\">82</span></div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "奥纹内衬 物品等级： 72 附加制作材料 +5 配方难度 提供下列属性：你的法术和技能有几率吸引一只法力浮龙，使你和一名盟友获得奥纹洞察。奥纹洞察会提高你和盟友的主要属性。 用于： 至暗之夜大部分未经修饰的护甲配方。 \"可以在拍卖行购买和出售。\" 最大叠加: 200 售价: 6 82",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 281215,
+      "url": "https://nether.wowhead.com/tooltip/item/281215?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:14:26+08:00",
+      "http_status": 200,
+      "http_date": "Thu, 29 Oct 2026 04:19:58 GMT",
+      "etag": "W/\"75d1793234356:2d1793234356:17d1793234356:70391\"",
+      "sha256": "2ac42b9953595ebb560783081224ff686358e2ef139cddbee781fc1d56ff0476",
+      "raw": {
+        "name": "扭曲恐兽触须",
+        "quality": 4,
+        "icon": "8268563",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">扭曲恐兽触须</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗</span><br><span style=\"color: #00BF0D\">晋升毒液铸造：史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->340</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>饰品</td><th><!--scstart4:-4--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat71-->+190 [敏捷 or 力量 or 智力]</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1310404\" class=\"q2\">你的伤害有极高几率与触须产生共鸣，获得毁灭之力，使你的爆击提高<!--pts1:0:0:1310404:0.119862-->35<!---->，持续15秒。多次施加可以重叠生效。<br /><br />每5秒，你对新目标的第一次攻击必定获得3层毁灭之力。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;这截断肢散发着一股难以抑制的凶戾气息。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">53</span> <span class=\"moneysilver\">17</span> <span class=\"moneycopper\">38</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: [Kith'ix]</div><div class=\"whtt-extra whtt-dropchance\">掉落几率: 33.69%</div></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "扭曲恐兽触须 史诗 晋升毒液铸造：史诗 物品等级： 340 拾取后绑定 装备唯一 饰品 +190 [敏捷 or 力量 or 智力] 装备： 你的伤害有极高几率与触须产生共鸣，获得毁灭之力，使你的爆击提高 35 ，持续15秒。多次施加可以重叠生效。 每5秒，你对新目标的第一次攻击必定获得3层毁灭之力。 \b需要等级 90 \"这截断肢散发着一股难以抑制的凶戾气息。\" 售价: 53 17 38 掉落于: [Kith'ix] 掉落几率: 33.69%",
+      "scope": "物品身份/本地化/默认tooltip效果，未带玩家bonus，不证明样本装备装等、转化前驱或个人配装效果。",
+      "data_build": null
+    },
+    {
+      "item_id": 280563,
+      "url": "https://nether.wowhead.com/tooltip/item/280563?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:22:39+08:00",
+      "http_status": 200,
+      "sha256": "fd3d6a271f80d735ba82c52fb0b5b26c95723ac59f1885b729da5af92d391ab1",
+      "raw": {
+        "name": "远古哈谢战技：猎鹰猛击",
+        "quality": 4,
+        "icon": "inv_10_inscription2_repcontracts_trade_archaeology_apexisscroll_uprez",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">远古哈谢战技：猎鹰猛击</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->1</span><!--bo--><br><span class=\"q7\">绑定至战团</span><br>唯一<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1314402\" class=\"q2\">永久为你的手套注入埃基尔松之风。在探索地下堡时，你有几率在战斗中对附近的一名敌人造成自然伤害。每次打击有20%的几率再次命中同一目标。<br /><br />该物品不会在使用时消耗。<br />不能对物品等级高于334的物品使用。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--></td></tr></table>",
+        "spells": []
+      },
+      "plain_tooltip": "远古哈谢战技：猎鹰猛击 物品等级： 1 绑定至战团 唯一 使用: 永久为你的手套注入埃基尔松之风。在探索地下堡时，你有几率在战斗中对附近的一名敌人造成自然伤害。每次打击有20%的几率再次命中同一目标。 该物品不会在使用时消耗。 不能对物品等级高于334的物品使用。 \b需要等级 90",
+      "scope": "正式服物品明确限定地下堡，名称和作用范围证据。",
+      "data_build": null
+    }
+  ],
+  "mechanics": {
+    "recklessness": {
+      "live_item_id": 241288,
+      "rule": "使用时比较有效次级评分；增加最高、减少最低；不是比较显示百分比。",
+      "source_code_url": "https://github.com/simulationcraft/simc/blob/73a372b76188c703e48729caded3258cdc5b726b/engine/player/unique_gear_midnight.cpp#L181",
+      "source_commit": "73a372b76188c703e48729caded3258cdc5b726b",
+      "source_recorded_at": "2026-10-26T13:00:16.695016+08:00",
+      "model_not_server_source": true,
+      "read_from_local_archive": true,
+      "driver_spell": 1236994,
+      "implementation_calls": [
+        "util::highest_stat(player, secondary_ratings)",
+        "util::lowest_stat(player, secondary_ratings)"
+      ],
+      "possible_changers": [
+        "合剂",
+        "宝石/附魔给予的评分",
+        "毒咒精通/急速/飞升",
+        "饰品及其他临时次级增益",
+        "281215叠加暴击可能改变使用时最高评分；具体机制与收益待主线验证。"
+      ],
+      "tie_behavior": "本次未核实同分择项规则。",
+      "cannot_prove": "静态最高精通无法保证每次在所有临时增益下都选精通；当前样本无逐次属性分支实测。"
+    },
+    "eyes_of_the_eagle": {
+      "item_id": 243957,
+      "rule": "tooltip为暴击效果+2%，不是暴击评分或暴击几率+2%。",
+      "does_not_directly_raise_crit_rating_for_potion": true
+    },
+    "crit_vs_mastery": {
+      "observed_top_rating": "5/5精通高于暴击；这是属性总量不是每点权重。",
+      "universal_marginal_order_proven": false,
+      "guides_disagree": "Method精通=暴击；Icy通用暴击略前且声明三项接近；按英雄过滤样本实装只能描述偏精通。"
+    },
+    "falco_strikes": {
+      "enchant_id": 8727,
+      "spell_id": 1315100,
+      "english_name": "Ancient Hash'ey Battle Art: Falco Strikes",
+      "name_zh_as_reported": "用户称古老哈籁尼尔战技，正式服物品/官方热修使用远古哈谢战技。",
+      "source_url": "https://nether.wowhead.com/tooltip/spell/1315100?dataEnv=1&locale=4",
+      "murlok_hero_sample": {
+        "players": 50,
+        "falco": 10,
+        "eye_of_the_lynx": 4,
+        "heat_wave": 3,
+        "falco_fraction_all_players": 0.2,
+        "falco_fraction_listed_hand_art_instances": 0.5882352941176471
+      },
+      "individual_current_sample": "Bisset，1/5；Эльпочита为Heat Wave、Gerlox为Eye of the Lynx，另2个未列。",
+      "historical_full_bonus_evidence": "Bisset 10-26网页/战斗手套永久附魔8727。",
+      "commonness": "所列手部战艺中最常见，非50人多数已装备；不能用未记录条目当作推荐空附魔。",
+      "recommendation": "仅作为高手佩戴/地下堡范围研究；当前用户未附8727。官方限定地下堡/迷宫，不建议为M+增伤投资该附魔。",
+      "old_simc_support": "主线转交旧引擎未实现proc；旧模型近0不能证明地下堡内价值。独立正式服/热修证据限定地下堡/迷宫，因此也不能声称大秘境一定有被低估的收益。",
+      "new_engine_support_verified": false,
+      "gain_quantified": false,
+      "item_id": 280563,
+      "name_zh": "远古哈谢战技：猎鹰猛击",
+      "effect_zh": "猎鹰猛击",
+      "official_hotfix_source": "https://wow.blizzard.cn/24266320/index.html",
+      "official_hotfix_cn_date": "2026-10-15",
+      "designed_scope": [
+        "Delves",
+        "The Labyrinth of Kindo'jan"
+      ],
+      "expected_active_in_mythic_plus": false,
+      "simc_scope_rule": "即使新引擎实现proc，也要保留地下堡/迷宫场景限制；无差别在DungeonSlice或团本启用会高估其收益。",
+      "tooltip_level_cap_disagreement": {
+        "item_tooltip_cap": 334,
+        "official_hotfix_cap": 344,
+        "preferred": "国服官方10/15热修344；不由旧tooltip覆盖。"
+      },
+      "user_current_equipped": false,
+      "attribution_correction": "8727核实要求由主线针对旧Bisset转交，不是用户声称自己已附；当前用户手套244575无附魔。"
+    },
+    "haste_33_percent_context": {
+      "origin": "主线更正：历史讨论是33+%急速，在5目标且旭日暴击条件下争取塞入两次青龙期间怒雷破；此前333评分为传话误写。",
+      "metric": "haste_percent",
+      "proposed_value": 33,
+      "scenario": {
+        "targets": 5,
+        "condition": "旭日东升踢暴击",
+        "goal": "同一青龙增益窗口内安排两次怒雷破"
+      },
+      "status": "特定轴的场景阈值假说，不是已核实的全局配装门槛。",
+      "exact_window_and_effective_haste_basis_verified": false,
+      "threshold_derivation_independently_verified": false,
+      "not_a_global_requirement": true,
+      "required_context": [
+        "哪一种青龙buff及有效时长",
+        "起手冷却/资源/天赋",
+        "第一发怒雷开始时刻及第二发判定是起手或完整引导",
+        "临时急速/嗜血等buff口径",
+        "旭日暴击带来的实际冷却变化及GCD/延迟"
+      ],
+      "population_cannot_validate": "高手17–23%角色快照不能否定某种带buff爆发轴的33%条件；33%场景条件也不证明整套牺牲特效追到33%更强。",
+      "recommendation": "保留不机械追阈值结论；以明确构筑与实际时间轴验证，主线70575机制测试负责，本任务不重跑。"
+    }
+  },
+  "conclusions": [
+    {
+      "id": "C1",
+      "claim": "实际肩以套装名为主；手套套装与制作都有；腰可自由换且不是正式五件套槽。",
+      "evidence": [
+        "murlok_hero_filtered_usage",
+        "current_player_samples"
+      ],
+      "limit": "转化源、实际绿字须逐件bonus/前驱核实。"
+    },
+    {
+      "id": "C2",
+      "claim": "双奥纹是样本共同选择；部位随套装和高价值掉落改变，制作件可多于2。",
+      "evidence": [
+        "current_player_samples",
+        "murlok_hero_filtered_usage.embellishment_instances",
+        "method_gearing"
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "历史问题是33+%急速与5目标旭日暴击后双青龙怒雷的特定轴条件，不是333评分；场景阈值不等于全局门槛，不机械追33%。",
+      "evidence": [
+        "mechanics.haste_33_percent_context",
+        "icy_stats"
+      ],
+      "limit": "未独立验证该轴的精确阈值和buff口径；指南无全局断点不排除具体时间窗阈值。"
+    },
+    {
+      "id": "C4",
+      "claim": "实装倾向精通最高评分，不能断言每一点精通永远胜暴击；鲁莽看使用时评分。",
+      "evidence": [
+        "current_player_samples",
+        "mechanics.recklessness"
+      ]
+    },
+    {
+      "id": "C5",
+      "claim": "主线转交当前沙僧模拟中魔导师精通合剂明显领先，当前个人优先精通合剂；这与旧Bisset精通合剂实战方向一致，不推广成所有高手最优。",
+      "evidence": [
+        "current_user_model_as_reported",
+        "historical_bonus_aware_bisset",
+        "method_stats"
+      ],
+      "limit": "本研究未独立读取新模拟的次数、误差、DPS及引擎commit。指南和混合英雄树缓存不能替代个人比较。"
+    },
+    {
+      "id": "C6",
+      "claim": "双饰341后，H10的祖尔金装等/晋升补差收益已不存在；其他掉落价值仍须按剩余池重算，不能直接断言R价值为0。",
+      "evidence": [
+        "user_current_corrections.trinkets"
+      ],
+      "limit": "未取得当前R余额、排除池、背包与获取成本，本研究不安排精确roll路线。"
+    },
+    {
+      "id": "C7",
+      "claim": "8727猎鹰猛击确有10/50天神御师佩戴，但正式服tooltip及国服10/15官方热修限定地下堡/迷宫；不作为M+输出收益推荐。",
+      "evidence": [
+        "mechanics.falco_strikes",
+        "cn_battle_art_hotfix",
+        "item_spell_tooltips_live"
+      ],
+      "limit": "旧SimC未实现proc仍是模型缺口，影响的是适用场景建模；不能凭模型近0或高手佩戴单独裁定实服范围。"
+    },
+    {
+      "id": "C8",
+      "claim": "当前raw手为244575制作331/8793、无附魔；四件头肩胸腿；头完整bonus含13847。",
+      "evidence": [
+        "current_user_raw_snapshot",
+        "user_current_corrections"
+      ],
+      "limit": "items默认头绿字未还原前驱，不作实际源绿字证据。"
+    },
+    {
+      "id": "C9",
+      "claim": "281215掉落于独立单首领团本基希克斯破封的基希克斯；英雄/史诗R获取有明确指南表支持。",
+      "evidence": [
+        "item_281215_acquisition",
+        "method_demo_281215_roll"
+      ],
+      "limit": "未核沙僧当前踏风个人剩余奖励池，不做来源策略。"
+    }
+  ],
+  "unverified": [
+    "5位高手10/29的完整bonus、转化前驱及每件实装等级；仅有一位10/26完整bonus旧快照。",
+    "Murlok角色属性严格无增益口径和汇总统计的计算方法。",
+    "欧服5人全部为暗夜精灵，不能代表国服人口或熊猫人角色的绝对面板。",
+    "当前配装就是每次最高分大秘境所用装备；排行榜只给历史最佳成绩。",
+    "高手当前合剂、鲁莽逐次具体选择；旧共同buffID不携带分支证据。",
+    "缺前驱时不能单凭完整bonus证明原始属性已被还原；套装名也不能证明毒咒缺失。",
+    "任何新替换DPS、全局最优、精确H10R池和概率；未运行新模拟。",
+    "当前主线转交的新模拟精通合剂优势的原始输出和数值；git pull是否完成／更新后的1315100触发实现情况。",
+    "当前头完整bonus已获raw确认含13847，手244575/331/8793/无附魔已确认；其余高手当前完整bonus/前驱缺口仍存在。",
+    "33+%在指定5目标旭日暴击轴中的精确双怒雷条件未独立验证，不作为全局门槛。"
+  ],
+  "tool_audit": {
+    "mcp_service": "Search Service / mcp__codex_apps__search_service___web_run",
+    "reason": "当前版本/高层角色/英雄树统计必须联网核实",
+    "query_batch_max": 4,
+    "response_length": "short/long",
+    "query_date": "2026-10-29",
+    "domains": [
+      "murlok.io",
+      "archon.gg",
+      "raider.io",
+      "method.gg",
+      "icy-veins.com",
+      "wow.blizzard.cn",
+      "wowhead.com"
+    ],
+    "local_tools": "exec_command（pwsh / Python）只读旧档、取正式服tooltip、构建JSON；apply_patch写Markdown；未跑SimC。",
+    "failures": [
+      {
+        "target": "Murlok Python direct",
+        "result": "403",
+        "fallback": "Search Service解析正文",
+        "backoff": "无自动重试，停止直连"
+      },
+      {
+        "target": "Archon direct pages",
+        "result": "403",
+        "fallback": "搜索索引，标明缓存日期和未Hero过滤",
+        "backoff": "一次通过搜索结果重开gear端点仍403后停止；其他为不同端点"
+      },
+      {
+        "target": "Raider.IO API Python",
+        "result": "TLS certificate expired",
+        "fallback": "Search Service解析公开排行",
+        "backoff": "gear单字段另一URL仍证书失败后停止；未关闭TLS校验"
+      },
+      {
+        "target": "Raider.IO world ranking",
+        "result": "timeout",
+        "fallback": "公开EU排行成功",
+        "backoff": "无原URL自动重试"
+      },
+      {
+        "target": "Wowhead main pages",
+        "result": "JavaScript/anti-robot prompt",
+        "fallback": "官方公开tooltip host dataEnv=1 locale=4，经Python成功读取",
+        "backoff": "未绕过页面验证"
+      },
+      {
+        "target": "WCL Python direct current profile",
+        "result": "403",
+        "fallback": "使用10-26已授权历史归档并标日期，不冒称新抓取",
+        "backoff": "未自动重试"
+      }
+    ],
+    "tooltip_fetch": {
+      "items": 24,
+      "max_workers": 3,
+      "timeout_seconds": 25,
+      "retry_count": 0,
+      "errors": [],
+      "spells": 1
+    },
+    "sensitive_data": "无token、Cookie、账号凭据写入文件。",
+    "outside_owned_paths_modified": false,
+    "followup_queries": "8727 / Falco Strikes / spell1315100；正式服spell和物品280563显示地下堡限定，并追加国服官方10/15热修作为作用范围依据。",
+    "completed_at": "2026-10-29T15:34:26+08:00",
+    "review_correction": {
+      "at": "2026-10-29T15:33:25+08:00",
+      "local_inputs": [
+        "snapshots/2026-10-29-equipped.simc",
+        "snapshots/2026-10-29-equipped.items.json"
+      ],
+      "web_queries": "281215 / Kith'ix / bonus roll；Method英雄/史诗目标表与既有正式服tooltip交叉核对。",
+      "query_batch_max": 4,
+      "new_simulations": 0,
+      "new_files": 0,
+      "modified_files": [
+        "elite-research.md",
+        "elite-evidence.json"
+      ],
+      "retries": 0
+    }
+  },
+  "item_spell_tooltips_live": [
+    {
+      "spell_id": 1315100,
+      "url": "https://nether.wowhead.com/tooltip/spell/1315100?dataEnv=1&locale=4",
+      "retrieved_at": "2026-10-29T15:20:59+08:00",
+      "http_status": 200,
+      "sha256": "e0fbd81ca45382395fa8ddc54d75a6363fed801ae79b62ccbc02a3b7a5015093",
+      "raw": {
+        "name": "猎鹰猛击",
+        "icon": "inv_10_inscription2_repcontracts_trade_archaeology_apexisscroll_uprez",
+        "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><a class=\"whtt-name\" href=\"/cn/spell=1315100/猎鹰猛击\"><b class=\"whtt-name\">猎鹰猛击</b></a></td><th><b class=\"q0\"><br>等级<!--lvl-->90</b></th></tr></table>瞬发<br />大概每分钟触发 <!--rppm-->2<!--rppm--> 次</td></tr></table><table><tr><td><div class=\"q\">在探索地下堡时，你有几率在战斗中对附近的一名敌人造成<!--pts1:0:0:1315100-->20288<!---->点自然伤害。每次打击有20%的几率再次命中同一目标。</div>（1秒 冷却）</td></tr></table><!--?1315100:1:90:90:16161:0:0:90-->",
+        "tooltip2": "",
+        "buff": "<table><tr><td><b class=\"q\">猎鹰猛击</b></td></tr></table><table><tr><td>在探索地下堡时，你有几率在战斗中对附近的一名敌人造成<!--pts1:0:0:1315100-->20288<!---->点自然伤害。每次打击有20%的几率再次命中同一目标。</td></tr></table><!--?1315100:1:90:90:16161:0:0:90-->",
+        "quality": -1,
+        "spells": {},
+        "buffspells": {},
+        "completion_category": 0
+      },
+      "plain_tooltip": "猎鹰猛击 等级 90 瞬发 大概每分钟触发 2 次 在探索地下堡时，你有几率在战斗中对附近的一名敌人造成 20288 点自然伤害。每次打击有20%的几率再次命中同一目标。 （1秒 冷却）"
+    }
+  ],
+  "current_user_model_as_reported": {
+    "status": "主线在本会话转交的当前模拟结果；本研究未运行或独立读取该批模拟原始输出。",
+    "date": "2026-10-29",
+    "basis": "无buff、历史前驱兼容SimC；当前raw为头271519来源271875、手244575制作331/8793无附魔、头肩胸腿四件、双饰341。",
+    "agility": 2530,
+    "ratings": {
+      "crit": 899,
+      "haste": 803,
+      "mastery": 1155,
+      "versatility": 189
+    },
+    "display_percent": {
+      "crit": 33.54,
+      "haste": 18.25,
+      "mastery": 77.1,
+      "versatility": 3.5
+    },
+    "flask_comparison": "主线转交新模拟：魔导师精通合剂明显优于血骑士急速/破碎残阳暴击合剂。",
+    "flask_dps_deltas": null,
+    "interpretation": "当前个人选择优先精通合剂；不是所有天神御师的普遍最优。具体新引擎commit、遭遇、次数、误差和DPS未由本研究独立核验。",
+    "old_bisset_normalized_reference": {
+      "date": "2026-10-26",
+      "ratings": {
+        "crit": 943,
+        "haste": 755,
+        "mastery": 1248,
+        "versatility": 150
+      },
+      "display_percent": {
+        "crit": 34.5,
+        "haste": 17.16,
+        "mastery": 81.81,
+        "versatility": 2.78
+      },
+      "basis": "旧Bisset整装归一化模型、单一参考；不是其真实个人面板，更不是大米总体。"
+    },
+    "engine_update_status": "主线正在重编新70575；本任务不启动额外pull、编译或模拟。重编与复测结果尚未独立核实。"
+  },
+  "current_user_raw_snapshot": {
+    "source_date": "2026-10-29",
+    "simc_path": "records/cn-barrens-shaseng/snapshots/2026-10-29-equipped.simc",
+    "items_path": "records/cn-barrens-shaseng/snapshots/2026-10-29-equipped.items.json",
+    "simc_sha256": "3a0b549459bb7b4e128f8f75a131681823e4d426947bf47eb9dd425856a78a4f",
+    "items_sha256": "e77fa1934ebbe5c34823e34bdcd5b73ce744322a69ac80805a302b3d9e78012f",
+    "raw_simc_original": "# Warcraft Logs: https://www.warcraftlogs.com/CN/barrens/%E6%B2%99%E5%83%A7\n# Date: 1793255623000\n\nmonk=\"沙僧\"\nlevel=90\nrace=熊猫人\nregion=cn\nserver=贫瘠之地\nrole=dps\nspec=windwalker\n\ntalents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG\n\nhead=,id=271519,enchant_id=8017,bonus_id=13334/6652/12854/13696/13847/13692/13698/1587\nneck=,id=268265,bonus_id=6652/13668/13334/13987/12856,gem_id=240983/240892\nshoulder=,id=271517,enchant_id=8001,bonus_id=12846/6652/13440/13694/13697/1574\nback=,id=239656,bonus_id=12214/13667/12497/13751/14001/8960/12384/8790/13836\nchest=,id=271522,enchant_id=7987,bonus_id=13334/6652/14049/13690/13698/12854\nwrist=,id=244576,bonus_id=12214/13667/12497/13751/14001/8960/12384/8791/13836/13696\nhands=,id=244575,bonus_id=12214/13667/12497/13751/14001/8793/13836\nwaist=,id=271516,bonus_id=12846/13334/6652/13696/1574\nlegs=,id=271518,enchant_id=8159,bonus_id=6652/13440/13693/13698/12846\nfeet=,id=244569,enchant_id=7963,bonus_id=12214/13667/12497/13751/14001/8791/13836\nfinger1=,id=281029,enchant_id=7967,bonus_id=6652/13668/13334/12854,gem_id=240908\nfinger2=,id=240949,enchant_id=7967,bonus_id=12214/13667/12497/13751/14001/8791/13836,gem_id=240908\ntrinket1=,id=270175,bonus_id=6652/13334/12856\ntrinket2=,id=270173,bonus_id=6652/13334/12856\nmain_hand=,id=268215,enchant_id=8689,bonus_id=6652/13334/13846/12856\n",
+    "items_original": {
+      "schema_version": 1,
+      "retrieved_at": "2026-10-29T14:58:14.7690581+08:00",
+      "simc_path": "E:\\github\\wow-skills\\records\\cn-barrens-shaseng\\snapshots\\2026-10-29-equipped.simc",
+      "data_environment": 1,
+      "locale": 4,
+      "equipped_average": 332.5,
+      "items": [
+        {
+          "slot": "head",
+          "item_id": 271519,
+          "bonus_ids": "13334/6652/12854/13696/13847/13692/13698/1587",
+          "gem_ids": null,
+          "enchant_id": "8017",
+          "name": "美猴王的不屈面容",
+          "item_level": 334,
+          "upgrade_text": "神话 6/6",
+          "slot_type": "头部",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "crit": 58,
+            "mastery": 142
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/271519?dataEnv=1&locale=4&bonus=13334:6652:12854:13696:13847:13692:13698:1587",
+          "error": null
+        },
+        {
+          "slot": "neck",
+          "item_id": 268265,
+          "bonus_ids": "6652/13668/13334/13987/12856",
+          "gem_ids": "240983/240892",
+          "enchant_id": null,
+          "name": "亚基克星藏骨匣",
+          "item_level": 340,
+          "upgrade_text": "",
+          "slot_type": "颈部",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "mastery": 105,
+            "haste": 105,
+            "crit": 105,
+            "versatility": 105
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/268265?dataEnv=1&locale=4&bonus=6652:13668:13334:13987:12856",
+          "error": null
+        },
+        {
+          "slot": "shoulder",
+          "item_id": 271517,
+          "bonus_ids": "12846/6652/13440/13694/13697/1574",
+          "gem_ids": null,
+          "enchant_id": "8001",
+          "name": "美猴王流苏护肩",
+          "item_level": 321,
+          "upgrade_text": "英雄 6/6",
+          "slot_type": "肩部",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "haste": 98,
+            "mastery": 45
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/271517?dataEnv=1&locale=4&bonus=12846:6652:13440:13694:13697:1574",
+          "error": null
+        },
+        {
+          "slot": "back",
+          "item_id": 239656,
+          "bonus_ids": "12214/13667/12497/13751/14001/8960/12384/8790/13836",
+          "gem_ids": null,
+          "enchant_id": null,
+          "name": "信徒的流丝罩袍",
+          "item_level": 331,
+          "upgrade_text": "",
+          "slot_type": "背部",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "haste": 56,
+            "crit": 56
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/239656?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8960:12384:8790:13836",
+          "error": null
+        },
+        {
+          "slot": "chest",
+          "item_id": 271522,
+          "bonus_ids": "13334/6652/14049/13690/13698/12854",
+          "gem_ids": null,
+          "enchant_id": "7987",
+          "name": "美猴王战衣",
+          "item_level": 334,
+          "upgrade_text": "神话 6/6",
+          "slot_type": "胸部",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "haste": 62,
+            "mastery": 139
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/271522?dataEnv=1&locale=4&bonus=13334:6652:14049:13690:13698:12854",
+          "error": null
+        },
+        {
+          "slot": "wrist",
+          "item_id": 244576,
+          "bonus_ids": "12214/13667/12497/13751/14001/8960/12384/8791/13836/13696",
+          "gem_ids": null,
+          "enchant_id": null,
+          "name": "银月城特工的偏斜腕甲",
+          "item_level": 331,
+          "upgrade_text": "",
+          "slot_type": "腕部",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "crit": 56,
+            "mastery": 56
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/244576?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8960:12384:8791:13836:13696",
+          "error": null
+        },
+        {
+          "slot": "hands",
+          "item_id": 244575,
+          "bonus_ids": "12214/13667/12497/13751/14001/8793/13836",
+          "gem_ids": null,
+          "enchant_id": null,
+          "name": "银月城特工的裹手",
+          "item_level": 331,
+          "upgrade_text": "",
+          "slot_type": "手部",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "haste": 74,
+            "mastery": 74
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/244575?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8793:13836",
+          "error": null
+        },
+        {
+          "slot": "waist",
+          "item_id": 271516,
+          "bonus_ids": "12846/13334/6652/13696/1574",
+          "gem_ids": null,
+          "enchant_id": null,
+          "name": "美猴王敏捷束带",
+          "item_level": 321,
+          "upgrade_text": "英雄 6/6",
+          "slot_type": "腰部",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "haste": 93,
+            "crit": 50
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/271516?dataEnv=1&locale=4&bonus=12846:13334:6652:13696:1574",
+          "error": null
+        },
+        {
+          "slot": "legs",
+          "item_id": 271518,
+          "bonus_ids": "6652/13440/13693/13698/12846",
+          "gem_ids": null,
+          "enchant_id": "8159",
+          "name": "美猴王长裤",
+          "item_level": 321,
+          "upgrade_text": "英雄 6/6",
+          "slot_type": "腿部",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "crit": 123,
+            "versatility": 67
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/271518?dataEnv=1&locale=4&bonus=6652:13440:13693:13698:12846",
+          "error": null
+        },
+        {
+          "slot": "feet",
+          "item_id": 244569,
+          "bonus_ids": "12214/13667/12497/13751/14001/8791/13836",
+          "gem_ids": null,
+          "enchant_id": "7963",
+          "name": "银月城特工的匿踪靴",
+          "item_level": 331,
+          "upgrade_text": "",
+          "slot_type": "脚部",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "crit": 74,
+            "mastery": 74
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/244569?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8791:13836",
+          "error": null
+        },
+        {
+          "slot": "finger1",
+          "item_id": 281029,
+          "bonus_ids": "6652/13668/13334/12854",
+          "gem_ids": "240908",
+          "enchant_id": "7967",
+          "name": "虫群召唤者指环",
+          "item_level": 334,
+          "upgrade_text": "神话 6/6",
+          "slot_type": "手指",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "haste": 110,
+            "mastery": 295
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/281029?dataEnv=1&locale=4&bonus=6652:13668:13334:12854",
+          "error": null
+        },
+        {
+          "slot": "finger2",
+          "item_id": 240949,
+          "bonus_ids": "12214/13667/12497/13751/14001/8791/13836",
+          "gem_ids": "240908",
+          "enchant_id": "7967",
+          "name": "精工辛多雷指环",
+          "item_level": 331,
+          "upgrade_text": "",
+          "slot_type": "手指",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "crit": 199,
+            "mastery": 199
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/240949?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8791:13836",
+          "error": null
+        },
+        {
+          "slot": "trinket1",
+          "item_id": 270175,
+          "bonus_ids": "6652/13334/12856",
+          "gem_ids": null,
+          "enchant_id": null,
+          "name": "乌拉特克贪婪之心",
+          "item_level": 340,
+          "upgrade_text": "",
+          "slot_type": "饰品",
+          "inventory_type": null,
+          "secondary_ratings": {
+            "crit": 147
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/270175?dataEnv=1&locale=4&bonus=6652:13334:12856",
+          "error": null
+        },
+        {
+          "slot": "trinket2",
+          "item_id": 270173,
+          "bonus_ids": "6652/13334/12856",
+          "gem_ids": null,
+          "enchant_id": null,
+          "name": "祖尔金的处斩技法",
+          "item_level": 340,
+          "upgrade_text": "",
+          "slot_type": "饰品",
+          "inventory_type": null,
+          "secondary_ratings": {},
+          "source": "https://nether.wowhead.com/tooltip/item/270173?dataEnv=1&locale=4&bonus=6652:13334:12856",
+          "error": null
+        },
+        {
+          "slot": "main_hand",
+          "item_id": 268215,
+          "bonus_ids": "6652/13334/13846/12856",
+          "gem_ids": null,
+          "enchant_id": "8689",
+          "name": "深渊巢魔的长柄大斧",
+          "item_level": 340,
+          "upgrade_text": "",
+          "slot_type": "双手",
+          "inventory_type": "two_hand",
+          "secondary_ratings": {
+            "mastery": 206
+          },
+          "source": "https://nether.wowhead.com/tooltip/item/268215?dataEnv=1&locale=4&bonus=6652:13334:13846:12856",
+          "error": null
+        }
+      ],
+      "limitations": "Tooltip lookup only; no gems/enchants/passives in ratings, no talent decoding or DPS simulation."
+    },
+    "parsed_equipment": {
+      "head": {
+        "item_id": 271519,
+        "bonus_ids": [
+          13334,
+          6652,
+          12854,
+          13696,
+          13847,
+          13692,
+          13698,
+          1587
+        ],
+        "enchant_id": 8017,
+        "gem_ids": []
+      },
+      "neck": {
+        "item_id": 268265,
+        "bonus_ids": [
+          6652,
+          13668,
+          13334,
+          13987,
+          12856
+        ],
+        "enchant_id": null,
+        "gem_ids": [
+          240983,
+          240892
+        ]
+      },
+      "shoulder": {
+        "item_id": 271517,
+        "bonus_ids": [
+          12846,
+          6652,
+          13440,
+          13694,
+          13697,
+          1574
+        ],
+        "enchant_id": 8001,
+        "gem_ids": []
+      },
+      "back": {
+        "item_id": 239656,
+        "bonus_ids": [
+          12214,
+          13667,
+          12497,
+          13751,
+          14001,
+          8960,
+          12384,
+          8790,
+          13836
+        ],
+        "enchant_id": null,
+        "gem_ids": []
+      },
+      "chest": {
+        "item_id": 271522,
+        "bonus_ids": [
+          13334,
+          6652,
+          14049,
+          13690,
+          13698,
+          12854
+        ],
+        "enchant_id": 7987,
+        "gem_ids": []
+      },
+      "wrist": {
+        "item_id": 244576,
+        "bonus_ids": [
+          12214,
+          13667,
+          12497,
+          13751,
+          14001,
+          8960,
+          12384,
+          8791,
+          13836,
+          13696
+        ],
+        "enchant_id": null,
+        "gem_ids": []
+      },
+      "hands": {
+        "item_id": 244575,
+        "bonus_ids": [
+          12214,
+          13667,
+          12497,
+          13751,
+          14001,
+          8793,
+          13836
+        ],
+        "enchant_id": null,
+        "gem_ids": []
+      },
+      "waist": {
+        "item_id": 271516,
+        "bonus_ids": [
+          12846,
+          13334,
+          6652,
+          13696,
+          1574
+        ],
+        "enchant_id": null,
+        "gem_ids": []
+      },
+      "legs": {
+        "item_id": 271518,
+        "bonus_ids": [
+          6652,
+          13440,
+          13693,
+          13698,
+          12846
+        ],
+        "enchant_id": 8159,
+        "gem_ids": []
+      },
+      "feet": {
+        "item_id": 244569,
+        "bonus_ids": [
+          12214,
+          13667,
+          12497,
+          13751,
+          14001,
+          8791,
+          13836
+        ],
+        "enchant_id": 7963,
+        "gem_ids": []
+      },
+      "finger1": {
+        "item_id": 281029,
+        "bonus_ids": [
+          6652,
+          13668,
+          13334,
+          12854
+        ],
+        "enchant_id": 7967,
+        "gem_ids": [
+          240908
+        ]
+      },
+      "finger2": {
+        "item_id": 240949,
+        "bonus_ids": [
+          12214,
+          13667,
+          12497,
+          13751,
+          14001,
+          8791,
+          13836
+        ],
+        "enchant_id": 7967,
+        "gem_ids": [
+          240908
+        ]
+      },
+      "trinket1": {
+        "item_id": 270175,
+        "bonus_ids": [
+          6652,
+          13334,
+          12856
+        ],
+        "enchant_id": null,
+        "gem_ids": []
+      },
+      "trinket2": {
+        "item_id": 270173,
+        "bonus_ids": [
+          6652,
+          13334,
+          12856
+        ],
+        "enchant_id": null,
+        "gem_ids": []
+      },
+      "main_hand": {
+        "item_id": 268215,
+        "bonus_ids": [
+          6652,
+          13334,
+          13846,
+          12856
+        ],
+        "enchant_id": 8689,
+        "gem_ids": []
+      }
+    },
+    "basis": "最新实装raw优先；.items是tooltip解析，缺少化生前驱时其默认绿字不覆盖来源属性。晋升件tooltip340不覆盖已确认实服341。",
+    "tier_slots": [
+      "head",
+      "shoulder",
+      "chest",
+      "legs"
+    ],
+    "tier_piece_count": 4,
+    "crafted_slots": [
+      "back",
+      "wrist",
+      "hands",
+      "feet",
+      "finger2"
+    ],
+    "embellished_slots": [
+      "back",
+      "wrist"
+    ]
+  },
+  "correction_audit": {
+    "corrected_at": "2026-10-29T15:29:17+08:00",
+    "reason": "审阅确认资料串线；以10/29最新raw覆盖旧手/五件/手附魔归属，并修复33%讨论语义。",
+    "resolved": [
+      "当前手244575制作331，bonus8793，未附魔",
+      "当前四件为头肩胸腿",
+      "头完整bonus含13847",
+      "8727是旧Bisset待查，不是当前用户附魔陈述",
+      "33+%是特定5目标旭日暴击双青龙怒雷条件讨论，不是333评分"
+    ],
+    "completed_at": "2026-10-29T15:34:26+08:00"
+  },
+  "item_281215_acquisition": {
+    "item_id": 281215,
+    "name_zh": "扭曲恐兽触须",
+    "name_en": "Twisted Horror's Tendril",
+    "researched_at": "2026-10-29T15:33:25+08:00",
+    "boss": {
+      "name_zh": "基希克斯",
+      "name_en": "Kith'ix",
+      "raid_zh": "基希克斯破封",
+      "raid_en": "Unbinding of Kith'ix",
+      "separate_single_boss_raid": true
+    },
+    "drop_source_status": "confirmed_by_live_item_tooltip_and_current_guide",
+    "live_tooltip_url": "https://nether.wowhead.com/tooltip/item/281215?dataEnv=1&locale=4",
+    "item_page": "https://www.wowhead.com/cn/item=281215",
+    "official_raid_identity": "https://wow.blizzard.cn/news/24307306/",
+    "roll_eligible_in_general": true,
+    "roll_difficulties_supported_by_guide": [
+      "Heroic",
+      "Mythic"
+    ],
+    "roll_evidence_source_id": "method_demo_281215_roll",
+    "roll_evidence_level": "明确物品级职业作者目标表；非用户当前奖励池UI。",
+    "windwalker_equippable_observed": true,
+    "windwalker_current_pool_preview_verified": false,
+    "personal_remaining_roll_pool_status": "unknown",
+    "personal_already_rolled_status": "unknown",
+    "cannot_infer_from_windwalker_shortlist_omission": "踏风指南优先R短表只列戒指，不能推定触须不可R。",
+    "scope": "仅确认装备身份、首领、一般R获取方式；不做投币路线、池交集、概率、成本或装等上限推导。",
+    "mechanics_evaluation_owner": "主线70575机制模拟，本研究未重跑。"
+  }
+}

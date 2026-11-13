@@ -1,0 +1,403 @@
+{
+  "checked_at": "2026-11-13T17:04:07.912743+08:00",
+  "status": "passed_with_documented_reproduction_limits",
+  "date": "2026-10-26",
+  "json_files_parsed_before_receipt": 141,
+  "python_syntax_checked": [
+    "build-review.py",
+    "burst-evidence.py",
+    "cast-analysis.py",
+    "gear-combatant-check.py",
+    "gear-compat341.py",
+    "gear-run.py",
+    "gear-summarize.py",
+    "gear-talent-control.py"
+  ],
+  "javascript_syntax_checked": [
+    "verify-review.js"
+  ],
+  "inline_report_scripts_syntax_checked": 1,
+  "native_results": {
+    "total": 51,
+    "archived": 25,
+    "local_only": 26,
+    "existing_acceptance_counts": {
+      "true": 51
+    },
+    "all_measurements_and_result_hashes_match_summary": true
+  },
+  "retention_guards": {
+    "all_existing_simc_inputs_retained": true,
+    "all_existing_validation_records_retained": true,
+    "ignored_json_contains_native_simulation_data_only": true,
+    "ignored_text_has_matching_native_result": true
+  },
+  "dependency_check": {
+    "required_report_builder_files": [
+      "cast-analysis.json",
+      "burst-evidence.json",
+      "gear-summary.json",
+      "wcl-shaseng-casts.json",
+      "wcl-shaseng-buffs.json",
+      "wcl-shaseng-metadata.json",
+      "wcl-shaseng-fof-damage.json",
+      "wcl-shaseng-opening-damage.json",
+      "wcl-shaseng-damage-185099.json",
+      "wcl-shaseng-damage-392959.json",
+      "wcl-elite-casts.json",
+      "wcl-elite-buffs.json",
+      "wcl-elite-metadata.json",
+      "wcl-elite-fof-damage.json",
+      "wcl-elite-opening-damage.json",
+      "wcl-elite-damage-185099.json",
+      "wcl-elite-damage-392959.json"
+    ],
+    "missing_or_ignored_required_files": [],
+    "local_links_checked": 48,
+    "broken_or_ignored_links": [],
+    "links": [
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "#findings",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "#burst",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "#steady",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "#gear",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "#practice",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "#sources",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "gear-review.md",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "review.md",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "cast-review.md",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "burst-evidence.json",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "mechanics-review.md",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "gear-summary.json",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/user-windwalker-quickstart.md",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/nga-guide-1.png",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/nga-guide-1.png",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/nga-guide-2.png",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/nga-guide-2.png",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/nga-guide-3.png",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/nga-guide-3.png",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/nga-guide-4.png",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/nga-guide-4.png",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/nga-guide-5.png",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/review.html",
+        "target": "references/nga-guide-5.png",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "../../snapshots/2026-10-26-equipped.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "wcl-shaseng-profile.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "wcl-elite-profile.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-combatant-check.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-level-evidence.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-items.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-elite-items.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-source-evidence.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "cast-review.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-summary.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-summary-original-bonus.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-run.py",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-compat341.py",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-summarize.py",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-combatant-check.py",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/gear-review.md",
+        "target": "gear-talent-control.py",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/README.md",
+        "target": "review.html",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/README.md",
+        "target": "cast-review.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/README.md",
+        "target": "gear-review.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/README.md",
+        "target": "mechanics-review.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/README.md",
+        "target": "../../snapshots/2026-10-26-equipped.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/README.md",
+        "target": "../../snapshots/2026-10-23.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/README.md",
+        "target": "screening-summary.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/README.md",
+        "target": "screening-summary.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-26/README.md",
+        "target": "archive-validation.json",
+        "kind": "markdown"
+      }
+    ]
+  },
+  "in_memory_render": null,
+  "git_roundtrip": {
+    "files_checked": 1437,
+    "unexpected_conversions": 0,
+    "index_or_objects_written": false,
+    "historical_tracked_files_outside_archive_text_normalization": 286
+  },
+  "provenance": {
+    "original_files_in_character_scope_checked_against_preparation_baseline": 3033,
+    "changed_original_files": 0,
+    "deleted_original_files": 0,
+    "original_simc_reformatted": false,
+    "original_verification_artifact_sha256_matches": 324,
+    "manifest_snapshot_and_compatibility_source_hashes_match": true
+  },
+  "file_pattern_inventory_before_receipt": [
+    {
+      "extension": "(none)",
+      "files": 1,
+      "bytes": 317,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".html",
+      "files": 9,
+      "bytes": 2887451,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".js",
+      "files": 1,
+      "bytes": 3748,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".json",
+      "files": 91,
+      "bytes": 57699359,
+      "local_only_files": 26,
+      "local_only_bytes": 14434397
+    },
+    {
+      "extension": ".md",
+      "files": 7,
+      "bytes": 116380,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".png",
+      "files": 7,
+      "bytes": 2640126,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".py",
+      "files": 8,
+      "bytes": 125593,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".run.log",
+      "files": 51,
+      "bytes": 297598,
+      "local_only_files": 51,
+      "local_only_bytes": 297598
+    },
+    {
+      "extension": ".simc",
+      "files": 53,
+      "bytes": 102554,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".txt",
+      "files": 57,
+      "bytes": 2030715,
+      "local_only_files": 51,
+      "local_only_bytes": 1963965
+    },
+    {
+      "extension": ".validation.json",
+      "files": 50,
+      "bytes": 30350,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    }
+  ],
+  "limitations": [
+    "No SimulationCraft execution, browser session or external-source refresh was performed. Browser receipts/screenshots are historical.",
+    "Engine binaries and source/build directories remain external prerequisites; recorded source/binary identities were not replaced.",
+    "Only the generated report HTML and Markdown links are checked as offline report dependencies. Saved WCL HTML captures retain original site-relative assets and are source evidence, not standalone offline sites.",
+    "JSON parsing covers all existing dated JSON, including local-only native results. This receipt itself was serialized and parsed immediately after writing.",
+    "Original scientific conclusions, resource balances, profile and weekly ledger were not changed.",
+    "The deeper gear-summarize.py audit requires local-only raw screens and text/logs; rebuilding the readable report uses retained summaries and does not require them."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-29T15:09:02.095137+08:00",
+  "source_commit": "73a372b76188c703e48729caded3258cdc5b726b",
+  "engine_sha256": "934cfeb8fe672baee8bd88678bd7dd0788c1755b608c1d25aa30b96f29925633",
+  "snapshot_sha256": "3a0b549459bb7b4e128f8f75a131681823e4d426947bf47eb9dd425856a78a4f",
+  "mode": "Live 12.1.5.70529 / 2026-10-22 hotfix",
+  "assumptions": {
+    "ascended_level": 341,
+    "head_precursor": 271875,
+    "other_precursors": "October23 matching bonuses and IDs; historical continuity only",
+    "balance_and_bags": "unknown"
+  }
+}

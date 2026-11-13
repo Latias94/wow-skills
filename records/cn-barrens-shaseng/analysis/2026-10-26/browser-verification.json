@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-26T05:51:00.364Z",
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1425
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 375
+  },
+  "userWindows": 13,
+  "eliteWindows": 19,
+  "filters": true,
+  "timeline": true,
+  "localLinks": true,
+  "pageErrors": []
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-11-10T22:05:10.123487+08:00",
+  "old_snapshot": "snapshots/2026-11-10.simc",
+  "latest_snapshot": "snapshots/2026-11-10-2203.simc",
+  "equipped_and_talents_identical": true,
+  "old_sha256": "b7284e8b222747ecf7752942ab2e6173aa7ae650162622b5d013b762751a8755",
+  "latest_sha256": "8cc72cecb95e0aaf015392e5a9574a8ffd9ec02ab6a9edc16f28a8db03a04e31",
+  "latest_bonus_roll_currencies": "# bonus_roll_currencies=3418:0/3511:0",
+  "latest_bonus_roll_items": "# bonus_roll_items=3418:278284:5:4:268265:268/3418:278284:5:4:270175:268/3418:278284:5:4:271875:268/3418:278288:95:3:268252:270/3418:278290:95:4:268209:269/3418:278290:95:4:270173:269/3418:286019:5:3:281029:269/3418:286019:95:3:281215:269/3418:286019:95:3:281236:269",
+  "new_bag_item_raw": "# finger1=,id=268252,bonus_id=6652/13668/13334/12849",
+  "interpretation": "User identifies H5 acquisition; new roll tuple and balance change from1 to0 are retained. Current equipped gear is unchanged. Earlier gear comparisons remain applicable."
+}

@@ -1,0 +1,21 @@
+{
+  "name": "tuning-tendril-slice-gems_240900-3000-26102941",
+  "started_at": "2026-10-29T17:46:41.438718+08:00",
+  "ended_at": "2026-10-29T17:46:50.984660+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 324105.2283942015,
+  "ci95": 566.9404868510229,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

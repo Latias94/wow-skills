@@ -1,0 +1,93 @@
+{
+  "checked_at": "2026-10-29T12:43:11.984Z",
+  "desktop": {
+    "width": 1440,
+    "scroll": 1440,
+    "rows": 15,
+    "icons": 15,
+    "titles": 0,
+    "missing": [
+      "../../snapshots/2026-10-29-equipped.simc",
+      "current-dungeon.simc",
+      "recommended-dungeon.simc",
+      "alternate-raid-shoulder.simc",
+      "elite-research.md",
+      "weekly-sources-research.md",
+      "simc-manifest-native70575.json",
+      "report-data.json",
+      "tuning-summary.json",
+      "tuning-review.md",
+      "elite-talents-research.md",
+      "recommended-talent-zuljin-dungeon.simc",
+      "recommended-talent-tendril-dungeon.simc",
+      "crafting-followup.md"
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "model": true,
+  "hidden": true,
+  "row_whitespace_link": "item-link",
+  "gem_tooltip": "item=240983&domain=cn",
+  "errors": [],
+  "files": [
+    {
+      "f": "../../snapshots/2026-10-29-equipped.simc",
+      "exists": true
+    },
+    {
+      "f": "current-dungeon.simc",
+      "exists": true
+    },
+    {
+      "f": "recommended-dungeon.simc",
+      "exists": true
+    },
+    {
+      "f": "alternate-raid-shoulder.simc",
+      "exists": true
+    },
+    {
+      "f": "elite-research.md",
+      "exists": true
+    },
+    {
+      "f": "weekly-sources-research.md",
+      "exists": true
+    },
+    {
+      "f": "simc-manifest-native70575.json",
+      "exists": true
+    },
+    {
+      "f": "report-data.json",
+      "exists": true
+    },
+    {
+      "f": "tuning-summary.json",
+      "exists": true
+    },
+    {
+      "f": "tuning-review.md",
+      "exists": true
+    },
+    {
+      "f": "elite-talents-research.md",
+      "exists": true
+    },
+    {
+      "f": "recommended-talent-zuljin-dungeon.simc",
+      "exists": true
+    },
+    {
+      "f": "recommended-talent-tendril-dungeon.simc",
+      "exists": true
+    },
+    {
+      "f": "crafting-followup.md",
+      "exists": true
+    }
+  ]
+}

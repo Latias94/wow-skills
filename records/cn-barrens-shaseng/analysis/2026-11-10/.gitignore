@@ -1,0 +1,11 @@
+# Repeated text/progress output and explicit build/reimport runtime logs.
+/*.run.log
+/*.txt
+/*-reimport.log
+/simc-build.log
+/__pycache__/
+/*.py[cod]
+
+# Keep all 6000-iteration finalists, static snapshots and export reimports.
+/live70783-*-2000-*.json
+!/*.validation.json

@@ -1,0 +1,21 @@
+{
+  "name": "talents-tendril-st-bisset_1026-baseline-3000-26102961",
+  "started_at": "2026-10-29T18:16:37.147563+08:00",
+  "ended_at": "2026-10-29T18:16:41.495025+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 182818.4353490553,
+  "ci95": 175.77134484029824,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

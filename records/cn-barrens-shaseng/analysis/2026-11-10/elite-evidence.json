@@ -1,0 +1,2045 @@
+{
+  "schema_version": 2,
+  "title": "2026-11-10 踏风天神御师大秘境高手当前实装证据",
+  "recorded_at": "2026-11-10T21:49:53.1704037+08:00",
+  "timezone": "Asia/Shanghai",
+  "scope": {
+    "character_context": "cn-barrens-shaseng",
+    "content": "Mythic+",
+    "specialization": "Windwalker",
+    "hero_tree": "Conduit of the Celestials",
+    "ownership": "仅当前高手实装来源；用户SimC、指南与模拟由主线处理。",
+    "source_domains": [
+      "murlok.io"
+    ],
+    "selected_player_count": 5,
+    "selection_rule": "以本次原站天神御师专页前五名为准，并逐一确认当前个人页仍为踏风天神御师。",
+    "historical_reference": "records/cn-barrens-shaseng/analysis/2026-10-29/elite-evidence.json",
+    "historical_statistics_reused": false,
+    "simulations_run": 0,
+    "commits_made": 0,
+    "pushes_made": 0,
+    "write_ownership": [
+      "records/cn-barrens-shaseng/analysis/2026-11-10/elite-evidence.json"
+    ]
+  },
+  "sources": [
+    {
+      "id": "murlok_conduit_mplus_current",
+      "url": "https://murlok.io/monk/windwalker/conduit-of-the-celestials/m%2B",
+      "source_type": "Murlok原站HTML",
+      "discovery_service": "Search Service",
+      "fallback_reason": "Search Service部分正文是上周或酒仙旧缓存，同URL搜索索引与打开正文也有不同刷新；转原站读取并核实HTML绝对更新时间。",
+      "retrieved_at": "2026-11-10T21:44:45.3806811+08:00",
+      "http_status": 200,
+      "http_date": "Tue, 10 Nov 2026 13:44:44 GMT",
+      "website_version": "3.44.55",
+      "displayed_updated_relative": "4 hours ago",
+      "updated_at_utc": "2026-11-10T10:03:08Z",
+      "updated_at_local": "2026-11-10T18:03:08+08:00",
+      "page_patch_label": "12.1",
+      "exact_game_build": null,
+      "season": "Midnight Season 2",
+      "hero_filtered": true,
+      "sample_size": 50,
+      "regions": [
+        "US",
+        "EU",
+        "KR",
+        "TW"
+      ],
+      "cn_included": false,
+      "page_refresh_policy_hours": 8,
+      "score_range": [
+        4026,
+        4259
+      ],
+      "top_players": [
+        {
+          "rank": 1,
+          "name": "Эльпочита",
+          "score": 4259,
+          "item_level": 335,
+          "profile_url": "https://murlok.io/character/eu/howling-fjord/%D1%8D%D0%BB%D1%8C%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0"
+        },
+        {
+          "rank": 2,
+          "name": "Freevalon",
+          "score": 4203,
+          "item_level": 339,
+          "profile_url": "https://murlok.io/character/eu/ravencrest/freevalon"
+        },
+        {
+          "rank": 3,
+          "name": "Flurpedm",
+          "score": 4176,
+          "item_level": 335,
+          "profile_url": "https://murlok.io/character/us/illidan/flurpedm"
+        },
+        {
+          "rank": 4,
+          "name": "Monkerdose",
+          "score": 4160,
+          "item_level": 335,
+          "profile_url": "https://murlok.io/character/us/azralon/monkerdose"
+        },
+        {
+          "rank": 5,
+          "name": "Cixxmonk",
+          "score": 4159,
+          "item_level": 335,
+          "profile_url": "https://murlok.io/character/us/area-52/cixxmonk"
+        }
+      ],
+      "displayed_summary_stats": {
+        "crit": {
+          "rating": 787,
+          "percent": 31
+        },
+        "haste": {
+          "rating": 932,
+          "percent": 21
+        },
+        "mastery": {
+          "rating": 1308,
+          "percent": 85
+        },
+        "versatility": {
+          "rating": 126,
+          "percent": 2
+        }
+      },
+      "summary_stat_method": "网站标题为Optimal Secondary Stats；未说明是均值、中位数或其他算法，不能据此视为硬阈值、属性权重或用户的BiS。",
+      "raw_excerpt": {
+        "time_tag": "<time datetime=\"2026-11-10T10:03:08Z\">Updated 4 hours ago</time>"
+      }
+    }
+  ],
+  "murlok_hero_filtered_usage": {
+    "source_url": "https://murlok.io/monk/windwalker/conduit-of-the-celestials/m%2B",
+    "source_updated_at": "2026-11-10T18:03:08+08:00",
+    "sample_size": 50,
+    "equipment": {
+      "head": [
+        {
+          "item_id": 271519,
+          "name_en": "Monkey King's Unyielding Visage",
+          "tag": "Set",
+          "count": 46,
+          "sample_size": 50,
+          "usage_percent": 92
+        },
+        {
+          "item_id": 271875,
+          "name_en": "Gaze of the Coiled Watcher",
+          "tag": null,
+          "count": 4,
+          "sample_size": 50,
+          "usage_percent": 8
+        }
+      ],
+      "neck": [
+        {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "tag": null,
+          "count": 50,
+          "sample_size": 50,
+          "usage_percent": 100
+        }
+      ],
+      "shoulder": [
+        {
+          "item_id": 271517,
+          "name_en": "Tassels of the Monkey King",
+          "tag": "Set",
+          "count": 49,
+          "sample_size": 50,
+          "usage_percent": 98
+        },
+        {
+          "item_id": 244572,
+          "name_en": "Silvermoon Agent's Mantle",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        }
+      ],
+      "back": [
+        {
+          "item_id": 268253,
+          "name_en": "Silken Voodoo Drape",
+          "tag": null,
+          "count": 21,
+          "sample_size": 50,
+          "usage_percent": 42
+        },
+        {
+          "item_id": 239656,
+          "name_en": "Adherent's Silken Shroud",
+          "tag": "Craft",
+          "count": 17,
+          "sample_size": 50,
+          "usage_percent": 34
+        },
+        {
+          "item_id": 271514,
+          "name_en": "Cape of the Monkey King",
+          "tag": null,
+          "count": 8,
+          "sample_size": 50,
+          "usage_percent": 16
+        },
+        {
+          "item_id": 268248,
+          "name_en": "Amani Summoning Shawl",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        },
+        {
+          "item_id": 251190,
+          "name_en": "Bloodthorn Burnous",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        }
+      ],
+      "chest": [
+        {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "tag": "Set",
+          "count": 49,
+          "sample_size": 50,
+          "usage_percent": 98
+        },
+        {
+          "item_id": 281236,
+          "name_en": "Chestwrap of Palpable Terror",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        }
+      ],
+      "wrist": [
+        {
+          "item_id": 244576,
+          "name_en": "Silvermoon Agent's Deflectors",
+          "tag": "Craft",
+          "count": 41,
+          "sample_size": 50,
+          "usage_percent": 82
+        },
+        {
+          "item_id": 268240,
+          "name_en": "Restless Spirit Shackles",
+          "tag": null,
+          "count": 7,
+          "sample_size": 50,
+          "usage_percent": 14
+        },
+        {
+          "item_id": 272246,
+          "name_en": "Miststalker's Wristbands",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        },
+        {
+          "item_id": 271515,
+          "name_en": "Wristguards of the Monkey King",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        }
+      ],
+      "hands": [
+        {
+          "item_id": 271520,
+          "name_en": "Monkey King's Fighting Fists",
+          "tag": "Set",
+          "count": 31,
+          "sample_size": 50,
+          "usage_percent": 62
+        },
+        {
+          "item_id": 244575,
+          "name_en": "Silvermoon Agent's Handwraps",
+          "tag": null,
+          "count": 15,
+          "sample_size": 50,
+          "usage_percent": 30
+        },
+        {
+          "item_id": 268234,
+          "name_en": "Ruthless Slaughtergrips",
+          "tag": null,
+          "count": 2,
+          "sample_size": 50,
+          "usage_percent": 4
+        },
+        {
+          "item_id": 159312,
+          "name_en": "Desiccator's Blessed Gloves",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        },
+        {
+          "item_id": 193758,
+          "name_en": "Subjugator's Chilling Grips",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        }
+      ],
+      "waist": [
+        {
+          "item_id": 268256,
+          "name_en": "Sash of the Forlorn Vessel",
+          "tag": null,
+          "count": 23,
+          "sample_size": 50,
+          "usage_percent": 46
+        },
+        {
+          "item_id": 271516,
+          "name_en": "Agile Cord of the Monkey King",
+          "tag": null,
+          "count": 12,
+          "sample_size": 50,
+          "usage_percent": 24
+        },
+        {
+          "item_id": 268227,
+          "name_en": "Unpossessed Skullsash",
+          "tag": null,
+          "count": 9,
+          "sample_size": 50,
+          "usage_percent": 18
+        },
+        {
+          "item_id": 244573,
+          "name_en": "Silvermoon Agent's Utility Belt",
+          "tag": null,
+          "count": 4,
+          "sample_size": 50,
+          "usage_percent": 8
+        },
+        {
+          "item_id": 271436,
+          "name_en": "Slitherscale Girdle",
+          "tag": null,
+          "count": 2,
+          "sample_size": 50,
+          "usage_percent": 4
+        }
+      ],
+      "legs": [
+        {
+          "item_id": 271518,
+          "name_en": "Pantaloons of the Monkey King",
+          "tag": "Set",
+          "count": 45,
+          "sample_size": 50,
+          "usage_percent": 90
+        },
+        {
+          "item_id": 244574,
+          "name_en": "Silvermoon Agent's Leggings",
+          "tag": null,
+          "count": 3,
+          "sample_size": 50,
+          "usage_percent": 6
+        },
+        {
+          "item_id": 268225,
+          "name_en": "Coiled Hex Legguards",
+          "tag": null,
+          "count": 2,
+          "sample_size": 50,
+          "usage_percent": 4
+        }
+      ],
+      "feet": [
+        {
+          "item_id": 244569,
+          "name_en": "Silvermoon Agent's Sneakers",
+          "tag": "Craft",
+          "count": 43,
+          "sample_size": 50,
+          "usage_percent": 86
+        },
+        {
+          "item_id": 271521,
+          "name_en": "Shinguards of the Monkey King",
+          "tag": null,
+          "count": 3,
+          "sample_size": 50,
+          "usage_percent": 6
+        },
+        {
+          "item_id": 268261,
+          "name_en": "Bespittled Slitherslippers",
+          "tag": null,
+          "count": 2,
+          "sample_size": 50,
+          "usage_percent": 4
+        },
+        {
+          "item_id": 272240,
+          "name_en": "Miststalker's Striders",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        },
+        {
+          "item_id": 159327,
+          "name_en": "Sand-Shined Snakeskin Sandals",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        }
+      ],
+      "rings": [
+        {
+          "item_id": 281029,
+          "name_en": "Band of the Swarmcaller",
+          "tag": null,
+          "count": 47,
+          "sample_size": 50,
+          "usage_percent": 94
+        },
+        {
+          "item_id": 240949,
+          "name_en": "Masterwork Sin'dorei Band",
+          "tag": null,
+          "count": 14,
+          "sample_size": 50,
+          "usage_percent": 28
+        },
+        {
+          "item_id": 268249,
+          "name_en": "Vile Alchemist's Band",
+          "tag": null,
+          "count": 13,
+          "sample_size": 50,
+          "usage_percent": 26
+        },
+        {
+          "item_id": 272149,
+          "name_en": "Hex Loop",
+          "tag": null,
+          "count": 7,
+          "sample_size": 50,
+          "usage_percent": 14
+        },
+        {
+          "item_id": 268252,
+          "name_en": "Apex Brute's Claw Ring",
+          "tag": null,
+          "count": 4,
+          "sample_size": 50,
+          "usage_percent": 8
+        }
+      ],
+      "trinkets": [
+        {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "tag": null,
+          "count": 50,
+          "sample_size": 50,
+          "usage_percent": 100
+        },
+        {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "tag": null,
+          "count": 42,
+          "sample_size": 50,
+          "usage_percent": 84
+        },
+        {
+          "item_id": 270173,
+          "name_en": "Zul'jin's Guillotine Technique",
+          "tag": "Set",
+          "count": 7,
+          "sample_size": 50,
+          "usage_percent": 14
+        },
+        {
+          "item_id": 270164,
+          "name_en": "Gebbo's Bottomless Bag",
+          "tag": null,
+          "count": 1,
+          "sample_size": 50,
+          "usage_percent": 2
+        }
+      ],
+      "main_hand": [
+        {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "tag": null,
+          "count": 50,
+          "sample_size": 50,
+          "usage_percent": 100
+        }
+      ]
+    },
+    "embellishments": [
+      {
+        "name_en": "Arcanoweave Lining",
+        "displayed_count": 97,
+        "count_basis": "美化实例数；可同一玩家两件，不是97名玩家。",
+        "player_count": null
+      },
+      {
+        "name_en": "Loa Worshiper's Band",
+        "displayed_count": 2,
+        "player_count": null
+      },
+      {
+        "name_en": "Stabilizing Gemstone Bandolier",
+        "displayed_count": 1,
+        "player_count": null
+      }
+    ],
+    "interpretation": "BiS Gear栏目统计高分角色采用频次，未证明单件/整套在特定角色和场景的模拟最优。双戒、双饰品、美化、宝石的计数均不能不加说明除以50当独立玩家占比；装备栏使用率按单件持有人数/50记载。披风榜只显示前五项合计48，不补齐未知两人。"
+  },
+  "current_player_samples": [
+    {
+      "rank": 1,
+      "name": "Эльпочита",
+      "region": "EU",
+      "realm": "Howling Fjord",
+      "profile_url": "https://murlok.io/character/eu/howling-fjord/%D1%8D%D0%BB%D1%8C%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0",
+      "retrieved_at": "2026-11-10T21:44:41.7234856+08:00",
+      "timestamp_verified_at": "2026-11-10T21:44:41.7234856+08:00",
+      "http_status": 200,
+      "displayed_updated_relative": "5 hours ago",
+      "updated_at_utc": "2026-11-10T08:59:20Z",
+      "updated_at_local": "2026-11-10T16:59:20+08:00",
+      "update_time_source": "HTML time[datetime]",
+      "class": "Monk",
+      "specialization": "Windwalker",
+      "hero_tree": "Conduit of the Celestials",
+      "season": "Midnight Season 2",
+      "page_patch_label": "12.1",
+      "mythic_plus_score": 4259,
+      "highest_completed_key": null,
+      "average_item_level": 335,
+      "secondary_stats": {
+        "crit": {
+          "rating": 765,
+          "percent": 31
+        },
+        "haste": {
+          "rating": 896,
+          "percent": 20
+        },
+        "mastery": {
+          "rating": 1321,
+          "percent": 86
+        },
+        "versatility": {
+          "rating": 176,
+          "percent": 3
+        }
+      },
+      "stat_buff_basis": "未知；照录Murlok角色页评分与取整百分比，未证明与主线无增益SimC口径一致。",
+      "tier_slots": [
+        "head",
+        "shoulder",
+        "chest",
+        "legs"
+      ],
+      "tier_piece_count": 4,
+      "equipment": {
+        "head": {
+          "item_id": 271519,
+          "name_en": "Monkey King's Unyielding Visage",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "neck": {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "shoulder": {
+          "item_id": 271517,
+          "name_en": "Tassels of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "back": {
+          "item_id": 268253,
+          "name_en": "Silken Voodoo Drape",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "chest": {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "wrist": {
+          "item_id": 244576,
+          "name_en": "Silvermoon Agent's Deflectors",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "hands": {
+          "item_id": 244575,
+          "name_en": "Silvermoon Agent's Handwraps",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "waist": {
+          "item_id": 268227,
+          "name_en": "Unpossessed Skullsash",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "legs": {
+          "item_id": 271518,
+          "name_en": "Pantaloons of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "feet": {
+          "item_id": 244569,
+          "name_en": "Silvermoon Agent's Sneakers",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "finger1": {
+          "item_id": 272150,
+          "name_en": "Ouroboric Signet",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "finger2": {
+          "item_id": 281029,
+          "name_en": "Band of the Swarmcaller",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "trinket1": {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        }
+      },
+      "crafted_secondary_stats": {
+        "wrist": null,
+        "hands": null,
+        "feet": null
+      },
+      "embellishments": [
+        {
+          "name_en": "Arcanoweave Lining",
+          "slot": "wrist",
+          "item_id": 244576
+        },
+        {
+          "name_en": "Arcanoweave Lining",
+          "slot": "feet",
+          "item_id": 244569
+        }
+      ],
+      "enchants": {
+        "head": {
+          "name_en": "Enchant Helm - Empowered Rune of Avoidance",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "shoulder": {
+          "name_en": "Enchant Shoulders - Amirdrassil's Grace",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "chest": {
+          "name_en": "Enchant Chest - Mark of the Worldsoul",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "hands": {
+          "name_en": "Ancient Hash'ey Battle Art: Heat Wave",
+          "item_id": 283996,
+          "enchant_id": null
+        },
+        "legs": {
+          "name_en": "Forest Hunter's Armor Kit",
+          "item_id": 244641,
+          "enchant_id": null
+        },
+        "feet": {
+          "name_en": "Enchant Boots - Lynx's Dexterity",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "finger1": {
+          "name_en": "Enchant Ring - Eyes of the Eagle",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "finger2": {
+          "name_en": "Enchant Ring - Eyes of the Eagle",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "main_hand": {
+          "name_en": "Rite of the Hash'ey",
+          "item_id": null,
+          "enchant_id": null
+        }
+      },
+      "gems": [
+        {
+          "name_en": "Indecipherable Eversong Diamond",
+          "item_id": 240983,
+          "count": 1,
+          "group": "Eversong Diamond",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        },
+        {
+          "name_en": "Flawless Deadly Amethyst",
+          "item_id": 240898,
+          "count": 4,
+          "group": "Prismatic",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        },
+        {
+          "name_en": "Flawless Quick Amethyst",
+          "item_id": 240900,
+          "count": 1,
+          "group": "Prismatic",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        }
+      ],
+      "unknown_details": [
+        "逐件装等",
+        "完整bonus_ids",
+        "化生前驱与保留特效",
+        "制作属性与密函",
+        "逐件宝石归属",
+        "宝石品质",
+        "多数附魔ID",
+        "最高完成层数",
+        "严格无增益属性口径"
+      ],
+      "raw_excerpt": {
+        "time_tag": "<time datetime=\"2026-11-10T08:59:20Z\">Updated 5 hours ago</time>",
+        "stats": "31% Critical Strike +765 20% Haste +896 86% Mastery +1321 3% Versatility +176"
+      }
+    },
+    {
+      "rank": 2,
+      "name": "Freevalon",
+      "region": "EU",
+      "realm": "Ravencrest",
+      "profile_url": "https://murlok.io/character/eu/ravencrest/freevalon",
+      "retrieved_at": "2026-11-10T21:43:29.4289611+08:00",
+      "timestamp_verified_at": "2026-11-10T21:45:38.2835365+08:00",
+      "http_status": 200,
+      "displayed_updated_relative": "5 hours ago",
+      "updated_at_utc": "2026-11-10T08:59:21Z",
+      "updated_at_local": "2026-11-10T16:59:21+08:00",
+      "update_time_source": "HTML time[datetime]",
+      "class": "Monk",
+      "specialization": "Windwalker",
+      "hero_tree": "Conduit of the Celestials",
+      "season": "Midnight Season 2",
+      "page_patch_label": "12.1",
+      "mythic_plus_score": 4203,
+      "highest_completed_key": null,
+      "average_item_level": 339,
+      "secondary_stats": {
+        "crit": {
+          "rating": 744,
+          "percent": 30
+        },
+        "haste": {
+          "rating": 884,
+          "percent": 20
+        },
+        "mastery": {
+          "rating": 1431,
+          "percent": 91
+        },
+        "versatility": {
+          "rating": 107,
+          "percent": 2
+        }
+      },
+      "stat_buff_basis": "未知；照录Murlok角色页评分与取整百分比，未证明与主线无增益SimC口径一致。",
+      "tier_slots": [
+        "head",
+        "shoulder",
+        "chest",
+        "hands",
+        "legs"
+      ],
+      "tier_piece_count": 5,
+      "equipment": {
+        "head": {
+          "item_id": 271519,
+          "name_en": "Monkey King's Unyielding Visage",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "neck": {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "shoulder": {
+          "item_id": 271517,
+          "name_en": "Tassels of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "back": {
+          "item_id": 268253,
+          "name_en": "Silken Voodoo Drape",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "chest": {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "wrist": {
+          "item_id": 244576,
+          "name_en": "Silvermoon Agent's Deflectors",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "hands": {
+          "item_id": 271520,
+          "name_en": "Monkey King's Fighting Fists",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "waist": {
+          "item_id": 268256,
+          "name_en": "Sash of the Forlorn Vessel",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "legs": {
+          "item_id": 271518,
+          "name_en": "Pantaloons of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "feet": {
+          "item_id": 244569,
+          "name_en": "Silvermoon Agent's Sneakers",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "finger1": {
+          "item_id": 281029,
+          "name_en": "Band of the Swarmcaller",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "finger2": {
+          "item_id": 268249,
+          "name_en": "Vile Alchemist's Band",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "trinket1": {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        }
+      },
+      "crafted_secondary_stats": {
+        "wrist": null,
+        "feet": null
+      },
+      "embellishments": [
+        {
+          "name_en": "Arcanoweave Lining",
+          "slot": "wrist",
+          "item_id": 244576
+        },
+        {
+          "name_en": "Arcanoweave Lining",
+          "slot": "feet",
+          "item_id": 244569
+        }
+      ],
+      "enchants": {
+        "head": {
+          "name_en": "Enchant Helm - Empowered Rune of Avoidance",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "shoulder": {
+          "name_en": "Enchant Shoulders - Nature's Grace",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "chest": {
+          "name_en": "Enchant Chest - Mark of the Worldsoul",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "legs": {
+          "name_en": "Forest Hunter's Armor Kit",
+          "item_id": 244641,
+          "enchant_id": null
+        },
+        "feet": {
+          "name_en": "Enchant Boots - Lynx's Dexterity",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "finger1": {
+          "name_en": "Enchant Ring - Eyes of the Eagle",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "finger2": {
+          "name_en": "Enchant Ring - Eyes of the Eagle",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "main_hand": {
+          "name_en": "Rite of the Hash'ey",
+          "item_id": null,
+          "enchant_id": null
+        }
+      },
+      "gems": [
+        {
+          "name_en": "Indecipherable Eversong Diamond",
+          "item_id": 240983,
+          "count": 1,
+          "group": "Eversong Diamond",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        },
+        {
+          "name_en": "Flawless Quick Garnet",
+          "item_id": 240906,
+          "count": 5,
+          "group": "Prismatic",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        }
+      ],
+      "unknown_details": [
+        "逐件装等",
+        "完整bonus_ids",
+        "化生前驱与保留特效",
+        "制作属性与密函",
+        "逐件宝石归属",
+        "宝石品质",
+        "多数附魔ID",
+        "最高完成层数",
+        "严格无增益属性口径"
+      ],
+      "raw_excerpt": {
+        "time_tag": "<time datetime=\"2026-11-10T08:59:21Z\">Updated 5 hours ago</time>",
+        "stats": "30% Critical Strike +744 20% Haste +884 91% Mastery +1431 2% Versatility +107"
+      }
+    },
+    {
+      "rank": 3,
+      "name": "Flurpedm",
+      "region": "US",
+      "realm": "Illidan",
+      "profile_url": "https://murlok.io/character/us/illidan/flurpedm",
+      "retrieved_at": "2026-11-10T21:43:27.6352232+08:00",
+      "timestamp_verified_at": "2026-11-10T21:45:37.9887394+08:00",
+      "http_status": 200,
+      "displayed_updated_relative": "5 hours ago",
+      "updated_at_utc": "2026-11-10T08:59:22Z",
+      "updated_at_local": "2026-11-10T16:59:22+08:00",
+      "update_time_source": "HTML time[datetime]",
+      "class": "Monk",
+      "specialization": "Windwalker",
+      "hero_tree": "Conduit of the Celestials",
+      "season": "Midnight Season 2",
+      "page_patch_label": "12.1",
+      "mythic_plus_score": 4176,
+      "highest_completed_key": null,
+      "average_item_level": 335,
+      "secondary_stats": {
+        "crit": {
+          "rating": 886,
+          "percent": 33
+        },
+        "haste": {
+          "rating": 814,
+          "percent": 18
+        },
+        "mastery": {
+          "rating": 1035,
+          "percent": 71
+        },
+        "versatility": {
+          "rating": 385,
+          "percent": 7
+        }
+      },
+      "stat_buff_basis": "未知；照录Murlok角色页评分与取整百分比，未证明与主线无增益SimC口径一致。",
+      "tier_slots": [
+        "shoulder",
+        "chest",
+        "hands",
+        "legs"
+      ],
+      "tier_piece_count": 4,
+      "equipment": {
+        "head": {
+          "item_id": 271875,
+          "name_en": "Gaze of the Coiled Watcher",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "neck": {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "shoulder": {
+          "item_id": 271517,
+          "name_en": "Tassels of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "back": {
+          "item_id": 268253,
+          "name_en": "Silken Voodoo Drape",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "chest": {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "wrist": {
+          "item_id": 244576,
+          "name_en": "Silvermoon Agent's Deflectors",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "hands": {
+          "item_id": 271520,
+          "name_en": "Monkey King's Fighting Fists",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "waist": {
+          "item_id": 271516,
+          "name_en": "Agile Cord of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "legs": {
+          "item_id": 271518,
+          "name_en": "Pantaloons of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "feet": {
+          "item_id": 244569,
+          "name_en": "Silvermoon Agent's Sneakers",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "finger1": {
+          "item_id": 272148,
+          "name_en": "Anguine Gyre",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "finger2": {
+          "item_id": 281029,
+          "name_en": "Band of the Swarmcaller",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "trinket1": {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        }
+      },
+      "crafted_secondary_stats": {
+        "wrist": null,
+        "feet": null
+      },
+      "embellishments": [
+        {
+          "name_en": "Arcanoweave Lining",
+          "slot": "wrist",
+          "item_id": 244576
+        },
+        {
+          "name_en": "Arcanoweave Lining",
+          "slot": "feet",
+          "item_id": 244569
+        }
+      ],
+      "enchants": {
+        "head": {
+          "name_en": "Enchant Helm - Empowered Rune of Avoidance",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "shoulder": {
+          "name_en": "Enchant Shoulders - Silvermoon's Mending",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "chest": {
+          "name_en": "Enchant Chest - Mark of the Worldsoul",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "legs": {
+          "name_en": "Forest Hunter's Armor Kit",
+          "item_id": 244641,
+          "enchant_id": null
+        },
+        "feet": {
+          "name_en": "Enchant Boots - Shaladrassil's Roots",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "finger1": {
+          "name_en": "Enchant Ring - Eyes of the Eagle",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "finger2": {
+          "name_en": "Enchant Ring - Eyes of the Eagle",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "main_hand": {
+          "name_en": "Rite of the Hash'ey",
+          "item_id": null,
+          "enchant_id": null
+        }
+      },
+      "gems": [
+        {
+          "name_en": "Indecipherable Eversong Diamond",
+          "item_id": 240983,
+          "count": 1,
+          "group": "Eversong Diamond",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        },
+        {
+          "name_en": "Flawless Quick Amethyst",
+          "item_id": 240900,
+          "count": 5,
+          "group": "Prismatic",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        }
+      ],
+      "unknown_details": [
+        "逐件装等",
+        "完整bonus_ids",
+        "化生前驱与保留特效",
+        "制作属性与密函",
+        "逐件宝石归属",
+        "宝石品质",
+        "多数附魔ID",
+        "最高完成层数",
+        "严格无增益属性口径"
+      ],
+      "raw_excerpt": {
+        "time_tag": "<time datetime=\"2026-11-10T08:59:22Z\">Updated 5 hours ago</time>",
+        "stats": "33% Critical Strike +886 18% Haste +814 71% Mastery +1035 7% Versatility +385"
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Monkerdose",
+      "region": "US",
+      "realm": "Azralon",
+      "profile_url": "https://murlok.io/character/us/azralon/monkerdose",
+      "retrieved_at": "2026-11-10T21:44:42.4796697+08:00",
+      "timestamp_verified_at": "2026-11-10T21:44:42.4796697+08:00",
+      "http_status": 200,
+      "displayed_updated_relative": "5 hours ago",
+      "updated_at_utc": "2026-11-10T08:59:22Z",
+      "updated_at_local": "2026-11-10T16:59:22+08:00",
+      "update_time_source": "HTML time[datetime]",
+      "class": "Monk",
+      "specialization": "Windwalker",
+      "hero_tree": "Conduit of the Celestials",
+      "season": "Midnight Season 2",
+      "page_patch_label": "12.1",
+      "mythic_plus_score": 4160,
+      "highest_completed_key": null,
+      "average_item_level": 335,
+      "secondary_stats": {
+        "crit": {
+          "rating": 593,
+          "percent": 27
+        },
+        "haste": {
+          "rating": 1011,
+          "percent": 23
+        },
+        "mastery": {
+          "rating": 1417,
+          "percent": 90
+        },
+        "versatility": {
+          "rating": 105,
+          "percent": 2
+        }
+      },
+      "stat_buff_basis": "未知；照录Murlok角色页评分与取整百分比，未证明与主线无增益SimC口径一致。",
+      "tier_slots": [
+        "head",
+        "chest",
+        "hands",
+        "legs"
+      ],
+      "tier_piece_count": 4,
+      "equipment": {
+        "head": {
+          "item_id": 271519,
+          "name_en": "Monkey King's Unyielding Visage",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "neck": {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "shoulder": {
+          "item_id": 244572,
+          "name_en": "Silvermoon Agent's Mantle",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "back": {
+          "item_id": 239656,
+          "name_en": "Adherent's Silken Shroud",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "chest": {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "wrist": {
+          "item_id": 268240,
+          "name_en": "Restless Spirit Shackles",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "hands": {
+          "item_id": 271520,
+          "name_en": "Monkey King's Fighting Fists",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "waist": {
+          "item_id": 268256,
+          "name_en": "Sash of the Forlorn Vessel",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "legs": {
+          "item_id": 271518,
+          "name_en": "Pantaloons of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "feet": {
+          "item_id": 244569,
+          "name_en": "Silvermoon Agent's Sneakers",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "finger1": {
+          "item_id": 240949,
+          "name_en": "Masterwork Sin'dorei Band",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "finger2": {
+          "item_id": 281029,
+          "name_en": "Band of the Swarmcaller",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "trinket1": {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        }
+      },
+      "crafted_secondary_stats": {
+        "shoulder": null,
+        "back": null,
+        "feet": null,
+        "finger1": null
+      },
+      "embellishments": [
+        {
+          "name_en": "Arcanoweave Lining",
+          "slot": "feet",
+          "item_id": 244569
+        },
+        {
+          "name_en": "Stabilizing Gemstone Bandolier",
+          "slot": "back",
+          "item_id": 239656
+        }
+      ],
+      "enchants": {
+        "head": {
+          "name_en": "Enchant Helm - Empowered Hex of Leeching",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "shoulder": {
+          "name_en": "Enchant Shoulders - Silvermoon's Mending",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "chest": {
+          "name_en": "Enchant Chest - Mark of the Worldsoul",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "legs": {
+          "name_en": "Forest Hunter's Armor Kit",
+          "item_id": 244641,
+          "enchant_id": null
+        },
+        "feet": {
+          "name_en": "Enchant Boots - Lynx's Dexterity",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "finger1": {
+          "name_en": "Enchant Ring - Eyes of the Eagle",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "finger2": {
+          "name_en": "Enchant Ring - Eyes of the Eagle",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "main_hand": {
+          "name_en": "Enchant Weapon - Acuity of the Ren'dorei",
+          "item_id": null,
+          "enchant_id": null
+        }
+      },
+      "gems": [
+        {
+          "name_en": "Indecipherable Eversong Diamond",
+          "item_id": 240983,
+          "count": 1,
+          "group": "Eversong Diamond",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        },
+        {
+          "name_en": "Flawless Deadly Amethyst",
+          "item_id": 240898,
+          "count": 2,
+          "group": "Prismatic",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        },
+        {
+          "name_en": "Flawless Quick Amethyst",
+          "item_id": 240900,
+          "count": 2,
+          "group": "Prismatic",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        }
+      ],
+      "unknown_details": [
+        "逐件装等",
+        "完整bonus_ids",
+        "化生前驱与保留特效",
+        "制作属性与密函",
+        "逐件宝石归属",
+        "宝石品质",
+        "多数附魔ID",
+        "最高完成层数",
+        "严格无增益属性口径"
+      ],
+      "raw_excerpt": {
+        "time_tag": "<time datetime=\"2026-11-10T08:59:22Z\">Updated 5 hours ago</time>",
+        "stats": "27% Critical Strike +593 23% Haste +1011 90% Mastery +1417 2% Versatility +105"
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Cixxmonk",
+      "region": "US",
+      "realm": "Area 52",
+      "profile_url": "https://murlok.io/character/us/area-52/cixxmonk",
+      "retrieved_at": "2026-11-10T21:43:27.8660632+08:00",
+      "timestamp_verified_at": "2026-11-10T21:45:38.4571364+08:00",
+      "http_status": 200,
+      "displayed_updated_relative": "5 hours ago",
+      "updated_at_utc": "2026-11-10T08:59:25Z",
+      "updated_at_local": "2026-11-10T16:59:25+08:00",
+      "update_time_source": "HTML time[datetime]",
+      "class": "Monk",
+      "specialization": "Windwalker",
+      "hero_tree": "Conduit of the Celestials",
+      "season": "Midnight Season 2",
+      "page_patch_label": "12.1",
+      "mythic_plus_score": 4159,
+      "highest_completed_key": null,
+      "average_item_level": 335,
+      "secondary_stats": {
+        "crit": {
+          "rating": 829,
+          "percent": 32
+        },
+        "haste": {
+          "rating": 878,
+          "percent": 20
+        },
+        "mastery": {
+          "rating": 1359,
+          "percent": 87
+        },
+        "versatility": {
+          "rating": 105,
+          "percent": 2
+        }
+      },
+      "stat_buff_basis": "未知；照录Murlok角色页评分与取整百分比，未证明与主线无增益SimC口径一致。",
+      "tier_slots": [
+        "head",
+        "shoulder",
+        "chest",
+        "legs"
+      ],
+      "tier_piece_count": 4,
+      "equipment": {
+        "head": {
+          "item_id": 271519,
+          "name_en": "Monkey King's Unyielding Visage",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "neck": {
+          "item_id": 268265,
+          "name_en": "Aqirbane Reliquary",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "shoulder": {
+          "item_id": 271517,
+          "name_en": "Tassels of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "back": {
+          "item_id": 271514,
+          "name_en": "Cape of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "chest": {
+          "item_id": 271522,
+          "name_en": "Battle Gi of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "wrist": {
+          "item_id": 244576,
+          "name_en": "Silvermoon Agent's Deflectors",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "hands": {
+          "item_id": 244575,
+          "name_en": "Silvermoon Agent's Handwraps",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "waist": {
+          "item_id": 244573,
+          "name_en": "Silvermoon Agent's Utility Belt",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "legs": {
+          "item_id": 271518,
+          "name_en": "Pantaloons of the Monkey King",
+          "item_level": null,
+          "tier_set_piece": true,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "feet": {
+          "item_id": 244569,
+          "name_en": "Silvermoon Agent's Sneakers",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "finger1": {
+          "item_id": 240949,
+          "name_en": "Masterwork Sin'dorei Band",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "finger2": {
+          "item_id": 281029,
+          "name_en": "Band of the Swarmcaller",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "trinket1": {
+          "item_id": 281215,
+          "name_en": "Twisted Horror's Tendril",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "name_en": "Voracious Heart of Ula'tek",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "name_en": "Abyssal Broodfiend's Bardiche",
+          "item_level": null,
+          "tier_set_piece": false,
+          "bonus_ids": null,
+          "precursor_item_id": null,
+          "secondary_ratings": null
+        }
+      },
+      "crafted_secondary_stats": {
+        "wrist": null,
+        "hands": null,
+        "waist": null,
+        "feet": null,
+        "finger1": null
+      },
+      "embellishments": [
+        {
+          "name_en": "Arcanoweave Lining",
+          "slot": "wrist",
+          "item_id": 244576
+        },
+        {
+          "name_en": "Arcanoweave Lining",
+          "slot": "feet",
+          "item_id": 244569
+        }
+      ],
+      "enchants": {
+        "head": {
+          "name_en": "Enchant Helm - Empowered Rune of Avoidance",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "shoulder": {
+          "name_en": "Enchant Shoulders - Amirdrassil's Grace",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "chest": {
+          "name_en": "Enchant Chest - Mark of the Worldsoul",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "legs": {
+          "name_en": "Forest Hunter's Armor Kit",
+          "item_id": 244641,
+          "enchant_id": null
+        },
+        "feet": {
+          "name_en": "Enchant Boots - Lynx's Dexterity",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "finger1": {
+          "name_en": "Enchant Ring - Eyes of the Eagle",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "finger2": {
+          "name_en": "Enchant Ring - Eyes of the Eagle",
+          "item_id": null,
+          "enchant_id": null
+        },
+        "main_hand": {
+          "name_en": "Rite of the Hash'ey",
+          "item_id": null,
+          "enchant_id": null
+        }
+      },
+      "gems": [
+        {
+          "name_en": "Indecipherable Eversong Diamond",
+          "item_id": 240983,
+          "count": 1,
+          "group": "Eversong Diamond",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        },
+        {
+          "name_en": "Flawless Quick Amethyst",
+          "item_id": 240900,
+          "count": 6,
+          "group": "Prismatic",
+          "quality_rank": null,
+          "socket_slot_assignment": null
+        }
+      ],
+      "unknown_details": [
+        "逐件装等",
+        "完整bonus_ids",
+        "化生前驱与保留特效",
+        "制作属性与密函",
+        "逐件宝石归属",
+        "宝石品质",
+        "多数附魔ID",
+        "最高完成层数",
+        "严格无增益属性口径"
+      ],
+      "raw_excerpt": {
+        "time_tag": "<time datetime=\"2026-11-10T08:59:25Z\">Updated 5 hours ago</time>",
+        "stats": "32% Critical Strike +829 20% Haste +878 87% Mastery +1359 2% Versatility +105"
+      }
+    }
+  ],
+  "freshness_audit": {
+    "checked_on": "2026-11-10",
+    "primary_source_preferred": "以原站HTTP 200与HTML time[datetime]确认今日更新，不使用相对Updated字样给旧搜索缓存重新定年。",
+    "search_index_disagreement": {
+      "url": "https://murlok.io/monk/windwalker/conduit-of-the-celestials/m%2B",
+      "indexed_top_five": [
+        "Эльпочита",
+        "Fizzmonk",
+        "Freevalon",
+        "Flurpedm",
+        "Monkerdose"
+      ],
+      "original_site_top_five": [
+        "Эльпочита",
+        "Freevalon",
+        "Flurpedm",
+        "Monkerdose",
+        "Cixxmonk"
+      ],
+      "resolution": "采用原站榜单；当前Fizzmonk个人页为酒仙，已排除。",
+      "excluded_profile": {
+        "name": "Fizzmonk",
+        "url": "https://murlok.io/character/us/illidan/fizzmonk",
+        "specialization": "Brewmaster",
+        "hero_tree": "Master of Harmony",
+        "score": 4204,
+        "search_service_crawled_label": "today"
+      }
+    },
+    "discarded_cached_profiles": [
+      {
+        "url": "https://murlok.io/character/eu/howling-fjord/%D1%8D%D0%BB%D1%8C%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0/pve",
+        "reason": "Search Service标last week，4255分，未采用。"
+      },
+      {
+        "url": "https://murlok.io/character/eu/ravencrest/freevalon/pve",
+        "reason": "Search Service标last week，4140分且腿为Coiled Hex Legguards；今日原站4203分，腿271518，五件套。"
+      },
+      {
+        "url": "https://murlok.io/character/us/illidan/flurpedm/pve",
+        "reason": "缓存为酒仙、last month，不作为踏风属性。"
+      },
+      {
+        "url": "https://murlok.io/character/us/azralon/monkerdose/pve",
+        "reason": "缓存为酒仙、2 months ago，不作为踏风属性。"
+      },
+      {
+        "url": "https://murlok.io/character/us/area-52/cixxmonk/pve",
+        "reason": "Search Service标last week，未采用。"
+      }
+    ]
+  },
+  "conclusions": [
+    {
+      "claim": "当前榜首五人的腿均为套装Pantaloons of the Monkey King，271518；Freevalon头肩胸手腿共五件套。",
+      "basis": "五份今日个人页的Gear列表及专页Set标记。"
+    },
+    {
+      "claim": "五人均装备281215触须、270175乌心和268215长柄；专页乌心50/50、触须42/50、长柄50/50。",
+      "basis": "个人页实装与今日50人专页。"
+    },
+    {
+      "claim": "四人双奥纹位于腕和鞋；Monkerdose奥纹在鞋，披风使用Stabilizing Gemstone Bandolier。",
+      "basis": "个人页Embellishments链接直接指向相应实装物品ID，不根据默认制作习惯推断。"
+    },
+    {
+      "claim": "五人的暴击593–886（27–33%）、急速814–1011（18–23%）、精通1035–1431（71–91%）、全能105–385（2–7%）。",
+      "basis": "今日个人页属性；百分比仅网页取整值，非模拟权重。"
+    },
+    {
+      "claim": "网页第二戒按展示顺序为Freevalon的268249，其余四人为281029；顺序不代表功能上的第二戒优先级。",
+      "basis": "今日个人页Rings列表。"
+    },
+    {
+      "claim": "缺少完整bonus、逐件装等、化生前驱与制作绿字；不能由套装ID推导人物每件实际绿字、毒咒或虚空特效。",
+      "basis": "本次公开页面仅提供装备身份、角色总属性、附魔和宝石汇总。"
+    }
+  ],
+  "limitations": [
+    "Murlok覆盖US/EU/KR/TW前50名，不包含国服，不能称为全球含国服前50。",
+    "页面版本标签仅12.1；没有独立确认12.1.5子补丁或客户端build。",
+    "个人页是最新角色快照，未证明等于取得该分数的那一次大秘境实战装备。",
+    "专页18:03更新，个人页16:59更新；来源不是同一原子快照，保留各自时间。",
+    "Murlok只显示整数大秘境分数及整数属性百分比；本页不显示最高完成层数。",
+    "装备与美化链接仅有基础item ID，未包含完整bonus或制作密函；未查默认tooltip补猜实际绿字。",
+    "逐件宝石槽位与品质未展示，宝石count按页面数量记录；多数附魔链接item=0，不能将0当真实附魔ID。",
+    "单件装等统一为null。平均装等来自个人页，不能据此反推每件装等或晋升等级。",
+    "本文件不包含用户主线无增益属性、SimC结果、指南复述或装备缺口的模拟结论。"
+  ],
+  "tool_audit": {
+    "research_window_local": "2026-11-10 21:40–21:49 Asia/Shanghai",
+    "external_lookup_tool": "Search Service / web_run",
+    "search_service_calls": 5,
+    "search_queries": 7,
+    "search_service_open_requests": 15,
+    "search_service_click_requests": 5,
+    "primary_site_fallback": "PowerShell Invoke-WebRequest",
+    "direct_http_requests": 10,
+    "direct_http_status_summary": {
+      "200": 10,
+      "403": 0
+    },
+    "max_parallel_direct_requests": 3,
+    "timeout_seconds": 15,
+    "retries_and_backoff": "未对403重试；本次无403。Search Service不可访问的别名与旧缓存不继续强刷。直连复核仅用于补绝对更新时间及修复一次输出截断。",
+    "source_domains": [
+      "murlok.io"
+    ],
+    "source_attribution": "全部当前装备、属性与统计来自Murlok本次原站；Wowhead链接仅用于原页物品ID识别，未向Wowhead发送请求。",
+    "files_modified": [
+      "records/cn-barrens-shaseng/analysis/2026-11-10/elite-evidence.json"
+    ]
+  }
+}

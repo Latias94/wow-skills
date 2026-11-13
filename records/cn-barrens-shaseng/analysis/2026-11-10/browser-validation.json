@@ -1,0 +1,94 @@
+{
+  "checked_at": "2026-11-10T22:24:00+08:00",
+  "desktop": {
+    "title": "沙僧 · 国服贫瘠之地 · 装备研究报告",
+    "width": 1342,
+    "overflow": false,
+    "gearRows": 15,
+    "images": true,
+    "nativeTitles": 0,
+    "models": [
+      {
+        "id": "slice",
+        "active": true,
+        "pressed": "true"
+      },
+      {
+        "id": "st",
+        "active": true,
+        "pressed": "true"
+      },
+      {
+        "id": "aoe",
+        "active": true,
+        "pressed": "true"
+      }
+    ],
+    "downloads": [
+      {
+        "name": "最新22:03完整原始SimC",
+        "status": 200
+      },
+      {
+        "name": "当前实装干净大米输入",
+        "status": 200
+      },
+      {
+        "name": "目标A：保留制作戒的大米配装",
+        "status": 200
+      },
+      {
+        "name": "目标B：邪炼戒与致命紫晶备选",
+        "status": 200
+      },
+      {
+        "name": "目标A单体比较输入（非团本BiS声明）",
+        "status": 200
+      },
+      {
+        "name": "全部测量与验收结果",
+        "status": 200
+      },
+      {
+        "name": "高手原站证据与更新时间",
+        "status": 200
+      },
+      {
+        "name": "模拟引擎与输入溯源",
+        "status": 200
+      },
+      {
+        "name": "当前周余额与H5获取记录",
+        "status": 200
+      }
+    ],
+    "hasZeroBalance": true,
+    "tooltipLibrary": true
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "images": true,
+    "navigationScrolls": true
+  },
+  "gear_hit_targets": {
+    "icon": "item=271519&domain=cn&ilvl=334&bonus=13334:6652:12854:13696:13847:13692:13698:1587",
+    "name": "item=271519&domain=cn&ilvl=334&bonus=13334:6652:12854:13696:13847:13692:13698:1587",
+    "whitespace": "item=271519&domain=cn&ilvl=334&bonus=13334:6652:12854:13696:13847:13692:13698:1587"
+  },
+  "gem_hit_target": {
+    "point": {
+      "x": 541.203125,
+      "y": 483.515625
+    },
+    "target": "item=240983&domain=cn",
+    "gemLabel": "费解之永歌钻石"
+  },
+  "tooltip_observed": true,
+  "downloads_checked": 9,
+  "screenshots": [
+    "report-desktop.png",
+    "report-mobile.png"
+  ]
+}

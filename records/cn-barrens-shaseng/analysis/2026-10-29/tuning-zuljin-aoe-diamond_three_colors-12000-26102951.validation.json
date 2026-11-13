@@ -1,0 +1,21 @@
+{
+  "name": "tuning-zuljin-aoe-diamond_three_colors-12000-26102951",
+  "started_at": "2026-10-29T17:53:42.326845+08:00",
+  "ended_at": "2026-10-29T17:53:52.828258+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 714692.9376355434,
+  "ci95": 404.4796282022896,
+  "samples": 11999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

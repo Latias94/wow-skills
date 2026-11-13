@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-10-29T19:11:26.408367+08:00",
+  "engine": "Same native70575 binary and input gear as tuning-manifest.json",
+  "candidates": {
+    "user": {
+      "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG",
+      "source": "../../snapshots/2026-10-29-equipped.simc",
+      "scope": "Current user equipped import"
+    },
+    "bisset_1026": {
+      "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYbmx2MAAAAAAAAAAAALDz0MmhhBMMMzMzwsxMDWmJAgFmtxMmZmZgAYxMLz2YCCAYGDgZAGLDgZmZzA",
+      "source": "../2026-10-26/wcl-elite-profile.simc",
+      "scope": "October26 saved high-key reference, not fresh October29 export"
+    },
+    "local_guide_aoe": {
+      "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYbmZ2mBAAAAAAAAAAAYZY0MmhhB2GGmZmZY2GmhZ5BmAAWY2YGzMzMQAsYmlZbMNLzSzMzsBMjBmZmBYsNAmZmND",
+      "source": "C:/Users/Administrator/Downloads/12.1 超级跟风踏风速成指南.md",
+      "scope": "User-supplied pure AoE build; current online freshness not established",
+      "status": "excluded_from_current_ranking: stale guide export causes additional inactive ShadoPan trait rows in current debug; not treated as a validated current-client build"
+    },
+    "method_mplus": {
+      "talents": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmx2MAAAAAAAAAAAALDz0MmhhBMMMzMzwsxMDzyDMBAswsNmxMzMDAgFzsMbjJIAgZMAmBYsMQMzMbG",
+      "source": "https://www.method.gg/guides/windwalker-monk/talents",
+      "scope": "Conduit Mythic+",
+      "page_updated_on": "2026-10-14"
+    },
+    "icy_mplus": {
+      "talents": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mBAAAAAAAAAAAYZYEmhhBMjhZmZGmNMDzyMBAswsxMmZmZAAsYmlZZMBAAmZGAzAMWGDYmZ2M",
+      "source": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-spec-builds-talents",
+      "scope": "Windwalker Mythic+ - Conduit of the Celestials",
+      "page_updated_on": "2026-10-12"
+    },
+    "user_short_cd": {
+      "talents": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYbmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDMAsYmlZbMBBAMjBwMAjlBwMzsZA",
+      "source": "User supplied build with explicit controlled node swap, exported natively by SimC",
+      "scope": "Single change: angle-cup duration to Spiritual Focus",
+      "override": "124825:0/124824:1",
+      "validation": "Native SimC re-encoded talent hash; not a copied elite export"
+    },
+    "user_short_cd_martial": {
+      "talents": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYbmx2MAAAAAAAAAAAALDz0MmhhxghhZmZGmNMDzyDMBAswsNmxMzMDMAsYmlZbMBBAMjBwMAjlBwMzsZA",
+      "source": "User supplied build with explicit controlled node swap, exported natively by SimC",
+      "scope": "User short-cooldown plus Energy Burst to Martial Agility",
+      "override": "124825:0/124824:1/124829:0/125015:1",
+      "validation": "Native SimC re-encoded talent hash; not a copied elite export"
+    }
+  },
+  "scope": "Same Hero tree; current user build vs dated sourced alternatives; no free-form talent search.",
+  "comparison_policy": "Each trinket branch compares with its same-stage user build. Tuning interaction compares to the same selected talent baseline, never adds percentages from different runs."
+}

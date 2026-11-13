@@ -1,0 +1,21 @@
+{
+  "name": "tuning-zuljin-stats-craft_cm_pair_mastery_gems-40-26102931",
+  "started_at": "2026-10-29T17:59:42.437105+08:00",
+  "ended_at": "2026-10-29T17:59:43.722044+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 163516.16873151532,
+  "ci95": 1255.473063227699,
+  "samples": 39,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

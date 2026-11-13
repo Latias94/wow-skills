@@ -1,0 +1,3951 @@
+{
+  "summary": "完成334肩腿腰后，先保留现有制作属性、宝石、双鹰眼和精通合剂。小幅再造是可选精修；先试更适合自己的乾元天赋，再决定是否投入。",
+  "assumption": "假设雾猎者肩272244、H7腿268225、H7腰268256均升334；头肩胸腿四件套，现有制作仍331、披风护腕双奥纹。分祖尔金／触须两种341饰品。这不是已获取记录。",
+  "stats": [
+    {
+      "name": "暴击",
+      "before": "899／33.54%",
+      "after": "785／31.07%",
+      "note": "下降后仍约31%，无需为了保住原33.5%强补。"
+    },
+    {
+      "name": "急速",
+      "before": "803／18.25%",
+      "after": "908／20.64%",
+      "note": "三件升级后自然上升；这不是青龙内有效急速。"
+    },
+    {
+      "name": "精通",
+      "before": "1155／77.10%",
+      "after": "1272／83.02%",
+      "note": "依旧是最高次级；使用精通合剂时更高。"
+    },
+    {
+      "name": "全能",
+      "before": "189／3.50%",
+      "after": "105／1.94%",
+      "note": "去掉旧肩84全能；低全能是结果，不是必须精确到0的目标。"
+    }
+  ],
+  "recommendations": [
+    {
+      "part": "披风／手套",
+      "owned": "披风暴击／急速；手套急速／精通",
+      "decision": "默认保留；联合改暴精仅作可选精修",
+      "reason": "与宝石联合调整在原天赋切片约＋0.39%～0.42%，会减少146急速评分；更换构筑后另作联合复核。"
+    },
+    {
+      "part": "护腕／鞋／制造戒",
+      "owned": "均暴击／精通",
+      "decision": "保留",
+      "reason": "逐槽筛选没有支持为统一急精而重做。保留护腕奥纹；不假设新增宝石孔。"
+    },
+    {
+      "part": "普通宝石",
+      "owned": "1颗240892急精＋2颗240908暴精",
+      "decision": "保留；联合精修时才考虑3颗240898",
+      "reason": "只换宝石收益很小且场景有分歧。240898无瑕致命紫晶＝16精通／7暴击，不是240908的16暴击／7精通。"
+    },
+    {
+      "part": "特殊钻石",
+      "owned": "240983费解之永歌钻石，32主属性",
+      "decision": "保留",
+      "reason": "强能钻石三色方案差距小；当前仅三个普通宝石位，不假设四色效果。"
+    },
+    {
+      "part": "戒指附魔",
+      "owned": "双7967鹰眼神视",
+      "decision": "保留",
+      "reason": "高级29评分的精通／急速、暴击附魔筛选均落后。鹰眼增加暴击效果，不是暴击几率。"
+    },
+    {
+      "part": "其他附魔",
+      "owned": "强化闪避／阿梅达希尔之赐／世界之魂印记／森林猎手／山猫之敏／哈谢仪式",
+      "decision": "方案保留；新肩、新腿重新附上",
+      "reason": "没有发现因这次绿字变化而必须更换的依据；未穷举全部武器附魔。手部战艺不计大米收益。"
+    },
+    {
+      "part": "合剂／药水／油",
+      "owned": "魔导师精通合剂、鲁莽、凤凰之油",
+      "decision": "保留",
+      "reason": "两种饰品与新天赋复查仍偏精通合剂。鲁莽按使用时有效评分选择，不按百分比。"
+    }
+  ],
+  "comparisons": [
+    {
+      "branch": "乌心＋祖尔金341",
+      "label": "只改三颗普通宝石为16精通／7暴击",
+      "key": "gems_240898",
+      "values": {
+        "slice": {
+          "name": "tuning-zuljin-slice-gems_240898-12000-26102951",
+          "started_at": "2026-10-29T17:50:24.420911+08:00",
+          "ended_at": "2026-10-29T17:51:26.807672+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 312983.7561669939,
+          "ci95": 257.23002560835266,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.043582752197179886,
+          "artifact": "tuning-zuljin-slice-gems_240898-12000-26102951.validation.json"
+        },
+        "aoe": {
+          "name": "tuning-zuljin-aoe-gems_240898-12000-26102951",
+          "started_at": "2026-10-29T17:51:26.832015+08:00",
+          "ended_at": "2026-10-29T17:51:40.906184+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 714599.2847136902,
+          "ci95": 396.0954342489851,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": -0.05124470473482079,
+          "artifact": "tuning-zuljin-aoe-gems_240898-12000-26102951.validation.json"
+        },
+        "st": {
+          "name": "tuning-zuljin-st-gems_240898-12000-26102951",
+          "started_at": "2026-10-29T17:57:17.189449+08:00",
+          "ended_at": "2026-10-29T17:57:41.675210+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 180824.1787994289,
+          "ci95": 90.15453419097938,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": -0.0196559430815757,
+          "artifact": "tuning-zuljin-st-gems_240898-12000-26102951.validation.json"
+        }
+      }
+    },
+    {
+      "branch": "乌心＋祖尔金341",
+      "label": "披风＋手套暴精再造，三颗普通宝石主精通／副暴击",
+      "key": "craft_cm_pair_mastery_gems",
+      "values": {
+        "slice": {
+          "name": "tuning-zuljin-slice-craft_cm_pair_mastery_gems-12000-26102951",
+          "started_at": "2026-10-29T17:51:40.910989+08:00",
+          "ended_at": "2026-10-29T17:52:16.180734+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 314069.82912423153,
+          "ci95": 259.9496811899801,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.3907401609489547,
+          "artifact": "tuning-zuljin-slice-craft_cm_pair_mastery_gems-12000-26102951.validation.json"
+        },
+        "aoe": {
+          "name": "tuning-zuljin-aoe-craft_cm_pair_mastery_gems-12000-26102951",
+          "started_at": "2026-10-29T17:52:16.184851+08:00",
+          "ended_at": "2026-10-29T17:52:28.624007+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 716624.3897554609,
+          "ci95": 389.53870765517496,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.23200037064787793,
+          "artifact": "tuning-zuljin-aoe-craft_cm_pair_mastery_gems-12000-26102951.validation.json"
+        },
+        "st": {
+          "name": "tuning-zuljin-st-craft_cm_pair_mastery_gems-12000-26102951",
+          "started_at": "2026-10-29T17:56:06.295386+08:00",
+          "ended_at": "2026-10-29T17:56:41.821689+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 181185.49556182203,
+          "ci95": 91.88644655553533,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.18012140117318332,
+          "artifact": "tuning-zuljin-st-craft_cm_pair_mastery_gems-12000-26102951.validation.json"
+        }
+      }
+    },
+    {
+      "branch": "乌心＋祖尔金341",
+      "label": "只把披风改急速／精通",
+      "key": "craft_back_hm",
+      "values": {
+        "slice": {
+          "name": "tuning-zuljin-slice-craft_back_hm-12000-26102951",
+          "started_at": "2026-10-29T17:52:28.629044+08:00",
+          "ended_at": "2026-10-29T17:53:02.355976+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 313288.8587726169,
+          "ci95": 255.96577303982866,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.14110716735331597,
+          "artifact": "tuning-zuljin-slice-craft_back_hm-12000-26102951.validation.json"
+        },
+        "aoe": {
+          "name": "tuning-zuljin-aoe-craft_back_hm-12000-26102951",
+          "started_at": "2026-10-29T17:53:02.361392+08:00",
+          "ended_at": "2026-10-29T17:53:12.912244+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 712879.3458010666,
+          "ci95": 399.3076639238557,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": -0.29180715305785476,
+          "artifact": "tuning-zuljin-aoe-craft_back_hm-12000-26102951.validation.json"
+        },
+        "st": {
+          "name": "tuning-zuljin-st-craft_back_hm-12000-26102951",
+          "started_at": "2026-10-29T17:56:41.842098+08:00",
+          "ended_at": "2026-10-29T17:57:17.180773+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 180661.5866925022,
+          "ci95": 88.49237077061167,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": -0.1095555068423626,
+          "artifact": "tuning-zuljin-st-craft_back_hm-12000-26102951.validation.json"
+        }
+      }
+    },
+    {
+      "branch": "乌心＋祖尔金341",
+      "label": "改强能钻石并凑三色普通宝石",
+      "key": "diamond_three_colors",
+      "values": {
+        "slice": {
+          "name": "tuning-zuljin-slice-diamond_three_colors-12000-26102951",
+          "started_at": "2026-10-29T17:53:12.917311+08:00",
+          "ended_at": "2026-10-29T17:53:42.319633+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 312922.0316770279,
+          "ci95": 255.32504605064423,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.02385284929302678,
+          "artifact": "tuning-zuljin-slice-diamond_three_colors-12000-26102951.validation.json"
+        },
+        "aoe": {
+          "name": "tuning-zuljin-aoe-diamond_three_colors-12000-26102951",
+          "started_at": "2026-10-29T17:53:42.326845+08:00",
+          "ended_at": "2026-10-29T17:53:52.828258+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 714692.9376355434,
+          "ci95": 404.4796282022896,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": -0.0381457649944239,
+          "artifact": "tuning-zuljin-aoe-diamond_three_colors-12000-26102951.validation.json"
+        },
+        "st": null
+      }
+    },
+    {
+      "branch": "乌心＋触须341",
+      "label": "只改三颗普通宝石为16精通／7暴击",
+      "key": "gems_240898",
+      "values": {
+        "slice": {
+          "name": "tuning-tendril-slice-gems_240898-12000-26102951",
+          "started_at": "2026-10-29T17:54:39.598582+08:00",
+          "ended_at": "2026-10-29T17:55:19.535029+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 324232.0993552772,
+          "ci95": 277.8264730235569,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.16494220018132832,
+          "artifact": "tuning-tendril-slice-gems_240898-12000-26102951.validation.json"
+        },
+        "aoe": {
+          "name": "tuning-tendril-aoe-gems_240898-12000-26102951",
+          "started_at": "2026-10-29T17:55:19.543125+08:00",
+          "ended_at": "2026-10-29T17:55:34.064844+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 745219.0663299281,
+          "ci95": 418.67309343120337,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": -0.20191665275268722,
+          "artifact": "tuning-tendril-aoe-gems_240898-12000-26102951.validation.json"
+        },
+        "st": {
+          "name": "tuning-tendril-st-gems_240898-12000-26102951",
+          "started_at": "2026-10-29T17:59:08.520917+08:00",
+          "ended_at": "2026-10-29T17:59:40.168085+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 178792.49436942293,
+          "ci95": 86.20546555513921,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.011766094866350052,
+          "artifact": "tuning-tendril-st-gems_240898-12000-26102951.validation.json"
+        }
+      }
+    },
+    {
+      "branch": "乌心＋触须341",
+      "label": "披风＋手套暴精再造，三颗普通宝石主精通／副暴击",
+      "key": "craft_cm_pair_mastery_gems",
+      "values": {
+        "slice": {
+          "name": "tuning-tendril-slice-craft_cm_pair_mastery_gems-12000-26102951",
+          "started_at": "2026-10-29T17:55:34.070387+08:00",
+          "ended_at": "2026-10-29T17:56:43.472407+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 325052.98619685473,
+          "ci95": 276.77865099574524,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.4185385689646992,
+          "artifact": "tuning-tendril-slice-craft_cm_pair_mastery_gems-12000-26102951.validation.json"
+        },
+        "aoe": {
+          "name": "tuning-tendril-aoe-craft_cm_pair_mastery_gems-12000-26102951",
+          "started_at": "2026-10-29T17:56:43.502521+08:00",
+          "ended_at": "2026-10-29T17:57:06.788679+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 747280.2506264547,
+          "ci95": 409.1648485395309,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.07411257343423738,
+          "artifact": "tuning-tendril-aoe-craft_cm_pair_mastery_gems-12000-26102951.validation.json"
+        },
+        "st": {
+          "name": "tuning-tendril-st-craft_cm_pair_mastery_gems-12000-26102951",
+          "started_at": "2026-10-29T17:58:08.294904+08:00",
+          "ended_at": "2026-10-29T17:58:36.362227+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 179204.16873685035,
+          "ci95": 86.69974959656551,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.24204578690607548,
+          "artifact": "tuning-tendril-st-craft_cm_pair_mastery_gems-12000-26102951.validation.json"
+        }
+      }
+    },
+    {
+      "branch": "乌心＋触须341",
+      "label": "只把披风改急速／精通",
+      "key": "craft_back_hm",
+      "values": {
+        "slice": {
+          "name": "tuning-tendril-slice-craft_back_hm-12000-26102951",
+          "started_at": "2026-10-29T17:57:06.806425+08:00",
+          "ended_at": "2026-10-29T17:58:04.694676+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 324551.2963244612,
+          "ci95": 276.4395768262364,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.2635516408639793,
+          "artifact": "tuning-tendril-slice-craft_back_hm-12000-26102951.validation.json"
+        },
+        "aoe": {
+          "name": "tuning-tendril-aoe-craft_back_hm-12000-26102951",
+          "started_at": "2026-10-29T17:58:04.703740+08:00",
+          "ended_at": "2026-10-29T17:58:22.862266+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 745906.918640673,
+          "ci95": 417.3417671960475,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": -0.10980099798771903,
+          "artifact": "tuning-tendril-aoe-craft_back_hm-12000-26102951.validation.json"
+        },
+        "st": {
+          "name": "tuning-tendril-st-craft_back_hm-12000-26102951",
+          "started_at": "2026-10-29T17:58:36.373491+08:00",
+          "ended_at": "2026-10-29T17:59:08.513620+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 178818.27244503074,
+          "ci95": 84.82499306076204,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.026185664754652116,
+          "artifact": "tuning-tendril-st-craft_back_hm-12000-26102951.validation.json"
+        }
+      }
+    },
+    {
+      "branch": "乌心＋触须341",
+      "label": "改强能钻石并凑三色普通宝石",
+      "key": "diamond_three_colors",
+      "values": {
+        "slice": {
+          "name": "tuning-tendril-slice-diamond_three_colors-12000-26102951",
+          "started_at": "2026-10-29T17:58:22.871864+08:00",
+          "ended_at": "2026-10-29T17:59:32.471588+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 324535.32526584837,
+          "ci95": 276.63125438468757,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.2586177056798755,
+          "artifact": "tuning-tendril-slice-diamond_three_colors-12000-26102951.validation.json"
+        },
+        "aoe": {
+          "name": "tuning-tendril-aoe-diamond_three_colors-12000-26102951",
+          "started_at": "2026-10-29T17:59:32.571705+08:00",
+          "ended_at": "2026-10-29T17:59:51.176247+08:00",
+          "accepted": true,
+          "exit_code": 0,
+          "valid_fight_style": true,
+          "dps": 747228.1786647835,
+          "ci95": 416.787044347968,
+          "samples": 11999,
+          "logs": [
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+            },
+            {
+              "level": "implementation_not_yet_verified",
+              "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+            }
+          ],
+          "delta": 0.06713921190109051,
+          "artifact": "tuning-tendril-aoe-diamond_three_colors-12000-26102951.validation.json"
+        },
+        "st": null
+      }
+    }
+  ],
+  "limits": [
+    "本表调优固定原用户天赋，各饰品分支相对自己的334肩腿腰基准；新天赋的联合复核另列，不能直接加百分比。",
+    "筛选3000次／26102941；关键复测12000次、有效11999／独立种子26102951，±为95%均值置信区间半宽。近误差的小差距不构成再造理由。",
+    "当前静态20.64%急速，带本次凤凰油为21%；已确认流转之智使青龙内再乘1.10，约33.1%。这不保证旭日暴击、两个怒雷或实际客户端时序。",
+    "可选微调会使静态急速17.32%、暴击32.43%、精通87.23%；不能拿其低静态急速直接断言不合格，也不能据平均DPS证明拳谱时序不变。",
+    "保留四件套、两件奥纹、已有孔和武器合法性；额外打孔不在本次预算内。全部是假设未来装备，不改当前持有状态。",
+    "仍受胸与虫群戒AOE分摊未验证、默认行动优先级与实际路线差异影响。"
+  ],
+  "created_at": "2026-10-29T19:23:16.112277+08:00",
+  "snapshots": {
+    "upgraded_unbuffed": {
+      "attack_power": 2587.0,
+      "spell_crit": 0.31065217391304345,
+      "attack_crit": 0.31065217391304345,
+      "spell_haste": 0.8289374529012812,
+      "attack_haste": 0.8289374529012812,
+      "spell_cast_speed": 0.8289374529012812,
+      "auto_attack_speed": 0.8289374529012812,
+      "mastery_value": 0.8302499999999999,
+      "damage_versatility": 0.019444444444444445,
+      "heal_versatility": 0.019444444444444445,
+      "mitigation_versatility": 0.009722222222222222,
+      "crit_rating": 785.0,
+      "crit_pct": 0.31065217391304345,
+      "haste_rating": 908.0,
+      "haste_pct": 0.2063636363636363,
+      "mastery_rating": 1272.0,
+      "mastery_pct": 0.8302499999999999,
+      "versatility_rating": 105.0,
+      "versatility_pct": 0.019444444444444445,
+      "avoidance_rating": 167.0,
+      "avoidance_pct": 0.04537978699848076,
+      "speed_pct": 7.0,
+      "armor": 1160.0,
+      "dodge": 0.150523391722918,
+      "parry": 0.03
+    },
+    "optional_unbuffed": {
+      "attack_power": 2587.0,
+      "spell_crit": 0.3243478260869565,
+      "attack_crit": 0.3243478260869565,
+      "spell_haste": 0.8523827973653622,
+      "attack_haste": 0.8523827973653622,
+      "spell_cast_speed": 0.8523827973653622,
+      "auto_attack_speed": 0.8523827973653622,
+      "mastery_value": 0.87226875,
+      "damage_versatility": 0.019444444444444445,
+      "heal_versatility": 0.019444444444444445,
+      "mitigation_versatility": 0.009722222222222222,
+      "crit_rating": 848.0,
+      "crit_pct": 0.3243478260869565,
+      "haste_rating": 762.0,
+      "haste_pct": 0.17318181818181833,
+      "mastery_rating": 1355.0,
+      "mastery_pct": 0.87226875,
+      "versatility_rating": 105.0,
+      "versatility_pct": 0.019444444444444445,
+      "avoidance_rating": 167.0,
+      "avoidance_pct": 0.04537978699848076,
+      "speed_pct": 7.0,
+      "armor": 1160.0,
+      "dodge": 0.150523391722918,
+      "parry": 0.03
+    }
+  },
+  "screen_results": [
+    {
+      "name": "tuning-tendril-slice-baseline-3000-26102941",
+      "started_at": "2026-10-29T17:44:19.021712+08:00",
+      "ended_at": "2026-10-29T17:44:28.015678+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323795.3381540704,
+      "ci95": 551.1324965921948,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_back_cm-3000-26102941",
+      "started_at": "2026-10-29T17:44:28.032121+08:00",
+      "ended_at": "2026-10-29T17:44:36.843139+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 324367.2827521956,
+      "ci95": 564.3738683917442,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_back_hm-3000-26102941",
+      "started_at": "2026-10-29T17:44:36.848190+08:00",
+      "ended_at": "2026-10-29T17:44:46.192572+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 324694.40605560614,
+      "ci95": 562.8418705003633,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_cm_pair-3000-26102941",
+      "started_at": "2026-10-29T17:48:52.038005+08:00",
+      "ended_at": "2026-10-29T17:49:02.885113+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 324443.4683817687,
+      "ci95": 557.6717954672694,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_cm_pair_mastery_gems-3000-26102941",
+      "started_at": "2026-10-29T17:49:02.892444+08:00",
+      "ended_at": "2026-10-29T17:49:18.344301+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 324984.13257698336,
+      "ci95": 550.2010192083519,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_feet_ch-3000-26102941",
+      "started_at": "2026-10-29T17:45:31.127279+08:00",
+      "ended_at": "2026-10-29T17:45:41.569356+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 322344.07205726946,
+      "ci95": 559.1170174060629,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_feet_hm-3000-26102941",
+      "started_at": "2026-10-29T17:45:41.572878+08:00",
+      "ended_at": "2026-10-29T17:45:54.517456+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323097.85722321033,
+      "ci95": 558.3783371484361,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_finger2_ch-3000-26102941",
+      "started_at": "2026-10-29T17:45:54.526538+08:00",
+      "ended_at": "2026-10-29T17:46:05.778843+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 318633.86253845034,
+      "ci95": 529.015131926572,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_finger2_hm-3000-26102941",
+      "started_at": "2026-10-29T17:46:05.786931+08:00",
+      "ended_at": "2026-10-29T17:46:15.691455+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 321900.82834524015,
+      "ci95": 539.6839148561918,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_hands_ch-3000-26102941",
+      "started_at": "2026-10-29T17:45:09.852158+08:00",
+      "ended_at": "2026-10-29T17:45:20.775838+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323069.43093100784,
+      "ci95": 561.4050405533723,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_hands_cm-3000-26102941",
+      "started_at": "2026-10-29T17:45:20.784495+08:00",
+      "ended_at": "2026-10-29T17:45:31.123252+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323446.533880511,
+      "ci95": 558.0192829649108,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_wrist_ch-3000-26102941",
+      "started_at": "2026-10-29T17:44:46.201128+08:00",
+      "ended_at": "2026-10-29T17:44:56.576804+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 322415.8157085252,
+      "ci95": 544.2759300935724,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-craft_wrist_hm-3000-26102941",
+      "started_at": "2026-10-29T17:44:56.583419+08:00",
+      "ended_at": "2026-10-29T17:45:09.843372+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323970.6551812565,
+      "ci95": 555.9341626145571,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-diamond_powerful-3000-26102941",
+      "started_at": "2026-10-29T17:47:45.689431+08:00",
+      "ended_at": "2026-10-29T17:47:53.643389+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323759.8033522293,
+      "ci95": 550.4217407408296,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-diamond_three_colors-3000-26102941",
+      "started_at": "2026-10-29T17:47:53.646905+08:00",
+      "ended_at": "2026-10-29T17:48:01.979271+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 324017.50847284554,
+      "ci95": 555.0478341328915,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-flask_crit-3000-26102941",
+      "started_at": "2026-10-29T17:48:43.588865+08:00",
+      "ended_at": "2026-10-29T17:48:52.032975+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 319857.33193325135,
+      "ci95": 535.3756638411453,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-flask_haste-3000-26102941",
+      "started_at": "2026-10-29T17:48:30.129483+08:00",
+      "ended_at": "2026-10-29T17:48:43.581711+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 320168.4748578719,
+      "ci95": 543.8722182086577,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-gems_240888-3000-26102941",
+      "started_at": "2026-10-29T17:47:12.901106+08:00",
+      "ended_at": "2026-10-29T17:47:21.791524+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 322731.59815455804,
+      "ci95": 548.4286916645416,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-gems_240890-3000-26102941",
+      "started_at": "2026-10-29T17:46:15.695963+08:00",
+      "ended_at": "2026-10-29T17:46:24.267922+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323399.2253629896,
+      "ci95": 545.223976958783,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-gems_240892-3000-26102941",
+      "started_at": "2026-10-29T17:46:24.273585+08:00",
+      "ended_at": "2026-10-29T17:46:32.892398+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323146.09610986564,
+      "ci95": 555.4931926229882,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-gems_240896-3000-26102941",
+      "started_at": "2026-10-29T17:47:21.798153+08:00",
+      "ended_at": "2026-10-29T17:47:33.298674+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323817.1779657579,
+      "ci95": 539.9113785321545,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-gems_240898-3000-26102941",
+      "started_at": "2026-10-29T17:46:32.895909+08:00",
+      "ended_at": "2026-10-29T17:46:41.430926+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 324515.20204201184,
+      "ci95": 538.5752165780926,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-gems_240900-3000-26102941",
+      "started_at": "2026-10-29T17:46:41.438718+08:00",
+      "ended_at": "2026-10-29T17:46:50.984660+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 324105.2283942015,
+      "ci95": 566.9404868510229,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-gems_240904-3000-26102941",
+      "started_at": "2026-10-29T17:47:33.307365+08:00",
+      "ended_at": "2026-10-29T17:47:45.683390+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323093.57720333204,
+      "ci95": 549.5279357622163,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-gems_240906-3000-26102941",
+      "started_at": "2026-10-29T17:46:50.992802+08:00",
+      "ended_at": "2026-10-29T17:47:02.027759+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 323391.7241381863,
+      "ci95": 550.5146296552252,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-gems_240908-3000-26102941",
+      "started_at": "2026-10-29T17:47:02.036865+08:00",
+      "ended_at": "2026-10-29T17:47:12.895973+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 324162.4919601963,
+      "ci95": 558.2215979861794,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-rings_advanced_haste-3000-26102941",
+      "started_at": "2026-10-29T17:49:31.542926+08:00",
+      "ended_at": "2026-10-29T17:49:38.733328+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 317694.3201208522,
+      "ci95": 541.3704840281933,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-rings_advanced_mastery-3000-26102941",
+      "started_at": "2026-10-29T17:49:22.873237+08:00",
+      "ended_at": "2026-10-29T17:49:31.539307+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 317999.46068313374,
+      "ci95": 529.6203896351757,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-rings_crit-3000-26102941",
+      "started_at": "2026-10-29T17:48:19.445983+08:00",
+      "ended_at": "2026-10-29T17:48:30.119567+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 317550.71256746934,
+      "ci95": 540.6433796090784,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-rings_haste-3000-26102941",
+      "started_at": "2026-10-29T17:48:10.410937+08:00",
+      "ended_at": "2026-10-29T17:48:19.439149+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 317154.30008314556,
+      "ci95": 550.9907122050164,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-tendril-slice-rings_mastery-3000-26102941",
+      "started_at": "2026-10-29T17:48:01.982780+08:00",
+      "ended_at": "2026-10-29T17:48:10.406515+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 317924.1550312972,
+      "ci95": 527.928638413522,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-baseline-3000-26102941",
+      "started_at": "2026-10-29T17:38:51.421855+08:00",
+      "ended_at": "2026-10-29T17:38:58.421378+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 312966.0393702024,
+      "ci95": 526.4401966072006,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_back_cm-3000-26102941",
+      "started_at": "2026-10-29T17:38:58.426914+08:00",
+      "ended_at": "2026-10-29T17:39:05.580586+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 313061.09540988965,
+      "ci95": 523.2047856278031,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_back_hm-3000-26102941",
+      "started_at": "2026-10-29T17:39:05.585781+08:00",
+      "ended_at": "2026-10-29T17:39:18.549207+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 313101.9290645043,
+      "ci95": 517.8896332294845,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_cm_pair-3000-26102941",
+      "started_at": "2026-10-29T17:44:01.569372+08:00",
+      "ended_at": "2026-10-29T17:44:10.644685+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 313659.66875941644,
+      "ci95": 525.857552009015,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_cm_pair_mastery_gems-3000-26102941",
+      "started_at": "2026-10-29T17:44:10.652815+08:00",
+      "ended_at": "2026-10-29T17:44:19.016089+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 314174.11947605264,
+      "ci95": 517.668306834621,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_feet_ch-3000-26102941",
+      "started_at": "2026-10-29T17:40:35.485730+08:00",
+      "ended_at": "2026-10-29T17:40:46.084518+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 311583.0384507125,
+      "ci95": 519.144687760746,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_feet_hm-3000-26102941",
+      "started_at": "2026-10-29T17:40:46.092044+08:00",
+      "ended_at": "2026-10-29T17:40:59.192008+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 312130.98859155434,
+      "ci95": 508.29588346848976,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_finger2_ch-3000-26102941",
+      "started_at": "2026-10-29T17:40:59.199684+08:00",
+      "ended_at": "2026-10-29T17:41:11.666643+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 308537.5602504137,
+      "ci95": 499.51953297917083,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_finger2_hm-3000-26102941",
+      "started_at": "2026-10-29T17:41:11.673305+08:00",
+      "ended_at": "2026-10-29T17:41:22.123011+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 309604.573866927,
+      "ci95": 501.0340396075953,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_hands_ch-3000-26102941",
+      "started_at": "2026-10-29T17:39:59.883939+08:00",
+      "ended_at": "2026-10-29T17:40:23.543422+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 312455.7089382638,
+      "ci95": 513.4570069433593,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_hands_cm-3000-26102941",
+      "started_at": "2026-10-29T17:40:23.548641+08:00",
+      "ended_at": "2026-10-29T17:40:35.479185+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 313248.6212682981,
+      "ci95": 507.3674061952565,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_wrist_ch-3000-26102941",
+      "started_at": "2026-10-29T17:39:18.561313+08:00",
+      "ended_at": "2026-10-29T17:39:34.494565+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 311700.5162888396,
+      "ci95": 512.6290915538636,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-craft_wrist_hm-3000-26102941",
+      "started_at": "2026-10-29T17:39:34.502610+08:00",
+      "ended_at": "2026-10-29T17:39:59.860480+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 311950.71412517014,
+      "ci95": 513.1836326981634,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-diamond_powerful-3000-26102941",
+      "started_at": "2026-10-29T17:42:52.427305+08:00",
+      "ended_at": "2026-10-29T17:43:02.028733+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 312877.29022196564,
+      "ci95": 526.4075151035624,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-diamond_three_colors-3000-26102941",
+      "started_at": "2026-10-29T17:43:02.035887+08:00",
+      "ended_at": "2026-10-29T17:43:13.623088+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 313357.4905187904,
+      "ci95": 522.9520483098298,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-flask_crit-3000-26102941",
+      "started_at": "2026-10-29T17:43:52.436795+08:00",
+      "ended_at": "2026-10-29T17:44:01.560670+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 311118.736334018,
+      "ci95": 530.6870899227955,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-flask_haste-3000-26102941",
+      "started_at": "2026-10-29T17:43:44.146008+08:00",
+      "ended_at": "2026-10-29T17:43:52.431182+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 309509.0243276669,
+      "ci95": 503.2628208201406,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-gems_240888-3000-26102941",
+      "started_at": "2026-10-29T17:42:22.980615+08:00",
+      "ended_at": "2026-10-29T17:42:32.812284+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 311523.0615636337,
+      "ci95": 524.8847887109711,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-gems_240890-3000-26102941",
+      "started_at": "2026-10-29T17:41:22.130066+08:00",
+      "ended_at": "2026-10-29T17:41:33.270568+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 312418.3533381418,
+      "ci95": 525.2106651644741,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-gems_240892-3000-26102941",
+      "started_at": "2026-10-29T17:41:33.277742+08:00",
+      "ended_at": "2026-10-29T17:41:43.831799+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 312687.46746127645,
+      "ci95": 496.86959007898366,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-gems_240896-3000-26102941",
+      "started_at": "2026-10-29T17:42:32.818898+08:00",
+      "ended_at": "2026-10-29T17:42:42.024539+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 311902.5108383993,
+      "ci95": 509.61408651566177,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-gems_240898-3000-26102941",
+      "started_at": "2026-10-29T17:41:43.839348+08:00",
+      "ended_at": "2026-10-29T17:41:55.845972+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 313368.248906559,
+      "ci95": 515.0826546486784,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-gems_240900-3000-26102941",
+      "started_at": "2026-10-29T17:41:55.852313+08:00",
+      "ended_at": "2026-10-29T17:42:05.081297+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 312605.78287081944,
+      "ci95": 516.8833620869252,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-gems_240904-3000-26102941",
+      "started_at": "2026-10-29T17:42:42.031210+08:00",
+      "ended_at": "2026-10-29T17:42:52.420660+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 311722.32474561123,
+      "ci95": 511.76589223017993,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-gems_240906-3000-26102941",
+      "started_at": "2026-10-29T17:42:05.085828+08:00",
+      "ended_at": "2026-10-29T17:42:14.128954+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 312461.6646621599,
+      "ci95": 514.7842922297306,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-gems_240908-3000-26102941",
+      "started_at": "2026-10-29T17:42:14.135032+08:00",
+      "ended_at": "2026-10-29T17:42:22.973049+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 313038.34432898706,
+      "ci95": 509.271150636722,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-rings_advanced_haste-3000-26102941",
+      "started_at": "2026-10-29T17:49:10.392598+08:00",
+      "ended_at": "2026-10-29T17:49:22.865149+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 307397.17711833277,
+      "ci95": 490.07063695975194,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-rings_advanced_mastery-3000-26102941",
+      "started_at": "2026-10-29T17:48:56.449185+08:00",
+      "ended_at": "2026-10-29T17:49:10.383954+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 308235.39179614774,
+      "ci95": 495.572902088153,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-rings_crit-3000-26102941",
+      "started_at": "2026-10-29T17:43:34.740973+08:00",
+      "ended_at": "2026-10-29T17:43:44.140455+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 307685.9819288251,
+      "ci95": 505.47859554573085,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-rings_haste-3000-26102941",
+      "started_at": "2026-10-29T17:43:25.397335+08:00",
+      "ended_at": "2026-10-29T17:43:34.732408+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 307039.7599946152,
+      "ci95": 498.6779096533992,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    },
+    {
+      "name": "tuning-zuljin-slice-rings_mastery-3000-26102941",
+      "started_at": "2026-10-29T17:43:13.631616+08:00",
+      "ended_at": "2026-10-29T17:43:25.389660+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 307588.1577197764,
+      "ci95": 507.27121004713774,
+      "samples": 2999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ]
+    }
+  ],
+  "haste_evidence": "tuning-haste-evidence.json",
+  "talents": {
+    "summary": "相比约0.4%的装备精修，乾元节点在本模型中的影响更大。先试灵魂专注短冷却；再按单体需求和真气容错决定能量爆裂／尚武敏捷。",
+    "candidate_results": [
+      {
+        "branch": "乌心＋祖尔金341",
+        "candidate": "user",
+        "label": "你当前天赋",
+        "values": {
+          "slice": {
+            "name": "talents-zuljin-slice-user-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:55:15.064892+08:00",
+            "ended_at": "2026-10-29T18:55:41.380370+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 313160.6480785078,
+            "ci95": 282.30483449406955,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 0.0,
+            "artifact": "talents-zuljin-slice-user-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "aoe": {
+            "name": "talents-zuljin-aoe-user-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:55:41.386437+08:00",
+            "ended_at": "2026-10-29T18:55:50.277417+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 715110.2577668312,
+            "ci95": 440.8166020081084,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 0.0,
+            "artifact": "talents-zuljin-aoe-user-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "st": {
+            "name": "talents-zuljin-st-user-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:55:50.283475+08:00",
+            "ended_at": "2026-10-29T18:56:01.819152+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 180823.0945960299,
+            "ci95": 98.70661700870221,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 0.0,
+            "artifact": "talents-zuljin-st-user-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          }
+        }
+      },
+      {
+        "branch": "乌心＋祖尔金341",
+        "candidate": "user_short_cd",
+        "label": "只将角杯盖子改灵魂专注",
+        "values": {
+          "slice": {
+            "name": "talents-zuljin-slice-user_short_cd-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:56:01.826179+08:00",
+            "ended_at": "2026-10-29T18:56:27.216275+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 321899.2209673323,
+            "ci95": 294.4419919294122,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 2.790444119477553,
+            "artifact": "talents-zuljin-slice-user_short_cd-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "aoe": {
+            "name": "talents-zuljin-aoe-user_short_cd-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:56:27.224435+08:00",
+            "ended_at": "2026-10-29T18:56:36.076598+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 745526.3571788298,
+            "ci95": 433.17567827079455,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 4.253344023756989,
+            "artifact": "talents-zuljin-aoe-user_short_cd-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "st": {
+            "name": "talents-zuljin-st-user_short_cd-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:56:36.100800+08:00",
+            "ended_at": "2026-10-29T18:56:48.209209+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 180409.41203564205,
+            "ci95": 97.18397360761207,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": -0.22877750284721055,
+            "artifact": "talents-zuljin-st-user_short_cd-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          }
+        }
+      },
+      {
+        "branch": "乌心＋祖尔金341",
+        "candidate": "user_short_cd_martial",
+        "label": "保留你的功能天赋，短冷却＋尚武敏捷",
+        "values": {
+          "slice": {
+            "name": "talents-zuljin-slice-user_short_cd_martial-baseline-10000-26102971",
+            "started_at": "2026-10-29T19:00:21.315468+08:00",
+            "ended_at": "2026-10-29T19:00:45.826433+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 323294.84269638715,
+            "ci95": 288.3071335504454,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.236100921383578,
+            "artifact": "talents-zuljin-slice-user_short_cd_martial-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "aoe": {
+            "name": "talents-zuljin-aoe-user_short_cd_martial-baseline-10000-26102971",
+            "started_at": "2026-10-29T19:00:45.833990+08:00",
+            "ended_at": "2026-10-29T19:00:54.535463+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 743498.6195792194,
+            "ci95": 447.19442918900415,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.9697880856918832,
+            "artifact": "talents-zuljin-aoe-user_short_cd_martial-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "st": {
+            "name": "talents-zuljin-st-user_short_cd_martial-baseline-10000-26102971",
+            "started_at": "2026-10-29T19:00:54.542817+08:00",
+            "ended_at": "2026-10-29T19:01:06.505748+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 184743.24937671045,
+            "ci95": 100.31894733992938,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 2.1679502772798065,
+            "artifact": "talents-zuljin-st-user_short_cd_martial-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          }
+        }
+      },
+      {
+        "branch": "乌心＋祖尔金341",
+        "candidate": "bisset_1026",
+        "label": "10月26日保存Bisset完整高层参考",
+        "values": {
+          "slice": {
+            "name": "talents-zuljin-slice-bisset_1026-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:56:48.215794+08:00",
+            "ended_at": "2026-10-29T18:57:12.173835+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 323308.0191241485,
+            "ci95": 288.4180999191755,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.2403084831708506,
+            "artifact": "talents-zuljin-slice-bisset_1026-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "aoe": {
+            "name": "talents-zuljin-aoe-bisset_1026-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:57:12.180727+08:00",
+            "ended_at": "2026-10-29T18:57:21.049878+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 743493.78872316,
+            "ci95": 447.2860153903112,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.969112545660547,
+            "artifact": "talents-zuljin-aoe-bisset_1026-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "st": {
+            "name": "talents-zuljin-st-bisset_1026-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:57:21.054014+08:00",
+            "ended_at": "2026-10-29T18:57:32.668746+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 184736.69423923525,
+            "ci95": 100.28819024731453,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 2.164325111208054,
+            "artifact": "talents-zuljin-st-bisset_1026-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          }
+        }
+      },
+      {
+        "branch": "乌心＋触须341",
+        "candidate": "user",
+        "label": "你当前天赋",
+        "values": {
+          "slice": {
+            "name": "talents-tendril-slice-user-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:57:32.678978+08:00",
+            "ended_at": "2026-10-29T18:57:57.239915+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 324120.14828601846,
+            "ci95": 302.94923660695054,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 0.0,
+            "artifact": "talents-tendril-slice-user-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "aoe": {
+            "name": "talents-tendril-aoe-user-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:57:57.245924+08:00",
+            "ended_at": "2026-10-29T18:58:06.409984+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 746841.1823435673,
+            "ci95": 460.86654651144136,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 0.0,
+            "artifact": "talents-tendril-aoe-user-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "st": {
+            "name": "talents-tendril-st-user-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:58:06.415714+08:00",
+            "ended_at": "2026-10-29T18:58:18.904252+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 178928.34606042138,
+            "ci95": 92.89933936164672,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 0.0,
+            "artifact": "talents-tendril-st-user-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          }
+        }
+      },
+      {
+        "branch": "乌心＋触须341",
+        "candidate": "user_short_cd",
+        "label": "只将角杯盖子改灵魂专注",
+        "values": {
+          "slice": {
+            "name": "talents-tendril-slice-user_short_cd-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:58:18.909285+08:00",
+            "ended_at": "2026-10-29T18:58:44.083524+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 333282.5046692184,
+            "ci95": 310.33422999047167,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 2.826839501231704,
+            "artifact": "talents-tendril-slice-user_short_cd-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "aoe": {
+            "name": "talents-tendril-aoe-user_short_cd-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:58:44.091100+08:00",
+            "ended_at": "2026-10-29T18:58:53.522054+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 777839.750873668,
+            "ci95": 448.11662262313166,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 4.150623889382765,
+            "artifact": "talents-tendril-aoe-user_short_cd-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "st": {
+            "name": "talents-tendril-st-user_short_cd-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:58:53.526573+08:00",
+            "ended_at": "2026-10-29T18:59:05.924007+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 178334.48967757905,
+            "ci95": 93.54291614282106,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": -0.3318962008634352,
+            "artifact": "talents-tendril-st-user_short_cd-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          }
+        }
+      },
+      {
+        "branch": "乌心＋触须341",
+        "candidate": "user_short_cd_martial",
+        "label": "保留你的功能天赋，短冷却＋尚武敏捷",
+        "values": {
+          "slice": {
+            "name": "talents-tendril-slice-user_short_cd_martial-baseline-10000-26102971",
+            "started_at": "2026-10-29T19:01:06.512276+08:00",
+            "ended_at": "2026-10-29T19:01:31.505126+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 334611.96350426564,
+            "ci95": 313.0535561849123,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.237014197892041,
+            "artifact": "talents-tendril-slice-user_short_cd_martial-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "aoe": {
+            "name": "talents-tendril-aoe-user_short_cd_martial-baseline-10000-26102971",
+            "started_at": "2026-10-29T19:01:31.511525+08:00",
+            "ended_at": "2026-10-29T19:01:40.642905+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 775899.4526815139,
+            "ci95": 471.16000276492565,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.8908232466188464,
+            "artifact": "talents-tendril-aoe-user_short_cd_martial-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "st": {
+            "name": "talents-tendril-st-user_short_cd_martial-baseline-10000-26102971",
+            "started_at": "2026-10-29T19:01:40.652141+08:00",
+            "ended_at": "2026-10-29T19:01:52.912190+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 182810.64380788748,
+            "ci95": 96.47251298386976,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 2.169749976985269,
+            "artifact": "talents-tendril-st-user_short_cd_martial-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          }
+        }
+      },
+      {
+        "branch": "乌心＋触须341",
+        "candidate": "bisset_1026",
+        "label": "10月26日保存Bisset完整高层参考",
+        "values": {
+          "slice": {
+            "name": "talents-tendril-slice-bisset_1026-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:59:05.931058+08:00",
+            "ended_at": "2026-10-29T18:59:31.137375+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 334623.8993866411,
+            "ci95": 313.19914553013933,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.2406967466131364,
+            "artifact": "talents-tendril-slice-bisset_1026-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "aoe": {
+            "name": "talents-tendril-aoe-bisset_1026-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:59:31.144556+08:00",
+            "ended_at": "2026-10-29T18:59:40.346045+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 775875.6695918137,
+            "ci95": 471.67676190906747,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.8876387556906034,
+            "artifact": "talents-tendril-aoe-bisset_1026-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          },
+          "st": {
+            "name": "talents-tendril-st-bisset_1026-baseline-10000-26102971",
+            "started_at": "2026-10-29T18:59:40.355068+08:00",
+            "ended_at": "2026-10-29T18:59:53.461331+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 182803.14962543984,
+            "ci95": 96.46995274511869,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 2.165561606270039,
+            "artifact": "talents-tendril-st-bisset_1026-baseline-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.0
+          }
+        }
+      }
+    ],
+    "joint_tuning": [
+      {
+        "branch": "乌心＋祖尔金341",
+        "candidate": "user_short_cd_martial",
+        "values": {
+          "slice": {
+            "name": "talents-zuljin-slice-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971",
+            "started_at": "2026-10-29T19:09:56.936958+08:00",
+            "ended_at": "2026-10-29T19:10:20.063790+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 324126.46894079447,
+            "ci95": 294.2212645402809,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.5016599082837496,
+            "artifact": "talents-zuljin-slice-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.25723461514921553
+          },
+          "aoe": {
+            "name": "talents-zuljin-aoe-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971",
+            "started_at": "2026-10-29T19:10:20.095202+08:00",
+            "ended_at": "2026-10-29T19:10:28.575865+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 744256.939664654,
+            "ci95": 432.41128792854016,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 4.075830486454346,
+            "artifact": "talents-zuljin-aoe-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.10199347590769126
+          },
+          "st": {
+            "name": "talents-zuljin-st-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971",
+            "started_at": "2026-10-29T19:10:28.583347+08:00",
+            "ended_at": "2026-10-29T19:10:40.079652+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 184652.27858956624,
+            "ci95": 103.35385423109179,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 2.117641002710946,
+            "artifact": "talents-zuljin-st-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971.validation.json",
+            "tuning_delta_same_talents": -0.0492417381696586
+          }
+        }
+      },
+      {
+        "branch": "乌心＋触须341",
+        "candidate": "user_short_cd_martial",
+        "values": {
+          "slice": {
+            "name": "talents-tendril-slice-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971",
+            "started_at": "2026-10-29T19:10:40.086190+08:00",
+            "ended_at": "2026-10-29T19:11:05.343794+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 335302.62205434125,
+            "ci95": 316.2899079156967,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.4501013983416096,
+            "artifact": "talents-tendril-slice-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.20640581491546683
+          },
+          "aoe": {
+            "name": "talents-tendril-aoe-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971",
+            "started_at": "2026-10-29T19:11:05.352397+08:00",
+            "ended_at": "2026-10-29T19:11:14.148264+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 776267.8082149951,
+            "ci95": 458.27122576471874,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 3.9401450491907575,
+            "artifact": "talents-tendril-aoe-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971.validation.json",
+            "tuning_delta_same_talents": 0.04747464793384282
+          },
+          "st": {
+            "name": "talents-tendril-st-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971",
+            "started_at": "2026-10-29T19:11:14.154299+08:00",
+            "ended_at": "2026-10-29T19:11:26.406188+08:00",
+            "accepted": true,
+            "exit_code": 0,
+            "valid_fight_style": true,
+            "dps": 182707.98688285047,
+            "ci95": 97.96799729393793,
+            "samples": 9999,
+            "logs": [
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+              },
+              {
+                "level": "implementation_not_yet_verified",
+                "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+              }
+            ],
+            "delta": 2.112376772964053,
+            "artifact": "talents-tendril-st-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971.validation.json",
+            "tuning_delta_same_talents": -0.05615478557413622
+          }
+        }
+      }
+    ],
+    "exports": {
+      "user": {
+        "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG",
+        "source": "../../snapshots/2026-10-29-equipped.simc",
+        "scope": "Current user equipped import"
+      },
+      "bisset_1026": {
+        "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYbmx2MAAAAAAAAAAAALDz0MmhhBMMMzMzwsxMDWmJAgFmtxMmZmZgAYxMLz2YCCAYGDgZAGLDgZmZzA",
+        "source": "../2026-10-26/wcl-elite-profile.simc",
+        "scope": "October26 saved high-key reference, not fresh October29 export"
+      },
+      "local_guide_aoe": {
+        "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYbmZ2mBAAAAAAAAAAAYZY0MmhhB2GGmZmZY2GmhZ5BmAAWY2YGzMzMQAsYmlZbMNLzSzMzsBMjBmZmBYsNAmZmND",
+        "source": "C:/Users/Administrator/Downloads/12.1 超级跟风踏风速成指南.md",
+        "scope": "User-supplied pure AoE build; current online freshness not established",
+        "status": "excluded_from_current_ranking: stale guide export causes additional inactive ShadoPan trait rows in current debug; not treated as a validated current-client build"
+      },
+      "method_mplus": {
+        "talents": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmx2MAAAAAAAAAAAALDz0MmhhBMMMzMzwsxMDzyDMBAswsNmxMzMDAgFzsMbjJIAgZMAmBYsMQMzMbG",
+        "source": "https://www.method.gg/guides/windwalker-monk/talents",
+        "scope": "Conduit Mythic+",
+        "page_updated_on": "2026-10-14"
+      },
+      "icy_mplus": {
+        "talents": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mBAAAAAAAAAAAYZYEmhhBMjhZmZGmNMDzyMBAswsxMmZmZAAsYmlZZMBAAmZGAzAMWGDYmZ2M",
+        "source": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-spec-builds-talents",
+        "scope": "Windwalker Mythic+ - Conduit of the Celestials",
+        "page_updated_on": "2026-10-12"
+      },
+      "user_short_cd": {
+        "talents": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYbmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDMAsYmlZbMBBAMjBwMAjlBwMzsZA",
+        "source": "User supplied build with explicit controlled node swap, exported natively by SimC",
+        "scope": "Single change: angle-cup duration to Spiritual Focus",
+        "override": "124825:0/124824:1",
+        "validation": "Native SimC re-encoded talent hash; not a copied elite export"
+      },
+      "user_short_cd_martial": {
+        "talents": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYbmx2MAAAAAAAAAAAALDz0MmhhxghhZmZGmNMDzyDMBAswsNmxMzMDMAsYmlZbMBBAMjBwMAjlBwMzsZA",
+        "source": "User supplied build with explicit controlled node swap, exported natively by SimC",
+        "scope": "User short-cooldown plus Energy Burst to Martial Agility",
+        "override": "124825:0/124824:1/124829:0/125015:1",
+        "validation": "Native SimC re-encoded talent hash; not a copied elite export"
+      }
+    },
+    "screen_results": [
+      {
+        "name": "talents-tendril-aoe-bisset_1026-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:33.361354+08:00",
+        "ended_at": "2026-10-29T18:16:37.140656+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 775482.9383083582,
+        "ci95": 844.5911758769937,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-aoe-icy_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:39:14.175280+08:00",
+        "ended_at": "2026-10-29T18:39:16.679123+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 746321.7880376644,
+        "ci95": 832.3298746485519,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-aoe-local_guide_aoe-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:49.704098+08:00",
+        "ended_at": "2026-10-29T18:16:52.808590+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 776498.8446269671,
+        "ci95": 822.0256525636448,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-aoe-method_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:39:01.034910+08:00",
+        "ended_at": "2026-10-29T18:39:03.751299+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 740255.3937865964,
+        "ci95": 876.8622735626082,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-aoe-user-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:16.527410+08:00",
+        "ended_at": "2026-10-29T18:16:19.789894+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 746541.7205324768,
+        "ci95": 819.3397143387874,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-aoe-user_short_cd-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:53:20.005176+08:00",
+        "ended_at": "2026-10-29T18:53:22.652423+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 776774.0324604738,
+        "ci95": 821.8749897445757,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-aoe-user_short_cd_martial-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:53:33.609236+08:00",
+        "ended_at": "2026-10-29T18:53:36.444121+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 775633.1828510651,
+        "ci95": 846.7092567818297,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-bisset_1026-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:24.357931+08:00",
+        "ended_at": "2026-10-29T18:16:33.355273+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 334236.26456448983,
+        "ci95": 567.3361476504018,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-icy_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:39:07.249929+08:00",
+        "ended_at": "2026-10-29T18:39:14.169047+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 324360.8334570012,
+        "ci95": 544.484015017993,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-local_guide_aoe-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:41.501184+08:00",
+        "ended_at": "2026-10-29T18:16:49.697177+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 333184.0452491841,
+        "ci95": 566.2818105628163,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-method_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:38:53.940801+08:00",
+        "ended_at": "2026-10-29T18:39:01.029215+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 325071.2100111446,
+        "ci95": 556.9409600342127,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-user-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:07.975837+08:00",
+        "ended_at": "2026-10-29T18:16:16.519845+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 323891.9540432865,
+        "ci95": 557.8149535474919,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-user_short_cd-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:53:12.675727+08:00",
+        "ended_at": "2026-10-29T18:53:19.998013+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 333461.7041337873,
+        "ci95": 566.397921257705,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-user_short_cd_martial-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:53:26.355413+08:00",
+        "ended_at": "2026-10-29T18:53:33.602746+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 334230.9610498279,
+        "ci95": 565.8372043378752,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-user_short_cd_martial-craft_cm_pair_mastery_gems-3000-26102961",
+        "started_at": "2026-10-29T19:02:30.729821+08:00",
+        "ended_at": "2026-10-29T19:02:38.370753+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 335342.4155257452,
+        "ci95": 566.5899372965071,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-user_short_cd_martial-flask_crit-3000-26102961",
+        "started_at": "2026-10-29T19:02:53.797527+08:00",
+        "ended_at": "2026-10-29T19:03:01.674309+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 330961.640069783,
+        "ci95": 566.2284742589723,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-user_short_cd_martial-flask_haste-3000-26102961",
+        "started_at": "2026-10-29T19:02:46.057462+08:00",
+        "ended_at": "2026-10-29T19:02:53.788459+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 330354.46582539123,
+        "ci95": 559.1020339180428,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-user_short_cd_martial-gems_240898-3000-26102961",
+        "started_at": "2026-10-29T19:02:38.378395+08:00",
+        "ended_at": "2026-10-29T19:02:46.051865+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 334860.0558153118,
+        "ci95": 556.973499924134,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-slice-user_short_cd_martial-rings_advanced_mastery-3000-26102961",
+        "started_at": "2026-10-29T19:03:01.680094+08:00",
+        "ended_at": "2026-10-29T19:03:09.401690+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 328608.7163068052,
+        "ci95": 560.838657755126,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-st-bisset_1026-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:37.147563+08:00",
+        "ended_at": "2026-10-29T18:16:41.495025+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 182818.4353490553,
+        "ci95": 175.77134484029824,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-st-icy_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:39:16.684674+08:00",
+        "ended_at": "2026-10-29T18:39:20.372136+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 178746.34793717493,
+        "ci95": 168.8498161239974,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-st-local_guide_aoe-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:52.815679+08:00",
+        "ended_at": "2026-10-29T18:16:56.877959+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 178061.40232698896,
+        "ci95": 168.86497639242774,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-st-method_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:39:03.754810+08:00",
+        "ended_at": "2026-10-29T18:39:07.245904+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 183634.23292537653,
+        "ci95": 177.87127977804406,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-st-user-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:19.796427+08:00",
+        "ended_at": "2026-10-29T18:16:24.329129+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 178722.5006833242,
+        "ci95": 171.84343170430247,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-st-user_short_cd-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:53:22.658799+08:00",
+        "ended_at": "2026-10-29T18:53:26.348872+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 178318.88593788262,
+        "ci95": 169.36370126867968,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-tendril-st-user_short_cd_martial-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:53:36.450658+08:00",
+        "ended_at": "2026-10-29T18:53:40.159559+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 182822.44936748178,
+        "ci95": 175.8369687810893,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-aoe-bisset_1026-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:15:43.795711+08:00",
+        "ended_at": "2026-10-29T18:15:47.066306+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 743366.4707610006,
+        "ci95": 839.6135945954272,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-aoe-icy_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:38:48.004900+08:00",
+        "ended_at": "2026-10-29T18:38:50.466506+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 714587.6292837656,
+        "ci95": 811.6823345025638,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-aoe-local_guide_aoe-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:00.149504+08:00",
+        "ended_at": "2026-10-29T18:16:03.383430+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 744000.170496815,
+        "ci95": 784.8048225699474,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-aoe-method_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:38:35.197785+08:00",
+        "ended_at": "2026-10-29T18:38:37.772403+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 710253.9092731419,
+        "ci95": 829.9082393352736,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-aoe-user-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:15:27.313074+08:00",
+        "ended_at": "2026-10-29T18:15:31.122235+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 714036.872585616,
+        "ci95": 823.2036753508194,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-aoe-user_short_cd-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:52:53.112781+08:00",
+        "ended_at": "2026-10-29T18:52:55.801223+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 744130.3250100343,
+        "ci95": 784.273544417901,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-aoe-user_short_cd_martial-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:53:06.539489+08:00",
+        "ended_at": "2026-10-29T18:53:09.195303+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 743254.5606134274,
+        "ci95": 836.5689842770433,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-bisset_1026-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:15:35.523091+08:00",
+        "ended_at": "2026-10-29T18:15:43.790057+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 323444.5129438257,
+        "ci95": 547.5841555031061,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-icy_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:38:41.058113+08:00",
+        "ended_at": "2026-10-29T18:38:47.998876+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 313040.1263257828,
+        "ci95": 510.1805478103054,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-local_guide_aoe-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:15:51.547225+08:00",
+        "ended_at": "2026-10-29T18:16:00.142356+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 322012.90363929834,
+        "ci95": 542.1575857386348,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-method_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:38:28.542715+08:00",
+        "ended_at": "2026-10-29T18:38:35.192969+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 314222.6616052696,
+        "ci95": 507.6427637166989,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-user-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:15:19.003980+08:00",
+        "ended_at": "2026-10-29T18:15:27.304970+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 313101.79525522364,
+        "ci95": 514.2814376158008,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-user_short_cd-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:52:46.161300+08:00",
+        "ended_at": "2026-10-29T18:52:53.107264+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 322269.76116637705,
+        "ci95": 542.2031996376649,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-user_short_cd_martial-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:52:59.412428+08:00",
+        "ended_at": "2026-10-29T18:53:06.533428+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 323473.47067439253,
+        "ci95": 547.8600845194223,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-user_short_cd_martial-craft_cm_pair_mastery_gems-3000-26102961",
+        "started_at": "2026-10-29T19:01:53.062827+08:00",
+        "ended_at": "2026-10-29T19:02:00.519321+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 324136.66284087725,
+        "ci95": 545.2286626640359,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-user_short_cd_martial-flask_crit-3000-26102961",
+        "started_at": "2026-10-29T19:02:15.489348+08:00",
+        "ended_at": "2026-10-29T19:02:23.016505+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 320955.36295213347,
+        "ci95": 529.1247260983793,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-user_short_cd_martial-flask_haste-3000-26102961",
+        "started_at": "2026-10-29T19:02:07.964852+08:00",
+        "ended_at": "2026-10-29T19:02:15.481823+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 320079.4509838442,
+        "ci95": 527.5934438541121,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-user_short_cd_martial-gems_240898-3000-26102961",
+        "started_at": "2026-10-29T19:02:00.528371+08:00",
+        "ended_at": "2026-10-29T19:02:07.958743+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 323205.5167544186,
+        "ci95": 529.8548257020907,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-slice-user_short_cd_martial-rings_advanced_mastery-3000-26102961",
+        "started_at": "2026-10-29T19:02:23.025062+08:00",
+        "ended_at": "2026-10-29T19:02:30.723772+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 318238.4201078021,
+        "ci95": 520.3800429590891,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-st-bisset_1026-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:15:47.074906+08:00",
+        "ended_at": "2026-10-29T18:15:51.540713+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 184802.02149160192,
+        "ci95": 181.06183328092231,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-st-icy_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:38:50.470524+08:00",
+        "ended_at": "2026-10-29T18:38:53.936149+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 180877.05197270663,
+        "ci95": 179.01713087747794,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-st-local_guide_aoe-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:16:03.390993+08:00",
+        "ended_at": "2026-10-29T18:16:07.970516+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 180295.51276128693,
+        "ci95": 176.1285423527985,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-st-method_mplus-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:38:37.776423+08:00",
+        "ended_at": "2026-10-29T18:38:41.052485+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 185433.9505424013,
+        "ci95": 186.06956726279856,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-st-user-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:15:31.127853+08:00",
+        "ended_at": "2026-10-29T18:15:35.517777+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 181067.4942523891,
+        "ci95": 176.32848324878896,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-st-user_short_cd-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:52:55.805811+08:00",
+        "ended_at": "2026-10-29T18:52:59.406409+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 180538.05323917067,
+        "ci95": 176.37275231741074,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      },
+      {
+        "name": "talents-zuljin-st-user_short_cd_martial-baseline-3000-26102961",
+        "started_at": "2026-10-29T18:53:09.202793+08:00",
+        "ended_at": "2026-10-29T18:53:12.639745+08:00",
+        "accepted": true,
+        "exit_code": 0,
+        "valid_fight_style": true,
+        "dps": 184785.7743163339,
+        "ci95": 180.90990870455758,
+        "samples": 2999,
+        "logs": [
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+          },
+          {
+            "level": "implementation_not_yet_verified",
+            "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+          }
+        ]
+      }
+    ],
+    "evidence": "elite-talents-research.md",
+    "limits": [
+      "5位高手只有当前节点观察，没有取得当前完整导出；Bisset整串来自10月26日，明确作为旧参考。另有当前Method与IcyVeins大米作者完整串作筛选，不冒充高手个人。",
+      "两个控制字串从你的原串只改指定选择节点，由SimC原生重新导出；不是声称高手使用该整串。",
+      "旧本地攻略串在新版解析出现额外英雄节点，仅保留审计，不作为当前推荐。",
+      "新天赋复测10000次、有效9999／26102971。固定目标长度和默认优先级会影响乾元施放次数，实服收益取决于路线与按键。",
+      "短冷却15秒与延长20秒乾元的拳谱不同，不能换天赋却继续机械照打旧序列。功能与生存天赋不因低伤害权重而自动删去。"
+    ]
+  }
+}

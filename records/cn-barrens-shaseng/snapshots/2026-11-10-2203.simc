@@ -1,0 +1,300 @@
+# 沙僧 - Windwalker - 2026-11-10 22:03 - CN/贫瘠之地
+# SimC Addon 12.1.5-04
+# WoW 12.1.5.70783, TOC 120105
+# Requires SimulationCraft 1000-01 or newer
+
+monk="沙僧"
+level=90
+race=pandaren
+region=cn
+server=贫瘠之地
+role=attack
+professions=alchemy=25/jewelcrafting=100
+spec=windwalker
+# loot_spec=windwalker
+
+talents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmx2MAAAAAAAAAAAALDz0MmhhxghhZmZGmNMDzyDMBAswsNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG
+
+# Saved Loadout: wcl大米
+# talents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYGzYGGGDGGmZmZY2wMMLPwAAYhZjZMzMzAAYxMLz2YAAAmxAYGgxyAYmZ2M
+# Saved Loadout: 地下堡
+# talents=C0QAQnG51S19isUJoJoTeJ/IKbmZmhZMzMLzMYAAAAAAAAAAAALLDGMzwYGwwMmHYmZY2GmhZZGAALzMLMzMmZGAAbAwsMLmZmZBAAAAAAA
+# Saved Loadout: wowhead影踪
+# talents=C0QAQnG51S19isUJoJoTeJ/IKPzYAMGbzMz2MAAAAAAAAAAAALDzAzYZYAzYYmZmhZbYGmlZAAsYmtZmxMzMDAgNAYWmFzMzsAgBmZAgFGwAG
+# Saved Loadout: H10
+# talents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYYGzwwAGGmZmZYWGmhZ5BGAALMbjZMmZGAALmZZWGDAAwMGAzAMWmBYmZWM
+# Saved Loadout: H1
+# talents=C0QAQnG51S19isUJoJoTeJ/IKPzYM2GGsMzMbzAAAAAAAAAAAAsMMMjZYYAzYGzMzMMbDzgFDAgFzsNzMGzMDAgFzsMLjBAAwYAMDwYZGgZmZzFA
+# Saved Loadout: 12.1大米2
+# talents=C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmx2MAAAAAAAAAAAALDzYGzwwYwwwMzMDzGmhZ5BGAALMbjZMzMzAAYxMLz2YAAAmxAYGgxyAYmZ2M
+# Saved Loadout: GI-M5-斯索拉克-1
+# talents=C0QAQnG51S19isUJoJoTeJ/IKPzYM2GGsMzMbzAAAAAAAAAAAAsMMMjZADYGDzMzMMbzGDzyMAAWMz2MzYMzMAAWMzysMGAAAjBwMAjlBwMzs5CA
+
+omnium_talents=136814:1/136818:1/136817:1/136819:1/136822:1
+
+# 美猴王的不屈面容 (334)
+head=,id=271519,enchant_id=8017,bonus_id=13334/6652/12854/13696/13847/13692/13698/1587,redirected_base_stats=271875
+# 亚基克星藏骨匣 (341)
+neck=,id=268265,gem_id=240983/240892,bonus_id=6652/13668/13334/13987/12856
+# 美猴王流苏护肩 (334)
+shoulder=,id=271517,bonus_id=13694/13697/12854,redirected_base_stats=272244
+# 信徒的流丝罩袍 (331)
+back=,id=239656,bonus_id=12214/13667/12497/13751/14001/8960/12384/8790/13836,content_tuning=3615,crafted_stats=49/40,crafting_quality=5
+# 美猴王战衣 (334)
+chest=,id=271522,enchant_id=7987,bonus_id=13334/6652/14049/13690/13698/12854,redirected_base_stats=281236
+# 红色亚麻衬衣 (1)
+shirt=,id=2575
+# 尊崇公会战袍 (1)
+tabard=,id=69210
+# 银月城特工的偏斜腕甲 (331)
+wrist=,id=244576,bonus_id=12214/13667/12497/13751/14001/8960/12384/8791/13836/13696,content_tuning=3615,crafted_stats=40/36,crafting_quality=5
+# 美猴王的斗拳 (334)
+hands=,id=271520,bonus_id=41/13440/13691/13697/12854,redirected_base_stats=251124
+# 银月城特工的多功能腰带 (331)
+waist=,id=244573,bonus_id=12214/13667/12497/13751/14001/8791/13836/13696,content_tuning=3615,crafted_stats=36/40,crafting_quality=5
+# 美猴王长裤 (321)
+legs=,id=271518,enchant_id=8159,bonus_id=6652/13440/13693/13698/12846,redirected_base_stats=251130
+# 银月城特工的匿踪靴 (331)
+feet=,id=244569,enchant_id=7963,bonus_id=12214/13667/12497/13751/14001/8791/13836,content_tuning=3615,crafted_stats=32/36,crafting_quality=5
+# 虫群召唤者指环 (334)
+finger1=,id=281029,enchant_id=7967,gem_id=240908,bonus_id=6652/13668/13334/12854
+# 精工辛多雷指环 (331)
+finger2=,id=240949,enchant_id=7967,gem_id=240908,bonus_id=12214/13667/12497/13751/14001/8791/13836,content_tuning=3615,crafted_stats=36/40,crafting_quality=5
+# 乌拉特克贪婪之心 (341)
+trinket1=,id=270175,bonus_id=6652/13334/12856
+# 扭曲恐兽触须 (341)
+trinket2=,id=281215,bonus_id=6652/13334/12856
+# 深渊巢魔的长柄大斧 (341)
+main_hand=,id=268215,enchant_id=8689,bonus_id=6652/13334/13846/12856
+
+### Gear from Bags
+#
+# 美猴王的不屈面容 (321)
+# head=,id=271519,enchant_id=8017,bonus_id=12846/6652/13696/13440/13692/13698/1574,redirected_base_stats=273791
+#
+# 神殿探窟者秘法头盔 (321)
+# head=,id=271438,enchant_id=8017,bonus_id=6652/13696/13662/13334/10844/12846,content_tuning=7363,crafted_stats=32/49
+#
+# 暗影猎手战帽 (308)
+# head=,id=268219,bonus_id=6652/13696/13662/13334/12842
+#
+# 护卫之牙束带 (311)
+# neck=,id=273781,bonus_id=12843/13440/6652/13668/12699,content_tuning=1279
+#
+# 多曼纳尔的寄生契约 (311)
+# neck=,id=251234,bonus_id=12843/13440/6652/13668/12699,content_tuning=1279
+#
+# 恶毒之怒吊坠 (321)
+# neck=,id=251142,bonus_id=13440/6652/13668/12699/12846,content_tuning=1279
+#
+# 蛇皮护肩 (311)
+# shoulder=,id=273774,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 美猴王流苏护肩 (321)
+# shoulder=,id=271517,enchant_id=8001,bonus_id=12846/6652/13440/13694/13697/1574,redirected_base_stats=251146
+#
+# 美猴王流苏护肩 (295)
+# shoulder=,id=271517,enchant_id=8001,bonus_id=6652/13694/13697/12830,redirected_base_stats=272244
+#
+# 泛沫毒液护肩 (311)
+# shoulder=,id=268246,bonus_id=41/13662/13334/12843
+#
+# 雾猎者护肩 (295)
+# shoulder=,id=272244,bonus_id=12834/6652/13662,content_tuning=6015
+#
+# 美猴王披风 (321)
+# back=,id=271514,bonus_id=6652/13440/12846,redirected_base_stats=251190
+#
+# 协和披风 (12)
+# back=,id=63206,content_tuning=868
+#
+# 防火斗披 (311)
+# back=,id=193763,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 协同披风 (13)
+# back=,id=65360,content_tuning=868
+#
+# 战争试炼行装 (311)
+# chest=,id=251159,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 入侵者的火焰风暴护胸 (311)
+# chest=,id=193764,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 美猴王战衣 (295)
+# chest=,id=271522,bonus_id=13690/6652/13698/12830
+#
+# 美猴王战衣 (321)
+# chest=,id=271522,enchant_id=7987,bonus_id=6652/13690/13698/12846,redirected_base_stats=272239
+#
+# 战争试炼行装 (295)
+# chest=,id=251159,bonus_id=12834/13440/6652/13662/12699,content_tuning=1279
+#
+# 怒羽护臂 (311)
+# wrist=,id=251135,bonus_id=12843/13440/6652/13696/13662/12699,content_tuning=1279
+#
+# 美猴王护腕 (321)
+# wrist=,id=271515,bonus_id=6652/13696/12846,redirected_base_stats=272246
+#
+# 美猴王的斗拳 (321)
+# hands=,id=271520,bonus_id=6652/13691/13697/12846,redirected_base_stats=272241
+#
+# 银月城特工的裹手 (331)
+# hands=,id=244575,bonus_id=12214/13667/12497/13751/14001/8793/13836,content_tuning=3615,crafted_stats=49/40,crafting_quality=5
+#
+# 征服者的寒冰之握 (311)
+# hands=,id=193758,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 无情屠戮护手 (311)
+# hands=,id=268234,bonus_id=6652/13662/13334/12843
+#
+# 干燥工的庇护手套 (311)
+# hands=,id=159312,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 根须行者腰带 (298)
+# waist=,id=251189,bonus_id=12835/6652/13696/13662/12699/11215,content_tuning=1279
+#
+# 雾猎者腰带 (295)
+# waist=,id=272245,bonus_id=12834/6652/13696/13662,content_tuning=6015
+#
+# 旋风苦修者腰带 (311)
+# waist=,id=159317,bonus_id=12843/13440/6652/13696/13662/12699,content_tuning=1279
+#
+# 失魂颅骨束带 (308)
+# waist=,id=268227,bonus_id=6652/13696/13662/13334/12842,content_tuning=7359
+#
+# 美猴王敏捷束带 (321)
+# waist=,id=271516,bonus_id=12846/13334/6652/13696/1574,redirected_base_stats=271436,crafted_stats=36/49
+#
+# 原始恐龙统领的腰带 (311)
+# waist=,id=159301,bonus_id=12843/13440/6652/13696/13662/12699,content_tuning=1279
+#
+# 雾猎者腿甲 (305)
+# legs=,id=272243,bonus_id=12841/6652/13662,content_tuning=6015
+#
+# 金羽长靴 (311)
+# feet=,id=159304,bonus_id=12843/13440/6652/13662/12699,content_tuning=1279
+#
+# 美猴王护胫 (321)
+# feet=,id=271521,enchant_id=7963,bonus_id=12846/6652/13440/1574,redirected_base_stats=251153
+#
+# 顶级蛮兵爪戒 (318)
+# finger1=,id=268252,bonus_id=6652/13668/13334/12849
+#
+# 游蛇之环 (295)
+# finger1=,id=272147,bonus_id=12834/6652/13668,content_tuning=6015
+#
+# 虫群召唤者指环 (298)
+# finger1=,id=281029,bonus_id=6652/13668/13333/12835/11215,content_tuning=7307
+#
+# 充能沙石指环 (311)
+# finger1=,id=158366,bonus_id=12843/13440/6652/13668/12699,content_tuning=1279
+#
+# 猎捕手的指环 (292)
+# finger1=,id=275526,bonus_id=12833/6652/13668,content_tuning=5236
+#
+# 喀耳刻的指环 (103)
+# finger1=,id=228411,enchant_id=7340,gem_id=228638/228644/228640,bonus_id=12028/1511
+#
+# 猎捕手的印玺 (279)
+# finger1=,id=275527,bonus_id=12825/6652/13668,content_tuning=5223
+#
+# 阿曼尼督军的指环 (311)
+# finger1=,id=273792,bonus_id=12843/13440/6652/13668/12699,content_tuning=1279
+#
+# 窃来的珍贵指环 (311)
+# finger1=,id=251148,bonus_id=12843/13440/6652/13668/12699,content_tuning=1279
+#
+# 猎捕手的指环 (321)
+# finger1=,id=275526,enchant_id=7967,bonus_id=6652/13668/12846
+#
+# 阿特洛苏斯的腐化玺戒 (311)
+# finger1=,id=252258,bonus_id=12843/13440/6652/13668/12699,content_tuning=1279
+#
+# 异变能量坩埚 (263)
+# trinket1=,id=264507,bonus_id=12790,content_tuning=4240
+#
+# 永冻精华 (311)
+# trinket1=,id=250244,bonus_id=12843/13440/6652/12699,content_tuning=1279
+#
+# 一瓶肮脏的烈性毒液 (311)
+# trinket1=,id=273796,bonus_id=12843/13440/6652/12699,content_tuning=1279
+#
+# 盘魂者仪式容器 (305)
+# trinket1=,id=270162,bonus_id=6652/13334/12841
+#
+# 金辉飞羽 (311)
+# trinket1=,id=159617,bonus_id=12843/13440/6652/12699,content_tuning=1279
+#
+# 大副的甲壳结界 (308)
+# trinket1=,id=270160,bonus_id=6652/13334/12842,content_tuning=7359
+#
+# 虚空处刑指令 (311)
+# trinket1=,id=250225,bonus_id=12843/13440/6652/12699,content_tuning=1279
+#
+# 共鸣咆哮石 (321)
+# trinket1=,id=250228,bonus_id=13440/41/12699/12846,content_tuning=1279
+#
+# 一瓶肮脏的烈性毒液 (321)
+# trinket1=,id=273796,bonus_id=13440/6652/12699/12846,content_tuning=1279
+#
+# 乌拉特克贪婪之心 (321)
+# trinket1=,id=270175,bonus_id=6652/13334/12846,content_tuning=7359
+#
+# 祖尔金的处斩技法 (341)
+# trinket1=,id=270173,bonus_id=6652/13334/12856
+#
+# 盖博的无底袋 (321)
+# trinket1=,id=270164,bonus_id=6652/13334/12846,content_tuning=7359
+#
+# 墓穴行者之爪 (305)
+# main_hand=,id=270930,bonus_id=41/13334/12841
+#
+# 福枬，云游者之友 (10)
+# main_hand=,id=128938,bonus_id=732,content_tuning=642
+#
+# 褪色的晨光法杖 (253)
+# main_hand=,id=258957,bonus_id=13900,drop_level=90,content_tuning=5381
+#
+# 涂毒战杖 (321)
+# main_hand=,id=273783,enchant_id=8689,bonus_id=13440/6652/12701/12846,content_tuning=1279
+#
+# 封魂者的墓碑 (295)
+# main_hand=,id=272269,bonus_id=12834/6652,content_tuning=6015
+#
+# 严酷收割手套 (311)
+# main_hand=,id=251143,bonus_id=12843/13440/6652/12701,content_tuning=1279
+#
+# 雄狮之爪 (321)
+# main_hand=,id=171582,enchant_id=8689,bonus_id=8902/7756/12701/12846,content_tuning=440
+#
+# 阿曼穆索，督军的复仇 (318)
+# main_hand=,id=268209,bonus_id=6652/13334/12849
+#
+# 神龙，迷雾之杖 (10)
+# main_hand=,id=128937,bonus_id=733,content_tuning=642
+#
+# 游蛇蛮兵之槌 (321)
+# main_hand=,id=268206,enchant_id=8689,bonus_id=6652/13334/12846
+#
+# 诸天之拳 (10)
+# main_hand=,id=128940,bonus_id=734,content_tuning=642
+
+### Additional Character Info
+#
+# catalyst_currencies=2813:8/3269:8/3116:8/3378:8/3465:1
+#
+# upgrade_currencies=c:3442:273/c:3445:695/c:3443:80/c:3444:44/c:3446:642/i:228338:1/i:230906:1/i:228339:2/i:280562:14/i:274476:2/i:232875:10/i:211296:3
+#
+# slot_high_watermarks=0:334:334/1:341:341/2:334:334/3:334:334/4:331:334/5:321:334/6:331:334/7:331:331/8:334:334/9:331:334/10:341:341/11:331:334/12:341:341/13:318:341/14:321:321/15:321:321/16:165:334
+#
+# upgrade_achievements=19577/19578/19579/40107/40115/40118/40939/40942/40943/40944/40945/41886/41887/41888/41892/42767/42768/42769/42770/61809/62410/62411/62412/62414/62416
+#
+# bonus_roll_currencies=3418:0/3511:0
+#
+# bonus_roll_items=3418:278284:5:4:268265:268/3418:278284:5:4:270175:268/3418:278284:5:4:271875:268/3418:278288:95:3:268252:270/3418:278290:95:4:268209:269/3418:278290:95:4:270173:269/3418:286019:5:3:281029:269/3418:286019:95:3:281215:269/3418:286019:95:3:281236:269
+
+
+# Saved Loadout: 团本
+# talents=C0QAAAAAAAAAAAAAAAAAAAAAAMzYMYMYbmZ2mxAAAAAAAAAAAALDjmxMgBjxYMzMzwsNMDziJAgFzsNGGzMDAgNAYWmlmZmZBYYgZGAGLzAMgB
+
+# Checksum: eb77cf14

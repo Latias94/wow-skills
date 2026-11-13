@@ -1,0 +1,38 @@
+[
+  {
+    "id": 244573,
+    "url": "https://nether.wowhead.com/tooltip/item/244573?dataEnv=1&locale=4&ilvl=331",
+    "retrieved_at": "2026-10-29T20:48:09.847725+08:00",
+    "raw": {
+      "name": "银月城特工的多功能腰带",
+      "quality": 4,
+      "icon": "inv_belt_leather_questbloodelf_b_01",
+      "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">银月城特工的多功能腰带</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->331</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腰部</td><th><!--scstart4:2--><span class=\"q1\">皮甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->108护甲</span><br><span><!--stat73-->+138 [敏捷 or 智力]</span><br><span><!--stat7-->+2,832 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg24-->74 随机属性1</span><br><span class=\"q2\">+<!--rtg25-->74 随机属性2</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">49</span> <span class=\"moneysilver\">3</span> <span class=\"moneycopper\">82</span></div></td></tr></table>",
+      "spells": []
+    }
+  },
+  {
+    "id": 244574,
+    "url": "https://nether.wowhead.com/tooltip/item/244574?dataEnv=1&locale=4&ilvl=331",
+    "retrieved_at": "2026-10-29T20:48:11.011819+08:00",
+    "raw": {
+      "name": "银月城特工的护腿",
+      "quality": 4,
+      "icon": "inv_pant_leather_questbloodelf_b_01",
+      "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">银月城特工的护腿</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->331</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腿部</td><th><!--scstart4:2--><span class=\"q1\">皮甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->168护甲</span><br><span><!--stat73-->+183 [敏捷 or 智力]</span><br><span><!--stat7-->+3,777 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg24-->99 随机属性1</span><br><span class=\"q2\">+<!--rtg25-->99 随机属性2</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 120 / 120</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">97</span> <span class=\"moneysilver\">86</span> <span class=\"moneycopper\">94</span></div></td></tr></table>",
+      "spells": []
+    }
+  },
+  {
+    "id": 251513,
+    "url": "https://nether.wowhead.com/tooltip/item/251513?dataEnv=1&locale=4&ilvl=331",
+    "retrieved_at": "2026-10-29T20:48:12.589218+08:00",
+    "raw": {
+      "name": "神灵崇拜者的指环",
+      "quality": 4,
+      "icon": "inv_12_profession_jewelcrafting_ring3_silver",
+      "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">神灵崇拜者的指环</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->331</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><br>装备唯一：美化（2）<!--ue--><table width=\"100%\"><tr><td>手指</td><th><!--scstart4:-2--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat7-->+2,124 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->228暴击</span><br><span class=\"q2\">+<!--rtg49-->171精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><br /><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><!--ps--><br /><br /></td></tr></table><table><tr><td><!--rr--><!--useText:0:2--><span id=\"useText2\" class=\"q2\">装备： <!--useEffect:0:2--><a href=\"/cn/spell=1251904\" class=\"q2\">你的伤害法术和技能有几率为指环充能，召唤一个洛阿神灵的化身协助你战斗。<br /><br />镶嵌宝石每有一种不同的颜色，都允许召唤不同的洛阿神灵。这些效果包括对敌人造成伤害或为你赋予暂时力量。</a><!--useEffect:2--></span><!--useText:2--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">62</span> <span class=\"moneysilver\">92</span></div></td></tr></table>",
+      "spells": []
+    }
+  }
+]

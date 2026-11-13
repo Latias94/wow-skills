@@ -1,0 +1,22 @@
+{
+  "name": "gear-talents-raid-bisset",
+  "started_at": "2026-10-26T13:27:55.784678+08:00",
+  "ended_at": "2026-10-26T13:28:00.948093+08:00",
+  "exit_code": 0,
+  "accepted": true,
+  "valid_fight_style": [
+    true
+  ],
+  "severe": [],
+  "severe_in_text": false,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

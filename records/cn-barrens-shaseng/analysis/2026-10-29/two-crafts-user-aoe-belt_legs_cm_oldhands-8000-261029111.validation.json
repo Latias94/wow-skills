@@ -1,0 +1,21 @@
+{
+  "name": "two-crafts-user-aoe-belt_legs_cm_oldhands-8000-261029111",
+  "started_at": "2026-10-29T20:57:16.956775+08:00",
+  "ended_at": "2026-10-29T20:57:22.986523+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 711268.6094178148,
+  "ci95": 482.65713661272554,
+  "samples": 7999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "talents-zuljin-aoe-user_short_cd_martial-baseline-3000-26102961",
+  "started_at": "2026-10-29T18:53:06.539489+08:00",
+  "ended_at": "2026-10-29T18:53:09.195303+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 743254.5606134274,
+  "ci95": 836.5689842770433,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

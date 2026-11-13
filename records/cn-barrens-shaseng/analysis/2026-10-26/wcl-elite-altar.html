@@ -1,0 +1,3969 @@
+<!doctype html><meta charset="utf-8"><pre>   
+        
+                
+                                        至暗之夜        时光服        潘达利亚之谜        周年服        Season of Discovery        Vanilla               输入角色名，公会名或服务器名        输入角色名，公会名或服务器名                         搜索        56 玩家正在直播  56    统计数据  最新资讯       下载 Archon 客户端  下载 Archon 客户端       Language       Deutsch    English    Español    Français    Italiano    Português (Brasil)    Русский    한국어    繁體中文    简体中文         团队副本    地下城    Raid 指南     Archon      公会     猫冬                 菜单      搜索            Language       Deutsch    English    Español    Français    Italiano    Português (Brasil)    Русский    한국어    繁體中文    简体中文             输入角色名，公会名或服务器名        输入角色名，公会名或服务器名                         搜索           
+                
+            
+             
+                     
+
+.inform-text { font-size:10px; max-width:225px; line-height:normal; }
+
+#character-portrait-box {
+    padding: 5px;
+    position: relative;
+    border-bottom: 1px solid #555555;
+    background-color: rgba(0, 21, 32);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    }
+#character-portrait-box.with-banner {
+    height: 130px;
+}
+#character-portrait-image { width: 80px; height:80px; display:block; border:1px solid #555555; }
+#character-portrait-image-box { float:left; margin-right:10px; position:relative; }
+
+#character-inset {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#character-level { position:absolute; bottom:1px; left:2px; font-weight: bold; font-family: 'Georgia'; font-size:20px; text-shadow: 5px 5px black; padding: 0 5px; background-color: rgba(0,21,32, 0.8);  }
+
+#character-name { font-size:32px; line-height:37px; font-weight:bold; }
+.character-name-link { display:block; color:white!important; }
+#guild-link, #server-link { color: white !important; }
+#guild-and-class { font-size:18px; line-height:25px }
+
+#character-ilvl { float:left; }
+
+#portrait-and-basics { display:flex; align-items:center }
+
+.slightly-transparent-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 7px 12px;
+    border-radius: 4px;
+}
+
+.header-zone-box { display:flex; white-space:nowrap; align-items:stretch; margin:5px; flex-direction: column; }
+
+.header-zone-icon-and-points { display:flex; margin-top:-1px; }
+
+.header-zone-icon { border:1px solid #555555; margin-right:-1px; position:relative; }
+.header-zone-img { width:48px; height:48px; display:block; }
+.header-zone-progress { text-align:center; font-size:13px; padding:2px; background-color:rgba(0,0,0,0.6); position:absolute;bottom:0; left:0; right:0; }
+
+.header-zone-progress-inset { margin:2px; position:absolute;left:0; right:0; top:0; bottom:0; opacity:0.75 }
+
+.header-zone-progress-inset.high { background: #1b9601; background: linear-gradient(to right, #0d4a00 0, #1b9601 100%); }
+.header-zone-progress-inset.medium { background: #c76700; background: linear-gradient(to right, #7b3f00 0, #c76700 100%) }
+.header-zone-progress-inset.low {  background: #99755c; background: linear-gradient(to right, #69503f 0, #99755c 100%) }
+
+.header-zone-progress-text { position:relative; }
+
+.header-zone-name { font-weight:bold; font-size:12px; text-align:center; background-color:#201020; border:1px solid #555555; padding:2px 10px; }
+.header-zone-ranks-container { display:flex; flex:1; align-items:stretch; border:1px solid #555555; background-color:black; padding-left: 5px; justify-content:center }
+.header-zone-ranks { display:flex; align-items:center }
+.header-zone-points { margin:0 5px 0 5px; text-align:center; min-width:60px }
+.header-zone-positions { align-self: stretch; display:flex; align-items:center; justify-content:center; padding-left:10px; padding-right:10px; min-width:50px; border-left:1px solid #555555; text-align:center }
+.header-rank { font-weight:bold; font-size:16px; }
+.header-zone-partition { background-color:black; padding:2px 11px; }
+
+#last-updated { font-size:11px; }
+#last-updated-caption { color: white }
+
+.time-distance { color: #a0a0a0; }
+
+#points-box > .centered-box { display: flex; }
+
+.character-header-actions {
+    display: grid;
+    grid-gap: 8px;
+}
+
+#update-box, #inform-box {
+    font-size: 16px;
+    line-height: 20px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+#inform-box {
+    line-height: 26px;
+}
+
+#update-text {
+    color: #a0a0a0;
+    text-align: right;
+}
+.with-banner #update-text {
+    text-align: center;
+}
+
+#character-inset { max-width:1800px; margin:auto; padding-left:10px; padding-right:10px; }
+
+.job-header-icon { border:1px solid #555555; width:16px; height:16px; float:left; margin-right:2px; margin-top:3px; --size:16; }
+.allstar-header-icon { border:1px solid #555555; width:36px; height:36px; float:left; margin-right:3px; margin-left:3px; --size:36; }
+
+#update-box > .centered-box { display:flex; justify-content: center }
+
+#character-header-customize-action-box {
+    font-size: 16px;
+    text-align: right;
+}
+.with-banner #character-header-customize-action-box {
+    text-align: center;
+}
+
+// #toggle-gear-alternate-container { display:none; flex-direction:column;justify-content:center }
+
+@media (max-width:1200px) {
+	#character-portrait-image {width:64px; height:64px }
+	#character-name { font-size:18px; line-height:21px; }
+	#guild-and-class { font-size:14px; line-height:18px }
+	.header-zone-img { width:48px; height:48px; }
+	.allstar-header-icon { width:24px; height:24px; --size:24 }
+	.header-zone-points.has-rank { display: none }
+	.header-zone-name { font-size:10px }
+	.header-zone-positions { border-left: none }
+	.header-zone-points, .header-zone-positions { font-size:11px; }
+	.header-rank { font-size: 14px }
+}
+
+@media (max-width:900px) {
+	#character-level { display:none }
+	
+	#character-portrait-image {width:53px; height:53px}
+	.header-zone-img { width:36px; height:36px; }
+	
+	#points-box { font-size:12px }
+	#links-box { visibility:hidden }
+	
+	.header-zone-positions { line-height:14px; font-size:10px }
+	.header-zone-rank, .header-zone-points { font-size:10px }
+}
+
+@media (max-width:750px) {
+    #character-portrait-box.with-banner { height: initial; }
+	#guild-and-class { font-size:12px }
+	#guild-and-server { display: none }
+	#jobs-header-icons { display:none }
+	#character-name { font-size:16px; line-height:20px }
+	#character-portrait-image {width:42px; height:42px}
+	.header-zone-icon, .header-zone-progress { display:none }
+	#update-text, #character-header-customize-action-box { font-size:12px; line-height:16px; }
+	.header-zone-box { display: none }
+//	#toggle-gear-alternate-container { display:flex }
+	#last-updated { display:none }
+}
+
+@media (max-width:400px) {
+	#character-portrait-image-box { display: none }
+}
+
+ 
+
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+ 
+90 
+
+ 
+
+   Bisset  
+
+ 
+ 
+ Confluence  - 
+ Kazzak (欧服) 
+ 
+
+ 
+ 
+暗夜精灵
+武僧
+ 
+
+
+ 
+
+ 
+ 
+ 
+
+
+ 
+	 Toggle Armory 
+ 
+-->
+
+ 
+	 烈毒之渊
+	史诗级
+	 
+	 
+		 
+			 
+			
+			  
+				   
+				  5  / 8 
+			  
+	 
+		 
+
+		 
+			 
+				 
+			 
+			 
+
+				 
+					
+	全明星分
+  
+        653
+      
+				 
+                     名次
+                         
+                         
+                                                            451
+                                                     
+                     
+                 
+			 
+		 
+
+	 
+
+ 
+
+			
+ 
+	 Mythic+ Season 2
+	 
+	 
+		 
+			 
+			
+	 
+		 
+
+		 
+			 
+				 
+			 
+			 
+
+				 
+					
+		第2赛季
+  
+        4,227
+      
+				 
+                     名次
+                         
+                         
+                                                             
+                                     
+                                        1
+                                     
+                                     
+                                         地下城分数会立即更新，而地下城排名每天更新一次。 
+                                     
+                                 
+                                                     
+                     
+                 
+			 
+		 
+
+	 
+
+ 
+
+			
+ 
+	 VS / DR / MQD
+	史诗级
+	 
+	 
+		 
+			 
+			
+			  
+				   
+				  4  / 9 
+			  
+	 
+		 
+
+		 
+			 
+				 
+			 
+			 
+
+				 
+					
+	全明星分
+  
+        275
+      
+				 
+                     名次
+                         
+                         
+                                                            5472
+                                                     
+                     
+                 
+			 
+		 
+
+	 
+
+ 
+
+			
+ 
+	 Mythic+ Season 1
+	 
+	 
+		 
+			 
+			
+	 
+		 
+
+		 
+			 
+				 
+			 
+			 
+
+				 
+					
+		第1赛季
+  
+        4,147
+      
+				 
+                     名次
+                         
+                         
+                                                            11
+                                                     
+                     
+                 
+			 
+		 
+
+	 
+
+ 
+
+			
+
+
+ 
+         
+         
+             
+
+                                     
+                          
+                        更新
+                     
+                     
+                          
+                        更新中...
+                     
+                     
+                                             
+ 
+上次更新:
+ 
+ 
+        7 小时前
+     
+ 
+                    
+             
+
+         
+     
+ 
+
+ 
+
+ 
+
+
+
+                
+                 
+                    
+     
+
+         
+              
+         
+
+         
+
+             
+
+
+                                 
+
+                     
+
+                                                     
+                             
+                                                                     
+                                          +  至暗之夜  
+
+                                         
+                                                                                                                                                  至暗之夜 
+                                                     
+                                                                                                                                                                                                  地心之战 
+                                                     
+                                                                                                                                                                                                  巨龙时代 
+                                                     
+                                                                                                                                                                                                  暗影国度 
+                                                     
+                                                                                                                                                                                                  争霸艾泽拉斯 
+                                                     
+                                                                                                                                                                                                  军团再临 
+                                                     
+                                                                                                                                                                                                  德拉诺之王 
+                                                     
+                                                                                                                                                                                                  潘达利亚之谜 
+                                                     
+                                                                                                                                     
+                                                                     
+                                   +  Mythic+ Season 2  
+                                     
+                                                                                                                                                                                                                                                  
+                                                                                                                                     
+                                                                                                                                 烈毒之渊  
+                                                         
+                                                                                                                                                                                                                  
+                                                                                                                                     
+                                                                                                                                 孢陨幽境  
+                                                         
+                                                                                                                                                                                                                  
+                                                                                                                                     
+                                                                                                                                 VS / DR / MQD  
+                                                         
+                                                                                                    
+                                            
+                                                                                                                                                                                                                                                  
+                                                                                                                                     
+                                                                                                                                 Mythic+ Season 2  
+                                                         
+                                                                                                                                                                                                                  
+                                                                                                                                     
+                                                                                                                                 Mythic+ Season 1  
+                                                         
+                                                                                                                                                
+                                        
+                                     
+                                 
+
+
+                             
+
+                                                                     
+                             
+
+                                 
+                                     
+                                         
+
+
+                                             
+      +  分数与伤害（按层级）  
+     
+        
+                                 
+                 
+                     分数与伤害（按层级） 
+                                     
+             
+                                 
+                 
+                     分数与治疗（按层级） 
+                                     
+             
+                                      
+                         
+                 
+                     积分 
+                                     
+             
+                                 
+                 
+                     击杀速度 
+                                     
+             
+                                 
+                 
+                     伤害量 
+                                     
+             
+                                 
+                 
+                     治疗量 
+                                     
+             
+                                      
+                         
+                 
+                     对首领怪物伤害量 
+                                     
+             
+             
+ 
+
+                                                                                                                                                   +  毒牙祭坛  
+                                                         
+                                                               所有地下城  
+                                                             
+                                                              
+                                                                     塞塔里斯神庙           夺目谷           密谋小径           毒牙祭坛           红玉新生法地           纳洛拉克的洞穴           虚空之痕竞技场           诸王之眠        
+
+
+                                                                                                                            
+                                                         
+                                                                                                                                                                                                    +    
+                                                         
+                                                               所有地下城  
+                                                             
+                                                              
+                                                                     执政团之座           枢纽节点塞纳斯           艾杰斯亚学院           萨隆之渊           迈萨拉洞窟           通天峰           风行者之塔           魔导师平台        
+
+
+                                                                                                                            
+                                                         
+                                                                                            
+
+                                                +  所有专精  
+                                                 
+                                                                                                              所有专精 
+                                                           
+                                                                                                                酒仙       织雾       风行                                                    
+                                             
+
+                                            
+                                            
+                                            
+                                             
+
+                                                 
+			 
+ 
+-->
+
+                                                                                                                                                             
+                                                         
+                                                     
+                                                
+                                                 
+                                                     
+                                                 
+
+                                             
+
+                                         
+
+                                         
+                                                  
+                                              
+
+    Created with Highstock 1.3.7           Zoom                                             Historical %                                                                                                         99th Percentile        95th Percentile        75th Percentile        50th Percentile        25th Percentile        10th Percentile        Bisset's Parses         24. Aug    31. Aug    7. Sep    14. Sep    21. Sep    28. Sep    5. Oct    12. Oct    19. Oct    26. Oct      0    25    50    75    100    125                 Friday, Oct 9, 2026   50th Percentile :  50.0      
+
+ 
+	
+ 
+
+  
+
+
+Median Perf.  
+ 86.9
+ 
+ 
+    Avg %:  
+74.6
+    Kills Logged:  15
+
+    Best DPS:  547,003.3
+    Fastest Kill:  22:07
+
+
+    All Star Points:  
+	
+
+ 120.00  ( 1 )
+
+	
+  
+
+
+    
+ 
+
+ 
+
+
+
+ 
+
+        Hist. %      Parses
+
+      DPS
+      钥石
+              Duration      Date      Killed With
+      Today's %
+      Parses
+                  Talents      Trinkets       
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+100 
+ 
+
+
+   
+1 
+   
+547,003.3 
+
+    23     
+    1770801$ 29:30
+ 
+ 
+
+      1792872876708$ 2026年10月25日 
+
+	 
+None
+ 
+  100 
+   1 
+
+  
+     
+         
+             
+.talents-basic-icon-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 0 0 5px;
+}
+
+.talents-basic-icon-list .row {
+    margin-bottom: 0.5rem;
+    display: none;
+}
+
+.talents-basic-icon-list.talents-basic-icon-list__all .row {
+    display: flex;
+}
+
+.talents-basic-icon-list .row.row-high {
+    display: flex;
+}
+@media (min-width:1920px) {
+    .talents-basic-icon-list .row {
+        display:flex;
+    }
+}
+
+div .talent:not(:first-of-type):not(.choice) {
+    margin-left: 0.25rem;
+}
+
+.talent.choice + .talent:not(.choice) {
+    margin-left: 0;
+}
+
+.talents-basic-icon-list  .talent.active .talent-icon { border-width: 1px; }
+
+.talents-basic-icon-list .talent {
+    width: var(--talent-icon-size);
+    height: var(--talent-icon-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    background-size: contain;
+    position: relative;
+}
+
+.talent > img {
+    width: calc(100% - 0.20rem);
+    height: calc(100% - 0.20rem);
+    border: none;
+}
+
+.talents-basic-icon-list .talent.active {
+    background-image: url("data:image/svg+xml,%3Csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 40V6L6 1H40L45 6V40L40 45H6L1 40Z' fill='black' stroke='url(%23paint0_linear_88_115513)' stroke-width='2'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_88_115513' x1='22' y1='0' x2='22' y2='46' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFF900'/%3E%3Cstop offset='1' stop-color='%23FFC900'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+.talents-basic-icon-list .talent.active img {
+    mask-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 38 38' preserveAspectRatio='none' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 3L3 0H35L38 3V35L35 38H3L0 35V3Z' fill='%23000000'/%3E%3C/svg%3E");
+    mask-size: 100% 100%;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 38 38' preserveAspectRatio='none' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 3L3 0H35L38 3V35L35 38H3L0 35V3Z' fill='%23000000'/%3E%3C/svg%3E");
+    -webkit-mask-size: 100% 100%
+}
+
+.talents-basic-icon-list .talent.passive {
+    background-image: url("data:image/svg+xml,%3Csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='23' cy='23' r='22' fill='black' stroke='url(%23paint0_linear_92_115617)' stroke-width='2'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_92_115617' x1='22' y1='0' x2='22' y2='46' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFFA00'/%3E%3Cstop offset='1' stop-color='%23FFC800'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+.talents-basic-icon-list .talent.passive:not(.choice) img {
+    border-radius: 50%;
+}
+
+.talents-basic-icon-list .talent.choice {
+    background-image: url("data:image/svg+xml,%3Csvg width='66' height='46' viewBox='0 0 66 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 35V10L20 1H45L55 10L55 35L45 45H20L11 35Z' fill='black' stroke='url(%23paint0_linear_90_115557)' stroke-width='2'/%3E%3Cpath d='M14 15V14L13 14L3 22L2 23L2 24L13 32L14 33V31V15Z' fill='%23FFE901' stroke='black' stroke-width='1.5'/%3E%3Cpath d='M52 31V32L53 32L63 24L64 23L63 22L53 14L52 13V15V31Z' fill='%23FFE901' stroke='black' stroke-width='1.5'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_90_115557' x1='33' y1='0' x2='33' y2='46' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFFF00'/%3E%3Cstop offset='1' stop-color='%23FFC300'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    width: calc(66/46 * var(--talent-icon-size)); 
+    height: var(--talent-icon-size);
+}
+
+.talents-basic-icon-list .talent.choice:first-child {
+    margin-left: -0.5rem;
+}
+
+.talents-basic-icon-list .talent.choice img {
+    width: 1rem;
+    height: calc(100% - 0.25rem);
+    mask-image: url("data:image/svg+xml,%3Csvg width='38' height='38' viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath d='M0 7L7 0H31L38 7V31L31 38H7L0 31V7Z' fill='%23000000'/%3E%3C/svg%3E");
+    mask-size: 100% 100%;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg width='38' height='38' viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath d='M0 7L7 0H31L38 7V31L31 38H7L0 31V7Z' fill='%23000000'/%3E%3C/svg%3E");
+    -webkit-mask-size: 100% 100%
+}
+
+.row:not(:last-of-type) {
+    margin-right: 1rem;
+}
+
+.talents-basic-icon-list .multiple-points {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #E2BE00 0%, #B80058 100%);
+    width: calc(var(--talent-icon-size) / 2);
+    height: calc(var(--talent-icon-size) / 2);
+    line-height: calc(var(--talent-icon-size) / 2);
+    text-align: center;
+    font-size: 0.70rem;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #242424;
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 45%);
+    left: 62.5%;
+    top: 62.5%;
+}
+
+ 
+
+ 
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+45 
+ 
+
+
+   
+5 
+   
+512,735.9 
+
+    22     
+    1707275$ 28:27
+ 
+ 
+
+      1792334926342$ 2026年10月18日 
+
+	 
+None
+ 
+  29 
+   15 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+86 
+ 
+
+
+   
+24 
+   
+540,442.1 
+
+    21     
+    1703150$ 28:23
+ 
+ 
+
+      1791833693371$ 2026年10月13日 
+
+	 
+None
+ 
+  88 
+   72 
+
+  
+
+   
+
+
+  
+  
+86 
+ 
+
+
+   
+21 
+   
+546,817.0 
+
+    21     
+    1781699$ 29:41
+ 
+ 
+
+      1791665945411$ 2026年10月11日 
+
+	 
+None
+ 
+  93 
+   72 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+49 
+ 
+
+
+   
+15 
+   
+504,364.0 
+
+    21     
+    1734566$ 28:54
+ 
+ 
+
+      1791542398924$ 2026年10月9日 
+
+	 
+None
+ 
+  62 
+   72 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+40 
+ 
+
+
+   
+11 
+   
+513,212.1 
+
+    21     
+    1817857$ 30:17
+ 
+ 
+
+      1791226121888$ 2026年10月6日 
+
+	 
+None
+ 
+  67 
+   72 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+90 
+ 
+
+
+   
+53 
+   
+505,262.6 
+
+    20     
+    1713304$ 28:33
+ 
+ 
+
+      1790519505951$ 2026年9月27日 
+
+	 
+None
+ 
+  91 
+   283 
+
+  
+
+   
+
+
+  
+  
+70 
+ 
+
+
+   
+5 
+   
+454,652.9 
+
+    20     
+    1774076$ 29:34
+ 
+ 
+
+      1789229147800$ 2026年9月13日 
+
+	 
+None
+ 
+  47 
+   283 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+95 
+ 
+
+
+   
+24 
+   
+458,229.6 
+
+    19     
+    1674109$ 27:54
+ 
+ 
+
+      1789147058182$ 2026年9月12日 
+
+	 
+None
+ 
+  88 
+   632 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+94 
+ 
+
+
+   
+14 
+   
+438,351.4 
+
+    18     
+    1627924$ 27:07
+ 
+ 
+
+      1788448694756$ 2026年9月3日 
+
+	 
+None
+ 
+  93 
+   1,268 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+99 
+ 
+
+
+   
+19 
+   
+383,778.7 
+
+    17     
+    1573407$ 26:13
+ 
+ 
+
+      1788089661731$ 2026年8月30日 
+
+	 
+None
+ 
+  81 
+   1,757 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+100 
+ 
+
+
+   
+6 
+   
+390,491.0 
+
+    18     
+    1757194$ 29:17
+ 
+ 
+
+      1788012021196$ 2026年8月29日 
+
+	 
+None
+ 
+  59 
+   1,268 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+16 
+ 
+
+
+   
+10 
+   
+268,344.2 
+
+    16     
+    1767458$ 29:27
+ 
+ 
+
+      1787592682557$ 2026年8月25日 
+
+	 
+None
+ 
+  8 
+   2,309 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+49 
+ 
+
+
+   
+208 
+   
+220,623.2 
+
+    13     
+    2090620$ 34:50
+ 
+ 
+
+      1787508051986$ 2026年8月24日 
+
+	 
+None
+ 
+  31 
+   2,918 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+  
+95 
+ 
+
+
+   
+676 
+   
+229,395.2 
+
+    10     
+    1327717$ 22:07
+ 
+ 
+
+      1787163869929$ 2026年8月20日 
+
+	 
+None
+ 
+  65 
+   12,916 
+
+  
+     
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+     
+         
+         | 
+         
+             
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                     
+                                             
+                     
+                                     
+                     
+             
+                                             
+                     
+                                             1 
+                                     
+                                             
+                     
+                                             2 
+                                     
+                                             
+                     
+                                             1 
+                                     
+                     
+     
+         
+     
+    
+  
+              
+
+   
+    
+
+ 
+
+
+
+
+ 
+    .exploit-popup {
+        background-color: black;
+        font-size: 12px;
+        padding: 4px;
+        line-height: 1.0;
+    }
+ 
+
+
+    
+
+ 
+                                         
+                                     
+                                     
+                                         
+                                                 
+
+                                          Expansion All Stars 
+
+
+ 
+
+
+
+ 
+	
+	 
+	 
+				 
+				 积分  
+                        4,226.85
+                     
+			 
+			 
+			
+		 
+			 
+
+		
+	 
+	 S2 
+		 
+		
+			
+	 
+	 
+        Rank
+         
+         
+                                 
+                         
+                            1
+                         
+                         
+                             地下城分数会立即更新，而地下城排名每天更新一次。 
+                         
+                     
+                         
+     
+
+ 
+
+			
+
+ 
+	
+	 
+	 
+				 
+				 积分  
+                        4,147.12
+                     
+			 
+			 
+			
+		 
+			 
+
+		
+	 
+	 S1 
+		 
+		
+			
+	 
+	 
+        Rank
+         
+         
+            11         
+     
+
+ 
+
+			
+			
+ 
+ 
+                                     
+                                 
+                             
+
+                         
+
+
+                     
+
+
+                 
+
+                                                                                     
+	#gear-and-talents-boxes { display:flex; flex-direction: column; margin:0 15px 0 15px;  }
+	.gear-img-cell img, .talent-icon, .major-essence-icon { width:32px; height:32px; border:1px solid #555555; }
+	.gear-img-cell img {  margin-left:1px }
+	
+	.essence-icon { width:22px; height:22px; border:1px solid #555555; }
+	#gear-box { font-size:13px; border:1px solid #555555; min-height:100px; margin-bottom:15px; }
+	.gear-ilvl-cell { font-size:11px }
+	.gear-name-cell { font-weight:bold }
+	.gear-row { display:flex; padding:3px; border-bottom:1px solid #555555; border-right:1px solid #555555; margin-right:-1px; break-inside:avoid; white-space:nowrap; overflow:hidden; }
+	#gear-box-caption { display:flex; align-items:center; justify-content:space-between }
+	#gear-box-ilvl-text, #gear-box-hlvl-text { font-weight:normal; font-size:11px; font-style: italic; }
+	
+	#gear-box-contents { column-width:300px; column-gap:0; margin-bottom:-1px }
+	#gear-box.no-items #gear-box-contents { column-width: auto; }
+
+    #gear-box-gear-text {
+        display: flex;
+        align-items: center;
+    }
+
+	.azerite-icon { margin:5px; border:1px solid #555555; width:28px; height:28px; }
+	.major-essence-icon { border:1px solid #a0a0a0; }
+	
+	.progression-zone-icon { display:block; width:48px; height:48px; border:1px solid #555555; margin:auto; }
+	#progression-zone-strip { display:flex; min-width: 0; overflow:hidden; }
+	.progression-zone { margin:1px 5px 0 5px; position:relative; display:flex; flex-direction:column; align-content:center; border:1px solid transparent; padding:5px; cursor:pointer }
+	
+	 .progression-zone.selected { border:1px solid #555555; border-bottom:1px solid #201020; position:relative; background-color:#201020 }
+	 
+	#powers-box { display:flex; align-items:stretch; }
+
+    #gear-box-ad {
+        margin: 0 auto;
+    }
+
+	#talents-box { margin-right:15px; margin-bottom:15px; border:1px solid #555555; }
+	#essences-box { margin-right:15px; border:1px solid #555555; }
+	
+	#azerite-powers-box { border:1px solid #555555; }
+	
+	#progression-box { flex:1; display:flex; flex-direction:column; margin-left:15px; border:1px solid #555555; }
+	#progression-box-contents { display:flex; align-content:center; flex:1; justify-content:center }
+	#progression-boss-strip { border:1px solid #555555; background-color:#201020; flex:1; align-self:stretch; margin: -1px 1px 0 1px; }
+
+	#talents-and-essences-box { display:flex; flex-direction:column; align-items:stretch; }
+
+	#talent-box-contents {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .talent-category div {
+        flex-wrap: wrap;
+    }
+
+    .icon-and-label {
+        display: flex;
+        padding-bottom: 0.25rem;
+    }
+
+    .icon-and-label img {
+        margin-right: 0.25rem;
+    }
+
+    .talent-category:not(:first-of-type) {
+        margin-top: 0.5rem;
+    }
+
+    div .talent:not(:first-of-type):not(.choice) {
+        margin-left: 0.25rem;
+    }
+
+    .talent.choice + .talent:not(.choice) {
+        margin-left: 0;
+    }
+
+    #talent-box-contents .talent.active .talent-icon { border-width: 1px; }
+
+    .talent {
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-size: contain;
+        position: relative;
+    }
+
+    .talent > img {
+        width: calc(100% - 0.25rem);
+        height: calc(100% - 0.25rem);
+        border: none;
+    }
+
+    .talent.active {
+        background-image: url("data:image/svg+xml,%3Csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 40V6L6 1H40L45 6V40L40 45H6L1 40Z' fill='black' stroke='url(%23paint0_linear_88_115513)' stroke-width='2'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_88_115513' x1='22' y1='0' x2='22' y2='46' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFF900'/%3E%3Cstop offset='1' stop-color='%23FFC900'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+    }
+
+    .talent.active img {
+        mask-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 38 38' preserveAspectRatio='none' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 3L3 0H35L38 3V35L35 38H3L0 35V3Z' fill='%23000000'/%3E%3C/svg%3E");
+        mask-size: 100% 100%;
+        -webkit-mask-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 38 38' preserveAspectRatio='none' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 3L3 0H35L38 3V35L35 38H3L0 35V3Z' fill='%23000000'/%3E%3C/svg%3E");
+        -webkit-mask-size: 100% 100%
+    }
+
+    .talent.passive {
+        background-image: url("data:image/svg+xml,%3Csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='23' cy='23' r='22' fill='black' stroke='url(%23paint0_linear_92_115617)' stroke-width='2'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_92_115617' x1='22' y1='0' x2='22' y2='46' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFFA00'/%3E%3Cstop offset='1' stop-color='%23FFC800'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+    }
+
+    .talent.passive:not(.choice) img {
+        border-radius: 50%;
+    }
+
+    .talent.choice {
+        background-image: url("data:image/svg+xml,%3Csvg width='66' height='46' viewBox='0 0 66 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 35V10L20 1H45L55 10L55 35L45 45H20L11 35Z' fill='black' stroke='url(%23paint0_linear_90_115557)' stroke-width='2'/%3E%3Cpath d='M14 15V14L13 14L3 22L2 23L2 24L13 32L14 33V31V15Z' fill='%23FFE901' stroke='black' stroke-width='1.5'/%3E%3Cpath d='M52 31V32L53 32L63 24L64 23L63 22L53 14L52 13V15V31Z' fill='%23FFE901' stroke='black' stroke-width='1.5'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_90_115557' x1='33' y1='0' x2='33' y2='46' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFFF00'/%3E%3Cstop offset='1' stop-color='%23FFC300'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        width: 46px;
+    }
+
+    .talent.choice:first-child {
+        margin-left: -0.5rem;
+    }
+
+    .talent.choice img {
+        width: 1.75rem;
+        height: 1.75rem;
+        mask-image: url("data:image/svg+xml,%3Csvg width='38' height='38' viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath d='M0 7L7 0H31L38 7V31L31 38H7L0 31V7Z' fill='%23000000'/%3E%3C/svg%3E");
+        mask-size: 100% 100%;
+        -webkit-mask-image: url("data:image/svg+xml,%3Csvg width='38' height='38' viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath d='M0 7L7 0H31L38 7V31L31 38H7L0 31V7Z' fill='%23000000'/%3E%3C/svg%3E");
+        -webkit-mask-size: 100% 100%
+    }
+
+    .talents {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row {
+        display: flex;
+        margin-bottom: 0.5rem;
+    }
+
+    .row:not(:last-of-type) {
+        margin-right: 1rem;
+    }
+
+    .multiple-points {
+        position: absolute;
+        border-radius: 50%;
+        background: linear-gradient(90deg, #E2BE00 0%, #B80058 100%);
+        width: 1rem;
+        height: 1rem;
+        text-align: center;
+        font-size: 0.75rem;
+        color: white;
+        font-weight: bold;
+        border: 1px solid #242424;
+        box-shadow: 0px 1px 4px rgb(0 0 0 / 45%);
+        left: 62.5%;
+        top: 62.5%;
+    }
+
+ 
+
+	.error-inset { padding:10px 20px; }
+	
+	#azerite-powers-box-contents { padding:3px;flex:1}
+	#azerite-powers-box { display:flex; flex-direction:column; }
+	
+	#azerite-powers-box-caption { text-align:center }
+	.talent-icon, .essence-icon, .azerite-icon, .major-essence-icon { display:block; }
+	
+	#azerite-powers-box-contents > div { display:flex; padding:1rem; flex-direction:column }
+	#progression-box-contents > div { flex-direction:column; align-self:stretch; flex:1; }
+	
+	.azerite-powers-row { display:flex; align-items:center; justify-content:center }
+	
+	#gear-box-contents { flex: 1}
+	#gear-box-contents-and-ad { display:flex; align-items; flex-direction:column;}
+	
+	.progression-boss-item { display:flex; flex-direction:column; align-content:center; margin:3px 7px 2px 7px; }
+	.progression-boss-icon { border:1px solid #555555; width:32px; height:32px; }
+	.progression-boss-kill-count { font-size:10px; text-align:center; }
+	.progression-boss-strip-contents { display:flex; justify-content:center; flex:1; margin-top:2px; flex-wrap:wrap }
+	
+ 	@media (max-width:800px) {
+	 	.progression-boss-icon { width:24px; height:24px; }
+	 	.progression-zone-icon { width:32px; height:32px; }
+ 	}
+ 	
+ 	@media (max-width:600px) {
+	 	.progression-zone:nth-child(4), .progression-zone:nth-child(5) { display:none }
+	 	.progression-boss-icon { width:18px; height:18px; }
+	 	#azerite-break { flex-basis:100%; width:0; }
+	 	#azerite-powers-box { margin-top:15px; }
+	 	#essences-box { margin-right: 0 }
+	 	#talents-box { margin-right:0 }
+	 	#talents-and-essences-box { flex: 1 }
+	 }
+ 	
+	
+	@media (max-width:350px) {
+		.progression-boss-icon { width:12px; height:12px; }
+		.progression-zone-icon { width:18px; height:18px; }
+		.progression-zone { margin-left:0; margin-right:0 }
+	}
+	
+	.compact #essences-box {  margin-bottom:15px !important; }
+	.compact #azerite-powers-box { flex:1; }
+	.compact #talents-and-essences-box { flex:1; }
+	.compact #talents-box { margin-right: 0; margin-bottom:0 }
+	.compact #essences-box { margin-right: 0}
+	
+	.compact #progression-box { margin-left:0; margin-top:15px }
+	.compact #progression-break { flex-basis:100%; width:0; }
+	
+	
+	@media (max-width:1330px) {
+		#powers-box { flex-wrap: wrap; }
+		#azerite-powers-box { flex:1 }
+		#progression-box { margin-left:0; margin-top:15px }
+		#progression-break { flex-basis:100%; width:0; }
+	}
+	
+	@media (max-width:900px) {
+		 .gear-img-cell img { width:24px; height:24px; }
+		 .gear-row { font-size:11px; line-height:12px; }
+		 .gear-ilvl-cell { font-size:9px; line-height:10px }
+		 .talent-icon, .azerite-icon { width:18px; height:18px; }
+         #gear-box-ad { display: none; }
+	}
+		
+ 
+
+
+		
+	 
+
+	 
+		 
+			
+			 
+                装备
+                                     
+    .simc-export-wrap {
+        padding-left: 1em;
+        font-size: 10px;
+        font-style: italic;
+        font-weight: normal;
+    }
+
+    .simc-export-wrap.summary {
+        display: inline;
+        font-size: 12px;
+    }
+
+    .simc-export-code {
+        color: rgb(70, 197, 255) !important;
+        padding: 0 0.2em;
+    }
+
+    .simc-export-code:hover {
+        color: inherit;
+    }
+
+    .simc-export-code.copied {
+        color: #38e238 !important;
+    }
+ 
+
+ 
+     
+          
+        导出到 SimC
+     
+ 
+                             
+			
+
+			 
+                物品等级:334.81
+             
+
+			
+		 
+		
+		 
+                             
+                      
+
+                 
+            		 
+
+
+
+     
+ 
+ 
+
+ 
+美猴王的不屈面容
+ 
+
+
+ 
+ 
+
+
+334
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+亚基克星藏骨匣
+ 
+
+
+ 
+ 
+
+   
+   
+
+341
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+美猴王流苏护肩
+ 
+
+
+ 
+ 
+
+
+321
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+信徒的流丝罩袍
+ 
+
+
+ 
+ 
+
+
+331
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+美猴王战衣
+ 
+
+
+ 
+ 
+
+
+334
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+银月城特工的偏斜腕甲
+ 
+
+
+ 
+ 
+
+   
+
+331
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+美猴王的斗拳
+ 
+
+
+ 
+ 
+
+
+334
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+美猴王敏捷束带
+ 
+
+
+ 
+ 
+
+
+334
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+银月城特工的护腿
+ 
+
+
+ 
+ 
+
+
+331
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+美猴王护胫
+ 
+
+
+ 
+ 
+
+
+334
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+邪恶炼金师指环
+ 
+
+
+ 
+ 
+
+   
+
+334
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+顶级蛮兵爪戒
+ 
+
+
+ 
+ 
+
+   
+
+334
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+祖尔金的处斩技法
+ 
+
+
+ 
+ 
+
+
+341
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+乌拉特克贪婪之心
+ 
+
+
+ 
+ 
+
+
+341
+ 
+ 
+ 
+     
+ 
+ 
+
+ 
+深渊巢魔的长柄大斧
+ 
+
+
+ 
+ 
+
+
+341
+ 
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+ 
+ 
+	
+ 
+ 
+    天赋
+             
+    .talent-box-import-export {
+        float: right;
+    }
+
+    .talent-box-import-export a {
+        color: #DEDEDE;
+        padding: 0 0.2em;
+    }
+
+    .talent-box-import-export a:hover {
+        color: inherit;
+    }
+
+    .talent-box-code-export.copied {
+        color: #38e238;
+    }
+ 
+
+ 
+     
+          
+        复制
+     
+     
+          
+        编辑
+     
+ 
+     
+ 
+                     
+             
+                   英雄天赋 - 天神御师 
+             
+
+             
+                                 
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                     
+                             
+         
+                             
+             
+                   武僧 天赋 
+             
+
+             
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                  2                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                  2                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                  2                      
+                                         
+                                                                      
+                                         
+                                                  2                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                             
+         
+                             
+             
+                   风行 天赋 
+             
+
+             
+                                 
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                  2                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                                      
+                                         
+                                                                      
+                                         
+                                                                      
+                                     
+                                 
+                                         
+                                                  1                      
+                                         
+                                                  2                      
+                                         
+                                                  1                      
+                                     
+                             
+         
+             
+
+ 
+ 
+    
+ 
+ 团本进度 
+	
+ 
+
+ 
+	
+
+ 
+
+
+	 
+		 
+		  
+			   
+			  0  / 0 普通 
+		 
+	 
+	 
+		 
+		  
+			   
+			  0  / 0 普通 
+		 
+	 
+	 
+		 
+		  
+			   
+			  2  / 9 英雄级 
+		 
+	 
+ 
+
+ 
+	
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+			 
+			 
+			 - 
+		 
+			 
+			 
+			 - 
+		 
+			 
+			 
+			 - 
+		 
+			 
+			 
+			 - 
+		 
+			 
+			 
+			 - 
+		 
+			 
+			 
+			 - 
+		 
+			 
+			 
+			 - 
+		 
+			 
+			 
+			 1 
+		 
+			 
+			 
+			 1 
+		 
+	 
+
+
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+                                    
+
+             
+
+            
+                 
+                     
+                              
+
+                     
+                 
+            
+                             
+                                         
+                                                     
+                                                                                                             
+
+				风行
+	 
+                                                                                                     
+
+                                                                                     
+                                                 
+                                             
+                                        
+                                         
+                                             
+                                         
+
+                                                                                     
+                                                 
+                                             
+                                        
+                                        
+                                     
+
+                                                             
+                        
+                        
+                     
+                    
+                 
+         
+
+     
+
+    
+
+             
+
+
+             
+                要详细了解网站排名的工作原理，您可以阅读 排名指南 。 具有 暗金背景 的等级
+ 被认为是“有风险的”，因为它使用的技巧可能会在将来的某个时候进行修补。 如果发布了游戏内修补程序，则排名将被删除。 删除的行列有
+  深红色背景 。
+             
+
+                             
+                    如果您是该角色的所有者，则可以请求隐藏涉及您角色的解析。更多信息请 点击此处查看 。
+                 
+            
+                     
+
+    
+                 
+                                                                                   Close Ad                   
+
+                                            
+                
+                      
+
+                     
+
+                        
+                                                                            
+                                        Warcraft   Logs          联系我们  -  隐私条款  -  视频服务条款  -  职位招聘               最近的文章     Are Midnight's Raid Incentives Working?   6天前        资源    论坛    订阅    信息和帮助    品牌      我们的主页    Archon    WoW Retail    WoW Classic    WoW SoD    WoW Classic Fresh    WoW Vanilla    Final Fantasy XIV    Elder Scrolls Online    SWTOR      最近一次 Raid    统计数据    排名    进度    所有战斗记录      我们的工具    下载应用     WoWAnalyzer     Wipefest        © 2013-2026 Warcraft Logs    
+                        
+                     
+             
+
+            
+            
+                                        公众号二维码     小程序二维码        
+                
+            
+            
+
+    
+
+                   玉珑的优雅   天赋  需要 武僧               踏风  激战时真气的流动令你变得坚毅，在战斗中每3秒获得一层魔法吸收护盾，吸收相当于最大生命值0.6%的伤害，最多叠加至6%。      酒仙,    织雾  激战时真气的流动令你变得坚毅，在战斗中每3秒获得一层魔法吸收护盾，吸收相当于最大生命值1.0%的伤害，最多叠加至10%。                                                </pre>

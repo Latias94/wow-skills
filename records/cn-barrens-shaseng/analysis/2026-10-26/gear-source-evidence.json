@@ -1,0 +1,166 @@
+{
+  "source_commit": "73a372b76188c703e48729caded3258cdc5b726b",
+  "recorded_at": "2026-10-26T13:00:16.695016+08:00",
+  "source_fragments": {
+    "redirected_stats_only": {
+      "file": "engine/item/item.cpp",
+      "line": 35,
+      "url": "https://github.com/simulationcraft/simc/blob/73a372b76188c703e48729caded3258cdc5b726b/engine/item/item.cpp#L35",
+      "text": "void parsed_item_data_t::init( const dbc_item_data_t& raw, const dbc_t& dbc, const dbc_item_data_t* redirect_item )\n{\n  *static_cast<dbc_item_data_t*>( this ) = raw;\n  for ( size_t i = 0; i < stat_type_e.size(); i++ )\n  {\n    stat_type_e[ i ] = i < _dbc_stats_count ? _dbc_stats[ i ].type_e : -1;\n    stat_alloc[ i ] = i < _dbc_stats_count ? _dbc_stats[ i ].alloc : 0;\n  }\n\n  for ( const item_effect_t& effect : dbc.item_effects( id ) )\n  {\n    assert( effect.index <= static_cast<int>( effects.size() ) );\n    effects[ effect.index ] = effect;\n  }\n\n  if ( redirect_item )\n  {\n    for ( size_t i = 0; i < stat_type_e.size(); i++ )\n    {\n      stat_type_e[ i ] = i < redirect_item->_dbc_stats_count ? redirect_item->_dbc_stats[ i ].type_e : -1;\n      stat_alloc[ i ] = i < redirect_item->_dbc_stats_count ? redirect_item->_dbc_stats[ i ].alloc : 0;\n    }\n  }\n}\n"
+    },
+    "local_data_loading": {
+      "file": "engine/dbc/sc_item_data.cpp",
+      "line": 1070,
+      "url": "https://github.com/simulationcraft/simc/blob/73a372b76188c703e48729caded3258cdc5b726b/engine/dbc/sc_item_data.cpp#L1070",
+      "text": "{\n  // Simple copying of basic stats from item database (dbc) to the item object\n  const auto& data = item.player->dbc->item( item.parsed.data.id );\n  if ( data.id == 0 ) return false;\n\n  const dbc_item_data_t* redirect_item = nullptr;\n  if ( item.parsed.redirect_item_id != 0 )\n  {\n    redirect_item = &item.player->dbc->item( item.parsed.redirect_item_id );\n    if ( redirect_item->id == 0 )\n      redirect_item = nullptr;\n  }\n\n  item.parsed.data.init( data, *item.player->dbc, redirect_item );\n  item.name_str = data.name;\n  item.parsed.data.name = item.name_str.c_str();"
+    },
+    "recklessness_selection": {
+      "file": "engine/player/unique_gear_midnight.cpp",
+      "line": 181,
+      "url": "https://github.com/simulationcraft/simc/blob/73a372b76188c703e48729caded3258cdc5b726b/engine/player/unique_gear_midnight.cpp#L181",
+      "text": "\n// Potion of Recklessness\n// 1236994 - driver & buff\nvoid potion_of_recklessness( special_effect_t& effect )\n{\n  // The potion grants a positive buff to your highest secondary stat and\n  // a negative buff to your lowest secondary stat.\n  struct recklessness_t : public generic_proc_t\n  {\n    std::unordered_map<stat_e, buff_t*> pos_map, neg_map;\n\n    recklessness_t( const special_effect_t& e ) : generic_proc_t( e, e.driver()->name_cstr(), e.driver() )\n    {\n      quiet = true;\n\n      // create and populate bonus/penalty maps. penalties will get '_penalty' suffix and ' Penalty' for reporting\n      create_all_stat_buffs( e, &data(), 0.0,\n        []( std::string n, const spelleffect_data_t& e ) {\n          return e.m_coefficient() < 0.0 ? fmt::format( \"{}_penalty\", n ) : n;\n        },\n        [ this ]( stat_e s, buff_t* b ) {\n          if ( static_cast<stat_buff_t*>( b )->stats.front().amount < 0.0 )\n            neg_map[ s ] = b->set_name_reporting( b->name_str_reporting + \" Penalty\" );\n          else\n            pos_map[ s ] = b;\n        } );\n    }\n\n    void execute() override\n    {\n      generic_proc_t::execute();\n\n      pos_map[ util::highest_stat( player, secondary_ratings ) ]->trigger();\n      neg_map[ util::lowest_stat( player, secondary_ratings ) ]->trigger();\n    }\n  };\n\n  effect.disable_buff();\n  effect.execute_action = create_proc_action<recklessness_t>( \"potion_of_recklessness\", effect );\n}"
+    },
+    "venomcursed": {
+      "file": "engine/player/unique_gear_midnight.cpp",
+      "line": 5600,
+      "url": "https://github.com/simulationcraft/simc/blob/73a372b76188c703e48729caded3258cdc5b726b/engine/player/unique_gear_midnight.cpp#L5600",
+      "text": "\n// 1307906 crit driver\n// 1307910 crit buff\n// 1307923 mast driver\n// 1307922 mast buff\n// 1307928 haste driver\n// 1307927 haste buff\nvoid venomcursed( special_effect_t& effect )\n{\n  effect.custom_buff = create_buff<stat_buff_t>( effect.player, effect.trigger() )\n    ->add_stat_from_effect( 1, effect.driver()->effectN( 1 ).average( effect ) )\n    ->add_stat_from_effect( 2, effect.driver()->effectN( 2 ).average( effect ) );\n\n  new dbc_proc_callback_t( effect.player, effect );\n}\n\n// 1317582 Ascendace (random stat) driver\n// 1317581 Ascendace (random stat) buff\nvoid venomcursed_ascendance( special_effect_t& effect )\n{\n  struct venomcursed_ascendance_cb_t : public dbc_proc_callback_t\n  {\n    stat_buff_t* buff;\n    double pos_value;\n    double neg_value;\n\n    venomcursed_ascendance_cb_t( const special_effect_t& e )\n      : dbc_proc_callback_t( e.player, e ),\n        pos_value( e.driver()->effectN( 1 ).average( e ) ),\n        neg_value( e.driver()->effectN( 2 ).average( e ) )\n    {\n      // Because the buff pandemics, we can't use create_all_stat_buffs and must instead utilize a single buff with\n      // hacked execute using update_player_buff_stat and directly stat amount manipulation.\n      buff = create_buff<stat_buff_t>( e.player, e.trigger() )\n        ->add_stat_from_effect( 1, pos_value )\n        ->add_stat_from_effect( 2, neg_value )\n        ->add_stat_from_effect( 3, neg_value )\n        ->add_stat_from_effect( 4, neg_value );\n    }\n\n    void ascendance_stat_change( stat_e stat, bool update )\n    {\n      for ( auto& s : buff->stats )\n      {\n        if ( update )\n          buff->update_player_buff_stat( s, 0 );\n\n        s.amount = s.stat == stat ? pos_value : neg_value;\n\n        if ( update )\n          buff->update_player_buff_stat( s, 1 );\n      }\n    }\n\n    void execute( const spell_data_t*, player_t*, action_state_t* ) override\n    {\n      auto rng_stat = rng().range( buff->stats );\n\n      if ( listener->sim->debug )\n      {\n        listener->sim->print_debug( \"{} {} with stat: {}\", *buff, buff->check() ? \"refreshes\" : \"procs\",\n                                    util::stat_type_abbrev( rng_stat.stat ) );\n      }\n\n      // update stat amounts if the randomly chosen stat is not already positive\n      if ( rng_stat.amount != pos_value )\n        ascendance_stat_change( rng_stat.stat, buff->check() );\n\n      buff->trigger();\n    }\n  };\n\n  new venomcursed_ascendance_cb_t( effect );\n}"
+    },
+    "void_eruption": {
+      "file": "engine/player/unique_gear_midnight.cpp",
+      "line": 5680,
+      "url": "https://github.com/simulationcraft/simc/blob/73a372b76188c703e48729caded3258cdc5b726b/engine/player/unique_gear_midnight.cpp#L5680",
+      "text": "// 1310209 damage\nvoid void_eruption( special_effect_t& effect )\n{\n  effect.player->sim->error( UNVERIFIED_IMPLEMENTATION,\n    \"{}: Damage is assumed to not be split amongst targets hit.\", effect.item->full_name() );\n\n  // assumed to not split so use generic_proc_t and just set aoe = -1;\n  auto damage = create_proc_action<generic_proc_t>( \"void_eruption\", effect, 1310209 );\n  damage->aoe = -1;\n  damage->base_dd_min = damage->base_dd_max = effect.driver()->effectN( 1 ).average( effect );\n  damage->base_multiplier *= role_mult( effect );\n\n  // Bug: The \"If you are Venomcursed\" damage bonus is currently not applied in game, neither with a venomcursed item\n  // equipped nor while a venomcursed buff is active. Damage matches the tooltip value in both cases.\n  if ( !effect.player->bugs )\n  {\n    // TODO: It's undetermined what the criteria are for the 15% damage bonus to apply.\n    // It's assumed to apply permanently if a venomcursed item is equipped.\n    // TODO: generalize this into unique_gear.cpp if other item bonus tags need similar checks\n    for ( const auto& item : effect.player->items )\n    {\n      for ( auto bonus_id : item.parsed.bonus_id )\n      {\n        for ( const auto& bonus_entry : effect.player->dbc->item_bonus( bonus_id ) )\n        {\n          if ( bonus_entry.type == ITEM_BONUS_DESC && bonus_entry.value_1 == 14447 )\n          {\n            effect.player->sim->print_debug( \"{} venomcursed item '{} ({})' found.\", *effect.player, item.name(),\n                                             item.parsed.data.id );\n            damage->base_multiplier *= 1.0 + effect.driver()->effectN( 2 ).percent();\n            goto create_callback;\n          }\n        }\n      }\n    }\n  }\n\ncreate_callback:\n  effect.execute_action = damage;\n\n  new dbc_proc_callback_t( effect.player, effect );\n}\n\n// band of the swarmcaller"
+    },
+    "arcanoweave_two_copies": {
+      "file": "engine/player/unique_gear_midnight.cpp",
+      "line": 674,
+      "url": "https://github.com/simulationcraft/simc/blob/73a372b76188c703e48729caded3258cdc5b726b/engine/player/unique_gear_midnight.cpp#L674",
+      "text": "{\n// 1283697 Driver\n// 1229511 rppm\n// 1229746 buff\nvoid arcanoweave_lining( special_effect_t& effect )\n{\n  // EffectN 2 percent goes to the player\n  // EffectN 3 percent goes to the ally\n  auto buff_amount = effect.driver()->effectN( 1 ).average( effect ) * effect.driver()->effectN( 2 ).percent();\n\n  auto buff = create_buff<stat_buff_t>( effect.player, effect.player->find_spell( 1229746 ) )\n                  ->add_stat_from_effect_type( A_MOD_STAT, buff_amount );\n\n  // skip setup if callback has been created by already having another copy of the embellishment\n  if ( find_special_effect( effect.player, effect.trigger()->id() ) )\n    return;\n\n  struct arcanoweave_lining_cb_t : public dbc_proc_callback_t\n  {\n    stat_buff_t* buff;\n    double ally_conversion_multiplier;\n\n    arcanoweave_lining_cb_t( const special_effect_t& e, stat_buff_t* personal_buff )\n      : dbc_proc_callback_t( e.player, e ),\n        buff( personal_buff ),\n        ally_conversion_multiplier( e.driver()->effectN( 3 ).percent() / e.driver()->effectN( 2 ).percent() )\n    {}\n\n    buff_t* create_debuff( player_t* t ) override\n    {\n      // don't cache in ctor so we can grab double value for double embellishment\n      auto ally_stat_amount = buff->stats.front().amount * ally_conversion_multiplier;\n\n      return make_buff<stat_buff_t>( actor_pair_t( t, listener ), \"arcanoweave_insight_ally\", &buff->data() )\n        ->set_stat_from_effect_type( A_MOD_STAT, ally_stat_amount )\n        ->set_name_reporting( \"Ally\" );\n    }\n\n    void execute( const spell_data_t*, player_t*, action_state_t* ) override\n    {\n      buff->trigger();\n\n      if ( effect.player->sim->player_non_sleeping_list.size() > 1 && !effect.player->sim->single_actor_batch )\n      {\n        auto allies = effect.player->sim->player_non_sleeping_list.data();  // make a copy\n        range::erase_remove( allies, [ p = effect.player ]( player_t* t ) { return t->is_pet() || t == p; } );\n\n        if ( !allies.empty() )\n          get_debuff( rng().range( allies ) )->trigger();\n      }\n    }\n  };\n\n  effect.spell_id = effect.trigger()->id();\n\n  new arcanoweave_lining_cb_t( effect, buff );"
+    },
+    "missive_and_embellishment_bonuses": {
+      "file": "engine/dbc/generated/item_bonus.inc",
+      "matches": [
+        {
+          "line": 10753,
+          "text": "  { 15865, 7571, 31,   13846,       0,       0,       0,  3 },"
+        },
+        {
+          "line": 10758,
+          "text": "  { 15870, 7572, 31,   13847,       0,       0,       0,  3 },"
+        },
+        {
+          "line": 12775,
+          "text": "  { 19031, 8790, 25,      32,     100,       0,       0,  0 },"
+        },
+        {
+          "line": 12776,
+          "text": "  { 19032, 8790, 25,      36,     100,       0,       0,  1 },"
+        },
+        {
+          "line": 12777,
+          "text": "  { 19033, 8791, 25,      32,     100,       0,       0,  0 },"
+        },
+        {
+          "line": 12778,
+          "text": "  { 19034, 8791, 25,      49,     100,       0,       0,  1 },"
+        },
+        {
+          "line": 12781,
+          "text": "  { 19037, 8793, 25,      49,     100,       0,       0,  0 },"
+        },
+        {
+          "line": 12782,
+          "text": "  { 19038, 8793, 25,      36,     100,       0,       0,  1 },"
+        },
+        {
+          "line": 18059,
+          "text": "  { 26417, 12384, 23,  208649,       0,       0,       0,  0 },"
+        },
+        {
+          "line": 20213,
+          "text": "  { 31427, 13846,  4,   14447,       2,       0,       1,  0 },"
+        },
+        {
+          "line": 20214,
+          "text": "  { 31428, 13846, 23,  236288,       0,       0,       0,  1 },"
+        },
+        {
+          "line": 20215,
+          "text": "  { 31429, 13847,  4,   14447,       2,       0,       1,  0 },"
+        },
+        {
+          "line": 20216,
+          "text": "  { 31430, 13847, 23,  236289,       0,       0,       0,  1 },"
+        },
+        {
+          "line": 20287,
+          "text": "  { 31724, 13987,  4,   14447,       2,       0,       1,  0 },"
+        },
+        {
+          "line": 20288,
+          "text": "  { 31725, 13987, 23,  237622,       0,       0,       0,  1 },"
+        },
+        {
+          "line": 20293,
+          "text": "  { 31851, 14049, 23,  238161,       0,       0,       0,  0 },"
+        }
+      ]
+    },
+    "tier_effects": {
+      "file": "engine/dbc/generated/item_effect.inc",
+      "matches": [
+        {
+          "line": 912,
+          "text": "  { 208649, 1283697,      0,   0,   1,    0,      -1,      -1 }, // Arcanoweave Lining"
+        },
+        {
+          "line": 1056,
+          "text": "  { 236288, 1307923,      0,   0,   1,    0,      -1,      -1 }, // Venomcursed Mastery"
+        },
+        {
+          "line": 1057,
+          "text": "  { 236289, 1307928,      0,   0,   1,    0,      -1,      -1 }, // Venomcursed Haste"
+        },
+        {
+          "line": 1066,
+          "text": "  { 237622, 1317582,      0,   0,   1,    0,      -1,      -1 }, // Venomcursed Ascendance"
+        },
+        {
+          "line": 1067,
+          "text": "  { 238161, 1310208,      0,   0,   1,    0,      -1,      -1 }, // Void Eruption"
+        }
+      ]
+    },
+    "windwalker_tier": {
+      "file": "engine/dbc/generated/item_set_bonus.inc",
+      "matches": [
+        {
+          "line": 1193,
+          "text": "  { \"Guile of the Monkey King\"                  , \"midnight_season_2\"           ,       \"MID2\",     27,  2061,   2,  10,  269,        -1, 1296621, { 271522, 271520, 271519, 271518, 271517,  0 } },"
+        },
+        {
+          "line": 1196,
+          "text": "  { \"Guile of the Monkey King\"                  , \"midnight_season_2\"           ,       \"MID2\",     27,  2061,   4,  10,  269,        -1, 1296624, { 271522, 271520, 271519, 271518, 271517,  0 } },"
+        }
+      ]
+    },
+    "gem_stats": {
+      "file": "engine/dbc/generated/spell_item_enchantment.inc",
+      "matches": [
+        {
+          "line": 5262,
+          "text": "  { 8121, 240892, -7,   0,  80, 80, 0,   0,   0, {   5,   5,   0 }, {    0,    0,    0 }, {     36,     49,      0 }, {  0.4757f,  0.2081f,  0.0000f },       0, \"+$k1 Haste & +$k2 Mastery\"         },"
+        },
+        {
+          "line": 5294,
+          "text": "  { 8153, 240908, -7,   0,  80, 80, 0,   0,   0, {   5,   5,   0 }, {    0,    0,    0 }, {     32,     49,      0 }, {  0.4757f,  0.2081f,  0.0000f },       0, \"+$k1 Critical Strike & +$k2 Mastery\" },"
+        },
+        {
+          "line": 5308,
+          "text": "  { 8552, 240983, -1,   0,  80, 80, 0,   0,   0, {   5,   0,   0 }, {    0,    0,    0 }, {     71,      0,      0 }, {  0.9515f,  0.0000f,  0.0000f },       0, \"+$k1 Primary Stat\"                 },"
+        }
+      ]
+    }
+  }
+}

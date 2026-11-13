@@ -1,0 +1,21 @@
+{
+  "name": "craft-placement-aoe-armor334_owned-6000-26102991",
+  "started_at": "2026-10-29T20:38:56.577589+08:00",
+  "ended_at": "2026-10-29T20:39:01.622456+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 715901.9457483058,
+  "ci95": 554.4153388579383,
+  "samples": 5999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

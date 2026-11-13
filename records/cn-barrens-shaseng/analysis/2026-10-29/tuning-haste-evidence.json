@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-29T17:59:42.601175+08:00",
+  "source_commit": "710c2408bfd3ae4df71b8cd55cdf01f63fd6c926",
+  "source_files": [
+    "engine/class_modules/monk/sc_monk.cpp:5307",
+    "engine/dbc/generated/trait_data.inc",
+    "SpellDataDump/monk.txt"
+  ],
+  "talent_entry": 135958,
+  "talent_spell": 1262672,
+  "talent_zh": "流转之智",
+  "jade_effect": {
+    "spell": 443421,
+    "effect_index": 8,
+    "haste_percent": 10
+  },
+  "debug_input": ".local/tuning-flowing-wisdom.simc",
+  "debug_lines": [
+    "0.000 Player '沙僧' adding hero talent Flowing Wisdom (node=109700 entry=135958 rank=1/1)",
+    "0.000 Player '沙僧' adding hero talent Flowing Wisdom (node=109700 entry=135958 rank=1/1)",
+    "0.000 player-effects: Player '沙僧' all haste modified by 10.0% per stack of buff heart_of_the_jade_serpent (443421#8)",
+    "0.000 player-effects: Player '沙僧' all haste modified by 10.0% per stack of buff heart_of_the_jade_serpent_yulons_avatar (1238904#8)",
+    "0.000 player-effects: Player '沙僧' all haste modified by 10.0% per stack of buff heart_of_the_jade_serpent_unity_within (443616#8)"
+  ],
+  "baseline_with_consumables_haste": 0.21,
+  "jade_effective_haste_without_other_procs": 0.33099999999999996,
+  "scope": "Multiplicative effective haste calculation only. Does not prove two-Fists timing, guaranteed crits, player latency or the guide 33% branch. Proc stats and other haste buffs vary."
+}

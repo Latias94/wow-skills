@@ -1,0 +1,21 @@
+{
+  "name": "st-flask_haste-3000-26102911",
+  "started_at": "2026-10-29T15:11:13.706266+08:00",
+  "ended_at": "2026-10-29T15:11:18.404175+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 176773.1798130995,
+  "ci95": 173.4514362044141,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

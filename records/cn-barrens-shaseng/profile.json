@@ -9,7 +9,7 @@
   "combat_spec": "windwalker",
   "target_spec": "windwalker",
   "hero_talents": "celestial_conduit",
-  "hero_talents_evidence": "User declared Celestial Conduit; talent import has not been decoded.",
+  "hero_talents_evidence": "2026-10-24 fight combatantinfo, current WCL character page and 2026-10-26 cast/buff events confirm Celestial Conduit. Current user export preserved separately.",
   "primary_content": "mythic_plus",
   "goal": "Optimize an attainable Celestial-Conduit Mythic+ end-state first, then derive crafting/enchant/bonus-roll routes. Existing crafted slots are replaceable.",
   "constraints": {
@@ -20,16 +20,30 @@
     "comparison_crafted_ilvl": 331,
     "ascended_mythic_ilvl": 341,
     "ascended_crafted_ilvl": 337,
-    "ascension_scope": "Weapon, trinket and neck only; Oct 23 user screenshot level override pending native SimC DBC support."
+    "ascension_scope": "Weapons,trinkets and necklaces only;native Live70783 resolves the currently exported ascended neck/weapon/trinkets to341. No shoulder/leg/ring ascension.",
+    "confirmation": "User explicitly reconfirmed H raid bonus rolls plus Mythic+/Vault scope and exclusion of inaccessible M7/M8 9/6 on2026-11-10."
   },
-  "latest_simc": "snapshots/2026-10-23.simc",
+  "latest_simc": "snapshots/2026-11-10-2203.simc",
+  "latest_full_simc": "snapshots/2026-11-10-2203.simc",
+  "latest_snapshot_scope": "Latest complete addon export,Nov10 22:03 CN:equipped gear,talents,Omnium,bags,currencies and opaque bonus-roll history. Equipped state is identical to21:35;new318 H5 ring is in bags and bonus-roll currency3418 is0.",
+  "latest_performance_review": "analysis/2026-10-26/review.html",
+  "latest_performance_evidence": "analysis/2026-10-26/review.md",
   "target_loadouts": {
     "raid": "analysis/2026-10-23/recommended-raid.simc",
-    "dungeon": "analysis/2026-10-23/recommended-dungeon.simc",
-    "evidence": "analysis/2026-10-23/dashboard.html",
-    "status": "best_tested_candidate_family_not_global_optimum"
+    "dungeon": "analysis/2026-11-10/recommended-dungeon.simc",
+    "evidence": "analysis/2026-11-10/report.html",
+    "status": "November10 bounded attainable Mythic+ targets,not acquisitions or global BiS. Primary retains crafted331 ring and334 tier hands;H7 legs/waist/cloak,lining moved to feet,three real extra sockets and240900 gems. Alternate changes both ring and gem allocation. Raid and talent-candidate exports remain dated October history.",
+    "dungeon_alternative": "analysis/2026-11-10/alternate-raid-ring.simc",
+    "talent_candidate_zuljin": "analysis/2026-10-29/recommended-talent-zuljin-dungeon.simc",
+    "talent_candidate_tendril": "analysis/2026-10-29/recommended-talent-tendril-dungeon.simc",
+    "talent_candidate_status": "Hypothetical334 shoulder/legs/waist with only Spiritual Focus + Martial Agility swaps, natively exported and re-import verified. Not current player talents or acquired gear."
   },
-  "latest_items": "snapshots/2026-10-23.items.json",
-  "roll_history_coverage": "unknown",
-  "notes": "October 23 full raw export is preserved. User confirms the equipped Mythic H7/H8/H10 items were acquired with bonus rolls; exact acquisition dates and intervening full history are unknown. Current balance is zero; 10 Ascendant Venomstones and 6 Tidal Sparks are exported. Five 321 armor pieces are Hero 6/6, not directly upgradeable to Mythic. Prior Vault claim remains unconfirmed. Target profiles are pre-ascension candidates; separate current/target upgrade simulations compare the 10-stone choice."
+  "latest_items": "snapshots/2026-11-10-2203.items.json",
+  "roll_history_coverage": "Partial intervening history;latest full export retains opaque tuples includingH5 ring,without proving current reward-preview/cycle scope.",
+  "notes": "October23 full raw export and historical resources are preserved; those balances are not current. User confirms previous Mythic H7/H8/H10 items came from bonus rolls; acquisition dates and intervening full history remain unknown. October26 equipped-only snapshot has341 neck/weapon/Heart,334 Zuljin and four321 armor slots. Current WCL shows341 while October22 DBC parses original ascension bonus as340; compatibility simulations use explicit341 without inventing bonus IDs. October24 selected log still had334 neck. October23 target_loadouts remain dated candidates, not new acquisitions. Latest_items remains an explicitly older October23 intake; new item and stat evidence is under the October26 review. October29 replaces current equipped state: Catalyst head271519 preserves271875 stats/effect13847; hands244575 crafted331 HM; both trinkets341; tier head/shoulders/chest/legs; remaining321Hero6/6 slots shoulders/waist/legs. User confirms Catalyst preserves precursor stats/effects. Native70575 personal study uses historical matching precursor continuity. Current coin balance unknown. Plans are conditional: H10 tendril281215, H7 legs/belt, Labyrinth shoulder272244 after outcomes; not acquisitions. Previous latest_performance_review remains October26. November10 full22:03 import supersedes equipped/budget state:five tier pieces(head/shoulder/chest/hands334,legs321),crafted331 cape/wrist/belt/boots/second ring,341 neck/weapon/Heart/Tendril,334 Swarmcaller. New H5 Apex Brute ring268252 is318 Myth1/6,socketed but empty/unenchanted,in bags;balance3418=0. Native70783 independent-seed three-model study recommends334 haste/mastery legs first,then whole-loadout H7 waist/cloak and sockets;owned crafted ring remains practical. Prioritize next available roll onH7 only after checking actual preview;no exact odds or income assumed.",
+  "latest_items_scope": "Exact raw modifier/name/currency intake;native70783 identity and unbuffed stats are in the November10 analysis. Crafted missive bonuses can override crafted_stats placeholders;do not rename stats from those numbers alone.",
+  "latest_gear_review": "analysis/2026-11-10/report.html",
+  "latest_gear_evidence": "analysis/2026-11-10/review.md",
+  "latest_gear_tuning": "analysis/2026-11-10/review.md",
+  "latest_acquisition_update": "weeks/2026-11-05.json#2026-11-10-h5-apex-brute-ring-user-confirmed"
 }

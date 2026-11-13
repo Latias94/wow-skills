@@ -1,0 +1,1151 @@
+{
+  "schema_version": 1,
+  "title": "2026-10-29 Conduit of the Celestials Mythic+ talent export research",
+  "status": "partial_complete_exports_unavailable_for_players",
+  "query_date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "scope": {
+    "hero_tree": "Conduit of the Celestials",
+    "content": "Mythic+",
+    "input_evidence": "elite-evidence.json",
+    "simulations_run": 0,
+    "commits_made": 0,
+    "talent_strings_synthesized": 0,
+    "write_ownership": [
+      "elite-talents-research.md",
+      "elite-talents-evidence.json"
+    ],
+    "decode_and_simulation_owner": "Main task; no trait decoding or SimulationCraft runs in this side task."
+  },
+  "builds": [
+    {
+      "id": "method_j_funk_conduit_mplus",
+      "source_type": "guide_author",
+      "author": "J-Funk",
+      "source_url": "https://www.method.gg/guides/windwalker-monk/talents",
+      "source_heading": "Conduit Mythic+",
+      "page_patch": "12.1.5",
+      "page_updated_on": "2026-10-14",
+      "query_date": "2026-10-29",
+      "hero_tree": "Conduit of the Celestials",
+      "content": "Mythic+",
+      "talent_export": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmx2MAAAAAAAAAAAALDz0MmhhBMMMzMzwsxMDzyDMBAswsNmxMzMDAgFzsMbjJIAgZMAmBYsMQMzMbG",
+      "raw_excerpt": "### Conduit Mythic+\n[Button: Class Tree] [Button: Hero Tree] [Button: Spec Tree]\nC0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmx2MAAAAAAAAAAAALDz0MmhhBMMMzMzwsxMDzyDMBAswsNmxMzMDAgFzsMbjJIAgZMAmBYsMQMzMbG",
+      "node_comparison_status": "not_decoded",
+      "limitations": "Guide-author candidate, not a current player export or per-run log loadout. Import compatibility and node changes are left to the main task.",
+      "export_length": 111,
+      "export_sha256": "f2ac6d1ce91f789b8b5d99043d3f027d2012f8621d844f74c37c3708fae11ec1",
+      "purpose": "Independent guide-author Conduit Mythic+ candidate for the main task to decode and simulate.",
+      "verification": {
+        "full_string_read_from_source": true,
+        "mythic_plus_heading_verified": true,
+        "hero_tree_verified_from_page_label": true,
+        "syntax_character_check": true,
+        "decoded": false,
+        "client_import_tested": false,
+        "simc_tested": false
+      },
+      "retrieval_method": "Search Service parsed page text; copied verbatim from the explicitly labeled Mythic+ section.",
+      "read_time_precision": "Query date only; the web tool did not expose an exact retrieval timestamp."
+    },
+    {
+      "id": "icy_veins_babylonius_conduit_mplus",
+      "source_type": "guide_author",
+      "author": "Babylonius",
+      "source_url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-spec-builds-talents",
+      "source_heading": "Windwalker Mythic+ - Conduit of the Celestials",
+      "page_patch": "12.1.5",
+      "page_updated_on": "2026-10-12",
+      "query_date": "2026-10-29",
+      "hero_tree": "Conduit of the Celestials",
+      "content": "Mythic+",
+      "talent_export": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mBAAAAAAAAAAAYZYEmhhBMjhZmZGmNMDzyMBAswsxMmZmZAAsYmlZZMBAAmZGAzAMWGDYmZ2M",
+      "raw_excerpt": "Windwalker Mythic+ - Conduit of the Celestials\nC0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mBAAAAAAAAAAAYZYEmhhBMjhZmZGmNMDzyMBAswsxMmZmZAAsYmlZZMBAAmZGAzAMWGDYmZ2M\nCopy",
+      "node_comparison_status": "not_decoded",
+      "limitations": "Guide-author candidate, not a current player export or per-run log loadout. Import compatibility and node changes are left to the main task.",
+      "export_length": 109,
+      "export_sha256": "db1bf95ce044b2d05b974e9564e05ba5591a168c602bfe494d5f3d65ff3dd362",
+      "purpose": "Independent guide-author Conduit Mythic+ candidate for the main task to decode and simulate.",
+      "verification": {
+        "full_string_read_from_source": true,
+        "mythic_plus_heading_verified": true,
+        "hero_tree_verified_from_page_label": true,
+        "syntax_character_check": true,
+        "decoded": false,
+        "client_import_tested": false,
+        "simc_tested": false
+      },
+      "retrieval_method": "Search Service parsed page text; copied verbatim from the explicitly labeled Mythic+ section.",
+      "read_time_precision": "Query date only; the web tool did not expose an exact retrieval timestamp."
+    }
+  ],
+  "current_player_samples": [
+    {
+      "name": "Эльпочита",
+      "realm": "Howling Fjord",
+      "source_url": "https://murlok.io/character/eu/howling-fjord/%D1%8D%D0%BB%D1%8C%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0/pve",
+      "retrieved_at": "2026-10-29T18:21:02.9265568+08:00",
+      "http_status": 200,
+      "html_bytes": 164821,
+      "html_sha256": "b10caa40cf07d5c2570a98a7bb6cbed25125ed835fada1e112062b0205f178cd",
+      "hero_tree": "Conduit of the Celestials",
+      "content": "Mythic+",
+      "page_patch": "12.1",
+      "page_updated_relative": "Updated 1 hour ago",
+      "murlok_score": 4235,
+      "talent_export": null,
+      "extraction_status": "complete_export_unavailable",
+      "export_strings_in_html": [],
+      "raw_copy_button_html": "<button class=\"vi-media-object\">\n                  <svg    viewBox=\"0 0 24 24\">\n    \t<path fill=\"currentColor\" d=\"M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z\" />\n\t</svg>\n                  Copy Эльпочита&#39;s talents\n                </button>",
+      "limitations": "Current character snapshot, not proof of the loadout used in a specific completed key. Complete export was not exposed in HTML and was not synthesized.",
+      "parsed_node_count": 127,
+      "node_row_scope": "Only nodes that differ across these five HTML snapshots; not a complete selected-node list.",
+      "node_rows": [
+        {
+          "slug": "jade-walk",
+          "name_en": "Jade Walk",
+          "displayed_points": 0
+        },
+        {
+          "slug": "pressure-points",
+          "name_en": "Pressure Points",
+          "displayed_points": 1
+        },
+        {
+          "slug": "ancient-arts",
+          "name_en": "Ancient Arts",
+          "displayed_points": 2
+        },
+        {
+          "slug": "quick-footed",
+          "name_en": "Quick Footed",
+          "displayed_points": 0
+        },
+        {
+          "slug": "tiger-tail-sweep",
+          "name_en": "Tiger Tail Sweep",
+          "displayed_points": 0
+        },
+        {
+          "slug": "profound-rebuttal",
+          "name_en": "Profound Rebuttal",
+          "displayed_points": 1
+        },
+        {
+          "slug": "diffuse-magic",
+          "name_en": "Diffuse Magic",
+          "displayed_points": 0
+        },
+        {
+          "slug": "windwalking",
+          "name_en": "Windwalking",
+          "displayed_points": 0
+        },
+        {
+          "slug": "chi-transfer",
+          "name_en": "Chi Transfer",
+          "displayed_points": 1
+        },
+        {
+          "slug": "rising-star",
+          "name_en": "Rising Star",
+          "displayed_points": 0
+        },
+        {
+          "slug": "jade-ignition",
+          "name_en": "Jade Ignition",
+          "displayed_points": 1
+        },
+        {
+          "slug": "spiritual-focus",
+          "name_en": "Spiritual Focus",
+          "displayed_points": 1
+        },
+        {
+          "slug": "energy-burst",
+          "name_en": "Energy Burst",
+          "displayed_points": 0
+        },
+        {
+          "slug": "inner-peace",
+          "name_en": "Inner Peace",
+          "displayed_points": 1
+        },
+        {
+          "slug": "memory-of-the-monastery",
+          "name_en": "Memory of the Monastery",
+          "displayed_points": 0
+        },
+        {
+          "slug": "jadefire-stomp",
+          "name_en": "Jadefire Stomp",
+          "displayed_points": 0
+        },
+        {
+          "slug": "skyfire-heel",
+          "name_en": "Skyfire Heel",
+          "displayed_points": 1
+        },
+        {
+          "slug": "path-of-jade",
+          "name_en": "Path of Jade",
+          "displayed_points": 0
+        },
+        {
+          "slug": "tigereye-brew",
+          "name_en": "Tigereye Brew",
+          "displayed_points": 4
+        },
+        {
+          "slug": "jade-sanctuary",
+          "name_en": "Jade Sanctuary",
+          "displayed_points": 1
+        }
+      ],
+      "raw_node_excerpt": {
+        "slug": "tigereye-brew",
+        "html": "<a class=\"guide-talent guide-talent-background legendary\" href=\"/monk/windwalker/talents#tigereye-brew\">\n                          <img alt=\"Tigereye Brew\" loading=\"lazy\" src=\"https://render.worldofwarcraft.com/us/icons/56/7514187.jpg\">\n                          <div class=\"guide-talent-count\">4</div>\n                        </a>"
+      },
+      "raw_header_labels": [
+        "Conduit Of The Celestials",
+        "4235 Rating in Mythic+",
+        "Updated 1 hour ago"
+      ],
+      "page_patch_label_caution": "Murlok labels this page 12.1; exact trait-tree compatibility with the CN 12.1.5 client remains unverified."
+    },
+    {
+      "name": "Bisset",
+      "realm": "Kazzak",
+      "source_url": "https://murlok.io/character/eu/kazzak/bisset/pve",
+      "retrieved_at": "2026-10-29T18:21:02.9536587+08:00",
+      "http_status": 200,
+      "html_bytes": 164717,
+      "html_sha256": "f77f64f91a2bec23d78701a0dadc002f31219d485ba318c42a45bb29b5584083",
+      "hero_tree": "Conduit of the Celestials",
+      "content": "Mythic+",
+      "page_patch": "12.1",
+      "page_updated_relative": "Updated 1 hour ago",
+      "murlok_score": 4238,
+      "talent_export": null,
+      "extraction_status": "complete_export_unavailable",
+      "export_strings_in_html": [],
+      "raw_copy_button_html": "<button class=\"vi-media-object\">\n                  <svg    viewBox=\"0 0 24 24\">\n    \t<path fill=\"currentColor\" d=\"M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z\" />\n\t</svg>\n                  Copy Bisset&#39;s talents\n                </button>",
+      "limitations": "Current character snapshot, not proof of the loadout used in a specific completed key. Complete export was not exposed in HTML and was not synthesized.",
+      "parsed_node_count": 127,
+      "node_row_scope": "Only nodes that differ across these five HTML snapshots; not a complete selected-node list.",
+      "node_rows": [
+        {
+          "slug": "jade-walk",
+          "name_en": "Jade Walk",
+          "displayed_points": 0
+        },
+        {
+          "slug": "pressure-points",
+          "name_en": "Pressure Points",
+          "displayed_points": 1
+        },
+        {
+          "slug": "ancient-arts",
+          "name_en": "Ancient Arts",
+          "displayed_points": 2
+        },
+        {
+          "slug": "quick-footed",
+          "name_en": "Quick Footed",
+          "displayed_points": 0
+        },
+        {
+          "slug": "tiger-tail-sweep",
+          "name_en": "Tiger Tail Sweep",
+          "displayed_points": 0
+        },
+        {
+          "slug": "strength-of-spirit",
+          "name_en": "Strength of Spirit",
+          "displayed_points": 1
+        },
+        {
+          "slug": "diffuse-magic",
+          "name_en": "Diffuse Magic",
+          "displayed_points": 0
+        },
+        {
+          "slug": "windwalking",
+          "name_en": "Windwalking",
+          "displayed_points": 0
+        },
+        {
+          "slug": "chi-transfer",
+          "name_en": "Chi Transfer",
+          "displayed_points": 1
+        },
+        {
+          "slug": "rising-star",
+          "name_en": "Rising Star",
+          "displayed_points": 0
+        },
+        {
+          "slug": "jade-ignition",
+          "name_en": "Jade Ignition",
+          "displayed_points": 1
+        },
+        {
+          "slug": "spiritual-focus",
+          "name_en": "Spiritual Focus",
+          "displayed_points": 1
+        },
+        {
+          "slug": "energy-burst",
+          "name_en": "Energy Burst",
+          "displayed_points": 0
+        },
+        {
+          "slug": "inner-peace",
+          "name_en": "Inner Peace",
+          "displayed_points": 1
+        },
+        {
+          "slug": "memory-of-the-monastery",
+          "name_en": "Memory of the Monastery",
+          "displayed_points": 0
+        },
+        {
+          "slug": "jadefire-stomp",
+          "name_en": "Jadefire Stomp",
+          "displayed_points": 0
+        },
+        {
+          "slug": "skyfire-heel",
+          "name_en": "Skyfire Heel",
+          "displayed_points": 1
+        },
+        {
+          "slug": "path-of-jade",
+          "name_en": "Path of Jade",
+          "displayed_points": 0
+        },
+        {
+          "slug": "tigereye-brew",
+          "name_en": "Tigereye Brew",
+          "displayed_points": 4
+        },
+        {
+          "slug": "jade-sanctuary",
+          "name_en": "Jade Sanctuary",
+          "displayed_points": 1
+        }
+      ],
+      "raw_node_excerpt": {
+        "slug": "tigereye-brew",
+        "html": "<a class=\"guide-talent guide-talent-background legendary\" href=\"/monk/windwalker/talents#tigereye-brew\">\n                          <img alt=\"Tigereye Brew\" loading=\"lazy\" src=\"https://render.worldofwarcraft.com/us/icons/56/7514187.jpg\">\n                          <div class=\"guide-talent-count\">4</div>\n                        </a>"
+      },
+      "raw_header_labels": [
+        "Conduit Of The Celestials",
+        "4238 Rating in Mythic+",
+        "Updated 1 hour ago"
+      ],
+      "page_patch_label_caution": "Murlok labels this page 12.1; exact trait-tree compatibility with the CN 12.1.5 client remains unverified.",
+      "old_export_policy": "The existing 2026-10-26 Bisset code was not read, rechecked, or counted; only the current online page was inspected."
+    },
+    {
+      "name": "Kreemoncow",
+      "realm": "Draenor",
+      "source_url": "https://murlok.io/character/eu/draenor/kreemoncow/pve",
+      "retrieved_at": "2026-10-29T18:21:02.8942733+08:00",
+      "http_status": 200,
+      "html_bytes": 163812,
+      "html_sha256": "b3f81e07af5d9a67b74aad2261e357262f50bb6f709aba397f6b8f314a4dfd0d",
+      "hero_tree": "Conduit of the Celestials",
+      "content": "Mythic+",
+      "page_patch": "12.1",
+      "page_updated_relative": "Updated 1 hour ago",
+      "murlok_score": 4158,
+      "talent_export": null,
+      "extraction_status": "complete_export_unavailable",
+      "export_strings_in_html": [],
+      "raw_copy_button_html": "<button class=\"vi-media-object\">\n                  <svg    viewBox=\"0 0 24 24\">\n    \t<path fill=\"currentColor\" d=\"M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z\" />\n\t</svg>\n                  Copy Kreemoncow&#39;s talents\n                </button>",
+      "limitations": "Current character snapshot, not proof of the loadout used in a specific completed key. Complete export was not exposed in HTML and was not synthesized.",
+      "parsed_node_count": 127,
+      "node_row_scope": "Only nodes that differ across these five HTML snapshots; not a complete selected-node list.",
+      "node_rows": [
+        {
+          "slug": "jade-walk",
+          "name_en": "Jade Walk",
+          "displayed_points": 0
+        },
+        {
+          "slug": "pressure-points",
+          "name_en": "Pressure Points",
+          "displayed_points": 1
+        },
+        {
+          "slug": "ancient-arts",
+          "name_en": "Ancient Arts",
+          "displayed_points": 2
+        },
+        {
+          "slug": "quick-footed",
+          "name_en": "Quick Footed",
+          "displayed_points": 0
+        },
+        {
+          "slug": "tiger-tail-sweep",
+          "name_en": "Tiger Tail Sweep",
+          "displayed_points": 0
+        },
+        {
+          "slug": "strength-of-spirit",
+          "name_en": "Strength of Spirit",
+          "displayed_points": 1
+        },
+        {
+          "slug": "diffuse-magic",
+          "name_en": "Diffuse Magic",
+          "displayed_points": 1
+        },
+        {
+          "slug": "windwalking",
+          "name_en": "Windwalking",
+          "displayed_points": 0
+        },
+        {
+          "slug": "chi-transfer",
+          "name_en": "Chi Transfer",
+          "displayed_points": 0
+        },
+        {
+          "slug": "rising-star",
+          "name_en": "Rising Star",
+          "displayed_points": 0
+        },
+        {
+          "slug": "jade-ignition",
+          "name_en": "Jade Ignition",
+          "displayed_points": 1
+        },
+        {
+          "slug": "drinking-horn-cover",
+          "name_en": "Drinking Horn Cover",
+          "displayed_points": 1
+        },
+        {
+          "slug": "energy-burst",
+          "name_en": "Energy Burst",
+          "displayed_points": 1
+        },
+        {
+          "slug": "inner-peace",
+          "name_en": "Inner Peace",
+          "displayed_points": 0
+        },
+        {
+          "slug": "memory-of-the-monastery",
+          "name_en": "Memory of the Monastery",
+          "displayed_points": 0
+        },
+        {
+          "slug": "jadefire-stomp",
+          "name_en": "Jadefire Stomp",
+          "displayed_points": 0
+        },
+        {
+          "slug": "skyfire-heel",
+          "name_en": "Skyfire Heel",
+          "displayed_points": 1
+        },
+        {
+          "slug": "path-of-jade",
+          "name_en": "Path of Jade",
+          "displayed_points": 0
+        },
+        {
+          "slug": "tigereye-brew",
+          "name_en": "Tigereye Brew",
+          "displayed_points": 4
+        },
+        {
+          "slug": "jade-sanctuary",
+          "name_en": "Jade Sanctuary",
+          "displayed_points": 1
+        }
+      ],
+      "raw_node_excerpt": {
+        "slug": "tigereye-brew",
+        "html": "<a class=\"guide-talent guide-talent-background legendary\" href=\"/monk/windwalker/talents#tigereye-brew\">\n                          <img alt=\"Tigereye Brew\" loading=\"lazy\" src=\"https://render.worldofwarcraft.com/us/icons/56/7514187.jpg\">\n                          <div class=\"guide-talent-count\">4</div>\n                        </a>"
+      },
+      "raw_header_labels": [
+        "Conduit Of The Celestials",
+        "4158 Rating in Mythic+",
+        "Updated 1 hour ago"
+      ],
+      "page_patch_label_caution": "Murlok labels this page 12.1; exact trait-tree compatibility with the CN 12.1.5 client remains unverified."
+    },
+    {
+      "name": "Gerlox",
+      "realm": "Sylvanas",
+      "source_url": "https://murlok.io/character/eu/sylvanas/gerlox/pve",
+      "retrieved_at": "2026-10-29T18:21:04.1121159+08:00",
+      "http_status": 200,
+      "html_bytes": 167626,
+      "html_sha256": "34d830e30d1e93dea826273bff825f9128f034f4a867c40b11fec28ff03fe24f",
+      "hero_tree": "Conduit of the Celestials",
+      "content": "Mythic+",
+      "page_patch": "12.1",
+      "page_updated_relative": "Updated 1 hour ago",
+      "murlok_score": 4148,
+      "talent_export": null,
+      "extraction_status": "complete_export_unavailable",
+      "export_strings_in_html": [],
+      "raw_copy_button_html": "<button class=\"vi-media-object\">\n                  <svg    viewBox=\"0 0 24 24\">\n    \t<path fill=\"currentColor\" d=\"M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z\" />\n\t</svg>\n                  Copy Gerlox&#39;s talents\n                </button>",
+      "limitations": "Current character snapshot, not proof of the loadout used in a specific completed key. Complete export was not exposed in HTML and was not synthesized.",
+      "parsed_node_count": 127,
+      "node_row_scope": "Only nodes that differ across these five HTML snapshots; not a complete selected-node list.",
+      "node_rows": [
+        {
+          "slug": "jade-walk",
+          "name_en": "Jade Walk",
+          "displayed_points": 0
+        },
+        {
+          "slug": "pressure-points",
+          "name_en": "Pressure Points",
+          "displayed_points": 0
+        },
+        {
+          "slug": "ancient-arts",
+          "name_en": "Ancient Arts",
+          "displayed_points": 2
+        },
+        {
+          "slug": "quick-footed",
+          "name_en": "Quick Footed",
+          "displayed_points": 0
+        },
+        {
+          "slug": "tiger-tail-sweep",
+          "name_en": "Tiger Tail Sweep",
+          "displayed_points": 1
+        },
+        {
+          "slug": "strength-of-spirit",
+          "name_en": "Strength of Spirit",
+          "displayed_points": 1
+        },
+        {
+          "slug": "diffuse-magic",
+          "name_en": "Diffuse Magic",
+          "displayed_points": 0
+        },
+        {
+          "slug": "windwalking",
+          "name_en": "Windwalking",
+          "displayed_points": 1
+        },
+        {
+          "slug": "chi-transfer",
+          "name_en": "Chi Transfer",
+          "displayed_points": 0
+        },
+        {
+          "slug": "rising-star",
+          "name_en": "Rising Star",
+          "displayed_points": 1
+        },
+        {
+          "slug": "jade-ignition",
+          "name_en": "Jade Ignition",
+          "displayed_points": 0
+        },
+        {
+          "slug": "drinking-horn-cover",
+          "name_en": "Drinking Horn Cover",
+          "displayed_points": 1
+        },
+        {
+          "slug": "energy-burst",
+          "name_en": "Energy Burst",
+          "displayed_points": 1
+        },
+        {
+          "slug": "inner-peace",
+          "name_en": "Inner Peace",
+          "displayed_points": 0
+        },
+        {
+          "slug": "memory-of-the-monastery",
+          "name_en": "Memory of the Monastery",
+          "displayed_points": 1
+        },
+        {
+          "slug": "jadefire-stomp",
+          "name_en": "Jadefire Stomp",
+          "displayed_points": 1
+        },
+        {
+          "slug": "skyfire-heel",
+          "name_en": "Skyfire Heel",
+          "displayed_points": 0
+        },
+        {
+          "slug": "singularly-focused-jade",
+          "name_en": "Singularly Focused Jade",
+          "displayed_points": 1
+        },
+        {
+          "slug": "tigereye-brew",
+          "name_en": "Tigereye Brew",
+          "displayed_points": 2
+        },
+        {
+          "slug": "jade-sanctuary",
+          "name_en": "Jade Sanctuary",
+          "displayed_points": 1
+        }
+      ],
+      "raw_node_excerpt": {
+        "slug": "tigereye-brew",
+        "html": "<a class=\"guide-talent guide-talent-background legendary\" href=\"/monk/windwalker/talents#tigereye-brew\">\n                          <img alt=\"Tigereye Brew\" loading=\"lazy\" src=\"https://render.worldofwarcraft.com/us/icons/56/7514187.jpg\">\n                          <div class=\"guide-talent-count\">2</div>\n                        </a>"
+      },
+      "raw_header_labels": [
+        "Conduit Of The Celestials",
+        "4148 Rating in Mythic+",
+        "Updated 1 hour ago"
+      ],
+      "page_patch_label_caution": "Murlok labels this page 12.1; exact trait-tree compatibility with the CN 12.1.5 client remains unverified."
+    },
+    {
+      "name": "Freevalon",
+      "realm": "Ravencrest",
+      "source_url": "https://murlok.io/character/eu/ravencrest/freevalon/pve",
+      "retrieved_at": "2026-10-29T18:21:04.1071296+08:00",
+      "http_status": 200,
+      "html_bytes": 163879,
+      "html_sha256": "39dea68cbb7ca5bd1d15f29d755aca1585661d9baffc98e2763a498608a290e6",
+      "hero_tree": "Conduit of the Celestials",
+      "content": "Mythic+",
+      "page_patch": "12.1",
+      "page_updated_relative": "Updated 1 hour ago",
+      "murlok_score": 4140,
+      "talent_export": null,
+      "extraction_status": "complete_export_unavailable",
+      "export_strings_in_html": [],
+      "raw_copy_button_html": "<button class=\"vi-media-object\">\n                  <svg    viewBox=\"0 0 24 24\">\n    \t<path fill=\"currentColor\" d=\"M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z\" />\n\t</svg>\n                  Copy Freevalon&#39;s talents\n                </button>",
+      "limitations": "Current character snapshot, not proof of the loadout used in a specific completed key. Complete export was not exposed in HTML and was not synthesized.",
+      "parsed_node_count": 127,
+      "node_row_scope": "Only nodes that differ across these five HTML snapshots; not a complete selected-node list.",
+      "node_rows": [
+        {
+          "slug": "jade-walk",
+          "name_en": "Jade Walk",
+          "displayed_points": 1
+        },
+        {
+          "slug": "pressure-points",
+          "name_en": "Pressure Points",
+          "displayed_points": 0
+        },
+        {
+          "slug": "ancient-arts",
+          "name_en": "Ancient Arts",
+          "displayed_points": 0
+        },
+        {
+          "slug": "quick-footed",
+          "name_en": "Quick Footed",
+          "displayed_points": 1
+        },
+        {
+          "slug": "tiger-tail-sweep",
+          "name_en": "Tiger Tail Sweep",
+          "displayed_points": 1
+        },
+        {
+          "slug": "strength-of-spirit",
+          "name_en": "Strength of Spirit",
+          "displayed_points": 1
+        },
+        {
+          "slug": "diffuse-magic",
+          "name_en": "Diffuse Magic",
+          "displayed_points": 0
+        },
+        {
+          "slug": "windwalking",
+          "name_en": "Windwalking",
+          "displayed_points": 1
+        },
+        {
+          "slug": "chi-transfer",
+          "name_en": "Chi Transfer",
+          "displayed_points": 0
+        },
+        {
+          "slug": "rising-star",
+          "name_en": "Rising Star",
+          "displayed_points": 1
+        },
+        {
+          "slug": "jade-ignition",
+          "name_en": "Jade Ignition",
+          "displayed_points": 0
+        },
+        {
+          "slug": "drinking-horn-cover",
+          "name_en": "Drinking Horn Cover",
+          "displayed_points": 1
+        },
+        {
+          "slug": "energy-burst",
+          "name_en": "Energy Burst",
+          "displayed_points": 1
+        },
+        {
+          "slug": "inner-peace",
+          "name_en": "Inner Peace",
+          "displayed_points": 0
+        },
+        {
+          "slug": "memory-of-the-monastery",
+          "name_en": "Memory of the Monastery",
+          "displayed_points": 1
+        },
+        {
+          "slug": "jadefire-stomp",
+          "name_en": "Jadefire Stomp",
+          "displayed_points": 1
+        },
+        {
+          "slug": "skyfire-heel",
+          "name_en": "Skyfire Heel",
+          "displayed_points": 0
+        },
+        {
+          "slug": "singularly-focused-jade",
+          "name_en": "Singularly Focused Jade",
+          "displayed_points": 1
+        },
+        {
+          "slug": "tigereye-brew",
+          "name_en": "Tigereye Brew",
+          "displayed_points": 2
+        },
+        {
+          "slug": "niuzao's-protection",
+          "name_en": "Niuzao's Protection",
+          "displayed_points": 1
+        }
+      ],
+      "raw_node_excerpt": {
+        "slug": "tigereye-brew",
+        "html": "<a class=\"guide-talent guide-talent-background legendary\" href=\"/monk/windwalker/talents#tigereye-brew\">\n                          <img alt=\"Tigereye Brew\" loading=\"lazy\" src=\"https://render.worldofwarcraft.com/us/icons/56/7514187.jpg\">\n                          <div class=\"guide-talent-count\">2</div>\n                        </a>"
+      },
+      "raw_header_labels": [
+        "Conduit Of The Celestials",
+        "4140 Rating in Mythic+",
+        "Updated 1 hour ago"
+      ],
+      "page_patch_label_caution": "Murlok labels this page 12.1; exact trait-tree compatibility with the CN 12.1.5 client remains unverified."
+    }
+  ],
+  "limitations": [
+    "Only two complete guide-author exports were obtained; the requested minimum of three was not reached.",
+    "All five current Murlok pages expose node snapshots and a copy button but no complete export in static HTML.",
+    "Public character API request returned HTTP 401 without credentials; no authentication or request-signing bypass was attempted.",
+    "Computer Use ended because browser host access was unavailable and native access could not reliably identify the current browser URL.",
+    "Search Service pages said Updated 6 hours ago; fresh HTTP HTML said Updated 1 hour ago. These are separate observations, not an atomic snapshot.",
+    "No codes were synthesized; no Shadow-Pan, raid, duplicate Delve, or old Bisset export was counted.",
+    "Node names are preserved in English to avoid inventing unverified localization. No client import or SimC validation was run."
+  ],
+  "recorded_at": "2026-10-29T18:31:25+08:00",
+  "result": {
+    "requested_complete_exports_min": 3,
+    "requested_complete_exports_max": 5,
+    "complete_exports_obtained": 2,
+    "unique_export_strings": 2,
+    "current_player_exports_obtained": 0,
+    "guide_author_exports_obtained": 2,
+    "target_met": false,
+    "remaining_gap": "At least one further complete current Conduit Mythic+ export is required. All five player export fields remain null."
+  },
+  "node_comparison": {
+    "basis": "Direct Murlok HTML labels and displayed points; no base64 reconstruction or trait decoding.",
+    "player_order": [
+      "Эльпочита",
+      "Bisset",
+      "Kreemoncow",
+      "Gerlox",
+      "Freevalon"
+    ],
+    "zero_meaning": "The page explicitly displayed 0 points.",
+    "null_meaning": "This named node was not rendered; often the other choice-node member is displayed. Null is not converted to 0.",
+    "apex_caution": "Tigereye Brew is recorded exactly as displayed (4 or 2), not as a verified single client trait rank. Main task must decode Apex entries separately.",
+    "rows": [
+      {
+        "slug": "jade-walk",
+        "name_en": "Jade Walk",
+        "points_by_player": {
+          "Эльпочита": 0,
+          "Bisset": 0,
+          "Kreemoncow": 0,
+          "Gerlox": 0,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "pressure-points",
+        "name_en": "Pressure Points",
+        "points_by_player": {
+          "Эльпочита": 1,
+          "Bisset": 1,
+          "Kreemoncow": 1,
+          "Gerlox": 0,
+          "Freevalon": 0
+        }
+      },
+      {
+        "slug": "ancient-arts",
+        "name_en": "Ancient Arts",
+        "points_by_player": {
+          "Эльпочита": 2,
+          "Bisset": 2,
+          "Kreemoncow": 2,
+          "Gerlox": 2,
+          "Freevalon": 0
+        }
+      },
+      {
+        "slug": "quick-footed",
+        "name_en": "Quick Footed",
+        "points_by_player": {
+          "Эльпочита": 0,
+          "Bisset": 0,
+          "Kreemoncow": 0,
+          "Gerlox": 0,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "tiger-tail-sweep",
+        "name_en": "Tiger Tail Sweep",
+        "points_by_player": {
+          "Эльпочита": 0,
+          "Bisset": 0,
+          "Kreemoncow": 0,
+          "Gerlox": 1,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "profound-rebuttal",
+        "name_en": "Profound Rebuttal",
+        "points_by_player": {
+          "Эльпочита": 1,
+          "Bisset": null,
+          "Kreemoncow": null,
+          "Gerlox": null,
+          "Freevalon": null
+        }
+      },
+      {
+        "slug": "diffuse-magic",
+        "name_en": "Diffuse Magic",
+        "points_by_player": {
+          "Эльпочита": 0,
+          "Bisset": 0,
+          "Kreemoncow": 1,
+          "Gerlox": 0,
+          "Freevalon": 0
+        }
+      },
+      {
+        "slug": "windwalking",
+        "name_en": "Windwalking",
+        "points_by_player": {
+          "Эльпочита": 0,
+          "Bisset": 0,
+          "Kreemoncow": 0,
+          "Gerlox": 1,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "chi-transfer",
+        "name_en": "Chi Transfer",
+        "points_by_player": {
+          "Эльпочита": 1,
+          "Bisset": 1,
+          "Kreemoncow": 0,
+          "Gerlox": 0,
+          "Freevalon": 0
+        }
+      },
+      {
+        "slug": "rising-star",
+        "name_en": "Rising Star",
+        "points_by_player": {
+          "Эльпочита": 0,
+          "Bisset": 0,
+          "Kreemoncow": 0,
+          "Gerlox": 1,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "jade-ignition",
+        "name_en": "Jade Ignition",
+        "points_by_player": {
+          "Эльпочита": 1,
+          "Bisset": 1,
+          "Kreemoncow": 1,
+          "Gerlox": 0,
+          "Freevalon": 0
+        }
+      },
+      {
+        "slug": "spiritual-focus",
+        "name_en": "Spiritual Focus",
+        "points_by_player": {
+          "Эльпочита": 1,
+          "Bisset": 1,
+          "Kreemoncow": null,
+          "Gerlox": null,
+          "Freevalon": null
+        }
+      },
+      {
+        "slug": "energy-burst",
+        "name_en": "Energy Burst",
+        "points_by_player": {
+          "Эльпочита": 0,
+          "Bisset": 0,
+          "Kreemoncow": 1,
+          "Gerlox": 1,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "inner-peace",
+        "name_en": "Inner Peace",
+        "points_by_player": {
+          "Эльпочита": 1,
+          "Bisset": 1,
+          "Kreemoncow": 0,
+          "Gerlox": 0,
+          "Freevalon": 0
+        }
+      },
+      {
+        "slug": "memory-of-the-monastery",
+        "name_en": "Memory of the Monastery",
+        "points_by_player": {
+          "Эльпочита": 0,
+          "Bisset": 0,
+          "Kreemoncow": 0,
+          "Gerlox": 1,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "jadefire-stomp",
+        "name_en": "Jadefire Stomp",
+        "points_by_player": {
+          "Эльпочита": 0,
+          "Bisset": 0,
+          "Kreemoncow": 0,
+          "Gerlox": 1,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "skyfire-heel",
+        "name_en": "Skyfire Heel",
+        "points_by_player": {
+          "Эльпочита": 1,
+          "Bisset": 1,
+          "Kreemoncow": 1,
+          "Gerlox": 0,
+          "Freevalon": 0
+        }
+      },
+      {
+        "slug": "path-of-jade",
+        "name_en": "Path of Jade",
+        "points_by_player": {
+          "Эльпочита": 0,
+          "Bisset": 0,
+          "Kreemoncow": 0,
+          "Gerlox": null,
+          "Freevalon": null
+        }
+      },
+      {
+        "slug": "tigereye-brew",
+        "name_en": "Tigereye Brew",
+        "points_by_player": {
+          "Эльпочита": 4,
+          "Bisset": 4,
+          "Kreemoncow": 4,
+          "Gerlox": 2,
+          "Freevalon": 2
+        }
+      },
+      {
+        "slug": "jade-sanctuary",
+        "name_en": "Jade Sanctuary",
+        "points_by_player": {
+          "Эльпочита": 1,
+          "Bisset": 1,
+          "Kreemoncow": 1,
+          "Gerlox": 1,
+          "Freevalon": null
+        }
+      },
+      {
+        "slug": "strength-of-spirit",
+        "name_en": "Strength of Spirit",
+        "points_by_player": {
+          "Эльпочита": null,
+          "Bisset": 1,
+          "Kreemoncow": 1,
+          "Gerlox": 1,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "drinking-horn-cover",
+        "name_en": "Drinking Horn Cover",
+        "points_by_player": {
+          "Эльпочита": null,
+          "Bisset": null,
+          "Kreemoncow": 1,
+          "Gerlox": 1,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "singularly-focused-jade",
+        "name_en": "Singularly Focused Jade",
+        "points_by_player": {
+          "Эльпочита": null,
+          "Bisset": null,
+          "Kreemoncow": null,
+          "Gerlox": 1,
+          "Freevalon": 1
+        }
+      },
+      {
+        "slug": "niuzao's-protection",
+        "name_en": "Niuzao's Protection",
+        "points_by_player": {
+          "Эльпочита": null,
+          "Bisset": null,
+          "Kreemoncow": null,
+          "Gerlox": null,
+          "Freevalon": 1
+        }
+      }
+    ]
+  },
+  "supporting_sources": [
+    {
+      "id": "icy_mplus_context",
+      "source_url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-mythic-plus-tips",
+      "query_date": "2026-10-29",
+      "page_patch": "12.1.5",
+      "page_updated_on": "2026-10-12",
+      "raw_excerpt": "Advanced Mythic+ Talent Build — Conduit of the Celestials",
+      "finding": "Explicit advanced higher-end Mythic+ context. Parsed text on this page contains no C0Q export; the full code was taken from its talent-guide counterpart."
+    },
+    {
+      "id": "murlok_current_hero_filtered_ranking",
+      "source_url": "https://murlok.io/monk/windwalker/conduit-of-the-celestials/m%2B",
+      "query_date": "2026-10-29",
+      "page_patch": "12.1",
+      "sample_size_characters": 50,
+      "finding": "Current hero-filtered ladder reconfirms all five named players. Refreshed ranking puts Freevalon sixth, with another player fifth; this research retains the five specified by the input file."
+    }
+  ],
+  "access_attempts": [
+    {
+      "source_url": "https://murlok.io/character/eu/draenor/kreemoncow/pve",
+      "query_date": "2026-10-29",
+      "method": "HTTP GET",
+      "result": "HTTP 200; no C0Q string in static HTML; dynamic copy button present."
+    },
+    {
+      "source_url": "https://murlok.io/v3.44.55/app.js",
+      "query_date": "2026-10-29",
+      "method": "HTTP GET",
+      "result": "HTTP 200; shows go-app WebAssembly application and its public asset URL. No talent export in bootstrap JavaScript."
+    },
+    {
+      "source_url": "https://static.murlok.io/web/versions/v3.44.55.wasm",
+      "query_date": "2026-10-29",
+      "method": "Read-only inspection of public app asset",
+      "result": "PowerShell HTTP 200 after Python HTTP 403/timeout. Found public application route /api/characters/%s/%s/%s/%s. No binary or script file saved."
+    },
+    {
+      "source_url": "https://murlok.io/api/characters/eu/draenor/kreemoncow/pve",
+      "query_date": "2026-10-29",
+      "method": "HTTP GET without credentials",
+      "http_status": 401,
+      "raw_response_body": "",
+      "result": "Unauthenticated response was empty. Stopped API extraction; no token, signature, or authentication bypass."
+    },
+    {
+      "source_url": "https://murlok.io/api/profiles/eu/draenor/kreemoncow/pve",
+      "query_date": "2026-10-29",
+      "method": "HTTP GET without credentials",
+      "http_status": 401,
+      "result": "An earlier profile-route check and its two shorter path variants also returned 401."
+    },
+    {
+      "source_url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-spec-builds-talents",
+      "query_date": "2026-10-29",
+      "method": "Direct Python HTTP GET",
+      "http_status": 403,
+      "result": "Used successful Search Service parsed text; no direct-access workaround attempted."
+    }
+  ],
+  "tool_call_brief": {
+    "date": "2026-10-29",
+    "timezone": "Asia/Shanghai",
+    "external_source_domains_used": [
+      "murlok.io",
+      "static.murlok.io",
+      "method.gg",
+      "icy-veins.com"
+    ],
+    "mcp_services": [
+      {
+        "tool": "Search Service web_run",
+        "trigger": "Online verification and verbatim extraction of current Conduit Mythic+ exports.",
+        "inputs": "Five specified Murlok player pages, hero-filtered ranking, Method talent guide, Icy Veins talent and Mythic+ guides; focused find and link operations.",
+        "parameters": "response_length=long; one four-query exploratory search batch; no private user information submitted.",
+        "result": "Two complete distinct guide-author strings; five current player identities and hero tree verified.",
+        "retries": "Read relevant sections and the linked Mythic+ page. No export found in player parsed text."
+      },
+      {
+        "tool": "Computer Use cua_repl",
+        "trigger": "Attempt to read the live Murlok copy-talents control omitted from static text.",
+        "inputs": "Murlok character page and current browser availability.",
+        "parameters": "Four calls; no successful page interaction.",
+        "result": "Browser host unavailable; native access stopped because current browser URL could not be established reliably.",
+        "retries": "One browser inventory fallback and one native-window bind attempt, then stopped all Computer Use."
+      }
+    ],
+    "local_tools": "PowerShell HTTP reads, standard-library Python extraction, apply_patch; writes restricted to these two deliverables.",
+    "retry_policy": "No blocking sleep/backoff. Search parsing used after Icy Veins direct 403; PowerShell public-asset read used after Python failure. API 401 was not bypassed.",
+    "timestamps": "MCP retrieval date 2026-10-29; exact timestamps not exposed by those web calls. Final Murlok HTML retrieval timestamps are per-player; recorded_at is the evidence finalization timestamp."
+  },
+  "artifact_validation": {
+    "json_parse": true,
+    "markdown_codes_match_json": true,
+    "unique_export_count": 2,
+    "five_missing_player_exports_explicit": true,
+    "string_lengths_and_sha256_match": true,
+    "client_import_tested": false,
+    "talent_decoding_performed": false,
+    "simc_run": false
+  }
+}

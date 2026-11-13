@@ -1,0 +1,104 @@
+[
+  {
+    "entry": 124824,
+    "spell": 280197,
+    "url": "https://nether.wowhead.com/tooltip/spell/280197?dataEnv=1&locale=4",
+    "raw": {
+      "name": "灵魂专注",
+      "icon": "spell_nature_giftofthewild",
+      "tooltip": "<table><tr><td><a class=\"whtt-name\" href=\"/cn/spell=280197/灵魂专注\"><b class=\"whtt-name\">灵魂专注</b></a><div class=\"q0\">天赋</div>40 码范围<div class=\"wowhead-tooltip-requirements\">需要 武僧</div><span class=\"wowhead-tooltip-requirements\">需要等级 50</span><br /></td></tr></table><table><tr><td><div class=\"q\">乾元之巅的冷却时间缩短20秒。</div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": -1,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": -2
+    },
+    "source_line": "  { 2, 10, 124824, 101052, 1,  8, 129662,  280197,      0,      0,  6,  4, 200,                        \"Spiritual Focus\", {  269,    0,    0,    0 }, {    0,    0,    0,    0 },   0, 2 },"
+  },
+  {
+    "entry": 124825,
+    "spell": 391370,
+    "url": "https://nether.wowhead.com/tooltip/spell/391370?dataEnv=1&locale=4",
+    "raw": {
+      "name": "角杯盖子",
+      "icon": "ability_warrior_unrelentingassault",
+      "tooltip": "<table><tr><td><a class=\"whtt-name\" href=\"/cn/spell=391370/角杯盖子\"><b class=\"whtt-name\">角杯盖子</b></a><div class=\"q0\">天赋</div><div class=\"wowhead-tooltip-requirements\">需要 武僧</div></td></tr></table><table><tr><td><div class=\"q\">乾元之巅的持续时间延长5秒。</div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": -1,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": -2
+    },
+    "source_line": "  { 2, 10, 124825, 101052, 1,  8, 129663,  391370,      0,      0,  6,  4, 100,                    \"Drinking Horn Cover\", {  269,    0,    0,    0 }, {    0,    0,    0,    0 },   0, 2 },"
+  },
+  {
+    "entry": 124829,
+    "spell": 451498,
+    "url": "https://nether.wowhead.com/tooltip/spell/451498?dataEnv=1&locale=4",
+    "raw": {
+      "name": "能量爆裂",
+      "icon": "ability_monk_blackoutstrike",
+      "tooltip": "<table><tr><td><a class=\"whtt-name\" href=\"/cn/spell=451498/能量爆裂\"><b class=\"whtt-name\">能量爆裂</b></a><div class=\"q0\">天赋</div><div class=\"wowhead-tooltip-requirements\">需要 武僧</div></td></tr></table><table><tr><td><div class=\"q\">当你消耗“幻灭踢！”效果时，有100%的几率产生1点真气。</div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": -1,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": -2
+    },
+    "source_line": "  { 2, 10, 124829, 101056, 1,  8, 129667,  451498,      0,      0,  7,  6, 100,                           \"Energy Burst\", {  269,    0,    0,    0 }, {    0,    0,    0,    0 },   0, 0 },"
+  },
+  {
+    "entry": 125015,
+    "spell": 1272685,
+    "url": "https://nether.wowhead.com/tooltip/spell/1272685?dataEnv=1&locale=4",
+    "raw": {
+      "name": "尚武敏捷",
+      "icon": "ability_monk_dpsstance",
+      "tooltip": "<table><tr><td><a class=\"whtt-name\" href=\"/cn/spell=1272685/尚武敏捷\"><b class=\"whtt-name\">尚武敏捷</b></a><div class=\"q0\">天赋</div><div class=\"wowhead-tooltip-requirements\">需要 武僧</div></td></tr></table><table><tr><td><div class=\"q\">你的近战攻击速度提高30%。在乾元之巅期间该加成提高至60%。</div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": -1,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": -2
+    },
+    "source_line": "  { 2, 10, 125015, 101208, 1, 20, 129853, 1272685,      0,      0, 10,  6, 100,                        \"Martial Agility\", {  269,    0,    0,    0 }, {    0,    0,    0,    0 },   0, 0 },"
+  },
+  {
+    "entry": 124983,
+    "spell": 344359,
+    "url": "https://nether.wowhead.com/tooltip/spell/344359?dataEnv=1&locale=4",
+    "raw": {
+      "name": "止戈古训",
+      "icon": "ability_monk_dpsstance",
+      "tooltip": "<table><tr><td><a class=\"whtt-name\" href=\"/cn/spell=344359/止戈古训\"><b class=\"whtt-name\">止戈古训</b></a><div class=\"q0\">天赋</div><div class=\"wowhead-tooltip-requirements\">需要 武僧</div></td></tr></table><table><tr><td><div class=\"q\">使分筋错骨的冷却时间缩短15秒，扫堂腿的冷却时间缩短10秒。</div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": -1,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": -2
+    },
+    "source_line": "  { 1, 10, 124983, 101184, 2,  0, 129821,  344359,      0,      0,  4,  7, 100,                           \"Ancient Arts\", {    0,    0,    0,    0 }, {    0,    0,    0,    0 },   0, 0 },"
+  },
+  {
+    "entry": 124974,
+    "spell": 1272452,
+    "url": "https://nether.wowhead.com/tooltip/spell/1272452?dataEnv=1&locale=4",
+    "raw": {
+      "name": "真气转移",
+      "icon": "ability_monk_zenmeditation",
+      "tooltip": "<table><tr><td><a class=\"whtt-name\" href=\"/cn/spell=1272452/真气转移\"><b class=\"whtt-name\">真气转移</b></a><div class=\"q0\">天赋</div><div class=\"wowhead-tooltip-requirements\">需要 武僧</div></td></tr></table><table><tr><td><div class=\"q\">轮回之触现在会治疗你该技能造成伤害的60%。</div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": -1,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": -2
+    },
+    "source_line": "  { 1, 10, 124974, 101177, 1, 23, 129812, 1272452,      0,      0,  9,  5, 100,                           \"Chi Transfer\", {    0,    0,    0,    0 }, {    0,    0,    0,    0 },   0, 0 },"
+  }
+]

@@ -1,0 +1,4002 @@
+{
+  "source": "SimC debug talent loading; no hand-decoding export base64",
+  "nodes": {
+    "user": {
+      "124805": {
+        "tree": "spec",
+        "name": "Ferociousness",
+        "node": 101035,
+        "entry": 124805,
+        "rank": 2
+      },
+      "124806": {
+        "tree": "spec",
+        "name": "Sharp Reflexes",
+        "node": 101036,
+        "entry": 124806,
+        "rank": 1
+      },
+      "124807": {
+        "tree": "spec",
+        "name": "Ascension",
+        "node": 101037,
+        "entry": 124807,
+        "rank": 1
+      },
+      "124810": {
+        "tree": "spec",
+        "name": "Glory of the Dawn",
+        "node": 101039,
+        "entry": 124810,
+        "rank": 1
+      },
+      "124812": {
+        "tree": "spec",
+        "name": "Communion With Wind",
+        "node": 101041,
+        "entry": 124812,
+        "rank": 1
+      },
+      "124820": {
+        "tree": "spec",
+        "name": "Momentum Boost",
+        "node": 101048,
+        "entry": 124820,
+        "rank": 1
+      },
+      "124822": {
+        "tree": "spec",
+        "name": "Jade Ignition",
+        "node": 101050,
+        "entry": 124822,
+        "rank": 1
+      },
+      "124825": {
+        "tree": "spec",
+        "name": "Drinking Horn Cover",
+        "node": 101052,
+        "entry": 124825,
+        "rank": 1
+      },
+      "124826": {
+        "tree": "spec",
+        "name": "Zenith",
+        "node": 101053,
+        "entry": 124826,
+        "rank": 1
+      },
+      "124827": {
+        "tree": "spec",
+        "name": "Teachings of the Monastery",
+        "node": 101054,
+        "entry": 124827,
+        "rank": 1
+      },
+      "124828": {
+        "tree": "spec",
+        "name": "Dual Threat",
+        "node": 101055,
+        "entry": 124828,
+        "rank": 1
+      },
+      "124829": {
+        "tree": "spec",
+        "name": "Energy Burst",
+        "node": 101056,
+        "entry": 124829,
+        "rank": 1
+      },
+      "134453": {
+        "tree": "spec",
+        "name": "Crashing Fists",
+        "node": 101057,
+        "entry": 134453,
+        "rank": 1
+      },
+      "124833": {
+        "tree": "spec",
+        "name": "Sequenced Strikes",
+        "node": 101059,
+        "entry": 124833,
+        "rank": 1
+      },
+      "124834": {
+        "tree": "spec",
+        "name": "Dance of Chi-Ji",
+        "node": 101060,
+        "entry": 124834,
+        "rank": 1
+      },
+      "124926": {
+        "tree": "class",
+        "name": "Ring of Peace",
+        "node": 101136,
+        "entry": 124926,
+        "rank": 1
+      },
+      "124927": {
+        "tree": "class",
+        "name": "Dance of the Wind",
+        "node": 101137,
+        "entry": 124927,
+        "rank": 1
+      },
+      "124930": {
+        "tree": "class",
+        "name": "Improved Touch of Death",
+        "node": 101140,
+        "entry": 124930,
+        "rank": 1
+      },
+      "124931": {
+        "tree": "class",
+        "name": "Pressure Points",
+        "node": 101141,
+        "entry": 124931,
+        "rank": 1
+      },
+      "124932": {
+        "tree": "class",
+        "name": "Paralysis",
+        "node": 101142,
+        "entry": 124932,
+        "rank": 1
+      },
+      "124933": {
+        "tree": "class",
+        "name": "Soothing Mist",
+        "node": 101143,
+        "entry": 124933,
+        "rank": 1
+      },
+      "124934": {
+        "tree": "class",
+        "name": "Elusive Mists",
+        "node": 101144,
+        "entry": 124934,
+        "rank": 1
+      },
+      "124936": {
+        "tree": "class",
+        "name": "Grace of the Crane",
+        "node": 101146,
+        "entry": 124936,
+        "rank": 1
+      },
+      "124937": {
+        "tree": "class",
+        "name": "Tiger's Lust",
+        "node": 101147,
+        "entry": 124937,
+        "rank": 1
+      },
+      "124941": {
+        "tree": "class",
+        "name": "Detox",
+        "node": 101150,
+        "entry": 124941,
+        "rank": 1
+      },
+      "124944": {
+        "tree": "class",
+        "name": "Calming Presence",
+        "node": 101153,
+        "entry": 124944,
+        "rank": 1
+      },
+      "124947": {
+        "tree": "class",
+        "name": "Swift Art",
+        "node": 101155,
+        "entry": 124947,
+        "rank": 1
+      },
+      "124953": {
+        "tree": "class",
+        "name": "Tiger Fang",
+        "node": 101159,
+        "entry": 124953,
+        "rank": 1
+      },
+      "124956": {
+        "tree": "class",
+        "name": "Zenith Stomp",
+        "node": 101162,
+        "entry": 124956,
+        "rank": 1
+      },
+      "124960": {
+        "tree": "class",
+        "name": "Yu'lon's Grace",
+        "node": 101165,
+        "entry": 124960,
+        "rank": 1
+      },
+      "124961": {
+        "tree": "class",
+        "name": "Ferocity of Xuen",
+        "node": 101166,
+        "entry": 124961,
+        "rank": 2
+      },
+      "124962": {
+        "tree": "class",
+        "name": "Transcendence",
+        "node": 101167,
+        "entry": 124962,
+        "rank": 1
+      },
+      "124963": {
+        "tree": "class",
+        "name": "Lighter Than Air",
+        "node": 101168,
+        "entry": 124963,
+        "rank": 1
+      },
+      "124964": {
+        "tree": "class",
+        "name": "Chi Proficiency",
+        "node": 101169,
+        "entry": 124964,
+        "rank": 2
+      },
+      "124965": {
+        "tree": "class",
+        "name": "Flow of Chi",
+        "node": 101170,
+        "entry": 124965,
+        "rank": 1
+      },
+      "124968": {
+        "tree": "class",
+        "name": "Fortifying Brew",
+        "node": 101173,
+        "entry": 124968,
+        "rank": 1
+      },
+      "124969": {
+        "tree": "class",
+        "name": "Expeditious Fortification",
+        "node": 101174,
+        "entry": 124969,
+        "rank": 1
+      },
+      "124975": {
+        "tree": "class",
+        "name": "Fatal Touch",
+        "node": 101178,
+        "entry": 124975,
+        "rank": 1
+      },
+      "124976": {
+        "tree": "class",
+        "name": "Martial Instincts",
+        "node": 101179,
+        "entry": 124976,
+        "rank": 2
+      },
+      "124980": {
+        "tree": "class",
+        "name": "Tiger Tail Sweep",
+        "node": 101182,
+        "entry": 124980,
+        "rank": 1
+      },
+      "124982": {
+        "tree": "class",
+        "name": "Celerity",
+        "node": 101183,
+        "entry": 124982,
+        "rank": 1
+      },
+      "124983": {
+        "tree": "class",
+        "name": "Ancient Arts",
+        "node": 101184,
+        "entry": 124983,
+        "rank": 1
+      },
+      "124984": {
+        "tree": "class",
+        "name": "Fast Feet",
+        "node": 101185,
+        "entry": 124984,
+        "rank": 1
+      },
+      "124985": {
+        "tree": "class",
+        "name": "Rising Sun Kick",
+        "node": 101186,
+        "entry": 124985,
+        "rank": 1
+      },
+      "125010": {
+        "tree": "spec",
+        "name": "Revolving Whirl",
+        "node": 101203,
+        "entry": 125010,
+        "rank": 1
+      },
+      "125013": {
+        "tree": "spec",
+        "name": "Weapon of Wind",
+        "node": 101206,
+        "entry": 125013,
+        "rank": 1
+      },
+      "134452": {
+        "tree": "spec",
+        "name": "Whirling Dragon Punch",
+        "node": 101207,
+        "entry": 134452,
+        "rank": 1
+      },
+      "125017": {
+        "tree": "spec",
+        "name": "Xuen's Battlegear",
+        "node": 101210,
+        "entry": 125017,
+        "rank": 1
+      },
+      "125018": {
+        "tree": "spec",
+        "name": "Crane Vortex",
+        "node": 101211,
+        "entry": 125018,
+        "rank": 1
+      },
+      "125020": {
+        "tree": "spec",
+        "name": "Sunfire Spiral",
+        "node": 101213,
+        "entry": 125020,
+        "rank": 1
+      },
+      "125021": {
+        "tree": "spec",
+        "name": "Inner Peace",
+        "node": 101214,
+        "entry": 125021,
+        "rank": 1
+      },
+      "125022": {
+        "tree": "spec",
+        "name": "Combo Breaker",
+        "node": 101215,
+        "entry": 125022,
+        "rank": 1
+      },
+      "125023": {
+        "tree": "spec",
+        "name": "Hit Combo",
+        "node": 101216,
+        "entry": 125023,
+        "rank": 1
+      },
+      "125025": {
+        "tree": "spec",
+        "name": "Combat Wisdom",
+        "node": 101217,
+        "entry": 125025,
+        "rank": 1
+      },
+      "125026": {
+        "tree": "spec",
+        "name": "Fists of Fury",
+        "node": 101218,
+        "entry": 125026,
+        "rank": 1
+      },
+      "125033": {
+        "tree": "hero",
+        "name": "Aspect of Harmony",
+        "node": 101223,
+        "entry": 125033,
+        "rank": 1
+      },
+      "125047": {
+        "tree": "selection",
+        "name": "0",
+        "node": 101232,
+        "entry": 125047,
+        "rank": 1
+      },
+      "125050": {
+        "tree": "hero",
+        "name": "Path of the Falling Star",
+        "node": 101234,
+        "entry": 125050,
+        "rank": 1
+      },
+      "125052": {
+        "tree": "hero",
+        "name": "Inner Compass",
+        "node": 101235,
+        "entry": 125052,
+        "rank": 1
+      },
+      "125054": {
+        "tree": "hero",
+        "name": "Temple Training",
+        "node": 101236,
+        "entry": 125054,
+        "rank": 1
+      },
+      "125055": {
+        "tree": "hero",
+        "name": "Chi-Ji's Swiftness",
+        "node": 101237,
+        "entry": 125055,
+        "rank": 1
+      },
+      "125056": {
+        "tree": "hero",
+        "name": "Jade Sanctuary",
+        "node": 101238,
+        "entry": 125056,
+        "rank": 1
+      },
+      "125058": {
+        "tree": "hero",
+        "name": "Unity Within",
+        "node": 101239,
+        "entry": 125058,
+        "rank": 1
+      },
+      "125061": {
+        "tree": "hero",
+        "name": "Courage of the White Tiger",
+        "node": 101242,
+        "entry": 125061,
+        "rank": 1
+      },
+      "125062": {
+        "tree": "hero",
+        "name": "Invoke Xuen, the White Tiger",
+        "node": 101243,
+        "entry": 125062,
+        "rank": 1
+      },
+      "125069": {
+        "tree": "hero",
+        "name": "Flurry Strikes",
+        "node": 101248,
+        "entry": 125069,
+        "rank": 1
+      },
+      "128711": {
+        "tree": "spec",
+        "name": "Skyfire Heel",
+        "node": 104128,
+        "entry": 128711,
+        "rank": 1
+      },
+      "128712": {
+        "tree": "spec",
+        "name": "Harmonic Combo",
+        "node": 104129,
+        "entry": 128712,
+        "rank": 1
+      },
+      "134543": {
+        "tree": "spec",
+        "name": "Rushing Wind Kick",
+        "node": 108946,
+        "entry": 134543,
+        "rank": 1
+      },
+      "135958": {
+        "tree": "hero",
+        "name": "Flowing Wisdom",
+        "node": 109700,
+        "entry": 135958,
+        "rank": 1
+      },
+      "135959": {
+        "tree": "hero",
+        "name": "Heart of the Jade Serpent",
+        "node": 109701,
+        "entry": 135959,
+        "rank": 1
+      },
+      "136511": {
+        "tree": "class",
+        "name": "Vigorous Expulsion",
+        "node": 110020,
+        "entry": 136511,
+        "rank": 1
+      },
+      "136514": {
+        "tree": "class",
+        "name": "Strength of Spirit",
+        "node": 110022,
+        "entry": 136514,
+        "rank": 1
+      },
+      "136515": {
+        "tree": "class",
+        "name": "Vivacious Vivification",
+        "node": 110023,
+        "entry": 136515,
+        "rank": 1
+      },
+      "136599": {
+        "tree": "class",
+        "name": "Spear Hand Strike",
+        "node": 110098,
+        "entry": 136599,
+        "rank": 1
+      },
+      "136747": {
+        "tree": "hero",
+        "name": "Strength of the Black Ox",
+        "node": 110211,
+        "entry": 136747,
+        "rank": 1
+      },
+      "136754": {
+        "tree": "hero",
+        "name": "Yu'lon's Avatar",
+        "node": 110218,
+        "entry": 136754,
+        "rank": 1
+      },
+      "136745": {
+        "tree": "hero",
+        "name": "Celestial Conduit",
+        "node": 110220,
+        "entry": 136745,
+        "rank": 1
+      },
+      "136744": {
+        "tree": "hero",
+        "name": "Xuen's Bond",
+        "node": 110221,
+        "entry": 136744,
+        "rank": 1
+      },
+      "137076": {
+        "tree": "spec",
+        "name": "Tigereye Brew",
+        "node": 110436,
+        "entry": 137076,
+        "rank": 0
+      }
+    },
+    "bisset_1026": {
+      "124805": {
+        "tree": "spec",
+        "name": "Ferociousness",
+        "node": 101035,
+        "entry": 124805,
+        "rank": 2
+      },
+      "124806": {
+        "tree": "spec",
+        "name": "Sharp Reflexes",
+        "node": 101036,
+        "entry": 124806,
+        "rank": 1
+      },
+      "124807": {
+        "tree": "spec",
+        "name": "Ascension",
+        "node": 101037,
+        "entry": 124807,
+        "rank": 1
+      },
+      "124810": {
+        "tree": "spec",
+        "name": "Glory of the Dawn",
+        "node": 101039,
+        "entry": 124810,
+        "rank": 1
+      },
+      "124812": {
+        "tree": "spec",
+        "name": "Communion With Wind",
+        "node": 101041,
+        "entry": 124812,
+        "rank": 1
+      },
+      "124820": {
+        "tree": "spec",
+        "name": "Momentum Boost",
+        "node": 101048,
+        "entry": 124820,
+        "rank": 1
+      },
+      "124822": {
+        "tree": "spec",
+        "name": "Jade Ignition",
+        "node": 101050,
+        "entry": 124822,
+        "rank": 1
+      },
+      "124824": {
+        "tree": "spec",
+        "name": "Spiritual Focus",
+        "node": 101052,
+        "entry": 124824,
+        "rank": 1
+      },
+      "124826": {
+        "tree": "spec",
+        "name": "Zenith",
+        "node": 101053,
+        "entry": 124826,
+        "rank": 1
+      },
+      "124827": {
+        "tree": "spec",
+        "name": "Teachings of the Monastery",
+        "node": 101054,
+        "entry": 124827,
+        "rank": 1
+      },
+      "124828": {
+        "tree": "spec",
+        "name": "Dual Threat",
+        "node": 101055,
+        "entry": 124828,
+        "rank": 1
+      },
+      "134453": {
+        "tree": "spec",
+        "name": "Crashing Fists",
+        "node": 101057,
+        "entry": 134453,
+        "rank": 1
+      },
+      "124833": {
+        "tree": "spec",
+        "name": "Sequenced Strikes",
+        "node": 101059,
+        "entry": 124833,
+        "rank": 1
+      },
+      "124834": {
+        "tree": "spec",
+        "name": "Dance of Chi-Ji",
+        "node": 101060,
+        "entry": 124834,
+        "rank": 1
+      },
+      "124926": {
+        "tree": "class",
+        "name": "Ring of Peace",
+        "node": 101136,
+        "entry": 124926,
+        "rank": 1
+      },
+      "124927": {
+        "tree": "class",
+        "name": "Dance of the Wind",
+        "node": 101137,
+        "entry": 124927,
+        "rank": 1
+      },
+      "124930": {
+        "tree": "class",
+        "name": "Improved Touch of Death",
+        "node": 101140,
+        "entry": 124930,
+        "rank": 1
+      },
+      "124931": {
+        "tree": "class",
+        "name": "Pressure Points",
+        "node": 101141,
+        "entry": 124931,
+        "rank": 1
+      },
+      "124932": {
+        "tree": "class",
+        "name": "Paralysis",
+        "node": 101142,
+        "entry": 124932,
+        "rank": 1
+      },
+      "124933": {
+        "tree": "class",
+        "name": "Soothing Mist",
+        "node": 101143,
+        "entry": 124933,
+        "rank": 1
+      },
+      "124934": {
+        "tree": "class",
+        "name": "Elusive Mists",
+        "node": 101144,
+        "entry": 124934,
+        "rank": 1
+      },
+      "124936": {
+        "tree": "class",
+        "name": "Grace of the Crane",
+        "node": 101146,
+        "entry": 124936,
+        "rank": 1
+      },
+      "124937": {
+        "tree": "class",
+        "name": "Tiger's Lust",
+        "node": 101147,
+        "entry": 124937,
+        "rank": 1
+      },
+      "124941": {
+        "tree": "class",
+        "name": "Detox",
+        "node": 101150,
+        "entry": 124941,
+        "rank": 1
+      },
+      "124944": {
+        "tree": "class",
+        "name": "Calming Presence",
+        "node": 101153,
+        "entry": 124944,
+        "rank": 1
+      },
+      "124953": {
+        "tree": "class",
+        "name": "Tiger Fang",
+        "node": 101159,
+        "entry": 124953,
+        "rank": 1
+      },
+      "124956": {
+        "tree": "class",
+        "name": "Zenith Stomp",
+        "node": 101162,
+        "entry": 124956,
+        "rank": 1
+      },
+      "124960": {
+        "tree": "class",
+        "name": "Yu'lon's Grace",
+        "node": 101165,
+        "entry": 124960,
+        "rank": 1
+      },
+      "124961": {
+        "tree": "class",
+        "name": "Ferocity of Xuen",
+        "node": 101166,
+        "entry": 124961,
+        "rank": 2
+      },
+      "124962": {
+        "tree": "class",
+        "name": "Transcendence",
+        "node": 101167,
+        "entry": 124962,
+        "rank": 1
+      },
+      "124963": {
+        "tree": "class",
+        "name": "Lighter Than Air",
+        "node": 101168,
+        "entry": 124963,
+        "rank": 1
+      },
+      "124964": {
+        "tree": "class",
+        "name": "Chi Proficiency",
+        "node": 101169,
+        "entry": 124964,
+        "rank": 2
+      },
+      "124965": {
+        "tree": "class",
+        "name": "Flow of Chi",
+        "node": 101170,
+        "entry": 124965,
+        "rank": 1
+      },
+      "124968": {
+        "tree": "class",
+        "name": "Fortifying Brew",
+        "node": 101173,
+        "entry": 124968,
+        "rank": 1
+      },
+      "124969": {
+        "tree": "class",
+        "name": "Expeditious Fortification",
+        "node": 101174,
+        "entry": 124969,
+        "rank": 1
+      },
+      "124974": {
+        "tree": "class",
+        "name": "Chi Transfer",
+        "node": 101177,
+        "entry": 124974,
+        "rank": 1
+      },
+      "124975": {
+        "tree": "class",
+        "name": "Fatal Touch",
+        "node": 101178,
+        "entry": 124975,
+        "rank": 1
+      },
+      "124976": {
+        "tree": "class",
+        "name": "Martial Instincts",
+        "node": 101179,
+        "entry": 124976,
+        "rank": 2
+      },
+      "124982": {
+        "tree": "class",
+        "name": "Celerity",
+        "node": 101183,
+        "entry": 124982,
+        "rank": 1
+      },
+      "124983": {
+        "tree": "class",
+        "name": "Ancient Arts",
+        "node": 101184,
+        "entry": 124983,
+        "rank": 2
+      },
+      "124984": {
+        "tree": "class",
+        "name": "Fast Feet",
+        "node": 101185,
+        "entry": 124984,
+        "rank": 1
+      },
+      "124985": {
+        "tree": "class",
+        "name": "Rising Sun Kick",
+        "node": 101186,
+        "entry": 124985,
+        "rank": 1
+      },
+      "125010": {
+        "tree": "spec",
+        "name": "Revolving Whirl",
+        "node": 101203,
+        "entry": 125010,
+        "rank": 1
+      },
+      "125013": {
+        "tree": "spec",
+        "name": "Weapon of Wind",
+        "node": 101206,
+        "entry": 125013,
+        "rank": 1
+      },
+      "134452": {
+        "tree": "spec",
+        "name": "Whirling Dragon Punch",
+        "node": 101207,
+        "entry": 134452,
+        "rank": 1
+      },
+      "125015": {
+        "tree": "spec",
+        "name": "Martial Agility",
+        "node": 101208,
+        "entry": 125015,
+        "rank": 1
+      },
+      "125017": {
+        "tree": "spec",
+        "name": "Xuen's Battlegear",
+        "node": 101210,
+        "entry": 125017,
+        "rank": 1
+      },
+      "125018": {
+        "tree": "spec",
+        "name": "Crane Vortex",
+        "node": 101211,
+        "entry": 125018,
+        "rank": 1
+      },
+      "125020": {
+        "tree": "spec",
+        "name": "Sunfire Spiral",
+        "node": 101213,
+        "entry": 125020,
+        "rank": 1
+      },
+      "125021": {
+        "tree": "spec",
+        "name": "Inner Peace",
+        "node": 101214,
+        "entry": 125021,
+        "rank": 1
+      },
+      "125022": {
+        "tree": "spec",
+        "name": "Combo Breaker",
+        "node": 101215,
+        "entry": 125022,
+        "rank": 1
+      },
+      "125023": {
+        "tree": "spec",
+        "name": "Hit Combo",
+        "node": 101216,
+        "entry": 125023,
+        "rank": 1
+      },
+      "125025": {
+        "tree": "spec",
+        "name": "Combat Wisdom",
+        "node": 101217,
+        "entry": 125025,
+        "rank": 1
+      },
+      "125026": {
+        "tree": "spec",
+        "name": "Fists of Fury",
+        "node": 101218,
+        "entry": 125026,
+        "rank": 1
+      },
+      "125033": {
+        "tree": "hero",
+        "name": "Aspect of Harmony",
+        "node": 101223,
+        "entry": 125033,
+        "rank": 1
+      },
+      "125047": {
+        "tree": "selection",
+        "name": "0",
+        "node": 101232,
+        "entry": 125047,
+        "rank": 1
+      },
+      "125050": {
+        "tree": "hero",
+        "name": "Path of the Falling Star",
+        "node": 101234,
+        "entry": 125050,
+        "rank": 1
+      },
+      "125052": {
+        "tree": "hero",
+        "name": "Inner Compass",
+        "node": 101235,
+        "entry": 125052,
+        "rank": 1
+      },
+      "125054": {
+        "tree": "hero",
+        "name": "Temple Training",
+        "node": 101236,
+        "entry": 125054,
+        "rank": 1
+      },
+      "125055": {
+        "tree": "hero",
+        "name": "Chi-Ji's Swiftness",
+        "node": 101237,
+        "entry": 125055,
+        "rank": 1
+      },
+      "125056": {
+        "tree": "hero",
+        "name": "Jade Sanctuary",
+        "node": 101238,
+        "entry": 125056,
+        "rank": 1
+      },
+      "125058": {
+        "tree": "hero",
+        "name": "Unity Within",
+        "node": 101239,
+        "entry": 125058,
+        "rank": 1
+      },
+      "125061": {
+        "tree": "hero",
+        "name": "Courage of the White Tiger",
+        "node": 101242,
+        "entry": 125061,
+        "rank": 1
+      },
+      "125062": {
+        "tree": "hero",
+        "name": "Invoke Xuen, the White Tiger",
+        "node": 101243,
+        "entry": 125062,
+        "rank": 1
+      },
+      "125069": {
+        "tree": "hero",
+        "name": "Flurry Strikes",
+        "node": 101248,
+        "entry": 125069,
+        "rank": 1
+      },
+      "128711": {
+        "tree": "spec",
+        "name": "Skyfire Heel",
+        "node": 104128,
+        "entry": 128711,
+        "rank": 1
+      },
+      "128712": {
+        "tree": "spec",
+        "name": "Harmonic Combo",
+        "node": 104129,
+        "entry": 128712,
+        "rank": 1
+      },
+      "134543": {
+        "tree": "spec",
+        "name": "Rushing Wind Kick",
+        "node": 108946,
+        "entry": 134543,
+        "rank": 1
+      },
+      "135958": {
+        "tree": "hero",
+        "name": "Flowing Wisdom",
+        "node": 109700,
+        "entry": 135958,
+        "rank": 1
+      },
+      "135959": {
+        "tree": "hero",
+        "name": "Heart of the Jade Serpent",
+        "node": 109701,
+        "entry": 135959,
+        "rank": 1
+      },
+      "136511": {
+        "tree": "class",
+        "name": "Vigorous Expulsion",
+        "node": 110020,
+        "entry": 136511,
+        "rank": 1
+      },
+      "136514": {
+        "tree": "class",
+        "name": "Strength of Spirit",
+        "node": 110022,
+        "entry": 136514,
+        "rank": 1
+      },
+      "136515": {
+        "tree": "class",
+        "name": "Vivacious Vivification",
+        "node": 110023,
+        "entry": 136515,
+        "rank": 1
+      },
+      "136599": {
+        "tree": "class",
+        "name": "Spear Hand Strike",
+        "node": 110098,
+        "entry": 136599,
+        "rank": 1
+      },
+      "136747": {
+        "tree": "hero",
+        "name": "Strength of the Black Ox",
+        "node": 110211,
+        "entry": 136747,
+        "rank": 1
+      },
+      "136754": {
+        "tree": "hero",
+        "name": "Yu'lon's Avatar",
+        "node": 110218,
+        "entry": 136754,
+        "rank": 1
+      },
+      "136745": {
+        "tree": "hero",
+        "name": "Celestial Conduit",
+        "node": 110220,
+        "entry": 136745,
+        "rank": 1
+      },
+      "136744": {
+        "tree": "hero",
+        "name": "Xuen's Bond",
+        "node": 110221,
+        "entry": 136744,
+        "rank": 1
+      },
+      "137076": {
+        "tree": "spec",
+        "name": "Tigereye Brew",
+        "node": 110436,
+        "entry": 137076,
+        "rank": 0
+      }
+    },
+    "local_guide_aoe": {
+      "124805": {
+        "tree": "spec",
+        "name": "Ferociousness",
+        "node": 101035,
+        "entry": 124805,
+        "rank": 2
+      },
+      "124806": {
+        "tree": "spec",
+        "name": "Sharp Reflexes",
+        "node": 101036,
+        "entry": 124806,
+        "rank": 1
+      },
+      "124807": {
+        "tree": "spec",
+        "name": "Ascension",
+        "node": 101037,
+        "entry": 124807,
+        "rank": 1
+      },
+      "124810": {
+        "tree": "spec",
+        "name": "Glory of the Dawn",
+        "node": 101039,
+        "entry": 124810,
+        "rank": 1
+      },
+      "124812": {
+        "tree": "spec",
+        "name": "Communion With Wind",
+        "node": 101041,
+        "entry": 124812,
+        "rank": 1
+      },
+      "124820": {
+        "tree": "spec",
+        "name": "Momentum Boost",
+        "node": 101048,
+        "entry": 124820,
+        "rank": 1
+      },
+      "124822": {
+        "tree": "spec",
+        "name": "Jade Ignition",
+        "node": 101050,
+        "entry": 124822,
+        "rank": 1
+      },
+      "124824": {
+        "tree": "spec",
+        "name": "Spiritual Focus",
+        "node": 101052,
+        "entry": 124824,
+        "rank": 1
+      },
+      "124826": {
+        "tree": "spec",
+        "name": "Zenith",
+        "node": 101053,
+        "entry": 124826,
+        "rank": 1
+      },
+      "124827": {
+        "tree": "spec",
+        "name": "Teachings of the Monastery",
+        "node": 101054,
+        "entry": 124827,
+        "rank": 1
+      },
+      "124828": {
+        "tree": "spec",
+        "name": "Dual Threat",
+        "node": 101055,
+        "entry": 124828,
+        "rank": 1
+      },
+      "124829": {
+        "tree": "spec",
+        "name": "Energy Burst",
+        "node": 101056,
+        "entry": 124829,
+        "rank": 1
+      },
+      "134453": {
+        "tree": "spec",
+        "name": "Crashing Fists",
+        "node": 101057,
+        "entry": 134453,
+        "rank": 1
+      },
+      "124833": {
+        "tree": "spec",
+        "name": "Sequenced Strikes",
+        "node": 101059,
+        "entry": 124833,
+        "rank": 1
+      },
+      "124834": {
+        "tree": "spec",
+        "name": "Dance of Chi-Ji",
+        "node": 101060,
+        "entry": 124834,
+        "rank": 1
+      },
+      "124926": {
+        "tree": "class",
+        "name": "Ring of Peace",
+        "node": 101136,
+        "entry": 124926,
+        "rank": 1
+      },
+      "124927": {
+        "tree": "class",
+        "name": "Dance of the Wind",
+        "node": 101137,
+        "entry": 124927,
+        "rank": 1
+      },
+      "124930": {
+        "tree": "class",
+        "name": "Improved Touch of Death",
+        "node": 101140,
+        "entry": 124930,
+        "rank": 1
+      },
+      "124932": {
+        "tree": "class",
+        "name": "Paralysis",
+        "node": 101142,
+        "entry": 124932,
+        "rank": 1
+      },
+      "124933": {
+        "tree": "class",
+        "name": "Soothing Mist",
+        "node": 101143,
+        "entry": 124933,
+        "rank": 1
+      },
+      "124934": {
+        "tree": "class",
+        "name": "Elusive Mists",
+        "node": 101144,
+        "entry": 124934,
+        "rank": 1
+      },
+      "124936": {
+        "tree": "class",
+        "name": "Grace of the Crane",
+        "node": 101146,
+        "entry": 124936,
+        "rank": 1
+      },
+      "124937": {
+        "tree": "class",
+        "name": "Tiger's Lust",
+        "node": 101147,
+        "entry": 124937,
+        "rank": 1
+      },
+      "124941": {
+        "tree": "class",
+        "name": "Detox",
+        "node": 101150,
+        "entry": 124941,
+        "rank": 1
+      },
+      "124944": {
+        "tree": "class",
+        "name": "Calming Presence",
+        "node": 101153,
+        "entry": 124944,
+        "rank": 1
+      },
+      "124950": {
+        "tree": "class",
+        "name": "Hasty Provocation",
+        "node": 101158,
+        "entry": 124950,
+        "rank": 1
+      },
+      "124953": {
+        "tree": "class",
+        "name": "Tiger Fang",
+        "node": 101159,
+        "entry": 124953,
+        "rank": 1
+      },
+      "124956": {
+        "tree": "class",
+        "name": "Zenith Stomp",
+        "node": 101162,
+        "entry": 124956,
+        "rank": 1
+      },
+      "124960": {
+        "tree": "class",
+        "name": "Yu'lon's Grace",
+        "node": 101165,
+        "entry": 124960,
+        "rank": 1
+      },
+      "124961": {
+        "tree": "class",
+        "name": "Ferocity of Xuen",
+        "node": 101166,
+        "entry": 124961,
+        "rank": 2
+      },
+      "124962": {
+        "tree": "class",
+        "name": "Transcendence",
+        "node": 101167,
+        "entry": 124962,
+        "rank": 1
+      },
+      "124963": {
+        "tree": "class",
+        "name": "Lighter Than Air",
+        "node": 101168,
+        "entry": 124963,
+        "rank": 1
+      },
+      "124964": {
+        "tree": "class",
+        "name": "Chi Proficiency",
+        "node": 101169,
+        "entry": 124964,
+        "rank": 2
+      },
+      "124965": {
+        "tree": "class",
+        "name": "Flow of Chi",
+        "node": 101170,
+        "entry": 124965,
+        "rank": 1
+      },
+      "124968": {
+        "tree": "class",
+        "name": "Fortifying Brew",
+        "node": 101173,
+        "entry": 124968,
+        "rank": 1
+      },
+      "124969": {
+        "tree": "class",
+        "name": "Expeditious Fortification",
+        "node": 101174,
+        "entry": 124969,
+        "rank": 1
+      },
+      "124971": {
+        "tree": "class",
+        "name": "Windwalking",
+        "node": 101175,
+        "entry": 124971,
+        "rank": 1
+      },
+      "124975": {
+        "tree": "class",
+        "name": "Fatal Touch",
+        "node": 101178,
+        "entry": 124975,
+        "rank": 1
+      },
+      "124976": {
+        "tree": "class",
+        "name": "Martial Instincts",
+        "node": 101179,
+        "entry": 124976,
+        "rank": 2
+      },
+      "124980": {
+        "tree": "class",
+        "name": "Tiger Tail Sweep",
+        "node": 101182,
+        "entry": 124980,
+        "rank": 1
+      },
+      "124982": {
+        "tree": "class",
+        "name": "Celerity",
+        "node": 101183,
+        "entry": 124982,
+        "rank": 1
+      },
+      "124983": {
+        "tree": "class",
+        "name": "Ancient Arts",
+        "node": 101184,
+        "entry": 124983,
+        "rank": 1
+      },
+      "124984": {
+        "tree": "class",
+        "name": "Fast Feet",
+        "node": 101185,
+        "entry": 124984,
+        "rank": 1
+      },
+      "124985": {
+        "tree": "class",
+        "name": "Rising Sun Kick",
+        "node": 101186,
+        "entry": 124985,
+        "rank": 1
+      },
+      "125010": {
+        "tree": "spec",
+        "name": "Revolving Whirl",
+        "node": 101203,
+        "entry": 125010,
+        "rank": 1
+      },
+      "125013": {
+        "tree": "spec",
+        "name": "Weapon of Wind",
+        "node": 101206,
+        "entry": 125013,
+        "rank": 1
+      },
+      "134452": {
+        "tree": "spec",
+        "name": "Whirling Dragon Punch",
+        "node": 101207,
+        "entry": 134452,
+        "rank": 1
+      },
+      "125017": {
+        "tree": "spec",
+        "name": "Xuen's Battlegear",
+        "node": 101210,
+        "entry": 125017,
+        "rank": 1
+      },
+      "125018": {
+        "tree": "spec",
+        "name": "Crane Vortex",
+        "node": 101211,
+        "entry": 125018,
+        "rank": 1
+      },
+      "125020": {
+        "tree": "spec",
+        "name": "Sunfire Spiral",
+        "node": 101213,
+        "entry": 125020,
+        "rank": 1
+      },
+      "125021": {
+        "tree": "spec",
+        "name": "Inner Peace",
+        "node": 101214,
+        "entry": 125021,
+        "rank": 1
+      },
+      "125022": {
+        "tree": "spec",
+        "name": "Combo Breaker",
+        "node": 101215,
+        "entry": 125022,
+        "rank": 1
+      },
+      "125023": {
+        "tree": "spec",
+        "name": "Hit Combo",
+        "node": 101216,
+        "entry": 125023,
+        "rank": 1
+      },
+      "125025": {
+        "tree": "spec",
+        "name": "Combat Wisdom",
+        "node": 101217,
+        "entry": 125025,
+        "rank": 1
+      },
+      "125026": {
+        "tree": "spec",
+        "name": "Fists of Fury",
+        "node": 101218,
+        "entry": 125026,
+        "rank": 1
+      },
+      "125033": {
+        "tree": "hero",
+        "name": "Aspect of Harmony",
+        "node": 101223,
+        "entry": 125033,
+        "rank": 1
+      },
+      "125047": {
+        "tree": "selection",
+        "name": "0",
+        "node": 101232,
+        "entry": 125047,
+        "rank": 1
+      },
+      "125050": {
+        "tree": "hero",
+        "name": "Path of the Falling Star",
+        "node": 101234,
+        "entry": 125050,
+        "rank": 1
+      },
+      "125052": {
+        "tree": "hero",
+        "name": "Inner Compass",
+        "node": 101235,
+        "entry": 125052,
+        "rank": 1
+      },
+      "125054": {
+        "tree": "hero",
+        "name": "Temple Training",
+        "node": 101236,
+        "entry": 125054,
+        "rank": 1
+      },
+      "125055": {
+        "tree": "hero",
+        "name": "Chi-Ji's Swiftness",
+        "node": 101237,
+        "entry": 125055,
+        "rank": 1
+      },
+      "125056": {
+        "tree": "hero",
+        "name": "Jade Sanctuary",
+        "node": 101238,
+        "entry": 125056,
+        "rank": 1
+      },
+      "125058": {
+        "tree": "hero",
+        "name": "Unity Within",
+        "node": 101239,
+        "entry": 125058,
+        "rank": 1
+      },
+      "125061": {
+        "tree": "hero",
+        "name": "Courage of the White Tiger",
+        "node": 101242,
+        "entry": 125061,
+        "rank": 1
+      },
+      "125062": {
+        "tree": "hero",
+        "name": "Invoke Xuen, the White Tiger",
+        "node": 101243,
+        "entry": 125062,
+        "rank": 1
+      },
+      "125063": {
+        "tree": "hero",
+        "name": "Vigilant Watch",
+        "node": 101244,
+        "entry": 125063,
+        "rank": 1
+      },
+      "125065": {
+        "tree": "hero",
+        "name": "Whirling Steel",
+        "node": 101245,
+        "entry": 125065,
+        "rank": 1
+      },
+      "125066": {
+        "tree": "hero",
+        "name": "Martial Precision",
+        "node": 101246,
+        "entry": 125066,
+        "rank": 1
+      },
+      "125068": {
+        "tree": "hero",
+        "name": "Pride of Pandaria",
+        "node": 101247,
+        "entry": 125068,
+        "rank": 1
+      },
+      "125069": {
+        "tree": "hero",
+        "name": "Flurry Strikes",
+        "node": 101248,
+        "entry": 125069,
+        "rank": 1
+      },
+      "125070": {
+        "tree": "hero",
+        "name": "Veteran's Eye",
+        "node": 101249,
+        "entry": 125070,
+        "rank": 1
+      },
+      "125071": {
+        "tree": "hero",
+        "name": "One Versus Many",
+        "node": 101250,
+        "entry": 125071,
+        "rank": 1
+      },
+      "125072": {
+        "tree": "hero",
+        "name": "Efficient Training",
+        "node": 101251,
+        "entry": 125072,
+        "rank": 1
+      },
+      "125073": {
+        "tree": "hero",
+        "name": "Wisdom of the Wall",
+        "node": 101252,
+        "entry": 125073,
+        "rank": 1
+      },
+      "125074": {
+        "tree": "hero",
+        "name": "Against All Odds",
+        "node": 101253,
+        "entry": 125074,
+        "rank": 1
+      },
+      "125075": {
+        "tree": "hero",
+        "name": "Initiator's Edge",
+        "node": 101254,
+        "entry": 125075,
+        "rank": 1
+      },
+      "128711": {
+        "tree": "spec",
+        "name": "Skyfire Heel",
+        "node": 104128,
+        "entry": 128711,
+        "rank": 1
+      },
+      "128712": {
+        "tree": "spec",
+        "name": "Harmonic Combo",
+        "node": 104129,
+        "entry": 128712,
+        "rank": 1
+      },
+      "134543": {
+        "tree": "spec",
+        "name": "Rushing Wind Kick",
+        "node": 108946,
+        "entry": 134543,
+        "rank": 1
+      },
+      "135955": {
+        "tree": "hero",
+        "name": "Shado Over the Battlefield",
+        "node": 109697,
+        "entry": 135955,
+        "rank": 1
+      },
+      "135956": {
+        "tree": "hero",
+        "name": "Stand Ready",
+        "node": 109698,
+        "entry": 135956,
+        "rank": 1
+      },
+      "135957": {
+        "tree": "hero",
+        "name": "Weapons of the Wall",
+        "node": 109699,
+        "entry": 135957,
+        "rank": 1
+      },
+      "135958": {
+        "tree": "hero",
+        "name": "Flowing Wisdom",
+        "node": 109700,
+        "entry": 135958,
+        "rank": 1
+      },
+      "135959": {
+        "tree": "hero",
+        "name": "Heart of the Jade Serpent",
+        "node": 109701,
+        "entry": 135959,
+        "rank": 1
+      },
+      "136511": {
+        "tree": "class",
+        "name": "Vigorous Expulsion",
+        "node": 110020,
+        "entry": 136511,
+        "rank": 1
+      },
+      "136513": {
+        "tree": "class",
+        "name": "Profound Rebuttal",
+        "node": 110022,
+        "entry": 136513,
+        "rank": 1
+      },
+      "136515": {
+        "tree": "class",
+        "name": "Vivacious Vivification",
+        "node": 110023,
+        "entry": 136515,
+        "rank": 1
+      },
+      "136599": {
+        "tree": "class",
+        "name": "Spear Hand Strike",
+        "node": 110098,
+        "entry": 136599,
+        "rank": 1
+      },
+      "136747": {
+        "tree": "hero",
+        "name": "Strength of the Black Ox",
+        "node": 110211,
+        "entry": 136747,
+        "rank": 1
+      },
+      "136754": {
+        "tree": "hero",
+        "name": "Yu'lon's Avatar",
+        "node": 110218,
+        "entry": 136754,
+        "rank": 1
+      },
+      "136745": {
+        "tree": "hero",
+        "name": "Celestial Conduit",
+        "node": 110220,
+        "entry": 136745,
+        "rank": 1
+      },
+      "136744": {
+        "tree": "hero",
+        "name": "Xuen's Bond",
+        "node": 110221,
+        "entry": 136744,
+        "rank": 1
+      },
+      "137076": {
+        "tree": "spec",
+        "name": "Tigereye Brew",
+        "node": 110436,
+        "entry": 137076,
+        "rank": 0
+      }
+    },
+    "method_mplus": {
+      "124805": {
+        "tree": "spec",
+        "name": "Ferociousness",
+        "node": 101035,
+        "entry": 124805,
+        "rank": 2
+      },
+      "124806": {
+        "tree": "spec",
+        "name": "Sharp Reflexes",
+        "node": 101036,
+        "entry": 124806,
+        "rank": 1
+      },
+      "124807": {
+        "tree": "spec",
+        "name": "Ascension",
+        "node": 101037,
+        "entry": 124807,
+        "rank": 1
+      },
+      "124810": {
+        "tree": "spec",
+        "name": "Glory of the Dawn",
+        "node": 101039,
+        "entry": 124810,
+        "rank": 1
+      },
+      "124812": {
+        "tree": "spec",
+        "name": "Communion With Wind",
+        "node": 101041,
+        "entry": 124812,
+        "rank": 1
+      },
+      "124820": {
+        "tree": "spec",
+        "name": "Momentum Boost",
+        "node": 101048,
+        "entry": 124820,
+        "rank": 1
+      },
+      "124822": {
+        "tree": "spec",
+        "name": "Jade Ignition",
+        "node": 101050,
+        "entry": 124822,
+        "rank": 1
+      },
+      "124825": {
+        "tree": "spec",
+        "name": "Drinking Horn Cover",
+        "node": 101052,
+        "entry": 124825,
+        "rank": 1
+      },
+      "124826": {
+        "tree": "spec",
+        "name": "Zenith",
+        "node": 101053,
+        "entry": 124826,
+        "rank": 1
+      },
+      "124827": {
+        "tree": "spec",
+        "name": "Teachings of the Monastery",
+        "node": 101054,
+        "entry": 124827,
+        "rank": 1
+      },
+      "124828": {
+        "tree": "spec",
+        "name": "Dual Threat",
+        "node": 101055,
+        "entry": 124828,
+        "rank": 1
+      },
+      "134453": {
+        "tree": "spec",
+        "name": "Crashing Fists",
+        "node": 101057,
+        "entry": 134453,
+        "rank": 1
+      },
+      "124833": {
+        "tree": "spec",
+        "name": "Sequenced Strikes",
+        "node": 101059,
+        "entry": 124833,
+        "rank": 1
+      },
+      "124834": {
+        "tree": "spec",
+        "name": "Dance of Chi-Ji",
+        "node": 101060,
+        "entry": 124834,
+        "rank": 1
+      },
+      "124926": {
+        "tree": "class",
+        "name": "Ring of Peace",
+        "node": 101136,
+        "entry": 124926,
+        "rank": 1
+      },
+      "124927": {
+        "tree": "class",
+        "name": "Dance of the Wind",
+        "node": 101137,
+        "entry": 124927,
+        "rank": 1
+      },
+      "124930": {
+        "tree": "class",
+        "name": "Improved Touch of Death",
+        "node": 101140,
+        "entry": 124930,
+        "rank": 1
+      },
+      "124931": {
+        "tree": "class",
+        "name": "Pressure Points",
+        "node": 101141,
+        "entry": 124931,
+        "rank": 1
+      },
+      "124932": {
+        "tree": "class",
+        "name": "Paralysis",
+        "node": 101142,
+        "entry": 124932,
+        "rank": 1
+      },
+      "124933": {
+        "tree": "class",
+        "name": "Soothing Mist",
+        "node": 101143,
+        "entry": 124933,
+        "rank": 1
+      },
+      "124934": {
+        "tree": "class",
+        "name": "Elusive Mists",
+        "node": 101144,
+        "entry": 124934,
+        "rank": 1
+      },
+      "124936": {
+        "tree": "class",
+        "name": "Grace of the Crane",
+        "node": 101146,
+        "entry": 124936,
+        "rank": 1
+      },
+      "124937": {
+        "tree": "class",
+        "name": "Tiger's Lust",
+        "node": 101147,
+        "entry": 124937,
+        "rank": 1
+      },
+      "124941": {
+        "tree": "class",
+        "name": "Detox",
+        "node": 101150,
+        "entry": 124941,
+        "rank": 1
+      },
+      "124944": {
+        "tree": "class",
+        "name": "Calming Presence",
+        "node": 101153,
+        "entry": 124944,
+        "rank": 1
+      },
+      "124953": {
+        "tree": "class",
+        "name": "Tiger Fang",
+        "node": 101159,
+        "entry": 124953,
+        "rank": 1
+      },
+      "124956": {
+        "tree": "class",
+        "name": "Zenith Stomp",
+        "node": 101162,
+        "entry": 124956,
+        "rank": 1
+      },
+      "124960": {
+        "tree": "class",
+        "name": "Yu'lon's Grace",
+        "node": 101165,
+        "entry": 124960,
+        "rank": 1
+      },
+      "124961": {
+        "tree": "class",
+        "name": "Ferocity of Xuen",
+        "node": 101166,
+        "entry": 124961,
+        "rank": 2
+      },
+      "124962": {
+        "tree": "class",
+        "name": "Transcendence",
+        "node": 101167,
+        "entry": 124962,
+        "rank": 1
+      },
+      "124963": {
+        "tree": "class",
+        "name": "Lighter Than Air",
+        "node": 101168,
+        "entry": 124963,
+        "rank": 1
+      },
+      "124964": {
+        "tree": "class",
+        "name": "Chi Proficiency",
+        "node": 101169,
+        "entry": 124964,
+        "rank": 2
+      },
+      "124965": {
+        "tree": "class",
+        "name": "Flow of Chi",
+        "node": 101170,
+        "entry": 124965,
+        "rank": 1
+      },
+      "124968": {
+        "tree": "class",
+        "name": "Fortifying Brew",
+        "node": 101173,
+        "entry": 124968,
+        "rank": 1
+      },
+      "124969": {
+        "tree": "class",
+        "name": "Expeditious Fortification",
+        "node": 101174,
+        "entry": 124969,
+        "rank": 1
+      },
+      "124974": {
+        "tree": "class",
+        "name": "Chi Transfer",
+        "node": 101177,
+        "entry": 124974,
+        "rank": 1
+      },
+      "124975": {
+        "tree": "class",
+        "name": "Fatal Touch",
+        "node": 101178,
+        "entry": 124975,
+        "rank": 1
+      },
+      "124976": {
+        "tree": "class",
+        "name": "Martial Instincts",
+        "node": 101179,
+        "entry": 124976,
+        "rank": 2
+      },
+      "124980": {
+        "tree": "class",
+        "name": "Tiger Tail Sweep",
+        "node": 101182,
+        "entry": 124980,
+        "rank": 1
+      },
+      "124982": {
+        "tree": "class",
+        "name": "Celerity",
+        "node": 101183,
+        "entry": 124982,
+        "rank": 1
+      },
+      "124983": {
+        "tree": "class",
+        "name": "Ancient Arts",
+        "node": 101184,
+        "entry": 124983,
+        "rank": 1
+      },
+      "124984": {
+        "tree": "class",
+        "name": "Fast Feet",
+        "node": 101185,
+        "entry": 124984,
+        "rank": 1
+      },
+      "124985": {
+        "tree": "class",
+        "name": "Rising Sun Kick",
+        "node": 101186,
+        "entry": 124985,
+        "rank": 1
+      },
+      "125010": {
+        "tree": "spec",
+        "name": "Revolving Whirl",
+        "node": 101203,
+        "entry": 125010,
+        "rank": 1
+      },
+      "125013": {
+        "tree": "spec",
+        "name": "Weapon of Wind",
+        "node": 101206,
+        "entry": 125013,
+        "rank": 1
+      },
+      "134452": {
+        "tree": "spec",
+        "name": "Whirling Dragon Punch",
+        "node": 101207,
+        "entry": 134452,
+        "rank": 1
+      },
+      "125015": {
+        "tree": "spec",
+        "name": "Martial Agility",
+        "node": 101208,
+        "entry": 125015,
+        "rank": 1
+      },
+      "125017": {
+        "tree": "spec",
+        "name": "Xuen's Battlegear",
+        "node": 101210,
+        "entry": 125017,
+        "rank": 1
+      },
+      "125018": {
+        "tree": "spec",
+        "name": "Crane Vortex",
+        "node": 101211,
+        "entry": 125018,
+        "rank": 1
+      },
+      "125020": {
+        "tree": "spec",
+        "name": "Sunfire Spiral",
+        "node": 101213,
+        "entry": 125020,
+        "rank": 1
+      },
+      "125021": {
+        "tree": "spec",
+        "name": "Inner Peace",
+        "node": 101214,
+        "entry": 125021,
+        "rank": 1
+      },
+      "125022": {
+        "tree": "spec",
+        "name": "Combo Breaker",
+        "node": 101215,
+        "entry": 125022,
+        "rank": 1
+      },
+      "125023": {
+        "tree": "spec",
+        "name": "Hit Combo",
+        "node": 101216,
+        "entry": 125023,
+        "rank": 1
+      },
+      "125025": {
+        "tree": "spec",
+        "name": "Combat Wisdom",
+        "node": 101217,
+        "entry": 125025,
+        "rank": 1
+      },
+      "125026": {
+        "tree": "spec",
+        "name": "Fists of Fury",
+        "node": 101218,
+        "entry": 125026,
+        "rank": 1
+      },
+      "125047": {
+        "tree": "selection",
+        "name": "0",
+        "node": 101232,
+        "entry": 125047,
+        "rank": 1
+      },
+      "125050": {
+        "tree": "hero",
+        "name": "Path of the Falling Star",
+        "node": 101234,
+        "entry": 125050,
+        "rank": 1
+      },
+      "125052": {
+        "tree": "hero",
+        "name": "Inner Compass",
+        "node": 101235,
+        "entry": 125052,
+        "rank": 1
+      },
+      "125054": {
+        "tree": "hero",
+        "name": "Temple Training",
+        "node": 101236,
+        "entry": 125054,
+        "rank": 1
+      },
+      "125055": {
+        "tree": "hero",
+        "name": "Chi-Ji's Swiftness",
+        "node": 101237,
+        "entry": 125055,
+        "rank": 1
+      },
+      "125056": {
+        "tree": "hero",
+        "name": "Jade Sanctuary",
+        "node": 101238,
+        "entry": 125056,
+        "rank": 1
+      },
+      "125058": {
+        "tree": "hero",
+        "name": "Unity Within",
+        "node": 101239,
+        "entry": 125058,
+        "rank": 1
+      },
+      "125061": {
+        "tree": "hero",
+        "name": "Courage of the White Tiger",
+        "node": 101242,
+        "entry": 125061,
+        "rank": 1
+      },
+      "125062": {
+        "tree": "hero",
+        "name": "Invoke Xuen, the White Tiger",
+        "node": 101243,
+        "entry": 125062,
+        "rank": 1
+      },
+      "125069": {
+        "tree": "hero",
+        "name": "Flurry Strikes",
+        "node": 101248,
+        "entry": 125069,
+        "rank": 1
+      },
+      "128711": {
+        "tree": "spec",
+        "name": "Skyfire Heel",
+        "node": 104128,
+        "entry": 128711,
+        "rank": 1
+      },
+      "128712": {
+        "tree": "spec",
+        "name": "Harmonic Combo",
+        "node": 104129,
+        "entry": 128712,
+        "rank": 1
+      },
+      "134543": {
+        "tree": "spec",
+        "name": "Rushing Wind Kick",
+        "node": 108946,
+        "entry": 134543,
+        "rank": 1
+      },
+      "135958": {
+        "tree": "hero",
+        "name": "Flowing Wisdom",
+        "node": 109700,
+        "entry": 135958,
+        "rank": 1
+      },
+      "135959": {
+        "tree": "hero",
+        "name": "Heart of the Jade Serpent",
+        "node": 109701,
+        "entry": 135959,
+        "rank": 1
+      },
+      "136511": {
+        "tree": "class",
+        "name": "Vigorous Expulsion",
+        "node": 110020,
+        "entry": 136511,
+        "rank": 1
+      },
+      "136514": {
+        "tree": "class",
+        "name": "Strength of Spirit",
+        "node": 110022,
+        "entry": 136514,
+        "rank": 1
+      },
+      "136515": {
+        "tree": "class",
+        "name": "Vivacious Vivification",
+        "node": 110023,
+        "entry": 136515,
+        "rank": 1
+      },
+      "136562": {
+        "tree": "hero",
+        "name": "Celestial Conduit",
+        "node": 110067,
+        "entry": 136562,
+        "rank": 1
+      },
+      "136599": {
+        "tree": "class",
+        "name": "Spear Hand Strike",
+        "node": 110098,
+        "entry": 136599,
+        "rank": 1
+      },
+      "136747": {
+        "tree": "hero",
+        "name": "Strength of the Black Ox",
+        "node": 110211,
+        "entry": 136747,
+        "rank": 1
+      },
+      "136754": {
+        "tree": "hero",
+        "name": "Yu'lon's Avatar",
+        "node": 110218,
+        "entry": 136754,
+        "rank": 1
+      },
+      "136745": {
+        "tree": "hero",
+        "name": "Celestial Conduit",
+        "node": 110220,
+        "entry": 136745,
+        "rank": 1
+      },
+      "136744": {
+        "tree": "hero",
+        "name": "Xuen's Bond",
+        "node": 110221,
+        "entry": 136744,
+        "rank": 1
+      },
+      "137076": {
+        "tree": "spec",
+        "name": "Tigereye Brew",
+        "node": 110436,
+        "entry": 137076,
+        "rank": 0
+      }
+    },
+    "icy_mplus": {
+      "124805": {
+        "tree": "spec",
+        "name": "Ferociousness",
+        "node": 101035,
+        "entry": 124805,
+        "rank": 2
+      },
+      "124806": {
+        "tree": "spec",
+        "name": "Sharp Reflexes",
+        "node": 101036,
+        "entry": 124806,
+        "rank": 1
+      },
+      "124807": {
+        "tree": "spec",
+        "name": "Ascension",
+        "node": 101037,
+        "entry": 124807,
+        "rank": 1
+      },
+      "124810": {
+        "tree": "spec",
+        "name": "Glory of the Dawn",
+        "node": 101039,
+        "entry": 124810,
+        "rank": 1
+      },
+      "124812": {
+        "tree": "spec",
+        "name": "Communion With Wind",
+        "node": 101041,
+        "entry": 124812,
+        "rank": 1
+      },
+      "124820": {
+        "tree": "spec",
+        "name": "Momentum Boost",
+        "node": 101048,
+        "entry": 124820,
+        "rank": 1
+      },
+      "124822": {
+        "tree": "spec",
+        "name": "Jade Ignition",
+        "node": 101050,
+        "entry": 124822,
+        "rank": 1
+      },
+      "124825": {
+        "tree": "spec",
+        "name": "Drinking Horn Cover",
+        "node": 101052,
+        "entry": 124825,
+        "rank": 1
+      },
+      "124826": {
+        "tree": "spec",
+        "name": "Zenith",
+        "node": 101053,
+        "entry": 124826,
+        "rank": 1
+      },
+      "124827": {
+        "tree": "spec",
+        "name": "Teachings of the Monastery",
+        "node": 101054,
+        "entry": 124827,
+        "rank": 1
+      },
+      "124828": {
+        "tree": "spec",
+        "name": "Dual Threat",
+        "node": 101055,
+        "entry": 124828,
+        "rank": 1
+      },
+      "124829": {
+        "tree": "spec",
+        "name": "Energy Burst",
+        "node": 101056,
+        "entry": 124829,
+        "rank": 1
+      },
+      "134453": {
+        "tree": "spec",
+        "name": "Crashing Fists",
+        "node": 101057,
+        "entry": 134453,
+        "rank": 1
+      },
+      "124833": {
+        "tree": "spec",
+        "name": "Sequenced Strikes",
+        "node": 101059,
+        "entry": 124833,
+        "rank": 1
+      },
+      "124834": {
+        "tree": "spec",
+        "name": "Dance of Chi-Ji",
+        "node": 101060,
+        "entry": 124834,
+        "rank": 1
+      },
+      "124926": {
+        "tree": "class",
+        "name": "Ring of Peace",
+        "node": 101136,
+        "entry": 124926,
+        "rank": 1
+      },
+      "124927": {
+        "tree": "class",
+        "name": "Dance of the Wind",
+        "node": 101137,
+        "entry": 124927,
+        "rank": 1
+      },
+      "124930": {
+        "tree": "class",
+        "name": "Improved Touch of Death",
+        "node": 101140,
+        "entry": 124930,
+        "rank": 1
+      },
+      "124932": {
+        "tree": "class",
+        "name": "Paralysis",
+        "node": 101142,
+        "entry": 124932,
+        "rank": 1
+      },
+      "124936": {
+        "tree": "class",
+        "name": "Grace of the Crane",
+        "node": 101146,
+        "entry": 124936,
+        "rank": 1
+      },
+      "124937": {
+        "tree": "class",
+        "name": "Tiger's Lust",
+        "node": 101147,
+        "entry": 124937,
+        "rank": 1
+      },
+      "124941": {
+        "tree": "class",
+        "name": "Detox",
+        "node": 101150,
+        "entry": 124941,
+        "rank": 1
+      },
+      "124944": {
+        "tree": "class",
+        "name": "Calming Presence",
+        "node": 101153,
+        "entry": 124944,
+        "rank": 1
+      },
+      "124953": {
+        "tree": "class",
+        "name": "Tiger Fang",
+        "node": 101159,
+        "entry": 124953,
+        "rank": 1
+      },
+      "124954": {
+        "tree": "class",
+        "name": "Jade Walk",
+        "node": 101160,
+        "entry": 124954,
+        "rank": 1
+      },
+      "124956": {
+        "tree": "class",
+        "name": "Zenith Stomp",
+        "node": 101162,
+        "entry": 124956,
+        "rank": 1
+      },
+      "124960": {
+        "tree": "class",
+        "name": "Yu'lon's Grace",
+        "node": 101165,
+        "entry": 124960,
+        "rank": 1
+      },
+      "124961": {
+        "tree": "class",
+        "name": "Ferocity of Xuen",
+        "node": 101166,
+        "entry": 124961,
+        "rank": 2
+      },
+      "124962": {
+        "tree": "class",
+        "name": "Transcendence",
+        "node": 101167,
+        "entry": 124962,
+        "rank": 1
+      },
+      "124963": {
+        "tree": "class",
+        "name": "Lighter Than Air",
+        "node": 101168,
+        "entry": 124963,
+        "rank": 1
+      },
+      "124964": {
+        "tree": "class",
+        "name": "Chi Proficiency",
+        "node": 101169,
+        "entry": 124964,
+        "rank": 2
+      },
+      "124965": {
+        "tree": "class",
+        "name": "Flow of Chi",
+        "node": 101170,
+        "entry": 124965,
+        "rank": 1
+      },
+      "124968": {
+        "tree": "class",
+        "name": "Fortifying Brew",
+        "node": 101173,
+        "entry": 124968,
+        "rank": 1
+      },
+      "124969": {
+        "tree": "class",
+        "name": "Expeditious Fortification",
+        "node": 101174,
+        "entry": 124969,
+        "rank": 1
+      },
+      "124975": {
+        "tree": "class",
+        "name": "Fatal Touch",
+        "node": 101178,
+        "entry": 124975,
+        "rank": 1
+      },
+      "124976": {
+        "tree": "class",
+        "name": "Martial Instincts",
+        "node": 101179,
+        "entry": 124976,
+        "rank": 2
+      },
+      "124980": {
+        "tree": "class",
+        "name": "Tiger Tail Sweep",
+        "node": 101182,
+        "entry": 124980,
+        "rank": 1
+      },
+      "124982": {
+        "tree": "class",
+        "name": "Celerity",
+        "node": 101183,
+        "entry": 124982,
+        "rank": 1
+      },
+      "124983": {
+        "tree": "class",
+        "name": "Ancient Arts",
+        "node": 101184,
+        "entry": 124983,
+        "rank": 2
+      },
+      "124984": {
+        "tree": "class",
+        "name": "Fast Feet",
+        "node": 101185,
+        "entry": 124984,
+        "rank": 1
+      },
+      "124985": {
+        "tree": "class",
+        "name": "Rising Sun Kick",
+        "node": 101186,
+        "entry": 124985,
+        "rank": 1
+      },
+      "125010": {
+        "tree": "spec",
+        "name": "Revolving Whirl",
+        "node": 101203,
+        "entry": 125010,
+        "rank": 1
+      },
+      "125013": {
+        "tree": "spec",
+        "name": "Weapon of Wind",
+        "node": 101206,
+        "entry": 125013,
+        "rank": 1
+      },
+      "134452": {
+        "tree": "spec",
+        "name": "Whirling Dragon Punch",
+        "node": 101207,
+        "entry": 134452,
+        "rank": 1
+      },
+      "125017": {
+        "tree": "spec",
+        "name": "Xuen's Battlegear",
+        "node": 101210,
+        "entry": 125017,
+        "rank": 1
+      },
+      "125018": {
+        "tree": "spec",
+        "name": "Crane Vortex",
+        "node": 101211,
+        "entry": 125018,
+        "rank": 1
+      },
+      "125020": {
+        "tree": "spec",
+        "name": "Sunfire Spiral",
+        "node": 101213,
+        "entry": 125020,
+        "rank": 1
+      },
+      "125021": {
+        "tree": "spec",
+        "name": "Inner Peace",
+        "node": 101214,
+        "entry": 125021,
+        "rank": 1
+      },
+      "125022": {
+        "tree": "spec",
+        "name": "Combo Breaker",
+        "node": 101215,
+        "entry": 125022,
+        "rank": 1
+      },
+      "125023": {
+        "tree": "spec",
+        "name": "Hit Combo",
+        "node": 101216,
+        "entry": 125023,
+        "rank": 1
+      },
+      "125025": {
+        "tree": "spec",
+        "name": "Combat Wisdom",
+        "node": 101217,
+        "entry": 125025,
+        "rank": 1
+      },
+      "125026": {
+        "tree": "spec",
+        "name": "Fists of Fury",
+        "node": 101218,
+        "entry": 125026,
+        "rank": 1
+      },
+      "125047": {
+        "tree": "selection",
+        "name": "0",
+        "node": 101232,
+        "entry": 125047,
+        "rank": 1
+      },
+      "125050": {
+        "tree": "hero",
+        "name": "Path of the Falling Star",
+        "node": 101234,
+        "entry": 125050,
+        "rank": 1
+      },
+      "125052": {
+        "tree": "hero",
+        "name": "Inner Compass",
+        "node": 101235,
+        "entry": 125052,
+        "rank": 1
+      },
+      "125054": {
+        "tree": "hero",
+        "name": "Temple Training",
+        "node": 101236,
+        "entry": 125054,
+        "rank": 1
+      },
+      "125055": {
+        "tree": "hero",
+        "name": "Chi-Ji's Swiftness",
+        "node": 101237,
+        "entry": 125055,
+        "rank": 1
+      },
+      "125057": {
+        "tree": "hero",
+        "name": "Niuzao's Protection",
+        "node": 101238,
+        "entry": 125057,
+        "rank": 1
+      },
+      "125058": {
+        "tree": "hero",
+        "name": "Unity Within",
+        "node": 101239,
+        "entry": 125058,
+        "rank": 1
+      },
+      "125061": {
+        "tree": "hero",
+        "name": "Courage of the White Tiger",
+        "node": 101242,
+        "entry": 125061,
+        "rank": 1
+      },
+      "125062": {
+        "tree": "hero",
+        "name": "Invoke Xuen, the White Tiger",
+        "node": 101243,
+        "entry": 125062,
+        "rank": 1
+      },
+      "128711": {
+        "tree": "spec",
+        "name": "Skyfire Heel",
+        "node": 104128,
+        "entry": 128711,
+        "rank": 1
+      },
+      "128712": {
+        "tree": "spec",
+        "name": "Harmonic Combo",
+        "node": 104129,
+        "entry": 128712,
+        "rank": 1
+      },
+      "134029": {
+        "tree": "class",
+        "name": "Diffuse Magic",
+        "node": 108540,
+        "entry": 134029,
+        "rank": 1
+      },
+      "134543": {
+        "tree": "spec",
+        "name": "Rushing Wind Kick",
+        "node": 108946,
+        "entry": 134543,
+        "rank": 1
+      },
+      "135958": {
+        "tree": "hero",
+        "name": "Flowing Wisdom",
+        "node": 109700,
+        "entry": 135958,
+        "rank": 1
+      },
+      "135959": {
+        "tree": "hero",
+        "name": "Heart of the Jade Serpent",
+        "node": 109701,
+        "entry": 135959,
+        "rank": 1
+      },
+      "136511": {
+        "tree": "class",
+        "name": "Vigorous Expulsion",
+        "node": 110020,
+        "entry": 136511,
+        "rank": 1
+      },
+      "136514": {
+        "tree": "class",
+        "name": "Strength of Spirit",
+        "node": 110022,
+        "entry": 136514,
+        "rank": 1
+      },
+      "136515": {
+        "tree": "class",
+        "name": "Vivacious Vivification",
+        "node": 110023,
+        "entry": 136515,
+        "rank": 1
+      },
+      "136518": {
+        "tree": "class",
+        "name": "Stillstep Coil",
+        "node": 110025,
+        "entry": 136518,
+        "rank": 1
+      },
+      "136599": {
+        "tree": "class",
+        "name": "Spear Hand Strike",
+        "node": 110098,
+        "entry": 136599,
+        "rank": 1
+      },
+      "136747": {
+        "tree": "hero",
+        "name": "Strength of the Black Ox",
+        "node": 110211,
+        "entry": 136747,
+        "rank": 1
+      },
+      "136754": {
+        "tree": "hero",
+        "name": "Yu'lon's Avatar",
+        "node": 110218,
+        "entry": 136754,
+        "rank": 1
+      },
+      "136745": {
+        "tree": "hero",
+        "name": "Celestial Conduit",
+        "node": 110220,
+        "entry": 136745,
+        "rank": 1
+      },
+      "136744": {
+        "tree": "hero",
+        "name": "Xuen's Bond",
+        "node": 110221,
+        "entry": 136744,
+        "rank": 1
+      },
+      "137076": {
+        "tree": "spec",
+        "name": "Tigereye Brew",
+        "node": 110436,
+        "entry": 137076,
+        "rank": 0
+      }
+    },
+    "user_short_cd": {
+      "124805": {
+        "tree": "spec",
+        "name": "Ferociousness",
+        "node": 101035,
+        "entry": 124805,
+        "rank": 2
+      },
+      "124806": {
+        "tree": "spec",
+        "name": "Sharp Reflexes",
+        "node": 101036,
+        "entry": 124806,
+        "rank": 1
+      },
+      "124807": {
+        "tree": "spec",
+        "name": "Ascension",
+        "node": 101037,
+        "entry": 124807,
+        "rank": 1
+      },
+      "124810": {
+        "tree": "spec",
+        "name": "Glory of the Dawn",
+        "node": 101039,
+        "entry": 124810,
+        "rank": 1
+      },
+      "124812": {
+        "tree": "spec",
+        "name": "Communion With Wind",
+        "node": 101041,
+        "entry": 124812,
+        "rank": 1
+      },
+      "124820": {
+        "tree": "spec",
+        "name": "Momentum Boost",
+        "node": 101048,
+        "entry": 124820,
+        "rank": 1
+      },
+      "124822": {
+        "tree": "spec",
+        "name": "Jade Ignition",
+        "node": 101050,
+        "entry": 124822,
+        "rank": 1
+      },
+      "124824": {
+        "tree": "spec",
+        "name": "Spiritual Focus",
+        "node": 101052,
+        "entry": 124824,
+        "rank": 1
+      },
+      "124826": {
+        "tree": "spec",
+        "name": "Zenith",
+        "node": 101053,
+        "entry": 124826,
+        "rank": 1
+      },
+      "124827": {
+        "tree": "spec",
+        "name": "Teachings of the Monastery",
+        "node": 101054,
+        "entry": 124827,
+        "rank": 1
+      },
+      "124828": {
+        "tree": "spec",
+        "name": "Dual Threat",
+        "node": 101055,
+        "entry": 124828,
+        "rank": 1
+      },
+      "124829": {
+        "tree": "spec",
+        "name": "Energy Burst",
+        "node": 101056,
+        "entry": 124829,
+        "rank": 1
+      },
+      "134453": {
+        "tree": "spec",
+        "name": "Crashing Fists",
+        "node": 101057,
+        "entry": 134453,
+        "rank": 1
+      },
+      "124833": {
+        "tree": "spec",
+        "name": "Sequenced Strikes",
+        "node": 101059,
+        "entry": 124833,
+        "rank": 1
+      },
+      "124834": {
+        "tree": "spec",
+        "name": "Dance of Chi-Ji",
+        "node": 101060,
+        "entry": 124834,
+        "rank": 1
+      },
+      "124926": {
+        "tree": "class",
+        "name": "Ring of Peace",
+        "node": 101136,
+        "entry": 124926,
+        "rank": 1
+      },
+      "124927": {
+        "tree": "class",
+        "name": "Dance of the Wind",
+        "node": 101137,
+        "entry": 124927,
+        "rank": 1
+      },
+      "124930": {
+        "tree": "class",
+        "name": "Improved Touch of Death",
+        "node": 101140,
+        "entry": 124930,
+        "rank": 1
+      },
+      "124931": {
+        "tree": "class",
+        "name": "Pressure Points",
+        "node": 101141,
+        "entry": 124931,
+        "rank": 1
+      },
+      "124932": {
+        "tree": "class",
+        "name": "Paralysis",
+        "node": 101142,
+        "entry": 124932,
+        "rank": 1
+      },
+      "124933": {
+        "tree": "class",
+        "name": "Soothing Mist",
+        "node": 101143,
+        "entry": 124933,
+        "rank": 1
+      },
+      "124934": {
+        "tree": "class",
+        "name": "Elusive Mists",
+        "node": 101144,
+        "entry": 124934,
+        "rank": 1
+      },
+      "124936": {
+        "tree": "class",
+        "name": "Grace of the Crane",
+        "node": 101146,
+        "entry": 124936,
+        "rank": 1
+      },
+      "124937": {
+        "tree": "class",
+        "name": "Tiger's Lust",
+        "node": 101147,
+        "entry": 124937,
+        "rank": 1
+      },
+      "124941": {
+        "tree": "class",
+        "name": "Detox",
+        "node": 101150,
+        "entry": 124941,
+        "rank": 1
+      },
+      "124944": {
+        "tree": "class",
+        "name": "Calming Presence",
+        "node": 101153,
+        "entry": 124944,
+        "rank": 1
+      },
+      "124947": {
+        "tree": "class",
+        "name": "Swift Art",
+        "node": 101155,
+        "entry": 124947,
+        "rank": 1
+      },
+      "124953": {
+        "tree": "class",
+        "name": "Tiger Fang",
+        "node": 101159,
+        "entry": 124953,
+        "rank": 1
+      },
+      "124956": {
+        "tree": "class",
+        "name": "Zenith Stomp",
+        "node": 101162,
+        "entry": 124956,
+        "rank": 1
+      },
+      "124960": {
+        "tree": "class",
+        "name": "Yu'lon's Grace",
+        "node": 101165,
+        "entry": 124960,
+        "rank": 1
+      },
+      "124961": {
+        "tree": "class",
+        "name": "Ferocity of Xuen",
+        "node": 101166,
+        "entry": 124961,
+        "rank": 2
+      },
+      "124962": {
+        "tree": "class",
+        "name": "Transcendence",
+        "node": 101167,
+        "entry": 124962,
+        "rank": 1
+      },
+      "124963": {
+        "tree": "class",
+        "name": "Lighter Than Air",
+        "node": 101168,
+        "entry": 124963,
+        "rank": 1
+      },
+      "124964": {
+        "tree": "class",
+        "name": "Chi Proficiency",
+        "node": 101169,
+        "entry": 124964,
+        "rank": 2
+      },
+      "124965": {
+        "tree": "class",
+        "name": "Flow of Chi",
+        "node": 101170,
+        "entry": 124965,
+        "rank": 1
+      },
+      "124968": {
+        "tree": "class",
+        "name": "Fortifying Brew",
+        "node": 101173,
+        "entry": 124968,
+        "rank": 1
+      },
+      "124969": {
+        "tree": "class",
+        "name": "Expeditious Fortification",
+        "node": 101174,
+        "entry": 124969,
+        "rank": 1
+      },
+      "124975": {
+        "tree": "class",
+        "name": "Fatal Touch",
+        "node": 101178,
+        "entry": 124975,
+        "rank": 1
+      },
+      "124976": {
+        "tree": "class",
+        "name": "Martial Instincts",
+        "node": 101179,
+        "entry": 124976,
+        "rank": 2
+      },
+      "124980": {
+        "tree": "class",
+        "name": "Tiger Tail Sweep",
+        "node": 101182,
+        "entry": 124980,
+        "rank": 1
+      },
+      "124982": {
+        "tree": "class",
+        "name": "Celerity",
+        "node": 101183,
+        "entry": 124982,
+        "rank": 1
+      },
+      "124983": {
+        "tree": "class",
+        "name": "Ancient Arts",
+        "node": 101184,
+        "entry": 124983,
+        "rank": 1
+      },
+      "124984": {
+        "tree": "class",
+        "name": "Fast Feet",
+        "node": 101185,
+        "entry": 124984,
+        "rank": 1
+      },
+      "124985": {
+        "tree": "class",
+        "name": "Rising Sun Kick",
+        "node": 101186,
+        "entry": 124985,
+        "rank": 1
+      },
+      "125010": {
+        "tree": "spec",
+        "name": "Revolving Whirl",
+        "node": 101203,
+        "entry": 125010,
+        "rank": 1
+      },
+      "125013": {
+        "tree": "spec",
+        "name": "Weapon of Wind",
+        "node": 101206,
+        "entry": 125013,
+        "rank": 1
+      },
+      "134452": {
+        "tree": "spec",
+        "name": "Whirling Dragon Punch",
+        "node": 101207,
+        "entry": 134452,
+        "rank": 1
+      },
+      "125017": {
+        "tree": "spec",
+        "name": "Xuen's Battlegear",
+        "node": 101210,
+        "entry": 125017,
+        "rank": 1
+      },
+      "125018": {
+        "tree": "spec",
+        "name": "Crane Vortex",
+        "node": 101211,
+        "entry": 125018,
+        "rank": 1
+      },
+      "125020": {
+        "tree": "spec",
+        "name": "Sunfire Spiral",
+        "node": 101213,
+        "entry": 125020,
+        "rank": 1
+      },
+      "125021": {
+        "tree": "spec",
+        "name": "Inner Peace",
+        "node": 101214,
+        "entry": 125021,
+        "rank": 1
+      },
+      "125022": {
+        "tree": "spec",
+        "name": "Combo Breaker",
+        "node": 101215,
+        "entry": 125022,
+        "rank": 1
+      },
+      "125023": {
+        "tree": "spec",
+        "name": "Hit Combo",
+        "node": 101216,
+        "entry": 125023,
+        "rank": 1
+      },
+      "125025": {
+        "tree": "spec",
+        "name": "Combat Wisdom",
+        "node": 101217,
+        "entry": 125025,
+        "rank": 1
+      },
+      "125026": {
+        "tree": "spec",
+        "name": "Fists of Fury",
+        "node": 101218,
+        "entry": 125026,
+        "rank": 1
+      },
+      "125033": {
+        "tree": "hero",
+        "name": "Aspect of Harmony",
+        "node": 101223,
+        "entry": 125033,
+        "rank": 1
+      },
+      "125047": {
+        "tree": "selection",
+        "name": "0",
+        "node": 101232,
+        "entry": 125047,
+        "rank": 1
+      },
+      "125050": {
+        "tree": "hero",
+        "name": "Path of the Falling Star",
+        "node": 101234,
+        "entry": 125050,
+        "rank": 1
+      },
+      "125052": {
+        "tree": "hero",
+        "name": "Inner Compass",
+        "node": 101235,
+        "entry": 125052,
+        "rank": 1
+      },
+      "125054": {
+        "tree": "hero",
+        "name": "Temple Training",
+        "node": 101236,
+        "entry": 125054,
+        "rank": 1
+      },
+      "125055": {
+        "tree": "hero",
+        "name": "Chi-Ji's Swiftness",
+        "node": 101237,
+        "entry": 125055,
+        "rank": 1
+      },
+      "125056": {
+        "tree": "hero",
+        "name": "Jade Sanctuary",
+        "node": 101238,
+        "entry": 125056,
+        "rank": 1
+      },
+      "125058": {
+        "tree": "hero",
+        "name": "Unity Within",
+        "node": 101239,
+        "entry": 125058,
+        "rank": 1
+      },
+      "125061": {
+        "tree": "hero",
+        "name": "Courage of the White Tiger",
+        "node": 101242,
+        "entry": 125061,
+        "rank": 1
+      },
+      "125062": {
+        "tree": "hero",
+        "name": "Invoke Xuen, the White Tiger",
+        "node": 101243,
+        "entry": 125062,
+        "rank": 1
+      },
+      "125069": {
+        "tree": "hero",
+        "name": "Flurry Strikes",
+        "node": 101248,
+        "entry": 125069,
+        "rank": 1
+      },
+      "128711": {
+        "tree": "spec",
+        "name": "Skyfire Heel",
+        "node": 104128,
+        "entry": 128711,
+        "rank": 1
+      },
+      "128712": {
+        "tree": "spec",
+        "name": "Harmonic Combo",
+        "node": 104129,
+        "entry": 128712,
+        "rank": 1
+      },
+      "134543": {
+        "tree": "spec",
+        "name": "Rushing Wind Kick",
+        "node": 108946,
+        "entry": 134543,
+        "rank": 1
+      },
+      "135958": {
+        "tree": "hero",
+        "name": "Flowing Wisdom",
+        "node": 109700,
+        "entry": 135958,
+        "rank": 1
+      },
+      "135959": {
+        "tree": "hero",
+        "name": "Heart of the Jade Serpent",
+        "node": 109701,
+        "entry": 135959,
+        "rank": 1
+      },
+      "136511": {
+        "tree": "class",
+        "name": "Vigorous Expulsion",
+        "node": 110020,
+        "entry": 136511,
+        "rank": 1
+      },
+      "136514": {
+        "tree": "class",
+        "name": "Strength of Spirit",
+        "node": 110022,
+        "entry": 136514,
+        "rank": 1
+      },
+      "136515": {
+        "tree": "class",
+        "name": "Vivacious Vivification",
+        "node": 110023,
+        "entry": 136515,
+        "rank": 1
+      },
+      "136599": {
+        "tree": "class",
+        "name": "Spear Hand Strike",
+        "node": 110098,
+        "entry": 136599,
+        "rank": 1
+      },
+      "136747": {
+        "tree": "hero",
+        "name": "Strength of the Black Ox",
+        "node": 110211,
+        "entry": 136747,
+        "rank": 1
+      },
+      "136754": {
+        "tree": "hero",
+        "name": "Yu'lon's Avatar",
+        "node": 110218,
+        "entry": 136754,
+        "rank": 1
+      },
+      "136745": {
+        "tree": "hero",
+        "name": "Celestial Conduit",
+        "node": 110220,
+        "entry": 136745,
+        "rank": 1
+      },
+      "136744": {
+        "tree": "hero",
+        "name": "Xuen's Bond",
+        "node": 110221,
+        "entry": 136744,
+        "rank": 1
+      },
+      "137076": {
+        "tree": "spec",
+        "name": "Tigereye Brew",
+        "node": 110436,
+        "entry": 137076,
+        "rank": 0
+      }
+    },
+    "user_short_cd_martial": {
+      "124805": {
+        "tree": "spec",
+        "name": "Ferociousness",
+        "node": 101035,
+        "entry": 124805,
+        "rank": 2
+      },
+      "124806": {
+        "tree": "spec",
+        "name": "Sharp Reflexes",
+        "node": 101036,
+        "entry": 124806,
+        "rank": 1
+      },
+      "124807": {
+        "tree": "spec",
+        "name": "Ascension",
+        "node": 101037,
+        "entry": 124807,
+        "rank": 1
+      },
+      "124810": {
+        "tree": "spec",
+        "name": "Glory of the Dawn",
+        "node": 101039,
+        "entry": 124810,
+        "rank": 1
+      },
+      "124812": {
+        "tree": "spec",
+        "name": "Communion With Wind",
+        "node": 101041,
+        "entry": 124812,
+        "rank": 1
+      },
+      "124820": {
+        "tree": "spec",
+        "name": "Momentum Boost",
+        "node": 101048,
+        "entry": 124820,
+        "rank": 1
+      },
+      "124822": {
+        "tree": "spec",
+        "name": "Jade Ignition",
+        "node": 101050,
+        "entry": 124822,
+        "rank": 1
+      },
+      "124824": {
+        "tree": "spec",
+        "name": "Spiritual Focus",
+        "node": 101052,
+        "entry": 124824,
+        "rank": 1
+      },
+      "124826": {
+        "tree": "spec",
+        "name": "Zenith",
+        "node": 101053,
+        "entry": 124826,
+        "rank": 1
+      },
+      "124827": {
+        "tree": "spec",
+        "name": "Teachings of the Monastery",
+        "node": 101054,
+        "entry": 124827,
+        "rank": 1
+      },
+      "124828": {
+        "tree": "spec",
+        "name": "Dual Threat",
+        "node": 101055,
+        "entry": 124828,
+        "rank": 1
+      },
+      "134453": {
+        "tree": "spec",
+        "name": "Crashing Fists",
+        "node": 101057,
+        "entry": 134453,
+        "rank": 1
+      },
+      "124833": {
+        "tree": "spec",
+        "name": "Sequenced Strikes",
+        "node": 101059,
+        "entry": 124833,
+        "rank": 1
+      },
+      "124834": {
+        "tree": "spec",
+        "name": "Dance of Chi-Ji",
+        "node": 101060,
+        "entry": 124834,
+        "rank": 1
+      },
+      "124926": {
+        "tree": "class",
+        "name": "Ring of Peace",
+        "node": 101136,
+        "entry": 124926,
+        "rank": 1
+      },
+      "124927": {
+        "tree": "class",
+        "name": "Dance of the Wind",
+        "node": 101137,
+        "entry": 124927,
+        "rank": 1
+      },
+      "124930": {
+        "tree": "class",
+        "name": "Improved Touch of Death",
+        "node": 101140,
+        "entry": 124930,
+        "rank": 1
+      },
+      "124931": {
+        "tree": "class",
+        "name": "Pressure Points",
+        "node": 101141,
+        "entry": 124931,
+        "rank": 1
+      },
+      "124932": {
+        "tree": "class",
+        "name": "Paralysis",
+        "node": 101142,
+        "entry": 124932,
+        "rank": 1
+      },
+      "124933": {
+        "tree": "class",
+        "name": "Soothing Mist",
+        "node": 101143,
+        "entry": 124933,
+        "rank": 1
+      },
+      "124934": {
+        "tree": "class",
+        "name": "Elusive Mists",
+        "node": 101144,
+        "entry": 124934,
+        "rank": 1
+      },
+      "124936": {
+        "tree": "class",
+        "name": "Grace of the Crane",
+        "node": 101146,
+        "entry": 124936,
+        "rank": 1
+      },
+      "124937": {
+        "tree": "class",
+        "name": "Tiger's Lust",
+        "node": 101147,
+        "entry": 124937,
+        "rank": 1
+      },
+      "124941": {
+        "tree": "class",
+        "name": "Detox",
+        "node": 101150,
+        "entry": 124941,
+        "rank": 1
+      },
+      "124944": {
+        "tree": "class",
+        "name": "Calming Presence",
+        "node": 101153,
+        "entry": 124944,
+        "rank": 1
+      },
+      "124947": {
+        "tree": "class",
+        "name": "Swift Art",
+        "node": 101155,
+        "entry": 124947,
+        "rank": 1
+      },
+      "124953": {
+        "tree": "class",
+        "name": "Tiger Fang",
+        "node": 101159,
+        "entry": 124953,
+        "rank": 1
+      },
+      "124956": {
+        "tree": "class",
+        "name": "Zenith Stomp",
+        "node": 101162,
+        "entry": 124956,
+        "rank": 1
+      },
+      "124960": {
+        "tree": "class",
+        "name": "Yu'lon's Grace",
+        "node": 101165,
+        "entry": 124960,
+        "rank": 1
+      },
+      "124961": {
+        "tree": "class",
+        "name": "Ferocity of Xuen",
+        "node": 101166,
+        "entry": 124961,
+        "rank": 2
+      },
+      "124962": {
+        "tree": "class",
+        "name": "Transcendence",
+        "node": 101167,
+        "entry": 124962,
+        "rank": 1
+      },
+      "124963": {
+        "tree": "class",
+        "name": "Lighter Than Air",
+        "node": 101168,
+        "entry": 124963,
+        "rank": 1
+      },
+      "124964": {
+        "tree": "class",
+        "name": "Chi Proficiency",
+        "node": 101169,
+        "entry": 124964,
+        "rank": 2
+      },
+      "124965": {
+        "tree": "class",
+        "name": "Flow of Chi",
+        "node": 101170,
+        "entry": 124965,
+        "rank": 1
+      },
+      "124968": {
+        "tree": "class",
+        "name": "Fortifying Brew",
+        "node": 101173,
+        "entry": 124968,
+        "rank": 1
+      },
+      "124969": {
+        "tree": "class",
+        "name": "Expeditious Fortification",
+        "node": 101174,
+        "entry": 124969,
+        "rank": 1
+      },
+      "124975": {
+        "tree": "class",
+        "name": "Fatal Touch",
+        "node": 101178,
+        "entry": 124975,
+        "rank": 1
+      },
+      "124976": {
+        "tree": "class",
+        "name": "Martial Instincts",
+        "node": 101179,
+        "entry": 124976,
+        "rank": 2
+      },
+      "124980": {
+        "tree": "class",
+        "name": "Tiger Tail Sweep",
+        "node": 101182,
+        "entry": 124980,
+        "rank": 1
+      },
+      "124982": {
+        "tree": "class",
+        "name": "Celerity",
+        "node": 101183,
+        "entry": 124982,
+        "rank": 1
+      },
+      "124983": {
+        "tree": "class",
+        "name": "Ancient Arts",
+        "node": 101184,
+        "entry": 124983,
+        "rank": 1
+      },
+      "124984": {
+        "tree": "class",
+        "name": "Fast Feet",
+        "node": 101185,
+        "entry": 124984,
+        "rank": 1
+      },
+      "124985": {
+        "tree": "class",
+        "name": "Rising Sun Kick",
+        "node": 101186,
+        "entry": 124985,
+        "rank": 1
+      },
+      "125010": {
+        "tree": "spec",
+        "name": "Revolving Whirl",
+        "node": 101203,
+        "entry": 125010,
+        "rank": 1
+      },
+      "125013": {
+        "tree": "spec",
+        "name": "Weapon of Wind",
+        "node": 101206,
+        "entry": 125013,
+        "rank": 1
+      },
+      "134452": {
+        "tree": "spec",
+        "name": "Whirling Dragon Punch",
+        "node": 101207,
+        "entry": 134452,
+        "rank": 1
+      },
+      "125015": {
+        "tree": "spec",
+        "name": "Martial Agility",
+        "node": 101208,
+        "entry": 125015,
+        "rank": 1
+      },
+      "125017": {
+        "tree": "spec",
+        "name": "Xuen's Battlegear",
+        "node": 101210,
+        "entry": 125017,
+        "rank": 1
+      },
+      "125018": {
+        "tree": "spec",
+        "name": "Crane Vortex",
+        "node": 101211,
+        "entry": 125018,
+        "rank": 1
+      },
+      "125020": {
+        "tree": "spec",
+        "name": "Sunfire Spiral",
+        "node": 101213,
+        "entry": 125020,
+        "rank": 1
+      },
+      "125021": {
+        "tree": "spec",
+        "name": "Inner Peace",
+        "node": 101214,
+        "entry": 125021,
+        "rank": 1
+      },
+      "125022": {
+        "tree": "spec",
+        "name": "Combo Breaker",
+        "node": 101215,
+        "entry": 125022,
+        "rank": 1
+      },
+      "125023": {
+        "tree": "spec",
+        "name": "Hit Combo",
+        "node": 101216,
+        "entry": 125023,
+        "rank": 1
+      },
+      "125025": {
+        "tree": "spec",
+        "name": "Combat Wisdom",
+        "node": 101217,
+        "entry": 125025,
+        "rank": 1
+      },
+      "125026": {
+        "tree": "spec",
+        "name": "Fists of Fury",
+        "node": 101218,
+        "entry": 125026,
+        "rank": 1
+      },
+      "125033": {
+        "tree": "hero",
+        "name": "Aspect of Harmony",
+        "node": 101223,
+        "entry": 125033,
+        "rank": 1
+      },
+      "125047": {
+        "tree": "selection",
+        "name": "0",
+        "node": 101232,
+        "entry": 125047,
+        "rank": 1
+      },
+      "125050": {
+        "tree": "hero",
+        "name": "Path of the Falling Star",
+        "node": 101234,
+        "entry": 125050,
+        "rank": 1
+      },
+      "125052": {
+        "tree": "hero",
+        "name": "Inner Compass",
+        "node": 101235,
+        "entry": 125052,
+        "rank": 1
+      },
+      "125054": {
+        "tree": "hero",
+        "name": "Temple Training",
+        "node": 101236,
+        "entry": 125054,
+        "rank": 1
+      },
+      "125055": {
+        "tree": "hero",
+        "name": "Chi-Ji's Swiftness",
+        "node": 101237,
+        "entry": 125055,
+        "rank": 1
+      },
+      "125056": {
+        "tree": "hero",
+        "name": "Jade Sanctuary",
+        "node": 101238,
+        "entry": 125056,
+        "rank": 1
+      },
+      "125058": {
+        "tree": "hero",
+        "name": "Unity Within",
+        "node": 101239,
+        "entry": 125058,
+        "rank": 1
+      },
+      "125061": {
+        "tree": "hero",
+        "name": "Courage of the White Tiger",
+        "node": 101242,
+        "entry": 125061,
+        "rank": 1
+      },
+      "125062": {
+        "tree": "hero",
+        "name": "Invoke Xuen, the White Tiger",
+        "node": 101243,
+        "entry": 125062,
+        "rank": 1
+      },
+      "125069": {
+        "tree": "hero",
+        "name": "Flurry Strikes",
+        "node": 101248,
+        "entry": 125069,
+        "rank": 1
+      },
+      "128711": {
+        "tree": "spec",
+        "name": "Skyfire Heel",
+        "node": 104128,
+        "entry": 128711,
+        "rank": 1
+      },
+      "128712": {
+        "tree": "spec",
+        "name": "Harmonic Combo",
+        "node": 104129,
+        "entry": 128712,
+        "rank": 1
+      },
+      "134543": {
+        "tree": "spec",
+        "name": "Rushing Wind Kick",
+        "node": 108946,
+        "entry": 134543,
+        "rank": 1
+      },
+      "135958": {
+        "tree": "hero",
+        "name": "Flowing Wisdom",
+        "node": 109700,
+        "entry": 135958,
+        "rank": 1
+      },
+      "135959": {
+        "tree": "hero",
+        "name": "Heart of the Jade Serpent",
+        "node": 109701,
+        "entry": 135959,
+        "rank": 1
+      },
+      "136511": {
+        "tree": "class",
+        "name": "Vigorous Expulsion",
+        "node": 110020,
+        "entry": 136511,
+        "rank": 1
+      },
+      "136514": {
+        "tree": "class",
+        "name": "Strength of Spirit",
+        "node": 110022,
+        "entry": 136514,
+        "rank": 1
+      },
+      "136515": {
+        "tree": "class",
+        "name": "Vivacious Vivification",
+        "node": 110023,
+        "entry": 136515,
+        "rank": 1
+      },
+      "136599": {
+        "tree": "class",
+        "name": "Spear Hand Strike",
+        "node": 110098,
+        "entry": 136599,
+        "rank": 1
+      },
+      "136747": {
+        "tree": "hero",
+        "name": "Strength of the Black Ox",
+        "node": 110211,
+        "entry": 136747,
+        "rank": 1
+      },
+      "136754": {
+        "tree": "hero",
+        "name": "Yu'lon's Avatar",
+        "node": 110218,
+        "entry": 136754,
+        "rank": 1
+      },
+      "136745": {
+        "tree": "hero",
+        "name": "Celestial Conduit",
+        "node": 110220,
+        "entry": 136745,
+        "rank": 1
+      },
+      "136744": {
+        "tree": "hero",
+        "name": "Xuen's Bond",
+        "node": 110221,
+        "entry": 136744,
+        "rank": 1
+      },
+      "137076": {
+        "tree": "spec",
+        "name": "Tigereye Brew",
+        "node": 110436,
+        "entry": 137076,
+        "rank": 0
+      }
+    }
+  }
+}

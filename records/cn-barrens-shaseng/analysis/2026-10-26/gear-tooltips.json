@@ -1,0 +1,66 @@
+{
+  "gem_240983": {
+    "source": "https://nether.wowhead.com/tooltip/item/240983?dataEnv=1&locale=4",
+    "retrieved_at": "2026-10-26T12:51:19.855919+08:00",
+    "response": {
+      "name": "费解之永歌钻石",
+      "quality": 4,
+      "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green",
+      "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">费解之永歌钻石</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><br>装备唯一：萨拉斯钻石（1）<!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->32 <!----> 主属性<!--i?240983:0:80:90:-15:951:0:0--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">6</span></div></td></tr></table>",
+      "spells": []
+    },
+    "plain_tooltip": "费解之永歌钻石 物品等级： 295 装备唯一：萨拉斯钻石（1） + 32 主属性 最大叠加: 200 售价: 6"
+  },
+  "gem_240892": {
+    "source": "https://nether.wowhead.com/tooltip/item/240892?dataEnv=1&locale=4",
+    "retrieved_at": "2026-10-26T12:51:20.667344+08:00",
+    "response": {
+      "name": "无瑕精湛榄石",
+      "quality": 3,
+      "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green",
+      "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕精湛榄石</b><!--nend--><!--ndstart--><br /><span style=\"color: #43E023\">榄石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->16 <!----> 急速和+<!--gem2-->7 <!----> 精通<!--i?240892:0:80:90:-15:476:208:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+      "spells": {
+        "436341": [
+          [
+            "",
+            "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+            ""
+          ]
+        ]
+      }
+    },
+    "plain_tooltip": "无瑕精湛榄石 榄石 物品等级： 295 + 16 急速和+ 7 精通 使用: 最大叠加: 200 售价: 2 60"
+  },
+  "gem_240908": {
+    "source": "https://nether.wowhead.com/tooltip/item/240908?dataEnv=1&locale=4",
+    "retrieved_at": "2026-10-26T12:51:21.653085+08:00",
+    "response": {
+      "name": "无瑕精湛榴石",
+      "quality": 3,
+      "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red",
+      "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕精湛榴石</b><!--nend--><!--ndstart--><br /><span style=\"color: #EA4B4B\">榴石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->16 <!----> 爆击和+<!--gem2-->7 <!----> 精通<!--i?240908:0:80:90:-15:476:208:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+      "spells": {
+        "436341": [
+          [
+            "",
+            "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+            ""
+          ]
+        ]
+      }
+    },
+    "plain_tooltip": "无瑕精湛榴石 榴石 物品等级： 295 + 16 爆击和+ 7 精通 使用: 最大叠加: 200 售价: 2 60"
+  },
+  "waist_331_cm": {
+    "source": "https://nether.wowhead.com/tooltip/item/244573?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8791:13836",
+    "retrieved_at": "2026-10-26T12:51:22.511957+08:00",
+    "response": {
+      "name": "银月城特工的多功能腰带",
+      "quality": 4,
+      "icon": "inv_belt_leather_questbloodelf_b_01",
+      "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">银月城特工的多功能腰带</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #19FF19\">潮汐制造</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->331</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腰部</td><th><!--scstart4:2--><span class=\"q1\">皮甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->108护甲</span><br><span><!--stat73-->+138 [敏捷 or 智力]</span><br><span><!--stat7-->+2,832 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->74暴击</span><br><span class=\"q2\">+<!--rtg49-->74精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br>品质：<img style=\"vertical-align: middle\" src=\"https://wow.zamimg.com/images/wow/TextureAtlas/live/professions-chaticon-quality-tier2.png\"><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">49</span> <span class=\"moneysilver\">3</span> <span class=\"moneycopper\">82</span></div></td></tr></table>",
+      "spells": []
+    },
+    "plain_tooltip": "银月城特工的多功能腰带 潮汐制造 物品等级： 331 拾取后绑定 腰部 皮甲 108护甲 +138 [敏捷 or 智力] +2,832 耐力 + 74暴击 + 74精通 耐久: 55 / 55 \b需要等级 90 品质： 售价: 49 3 82"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "slice-shoulder324-3000-26102911",
+  "started_at": "2026-10-29T15:09:39.138691+08:00",
+  "ended_at": "2026-10-29T15:09:46.711764+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 306343.51164155063,
+  "ci95": 508.1138264399468,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-10-26T12:56:38.2527842+08:00",
+  "simc_path": "E:\\github\\wow-skills\\records\\cn-barrens-shaseng\\analysis\\2026-10-26\\wcl-elite-profile.simc",
+  "data_environment": 1,
+  "locale": 4,
+  "equipped_average": 334.5,
+  "items": [
+    {
+      "slot": "head",
+      "item_id": 271519,
+      "bonus_ids": "6652/13335/12854/13696/13692/13698/1587",
+      "gem_ids": null,
+      "enchant_id": "8017",
+      "name": "美猴王的不屈面容",
+      "item_level": 334,
+      "upgrade_text": "神话 6/6",
+      "slot_type": "头部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "crit": 58,
+        "mastery": 142
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/271519?dataEnv=1&locale=4&bonus=6652:13335:12854:13696:13692:13698:1587",
+      "error": null
+    },
+    {
+      "slot": "neck",
+      "item_id": 268265,
+      "bonus_ids": "6652/13668/13334/13987/12856",
+      "gem_ids": "240983/240892",
+      "enchant_id": null,
+      "name": "亚基克星藏骨匣",
+      "item_level": 340,
+      "upgrade_text": "",
+      "slot_type": "颈部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "haste": 105,
+        "versatility": 105,
+        "crit": 105,
+        "mastery": 105
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/268265?dataEnv=1&locale=4&bonus=6652:13668:13334:13987:12856",
+      "error": null
+    },
+    {
+      "slot": "shoulder",
+      "item_id": 271517,
+      "bonus_ids": "13334/13694/6652/13697/12846",
+      "gem_ids": null,
+      "enchant_id": "8001",
+      "name": "美猴王流苏护肩",
+      "item_level": 321,
+      "upgrade_text": "英雄 6/6",
+      "slot_type": "肩部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "mastery": 45,
+        "haste": 98
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/271517?dataEnv=1&locale=4&bonus=13334:13694:6652:13697:12846",
+      "error": null
+    },
+    {
+      "slot": "back",
+      "item_id": 239656,
+      "bonus_ids": "12214/13667/12497/13751/14001/8960/12384/8793/13836",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "信徒的流丝罩袍",
+      "item_level": 331,
+      "upgrade_text": "",
+      "slot_type": "背部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "mastery": 56,
+        "haste": 56
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/239656?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8960:12384:8793:13836",
+      "error": null
+    },
+    {
+      "slot": "chest",
+      "item_id": 271522,
+      "bonus_ids": "13334/6652/14049/13690/13698/12854",
+      "gem_ids": null,
+      "enchant_id": "7987",
+      "name": "美猴王战衣",
+      "item_level": 334,
+      "upgrade_text": "神话 6/6",
+      "slot_type": "胸部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "mastery": 139,
+        "haste": 62
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/271522?dataEnv=1&locale=4&bonus=13334:6652:14049:13690:13698:12854",
+      "error": null
+    },
+    {
+      "slot": "wrist",
+      "item_id": 244576,
+      "bonus_ids": "12214/13667/13695/12497/13751/14001/8960/12384/8791/13836/13696",
+      "gem_ids": "240892",
+      "enchant_id": null,
+      "name": "银月城特工的偏斜腕甲",
+      "item_level": 331,
+      "upgrade_text": "",
+      "slot_type": "腕部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "crit": 56,
+        "mastery": 56
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/244576?dataEnv=1&locale=4&bonus=12214:13667:13695:12497:13751:14001:8960:12384:8791:13836:13696",
+      "error": null
+    },
+    {
+      "slot": "hands",
+      "item_id": 271520,
+      "bonus_ids": "13335/13691/6652/13697/12854",
+      "gem_ids": null,
+      "enchant_id": "8727",
+      "name": "美猴王的斗拳",
+      "item_level": 334,
+      "upgrade_text": "神话 6/6",
+      "slot_type": "手部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "versatility": 45,
+        "haste": 106
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/271520?dataEnv=1&locale=4&bonus=13335:13691:6652:13697:12854",
+      "error": null
+    },
+    {
+      "slot": "waist",
+      "item_id": 271516,
+      "bonus_ids": "13334/6652/12854/13696/1587",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "美猴王敏捷束带",
+      "item_level": 334,
+      "upgrade_text": "神话 6/6",
+      "slot_type": "腰部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "crit": 53,
+        "haste": 98
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/271516?dataEnv=1&locale=4&bonus=13334:6652:12854:13696:1587",
+      "error": null
+    },
+    {
+      "slot": "legs",
+      "item_id": 244574,
+      "bonus_ids": "12214/13667/12497/13751/14001/8793/13836",
+      "gem_ids": null,
+      "enchant_id": "8159",
+      "name": "银月城特工的护腿",
+      "item_level": 331,
+      "upgrade_text": "",
+      "slot_type": "腿部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "mastery": 99,
+        "haste": 99
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/244574?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8793:13836",
+      "error": null
+    },
+    {
+      "slot": "feet",
+      "item_id": 271521,
+      "bonus_ids": "6652/12854/13440/1587",
+      "gem_ids": null,
+      "enchant_id": "7963",
+      "name": "美猴王护胫",
+      "item_level": 334,
+      "upgrade_text": "神话 6/6",
+      "slot_type": "脚部",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "crit": 105,
+        "mastery": 46
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/271521?dataEnv=1&locale=4&bonus=6652:12854:13440:1587",
+      "error": null
+    },
+    {
+      "slot": "finger1",
+      "item_id": 268249,
+      "bonus_ids": "6652/13668/13335/12854",
+      "gem_ids": "240892",
+      "enchant_id": "7967",
+      "name": "邪恶炼金师指环",
+      "item_level": 334,
+      "upgrade_text": "神话 6/6",
+      "slot_type": "手指",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "crit": 73,
+        "mastery": 332
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/268249?dataEnv=1&locale=4&bonus=6652:13668:13335:12854",
+      "error": null
+    },
+    {
+      "slot": "finger2",
+      "item_id": 268252,
+      "bonus_ids": "42/13668/13335/12854",
+      "gem_ids": "240890",
+      "enchant_id": "7967",
+      "name": "顶级蛮兵爪戒",
+      "item_level": 334,
+      "upgrade_text": "神话 6/6",
+      "slot_type": "手指",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "crit": 338,
+        "haste": 67
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/268252?dataEnv=1&locale=4&bonus=42:13668:13335:12854",
+      "error": null
+    },
+    {
+      "slot": "trinket1",
+      "item_id": 270173,
+      "bonus_ids": "6652/13334/12856",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "祖尔金的处斩技法",
+      "item_level": 340,
+      "upgrade_text": "",
+      "slot_type": "饰品",
+      "inventory_type": null,
+      "secondary_ratings": {},
+      "source": "https://nether.wowhead.com/tooltip/item/270173?dataEnv=1&locale=4&bonus=6652:13334:12856",
+      "error": null
+    },
+    {
+      "slot": "trinket2",
+      "item_id": 270175,
+      "bonus_ids": "6652/13334/13696/12856",
+      "gem_ids": null,
+      "enchant_id": null,
+      "name": "乌拉特克贪婪之心",
+      "item_level": 340,
+      "upgrade_text": "",
+      "slot_type": "饰品",
+      "inventory_type": null,
+      "secondary_ratings": {
+        "crit": 147
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/270175?dataEnv=1&locale=4&bonus=6652:13334:13696:12856",
+      "error": null
+    },
+    {
+      "slot": "main_hand",
+      "item_id": 268215,
+      "bonus_ids": "6652/13334/13846/13696/12856",
+      "gem_ids": null,
+      "enchant_id": "8689",
+      "name": "深渊巢魔的长柄大斧",
+      "item_level": 340,
+      "upgrade_text": "",
+      "slot_type": "双手",
+      "inventory_type": "two_hand",
+      "secondary_ratings": {
+        "mastery": 206
+      },
+      "source": "https://nether.wowhead.com/tooltip/item/268215?dataEnv=1&locale=4&bonus=6652:13334:13846:13696:12856",
+      "error": null
+    }
+  ],
+  "limitations": "Tooltip lookup only; no gems/enchants/passives in ratings, no talent decoding or DPS simulation."
+}

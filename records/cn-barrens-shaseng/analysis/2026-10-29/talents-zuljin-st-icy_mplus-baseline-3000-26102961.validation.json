@@ -1,0 +1,21 @@
+{
+  "name": "talents-zuljin-st-icy_mplus-baseline-3000-26102961",
+  "started_at": "2026-10-29T18:38:50.470524+08:00",
+  "ended_at": "2026-10-29T18:38:53.936149+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 180877.05197270663,
+  "ci95": 179.01713087747794,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

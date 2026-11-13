@@ -1,0 +1,67 @@
+{
+  "candidate": "owned_tuned_mh",
+  "model": "slice",
+  "iterations_requested": 2000,
+  "seed": 26111011,
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "tier_count": 4,
+  "lining_count": 2,
+  "dps": 330612.35955695977,
+  "samples": 1999,
+  "ci95": 683.7615529593825,
+  "stats": {
+    "attribute": {
+      "strength": 267.0,
+      "agility": 2692.0,
+      "stamina": 44891.0,
+      "intellect": 620.0
+    },
+    "resources": {
+      "energy": 150.0,
+      "chi": 6.0
+    },
+    "stats": {
+      "attack_power": 2692.0,
+      "spell_crit": 0.30717391304347824,
+      "attack_crit": 0.30717391304347824,
+      "spell_haste": 0.8225836604972893,
+      "attack_haste": 0.8225836604972893,
+      "spell_cast_speed": 0.8225836604972893,
+      "auto_attack_speed": 0.6327566619209917,
+      "mastery_value": 0.9086175,
+      "damage_versatility": 0.019444444444444445,
+      "heal_versatility": 0.019444444444444445,
+      "mitigation_versatility": 0.009722222222222222,
+      "crit_rating": 769.0,
+      "crit_pct": 0.30717391304347824,
+      "haste_rating": 949.0,
+      "haste_pct": 0.21568181818181809,
+      "mastery_rating": 1432.0,
+      "mastery_pct": 0.9086175,
+      "versatility_rating": 105.0,
+      "versatility_pct": 0.019444444444444445,
+      "avoidance_rating": 56.0,
+      "avoidance_pct": 0.015217174083322888,
+      "speed_pct": 7.0,
+      "armor": 1144.0,
+      "dodge": 0.15479264664435255,
+      "parry": 0.03
+    }
+  },
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "native70575-slice-route_raid_shoulder-7000-26102921",
+  "started_at": "2026-10-29T15:49:23.072220+08:00",
+  "ended_at": "2026-10-29T15:49:51.391181+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 324913.6423658213,
+  "ci95": 362.499442800624,
+  "samples": 6999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "tuning-tendril-st-baseline-12000-26102951",
+  "started_at": "2026-10-29T17:57:41.684824+08:00",
+  "ended_at": "2026-10-29T17:58:08.286824+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 178771.45994985127,
+  "ci95": 85.33412110297274,
+  "samples": 11999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

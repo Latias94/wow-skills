@@ -1,0 +1,21 @@
+{
+  "name": "tuning-tendril-aoe-diamond_three_colors-12000-26102951",
+  "started_at": "2026-10-29T17:59:32.571705+08:00",
+  "ended_at": "2026-10-29T17:59:51.176247+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 747228.1786647835,
+  "ci95": 416.787044347968,
+  "samples": 11999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

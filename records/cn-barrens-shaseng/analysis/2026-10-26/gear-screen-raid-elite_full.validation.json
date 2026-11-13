@@ -1,0 +1,18 @@
+{
+  "name": "gear-screen-raid-elite_full",
+  "started_at": "2026-10-26T12:57:16.182441+08:00",
+  "ended_at": "2026-10-26T12:57:22.308089+08:00",
+  "exit_code": 0,
+  "accepted": true,
+  "valid_fight_style": [
+    true
+  ],
+  "severe": [],
+  "severe_in_text": false,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

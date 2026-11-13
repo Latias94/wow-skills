@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1236057,
+    "url": "https://nether.wowhead.com/tooltip/spell/1236057?dataEnv=1&locale=4",
+    "data": {
+      "name": "附魔靴子 - 山猫之敏",
+      "icon": "inv_12_profession_enchanting_enchantedvellum_blue",
+      "tooltip": "<table><tr><td><a class=\"whtt-name q3\" href=\"/cn/spell=1236057/附魔靴子-山猫之敏\"><b class=\"whtt-name q3\">附魔靴子 - 山猫之敏</b></a><br />2​秒 施法时间</td></tr></table><table><tr><td><span class=\"wowhead-tooltip-requirements\">需要 鞋</span><br />工具:<br /><div class=\"indent q1\"><a href=\"/cn/items?filter=91;230;0\">符文附魔棒</a></div>施法材料:<br /><div class=\"indent q1\"><a href=\"/cn/item=236951/狂野魔法微粒\">狂野魔法微粒</a>&nbsp;(10), <a href=\"/cn/item=238523/锐锋犬齿\">锐锋犬齿</a>, <a href=\"/cn/item=251285/石化之根\">石化之根</a>&nbsp;(2), <a href=\"/cn/item=243599/永歌之尘\">永歌之尘</a>&nbsp;(15), <a href=\"/cn/item=243602/光耀碎片\">光耀碎片</a>&nbsp;(3), <a href=\"/cn/item=243605/黎明水晶\">黎明水晶</a></div>附加材料：<br><div class=\"indent q1\"><a href=\"/cn/items?filter=243;388;0\">匠人之真（#388）</a></div>\n<div class=\"q\">永久性地为靴子附魔山猫之敏，使闪避提高15，耐力提高186点。不能对物品等级低于120的物品使用。<br /><br /><span style=\"color: #FFD200\">阿曼尼增强 - 狂战威势</span></div><br /><span style=\"color: #FFD200\">Specialization: </span>Elevating Equipment - Berserker Brawn<br /><br /><span class=\"q3\"><a href=\"/cn/item=243952/附魔靴子-山猫之敏\">附魔靴子 - 山猫之敏</a></span><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->80</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br><br><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1236057\" class=\"q2\">永久性地为靴子附魔山猫之敏，使闪避提高15，耐力提高186点。不能对物品等级低于120的物品使用。<br /><br /><span style=\"color: #FFD200\">阿曼尼增强 - 狂战威势</span> </a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->70<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">5</span></div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": 3,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": 11
+    }
+  },
+  {
+    "id": 1236069,
+    "url": "https://nether.wowhead.com/tooltip/spell/1236069?dataEnv=1&locale=4",
+    "data": {
+      "name": "附魔胸甲 - 世界之魂印记",
+      "icon": "inv_12_profession_enchanting_enchantedvellum_blue",
+      "tooltip": "<table><tr><td><a class=\"whtt-name q3\" href=\"/cn/spell=1236069/附魔胸甲-世界之魂印记\"><b class=\"whtt-name q3\">附魔胸甲 - 世界之魂印记</b></a><table width=\"100%\"><tr><td>2​秒 施法时间</td><th>2 <span class=\"tooltip-multiskill-icon\"></span></th></tr></table></td></tr></table><table><tr><td><span class=\"wowhead-tooltip-requirements\">需要 胸, 胸</span><br />工具:<br /><div class=\"indent q1\"><a href=\"/cn/items?filter=91;230;0\">符文附魔棒</a></div>施法材料:<br /><div class=\"indent q1\"><a href=\"/cn/item=236950/原始能量微粒\">原始能量微粒</a>&nbsp;(5), <a href=\"/cn/item=238529/威风皮毛\">威风皮毛</a>, <a href=\"/cn/item=251285/石化之根\">石化之根</a>&nbsp;(2), <a href=\"/cn/item=243599/永歌之尘\">永歌之尘</a>&nbsp;(15), <a href=\"/cn/item=243602/光耀碎片\">光耀碎片</a>&nbsp;(10), <a href=\"/cn/item=243605/黎明水晶\">黎明水晶</a>&nbsp;(2)</div>附加材料：<br><div class=\"indent q1\"><a href=\"/cn/items?filter=243;388;0\">匠人之真（#388）</a></div>\n<div class=\"q\">永久性地为胸甲附魔世界之魂印记，使你的主要属性提高36点。不能对物品等级低于120的物品使用。<br /><br /><span style=\"color: #FFD200\">哈籁尼尔强化 - 艾泽拉斯武装</span></div><br /><span style=\"color: #FFD200\">Specialization: </span>Elevating Equipment - Azerothian Arms<br /><br /><span class=\"q3\"><a href=\"/cn/item=243976/附魔胸甲-世界之魂印记\">附魔胸甲 - 世界之魂印记</a></span><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->80</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br><br><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1236069\" class=\"q2\">永久性地为胸甲附魔世界之魂印记，使你的主要属性提高36点。不能对物品等级低于120的物品使用。<br /><br /><span style=\"color: #FFD200\">哈籁尼尔强化 - 艾泽拉斯武装</span> </a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->70<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">5</span></div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": 3,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": 11
+    }
+  },
+  {
+    "id": 1236084,
+    "url": "https://nether.wowhead.com/tooltip/spell/1236084?dataEnv=1&locale=4",
+    "data": {
+      "name": "附魔头盔 - 强化闪避符文",
+      "icon": "inv_12_profession_enchanting_enchantedvellum_blue",
+      "tooltip": "<table><tr><td><a class=\"whtt-name q3\" href=\"/cn/spell=1236084/附魔头盔-强化闪避符文\"><b class=\"whtt-name q3\">附魔头盔 - 强化闪避符文</b></a><table width=\"100%\"><tr><td>2​秒 施法时间</td><th>2 <span class=\"tooltip-multiskill-icon\"></span></th></tr></table></td></tr></table><table><tr><td><span class=\"wowhead-tooltip-requirements\">需要 头盔</span><br />工具:<br /><div class=\"indent q1\"><a href=\"/cn/items?filter=91;230;0\">符文附魔棒</a></div>施法材料:<br /><div class=\"indent q1\"><a href=\"/cn/item=236949/圣光微粒\">圣光微粒</a>&nbsp;(20), <a href=\"/cn/item=251285/石化之根\">石化之根</a>&nbsp;(2), <a href=\"/cn/item=243599/永歌之尘\">永歌之尘</a>&nbsp;(20), <a href=\"/cn/item=243602/光耀碎片\">光耀碎片</a>&nbsp;(10), <a href=\"/cn/item=243605/黎明水晶\">黎明水晶</a>&nbsp;(2)</div>附加材料：<br><div class=\"indent q1\"><a href=\"/cn/items?filter=243;388;0\">匠人之真（#388）</a></div>\n<div class=\"q\">永久性地为头盔附魔强化闪避符文，使闪避提高30。在至暗之夜区域户外击败敌人时为你提供速度爆发，每60秒最多触发一次。不能对物品等级低于120的物品使用。<br /><br /><span style=\"color: #FFD200\">萨拉斯天赋 - 永歌强化</span></div><br /><span style=\"color: #FFD200\">Drop:</span> Heavy Trunk<br /><span style=\"color: #FFD200\">Zone:</span> Delves<br /><br /><span class=\"q3\"><a href=\"/cn/item=244006/附魔头盔-强化闪避符文\">附魔头盔 - 强化闪避符文</a></span><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->80</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br><br><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1236084\" class=\"q2\">永久性地为头盔附魔强化闪避符文，使闪避提高30。在至暗之夜区域户外击败敌人时为你提供速度爆发，每60秒最多触发一次。不能对物品等级低于120的物品使用。<br /><br /><span style=\"color: #FFD200\">萨拉斯天赋 - 永歌强化</span> </a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->70<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">5</span></div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": 3,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": 11
+    }
+  },
+  {
+    "id": 1237008,
+    "url": "https://nether.wowhead.com/tooltip/spell/1237008?dataEnv=1&locale=4",
+    "data": {
+      "name": "萨拉斯凤凰之油",
+      "icon": "inv_12_profession_enchanting_manaoil_red",
+      "tooltip": "<table><tr><td><a class=\"whtt-name\" href=\"/cn/spell=1237008/萨拉斯凤凰之油\"><b class=\"whtt-name\">萨拉斯凤凰之油</b></a><div class=\"q0\">[Item Effect]</div>3​秒 施法时间</td></tr></table><table><tr><td><span class=\"wowhead-tooltip-requirements\">需要 主手, 副手, 单手, 双手, 远程, 远程</span><div class=\"q\">为你的武器涂上萨拉斯凤凰之油，使你的爆击和急速提高13，持续120分钟。<br /><br />不能对物品等级低于120的物品使用。</div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": -1,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": -26
+    }
+  },
+  {
+    "id": 1243976,
+    "url": "https://nether.wowhead.com/tooltip/spell/1243976?dataEnv=1&locale=4",
+    "data": {
+      "name": "附加森林猎手的护甲片",
+      "icon": "inv_10_skinning_consumable_armorkit_color2",
+      "tooltip": "<table><tr><td><a class=\"whtt-name\" href=\"/cn/spell=1243976/附加森林猎手的护甲片\"><b class=\"whtt-name\">附加森林猎手的护甲片</b></a><div class=\"q0\">[Item Effect]</div>3​秒 施法时间</td></tr></table><table><tr><td><span class=\"wowhead-tooltip-requirements\">需要 裤子</span><div class=\"q\">在你的腿部装备上附加一块森林猎手的护甲片，永久使该装备的敏捷或力量提高41点。该装备也会额外获得115点耐力。</div></td></tr></table>",
+      "tooltip2": "",
+      "buff": "",
+      "quality": -1,
+      "spells": {},
+      "buffspells": {},
+      "completion_category": -26
+    }
+  }
+]

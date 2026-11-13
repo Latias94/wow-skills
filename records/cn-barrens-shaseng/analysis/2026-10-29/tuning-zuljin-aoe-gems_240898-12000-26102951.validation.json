@@ -1,0 +1,21 @@
+{
+  "name": "tuning-zuljin-aoe-gems_240898-12000-26102951",
+  "started_at": "2026-10-29T17:51:26.832015+08:00",
+  "ended_at": "2026-10-29T17:51:40.906184+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 714599.2847136902,
+  "ci95": 396.0954342489851,
+  "samples": 11999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

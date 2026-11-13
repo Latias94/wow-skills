@@ -1,0 +1,21 @@
+{
+  "name": "tuning-tendril-st-craft_back_hm-12000-26102951",
+  "started_at": "2026-10-29T17:58:36.373491+08:00",
+  "ended_at": "2026-10-29T17:59:08.513620+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 178818.27244503074,
+  "ci95": 84.82499306076204,
+  "samples": 11999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

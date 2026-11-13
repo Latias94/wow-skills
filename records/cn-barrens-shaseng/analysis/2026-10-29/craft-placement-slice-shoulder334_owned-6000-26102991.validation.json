@@ -1,0 +1,21 @@
+{
+  "name": "craft-placement-slice-shoulder334_owned-6000-26102991",
+  "started_at": "2026-10-29T20:37:36.124531+08:00",
+  "ended_at": "2026-10-29T20:37:48.829520+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 307640.47535556444,
+  "ci95": 364.3614463821504,
+  "samples": 5999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

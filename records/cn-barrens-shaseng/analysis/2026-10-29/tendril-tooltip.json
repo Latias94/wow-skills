@@ -1,0 +1,10 @@
+{
+  "url": "https://nether.wowhead.com/tooltip/item/281215?dataEnv=1&locale=4&ilvl=341",
+  "data": {
+    "name": "扭曲恐兽触须",
+    "quality": 4,
+    "icon": "8268563",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">扭曲恐兽触须</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗</span><br><span style=\"color: #00BF0D\">晋升毒液铸造：史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->341</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>饰品</td><th><!--scstart4:-4--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat71-->+191 [敏捷 or 力量 or 智力]</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1310404\" class=\"q2\">你的伤害有极高几率与触须产生共鸣，获得毁灭之力，使你的爆击提高<!--pts1:0:0:1310404:0.119862-->35<!---->，持续15秒。多次施加可以重叠生效。<br /><br />每5秒，你对新目标的第一次攻击必定获得3层毁灭之力。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;这截断肢散发着一股难以抑制的凶戾气息。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">53</span> <span class=\"moneysilver\">20</span> <span class=\"moneycopper\">4</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: [Kith'ix]</div><div class=\"whtt-extra whtt-dropchance\">掉落几率: 33.69%</div></td></tr></table>",
+    "spells": []
+  }
+}

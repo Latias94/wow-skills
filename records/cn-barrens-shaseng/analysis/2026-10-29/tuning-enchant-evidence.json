@@ -1,0 +1,1178 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "scope": {
+    "specialization": "windwalker",
+    "patch": "12.1.5",
+    "fixed_items": {
+      "shoulder": 272244,
+      "legs": 268225,
+      "waist": 268256,
+      "item_level": 334
+    },
+    "trinket_routes": [
+      "existing_zuljin_341",
+      "tentacle_341"
+    ],
+    "simulation_executed": false,
+    "dps_ranking_established": false,
+    "repository_commit_created": false,
+    "main_scripts_or_inputs_modified": false
+  },
+  "local_simc": {
+    "root": "E:/github/simc",
+    "commit": "710c2408bfd3ae4df71b8cd55cdf01f63fd6c926",
+    "working_tree_status_at_start": "clean",
+    "live_client_version": "12.1.5.70575",
+    "hotfix_date": "2026-10-28",
+    "hotfix_build": 70575,
+    "version_source": "engine/dbc/generated/client_data_version.inc",
+    "support_basis": "Static DBC and implementation inspection; no executable/runtime validation in this task.",
+    "enchantment_source": "engine/dbc/generated/spell_item_enchantment.inc",
+    "permanent_enchant_source": "engine/dbc/generated/permanent_enchant.inc",
+    "gem_source": "engine/dbc/generated/gem_data.inc",
+    "implementation_source": "engine/player/unique_gear_midnight.cpp"
+  },
+  "tooltip_context": {
+    "data_environment": 1,
+    "locale": 4,
+    "language": "zh-CN",
+    "character_level_for_weapon_values": 90,
+    "item_endpoint": "https://nether.wowhead.com/tooltip/item/{id}?dataEnv=1&locale=4",
+    "spell_endpoint": "https://nether.wowhead.com/tooltip/spell/{id}?dataEnv=1&locale=4",
+    "quality_policy": "Use finished quality-2 scrolls, not recipe default values.",
+    "id_policy": "enchant_id, item_id, recipe_spell_id and driver_spell_id are distinct namespaces."
+  },
+  "ring_enchants": [
+    {
+      "enchant_id": 7967,
+      "item_id": 243957,
+      "recipe_spell_id": 1236059,
+      "driver_spell_id": 1236701,
+      "quality": 2,
+      "name_zh": "附魔戒指 - 鹰眼神视",
+      "name_en": "Enchant Ring - Eyes of the Eagle",
+      "critical_strike_effectiveness_percent": 2,
+      "rating": null,
+      "support": "explicit_passive_handler",
+      "handler": "enchants::eyes_of_the_eagle",
+      "source_url": "https://nether.wowhead.com/tooltip/item/243957?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5118
+      }
+    },
+    {
+      "enchant_id": 8025,
+      "item_id": 244015,
+      "recipe_spell_id": 1236088,
+      "quality": 2,
+      "name_zh": "附魔戒指 - 银月城之捷",
+      "name_en": "Enchant Ring - Silvermoon's Alacrity",
+      "ratings": {
+        "haste": 29
+      },
+      "coefficient": 0.8623,
+      "support": "native_static_enchant",
+      "source_url": "https://nether.wowhead.com/tooltip/item/244015?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5176
+      }
+    },
+    {
+      "enchant_id": 7969,
+      "item_id": 243959,
+      "recipe_spell_id": 1236060,
+      "quality": 2,
+      "name_zh": "附魔戒指 - 祖尔金的精通",
+      "name_en": "Enchant Ring - Zul'jin's Mastery",
+      "ratings": {
+        "mastery": 29
+      },
+      "coefficient": 0.8623,
+      "support": "native_static_enchant",
+      "source_url": "https://nether.wowhead.com/tooltip/item/243959?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5120
+      }
+    },
+    {
+      "enchant_id": 7997,
+      "item_id": 243987,
+      "recipe_spell_id": 1236074,
+      "quality": 2,
+      "name_zh": "附魔戒指 - 自然之怒",
+      "name_en": "Enchant Ring - Nature's Fury",
+      "ratings": {
+        "crit": 29
+      },
+      "coefficient": 0.8623,
+      "support": "native_static_enchant",
+      "source_url": "https://nether.wowhead.com/tooltip/item/243987?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5148
+      }
+    },
+    {
+      "enchant_id": 8021,
+      "item_id": 244011,
+      "recipe_spell_id": 1236086,
+      "quality": 2,
+      "name_zh": "附魔戒指 - 萨拉斯急速",
+      "name_en": "Enchant Ring - Thalassian Haste",
+      "ratings": {
+        "haste": 24
+      },
+      "coefficient": 0.7136,
+      "support": "native_static_enchant",
+      "source_url": "https://nether.wowhead.com/tooltip/item/244011?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5172
+      }
+    },
+    {
+      "enchant_id": 7965,
+      "item_id": 243955,
+      "recipe_spell_id": 1236058,
+      "quality": 2,
+      "name_zh": "附魔戒指 - 阿曼尼精通",
+      "name_en": "Enchant Ring - Amani Mastery",
+      "ratings": {
+        "mastery": 24
+      },
+      "coefficient": 0.7136,
+      "support": "native_static_enchant",
+      "source_url": "https://nether.wowhead.com/tooltip/item/243955?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5116
+      }
+    },
+    {
+      "enchant_id": 7995,
+      "item_id": 243985,
+      "recipe_spell_id": 1236073,
+      "quality": 2,
+      "name_zh": "附魔戒指 - 自然之愤",
+      "name_en": "Enchant Ring - Nature's Wrath",
+      "ratings": {
+        "crit": 24
+      },
+      "coefficient": 0.7136,
+      "support": "native_static_enchant",
+      "source_url": "https://nether.wowhead.com/tooltip/item/243985?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5146
+      }
+    }
+  ],
+  "ring_constraints": {
+    "minimum_target_item_level": 120,
+    "restricted_to_delves": false,
+    "restricted_to_named_profession_region": false,
+    "static_max_scaling_level": 80,
+    "static_budget": 33.63146077,
+    "eyes_is_crit_chance": false,
+    "two_eyes_is_flat_four_percent_dps": false
+  },
+  "weapon_enchants": [
+    {
+      "enchant_id": 8689,
+      "item_id": 273072,
+      "recipe_spell_id": 1291694,
+      "driver_spell_id": 1297652,
+      "proc_driver_spell_id": 1297654,
+      "quality": 2,
+      "name_zh": "附魔武器 - 哈谢仪式",
+      "name_en": "Enchant Weapon - Rite of the Hash'ey",
+      "tooltip_rating": 139,
+      "rating_type": "random_secondary_favoring_current_highest_above_80_percent_health",
+      "duration_seconds": 15,
+      "support": "explicit_proc_handler",
+      "handler": "enchants::rite_of_the_hashey",
+      "screen_priority": "baseline",
+      "source_url": "https://nether.wowhead.com/tooltip/item/273072?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5340
+      }
+    },
+    {
+      "enchant_id": 8039,
+      "item_id": 244029,
+      "recipe_spell_id": 1236095,
+      "driver_spell_id": 1236742,
+      "quality": 2,
+      "name_zh": "附魔武器 - 朗多雷之锐",
+      "name_en": "Enchant Weapon - Acuity of the Ren'dorei",
+      "tooltip_primary_stat": 67,
+      "windwalker_stat": "agility",
+      "duration_seconds": 15,
+      "support": "explicit_proc_handler",
+      "handler": "enchants::stat_weapon_enchant",
+      "screen_priority": "first_optional_comparison",
+      "source_url": "https://nether.wowhead.com/tooltip/item/244029?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5190
+      }
+    },
+    {
+      "enchant_id": 7983,
+      "item_id": 243973,
+      "recipe_spell_id": 1236067,
+      "driver_spell_id": 1236728,
+      "quality": 2,
+      "name_zh": "附魔武器 - 狂战士之怒",
+      "name_en": "Enchant Weapon - Berserker's Rage",
+      "tooltip_ratings": {
+        "haste": 124
+      },
+      "duration_seconds": 15,
+      "support": "explicit_proc_handler",
+      "handler": "enchants::stat_weapon_enchant",
+      "screen_priority": "optional_fixed_secondary_sensitivity",
+      "source_url": "https://nether.wowhead.com/tooltip/item/243973?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5134
+      }
+    },
+    {
+      "enchant_id": 8041,
+      "item_id": 244031,
+      "recipe_spell_id": 1236097,
+      "driver_spell_id": 1236721,
+      "quality": 2,
+      "name_zh": "附魔武器 - 奥术精通",
+      "name_en": "Enchant Weapon - Arcane Mastery",
+      "tooltip_ratings": {
+        "mastery": 124
+      },
+      "duration_seconds": 15,
+      "support": "explicit_proc_handler",
+      "handler": "enchants::stat_weapon_enchant",
+      "screen_priority": "optional_fixed_secondary_sensitivity",
+      "source_url": "https://nether.wowhead.com/tooltip/item/244031?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5192
+      }
+    },
+    {
+      "enchant_id": 7981,
+      "item_id": 243971,
+      "recipe_spell_id": 1236066,
+      "driver_spell_id": 1236725,
+      "quality": 2,
+      "name_zh": "附魔武器 - 加亚莱的精准",
+      "name_en": "Enchant Weapon - Jan'alai's Precision",
+      "tooltip_ratings": {
+        "crit": 124
+      },
+      "duration_seconds": 15,
+      "support": "explicit_proc_handler",
+      "handler": "enchants::stat_weapon_enchant",
+      "screen_priority": "optional_fixed_secondary_sensitivity",
+      "source_url": "https://nether.wowhead.com/tooltip/item/243971?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5132
+      }
+    },
+    {
+      "enchant_id": 8037,
+      "item_id": 244027,
+      "recipe_spell_id": 1236094,
+      "driver_spell_id": 1236740,
+      "quality": 2,
+      "name_zh": "附魔武器 - 辛多雷之焰",
+      "name_en": "Enchant Weapon - Flames of the Sin'dorei",
+      "tooltip_fire_dot_total": 2456,
+      "dot_duration_seconds": 10,
+      "tooltip_fire_explosion_total": 5220,
+      "explosion_split_among_targets": true,
+      "support": "explicit_proc_handler",
+      "handler": "enchants::flames_of_the_sindorei",
+      "screen_priority": "low_for_current_stat_tuning",
+      "source_url": "https://nether.wowhead.com/tooltip/item/244027?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5188
+      }
+    },
+    {
+      "enchant_id": 7979,
+      "item_id": 243969,
+      "recipe_spell_id": 1236065,
+      "driver_spell_id": 1236734,
+      "quality": 2,
+      "name_zh": "附魔武器 - 哈尔拉兹之力",
+      "name_en": "Enchant Weapon - Strength of Halazzi",
+      "tooltip_bleed_total": 1893,
+      "duration_seconds": 18,
+      "support": "explicit_proc_handler",
+      "handler": "enchants::strength_of_halazzi",
+      "screen_priority": "low_for_current_stat_tuning",
+      "source_url": "https://nether.wowhead.com/tooltip/item/243969?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5130
+      }
+    }
+  ],
+  "weapon_constraints": {
+    "minimum_target_item_level": 120,
+    "restricted_to_delves": false,
+    "restricted_to_named_profession_region": false,
+    "additional_screen_mandatory_due_to_detected_support_issue": false,
+    "screen_priority_is_simulated_ranking": false,
+    "hashey_health_threshold_percent": 80,
+    "hashey_health_condition_option": "midnight.rite_of_the_hashey_uptime",
+    "hashey_health_condition_default": 0.6,
+    "health_condition_option_is_proc_uptime": false,
+    "health_condition_source": "engine/player/player.hpp:827",
+    "hashey_selection": "Configured fraction chooses current highest secondary; remaining fraction chooses randomly among four secondaries.",
+    "pre_12_1_5_forced_crit_expiration_applies_to_current_dbc": false,
+    "proc_values_are_tooltip_rounded": true,
+    "local_proc_value_examples": {
+      "8689": 139.29222,
+      "7983_8041_7981": 124.374015,
+      "8039": 66.800058
+    },
+    "dual_weapon_duplicate_handling_present": true,
+    "new_dual_weapon_configuration_validated": false
+  },
+  "gems": [
+    {
+      "item_id": 240898,
+      "name_zh": "无瑕致命紫晶",
+      "name_en": "Flawless Deadly Amethyst",
+      "quality": 2,
+      "ratings": {
+        "mastery": 16,
+        "crit": 7
+      },
+      "family_zh": "紫晶",
+      "family_desc_id": 14278,
+      "gem_property_id": 4376,
+      "internal_enchant_id": 8133,
+      "support": "native_static_gem",
+      "source_url": "https://nether.wowhead.com/tooltip/item/240898?dataEnv=1&locale=4",
+      "local_refs": [
+        {
+          "path": "engine/dbc/generated/item_data.inc",
+          "line": 175721
+        },
+        {
+          "path": "engine/dbc/generated/gem_data.inc",
+          "line": 2371
+        },
+        {
+          "path": "engine/dbc/generated/spell_item_enchantment.inc",
+          "line": 5274
+        }
+      ]
+    },
+    {
+      "item_id": 240900,
+      "name_zh": "无瑕迅捷紫晶",
+      "name_en": "Flawless Quick Amethyst",
+      "quality": 2,
+      "ratings": {
+        "mastery": 16,
+        "haste": 7
+      },
+      "family_zh": "紫晶",
+      "family_desc_id": 14278,
+      "gem_property_id": 4380,
+      "internal_enchant_id": 8137,
+      "support": "native_static_gem",
+      "source_url": "https://nether.wowhead.com/tooltip/item/240900?dataEnv=1&locale=4",
+      "local_refs": [
+        {
+          "path": "engine/dbc/generated/item_data.inc",
+          "line": 175723
+        },
+        {
+          "path": "engine/dbc/generated/gem_data.inc",
+          "line": 2375
+        },
+        {
+          "path": "engine/dbc/generated/spell_item_enchantment.inc",
+          "line": 5278
+        }
+      ]
+    },
+    {
+      "item_id": 240892,
+      "name_zh": "无瑕精湛榄石",
+      "name_en": "Flawless Masterful Peridot",
+      "quality": 2,
+      "ratings": {
+        "haste": 16,
+        "mastery": 7
+      },
+      "family_zh": "榄石",
+      "family_desc_id": 14262,
+      "gem_property_id": 4364,
+      "internal_enchant_id": 8121,
+      "support": "native_static_gem",
+      "source_url": "https://nether.wowhead.com/tooltip/item/240892?dataEnv=1&locale=4",
+      "local_refs": [
+        {
+          "path": "engine/dbc/generated/item_data.inc",
+          "line": 175715
+        },
+        {
+          "path": "engine/dbc/generated/gem_data.inc",
+          "line": 2359
+        },
+        {
+          "path": "engine/dbc/generated/spell_item_enchantment.inc",
+          "line": 5262
+        }
+      ]
+    },
+    {
+      "item_id": 240908,
+      "name_zh": "无瑕精湛榴石",
+      "name_en": "Flawless Masterful Garnet",
+      "quality": 2,
+      "ratings": {
+        "crit": 16,
+        "mastery": 7
+      },
+      "family_zh": "榴石",
+      "family_desc_id": 14276,
+      "gem_property_id": 4396,
+      "internal_enchant_id": 8153,
+      "support": "native_static_gem",
+      "source_url": "https://nether.wowhead.com/tooltip/item/240908?dataEnv=1&locale=4",
+      "local_refs": [
+        {
+          "path": "engine/dbc/generated/item_data.inc",
+          "line": 175731
+        },
+        {
+          "path": "engine/dbc/generated/gem_data.inc",
+          "line": 2391
+        },
+        {
+          "path": "engine/dbc/generated/spell_item_enchantment.inc",
+          "line": 5294
+        }
+      ]
+    },
+    {
+      "item_id": 240890,
+      "name_zh": "无瑕致命榄石",
+      "name_en": "Flawless Deadly Peridot",
+      "quality": 2,
+      "ratings": {
+        "haste": 16,
+        "crit": 7
+      },
+      "family_zh": "榄石",
+      "family_desc_id": 14262,
+      "gem_property_id": 4360,
+      "internal_enchant_id": 8117,
+      "support": "native_static_gem",
+      "source_url": "https://nether.wowhead.com/tooltip/item/240890?dataEnv=1&locale=4",
+      "local_refs": [
+        {
+          "path": "engine/dbc/generated/item_data.inc",
+          "line": 175713
+        },
+        {
+          "path": "engine/dbc/generated/gem_data.inc",
+          "line": 2355
+        },
+        {
+          "path": "engine/dbc/generated/spell_item_enchantment.inc",
+          "line": 5258
+        }
+      ]
+    },
+    {
+      "item_id": 240906,
+      "name_zh": "无瑕迅捷榴石",
+      "name_en": "Flawless Quick Garnet",
+      "quality": 2,
+      "ratings": {
+        "crit": 16,
+        "haste": 7
+      },
+      "family_zh": "榴石",
+      "family_desc_id": 14276,
+      "gem_property_id": 4392,
+      "internal_enchant_id": 8149,
+      "support": "native_static_gem",
+      "source_url": "https://nether.wowhead.com/tooltip/item/240906?dataEnv=1&locale=4",
+      "local_refs": [
+        {
+          "path": "engine/dbc/generated/item_data.inc",
+          "line": 175729
+        },
+        {
+          "path": "engine/dbc/generated/gem_data.inc",
+          "line": 2387
+        },
+        {
+          "path": "engine/dbc/generated/spell_item_enchantment.inc",
+          "line": 5290
+        }
+      ]
+    }
+  ],
+  "diamonds": [
+    {
+      "item_id": 240983,
+      "name_zh": "费解之永歌钻石",
+      "name_en": "Indecipherable Eversong Diamond",
+      "quality": 2,
+      "primary_stat": 32,
+      "gem_property_id": 4402,
+      "internal_enchant_id": 8552,
+      "support": "native_static_gem",
+      "counts_as_qualifying_color": false,
+      "unique_equipped_category_zh": "萨拉斯钻石",
+      "unique_equipped_max": 1,
+      "source_url": "https://nether.wowhead.com/tooltip/item/240983?dataEnv=1&locale=4",
+      "local_refs": [
+        {
+          "path": "engine/dbc/generated/item_data.inc",
+          "line": 175763
+        },
+        {
+          "path": "engine/dbc/generated/gem_data.inc",
+          "line": 2397
+        },
+        {
+          "path": "engine/dbc/generated/spell_item_enchantment.inc",
+          "line": 5308
+        }
+      ]
+    },
+    {
+      "item_id": 240967,
+      "name_zh": "强能之永歌钻石",
+      "name_en": "Powerful Eversong Diamond",
+      "quality": 2,
+      "primary_stat": 23,
+      "critical_strike_effectiveness_percent_per_unique_color": 0.15,
+      "gem_property_id": 4408,
+      "internal_enchant_id": 8556,
+      "driver_spell_id": 1258209,
+      "support": "explicit_passive_handler",
+      "handler": "enchants::powerful_eversong_diamond",
+      "counts_as_qualifying_color": false,
+      "unique_equipped_category_zh": "萨拉斯钻石",
+      "unique_equipped_max": 1,
+      "source_url": "https://nether.wowhead.com/tooltip/item/240967?dataEnv=1&locale=4",
+      "local_refs": [
+        {
+          "path": "engine/dbc/generated/item_data.inc",
+          "line": 175757
+        },
+        {
+          "path": "engine/dbc/generated/gem_data.inc",
+          "line": 2401
+        },
+        {
+          "path": "engine/dbc/generated/spell_item_enchantment.inc",
+          "line": 5312
+        }
+      ]
+    }
+  ],
+  "gem_constraints": {
+    "restricted_to_delves": false,
+    "restricted_to_named_profession_region": false,
+    "static_max_scaling_level": 80,
+    "static_budget": 33.63146077,
+    "secondary_coefficients": [
+      0.4757,
+      0.2081
+    ],
+    "total_secondary_rating_per_rare_gem": 23,
+    "qualifying_color_desc_ids": [
+      14262,
+      14276,
+      14277,
+      14278
+    ],
+    "qualifying_color_desc_ids_note": "Peridot 14262, Garnet 14276, Lapis 14277, Amethyst 14278; exact array transcribed from local source.",
+    "same_family_different_cuts_count_once": true,
+    "diamond_counts_as_additional_color": false,
+    "baseline_exported_gem_ids": [
+      240983,
+      240892,
+      240908,
+      240908
+    ],
+    "baseline_qualifying_colors": 2,
+    "diamond_only_swap_critical_strike_effectiveness_percent": 0.3,
+    "primary_stat_lost_on_diamond_swap": 9,
+    "max_colors_with_three_non_diamond_sockets": 3,
+    "max_effectiveness_percent_with_three_non_diamond_sockets": 0.45,
+    "global_max_qualifying_colors": 4,
+    "global_max_critical_strike_effectiveness_percent": 0.6,
+    "diamond_winner_established": false
+  },
+  "socket_check": {
+    "source": "engine/dbc/generated/item_bonus.inc",
+    "bonus_id_is_second_column": true,
+    "socket_type_enum": 6,
+    "socket_type_enum_source": "engine/dbc/data_enums.hh:84",
+    "bonus_13696": {
+      "row_id": 30785,
+      "type": 0,
+      "values": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "adds_socket": false
+    },
+    "bonus_13695": {
+      "row_id": 30782,
+      "type": 6,
+      "socket_count": 1,
+      "socket_color": 7,
+      "adds_socket": true
+    },
+    "additional_13695_rows": [
+      [
+        30783,
+        13695,
+        26,
+        5,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        30784,
+        13695,
+        9,
+        12,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "native_socket_counts": {
+      "271519": 0,
+      "244576": 0,
+      "271516": 0,
+      "268256": 0
+    },
+    "exact_live_export_tooltip_checks": [
+      {
+        "slot": "head",
+        "item_id": 271519,
+        "bonus_ids": "13334/6652/12854/13696/13847/13692/13698/1587",
+        "socket_markup_present": false,
+        "source_url": "https://nether.wowhead.com/tooltip/item/271519?dataEnv=1&locale=4&bonus=13334:6652:12854:13696:13847:13692:13698:1587"
+      },
+      {
+        "slot": "wrist",
+        "item_id": 244576,
+        "bonus_ids": "12214/13667/12497/13751/14001/8960/12384/8791/13836/13696",
+        "socket_markup_present": false,
+        "source_url": "https://nether.wowhead.com/tooltip/item/244576?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8960:12384:8791:13836:13696"
+      },
+      {
+        "slot": "waist",
+        "item_id": 271516,
+        "bonus_ids": "12846/13334/6652/13696/1574",
+        "socket_markup_present": false,
+        "source_url": "https://nether.wowhead.com/tooltip/item/271516?dataEnv=1&locale=4&bonus=12846:13334:6652:13696:1574"
+      }
+    ],
+    "recommendation": "Do not populate gem_id on the basis of bonus 13696; only an actual instance socket is valid."
+  },
+  "excluded_effects": [
+    {
+      "enchant_id": 8727,
+      "name_zh": "猎鹰猛击（哈谢战艺）",
+      "name_en": "Ancient Hash'ey Battle Art: Falco Strikes",
+      "application_spell_id": 1314402,
+      "driver_spell_id": 1315100,
+      "target_item_level_min": 266,
+      "target_item_level_max": 344,
+      "delve_only": true,
+      "eligible_for_mythic_plus_damage": false,
+      "eligible_for_raid_damage": false,
+      "local_dbc_entry_exists": true,
+      "dedicated_non_generated_implementation_found": false,
+      "support": "dbc_only_no_dedicated_handler_found",
+      "source_url": "https://nether.wowhead.com/tooltip/spell/1315100?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5345
+      }
+    },
+    {
+      "enchant_id": 8730,
+      "name_zh": "山猫锐眼（哈谢战艺）",
+      "name_en": "Ancient Hash'ey Battle Art: Eye of the Lynx",
+      "application_spell_id": 1315084,
+      "driver_spell_id": 1315099,
+      "target_item_level_min": 266,
+      "target_item_level_max": 344,
+      "delve_only": true,
+      "eligible_for_mythic_plus_damage": false,
+      "eligible_for_raid_damage": false,
+      "local_dbc_entry_exists": true,
+      "dedicated_non_generated_implementation_found": false,
+      "support": "dbc_only_no_dedicated_handler_found",
+      "source_url": "https://nether.wowhead.com/tooltip/spell/1315099?dataEnv=1&locale=4",
+      "local_enchant_ref": {
+        "path": "engine/dbc/generated/spell_item_enchantment.inc",
+        "line": 5348
+      }
+    }
+  ],
+  "guides": [
+    {
+      "title": "Method Windwalker Monk Stats, Races and Consumables",
+      "url": "https://www.method.gg/guides/windwalker-monk/stats-races-and-consumables",
+      "patch": "12.1.5",
+      "updated": "2026-10-14",
+      "ring_recommendation": "Eyes of the Eagle",
+      "weapon_recommendation": "Rite of the Hash'ey",
+      "diamond_recommendation": "Indecipherable Eversong Diamond"
+    },
+    {
+      "title": "Icy Veins Windwalker Monk Gems, Enchants and Consumables",
+      "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gems-enchants-consumables",
+      "patch": "12.1.5",
+      "updated": "2026-10-12",
+      "ring_recommendation": "Silvermoon's Alacrity or Nature's Fury, depending on other stats",
+      "weapon_recommendation": "Rite of the Hash'ey",
+      "diamond_recommendation": "Indecipherable Eversong Diamond"
+    }
+  ],
+  "official_patch_source": {
+    "url": "https://worldofwarcraft.blizzard.com/en-us/news/24304162",
+    "search_result_title": "12.1.5 Content Update Notes",
+    "search_result_release_date": "2026-10-13",
+    "direct_fetch_status": "403_forbidden",
+    "slug_retry_status": "403_forbidden",
+    "item_specific_hotfix_assertion_based_on_unread_page": false
+  },
+  "tool_trace": {
+    "date": "2026-10-29",
+    "timezone": "Asia/Shanghai",
+    "local_tools": [
+      "exec_command",
+      "rg",
+      "PowerShell Invoke-RestMethod",
+      "inline Python arithmetic",
+      "apply_patch"
+    ],
+    "mcp_service": "Search Service",
+    "mcp_tool": "web_run",
+    "trigger": "Current patch, class guide and live item/spell verification after local DBC inspection.",
+    "maximum_queries_per_request": 4,
+    "source_domains": [
+      "worldofwarcraft.blizzard.com",
+      "method.gg",
+      "icy-veins.com",
+      "nether.wowhead.com"
+    ],
+    "fallback": "Search-service tooltip opens failed; public live tooltip requests succeeded with Invoke-RestMethod.",
+    "official_page_retries": 1,
+    "rate_limit_backoff_required": false,
+    "ptr_numeric_sources_used": false,
+    "external_messages_sent": false,
+    "completed_at": "2026-10-29T17:56:18+08:00"
+  },
+  "local_evidence": [
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5118,
+      "record": "{ 7967,      0, -7,   0,  80, 120, 0,   0,   0, {   3,   0,   0 }, {    0,    0,    0 }, { 1236701,      0,      0 }, {  0.0000f,  0.0000f,  0.0000f },       0, \"Enchant Ring - Eyes of the Eagle |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5176,
+      "record": "{ 8025,      0, -7,   0,  80, 120, 0,   0,   0, {   5,   0,   0 }, {    0,    0,    0 }, {     36,      0,      0 }, {  0.8623f,  0.0000f,  0.0000f },       0, \"Enchant Ring - Silvermoon's Alacrity |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5120,
+      "record": "{ 7969,      0, -7,   0,  80, 120, 0,   0,   0, {   5,   0,   0 }, {    0,    0,    0 }, {     49,      0,      0 }, {  0.8623f,  0.0000f,  0.0000f },       0, \"Enchant Ring - Zul'jin's Mastery |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5148,
+      "record": "{ 7997,      0, -7,   0,  80, 120, 0,   0,   0, {   5,   0,   0 }, {    0,    0,    0 }, {     32,      0,      0 }, {  0.8623f,  0.0000f,  0.0000f },       0, \"Enchant Ring - Nature's Fury |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5172,
+      "record": "{ 8021,      0, -7,   0,  80, 120, 0,   0,   0, {   5,   0,   0 }, {    0,    0,    0 }, {     36,      0,      0 }, {  0.7136f,  0.0000f,  0.0000f },       0, \"Enchant Ring - Thalassian Haste |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5116,
+      "record": "{ 7965,      0, -7,   0,  80, 120, 0,   0,   0, {   5,   0,   0 }, {    0,    0,    0 }, {     49,      0,      0 }, {  0.7136f,  0.0000f,  0.0000f },       0, \"Enchant Ring - Amani Mastery |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5146,
+      "record": "{ 7995,      0, -7,   0,  80, 120, 0,   0,   0, {   5,   0,   0 }, {    0,    0,    0 }, {     32,      0,      0 }, {  0.7136f,  0.0000f,  0.0000f },       0, \"Enchant Ring - Nature's Wrath |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5340,
+      "record": "{ 8689,      0,  0,   0,  80, 120, 0,   0,   0, {   3,   0,   0 }, {    0,    0,    0 }, { 1297652,      0,      0 }, {  0.0000f,  0.0000f,  0.0000f },       0, \"Rite of the Hash'ey |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5190,
+      "record": "{ 8039,      0,  0,   0,  80, 120, 0,   0,   0, {   3,   0,   0 }, {    0,    0,    0 }, { 1236742,      0,      0 }, {  0.0000f,  0.0000f,  0.0000f },       0, \"Enchant Weapon - Acuity of the Ren'dorei |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5134,
+      "record": "{ 7983,      0,  0,   0,  80, 120, 0,   0,   0, {   3,   0,   0 }, {    0,    0,    0 }, { 1236728,      0,      0 }, {  0.0000f,  0.0000f,  0.0000f },       0, \"Enchant Weapon - Berserker's Rage |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5192,
+      "record": "{ 8041,      0,  0,   0,  80, 120, 0,   0,   0, {   3,   0,   0 }, {    0,    0,    0 }, { 1236721,      0,      0 }, {  0.0000f,  0.0000f,  0.0000f },       0, \"Enchant Weapon - Arcane Mastery |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5132,
+      "record": "{ 7981,      0,  0,   0,  80, 120, 0,   0,   0, {   3,   0,   0 }, {    0,    0,    0 }, { 1236725,      0,      0 }, {  0.0000f,  0.0000f,  0.0000f },       0, \"Enchant Weapon - Jan'alai's Precision |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5188,
+      "record": "{ 8037,      0,  0,   0,  80, 120, 0,   0,   0, {   3,   0,   0 }, {    0,    0,    0 }, { 1236740,      0,      0 }, {  0.0000f,  0.0000f,  0.0000f },       0, \"Enchant Weapon - Flames of the Sin'dorei |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5130,
+      "record": "{ 7979,      0,  0,   0,  80, 120, 0,   0,   0, {   3,   0,   0 }, {    0,    0,    0 }, { 1236734,      0,      0 }, {  0.0000f,  0.0000f,  0.0000f },       0, \"Enchant Weapon - Strength of Halazzi |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5345,
+      "record": "{ 8727,      0,  0,  90,  90, 266, 344,   0,   0, {   3,   0,   0 }, {    0,    0,    0 }, { 1315100,      0,      0 }, {  0.0000f,  0.0000f,  0.0000f }, 1314402, \"|cnIQ4:Ancient Hash'ey Battle Art: Falco Strikes|r\" },"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5348,
+      "record": "{ 8730,      0,  0,  90,  90, 266, 344,   0,   0, {   3,   0,   0 }, {    0,    0,    0 }, { 1315099,      0,      0 }, {  0.0000f,  0.0000f,  0.0000f }, 1315084, \"|cnIQ4:Ancient Hash'ey Battle Art: Eye of the Lynx|r\" },"
+    },
+    {
+      "path": "engine/dbc/generated/item_data.inc",
+      "line": 175721,
+      "record": "{ \"Flawless Deadly Amethyst\", 240898, 0x00000000, 0x00006000, 0x00, 295, 1, 0, 0, 3, 0, 3, 10, 0, 0, 0.000000f, 0.000000f, 0, 0, 0xffff, 0xffffffffffffffff, { 0, 0, 0 }, 4376, 0, 0, 0, 0, 2 },"
+    },
+    {
+      "path": "engine/dbc/generated/gem_data.inc",
+      "line": 2371,
+      "record": "{ 4376,  8133, 0x0000000e, 14278 }, // +$k1 Mastery & +$k2 Critical Strike"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5274,
+      "record": "{ 8133, 240898, -7,   0,  80, 80, 0,   0,   0, {   5,   5,   0 }, {    0,    0,    0 }, {     49,     32,      0 }, {  0.4757f,  0.2081f,  0.0000f },       0, \"+$k1 Mastery & +$k2 Critical Strike\" },"
+    },
+    {
+      "path": "engine/dbc/generated/item_data.inc",
+      "line": 175723,
+      "record": "{ \"Flawless Quick Amethyst\", 240900, 0x00000000, 0x00006000, 0x00, 295, 1, 0, 0, 3, 0, 3, 10, 0, 0, 0.000000f, 0.000000f, 0, 0, 0xffff, 0xffffffffffffffff, { 0, 0, 0 }, 4380, 0, 0, 0, 0, 2 },"
+    },
+    {
+      "path": "engine/dbc/generated/gem_data.inc",
+      "line": 2375,
+      "record": "{ 4380,  8137, 0x0000000e, 14278 }, // +$k1 Mastery & +$k2 Haste"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5278,
+      "record": "{ 8137, 240900, -7,   0,  80, 80, 0,   0,   0, {   5,   5,   0 }, {    0,    0,    0 }, {     49,     36,      0 }, {  0.4757f,  0.2081f,  0.0000f },       0, \"+$k1 Mastery & +$k2 Haste\"         },"
+    },
+    {
+      "path": "engine/dbc/generated/item_data.inc",
+      "line": 175715,
+      "record": "{ \"Flawless Masterful Peridot\", 240892, 0x00000000, 0x00006000, 0x00, 295, 1, 0, 0, 3, 0, 3, 10, 0, 0, 0.000000f, 0.000000f, 0, 0, 0xffff, 0xffffffffffffffff, { 0, 0, 0 }, 4364, 0, 0, 0, 0, 2 },"
+    },
+    {
+      "path": "engine/dbc/generated/gem_data.inc",
+      "line": 2359,
+      "record": "{ 4364,  8121, 0x0000000e, 14262 }, // +$k1 Haste & +$k2 Mastery"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5262,
+      "record": "{ 8121, 240892, -7,   0,  80, 80, 0,   0,   0, {   5,   5,   0 }, {    0,    0,    0 }, {     36,     49,      0 }, {  0.4757f,  0.2081f,  0.0000f },       0, \"+$k1 Haste & +$k2 Mastery\"         },"
+    },
+    {
+      "path": "engine/dbc/generated/item_data.inc",
+      "line": 175731,
+      "record": "{ \"Flawless Masterful Garnet\", 240908, 0x00000000, 0x00006000, 0x00, 295, 1, 0, 0, 3, 0, 3, 10, 0, 0, 0.000000f, 0.000000f, 0, 0, 0xffff, 0xffffffffffffffff, { 0, 0, 0 }, 4396, 0, 0, 0, 0, 2 },"
+    },
+    {
+      "path": "engine/dbc/generated/gem_data.inc",
+      "line": 2391,
+      "record": "{ 4396,  8153, 0x0000000e, 14276 }, // +$k1 Critical Strike & +$k2 Mastery"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5294,
+      "record": "{ 8153, 240908, -7,   0,  80, 80, 0,   0,   0, {   5,   5,   0 }, {    0,    0,    0 }, {     32,     49,      0 }, {  0.4757f,  0.2081f,  0.0000f },       0, \"+$k1 Critical Strike & +$k2 Mastery\" },"
+    },
+    {
+      "path": "engine/dbc/generated/item_data.inc",
+      "line": 175713,
+      "record": "{ \"Flawless Deadly Peridot\", 240890, 0x00000000, 0x00006000, 0x00, 295, 1, 0, 0, 3, 0, 3, 10, 0, 0, 0.000000f, 0.000000f, 0, 0, 0xffff, 0xffffffffffffffff, { 0, 0, 0 }, 4360, 0, 0, 0, 0, 2 },"
+    },
+    {
+      "path": "engine/dbc/generated/gem_data.inc",
+      "line": 2355,
+      "record": "{ 4360,  8117, 0x0000000e, 14262 }, // +$k1 Haste & +$k2 Critical Strike"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5258,
+      "record": "{ 8117, 240890, -7,   0,  80, 80, 0,   0,   0, {   5,   5,   0 }, {    0,    0,    0 }, {     36,     32,      0 }, {  0.4757f,  0.2081f,  0.0000f },       0, \"+$k1 Haste & +$k2 Critical Strike\" },"
+    },
+    {
+      "path": "engine/dbc/generated/item_data.inc",
+      "line": 175729,
+      "record": "{ \"Flawless Quick Garnet\", 240906, 0x00000000, 0x00006000, 0x00, 295, 1, 0, 0, 3, 0, 3, 10, 0, 0, 0.000000f, 0.000000f, 0, 0, 0xffff, 0xffffffffffffffff, { 0, 0, 0 }, 4392, 0, 0, 0, 0, 2 },"
+    },
+    {
+      "path": "engine/dbc/generated/gem_data.inc",
+      "line": 2387,
+      "record": "{ 4392,  8149, 0x0000000e, 14276 }, // +$k1 Critical Strike & +$k2 Haste"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5290,
+      "record": "{ 8149, 240906, -7,   0,  80, 80, 0,   0,   0, {   5,   5,   0 }, {    0,    0,    0 }, {     32,     36,      0 }, {  0.4757f,  0.2081f,  0.0000f },       0, \"+$k1 Critical Strike & +$k2 Haste\" },"
+    },
+    {
+      "path": "engine/dbc/generated/item_data.inc",
+      "line": 175763,
+      "record": "{ \"Indecipherable Eversong Diamond\", 240983, 0x00000000, 0x00006000, 0x00, 295, 1, 0, 0, 4, 0, 3, 9, 0, 0, 0.000000f, 0.000000f, 0, 0, 0xffff, 0xffffffffffffffff, { 0, 0, 0 }, 4402, 0, 0, 0, 0, 2 },"
+    },
+    {
+      "path": "engine/dbc/generated/gem_data.inc",
+      "line": 2397,
+      "record": "{ 4402,  8552, 0x0000000e, 0 }, // +$k1 Primary Stat"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5308,
+      "record": "{ 8552, 240983, -1,   0,  80, 80, 0,   0,   0, {   5,   0,   0 }, {    0,    0,    0 }, {     71,      0,      0 }, {  0.9515f,  0.0000f,  0.0000f },       0, \"+$k1 Primary Stat\"                 },"
+    },
+    {
+      "path": "engine/dbc/generated/item_data.inc",
+      "line": 175757,
+      "record": "{ \"Powerful Eversong Diamond\", 240967, 0x00000000, 0x00006000, 0x00, 295, 1, 0, 0, 4, 0, 3, 9, 0, 0, 0.000000f, 0.000000f, 0, 0, 0xffff, 0xffffffffffffffff, { 0, 0, 0 }, 4408, 0, 0, 0, 0, 2 },"
+    },
+    {
+      "path": "engine/dbc/generated/gem_data.inc",
+      "line": 2401,
+      "record": "{ 4408,  8556, 0x0000000e, 0 }, // +$k1 Primary Stat and +0.15% critical strike effectiveness per unique Midnight gem color"
+    },
+    {
+      "path": "engine/dbc/generated/spell_item_enchantment.inc",
+      "line": 5312,
+      "record": "{ 8556, 240967, -7,   0,  80, 80, 0,   0,   0, {   5,   3,   0 }, {    0,    0,    0 }, {     71, 1258209,      0 }, {  0.6839f,  0.0000f,  0.0000f },       0, \"+$k1 Primary Stat and +0.15% critical strike effectiveness per unique Midnight gem color\" },"
+    },
+    {
+      "path": "engine/dbc/generated/item_bonus.inc",
+      "line": 20007,
+      "record": "{ 30782, 13695,  6,       1,       7,       0,       0,  0 },"
+    },
+    {
+      "path": "engine/dbc/generated/item_bonus.inc",
+      "line": 20008,
+      "record": "{ 30783, 13695, 26,       5,       0,       0,       0,  1 },"
+    },
+    {
+      "path": "engine/dbc/generated/item_bonus.inc",
+      "line": 20009,
+      "record": "{ 30784, 13695,  9,      12,       0,       0,       0,  2 },"
+    },
+    {
+      "path": "engine/dbc/generated/item_bonus.inc",
+      "line": 20010,
+      "record": "{ 30785, 13696,  0,       0,       0,       0,       0,  0 },"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 470,
+      "record": "void powerful_eversong_diamond( special_effect_t& effect )"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 583,
+      "record": "void eyes_of_the_eagle( special_effect_t& effect )"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 620,
+      "record": "void rite_of_the_hashey( special_effect_t& effect )"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 559,
+      "record": "void stat_weapon_enchant( special_effect_t& effect )"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 484,
+      "record": "void strength_of_halazzi( special_effect_t& effect )"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 516,
+      "record": "void flames_of_the_sindorei( special_effect_t& effect )"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 635,
+      "record": "if ( listener->dbc->wowv() < wowv_t{ 12, 1, 5 } )"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 640,
+      "record": "auto stat = rng().roll( listener->midnight_opts.rite_of_the_hashey_uptime )"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 6509,
+      "record": "register_special_effect( 1258209, enchants::powerful_eversong_diamond, false, true );"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 6518,
+      "record": "register_special_effect( { 1236700, 1236701 }, enchants::eyes_of_the_eagle, false, true );"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 6521,
+      "record": "register_special_effect( { 1297651, 1297652 }, enchants::rite_of_the_hashey );"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 47,
+      "record": "GEM_PERIDOT = 14262,"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 48,
+      "record": "GEM_GARNET = 14276,"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 49,
+      "record": "GEM_LAPIS = 14277,"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 50,
+      "record": "GEM_AMETHYST = 14278,"
+    },
+    {
+      "path": "engine/player/unique_gear_midnight.cpp",
+      "line": 472,
+      "record": "auto pct = effect.driver()->effectN( 1 ).base_value() * unique_gem_list( effect.player, gem_colors ).size();"
+    },
+    {
+      "path": "engine/player/player.hpp",
+      "line": 827,
+      "record": "double rite_of_the_hashey_uptime = 0.6;"
+    },
+    {
+      "path": "engine/dbc/data_enums.hh",
+      "line": 84,
+      "record": "ITEM_BONUS_SOCKET           = 6,"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 78455,
+      "record": "{ 1232879, 1236701,  0,   6, 163, 0, 0x00000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,      2.0000, 127, 0, { 0, 0, 0, 0 }, 0, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 78456,
+      "record": "{ 1307529, 1236701,  1,   6,  50, 0, 0x00000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,      2.0000, 127, 0, { 0, 0, 0, 0 }, 0, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 78460,
+      "record": "{ 1232908, 1236721,  0,   6, 285, -7, 0x00000000, 0.632558, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,      0.0000, 0, 0, { 0, 0, 0, 0 }, 1241729, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 78462,
+      "record": "{ 1232915, 1236725,  0,   6, 285, -7, 0x00000000, 0.632558, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,      0.0000, 0, 0, { 0, 0, 0, 0 }, 1241722, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 78464,
+      "record": "{ 1232919, 1236728,  0,   6, 285, -7, 0x00000000, 0.632558, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,      0.0000, 0, 0, { 0, 0, 0, 0 }, 1241723, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 78480,
+      "record": "{ 1232938, 1236742,  0,   6, 285, -1, 0x00000000, 0.509611, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,      0.0000, 0, 0, { 0, 0, 0, 0 }, 1241710, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 80879,
+      "record": "{ 1266716, 1258209,  0,   6,   4, 0, 0x00000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,      0.1500, 0, 0, { 0, 0, 0, 0 }, 0, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 80880,
+      "record": "{ 1266717, 1258209,  1,   6, 163, 0, 0x00000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,      0.0000, 127, 0, { 0, 0, 0, 0 }, 0, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 80881,
+      "record": "{ 1266718, 1258209,  2,   6,  50, 0, 0x00000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,      0.0000, 127, 0, { 0, 0, 0, 0 }, 0, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 80882,
+      "record": "{ 1266719, 1258209,  3,   6,   4, 0, 0x00000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,     15.0000, 0, 0, { 0, 0, 0, 0 }, 0, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    },
+    {
+      "path": "engine/dbc/generated/sc_spell_data.inc",
+      "line": 84420,
+      "record": "{ 1320951, 1297652,  0,   6, 285, -7, 0x00000000, 0.708431, 0.000000, 0.000000, 0.000000, 0.000000, 0, 0.000000, 0.000000,      0.0000, 0, 0, { 0, 0, 0, 0 }, 1297654, 1.000000, 0.000000, 0.000000, 0,   0, 1, 0, 0.000000, 1.000000, 0, 0 },"
+    }
+  ],
+  "completed_at": "2026-10-29T17:56:18+08:00",
+  "validation": {
+    "json_parsed": true,
+    "enchant_rows_and_quality_2_checked": 14,
+    "excluded_enchant_rows_checked": 2,
+    "gem_item_property_enchant_chains_checked": 8,
+    "raw_local_evidence_records": 73,
+    "simulation_executed": false
+  }
+}

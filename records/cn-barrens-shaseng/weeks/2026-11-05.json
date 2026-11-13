@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-barrens-shaseng",
+  "reset_date": "2026-11-05",
+  "reset_date_basis": "Most recent Thursday under the CN reset convention retained in prior character records; no claim of a newly verified maintenance time.",
+  "timezone": "Asia/Shanghai",
+  "patch": "12.1.5",
+  "season": "Midnight Season 2",
+  "events": [
+    {
+      "event_id": "2026-11-10-h5-apex-brute-ring-user-confirmed",
+      "reported_at": "2026-11-10T22:13:14.381037+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "boss": "H5 / Sszorak / 斯索拉克",
+      "difficulty": "Heroic (user identifies H5)",
+      "loot_spec": null,
+      "item_id": 268252,
+      "item_name": "顶级蛮兵爪戒",
+      "bonus_ids": [
+        6652,
+        13668,
+        13334,
+        12849
+      ],
+      "item_level": 318,
+      "track": "Myth1/6",
+      "socket_count": 1,
+      "enchanted": false,
+      "gemmed": false,
+      "equipped": false,
+      "outcome": "item",
+      "cost_paid": null,
+      "observed_prior_balance": 1,
+      "new_reported_balance": 0,
+      "raw_roll_entry": "3418:278288:95:3:268252:270",
+      "evidence": "User: 我还拿到了 H5的大暴击戒指 顶级蛮兵爪戒; 22:03 full export adds the318 ring and new bonus-roll tuple. Exact cost not separately asserted; the latest balance is authoritative."
+    }
+  ],
+  "vault": {
+    "status": "unknown",
+    "candidates": []
+  },
+  "reported_at": "2026-11-10T22:13:14.381037+08:00",
+  "snapshot": "snapshots/2026-11-10-2203.simc",
+  "budget": {
+    "reported_balance": 0,
+    "currency_id": 3418,
+    "reported_at": "2026-11-10T22:03:00+08:00",
+    "evidence": "Latest user SimC: bonus_roll_currencies=3418:0/3511:0. New baseline already includes the H5 roll; do not subtract it again."
+  },
+  "resources": {
+    "raw_export": {
+      "catalyst_currencies": "2813:8/3269:8/3116:8/3378:8/3465:1",
+      "upgrade_currencies": "c:3442:273/c:3445:695/c:3443:80/c:3444:44/c:3446:642/i:228338:1/i:230906:1/i:228339:2/i:280562:14/i:274476:2/i:232875:10/i:211296:3",
+      "bonus_roll_currencies": "3418:0/3511:0",
+      "bonus_roll_items": "3418:278284:5:4:268265:268/3418:278284:5:4:270175:268/3418:278284:5:4:271875:268/3418:278288:95:3:268252:270/3418:278290:95:4:268209:269/3418:278290:95:4:270173:269/3418:286019:5:3:281029:269/3418:286019:95:3:281215:269/3418:286019:95:3:281236:269"
+    },
+    "interpretation": "Raw identifiers preserved; no conversion into unsupported available attempts, sparks or ascensions."
+  },
+  "rules": {
+    "current_reward_preview_verified": false,
+    "ordinary_myth_comparison_ilvl": 334,
+    "crafted_comparison_ilvl": 331,
+    "ascended_core_ilvl": 341,
+    "exclude_inaccessible_mythic_7_8_9_of_6": true,
+    "cost_and_income_rate_for_future_rolls": null
+  },
+  "pools": [
+    {
+      "activity": "H7 / Coiled Altar / 盘卷祭坛",
+      "loot_spec": "windwalker",
+      "targets": [
+        268225,
+        268256,
+        268253
+      ],
+      "historical_roll_ids_visible_in_latest_export": [
+        268209,
+        270173
+      ],
+      "completeness": "Target watchlist only; exact current remaining reward preview not independently verified.",
+      "history_coverage": "Partial intervening history; opaque raw tuples retained.",
+      "exact_probability": null
+    },
+    {
+      "activity": "H10 / Kith’ix / 基希克斯",
+      "owned_target_ids": [
+        281029,
+        281215,
+        281236
+      ],
+      "current_priority": "No missing target in this bounded gear study.",
+      "evidence": "Latest equipped gear and retained Catalyst chest precursor; raw history includes all three ids.",
+      "exact_probability": null
+    }
+  ],
+  "plan": {
+    "status": "proposed_not_spent",
+    "evidence": "analysis/2026-11-10/report.html",
+    "current_allocation": 0,
+    "ordered_priorities": [
+      "No bonus roll is affordable from the current zero balance.",
+      "When another core is actually available, inspect H7 Windwalker reward preview for268225 legs,268256 waist and268253 cloak. Prioritize a full loadout; no exact success odds asserted.",
+      "Keep the341 neck,weapon,Heart andTendril. H5 crit-heavy ring is not a mandatory equip/upgrade.",
+      "Consider eligible Labyrinth Myth2/6 legs272243 as a close alternative, then upgrade to334 and retain source stats if catalyzed. Compare against spending fragments on272150/272149 rings.",
+      "Retain four-piece and two Arcanoweave linings; move cloak lining to existing crafted feet before equipping a raid cloak.",
+      "Crafted-hand switch is a dungeon-specific tested alternative; if using it with new H7 legs, catalyze those legs to keep four-piece."
+    ],
+    "stop_conditions": [
+      "Reassess H7 after each actual acquisition; lower its priority when useful remaining slots are filled.",
+      "Do not spend on duplicate H10/H8 core items or inaccessible9/6 targets."
+    ]
+  },
+  "unresolved": [
+    "Current exact H7 reward preview, cycle and eligibility scope",
+    "Current unclaimed Vault offers",
+    "Current Labyrinth fragment availability",
+    "Actual socket-token availability and gold/recraft budget"
+  ]
+}

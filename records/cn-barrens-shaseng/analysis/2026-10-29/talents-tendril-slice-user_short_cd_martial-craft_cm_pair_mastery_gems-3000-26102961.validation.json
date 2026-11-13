@@ -1,0 +1,21 @@
+{
+  "name": "talents-tendril-slice-user_short_cd_martial-craft_cm_pair_mastery_gems-3000-26102961",
+  "started_at": "2026-10-29T19:02:30.729821+08:00",
+  "ended_at": "2026-10-29T19:02:38.370753+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 335342.4155257452,
+  "ci95": 566.5899372965071,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-10-26T12:59:56.288933+08:00",
+  "snapshot": "records\\cn-barrens-shaseng\\snapshots\\2026-10-26-equipped.simc",
+  "snapshot_sha256": "b9ae392a9d474c22fe42af4f00eed6950d1beb2cf616249a3d5c595cc45b1597",
+  "engine": ".local\\simc-build\\Release\\simc.exe",
+  "engine_sha256": "934cfeb8fe672baee8bd88678bd7dd0788c1755b608c1d25aa30b96f29925633",
+  "source_commit": "73a372b76188c703e48729caded3258cdc5b726b",
+  "normalization": {
+    "race": "熊猫人 -> pandaren",
+    "role": "dps -> attack"
+  },
+  "historical_metadata_recovery": {
+    "source": "records\\cn-barrens-shaseng\\snapshots\\2026-10-23.simc",
+    "fields": {
+      "shoulder": {
+        "redirected_base_stats": "251146"
+      },
+      "chest": {
+        "redirected_base_stats": "281236"
+      },
+      "hands": {
+        "redirected_base_stats": "272241"
+      },
+      "waist": {
+        "redirected_base_stats": "271436",
+        "crafted_stats": "36/49"
+      },
+      "legs": {
+        "redirected_base_stats": "251130"
+      }
+    },
+    "status": "Assumed continuity of five equipped catalyst pieces with matching IDs and all bonuses; not a fresh addon verification."
+  },
+  "excluded_historical_fields": [
+    "bags",
+    "currencies",
+    "omnium_talents",
+    "professions",
+    "ilevel overrides",
+    "target profiles"
+  ],
+  "candidates": {
+    "current": {
+      "label": "当前装备（保留历史前驱元数据的模型）",
+      "changes": {}
+    },
+    "cloak_hm": {
+      "label": "仅披风改急速精通，保留奥纹",
+      "changes": {
+        "back": "back=,id=239656,bonus_id=12214/13667/12497/13751/14001/8960/12384/8793/13836"
+      }
+    },
+    "ring_hm": {
+      "label": "仅制造戒改急速精通",
+      "changes": {
+        "finger2": "finger2=,id=240949,enchant_id=7967,bonus_id=12214/13667/12497/13751/14001/8793/13836,gem_id=240908"
+      }
+    },
+    "all_crafts_hm": {
+      "label": "披风、腕、鞋、制造戒全部改急速精通，保留双奥纹",
+      "changes": {
+        "back": "back=,id=239656,bonus_id=12214/13667/12497/13751/14001/8960/12384/8793/13836",
+        "wrist": "wrist=,id=244576,bonus_id=12214/13667/12497/13751/14001/8960/12384/8793/13836/13696",
+        "feet": "feet=,id=244569,enchant_id=7963,bonus_id=12214/13667/12497/13751/14001/8793/13836",
+        "finger2": "finger2=,id=240949,enchant_id=7967,bonus_id=12214/13667/12497/13751/14001/8793/13836,gem_id=240908"
+      }
+    },
+    "one_gem_hm": {
+      "label": "仅一颗戒指暴击精通宝石改急速精通，保留另一红色宝石",
+      "changes": {
+        "finger2": "finger2=,id=240949,enchant_id=7967,bonus_id=12214/13667/12497/13751/14001/8791/13836,gem_id=240892"
+      }
+    },
+    "waist_331_cm": {
+      "label": "普通331暴击精通制造腰替321腰，保留四件套及双奥纹",
+      "changes": {
+        "waist": "waist=,id=244573,bonus_id=12214/13667/12497/13751/14001/8791/13836"
+      }
+    },
+    "elite_full": {
+      "label": "Bisset网页整装，保持沙僧熊猫人及当前天赋；高手前驱元数据未知",
+      "changes": {
+        "head": "head=,id=271519,enchant_id=8017,bonus_id=6652/13335/12854/13696/13692/13698/1587",
+        "neck": "neck=,id=268265,bonus_id=6652/13668/13334/13987/12856,gem_id=240983/240892",
+        "shoulder": "shoulder=,id=271517,enchant_id=8001,bonus_id=13334/13694/6652/13697/12846",
+        "back": "back=,id=239656,bonus_id=12214/13667/12497/13751/14001/8960/12384/8793/13836",
+        "chest": "chest=,id=271522,enchant_id=7987,bonus_id=13334/6652/14049/13690/13698/12854",
+        "wrist": "wrist=,id=244576,bonus_id=12214/13667/13695/12497/13751/14001/8960/12384/8791/13836/13696,gem_id=240892",
+        "hands": "hands=,id=271520,enchant_id=8727,bonus_id=13335/13691/6652/13697/12854",
+        "waist": "waist=,id=271516,bonus_id=13334/6652/12854/13696/1587",
+        "legs": "legs=,id=244574,enchant_id=8159,bonus_id=12214/13667/12497/13751/14001/8793/13836",
+        "feet": "feet=,id=271521,enchant_id=7963,bonus_id=6652/12854/13440/1587",
+        "finger1": "finger1=,id=268249,enchant_id=7967,bonus_id=6652/13668/13335/12854,gem_id=240892",
+        "finger2": "finger2=,id=268252,enchant_id=7967,bonus_id=42/13668/13335/12854,gem_id=240890",
+        "trinket1": "trinket1=,id=270173,bonus_id=6652/13334/12856",
+        "trinket2": "trinket2=,id=270175,bonus_id=6652/13334/13696/12856",
+        "main_hand": "main_hand=,id=268215,enchant_id=8689,bonus_id=6652/13334/13846/13696/12856"
+      }
+    },
+    "raid_ring_334": {
+      "label": "334邪恶炼金师指环替331制造戒，保留原宝石及虫群戒",
+      "changes": {
+        "finger2": "finger2=,id=268249,enchant_id=7967,bonus_id=6652/13668/13335/12854,gem_id=240908"
+      }
+    }
+  },
+  "elite_reference": {
+    "source": "wcl-elite-profile.simc",
+    "sha256": "c517d3a845a33684f576b94bbbc0d5aea5f79e86859db86cd72c8d69328bda15",
+    "identity": "Bisset / EU-Kazzak / WCL 61823014",
+    "kind": "October 26 website equipment, not equipment at a specific combat event",
+    "catalyst_metadata": "Not exported; do not invent precursor stats for the elite character."
+  }
+}

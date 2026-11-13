@@ -1,0 +1,21 @@
+{
+  "name": "tuning-zuljin-slice-rings_mastery-3000-26102941",
+  "started_at": "2026-10-29T17:43:13.631616+08:00",
+  "ended_at": "2026-10-29T17:43:25.389660+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 307588.1577197764,
+  "ci95": 507.27121004713774,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

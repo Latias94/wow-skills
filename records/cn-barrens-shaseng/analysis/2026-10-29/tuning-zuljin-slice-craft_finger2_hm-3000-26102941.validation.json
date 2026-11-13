@@ -1,0 +1,21 @@
+{
+  "name": "tuning-zuljin-slice-craft_finger2_hm-3000-26102941",
+  "started_at": "2026-10-29T17:41:11.673305+08:00",
+  "ended_at": "2026-10-29T17:41:22.123011+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 309604.573866927,
+  "ci95": 501.0340396075953,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

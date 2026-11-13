@@ -1,0 +1,21 @@
+{
+  "name": "native70575-st-route_haste_gems-3000-26102911",
+  "started_at": "2026-10-29T15:36:53.058226+08:00",
+  "ended_at": "2026-10-29T15:36:56.388846+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 178652.2440651919,
+  "ci95": 168.34794290702013,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "talents-tendril-st-icy_mplus-baseline-3000-26102961",
+  "started_at": "2026-10-29T18:39:16.684674+08:00",
+  "ended_at": "2026-10-29T18:39:20.372136+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 178746.34793717493,
+  "ci95": 168.8498161239974,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

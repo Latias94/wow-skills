@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-26T13:30:21.574581+08:00",
+  "accepted_runs": 51,
+  "severe_count": 0,
+  "source_snapshot_unchanged": true,
+  "engine_binary_unchanged": true,
+  "talent_control_only_changed_talents_iterations_seed": true,
+  "gear_comparisons_fixed_user_talents": true,
+  "all_scripts_parse": true,
+  "all_run_artifacts_present": true,
+  "no_global_optimum_claim": true
+}

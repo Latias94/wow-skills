@@ -1,0 +1,3817 @@
+{
+  "archived_at": "2026-11-13T16:51:38.773357+08:00",
+  "scope": "Existing native results transcribed without rerunning SimulationCraft or changing acceptance decisions.",
+  "notes": [
+    "DPS is descriptive only for smoke, static and export-reimport runs; these runs are not ranking evidence.",
+    "requested_iterations is read from the original input. Native reported option iterations and effective DPS samples are preserved separately.",
+    "CI95 half-width equals native mean_std_dev times native confidence_estimator; it is not a paired-difference interval.",
+    "Missing standalone acceptance is null, not an inferred success. Original validation and scientific conclusions remain authoritative.",
+    "raw_result_archived describes the dated .gitignore policy, not whether the file has already been committed."
+  ],
+  "run_count": 51,
+  "archived_native_results": 25,
+  "local_only_native_results": 26,
+  "runs": [
+    {
+      "key": "gear-compat341-raid-current",
+      "kind": "final_or_control",
+      "input_file": "gear-compat341-raid-current.simc",
+      "input_sha256": "d48ab0bde2e048478069a23854c802a784746072ffd807f1207d8583323d510a",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-raid-current.validation.json",
+      "acceptance_source": "gear-compat341-raid-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202631,
+      "samples": 5999,
+      "dps": 214749.12498325462,
+      "ci95_half_width": 155.61094459616638,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 46017.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2766.0,
+          "spell_crit": 0.33891304347826084,
+          "attack_crit": 0.33891304347826084,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8636624999999999,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 915.0,
+          "crit_pct": 0.33891304347826084,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1246.0,
+          "mastery_pct": 0.8636624999999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-raid-current.json",
+      "raw_result_sha256": "850ec5eebc8b998978a64aa341451470621fb45c96e207bdc3e4572756a99be3",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-raid-elite_full",
+      "kind": "final_or_control",
+      "input_file": "gear-compat341-raid-elite_full.simc",
+      "input_sha256": "8125272ebade5350c435e0998a061031e223acceae7278b524769cf11187570d",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-raid-elite_full.validation.json",
+      "acceptance_source": "gear-compat341-raid-elite_full.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202631,
+      "samples": 5999,
+      "dps": 218280.07337354077,
+      "ci95_half_width": 159.63451918167837,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2701.0,
+          "stamina": 47553.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2836.0,
+          "spell_crit": 0.3484782608695652,
+          "attack_crit": 0.3484782608695652,
+          "spell_haste": 0.8508992457938502,
+          "attack_haste": 0.8508992457938502,
+          "spell_cast_speed": 0.8508992457938502,
+          "auto_attack_speed": 0.8508992457938502,
+          "mastery_value": 0.946535625,
+          "damage_versatility": 0.057777777777777775,
+          "heal_versatility": 0.057777777777777775,
+          "mitigation_versatility": 0.028888888888888888,
+          "crit_rating": 959.0,
+          "crit_pct": 0.3484782608695652,
+          "haste_rating": 771.0,
+          "haste_pct": 0.1752272727272728,
+          "mastery_rating": 1413.0,
+          "mastery_pct": 0.946535625,
+          "versatility_rating": 150.0,
+          "versatility_pct": 0.057777777777777775,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_rating": 69.0,
+          "speed_pct": 7.041138949272222,
+          "armor": 1149.0,
+          "dodge": 0.15515672323199892,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-raid-elite_full.json",
+      "raw_result_sha256": "d7618f8a3b952be7bd5a3c08eebb73cc63c78b508b23c00858de00390f99213a",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-raid-literal-current",
+      "kind": "final_or_control",
+      "input_file": "gear-compat341-raid-literal-current.simc",
+      "input_sha256": "20018250258bc8356196c0860d9e884dafaa4a5965db81f37fb3ffae6237f735",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-raid-literal-current.validation.json",
+      "acceptance_source": "gear-compat341-raid-literal-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202631,
+      "samples": 5999,
+      "dps": 214693.59723827583,
+      "ci95_half_width": 154.9121179483919,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 46017.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2766.0,
+          "spell_crit": 0.3267391304347826,
+          "attack_crit": 0.3267391304347826,
+          "spell_haste": 0.8369792657409169,
+          "attack_haste": 0.8369792657409169,
+          "spell_cast_speed": 0.8369792657409169,
+          "auto_attack_speed": 0.8369792657409169,
+          "mastery_value": 0.8940374999999999,
+          "damage_versatility": 0.06962962962962962,
+          "heal_versatility": 0.06962962962962962,
+          "mitigation_versatility": 0.03481481481481481,
+          "crit_rating": 859.0,
+          "crit_pct": 0.3267391304347826,
+          "haste_rating": 857.0,
+          "haste_pct": 0.19477272727272732,
+          "mastery_rating": 1306.0,
+          "mastery_pct": 0.8940374999999999,
+          "versatility_rating": 214.0,
+          "versatility_pct": 0.06962962962962962,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-raid-literal-current.json",
+      "raw_result_sha256": "f2279d5864891095a99600456d503dfe950fb78bd278f4c08456ad0a31fe2326",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-raid-raid_ring_334",
+      "kind": "final_or_control",
+      "input_file": "gear-compat341-raid-raid_ring_334.simc",
+      "input_sha256": "01ddb8b347a08db99db875f3cc1f688ec49077b4e1ef98a31e9c4cfdae70553e",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-raid-raid_ring_334.validation.json",
+      "acceptance_source": "gear-compat341-raid-raid_ring_334.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202631,
+      "samples": 5999,
+      "dps": 214675.9017790301,
+      "ci95_half_width": 154.56212786897652,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 46099.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2766.0,
+          "spell_crit": 0.31152173913043474,
+          "attack_crit": 0.31152173913043474,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.93099375,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 789.0,
+          "crit_pct": 0.31152173913043474,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1379.0,
+          "mastery_pct": 0.93099375,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-raid-raid_ring_334.json",
+      "raw_result_sha256": "2d204bca506533c8952af86ff5dce62dbb4d242cd99a700213b5e3c7920fa076",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-raid-waist_331_cm",
+      "kind": "final_or_control",
+      "input_file": "gear-compat341-raid-waist_331_cm.simc",
+      "input_sha256": "4ef007b059cb6e2ed2f88565e3ba90f595f71bd40e2bffd4a05eb67b382f484c",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-raid-waist_331_cm.validation.json",
+      "acceptance_source": "gear-compat341-raid-waist_331_cm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202631,
+      "samples": 5999,
+      "dps": 215617.71794446072,
+      "ci95_half_width": 158.17395490262024,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2649.0,
+          "stamina": 46353.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2781.0,
+          "spell_crit": 0.355,
+          "attack_crit": 0.355,
+          "spell_haste": 0.8563643441027637,
+          "attack_haste": 0.8563643441027637,
+          "spell_cast_speed": 0.8563643441027637,
+          "auto_attack_speed": 0.8563643441027637,
+          "mastery_value": 0.87834375,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 989.0,
+          "crit_pct": 0.355,
+          "haste_rating": 738.0,
+          "haste_pct": 0.16772727272727272,
+          "mastery_rating": 1275.0,
+          "mastery_pct": 0.87834375,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1125.0,
+          "dodge": 0.15304912825735464,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-raid-waist_331_cm.json",
+      "raw_result_sha256": "f07bb15695721e330add752bc2af9b9f33e40470a9354f558b34dac5d3a32f7d",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-slice-current",
+      "kind": "final_or_control",
+      "input_file": "gear-compat341-slice-current.simc",
+      "input_sha256": "757059dc1c61bf9b82fab9e0047efab15d7f3453c8c8b59f455d63d269bbb4d2",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-slice-current.validation.json",
+      "acceptance_source": "gear-compat341-slice-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202631,
+      "samples": 5999,
+      "dps": 302151.60422557866,
+      "ci95_half_width": 354.44853073519425,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 43825.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2635.0,
+          "spell_crit": 0.33891304347826084,
+          "attack_crit": 0.33891304347826084,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8170874999999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 915.0,
+          "crit_pct": 0.33891304347826084,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1246.0,
+          "mastery_pct": 0.8170874999999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-slice-current.json",
+      "raw_result_sha256": "9ba1150ea0fc56dd1018e662d4d1a5747511dd7d5f0b95497d3bd07c7cb830e6",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-slice-elite_full",
+      "kind": "final_or_control",
+      "input_file": "gear-compat341-slice-elite_full.simc",
+      "input_sha256": "a6b1316df958970d2ec8c20f481d9fd4be98e0c56adccda84a87c49d2c4ae7db",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-slice-elite_full.validation.json",
+      "acceptance_source": "gear-compat341-slice-elite_full.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202631,
+      "samples": 5999,
+      "dps": 308707.2468044606,
+      "ci95_half_width": 359.5248147064667,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2701.0,
+          "stamina": 45288.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2701.0,
+          "spell_crit": 0.3484782608695652,
+          "attack_crit": 0.3484782608695652,
+          "spell_haste": 0.8508992457938502,
+          "attack_haste": 0.8508992457938502,
+          "spell_cast_speed": 0.8508992457938502,
+          "auto_attack_speed": 0.8508992457938502,
+          "mastery_value": 0.899960625,
+          "damage_versatility": 0.027777777777777776,
+          "heal_versatility": 0.027777777777777776,
+          "mitigation_versatility": 0.013888888888888888,
+          "crit_rating": 959.0,
+          "crit_pct": 0.3484782608695652,
+          "haste_rating": 771.0,
+          "haste_pct": 0.1752272727272728,
+          "mastery_rating": 1413.0,
+          "mastery_pct": 0.899960625,
+          "versatility_rating": 150.0,
+          "versatility_pct": 0.027777777777777776,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_rating": 69.0,
+          "speed_pct": 7.041138949272222,
+          "armor": 1149.0,
+          "dodge": 0.15515672323199892,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-slice-elite_full.json",
+      "raw_result_sha256": "8e838f9b0b6ec7a3af535bdda72cac92cf1fbd362720c3ecf0143991fd2b83a6",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-slice-literal-current",
+      "kind": "final_or_control",
+      "input_file": "gear-compat341-slice-literal-current.simc",
+      "input_sha256": "d63aa8b3e3ae24a01fdc98023d9db76998dcdbe9307e89cf8b1b85372b128911",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-slice-literal-current.validation.json",
+      "acceptance_source": "gear-compat341-slice-literal-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202631,
+      "samples": 5999,
+      "dps": 303341.69174938404,
+      "ci95_half_width": 355.300434183939,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 43825.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2635.0,
+          "spell_crit": 0.3267391304347826,
+          "attack_crit": 0.3267391304347826,
+          "spell_haste": 0.8369792657409169,
+          "attack_haste": 0.8369792657409169,
+          "spell_cast_speed": 0.8369792657409169,
+          "auto_attack_speed": 0.8369792657409169,
+          "mastery_value": 0.8474624999999999,
+          "damage_versatility": 0.03962962962962963,
+          "heal_versatility": 0.03962962962962963,
+          "mitigation_versatility": 0.019814814814814816,
+          "crit_rating": 859.0,
+          "crit_pct": 0.3267391304347826,
+          "haste_rating": 857.0,
+          "haste_pct": 0.19477272727272732,
+          "mastery_rating": 1306.0,
+          "mastery_pct": 0.8474624999999999,
+          "versatility_rating": 214.0,
+          "versatility_pct": 0.03962962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-slice-literal-current.json",
+      "raw_result_sha256": "cd81eafea02a3ff6a18a3a13586fb8ac09014319838b4e86b8aca92599137859",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-slice-raid_ring_334",
+      "kind": "final_or_control",
+      "input_file": "gear-compat341-slice-raid_ring_334.simc",
+      "input_sha256": "e45835a95a49810930fcfbbd0397d250aa4830380eb0d8ab5e55e00df4960ad5",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-slice-raid_ring_334.validation.json",
+      "acceptance_source": "gear-compat341-slice-raid_ring_334.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202631,
+      "samples": 5999,
+      "dps": 304309.311186455,
+      "ci95_half_width": 353.0012299149045,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 43904.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2635.0,
+          "spell_crit": 0.31152173913043474,
+          "attack_crit": 0.31152173913043474,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.88441875,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 789.0,
+          "crit_pct": 0.31152173913043474,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1379.0,
+          "mastery_pct": 0.88441875,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-slice-raid_ring_334.json",
+      "raw_result_sha256": "7270a5df5d9890931cad4ede05cca4a3fe796da77ac109b73c4d1b55d2bff394",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-slice-waist_331_cm",
+      "kind": "final_or_control",
+      "input_file": "gear-compat341-slice-waist_331_cm.simc",
+      "input_sha256": "0a625f69cf9c1a891ca2fe3a1305226363a8419126312532b2d9a30c3d0dcae9",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-slice-waist_331_cm.validation.json",
+      "acceptance_source": "gear-compat341-slice-waist_331_cm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202631,
+      "samples": 5999,
+      "dps": 304988.70639629907,
+      "ci95_half_width": 358.3713173233131,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2649.0,
+          "stamina": 44146.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2649.0,
+          "spell_crit": 0.355,
+          "attack_crit": 0.355,
+          "spell_haste": 0.8563643441027637,
+          "attack_haste": 0.8563643441027637,
+          "spell_cast_speed": 0.8563643441027637,
+          "auto_attack_speed": 0.8563643441027637,
+          "mastery_value": 0.8317687500000001,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 989.0,
+          "crit_pct": 0.355,
+          "haste_rating": 738.0,
+          "haste_pct": 0.16772727272727272,
+          "mastery_rating": 1275.0,
+          "mastery_pct": 0.8317687500000001,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1125.0,
+          "dodge": 0.15304912825735464,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-slice-waist_331_cm.json",
+      "raw_result_sha256": "0bce37de568d566082197424b09bb9d691ee7cc8e73f0735d1bca96f7bfde113",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-smoke-raid-current",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-compat341-smoke-raid-current.simc",
+      "input_sha256": "0400a39d2f039f2b34932cfae1cfb2bb70d484f5c33e752e8cea8af31c6f0aa4",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-smoke-raid-current.validation.json",
+      "acceptance_source": "gear-compat341-smoke-raid-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202631,
+      "samples": 39,
+      "dps": 213980.99557331917,
+      "ci95_half_width": 2013.6696892262692,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 46017.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2766.0,
+          "spell_crit": 0.33891304347826084,
+          "attack_crit": 0.33891304347826084,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8636624999999999,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 915.0,
+          "crit_pct": 0.33891304347826084,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1246.0,
+          "mastery_pct": 0.8636624999999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-smoke-raid-current.json",
+      "raw_result_sha256": "a7b96030bab590b1e925661ba2e706a3d0ec617c238f09affa8c93a8c93f7757",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-compat341-smoke-slice-current",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-compat341-smoke-slice-current.simc",
+      "input_sha256": "57830716df5c71ad6b7ce0dbafb9b29277d680a0d6a23c585029a69ba132294d",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-smoke-slice-current.validation.json",
+      "acceptance_source": "gear-compat341-smoke-slice-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202631,
+      "samples": 39,
+      "dps": 303015.7595012056,
+      "ci95_half_width": 4533.746619251036,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 43825.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2635.0,
+          "spell_crit": 0.33891304347826084,
+          "attack_crit": 0.33891304347826084,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8170874999999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 915.0,
+          "crit_pct": 0.33891304347826084,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1246.0,
+          "mastery_pct": 0.8170874999999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-smoke-slice-current.json",
+      "raw_result_sha256": "1413b96192264ea9d39d270f090456229513a934842e715a9c5f5d89fce2af07",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-compat341-unbuffed-current",
+      "kind": "static_snapshot",
+      "input_file": "gear-compat341-unbuffed-current.simc",
+      "input_sha256": "88ba96ec3ab3f1c6ca4a2e32b10c6ebffea815083b3084008ebb24a3e5e9b8d2",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-unbuffed-current.validation.json",
+      "acceptance_source": "gear-compat341-unbuffed-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202631,
+      "samples": 39,
+      "dps": 158900.2977281073,
+      "ci95_half_width": 1197.900357648371,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2504.0,
+          "stamina": 43825.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2504.0,
+          "spell_crit": 0.33543478260869564,
+          "attack_crit": 0.33543478260869564,
+          "spell_haste": 0.842911877394636,
+          "attack_haste": 0.842911877394636,
+          "spell_cast_speed": 0.842911877394636,
+          "auto_attack_speed": 0.842911877394636,
+          "mastery_value": 0.73355625,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 899.0,
+          "crit_pct": 0.33543478260869564,
+          "haste_rating": 820.0,
+          "haste_pct": 0.1863636363636363,
+          "mastery_rating": 1081.0,
+          "mastery_pct": 0.73355625,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.14712011572267736,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-unbuffed-current.json",
+      "raw_result_sha256": "ca798e4b77d953906dc4eab0d5fa58cf664192890e412bee49c069d0256e26f0",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-unbuffed-elite_full",
+      "kind": "static_snapshot",
+      "input_file": "gear-compat341-unbuffed-elite_full.simc",
+      "input_sha256": "1f7fc98bf354b65758cd33903421b3514f8e984dfab9889512a5c7a32ab19f69",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-unbuffed-elite_full.validation.json",
+      "acceptance_source": "gear-compat341-unbuffed-elite_full.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202631,
+      "samples": 39,
+      "dps": 160592.09696767814,
+      "ci95_half_width": 1568.6342748610214,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2570.0,
+          "stamina": 45288.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2570.0,
+          "spell_crit": 0.345,
+          "attack_crit": 0.345,
+          "spell_haste": 0.8535402521823472,
+          "attack_haste": 0.8535402521823472,
+          "spell_cast_speed": 0.8535402521823472,
+          "auto_attack_speed": 0.8535402521823472,
+          "mastery_value": 0.8180999999999999,
+          "damage_versatility": 0.027777777777777776,
+          "heal_versatility": 0.027777777777777776,
+          "mitigation_versatility": 0.013888888888888888,
+          "crit_rating": 943.0,
+          "crit_pct": 0.345,
+          "haste_rating": 755.0,
+          "haste_pct": 0.17159090909090913,
+          "mastery_rating": 1248.0,
+          "mastery_pct": 0.8180999999999999,
+          "versatility_rating": 150.0,
+          "versatility_pct": 0.027777777777777776,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_rating": 69.0,
+          "speed_pct": 7.041138949272222,
+          "armor": 1149.0,
+          "dodge": 0.14982839797195863,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-unbuffed-elite_full.json",
+      "raw_result_sha256": "b270a45c06b17d339e3435a49050ac64f83085455ae7c1f0a16b6ba11e95f187",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-compat341-unbuffed-literal-current",
+      "kind": "static_snapshot",
+      "input_file": "gear-compat341-unbuffed-literal-current.simc",
+      "input_sha256": "ab344ad4c67a3f070e8da3571f2b6b7fd46ca0ea79ff8966f291a23fed2d8700",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-compat341-unbuffed-literal-current.validation.json",
+      "acceptance_source": "gear-compat341-unbuffed-literal-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202631,
+      "samples": 39,
+      "dps": 157506.26614833975,
+      "ci95_half_width": 1462.959994966882,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2504.0,
+          "stamina": 43825.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2504.0,
+          "spell_crit": 0.3232608695652174,
+          "attack_crit": 0.3232608695652174,
+          "spell_haste": 0.8395344399923679,
+          "attack_haste": 0.8395344399923679,
+          "spell_cast_speed": 0.8395344399923679,
+          "auto_attack_speed": 0.8395344399923679,
+          "mastery_value": 0.76393125,
+          "damage_versatility": 0.03962962962962963,
+          "heal_versatility": 0.03962962962962963,
+          "mitigation_versatility": 0.019814814814814816,
+          "crit_rating": 843.0,
+          "crit_pct": 0.3232608695652174,
+          "haste_rating": 841.0,
+          "haste_pct": 0.19113636363636366,
+          "mastery_rating": 1141.0,
+          "mastery_pct": 0.76393125,
+          "versatility_rating": 214.0,
+          "versatility_pct": 0.03962962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.14712011572267736,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-compat341-unbuffed-literal-current.json",
+      "raw_result_sha256": "5f9787113250ac2c5e4748612a149bf2f4737716c43cf5738862c3e55973210a",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-elite-smoke-raid",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-elite-smoke-raid.simc",
+      "input_sha256": "66e7b7af3d310cf1af12ae471cfe2e55dec9959f9fd2f1d1e4f682ca1a0bf7ac",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-elite-smoke-raid.validation.json",
+      "acceptance_source": "gear-elite-smoke-raid.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202603,
+      "samples": 39,
+      "dps": 218607.48875834027,
+      "ci95_half_width": 2139.443466674152,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2698.0,
+          "stamina": 47470.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2832.0,
+          "spell_crit": 0.34826086956521735,
+          "attack_crit": 0.34826086956521735,
+          "spell_haste": 0.8508992457938502,
+          "attack_haste": 0.8508992457938502,
+          "spell_cast_speed": 0.8508992457938502,
+          "auto_attack_speed": 0.8508992457938502,
+          "mastery_value": 0.9460799999999999,
+          "damage_versatility": 0.057777777777777775,
+          "heal_versatility": 0.057777777777777775,
+          "mitigation_versatility": 0.028888888888888888,
+          "crit_rating": 958.0,
+          "crit_pct": 0.34826086956521735,
+          "haste_rating": 771.0,
+          "haste_pct": 0.1752272727272728,
+          "mastery_rating": 1412.0,
+          "mastery_pct": 0.9460799999999999,
+          "versatility_rating": 150.0,
+          "versatility_pct": 0.057777777777777775,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_rating": 69.0,
+          "speed_pct": 7.041138949272222,
+          "armor": 1149.0,
+          "dodge": 0.15503539683166764,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-elite-smoke-raid.json",
+      "raw_result_sha256": "d4b5a22aa4790d5d06bc414515171ecae0c345e3e4718edce3079ad32f905282",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-elite-smoke-slice",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-elite-smoke-slice.simc",
+      "input_sha256": "2ed229111acc85fcce0fe0e7d464343864284c965fd3398c64e026fd36a8a250",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-elite-smoke-slice.validation.json",
+      "acceptance_source": "gear-elite-smoke-slice.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202603,
+      "samples": 39,
+      "dps": 308183.505681809,
+      "ci95_half_width": 4097.6382427245535,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2698.0,
+          "stamina": 45209.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2698.0,
+          "spell_crit": 0.34826086956521735,
+          "attack_crit": 0.34826086956521735,
+          "spell_haste": 0.8508992457938502,
+          "attack_haste": 0.8508992457938502,
+          "spell_cast_speed": 0.8508992457938502,
+          "auto_attack_speed": 0.8508992457938502,
+          "mastery_value": 0.899505,
+          "damage_versatility": 0.027777777777777776,
+          "heal_versatility": 0.027777777777777776,
+          "mitigation_versatility": 0.013888888888888888,
+          "crit_rating": 958.0,
+          "crit_pct": 0.34826086956521735,
+          "haste_rating": 771.0,
+          "haste_pct": 0.1752272727272728,
+          "mastery_rating": 1412.0,
+          "mastery_pct": 0.899505,
+          "versatility_rating": 150.0,
+          "versatility_pct": 0.027777777777777776,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_rating": 69.0,
+          "speed_pct": 7.041138949272222,
+          "armor": 1149.0,
+          "dodge": 0.15503539683166764,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-elite-smoke-slice.json",
+      "raw_result_sha256": "72eb83c262f2c83468304ca3340070013701e9f48b7c9c99bd811b894f60fcbc",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-elite-unbuffed",
+      "kind": "static_snapshot",
+      "input_file": "gear-elite-unbuffed.simc",
+      "input_sha256": "d86e03f7d2a966c8be6c5e8ebc24df7ed05faf30ad211ac287421dde33ec09f3",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-elite-unbuffed.validation.json",
+      "acceptance_source": "gear-elite-unbuffed.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202603,
+      "samples": 39,
+      "dps": 160677.39420673109,
+      "ci95_half_width": 1290.4178173908867,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2567.0,
+          "stamina": 45209.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2567.0,
+          "spell_crit": 0.34478260869565214,
+          "attack_crit": 0.34478260869565214,
+          "spell_haste": 0.8535402521823472,
+          "attack_haste": 0.8535402521823472,
+          "spell_cast_speed": 0.8535402521823472,
+          "auto_attack_speed": 0.8535402521823472,
+          "mastery_value": 0.81759375,
+          "damage_versatility": 0.027777777777777776,
+          "heal_versatility": 0.027777777777777776,
+          "mitigation_versatility": 0.013888888888888888,
+          "crit_rating": 942.0,
+          "crit_pct": 0.34478260869565214,
+          "haste_rating": 755.0,
+          "haste_pct": 0.17159090909090913,
+          "mastery_rating": 1247.0,
+          "mastery_pct": 0.81759375,
+          "versatility_rating": 150.0,
+          "versatility_pct": 0.027777777777777776,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_rating": 69.0,
+          "speed_pct": 7.041138949272222,
+          "armor": 1149.0,
+          "dodge": 0.14970564201849668,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-elite-unbuffed.json",
+      "raw_result_sha256": "217c89e17d712eadd631e4c3c6bd5775455c42155a5aaa0d5f9669d557f15d8a",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-screen-literal-raid-current",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-literal-raid-current.simc",
+      "input_sha256": "60675d232a3cb81f91c8bf92451f39b5c8660c690719f32a47fc83716d144b27",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-literal-raid-current.validation.json",
+      "acceptance_source": "gear-screen-literal-raid-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 214012.38187939764,
+      "ci95_half_width": 202.40276643755482,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 45934.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2764.0,
+          "spell_crit": 0.32652173913043475,
+          "attack_crit": 0.32652173913043475,
+          "spell_haste": 0.8369792657409169,
+          "attack_haste": 0.8369792657409169,
+          "spell_cast_speed": 0.8369792657409169,
+          "auto_attack_speed": 0.8369792657409169,
+          "mastery_value": 0.89353125,
+          "damage_versatility": 0.06962962962962962,
+          "heal_versatility": 0.06962962962962962,
+          "mitigation_versatility": 0.03481481481481481,
+          "crit_rating": 858.0,
+          "crit_pct": 0.32652173913043475,
+          "haste_rating": 857.0,
+          "haste_pct": 0.19477272727272732,
+          "mastery_rating": 1305.0,
+          "mastery_pct": 0.89353125,
+          "versatility_rating": 214.0,
+          "versatility_pct": 0.06962962962962962,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-literal-raid-current.json",
+      "raw_result_sha256": "5c84e4c21d7fa61fed1e4932a401ebfa0b91b77255e65cb783263ffee47f3efe",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-literal-slice-current",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-literal-slice-current.simc",
+      "input_sha256": "5525050fd2d83579ad94e6688431a378dff7ec6b6c1bc7c120f3f9070c00baed",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-literal-slice-current.validation.json",
+      "acceptance_source": "gear-screen-literal-slice-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 301622.2477597508,
+      "ci95_half_width": 457.59472668923013,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.32652173913043475,
+          "attack_crit": 0.32652173913043475,
+          "spell_haste": 0.8369792657409169,
+          "attack_haste": 0.8369792657409169,
+          "spell_cast_speed": 0.8369792657409169,
+          "auto_attack_speed": 0.8369792657409169,
+          "mastery_value": 0.84695625,
+          "damage_versatility": 0.03962962962962963,
+          "heal_versatility": 0.03962962962962963,
+          "mitigation_versatility": 0.019814814814814816,
+          "crit_rating": 858.0,
+          "crit_pct": 0.32652173913043475,
+          "haste_rating": 857.0,
+          "haste_pct": 0.19477272727272732,
+          "mastery_rating": 1305.0,
+          "mastery_pct": 0.84695625,
+          "versatility_rating": 214.0,
+          "versatility_pct": 0.03962962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-literal-slice-current.json",
+      "raw_result_sha256": "5aaa89a8c0306a13b5f29050babb2e99108561d49b440e61b4419a7b9624752b",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-raid-all_crafts_hm",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-raid-all_crafts_hm.simc",
+      "input_sha256": "17c8cdd83fd4b4486e27849cc8bbe84de0e3828a815906397e34d59371f48881",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-raid-all_crafts_hm.validation.json",
+      "acceptance_source": "gear-screen-raid-all_crafts_hm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 211810.15193362007,
+      "ci95_half_width": 196.7548989011519,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 45934.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2764.0,
+          "spell_crit": 0.255,
+          "attack_crit": 0.255,
+          "spell_haste": 0.7906558849955078,
+          "attack_haste": 0.7906558849955078,
+          "spell_cast_speed": 0.7906558849955078,
+          "auto_attack_speed": 0.7906558849955078,
+          "mastery_value": 0.89150625,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 529.0,
+          "crit_pct": 0.255,
+          "haste_rating": 1165.0,
+          "haste_pct": 0.26477272727272716,
+          "mastery_rating": 1301.0,
+          "mastery_pct": 0.89150625,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-raid-all_crafts_hm.json",
+      "raw_result_sha256": "98c2bdf7db0a50f8599dcf1d837a5ec0dc0dbe8ba46d13d77360b92e89d4a96e",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-raid-cloak_hm",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-raid-cloak_hm.simc",
+      "input_sha256": "7e8a342f550276573ae0c24fce03d174e3e35237615776dcfd0b2ef98a08babb",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-raid-cloak_hm.validation.json",
+      "acceptance_source": "gear-screen-raid-cloak_hm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 213684.14010073835,
+      "ci95_half_width": 198.90975295825012,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 45934.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2764.0,
+          "spell_crit": 0.32652173913043475,
+          "attack_crit": 0.32652173913043475,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.89150625,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 858.0,
+          "crit_pct": 0.32652173913043475,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1301.0,
+          "mastery_pct": 0.89150625,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-raid-cloak_hm.json",
+      "raw_result_sha256": "cdf9e8c87a35cc7811d5b97d6871cddfcf320bf95d1bfce5f370f0e3d47e7848",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-raid-current",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-raid-current.simc",
+      "input_sha256": "193c3f26ff4b9540fd8c09fdbbc8443842da8c44d3435950c64a46db554838e5",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-raid-current.validation.json",
+      "acceptance_source": "gear-screen-raid-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 213921.872890549,
+      "ci95_half_width": 201.4278907769973,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 45934.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2764.0,
+          "spell_crit": 0.338695652173913,
+          "attack_crit": 0.338695652173913,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8631562499999998,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 914.0,
+          "crit_pct": 0.338695652173913,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8631562499999998,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-raid-current.json",
+      "raw_result_sha256": "5b294e45946b147f7de2e9942ebbb3ac52c7275b730d1706b0052319a601bf76",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-raid-elite_full",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-raid-elite_full.simc",
+      "input_sha256": "4e007a9b792997302fff509224422cc642bf7b818dafacb12588c200b2247b6d",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-raid-elite_full.validation.json",
+      "acceptance_source": "gear-screen-raid-elite_full.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 217066.3005359826,
+      "ci95_half_width": 208.9184491707447,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2698.0,
+          "stamina": 47470.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2832.0,
+          "spell_crit": 0.34826086956521735,
+          "attack_crit": 0.34826086956521735,
+          "spell_haste": 0.8508992457938502,
+          "attack_haste": 0.8508992457938502,
+          "spell_cast_speed": 0.8508992457938502,
+          "auto_attack_speed": 0.8508992457938502,
+          "mastery_value": 0.9460799999999999,
+          "damage_versatility": 0.057777777777777775,
+          "heal_versatility": 0.057777777777777775,
+          "mitigation_versatility": 0.028888888888888888,
+          "crit_rating": 958.0,
+          "crit_pct": 0.34826086956521735,
+          "haste_rating": 771.0,
+          "haste_pct": 0.1752272727272728,
+          "mastery_rating": 1412.0,
+          "mastery_pct": 0.9460799999999999,
+          "versatility_rating": 150.0,
+          "versatility_pct": 0.057777777777777775,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_rating": 69.0,
+          "speed_pct": 7.041138949272222,
+          "armor": 1149.0,
+          "dodge": 0.15503539683166764,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-raid-elite_full.json",
+      "raw_result_sha256": "665219514b7a3713e3ba51482106f0380ef57dd876f9fa0a878e69c9395efc62",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-raid-one_gem_hm",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-raid-one_gem_hm.simc",
+      "input_sha256": "b39325371f6fe4e9e4da049e3c09ac1012e5bfc07ffc3073f6f02ba20a19048e",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-raid-one_gem_hm.validation.json",
+      "acceptance_source": "gear-screen-raid-one_gem_hm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 213664.1028379607,
+      "ci95_half_width": 200.38602692025245,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 45934.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2764.0,
+          "spell_crit": 0.33521739130434786,
+          "attack_crit": 0.33521739130434786,
+          "spell_haste": 0.8377760853008378,
+          "attack_haste": 0.8377760853008378,
+          "spell_cast_speed": 0.8377760853008378,
+          "auto_attack_speed": 0.8377760853008378,
+          "mastery_value": 0.8631562499999998,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 898.0,
+          "crit_pct": 0.33521739130434786,
+          "haste_rating": 852.0,
+          "haste_pct": 0.1936363636363636,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8631562499999998,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-raid-one_gem_hm.json",
+      "raw_result_sha256": "aa2d97ba65e41a1735839f38f29ce19728a3af3ddea942d0368f1d5a5a9a47aa",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-raid-raid_ring_334",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-raid-raid_ring_334.simc",
+      "input_sha256": "45684cef09ff830c55e0eaabceb3406821f5bb0587b4a25f91d163042eb5e6e9",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-raid-raid_ring_334.validation.json",
+      "acceptance_source": "gear-screen-raid-raid_ring_334.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 213541.34942949124,
+      "ci95_half_width": 200.84395007975598,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 46017.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2764.0,
+          "spell_crit": 0.3113043478260869,
+          "attack_crit": 0.3113043478260869,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.9304875,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 788.0,
+          "crit_pct": 0.3113043478260869,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1378.0,
+          "mastery_pct": 0.9304875,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-raid-raid_ring_334.json",
+      "raw_result_sha256": "ef703f310495b851b1179120060cd6047c1498efdd2a16a79b14642618b96432",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-raid-ring_hm",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-raid-ring_hm.simc",
+      "input_sha256": "6ebc255a2baaf30b64a3df8c39c49688f912920b679194dd0bb6a8c8e14570b4",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-raid-ring_hm.validation.json",
+      "acceptance_source": "gear-screen-raid-ring_hm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 213080.9646345267,
+      "ci95_half_width": 202.28229625724813,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 45934.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2764.0,
+          "spell_crit": 0.29543478260869566,
+          "attack_crit": 0.29543478260869566,
+          "spell_haste": 0.8095676172953081,
+          "attack_haste": 0.8095676172953081,
+          "spell_cast_speed": 0.8095676172953081,
+          "auto_attack_speed": 0.8095676172953081,
+          "mastery_value": 0.8631562499999998,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 715.0,
+          "crit_pct": 0.29543478260869566,
+          "haste_rating": 1035.0,
+          "haste_pct": 0.23522727272727284,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8631562499999998,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-raid-ring_hm.json",
+      "raw_result_sha256": "c4e92878b602b384ea34ece2b3590d37a919ccf9bfb790007a015bb7952f210c",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-raid-waist_331_cm",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-raid-waist_331_cm.simc",
+      "input_sha256": "443f87ac7a6987d2155b4db6f0166e0371a84e95485fe9a891918402d87292de",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-raid-waist_331_cm.validation.json",
+      "acceptance_source": "gear-screen-raid-waist_331_cm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 214744.66918827675,
+      "ci95_half_width": 204.2972528663233,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2647.0,
+          "stamina": 46270.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2779.0,
+          "spell_crit": 0.35478260869565215,
+          "attack_crit": 0.35478260869565215,
+          "spell_haste": 0.8563643441027637,
+          "attack_haste": 0.8563643441027637,
+          "spell_cast_speed": 0.8563643441027637,
+          "auto_attack_speed": 0.8563643441027637,
+          "mastery_value": 0.8778375,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 988.0,
+          "crit_pct": 0.35478260869565215,
+          "haste_rating": 738.0,
+          "haste_pct": 0.16772727272727272,
+          "mastery_rating": 1274.0,
+          "mastery_pct": 0.8778375,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1125.0,
+          "dodge": 0.15296787131996126,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-raid-waist_331_cm.json",
+      "raw_result_sha256": "4f0e31c1c6815163cd38abd0d01cd9380119d146fd1eec7aa1bc53bf49190cfc",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-slice-all_crafts_hm",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-slice-all_crafts_hm.simc",
+      "input_sha256": "0766ba5fda08fc75fc4200810783afb5ec08e2eccae8bae08fd74aac697f6e3d",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-slice-all_crafts_hm.validation.json",
+      "acceptance_source": "gear-screen-slice-all_crafts_hm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 298291.2870123142,
+      "ci95_half_width": 460.07373474186363,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.255,
+          "attack_crit": 0.255,
+          "spell_haste": 0.7906558849955078,
+          "attack_haste": 0.7906558849955078,
+          "spell_cast_speed": 0.7906558849955078,
+          "auto_attack_speed": 0.7906558849955078,
+          "mastery_value": 0.8449312499999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 529.0,
+          "crit_pct": 0.255,
+          "haste_rating": 1165.0,
+          "haste_pct": 0.26477272727272716,
+          "mastery_rating": 1301.0,
+          "mastery_pct": 0.8449312499999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-slice-all_crafts_hm.json",
+      "raw_result_sha256": "95b9014f0dda5434e7961679401cbba2be5dec04959fe60fc4241a24a10347ff",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-slice-cloak_hm",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-slice-cloak_hm.simc",
+      "input_sha256": "0e5ca7045f2cfb00765d6480a26ed69d3fc63d1288c2ef7e4143fed6cfe52067",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-slice-cloak_hm.validation.json",
+      "acceptance_source": "gear-screen-slice-cloak_hm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 301537.96485789947,
+      "ci95_half_width": 466.06983581557165,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.32652173913043475,
+          "attack_crit": 0.32652173913043475,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8449312499999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 858.0,
+          "crit_pct": 0.32652173913043475,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1301.0,
+          "mastery_pct": 0.8449312499999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-slice-cloak_hm.json",
+      "raw_result_sha256": "1245946ea038541808a204d2c75b8c1cbf5e0c601018d1762fb1af05252ebc32",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-slice-current",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-slice-current.simc",
+      "input_sha256": "3a20a37fde24385660b0b0df7704bfd3967f42de0a699a8a61936d99fef6d3ea",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-slice-current.validation.json",
+      "acceptance_source": "gear-screen-slice-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 300773.1046042142,
+      "ci95_half_width": 469.9081235118154,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.338695652173913,
+          "attack_crit": 0.338695652173913,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8165812499999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 914.0,
+          "crit_pct": 0.338695652173913,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8165812499999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-slice-current.json",
+      "raw_result_sha256": "04af140703fcdcbcd662ec19f6c9dfd73c199fe91d93b549cb31a1f7db06f9b5",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-slice-elite_full",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-slice-elite_full.simc",
+      "input_sha256": "9d42a903d28b8fe50d3f4d8e08054fbabd4d667ba3985cb4d1dc8a52e9250252",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-slice-elite_full.validation.json",
+      "acceptance_source": "gear-screen-slice-elite_full.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 307332.6709314606,
+      "ci95_half_width": 472.0083349154164,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2698.0,
+          "stamina": 45209.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2698.0,
+          "spell_crit": 0.34826086956521735,
+          "attack_crit": 0.34826086956521735,
+          "spell_haste": 0.8508992457938502,
+          "attack_haste": 0.8508992457938502,
+          "spell_cast_speed": 0.8508992457938502,
+          "auto_attack_speed": 0.8508992457938502,
+          "mastery_value": 0.899505,
+          "damage_versatility": 0.027777777777777776,
+          "heal_versatility": 0.027777777777777776,
+          "mitigation_versatility": 0.013888888888888888,
+          "crit_rating": 958.0,
+          "crit_pct": 0.34826086956521735,
+          "haste_rating": 771.0,
+          "haste_pct": 0.1752272727272728,
+          "mastery_rating": 1412.0,
+          "mastery_pct": 0.899505,
+          "versatility_rating": 150.0,
+          "versatility_pct": 0.027777777777777776,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_rating": 69.0,
+          "speed_pct": 7.041138949272222,
+          "armor": 1149.0,
+          "dodge": 0.15503539683166764,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-slice-elite_full.json",
+      "raw_result_sha256": "0804834bc72c18c9b294b20de4374bf6fa26db86656ff34be369fb4e974cf0e7",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-slice-one_gem_hm",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-slice-one_gem_hm.simc",
+      "input_sha256": "984ed8e20cb8214761008d6b320271fd2cd13c302a44b8eaf527a60376bdbf20",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-slice-one_gem_hm.validation.json",
+      "acceptance_source": "gear-screen-slice-one_gem_hm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 301115.8652626513,
+      "ci95_half_width": 456.8757438176138,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.33521739130434786,
+          "attack_crit": 0.33521739130434786,
+          "spell_haste": 0.8377760853008378,
+          "attack_haste": 0.8377760853008378,
+          "spell_cast_speed": 0.8377760853008378,
+          "auto_attack_speed": 0.8377760853008378,
+          "mastery_value": 0.8165812499999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 898.0,
+          "crit_pct": 0.33521739130434786,
+          "haste_rating": 852.0,
+          "haste_pct": 0.1936363636363636,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8165812499999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-slice-one_gem_hm.json",
+      "raw_result_sha256": "204af7b636c6fb33a5b6b37a0046e3b83d51a1e1e6b144bed61ffd89b6b73680",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-slice-raid_ring_334",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-slice-raid_ring_334.simc",
+      "input_sha256": "b5b2a520b0edeb5d965946eb44fa787b9fc50c881d09996e791ca450a355fc11",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-slice-raid_ring_334.validation.json",
+      "acceptance_source": "gear-screen-slice-raid_ring_334.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 303236.4068678783,
+      "ci95_half_width": 457.9088960668491,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43825.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.3113043478260869,
+          "attack_crit": 0.3113043478260869,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8839125,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 788.0,
+          "crit_pct": 0.3113043478260869,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1378.0,
+          "mastery_pct": 0.8839125,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-slice-raid_ring_334.json",
+      "raw_result_sha256": "f667b0ffc57d21c42b9aa36d08ccb341f36fea1f568649d7c026fe810af081fb",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-slice-ring_hm",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-slice-ring_hm.simc",
+      "input_sha256": "1bae1bb4befbe6d19991dfe57f4e2e226c7c26b2191900c61e1b5b1cad368178",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-slice-ring_hm.validation.json",
+      "acceptance_source": "gear-screen-slice-ring_hm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 299352.68581996165,
+      "ci95_half_width": 457.12562167429803,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.29543478260869566,
+          "attack_crit": 0.29543478260869566,
+          "spell_haste": 0.8095676172953081,
+          "attack_haste": 0.8095676172953081,
+          "spell_cast_speed": 0.8095676172953081,
+          "auto_attack_speed": 0.8095676172953081,
+          "mastery_value": 0.8165812499999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 715.0,
+          "crit_pct": 0.29543478260869566,
+          "haste_rating": 1035.0,
+          "haste_pct": 0.23522727272727284,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8165812499999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-slice-ring_hm.json",
+      "raw_result_sha256": "d139a2ddf739ac6e7241464282cfe17f301be8eaa98c4a73c9a84ed4e577e340",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-screen-slice-waist_331_cm",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-screen-slice-waist_331_cm.simc",
+      "input_sha256": "90ce451248120845830bbe547a69899ebb97c297ab4374d0841dcb776634cb4e",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-screen-slice-waist_331_cm.validation.json",
+      "acceptance_source": "gear-screen-slice-waist_331_cm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202611,
+      "samples": 3499,
+      "dps": 303443.33424403257,
+      "ci95_half_width": 471.048784467008,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2647.0,
+          "stamina": 44067.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2647.0,
+          "spell_crit": 0.35478260869565215,
+          "attack_crit": 0.35478260869565215,
+          "spell_haste": 0.8563643441027637,
+          "attack_haste": 0.8563643441027637,
+          "spell_cast_speed": 0.8563643441027637,
+          "auto_attack_speed": 0.8563643441027637,
+          "mastery_value": 0.8312625,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 988.0,
+          "crit_pct": 0.35478260869565215,
+          "haste_rating": 738.0,
+          "haste_pct": 0.16772727272727272,
+          "mastery_rating": 1274.0,
+          "mastery_pct": 0.8312625,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1125.0,
+          "dodge": 0.15296787131996126,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-screen-slice-waist_331_cm.json",
+      "raw_result_sha256": "32bab4491ca4781527d75b82d1f37dffdd3cd06a0ac913f36c479f1b2a1e685d",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-smoke-aoe",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-smoke-aoe.simc",
+      "input_sha256": "879bc066f7291402af961ae3fc550c6f2ee24a814ce40a4c0e3aef31ed887166",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-smoke-aoe.validation.json",
+      "acceptance_source": "gear-smoke-aoe.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202602,
+      "samples": 39,
+      "dps": 687403.3778621578,
+      "ci95_half_width": 6981.674144227955,
+      "fight_style": "Patchwerk",
+      "max_time": 90.0,
+      "desired_targets": 5,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.338695652173913,
+          "attack_crit": 0.338695652173913,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8165812499999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 914.0,
+          "crit_pct": 0.338695652173913,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8165812499999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-smoke-aoe.json",
+      "raw_result_sha256": "a9b389f9a465a71afeeed1bf4ab14aff0b667ac7d618b6eedd80c4977ae38b26",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-smoke-raid",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-smoke-raid.simc",
+      "input_sha256": "eb83d562a3a2f580d9288fc054ca13d91e899a9477c351429cb2ce1799d0944b",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-smoke-raid.validation.json",
+      "acceptance_source": "gear-smoke-raid.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202602,
+      "samples": 39,
+      "dps": 212285.10993935584,
+      "ci95_half_width": 1801.7689164932408,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 45934.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2764.0,
+          "spell_crit": 0.338695652173913,
+          "attack_crit": 0.338695652173913,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8631562499999998,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 914.0,
+          "crit_pct": 0.338695652173913,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8631562499999998,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-smoke-raid.json",
+      "raw_result_sha256": "583d3562fa269ca06fdaeb42a07bef01dc3da4a19850ac0a2516b5890e22d72b",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-smoke-raw",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-smoke-raw.simc",
+      "input_sha256": "cf666a2cea462f2400152012afc388a8acb74c03ef93c2c33c2e50650841a5b6",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": null,
+      "acceptance_source": "gear-summary.json",
+      "accepted": true,
+      "exit_code": null,
+      "requested_iterations": 30,
+      "reported_option_iterations": 37,
+      "seed": 2610202601,
+      "samples": 29,
+      "dps": 156853.34663905454,
+      "ci95_half_width": 1818.7335759510709,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2502.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2502.0,
+          "spell_crit": 0.32304347826086954,
+          "attack_crit": 0.32304347826086954,
+          "spell_haste": 0.8395344399923679,
+          "attack_haste": 0.8395344399923679,
+          "spell_cast_speed": 0.8395344399923679,
+          "auto_attack_speed": 0.8395344399923679,
+          "mastery_value": 0.7634249999999999,
+          "damage_versatility": 0.03962962962962963,
+          "heal_versatility": 0.03962962962962963,
+          "mitigation_versatility": 0.019814814814814816,
+          "crit_rating": 842.0,
+          "crit_pct": 0.32304347826086954,
+          "haste_rating": 841.0,
+          "haste_pct": 0.19113636363636366,
+          "mastery_rating": 1140.0,
+          "mastery_pct": 0.7634249999999999,
+          "versatility_rating": 214.0,
+          "versatility_pct": 0.03962962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.14703779557392566,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-smoke-raw.json",
+      "raw_result_sha256": "79cbcaecdbfb874318efb87c73a8162914b7acfad13b3bd631ce670506212023",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-smoke-slice",
+      "kind": "screen_or_smoke",
+      "input_file": "gear-smoke-slice.simc",
+      "input_sha256": "2bd7ccafe5c7a3c042862ed437842a87b6a1ee726449f92effc57e0dd40712f4",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-smoke-slice.validation.json",
+      "acceptance_source": "gear-smoke-slice.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202602,
+      "samples": 39,
+      "dps": 303200.4641357442,
+      "ci95_half_width": 4018.9080410387887,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.338695652173913,
+          "attack_crit": 0.338695652173913,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8165812499999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 914.0,
+          "crit_pct": 0.338695652173913,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8165812499999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-smoke-slice.json",
+      "raw_result_sha256": "acea6800ffb09168b6d701f0c4074828645a890222c83d6f23b36b137c3458d3",
+      "raw_result_archived": false
+    },
+    {
+      "key": "gear-talents-raid-bisset",
+      "kind": "final_or_control",
+      "input_file": "gear-talents-raid-bisset.simc",
+      "input_sha256": "ff83f01349a941e0ba5d425e27b368e648eb2179f79036f212b3adc6647bb644",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-talents-raid-bisset.validation.json",
+      "acceptance_source": "gear-talents-raid-bisset.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202641,
+      "samples": 3499,
+      "dps": 220540.0030159222,
+      "ci95_half_width": 201.57468335167016,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 46017.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2766.0,
+          "spell_crit": 0.33891304347826084,
+          "attack_crit": 0.33891304347826084,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.6464124111182934,
+          "mastery_value": 0.8636624999999999,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 915.0,
+          "crit_pct": 0.33891304347826084,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1246.0,
+          "mastery_pct": 0.8636624999999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-talents-raid-bisset.json",
+      "raw_result_sha256": "aea88f7a6cbda7ea452dc95fe56348fcd6c1c404c5098d4f744bc75051dbd8ad",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-talents-raid-user",
+      "kind": "final_or_control",
+      "input_file": "gear-talents-raid-user.simc",
+      "input_sha256": "d92edc7010ac4bdf41e51738fa558096dfed2caab6c0511ffbacefddd13d2c30",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-talents-raid-user.validation.json",
+      "acceptance_source": "gear-talents-raid-user.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202641,
+      "samples": 3499,
+      "dps": 214886.76956288674,
+      "ci95_half_width": 203.73165075387894,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 46017.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2766.0,
+          "spell_crit": 0.33891304347826084,
+          "attack_crit": 0.33891304347826084,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8636624999999999,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 915.0,
+          "crit_pct": 0.33891304347826084,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1246.0,
+          "mastery_pct": 0.8636624999999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-talents-raid-user.json",
+      "raw_result_sha256": "8b9f4321b88dbdfc4d18f8c36e742935b3d85b2f279e03fee15b20c5d4af847d",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-talents-slice-bisset",
+      "kind": "final_or_control",
+      "input_file": "gear-talents-slice-bisset.simc",
+      "input_sha256": "644456c2e33e58a8a41951be4002d9bd96189fda111bc4d23e2a27974821afb9",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-talents-slice-bisset.validation.json",
+      "acceptance_source": "gear-talents-slice-bisset.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202641,
+      "samples": 3499,
+      "dps": 312138.8966793899,
+      "ci95_half_width": 478.8906868897983,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 43825.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2635.0,
+          "spell_crit": 0.33891304347826084,
+          "attack_crit": 0.33891304347826084,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.6464124111182934,
+          "mastery_value": 0.8170874999999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 915.0,
+          "crit_pct": 0.33891304347826084,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1246.0,
+          "mastery_pct": 0.8170874999999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-talents-slice-bisset.json",
+      "raw_result_sha256": "b55fd40d135c52484346f2176d7351cacf3a55350b9d9b75cc9953fdd757d05d",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-talents-slice-user",
+      "kind": "final_or_control",
+      "input_file": "gear-talents-slice-user.simc",
+      "input_sha256": "949b162d6f230e2ed671e3ea5dc77b04e0d3d9a539aeceefb2af6593aaa125b5",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-talents-slice-user.validation.json",
+      "acceptance_source": "gear-talents-slice-user.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 3500,
+      "reported_option_iterations": 3507,
+      "seed": 2610202641,
+      "samples": 3499,
+      "dps": 302459.51735273766,
+      "ci95_half_width": 462.90258329669336,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2635.0,
+          "stamina": 43825.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2635.0,
+          "spell_crit": 0.33891304347826084,
+          "attack_crit": 0.33891304347826084,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8170874999999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 915.0,
+          "crit_pct": 0.33891304347826084,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1246.0,
+          "mastery_pct": 0.8170874999999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15248002454328927,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-talents-slice-user.json",
+      "raw_result_sha256": "8f5957450863a422812c19469192d10553fca125cf220d3a962f2f9571280992",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-unbuffed",
+      "kind": "static_snapshot",
+      "input_file": "gear-unbuffed.simc",
+      "input_sha256": "8e38e03e247ee6542255a02e1e487706e057dd1e98b7508bfc49dcdf10a6b9a0",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-unbuffed.validation.json",
+      "acceptance_source": "gear-unbuffed.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 40,
+      "reported_option_iterations": 47,
+      "seed": 2610202602,
+      "samples": 39,
+      "dps": 155730.05496786992,
+      "ci95_half_width": 1494.8398062498527,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2502.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2502.0,
+          "spell_crit": 0.33521739130434786,
+          "attack_crit": 0.33521739130434786,
+          "spell_haste": 0.842911877394636,
+          "attack_haste": 0.842911877394636,
+          "spell_cast_speed": 0.842911877394636,
+          "auto_attack_speed": 0.842911877394636,
+          "mastery_value": 0.7330499999999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 898.0,
+          "crit_pct": 0.33521739130434786,
+          "haste_rating": 820.0,
+          "haste_pct": 0.1863636363636363,
+          "mastery_rating": 1080.0,
+          "mastery_pct": 0.7330499999999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.14703779557392566,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-unbuffed.json",
+      "raw_result_sha256": "09e12820d17b0ac9de095401de376a5f382bbf0298edfd2c32af029d8e14bf87",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-verify-raid-current",
+      "kind": "final_or_control",
+      "input_file": "gear-verify-raid-current.simc",
+      "input_sha256": "d7d2821c6dd0016986f634654d76821e6aadacee5bfe0a28228fe0740e1aba7b",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-verify-raid-current.validation.json",
+      "acceptance_source": "gear-verify-raid-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202621,
+      "samples": 5999,
+      "dps": 213885.5938366511,
+      "ci95_half_width": 152.1442696642069,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 45934.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2764.0,
+          "spell_crit": 0.338695652173913,
+          "attack_crit": 0.338695652173913,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8631562499999998,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 914.0,
+          "crit_pct": 0.338695652173913,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8631562499999998,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-verify-raid-current.json",
+      "raw_result_sha256": "e3ec3dd0e9c58b94672eb120acbf3f17f0296c6cc86170cede28dc568d278944",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-verify-raid-raid_ring_334",
+      "kind": "final_or_control",
+      "input_file": "gear-verify-raid-raid_ring_334.simc",
+      "input_sha256": "f8c5fbc2f3300a20426d773a718185d4b242c75da23d9ad7b33f5431753f5949",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-verify-raid-raid_ring_334.validation.json",
+      "acceptance_source": "gear-verify-raid-raid_ring_334.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202621,
+      "samples": 5999,
+      "dps": 213824.75556958746,
+      "ci95_half_width": 156.54798504679187,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 46017.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2764.0,
+          "spell_crit": 0.3113043478260869,
+          "attack_crit": 0.3113043478260869,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.9304875,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 788.0,
+          "crit_pct": 0.3113043478260869,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1378.0,
+          "mastery_pct": 0.9304875,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-verify-raid-raid_ring_334.json",
+      "raw_result_sha256": "f7903f892d492241639e6f5c080a1f2de8c0b71c88870fc1510a4902feafd9ad",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-verify-raid-waist_331_cm",
+      "kind": "final_or_control",
+      "input_file": "gear-verify-raid-waist_331_cm.simc",
+      "input_sha256": "40996d99974d38ddd094b8c03e0d9ec3e986c1e2b0bbea65b422d3f8ce2479ed",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-verify-raid-waist_331_cm.validation.json",
+      "acceptance_source": "gear-verify-raid-waist_331_cm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202621,
+      "samples": 5999,
+      "dps": 214923.0083084712,
+      "ci95_half_width": 154.32477689397976,
+      "fight_style": "Patchwerk",
+      "max_time": 240.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2647.0,
+          "stamina": 46270.0,
+          "intellect": 638.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2779.0,
+          "spell_crit": 0.35478260869565215,
+          "attack_crit": 0.35478260869565215,
+          "spell_haste": 0.8563643441027637,
+          "attack_haste": 0.8563643441027637,
+          "spell_cast_speed": 0.8563643441027637,
+          "auto_attack_speed": 0.8563643441027637,
+          "mastery_value": 0.8778375,
+          "damage_versatility": 0.07462962962962963,
+          "heal_versatility": 0.07462962962962963,
+          "mitigation_versatility": 0.037314814814814815,
+          "crit_rating": 988.0,
+          "crit_pct": 0.35478260869565215,
+          "haste_rating": 738.0,
+          "haste_pct": 0.16772727272727272,
+          "mastery_rating": 1274.0,
+          "mastery_pct": 0.8778375,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.07462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1125.0,
+          "dodge": 0.15296787131996126,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-verify-raid-waist_331_cm.json",
+      "raw_result_sha256": "697c9e6143a97d2d37ad4d874c12634fc7b363fccb0baf2503928f5e30e16d0b",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-verify-slice-current",
+      "kind": "final_or_control",
+      "input_file": "gear-verify-slice-current.simc",
+      "input_sha256": "badf2a166358043544c16b01d292dce74cc612faeb8d0fdf0ac98744ae9223b2",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-verify-slice-current.validation.json",
+      "acceptance_source": "gear-verify-slice-current.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202621,
+      "samples": 5999,
+      "dps": 301146.4120718572,
+      "ci95_half_width": 359.00653339253057,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43747.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.338695652173913,
+          "attack_crit": 0.338695652173913,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8165812499999999,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 914.0,
+          "crit_pct": 0.338695652173913,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1245.0,
+          "mastery_pct": 0.8165812499999999,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-verify-slice-current.json",
+      "raw_result_sha256": "98638a49b43e05fdee8067466df57cc34499f5e7aa05c83e07ede6961c7cc554",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-verify-slice-raid_ring_334",
+      "kind": "final_or_control",
+      "input_file": "gear-verify-slice-raid_ring_334.simc",
+      "input_sha256": "c060cadbc9436fd7f109396a5bf7d7fc6be33ae22d1a82325c670f5087e39edb",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-verify-slice-raid_ring_334.validation.json",
+      "acceptance_source": "gear-verify-slice-raid_ring_334.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202621,
+      "samples": 5999,
+      "dps": 303274.4789088629,
+      "ci95_half_width": 353.3528841224528,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2633.0,
+          "stamina": 43825.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2633.0,
+          "spell_crit": 0.3113043478260869,
+          "attack_crit": 0.3113043478260869,
+          "spell_haste": 0.8403361344537815,
+          "attack_haste": 0.8403361344537815,
+          "spell_cast_speed": 0.8403361344537815,
+          "auto_attack_speed": 0.8403361344537815,
+          "mastery_value": 0.8839125,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 788.0,
+          "crit_pct": 0.3113043478260869,
+          "haste_rating": 836.0,
+          "haste_pct": 0.18999999999999995,
+          "mastery_rating": 1378.0,
+          "mastery_pct": 0.8839125,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1118.0,
+          "dodge": 0.15239866585207545,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-verify-slice-raid_ring_334.json",
+      "raw_result_sha256": "2782928001eb31817809ec7d5fabeb36c01996e9aee01d2d80c3964c5357cc8a",
+      "raw_result_archived": true
+    },
+    {
+      "key": "gear-verify-slice-waist_331_cm",
+      "kind": "final_or_control",
+      "input_file": "gear-verify-slice-waist_331_cm.simc",
+      "input_sha256": "75436e08e87245201f86fbc29ee5dbed518ff807fa5816b715a38e8633dee4e1",
+      "source_export_file": null,
+      "input_note": null,
+      "validation_file": "gear-verify-slice-waist_331_cm.validation.json",
+      "acceptance_source": "gear-verify-slice-waist_331_cm.validation.json",
+      "accepted": true,
+      "exit_code": 0,
+      "requested_iterations": 6000,
+      "reported_option_iterations": 6007,
+      "seed": 2610202621,
+      "samples": 5999,
+      "dps": 303602.02420478506,
+      "ci95_half_width": 357.43511829823234,
+      "fight_style": "DungeonSlice",
+      "max_time": 360.0,
+      "desired_targets": 1,
+      "valid_fight_style": true,
+      "git_revision": "73a372b761",
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "snapshot_stats": {
+        "attribute": {
+          "strength": 267.0,
+          "agility": 2647.0,
+          "stamina": 44067.0,
+          "intellect": 620.0
+        },
+        "resources": {
+          "energy": 150.0,
+          "chi": 6.0
+        },
+        "stats": {
+          "attack_power": 2647.0,
+          "spell_crit": 0.35478260869565215,
+          "attack_crit": 0.35478260869565215,
+          "spell_haste": 0.8563643441027637,
+          "attack_haste": 0.8563643441027637,
+          "spell_cast_speed": 0.8563643441027637,
+          "auto_attack_speed": 0.8563643441027637,
+          "mastery_value": 0.8312625,
+          "damage_versatility": 0.04462962962962963,
+          "heal_versatility": 0.04462962962962963,
+          "mitigation_versatility": 0.022314814814814815,
+          "crit_rating": 988.0,
+          "crit_pct": 0.35478260869565215,
+          "haste_rating": 738.0,
+          "haste_pct": 0.16772727272727272,
+          "mastery_rating": 1274.0,
+          "mastery_pct": 0.8312625,
+          "versatility_rating": 241.0,
+          "versatility_pct": 0.04462962962962963,
+          "avoidance_rating": 167.0,
+          "avoidance_pct": 0.04537978699848076,
+          "speed_pct": 7.0,
+          "armor": 1125.0,
+          "dodge": 0.15296787131996126,
+          "parry": 0.03
+        }
+      },
+      "raw_result_file": "gear-verify-slice-waist_331_cm.json",
+      "raw_result_sha256": "357c538203d8f4c53a4805ca1db2544e011b22d59d89b92ffe08886050c9a15c",
+      "raw_result_archived": true
+    }
+  ]
+}

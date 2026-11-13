@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-29T15:53:14.455104+08:00",
+  "source_commit": "710c2408bfd3ae4df71b8cd55cdf01f63fd6c926",
+  "engine_sha256": "c63b250b24e269722269f54ba97a6007b24907fca12edc507eb80e02ffe584f0",
+  "snapshot_sha256": "3a0b549459bb7b4e128f8f75a131681823e4d426947bf47eb9dd425856a78a4f",
+  "mode": "Live 12.1.5.70575 / 2026-10-28 hotfix",
+  "assumptions": {
+    "ascended_level": "Native bonus12856=341, no override",
+    "head_precursor": 271875,
+    "other_precursors": "October23 matching bonuses and IDs; user confirms retained stats and effects",
+    "balance_and_bags": "unknown"
+  }
+}

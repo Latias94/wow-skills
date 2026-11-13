@@ -1,0 +1,21 @@
+{
+  "name": "tuning-tendril-slice-craft_hands_cm-3000-26102941",
+  "started_at": "2026-10-29T17:45:20.784495+08:00",
+  "ended_at": "2026-10-29T17:45:31.123252+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 323446.533880511,
+  "ci95": 558.0192829649108,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

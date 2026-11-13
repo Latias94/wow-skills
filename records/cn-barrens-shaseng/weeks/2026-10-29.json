@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-barrens-shaseng",
+  "reset_date": "2026-10-29",
+  "reported_at": "2026-10-29T16:27:15.132203+08:00",
+  "timezone": "Asia/Shanghai",
+  "patch": "12.1.5",
+  "season": "Midnight Season 2",
+  "budget": {
+    "reported_balance": null,
+    "reported_at": null,
+    "evidence": "Equipped-only import does not supply current resources; historical October23 balance not inherited."
+  },
+  "snapshot": "snapshots/2026-10-29-equipped.simc",
+  "vault": {
+    "status": "unknown",
+    "candidates": []
+  },
+  "resources": {
+    "mythical_soul_fragments": null,
+    "myth_mistcrests": null,
+    "catalyst_charges": null,
+    "ascendant_venomstone": null,
+    "sparks": {
+      "reported_sufficient_for_additional_crafts": 2,
+      "reported_at": "2026-10-29T20:58:59.321775+08:00",
+      "exact_balance": null,
+      "evidence": "User: 我现在可以再做两个制造业装备我有足够火花"
+    }
+  },
+  "rules": {
+    "raid_roll_core_cost": 1,
+    "labyrinth_fragments_per_item": 3,
+    "labyrinth_reward_level": 321,
+    "labyrinth_reward_track": "Myth2/6",
+    "ordinary_myth_ceiling": 334,
+    "crest_cap_removed": true,
+    "sources": [
+      "https://wow.blizzard.cn/news/24293281/index.html",
+      "https://wow.blizzard.cn/news/24304162/",
+      "https://www.wowhead.com/news/myth-2-6-piece-of-loot-now-available-from-labyrinths-383603"
+    ]
+  },
+  "pools": [
+    {
+      "activity": "H7 / Coiled Altar",
+      "loot_spec": "windwalker",
+      "derived_base_ids": [
+        268209,
+        268225,
+        268253,
+        268256,
+        270173
+      ],
+      "confirmed_historical_roll_ids": [
+        270173
+      ],
+      "main_remaining_targets": [
+        268225,
+        268256
+      ],
+      "completeness": "complete derived base table; current remaining preview unknown",
+      "history_coverage": "partial",
+      "exact_probability": null
+    },
+    {
+      "activity": "H10 / Kith'ix",
+      "loot_spec": "windwalker",
+      "derived_base_ids": [
+        281029,
+        281236,
+        281215
+      ],
+      "confirmed_historical_roll_ids": [
+        281029,
+        281236
+      ],
+      "main_remaining_targets": [
+        281215
+      ],
+      "completeness": "complete derived base table; current remaining preview unknown",
+      "history_coverage": "partial",
+      "exact_probability": null
+    }
+  ],
+  "plan": {
+    "status": "proposed_not_spent",
+    "evidence": "analysis/2026-10-29/report.html",
+    "ordered_priorities": [
+      "H10 if281215 still missing and present in current preview; reassess after acquisition.",
+      "H7 for missing268225 legs and268256 belt; reconsider cloak with lining moved to shoes as a full loadout.",
+      "Labyrinth shoulder272244 redemption is confirmed. Check actual Catalyst and upgrade state; do not redeem another shoulder.",
+      "Keep owned cloak+wrist Arcanoweave now. An extra ordinary331 CM belt is conditional on H7 belt still missing; do not force two new crafts."
+    ],
+    "labyrinth_branches": "analysis/2026-10-29/report-data.json#branches",
+    "current_currency_allocation": null,
+    "conditional_only": true,
+    "crafting": {
+      "status": "proposed_not_spent",
+      "first_new_craft_id": 244573,
+      "stats": "crit/mastery",
+      "target_ilvl": 331,
+      "embellishment": null,
+      "second_craft": "No unconditional target supported by bounded study; reevaluate with actual bags/H7 results.",
+      "evidence": "analysis/2026-10-29/two-crafts-summary.json"
+    }
+  },
+  "events": [
+    {
+      "event_id": "2026-10-29-labyrinth-shoulder-user-confirmed",
+      "reported_at": "2026-10-29T20:38:35.075712+08:00",
+      "occurred_at": null,
+      "kind": "vendor_redemption",
+      "status": "confirmed",
+      "evidence": "User: 如果做两件制造业 我已经换了肩膀 你建议如何做制造业. Refers to the agreed Labyrinth shoulder272244; no new full export.",
+      "source": "Wahdu Labyrinth fragment redemption",
+      "item_id": 272244,
+      "item_identity_basis": "Context of the immediately preceding confirmed shoulder recommendation",
+      "bonus_ids": null,
+      "current_item_level": null,
+      "catalyst_completed": null,
+      "upgrade_completed": null,
+      "cost_paid": null,
+      "currency_remaining": null,
+      "notes": "Acquisition confirmed only. Do not assume the shoulder is catalyzed, upgraded to334, or currently equipped."
+    }
+  ],
+  "unresolved": [
+    "Current balance and reward preview",
+    "Full intervening roll history and knockout cycle",
+    "Fragment count and Catalyst availability",
+    "Current Vault and bag candidates",
+    "Full new reward link/socket/tertiary details"
+  ]
+}

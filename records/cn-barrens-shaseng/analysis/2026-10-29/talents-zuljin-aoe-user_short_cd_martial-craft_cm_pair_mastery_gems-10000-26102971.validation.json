@@ -1,0 +1,21 @@
+{
+  "name": "talents-zuljin-aoe-user_short_cd_martial-craft_cm_pair_mastery_gems-10000-26102971",
+  "started_at": "2026-10-29T19:10:20.095202+08:00",
+  "ended_at": "2026-10-29T19:10:28.575865+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 744256.939664654,
+  "ci95": 432.41128792854016,
+  "samples": 9999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "checked_at": "2026-11-13T17:04:15.313332+08:00",
+  "status": "passed_with_documented_reproduction_limits",
+  "date": "2026-10-29",
+  "json_files_parsed_before_receipt": 771,
+  "python_syntax_checked": [
+    "assemble-report.py",
+    "build-report.py",
+    "build-tuning-summary.py",
+    "craft-placement-study.py",
+    "personal-study.py",
+    "talent-study.py",
+    "tuning-study.py",
+    "two-crafts-study.py"
+  ],
+  "javascript_syntax_checked": [],
+  "inline_report_scripts_syntax_checked": 1,
+  "native_results": {
+    "total": 372,
+    "archived": 154,
+    "local_only": 218,
+    "existing_acceptance_counts": {
+      "true": 372
+    },
+    "all_measurements_and_result_hashes_match_summary": true
+  },
+  "retention_guards": {
+    "all_existing_simc_inputs_retained": true,
+    "all_existing_validation_records_retained": true,
+    "ignored_json_contains_native_simulation_data_only": true,
+    "ignored_text_has_matching_native_result": true
+  },
+  "dependency_check": {
+    "required_report_builder_files": [
+      "report-data.json",
+      "elite-evidence.json",
+      "report-icons.json",
+      "../../snapshots/2026-10-29-equipped.items.json",
+      "native70575-stats-current-40-26102901.json",
+      "tuning-zuljin-stats-baseline-40-26102931.json",
+      "tuning-zuljin-stats-craft_cm_pair_mastery_gems-40-26102931.json",
+      "talent-candidates.json",
+      "tuning-summary.json",
+      "crafting-followup.json",
+      "two-crafts-summary.json",
+      "native70575-slice-current-7000-26102921.simc",
+      "native70575-slice-route-7000-26102921.simc",
+      "native70575-slice-route_raid_shoulder-7000-26102921.simc",
+      "talents-zuljin-slice-user_short_cd_martial-baseline-10000-26102971.simc",
+      "talents-tendril-slice-user_short_cd_martial-baseline-10000-26102971.simc"
+    ],
+    "missing_or_ignored_required_files": [],
+    "local_links_checked": 84,
+    "broken_or_ignored_links": [],
+    "links": [
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#main",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#overview",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#stats",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#tuning",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#talents",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#equipment",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#branches",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#comparisons",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#actions",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#samples",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#consumables",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "#evidence",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "../../snapshots/2026-10-29-equipped.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "current-dungeon.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "recommended-dungeon.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "alternate-raid-shoulder.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "elite-research.md",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "weekly-sources-research.md",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "simc-manifest-native70575.json",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "report-data.json",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "tuning-summary.json",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "tuning-review.md",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "elite-talents-research.md",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "recommended-talent-zuljin-dungeon.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "recommended-talent-tendril-dungeon.simc",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "crafting-followup.md",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/report.html",
+        "target": "two-crafts-summary.json",
+        "kind": "html"
+      },
+      {
+        "source": "analysis/2026-10-29/crafting-followup.md",
+        "target": "two-crafts-summary.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/crafting-followup.md",
+        "target": "two-crafts-study.py",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/crafting-followup.md",
+        "target": "crafting-followup.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/crafting-followup.md",
+        "target": "craft-placement-manifest.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/elite-research.md",
+        "target": "elite-evidence.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/elite-research.md",
+        "target": "../../snapshots/2026-10-29-equipped.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/elite-research.md",
+        "target": "../../snapshots/2026-10-29-equipped.items.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/elite-research.md",
+        "target": "../2026-10-26/gear-review.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/elite-research.md",
+        "target": "../../snapshots/2026-10-23.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/elite-research.md",
+        "target": "../2026-10-26/wcl-elite-combatant.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/elite-research.md",
+        "target": "../2026-10-26/wcl-elite-buffs.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/elite-research.md",
+        "target": "../2026-10-26/wcl-elite-profile.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/README.md",
+        "target": "report.html",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/README.md",
+        "target": "review.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/README.md",
+        "target": "tuning-review.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/README.md",
+        "target": "crafting-followup.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/README.md",
+        "target": "../../snapshots/2026-10-29-equipped.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/README.md",
+        "target": "../../snapshots/2026-10-29-equipped.items.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/README.md",
+        "target": "screening-summary.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/README.md",
+        "target": "screening-summary.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/README.md",
+        "target": "archive-validation.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/review.md",
+        "target": "report.html",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/review.md",
+        "target": "report-data.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/review.md",
+        "target": "../../snapshots/2026-10-29-equipped.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/review.md",
+        "target": "elite-research.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/review.md",
+        "target": "weekly-sources-research.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/review.md",
+        "target": "simc-manifest-native70575.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/review.md",
+        "target": "current-dungeon.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/review.md",
+        "target": "recommended-dungeon.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/review.md",
+        "target": "alternate-raid-shoulder.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/review.md",
+        "target": "report-browser-check.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/tuning-review.md",
+        "target": "report.html#tuning",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/tuning-review.md",
+        "target": "tuning-summary.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/tuning-review.md",
+        "target": "tuning-haste-evidence.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/tuning-review.md",
+        "target": "tuning-enchant-research.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/tuning-review.md",
+        "target": "elite-talents-research.md",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/tuning-review.md",
+        "target": "report.html#talents",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/tuning-review.md",
+        "target": "recommended-talent-zuljin-dungeon.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/tuning-review.md",
+        "target": "recommended-talent-tendril-dungeon.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/weekly-sources-research.md",
+        "target": "../../weeks/2026-10-22.json",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/weekly-sources-research.md",
+        "target": "../../snapshots/2026-10-29-equipped.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/weekly-sources-research.md",
+        "target": "../../snapshots/2026-10-23.simc",
+        "kind": "markdown"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "../../snapshots/2026-10-29-equipped.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "current-dungeon.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "recommended-dungeon.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "alternate-raid-shoulder.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "elite-research.md",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "weekly-sources-research.md",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "simc-manifest-native70575.json",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "report-data.json",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "tuning-summary.json",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "tuning-review.md",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "elite-talents-research.md",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "recommended-talent-zuljin-dungeon.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "recommended-talent-tendril-dungeon.simc",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "crafting-followup.md",
+        "kind": "download"
+      },
+      {
+        "source": "analysis/2026-10-29/report-data.json",
+        "target": "two-crafts-summary.json",
+        "kind": "download"
+      }
+    ]
+  },
+  "in_memory_render": {
+    "mode": "Pure render function; in memory only",
+    "matches_existing_html_after_newline_decoding": true
+  },
+  "git_roundtrip": {
+    "files_checked": 1437,
+    "unexpected_conversions": 0,
+    "index_or_objects_written": false,
+    "historical_tracked_files_outside_archive_text_normalization": 286
+  },
+  "provenance": {
+    "original_files_in_character_scope_checked_against_preparation_baseline": 3033,
+    "changed_original_files": 0,
+    "deleted_original_files": 0,
+    "original_simc_reformatted": false
+  },
+  "file_pattern_inventory_before_receipt": [
+    {
+      "extension": "(none)",
+      "files": 1,
+      "bytes": 518,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".cpython-312.pyc",
+      "files": 1,
+      "bytes": 34892,
+      "local_only_files": 1,
+      "local_only_bytes": 34892
+    },
+    {
+      "extension": ".html",
+      "files": 1,
+      "bytes": 295247,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".json",
+      "files": 399,
+      "bytes": 201544174,
+      "local_only_files": 218,
+      "local_only_bytes": 121468771
+    },
+    {
+      "extension": ".md",
+      "files": 9,
+      "bytes": 166060,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".png",
+      "files": 5,
+      "bytes": 423783,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".py",
+      "files": 8,
+      "bytes": 79560,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".run.log",
+      "files": 372,
+      "bytes": 2659821,
+      "local_only_files": 372,
+      "local_only_bytes": 2659821
+    },
+    {
+      "extension": ".simc",
+      "files": 405,
+      "bytes": 819396,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    },
+    {
+      "extension": ".txt",
+      "files": 372,
+      "bytes": 15017881,
+      "local_only_files": 372,
+      "local_only_bytes": 15017881
+    },
+    {
+      "extension": ".validation.json",
+      "files": 372,
+      "bytes": 251325,
+      "local_only_files": 0,
+      "local_only_bytes": 0
+    }
+  ],
+  "limitations": [
+    "No SimulationCraft execution, browser session or external-source refresh was performed. Browser receipts/screenshots are historical.",
+    "Engine binaries and source/build directories remain external prerequisites; recorded source/binary identities were not replaced.",
+    "Only the generated report HTML and Markdown links are checked as offline report dependencies. Saved WCL HTML captures retain original site-relative assets and are source evidence, not standalone offline sites.",
+    "JSON parsing covers all existing dated JSON, including local-only native results. This receipt itself was serialized and parsed immediately after writing.",
+    "Original scientific conclusions, resource balances, profile and weekly ledger were not changed."
+  ]
+}

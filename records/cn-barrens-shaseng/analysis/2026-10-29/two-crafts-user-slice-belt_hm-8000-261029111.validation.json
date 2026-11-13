@@ -1,0 +1,21 @@
+{
+  "name": "two-crafts-user-slice-belt_hm-8000-261029111",
+  "started_at": "2026-10-29T20:56:36.281422+08:00",
+  "ended_at": "2026-10-29T20:56:53.353185+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 309731.1576870643,
+  "ci95": 312.2548943585084,
+  "samples": 7999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

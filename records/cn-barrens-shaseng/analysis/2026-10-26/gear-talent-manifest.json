@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-26T13:27:29.555591+08:00",
+  "iterations": 3500,
+  "seed": 2610202641,
+  "equipment": "User latest equipment with historical-precursor continuity and sourced ilevel=341 compatibility overrides.",
+  "interpretation": "Full talent-string sensitivity only, not a recommendation to switch or a single-talent causal estimate. Actual fight casts and cooldowns also depend on build and encounter length.",
+  "runs": {
+    "gear-talents-slice-user": {
+      "source": "gear-compat341-slice-current.simc",
+      "source_sha256": "757059dc1c61bf9b82fab9e0047efab15d7f3453c8c8b59f455d63d269bbb4d2",
+      "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG",
+      "variant": "user",
+      "mode": "slice"
+    },
+    "gear-talents-slice-bisset": {
+      "source": "gear-compat341-slice-current.simc",
+      "source_sha256": "757059dc1c61bf9b82fab9e0047efab15d7f3453c8c8b59f455d63d269bbb4d2",
+      "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYbmx2MAAAAAAAAAAAALDz0MmhhBMMMzMzwsxMDWmJAgFmtxMmZmZgAYxMLz2YCCAYGDgZAGLDgZmZzA",
+      "variant": "bisset",
+      "mode": "slice"
+    },
+    "gear-talents-raid-user": {
+      "source": "gear-compat341-raid-current.simc",
+      "source_sha256": "d48ab0bde2e048478069a23854c802a784746072ffd807f1207d8583323d510a",
+      "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG",
+      "variant": "user",
+      "mode": "raid"
+    },
+    "gear-talents-raid-bisset": {
+      "source": "gear-compat341-raid-current.simc",
+      "source_sha256": "d48ab0bde2e048478069a23854c802a784746072ffd807f1207d8583323d510a",
+      "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYbmx2MAAAAAAAAAAAALDz0MmhhBMMMzMzwsxMDWmJAgFmtxMmZmZgAYxMLz2YCCAYGDgZAGLDgZmZzA",
+      "variant": "bisset",
+      "mode": "raid"
+    }
+  }
+}

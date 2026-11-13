@@ -1,0 +1,21 @@
+{
+  "name": "talents-tendril-slice-user_short_cd_martial-rings_advanced_mastery-3000-26102961",
+  "started_at": "2026-10-29T19:03:01.680094+08:00",
+  "ended_at": "2026-10-29T19:03:09.401690+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 328608.7163068052,
+  "ci95": 560.838657755126,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

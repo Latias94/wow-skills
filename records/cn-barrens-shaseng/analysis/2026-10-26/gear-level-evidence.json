@@ -1,0 +1,1151 @@
+{
+  "checked_at": "2026-10-26T13:15:59.178097+08:00",
+  "original_tooltip_retrieved_at": "2026-10-26T12:44:07.4599320+08:00",
+  "requests": [
+    {
+      "tag": "user_neck",
+      "url": "https://nether.wowhead.com/tooltip/item/268265?dataEnv=1&locale=4&bonus=6652:13668:13334:13987:12856",
+      "retrieved_at": "2026-10-26T13:15:59.178605+08:00",
+      "http_status": 200,
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Date": "Mon, 26 Oct 2026 05:15:58 GMT",
+        "Access-Control-Allow-Origin": "*",
+        "ETag": "W/\"75d1792645369:2d1792645369:17:70391\"",
+        "Server": "nginx",
+        "X-Origin-Timestamp": "2026-10-26T00:15:58-05:00",
+        "Expires": "Tue, 23 Nov 2004 03:00:00 GMT",
+        "Cache-Control": "max-age=0, s-maxage=43200",
+        "Vary": "Accept-Encoding",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 6a949c9479291618ae4e64d8a11e0c50.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT12-P3",
+        "X-Amz-Cf-Id": "Oo1dG4auBE2g90D1g1oyfSF9BkZJjuQSGk8Ji949aK6cDPe6cuKd9A=="
+      },
+      "response_top_level_keys": [
+        "name",
+        "quality",
+        "icon",
+        "tooltip",
+        "spells"
+      ],
+      "item_level": 340,
+      "response": {
+        "name": "亚基克星藏骨匣",
+        "quality": 4,
+        "icon": "inv_121_jewelry_neck03_green",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">亚基克星藏骨匣</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span><br><span style=\"color: #00BF0D\">晋升毒液铸造：史诗</span><br><span style=\"color: #00BF0D\">毒咒</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->340</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>颈部</td><th><!--scstart4:-3--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat7-->+2,355 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->105暴击</span><br><span class=\"q2\">+<!--rtg36-->105急速</span><br><span class=\"q2\">+<!--rtg40-->105全能</span><br><span class=\"q2\">+<!--rtg49-->105精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><br /><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><!--ps--><br /><br /></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1305838\" class=\"q2\"><a href=\"/cn/spell=1305830/解除盘卷守卫结界\" target=\"_blank\">在盘卷蛇岛与烈毒之渊中，受到致命剧毒的伤害降低7%。</a></a><!--useEffect:1--></span><!--useText:1--><br><br><!--useText:0:2--><span id=\"useText2\" class=\"q2\">装备： <!--useEffect:0:2--><a href=\"/cn/spell=1317582\" class=\"q2\">你的法术和技能有几率使你的一项随机次要属性提高<!--pts1:0:0:1317582:0.997962-->425<!---->，但会使你的其他次要属性降低<!--pts2:0:0:1317582:0.167881-->71<!---->，持续12秒。</a><!--useEffect:2--></span><!--useText:2--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;亚基虫群在她暴虐的攻势下败走，然而她身后溃流的毒液之河却无差别地剥夺着生灵。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">25</span> <span class=\"moneycopper\">67</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 乌拉特克</div></td></tr></table>",
+        "spells": []
+      },
+      "data_freshness": "HTTP Date and cache headers date the response/cache, not the item database hotfix. No validated item-data build date is exposed by these fields."
+    },
+    {
+      "tag": "user_trinket1",
+      "url": "https://nether.wowhead.com/tooltip/item/270175?dataEnv=1&locale=4&bonus=6652:13334:12856",
+      "retrieved_at": "2026-10-26T13:16:00.042468+08:00",
+      "http_status": 200,
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Date": "Mon, 26 Oct 2026 05:15:59 GMT",
+        "Access-Control-Allow-Origin": "*",
+        "ETag": "W/\"75d1792645369:2d1792645369:17:70391\"",
+        "Server": "nginx",
+        "X-Origin-Timestamp": "2026-10-26T00:15:59-05:00",
+        "Expires": "Tue, 23 Nov 2004 03:00:00 GMT",
+        "Cache-Control": "max-age=0, s-maxage=43200",
+        "Vary": "Accept-Encoding",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 7bb66c5fc1e732675b1f05b324f80096.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT12-P3",
+        "X-Amz-Cf-Id": "o_kXY4Cc0oU6eyrZGqbs4fOPsiD7RRvJFkCJ8D4lHfU96nYzXW7yOw=="
+      },
+      "response_top_level_keys": [
+        "name",
+        "quality",
+        "icon",
+        "tooltip",
+        "spells"
+      ],
+      "item_level": 340,
+      "response": {
+        "name": "乌拉特克贪婪之心",
+        "quality": 4,
+        "icon": "inv_121_trinket_raid_ulatek_heart",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">乌拉特克贪婪之心</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span><br><span style=\"color: #00BF0D\">晋升毒液铸造：史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->340</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>饰品</td><th><!--scstart4:-4--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><!--ebstats--><span class=\"q2\">+<!--rtg32-->147暴击</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--useText:0:2--><span id=\"useText2\" class=\"q2\">使用:  <!--useEffect:0:2--><a href=\"/cn/spell=1297761\" class=\"q2\">咬下心脏，拥抱贪食的饥饿，获得<!--pts1:0:0:1297760:1.21834-->462<!----><!--sp137005:0--><!--sp137005--><!--sp137026:0--><!--sp137026--><!--sp137047:0--><!--sp137047--><!--sp137009:0--><!--sp137009--><!--sp137014:0--><!--sp137014--><!--sp137022:0--><!--sp137022--><!--sp137034:0--><!--sp137034--><!--sp137038:0--><!--sp137038--><!--sp212611:0--><!--sp212611--><!--sp0:0-->力量或敏捷<!--sp0-->，持续20秒。<br /><br />在饥饿感持续期间，每次攻击都有极高几率吞噬目标的一块血肉，造成<!--pts2:0:0:1297760:19.8644-->15131<!---->点物理伤害，并使你的<!--sp137005:0--><!--sp137005--><!--sp137026:0--><!--sp137026--><!--sp137047:0--><!--sp137047--><!--sp137009:0--><!--sp137009--><!--sp137014:0--><!--sp137014--><!--sp137022:0--><!--sp137022--><!--sp137034:0--><!--sp137034--><!--sp137038:0--><!--sp137038--><!--sp212611:0--><!--sp212611--><!--sp0:0-->力量或敏捷<!--sp0-->进一步提高<!--pts3:0:0:1297760:0.136374-->52<!---->点。</a> (1​分钟，30​秒 冷却)<!--useEffect:2--></span><!--useText:2--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">53</span> <span class=\"moneysilver\">9</span> <span class=\"moneycopper\">12</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 乌拉特克</div></td></tr></table>",
+        "spells": {
+          "0": [
+            [
+              "",
+              "力量或敏捷",
+              ""
+            ],
+            [
+              "",
+              "力量或敏捷",
+              ""
+            ],
+            [
+              "",
+              "力量或敏捷",
+              ""
+            ],
+            [
+              "",
+              "力量或敏捷",
+              ""
+            ]
+          ],
+          "137005": [
+            [
+              "",
+              "力量",
+              ""
+            ],
+            [
+              "",
+              "力量",
+              ""
+            ]
+          ],
+          "137009": [
+            [
+              "",
+              "敏捷",
+              ""
+            ],
+            [
+              "",
+              "敏捷",
+              ""
+            ]
+          ],
+          "137014": [
+            [
+              "",
+              "敏捷",
+              ""
+            ],
+            [
+              "",
+              "敏捷",
+              ""
+            ]
+          ],
+          "137022": [
+            [
+              "",
+              "敏捷",
+              ""
+            ],
+            [
+              "",
+              "敏捷",
+              ""
+            ]
+          ],
+          "137026": [
+            [
+              "",
+              "力量",
+              ""
+            ],
+            [
+              "",
+              "力量",
+              ""
+            ]
+          ],
+          "137034": [
+            [
+              "",
+              "敏捷",
+              ""
+            ],
+            [
+              "",
+              "敏捷",
+              ""
+            ]
+          ],
+          "137038": [
+            [
+              "",
+              "敏捷",
+              ""
+            ],
+            [
+              "",
+              "敏捷",
+              ""
+            ]
+          ],
+          "137047": [
+            [
+              "",
+              "力量",
+              ""
+            ],
+            [
+              "",
+              "力量",
+              ""
+            ]
+          ],
+          "212611": [
+            [
+              "",
+              "敏捷",
+              ""
+            ],
+            [
+              "",
+              "敏捷",
+              ""
+            ]
+          ]
+        }
+      },
+      "data_freshness": "HTTP Date and cache headers date the response/cache, not the item database hotfix. No validated item-data build date is exposed by these fields."
+    },
+    {
+      "tag": "user_main_hand",
+      "url": "https://nether.wowhead.com/tooltip/item/268215?dataEnv=1&locale=4&bonus=6652:13334:13846:12856",
+      "retrieved_at": "2026-10-26T13:16:00.804239+08:00",
+      "http_status": 200,
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Date": "Mon, 26 Oct 2026 05:16:00 GMT",
+        "Access-Control-Allow-Origin": "*",
+        "ETag": "W/\"75d1792645369:2d1792645369:17:70391\"",
+        "Server": "nginx",
+        "X-Origin-Timestamp": "2026-10-26T00:16:00-05:00",
+        "Expires": "Tue, 23 Nov 2004 03:00:00 GMT",
+        "Cache-Control": "max-age=0, s-maxage=43200",
+        "Vary": "Accept-Encoding",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 7087fa8b6dcb56c87f78f5569a6a2eac.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT12-P3",
+        "X-Amz-Cf-Id": "39RZ1YBozjWPrUSsAo2WxwJLEF7HKzvqQVmOeXvseU1fTJsFOp5WiA=="
+      },
+      "response_top_level_keys": [
+        "name",
+        "quality",
+        "icon",
+        "tooltip",
+        "spells"
+      ],
+      "item_level": 340,
+      "response": {
+        "name": "深渊巢魔的长柄大斧",
+        "quality": 4,
+        "icon": "inv_polearm_2h_ulatek_d_01",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">深渊巢魔的长柄大斧</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span><br><span style=\"color: #00BF0D\">晋升毒液铸造：史诗</span><br><span style=\"color: #00BF0D\">毒咒</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->340</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>双手</td><th><!--scstart2:6--><span class=\"q1\">长柄武器</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->378 - 702点伤害</span></td>\n    <th>速度 <!--spd-->3.60</th>\n</tr></table><!--dps-->（每秒伤害150.0点）<br><span><!--stat3-->+199 敏捷</span><br><span><!--stat7-->+4,187 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg49-->206精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 120 / 120</td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1307923\" class=\"q2\">你的法术和技能有几率使你的精通提高<!--pts1:0:0:1307923:1.26479-->372<!---->，但会使你的其他次要属性降低<!--pts2:0:0:1307923:0.210792-->62<!---->，持续12秒。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">108</span> <span class=\"moneysilver\">18</span> <span class=\"moneycopper\">63</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 乌拉特克</div></td></tr></table>",
+        "spells": []
+      },
+      "data_freshness": "HTTP Date and cache headers date the response/cache, not the item database hotfix. No validated item-data build date is exposed by these fields."
+    },
+    {
+      "tag": "elite_zuljin",
+      "url": "https://nether.wowhead.com/tooltip/item/270173?dataEnv=1&locale=4&bonus=6652:13334:12856",
+      "retrieved_at": "2026-10-26T13:16:01.577252+08:00",
+      "http_status": 200,
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Date": "Mon, 26 Oct 2026 05:16:01 GMT",
+        "Access-Control-Allow-Origin": "*",
+        "ETag": "W/\"75d1792645369:2d1792645369:17:70391\"",
+        "Server": "nginx",
+        "X-Origin-Timestamp": "2026-10-26T00:16:01-05:00",
+        "Expires": "Tue, 23 Nov 2004 03:00:00 GMT",
+        "Cache-Control": "max-age=0, s-maxage=43200",
+        "Vary": "Accept-Encoding",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 6f4d2331f660e405d0e542a72091eeae.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT12-P3",
+        "X-Amz-Cf-Id": "rU8yUPHRHBQr2JXIxiDPfeih2HHbfzamUND3DdKIinNhhybpA2ZXWw=="
+      },
+      "response_top_level_keys": [
+        "name",
+        "quality",
+        "icon",
+        "tooltip",
+        "spells"
+      ],
+      "item_level": 340,
+      "response": {
+        "name": "祖尔金的处斩技法",
+        "quality": 4,
+        "icon": "inv_121_trinket_raid_ulatek_trolltablet",
+        "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">祖尔金的处斩技法</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span><br><span style=\"color: #00BF0D\">晋升毒液铸造：史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->340</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>饰品</td><th><!--scstart4:-4--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat72-->+190 [敏捷 or 力量]</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1291728\" class=\"q2\">你的攻击有几率随后触发处斩，朝你的目标掷出一把巨大的战斧，造成(<!--pts1:0:0:1291728:62.7886-->47828<!----> * <!--sp137028:0--><!--sp137028--><!--sp137023:0--><!--sp137023--><!--sp137010:0--><!--sp137010--><!--sp212613:0--><!--sp212613--><!--sp137008:0--><!--sp137008--><!--sp137039:0--><!--sp137039--><!--sp137031:0--><!--sp137031--><!--sp137032:0--><!--sp137032--><!--sp137029:0--><!--sp137029--><!--sp137024:0--><!--sp137024--><!--sp356810:0--><!--sp356810--><!--sp137012:0--><!--sp137012--><!--sp137048:0-->1<!--sp137048-->)点物理伤害。<br /><br />目标每损失1%的生命值，伤害就会提高2%。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;你想要斧头吗？&quot;</span><br /><br /><span class=\"q\"><a href=\"/cn/item-set=2070/祖尔加之咬\" class=\"q\">祖尔加之咬</a> (0/3)</span><div class=\"q0 indent\"><span><!--si270173--><a href=\"/cn/item=270173/祖尔金的处斩技法\">祖尔金的处斩技法</a></span><br /><span><!--si268209--><a href=\"/cn/item=268209/阿曼穆索-督军的复仇\">阿曼穆索，督军的复仇</a></span><br /><span><!--si268213--><a href=\"/cn/item=268213/迈兹罗阿-督军的狂怒\">迈兹罗阿，督军的狂怒</a></span></div><br /><span class=\"q0\"><span>(2) 组合 : <a href=\"/cn/spell=1291726\">完善你的处斩技巧，使其弹射至附近的第二名敌人，造成100%的伤害并对两个目标施加毒牙。</a></span></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">52</span> <span class=\"moneysilver\">71</span> <span class=\"moneycopper\">42</span></div></td></tr></table>",
+        "spells": {
+          "137008": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "137010": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "137012": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "137023": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "137024": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "137028": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "137029": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "137031": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "137032": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "137039": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "137048": [
+            [
+              "1",
+              "0.66",
+              ""
+            ]
+          ],
+          "212613": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ],
+          "356810": [
+            [
+              "",
+              "0.66",
+              ""
+            ]
+          ]
+        }
+      },
+      "data_freshness": "HTTP Date and cache headers date the response/cache, not the item database hotfix. No validated item-data build date is exposed by these fields."
+    }
+  ],
+  "wcl_page_evidence": {
+    "user": {
+      "file": "wcl-shaseng-page.json",
+      "sha256": "8c933d280968e321e3b057be76261c71d32b212b4ab154bc51ab136ca783bb89",
+      "page_metadata": {
+        "at": "2026-10-26T04:49:35.916Z",
+        "url": "https://cn.warcraftlogs.com/character/id/90530177",
+        "title": "沙僧 - 贫瘠之地 - Warcraft Logs",
+        "links": [
+          {
+            "text": "Deutsch",
+            "url": "https://de.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "English",
+            "url": "https://www.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Español",
+            "url": "https://es.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Français",
+            "url": "https://fr.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Italiano",
+            "url": "https://it.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Português (Brasil)",
+            "url": "https://br.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Русский",
+            "url": "https://ru.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "한국어",
+            "url": "https://ko.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "繁體中文",
+            "url": "https://tw.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "简体中文",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Deutsch",
+            "url": "https://de.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "English",
+            "url": "https://www.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Español",
+            "url": "https://es.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Français",
+            "url": "https://fr.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Italiano",
+            "url": "https://it.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Português (Brasil)",
+            "url": "https://br.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "Русский",
+            "url": "https://ru.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "한국어",
+            "url": "https://ko.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "繁體中文",
+            "url": "https://tw.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "简体中文",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177"
+          },
+          {
+            "text": "",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?"
+          },
+          {
+            "text": "沙僧",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?"
+          },
+          {
+            "text": " 自定义",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": " 更新",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "+\n至暗之夜",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "至暗之夜",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=53"
+          },
+          {
+            "text": "地心之战",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=44"
+          },
+          {
+            "text": "巨龙时代",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=35"
+          },
+          {
+            "text": "暗影国度",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=29"
+          },
+          {
+            "text": "争霸艾泽拉斯",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=24"
+          },
+          {
+            "text": "军团再临",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=17"
+          },
+          {
+            "text": "德拉诺之王",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=8"
+          },
+          {
+            "text": "潘达利亚之谜",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=5"
+          },
+          {
+            "text": "+\n烈毒之渊",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": " 烈毒之渊",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?"
+          },
+          {
+            "text": " 孢陨幽境",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=50"
+          },
+          {
+            "text": " VS / DR / MQD",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=46"
+          },
+          {
+            "text": " Mythic+ Season 2",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=55"
+          },
+          {
+            "text": " Mythic+ Season 1",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?zone=47"
+          },
+          {
+            "text": "+\n伤害量",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "击杀速度",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?metric=playerspeed"
+          },
+          {
+            "text": "伤害量",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?"
+          },
+          {
+            "text": "治疗量",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?metric=hps"
+          },
+          {
+            "text": "对首领怪物伤害量",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?metric=bossdps"
+          },
+          {
+            "text": "+\n所有首领怪物",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "所有首领怪物",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?"
+          },
+          {
+            "text": "盘魂者内克扎莉",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3470"
+          },
+          {
+            "text": "陵寝哨兵",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3445"
+          },
+          {
+            "text": "万毒邪祟者瓦什尼克",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3455"
+          },
+          {
+            "text": "迷失的探险者",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3497"
+          },
+          {
+            "text": "斯索拉克",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3420"
+          },
+          {
+            "text": "双子毒牙",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3421"
+          },
+          {
+            "text": "盘卷祭坛",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3429"
+          },
+          {
+            "text": "乌拉特克",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3492"
+          },
+          {
+            "text": "尼姆瑞莎·唤波者",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3379"
+          },
+          {
+            "text": "基希克斯",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3513"
+          },
+          {
+            "text": "全程",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3191"
+          },
+          {
+            "text": "+",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "所有首领怪物",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?"
+          },
+          {
+            "text": "腐沼",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3159"
+          },
+          {
+            "text": "+",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "所有首领怪物",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?"
+          },
+          {
+            "text": "元首阿福扎恩",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3176"
+          },
+          {
+            "text": "弗拉希乌斯",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3177"
+          },
+          {
+            "text": "陨落之王萨哈达尔",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3179"
+          },
+          {
+            "text": "威厄高尔和艾佐拉克",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3178"
+          },
+          {
+            "text": "光盲先锋军",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3180"
+          },
+          {
+            "text": "宇宙之冕",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3181"
+          },
+          {
+            "text": "奇美鲁斯，未梦之神",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3306"
+          },
+          {
+            "text": "贝洛朗，奥的子嗣",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3182"
+          },
+          {
+            "text": "至暗之夜降临",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3183"
+          },
+          {
+            "text": "The Voidspire",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3175"
+          },
+          {
+            "text": "March on Quel'Danas",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3198"
+          },
+          {
+            "text": "+\n所有专精",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "所有专精",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?"
+          },
+          {
+            "text": "酒仙",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "织雾",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "风行",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "+\n最高难度",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177#"
+          },
+          {
+            "text": "最高难度",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?"
+          },
+          {
+            "text": "史诗级",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?difficulty=5"
+          },
+          {
+            "text": "英雄级",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?difficulty=4"
+          },
+          {
+            "text": "普通",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?difficulty=3"
+          },
+          {
+            "text": "团队查找器",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?difficulty=1"
+          },
+          {
+            "text": "",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?bybracket=1"
+          },
+          {
+            "text": "",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?private=1"
+          },
+          {
+            "text": "All",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?"
+          },
+          {
+            "text": "12.1",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?partition=1"
+          },
+          {
+            "text": "12.1.5",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?partition=2"
+          },
+          {
+            "text": "盘魂者内克扎莉",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3470"
+          },
+          {
+            "text": "陵寝哨兵",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3445"
+          },
+          {
+            "text": "万毒邪祟者瓦什尼克",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3455"
+          },
+          {
+            "text": "迷失的探险者",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3497"
+          },
+          {
+            "text": "斯索拉克",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3420"
+          },
+          {
+            "text": "双子毒牙",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3421"
+          },
+          {
+            "text": "盘卷祭坛",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3429"
+          },
+          {
+            "text": "乌拉特克",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3492"
+          },
+          {
+            "text": "尼姆瑞莎·唤波者",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3379"
+          },
+          {
+            "text": "基希克斯",
+            "url": "https://cn.warcraftlogs.com/character/id/90530177?boss=3513"
+          },
+          {
+            "text": "所有战斗记录",
+            "url": "https://cn.warcraftlogs.com/zone/reports?zone=53"
+          }
+        ]
+      },
+      "equipment_excerpt": "物品等级:331.75\n盘卷守望者的凝视\n\n\n334\n亚基克星藏骨匣\n\n\n  341\n美猴王流苏护肩\n\n\n321\n信徒的流丝罩袍\n\n\n331\n美猴王战衣\n\n\n334\n银月城特工的偏斜腕甲\n\n\n331\n美猴王的斗拳\n\n\n321\n美猴王敏捷束带\n\n\n321\n美猴王长裤\n\n\n321\n银月城特工的匿踪靴\n\n\n331\n虫群召唤者指环\n\n\n 334\n精工辛多雷指环\n\n\n 331\n乌拉特克贪婪之心\n\n\n341\n祖尔金的处斩技法\n\n\n334\n深渊巢魔的长柄大斧\n\n\n341\n",
+      "displayed_average": 331.75,
+      "source": "Current logged-in WCL page obtained by main agent; local saved text independently inspected."
+    },
+    "elite": {
+      "file": "wcl-elite-page.json",
+      "sha256": "0783182c885195d9d3f0249bc79c3e34b19dafd7e1f2fe933855a8f39b3f1a14",
+      "page_metadata": {
+        "at": "2026-10-26T04:49:35.826Z",
+        "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55",
+        "title": "Bisset - Kazzak - Warcraft Logs",
+        "links": [
+          {
+            "text": "Deutsch",
+            "url": "https://de.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "English",
+            "url": "https://www.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Español",
+            "url": "https://es.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Français",
+            "url": "https://fr.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Italiano",
+            "url": "https://it.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Português (Brasil)",
+            "url": "https://br.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Русский",
+            "url": "https://ru.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "한국어",
+            "url": "https://ko.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "繁體中文",
+            "url": "https://tw.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "简体中文",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Deutsch",
+            "url": "https://de.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "English",
+            "url": "https://www.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Español",
+            "url": "https://es.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Français",
+            "url": "https://fr.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Italiano",
+            "url": "https://it.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Português (Brasil)",
+            "url": "https://br.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "Русский",
+            "url": "https://ru.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "한국어",
+            "url": "https://ko.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "繁體中文",
+            "url": "https://tw.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "简体中文",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?"
+          },
+          {
+            "text": "Bisset",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?"
+          },
+          {
+            "text": " 更新",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55#"
+          },
+          {
+            "text": "+\n至暗之夜",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55#"
+          },
+          {
+            "text": "至暗之夜",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=53"
+          },
+          {
+            "text": "地心之战",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=44"
+          },
+          {
+            "text": "巨龙时代",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=35"
+          },
+          {
+            "text": "暗影国度",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=29"
+          },
+          {
+            "text": "争霸艾泽拉斯",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=24"
+          },
+          {
+            "text": "军团再临",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=17"
+          },
+          {
+            "text": "德拉诺之王",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=8"
+          },
+          {
+            "text": "潘达利亚之谜",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=5"
+          },
+          {
+            "text": "+\nMythic+ Season 2",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55#"
+          },
+          {
+            "text": " 烈毒之渊",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=53"
+          },
+          {
+            "text": " 孢陨幽境",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=50"
+          },
+          {
+            "text": " VS / DR / MQD",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?zone=46"
+          },
+          {
+            "text": " Mythic+ Season 2",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed"
+          },
+          {
+            "text": " Mythic+ Season 1",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=47"
+          },
+          {
+            "text": "+\n分数与伤害（按层级）",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55#"
+          },
+          {
+            "text": "分数与伤害（按层级）",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "分数与治疗（按层级）",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&metric=points_and_healing"
+          },
+          {
+            "text": "积分",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&metric=playerscore"
+          },
+          {
+            "text": "击杀速度",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&metric=playerspeed"
+          },
+          {
+            "text": "伤害量",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&metric=dps"
+          },
+          {
+            "text": "治疗量",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&metric=hps"
+          },
+          {
+            "text": "对首领怪物伤害量",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&metric=bossdps"
+          },
+          {
+            "text": "+\n所有地下城",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55#"
+          },
+          {
+            "text": "所有地下城",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "塞塔里斯神庙",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=61877"
+          },
+          {
+            "text": "夺目谷",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12859"
+          },
+          {
+            "text": "密谋小径",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12813"
+          },
+          {
+            "text": "毒牙祭坛",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12993"
+          },
+          {
+            "text": "红玉新生法地",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=112521"
+          },
+          {
+            "text": "纳洛拉克的洞穴",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12825"
+          },
+          {
+            "text": "虚空之痕竞技场",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12923"
+          },
+          {
+            "text": "诸王之眠",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=61762"
+          },
+          {
+            "text": "+",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55#"
+          },
+          {
+            "text": "所有地下城",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "执政团之座",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=361753"
+          },
+          {
+            "text": "枢纽节点塞纳斯",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12915"
+          },
+          {
+            "text": "艾杰斯亚学院",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=112526"
+          },
+          {
+            "text": "萨隆之渊",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=10658"
+          },
+          {
+            "text": "迈萨拉洞窟",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12874"
+          },
+          {
+            "text": "通天峰",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=61209"
+          },
+          {
+            "text": "风行者之塔",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12805"
+          },
+          {
+            "text": "魔导师平台",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12811"
+          },
+          {
+            "text": "+\n所有专精",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55#"
+          },
+          {
+            "text": "所有专精",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55"
+          },
+          {
+            "text": "酒仙",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55#"
+          },
+          {
+            "text": "织雾",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55#"
+          },
+          {
+            "text": "风行",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55#"
+          },
+          {
+            "text": "\n                                                        \n                                                    ",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&bybracket=1"
+          },
+          {
+            "text": "",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&private=1"
+          },
+          {
+            "text": "塞塔里斯神庙",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=61877"
+          },
+          {
+            "text": "夺目谷",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12859"
+          },
+          {
+            "text": "密谋小径",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12813"
+          },
+          {
+            "text": "毒牙祭坛",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12993"
+          },
+          {
+            "text": "红玉新生法地",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=112521"
+          },
+          {
+            "text": "纳洛拉克的洞穴",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12825"
+          },
+          {
+            "text": "虚空之痕竞技场",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=12923"
+          },
+          {
+            "text": "诸王之眠",
+            "url": "https://cn.warcraftlogs.com/character/id/61823014?mode=detailed&zone=55&boss=61762"
+          },
+          {
+            "text": "",
+            "url": "https://worldofwarcraft.blizzard.com/en_gb/character/eu/kazzak/bisset"
+          }
+        ]
+      },
+      "equipment_excerpt": "物品等级:334.81\n美猴王的不屈面容\n\n\n334\n亚基克星藏骨匣\n\n\n  341\n美猴王流苏护肩\n\n\n321\n信徒的流丝罩袍\n\n\n331\n美猴王战衣\n\n\n334\n银月城特工的偏斜腕甲\n\n\n 331\n美猴王的斗拳\n\n\n334\n美猴王敏捷束带\n\n\n334\n银月城特工的护腿\n\n\n331\n美猴王护胫\n\n\n334\n邪恶炼金师指环\n\n\n 334\n顶级蛮兵爪戒\n\n\n 334\n祖尔金的处斩技法\n\n\n341\n乌拉特克贪婪之心\n\n\n341\n深渊巢魔的长柄大斧\n\n\n341\n",
+      "displayed_average": 334.81,
+      "source": "Current logged-in WCL page obtained by main agent; local saved text independently inspected."
+    }
+  },
+  "conclusion": "Current WCL shows ascended items at 341, while old DBC and current tooltip responses resolve original bonuses to 340. The tooltip response date does not establish hotfix currency. Do not overwrite WCL 341 with tooltip/DBC 340.",
+  "subsequent_combatantinfo_cross_check": {
+    "checked_at": "2026-10-26T13:26:10.453953+08:00",
+    "evidence": "gear-combatant-check.json",
+    "conclusion": "Bisset fight 28 matches all 15 current website items, levels, bonuses, gems and permanent enchants. Shaseng fight 4 retains the same 15 item IDs but its neck is 334 with bonus 12854, while the current page/export neck is 341 with bonus 12856; other compared permanent gear fields match. Both fights directly record other ascended items at 341.",
+    "user_fight_neck_differs_from_current": true,
+    "combatantinfo_directly_records_341": true
+  }
+}

@@ -1,0 +1,42 @@
+# These scopes contain only the newly archived dates, never older tracked data.
+.gitattributes text eol=lf
+# Preserve original bytes, including existing CRLF inputs and hashed evidence.
+analysis/2026-10-26/** -text whitespace=cr-at-eol
+analysis/2026-10-29/** -text whitespace=cr-at-eol
+analysis/2026-11-10/** -text whitespace=cr-at-eol
+
+# New archive metadata and the already-LF Python/JavaScript tools use LF.
+analysis/2026-10-26/*.py text eol=lf
+analysis/2026-10-26/*.js text eol=lf
+analysis/2026-10-26/.gitignore text eol=lf
+analysis/2026-10-26/README.md text eol=lf
+analysis/2026-10-26/screening-summary.* text eol=lf
+analysis/2026-10-26/archive-validation.json text eol=lf
+analysis/2026-10-29/*.py text eol=lf
+analysis/2026-10-29/.gitignore text eol=lf
+analysis/2026-10-29/README.md text eol=lf
+analysis/2026-10-29/screening-summary.* text eol=lf
+analysis/2026-10-29/archive-validation.json text eol=lf
+analysis/2026-11-10/*.py text eol=lf
+analysis/2026-11-10/.gitignore text eol=lf
+analysis/2026-11-10/README.md text eol=lf
+analysis/2026-11-10/screening-summary.* text eol=lf
+analysis/2026-11-10/archive-validation.json text eol=lf
+
+# Equipped-only exports were originally LF; keep their recorded source hashes.
+snapshots/2026-10-26-equipped.simc text eol=lf
+snapshots/2026-10-29-equipped.simc text eol=lf
+snapshots/2026-10-29-equipped.items.json text eol=lf
+
+# Full November 10 exports were originally CRLF. Conversion breaks raw_sha256.
+snapshots/2026-11-10.simc -text whitespace=cr-at-eol
+snapshots/2026-11-10-2203.simc -text whitespace=cr-at-eol
+snapshots/2026-11-10.items.json text eol=lf
+snapshots/2026-11-10-2203.items.json text eol=lf
+weeks/2026-10-29.json text eol=lf
+weeks/2026-11-05.json text eol=lf
+
+# Preserve whitespace in captured source pages and the supplied macro reference.
+analysis/2026-10-26/wcl-*.html whitespace=-blank-at-eol,-space-before-tab,cr-at-eol
+analysis/2026-10-26/wcl-*.txt whitespace=-blank-at-eol,-space-before-tab,cr-at-eol
+analysis/2026-10-26/references/user-windwalker-quickstart.md whitespace=-blank-at-eol,cr-at-eol

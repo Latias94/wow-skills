@@ -1,0 +1,382 @@
+{
+  "created_at": "2026-10-26T13:15:04.512508+08:00",
+  "override_source": "October 26 logged-in WCL character pages, supplied by the main agent and preserved in the local page JSON files.",
+  "source_evidence": [
+    "wcl-shaseng-page.json",
+    "wcl-elite-page.json"
+  ],
+  "source_limits": "WCL display evidence for compatibility overrides, not evidence that old DBC or bonus resolution has been updated.",
+  "user_wcl_average": 331.75,
+  "elite_wcl_average": 334.81,
+  "old_dbc_bonus_level": 340,
+  "compatibility_level": 341,
+  "candidate_identities": [
+    "current",
+    "waist_331_cm",
+    "raid_ring_334",
+    "elite_full"
+  ],
+  "comparison_policy": "Current/waist/ring share the historical-precursor baseline. Elite gear compares only to an extra literal-export current baseline, without mixing precursor families.",
+  "runs": {
+    "gear-compat341-unbuffed-current": {
+      "source_input": "gear-verify-raid-current.simc",
+      "source_sha256": "d7d2821c6dd0016986f634654d76821e6aadacee5bfe0a28228fe0740e1aba7b",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 40,
+      "metadata_family": "historical_precursor_continuity"
+    },
+    "gear-compat341-unbuffed-literal-current": {
+      "source_input": "gear-screen-literal-raid-current.simc",
+      "source_sha256": "60675d232a3cb81f91c8bf92451f39b5c8660c690719f32a47fc83716d144b27",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 40,
+      "metadata_family": "literal_export"
+    },
+    "gear-compat341-unbuffed-elite_full": {
+      "source_input": "gear-screen-raid-elite_full.simc",
+      "source_sha256": "4e007a9b792997302fff509224422cc642bf7b818dafacb12588c200b2247b6d",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270173,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13696/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/13696/12856"
+        }
+      },
+      "requested_iterations": 40,
+      "metadata_family": "literal_export"
+    },
+    "gear-compat341-smoke-slice-current": {
+      "source_input": "gear-verify-slice-current.simc",
+      "source_sha256": "badf2a166358043544c16b01d292dce74cc612faeb8d0fdf0ac98744ae9223b2",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 40,
+      "metadata_family": "historical_precursor_continuity"
+    },
+    "gear-compat341-smoke-raid-current": {
+      "source_input": "gear-verify-raid-current.simc",
+      "source_sha256": "d7d2821c6dd0016986f634654d76821e6aadacee5bfe0a28228fe0740e1aba7b",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 40,
+      "metadata_family": "historical_precursor_continuity"
+    },
+    "gear-compat341-slice-current": {
+      "source_input": "gear-verify-slice-current.simc",
+      "source_sha256": "badf2a166358043544c16b01d292dce74cc612faeb8d0fdf0ac98744ae9223b2",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 6000,
+      "metadata_family": "historical_precursor_continuity"
+    },
+    "gear-compat341-slice-waist_331_cm": {
+      "source_input": "gear-verify-slice-waist_331_cm.simc",
+      "source_sha256": "75436e08e87245201f86fbc29ee5dbed518ff807fa5816b715a38e8633dee4e1",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 6000,
+      "metadata_family": "historical_precursor_continuity"
+    },
+    "gear-compat341-slice-raid_ring_334": {
+      "source_input": "gear-verify-slice-raid_ring_334.simc",
+      "source_sha256": "c060cadbc9436fd7f109396a5bf7d7fc6be33ae22d1a82325c670f5087e39edb",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 6000,
+      "metadata_family": "historical_precursor_continuity"
+    },
+    "gear-compat341-slice-literal-current": {
+      "source_input": "gear-screen-literal-slice-current.simc",
+      "source_sha256": "5525050fd2d83579ad94e6688431a378dff7ec6b6c1bc7c120f3f9070c00baed",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 6000,
+      "metadata_family": "literal_export"
+    },
+    "gear-compat341-slice-elite_full": {
+      "source_input": "gear-screen-slice-elite_full.simc",
+      "source_sha256": "9d42a903d28b8fe50d3f4d8e08054fbabd4d667ba3985cb4d1dc8a52e9250252",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270173,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13696/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/13696/12856"
+        }
+      },
+      "requested_iterations": 6000,
+      "metadata_family": "literal_export"
+    },
+    "gear-compat341-raid-current": {
+      "source_input": "gear-verify-raid-current.simc",
+      "source_sha256": "d7d2821c6dd0016986f634654d76821e6aadacee5bfe0a28228fe0740e1aba7b",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 6000,
+      "metadata_family": "historical_precursor_continuity"
+    },
+    "gear-compat341-raid-waist_331_cm": {
+      "source_input": "gear-verify-raid-waist_331_cm.simc",
+      "source_sha256": "40996d99974d38ddd094b8c03e0d9ec3e986c1e2b0bbea65b422d3f8ce2479ed",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 6000,
+      "metadata_family": "historical_precursor_continuity"
+    },
+    "gear-compat341-raid-raid_ring_334": {
+      "source_input": "gear-verify-raid-raid_ring_334.simc",
+      "source_sha256": "f8c5fbc2f3300a20426d773a718185d4b242c75da23d9ad7b33f5431753f5949",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 6000,
+      "metadata_family": "historical_precursor_continuity"
+    },
+    "gear-compat341-raid-literal-current": {
+      "source_input": "gear-screen-literal-raid-current.simc",
+      "source_sha256": "60675d232a3cb81f91c8bf92451f39b5c8660c690719f32a47fc83716d144b27",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/12856"
+        }
+      },
+      "requested_iterations": 6000,
+      "metadata_family": "literal_export"
+    },
+    "gear-compat341-raid-elite_full": {
+      "source_input": "gear-screen-raid-elite_full.simc",
+      "source_sha256": "4e007a9b792997302fff509224422cc642bf7b818dafacb12588c200b2247b6d",
+      "overrides": {
+        "neck": {
+          "item_id": 268265,
+          "ilevel": 341,
+          "bonus_id": "6652/13668/13334/13987/12856"
+        },
+        "trinket1": {
+          "item_id": 270173,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/12856"
+        },
+        "trinket2": {
+          "item_id": 270175,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13696/12856"
+        },
+        "main_hand": {
+          "item_id": 268215,
+          "ilevel": 341,
+          "bonus_id": "6652/13334/13846/13696/12856"
+        }
+      },
+      "requested_iterations": 6000,
+      "metadata_family": "literal_export"
+    }
+  }
+}

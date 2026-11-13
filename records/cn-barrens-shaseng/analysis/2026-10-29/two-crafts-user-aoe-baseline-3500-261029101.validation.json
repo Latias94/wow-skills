@@ -1,0 +1,21 @@
+{
+  "name": "two-crafts-user-aoe-baseline-3500-261029101",
+  "started_at": "2026-10-29T20:50:42.491843+08:00",
+  "ended_at": "2026-10-29T20:50:45.317903+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 706181.8752676814,
+  "ci95": 754.1689150534478,
+  "samples": 3499,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

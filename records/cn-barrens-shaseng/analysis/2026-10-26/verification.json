@@ -1,0 +1,1353 @@
+{
+  "checked_at": "2026-10-26T13:58:46+08:00",
+  "status": "pass",
+  "scope": "Two matched dungeons with different levels/builds; no whole-DPS causal attribution",
+  "complete_event_counts": {
+    "elite-casts": 1745,
+    "elite-buffs": 23992,
+    "elite-fof-damage": 4958,
+    "elite-opening-damage": 2649,
+    "elite-damage-185099": 134,
+    "elite-damage-392959": 63,
+    "shaseng-casts": 1351,
+    "shaseng-buffs": 16740,
+    "shaseng-fof-damage": 3152,
+    "shaseng-opening-damage": 2814,
+    "shaseng-damage-185099": 124,
+    "shaseng-damage-392959": 65
+  },
+  "accepted_simulation_runs": 51,
+  "simulation_severe_count": 0,
+  "browser": {
+    "checkedAt": "2026-10-26T05:46:02.595Z",
+    "desktop": {
+      "width": 1440,
+      "scrollWidth": 1425
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 375
+    },
+    "userWindows": 13,
+    "eliteWindows": 19,
+    "filters": true,
+    "timeline": true,
+    "localLinks": true,
+    "pageErrors": []
+  },
+  "privacy": "Browser auth/cookies and non-task tabs are not exported. User body account name is not used as player identity.",
+  "artifacts": {
+    "browser-verification.json": {
+      "sha256": "074c288f44db74d3f2d1d57ca87a897d11e16b291befa16663c60a2500892cfa",
+      "bytes": 293
+    },
+    "build-review.py": {
+      "sha256": "6f999cd439dad81bbbbcca31d28bc431007c18dd81fbac13e879dd2e6b5cb393",
+      "bytes": 32787
+    },
+    "burst-evidence.json": {
+      "sha256": "855d4328f7e45fca78db672874327d944f756d4a967c3e9e92132c5ce0c9fd3c",
+      "bytes": 535040
+    },
+    "burst-evidence.py": {
+      "sha256": "8602bc962b467846422b6b59f708a1aac75a869daf27932de314c65d8d6d62cc",
+      "bytes": 7307
+    },
+    "cast-analysis.json": {
+      "sha256": "fdc37dc87b2cc6826ee2f5043312380ecb901a7b5bb4dbb20ab692d46a62711b",
+      "bytes": 2393826
+    },
+    "cast-analysis.py": {
+      "sha256": "9cd833db780e29b1d1ae8b0059e9ed92f8adb129afbd2ffcc82e59bbd69488d7",
+      "bytes": 38518
+    },
+    "cast-review.md": {
+      "sha256": "0cd1eeedecde6cf345ff228ef90657b11358ebe205737c56526b6ba07dc517c9",
+      "bytes": 23583
+    },
+    "gear-combatant-check.json": {
+      "sha256": "a2ba74c169f4a8edde6eb829d7fbc1b7d91d892d221db80d60dfb320a40277af",
+      "bytes": 39812
+    },
+    "gear-combatant-check.py": {
+      "sha256": "625d667beda75869e6664588346ac1038ada49b31d2febc93871fef2c37b956c",
+      "bytes": 5367
+    },
+    "gear-compat341-manifest.json": {
+      "sha256": "3917054d5420f7cba790e44547debab10184389a21d8f5db77fc0c2ace17bab7",
+      "bytes": 12376
+    },
+    "gear-compat341-raid-current.json": {
+      "sha256": "850ec5eebc8b998978a64aa341451470621fb45c96e207bdc3e4572756a99be3",
+      "bytes": 457857
+    },
+    "gear-compat341-raid-current.run.log": {
+      "sha256": "577182af6ec6d2ba3419af6683db63c26dade1d0906d7c15b538cd88b08749b2",
+      "bytes": 7502
+    },
+    "gear-compat341-raid-current.simc": {
+      "sha256": "d48ab0bde2e048478069a23854c802a784746072ffd807f1207d8583323d510a",
+      "bytes": 2083
+    },
+    "gear-compat341-raid-current.txt": {
+      "sha256": "b367f74f82639e0cf45f581f29a150e862e384b91916762e2cf30018d85a01ee",
+      "bytes": 34703
+    },
+    "gear-compat341-raid-current.validation.json": {
+      "sha256": "84b9c8fa51d3577e53c1ebe9e49f47d764a892c823bfdee2af024ad95d3230e2",
+      "bytes": 633
+    },
+    "gear-compat341-raid-elite_full.json": {
+      "sha256": "d7618f8a3b952be7bd5a3c08eebb73cc63c78b508b23c00858de00390f99213a",
+      "bytes": 447213
+    },
+    "gear-compat341-raid-elite_full.run.log": {
+      "sha256": "cab0b1db6f62cc8416402adb6ee6621f636c6d94e85f9f1a06e452f3a6f2a5fd",
+      "bytes": 7388
+    },
+    "gear-compat341-raid-elite_full.simc": {
+      "sha256": "8125272ebade5350c435e0998a061031e223acceae7278b524769cf11187570d",
+      "bytes": 1956
+    },
+    "gear-compat341-raid-elite_full.txt": {
+      "sha256": "7f1fa66c3a282334bc9bdbd5779c0dc711d215e7c004ba3b495becaa1450f65e",
+      "bytes": 34361
+    },
+    "gear-compat341-raid-elite_full.validation.json": {
+      "sha256": "761fb90940ddadca7cc1e6325455d35441115d024a4cd25cd3740ae158e9307d",
+      "bytes": 470
+    },
+    "gear-compat341-raid-literal-current.json": {
+      "sha256": "f2279d5864891095a99600456d503dfe950fb78bd278f4c08456ad0a31fe2326",
+      "bytes": 458638
+    },
+    "gear-compat341-raid-literal-current.run.log": {
+      "sha256": "3063d50324df7c1d430bcab1e6b6683a11fba4894160c42bdf73b1fcac204786",
+      "bytes": 7502
+    },
+    "gear-compat341-raid-literal-current.simc": {
+      "sha256": "20018250258bc8356196c0860d9e884dafaa4a5965db81f37fb3ffae6237f735",
+      "bytes": 1918
+    },
+    "gear-compat341-raid-literal-current.txt": {
+      "sha256": "be7ac05f98cda8b0ac0a5ad21081031cbfe6fb6bc8eeefb395aaf1a09195b8d8",
+      "bytes": 34701
+    },
+    "gear-compat341-raid-literal-current.validation.json": {
+      "sha256": "aa1f45b4adeda3bbd3fb36c4aad809dc2ce3910a694b4db54fcde748e69157c0",
+      "bytes": 641
+    },
+    "gear-compat341-raid-raid_ring_334.json": {
+      "sha256": "2d204bca506533c8952af86ff5dce62dbb4d242cd99a700213b5e3c7920fa076",
+      "bytes": 462401
+    },
+    "gear-compat341-raid-raid_ring_334.run.log": {
+      "sha256": "5432893e27c89095e32e96eacfba471073560fa261fb064b8ed7c3316578c00b",
+      "bytes": 7572
+    },
+    "gear-compat341-raid-raid_ring_334.simc": {
+      "sha256": "01ddb8b347a08db99db875f3cc1f688ec49077b4e1ef98a31e9c4cfdae70553e",
+      "bytes": 2065
+    },
+    "gear-compat341-raid-raid_ring_334.txt": {
+      "sha256": "481ffddb8fc76285b8da145df7eec0cb2888e163d8afe6159a754a16775b8606",
+      "bytes": 34696
+    },
+    "gear-compat341-raid-raid_ring_334.validation.json": {
+      "sha256": "16d4295462cd3b4c1db02fb9b1203c98a73f1ffcd618031567ba42d97ef2b46c",
+      "bytes": 639
+    },
+    "gear-compat341-raid-waist_331_cm.json": {
+      "sha256": "f07bb15695721e330add752bc2af9b9f33e40470a9354f558b34dac5d3a32f7d",
+      "bytes": 459672
+    },
+    "gear-compat341-raid-waist_331_cm.run.log": {
+      "sha256": "6b1b574cf1e8f1bffc621ca1e58fc6a66a0ee11b26aa0030d12e4ffb21d2fda3",
+      "bytes": 7499
+    },
+    "gear-compat341-raid-waist_331_cm.simc": {
+      "sha256": "4ef007b059cb6e2ed2f88565e3ba90f595f71bd40e2bffd4a05eb67b382f484c",
+      "bytes": 2047
+    },
+    "gear-compat341-raid-waist_331_cm.txt": {
+      "sha256": "cb0fb4ede7ba7147acef6793cbaa201d40a6423d4f21a500e4049bb1d286e05e",
+      "bytes": 34832
+    },
+    "gear-compat341-raid-waist_331_cm.validation.json": {
+      "sha256": "c6067ac161b54ec96a40550401fbd22ee4d052cbf4bf7a10221d57c3deece2cb",
+      "bytes": 638
+    },
+    "gear-compat341-slice-current.json": {
+      "sha256": "9ba1150ea0fc56dd1018e662d4d1a5747511dd7d5f0b95497d3bd07c7cb830e6",
+      "bytes": 709273
+    },
+    "gear-compat341-slice-current.run.log": {
+      "sha256": "d802a8fd42578f1f8633fc6fab8174db813b2d647b4b2af10d755a1069be6110",
+      "bytes": 7529
+    },
+    "gear-compat341-slice-current.simc": {
+      "sha256": "757059dc1c61bf9b82fab9e0047efab15d7f3453c8c8b59f455d63d269bbb4d2",
+      "bytes": 2086
+    },
+    "gear-compat341-slice-current.txt": {
+      "sha256": "bba5b7bd17010f25de5a0c60cb1608d79e0aa8fbe352de1fac8c08374c6efbbd",
+      "bytes": 43743
+    },
+    "gear-compat341-slice-current.validation.json": {
+      "sha256": "1ae616a454dae4220cee39209c2c86048530b8f53fd956c2ee372f1d6ef39873",
+      "bytes": 634
+    },
+    "gear-compat341-slice-elite_full.json": {
+      "sha256": "8e838f9b0b6ec7a3af535bdda72cac92cf1fbd362720c3ecf0143991fd2b83a6",
+      "bytes": 698558
+    },
+    "gear-compat341-slice-elite_full.run.log": {
+      "sha256": "254444495e7cb95900b409a26d08222716b5c68e34016ee9c2c99297bc77dd53",
+      "bytes": 7485
+    },
+    "gear-compat341-slice-elite_full.simc": {
+      "sha256": "a6b1316df958970d2ec8c20f481d9fd4be98e0c56adccda84a87c49d2c4ae7db",
+      "bytes": 1959
+    },
+    "gear-compat341-slice-elite_full.txt": {
+      "sha256": "82f5ed63d6fcdb55c9c8d0d20baba8d852bdbb131d73bf125b138c9913f6e0f0",
+      "bytes": 43262
+    },
+    "gear-compat341-slice-elite_full.validation.json": {
+      "sha256": "2a2950dabd8c17eadb3061f747caba6345f4f6861b8bebb140b34e704e2b7782",
+      "bytes": 471
+    },
+    "gear-compat341-slice-literal-current.json": {
+      "sha256": "cd81eafea02a3ff6a18a3a13586fb8ac09014319838b4e86b8aca92599137859",
+      "bytes": 704353
+    },
+    "gear-compat341-slice-literal-current.run.log": {
+      "sha256": "945f04fef2e3dc23eab3ff2957c78e34b8ea94640999b01782ba13ff2fc4a9cf",
+      "bytes": 7670
+    },
+    "gear-compat341-slice-literal-current.simc": {
+      "sha256": "d63aa8b3e3ae24a01fdc98023d9db76998dcdbe9307e89cf8b1b85372b128911",
+      "bytes": 1921
+    },
+    "gear-compat341-slice-literal-current.txt": {
+      "sha256": "331bbcec397b9c66012caf6af868c759b9b6220e16f0762502839aeac85bdbea",
+      "bytes": 43593
+    },
+    "gear-compat341-slice-literal-current.validation.json": {
+      "sha256": "cff81e40545c2b35e3c6b5a11df92e965c317cfe5200c968547dbf1c645fffae",
+      "bytes": 642
+    },
+    "gear-compat341-slice-raid_ring_334.json": {
+      "sha256": "7270a5df5d9890931cad4ede05cca4a3fe796da77ac109b73c4d1b55d2bff394",
+      "bytes": 711272
+    },
+    "gear-compat341-slice-raid_ring_334.run.log": {
+      "sha256": "586ad500d73af8ec25abe3b552f4e292702be830b35a94e1d925338e8e5bfa56",
+      "bytes": 7600
+    },
+    "gear-compat341-slice-raid_ring_334.simc": {
+      "sha256": "e45835a95a49810930fcfbbd0397d250aa4830380eb0d8ab5e55e00df4960ad5",
+      "bytes": 2068
+    },
+    "gear-compat341-slice-raid_ring_334.txt": {
+      "sha256": "ff1b614bfe57319674819650f78ba1a4e55da78d98b45a11d757a2b080ce3877",
+      "bytes": 43726
+    },
+    "gear-compat341-slice-raid_ring_334.validation.json": {
+      "sha256": "0fb8ad660c16e644fcad07270e858ecd7eda75332c92d5ff51cd109bf7d6c571",
+      "bytes": 640
+    },
+    "gear-compat341-slice-waist_331_cm.json": {
+      "sha256": "0bce37de568d566082197424b09bb9d691ee7cc8e73f0735d1bca96f7bfde113",
+      "bytes": 710046
+    },
+    "gear-compat341-slice-waist_331_cm.run.log": {
+      "sha256": "21e3849b82c2a4af3aaa5fd5010ea0b8a758f3371e6b35088285e832275eaec5",
+      "bytes": 7600
+    },
+    "gear-compat341-slice-waist_331_cm.simc": {
+      "sha256": "0a625f69cf9c1a891ca2fe3a1305226363a8419126312532b2d9a30c3d0dcae9",
+      "bytes": 2050
+    },
+    "gear-compat341-slice-waist_331_cm.txt": {
+      "sha256": "79eb3e5d1a0f45336c647cf67b62c79932ad806c2a56a892d3ebaf846db46aa3",
+      "bytes": 43726
+    },
+    "gear-compat341-slice-waist_331_cm.validation.json": {
+      "sha256": "eb051d05352cb0865f3941fdbf2bf757e456186938191aed7863558a3cf7cdf1",
+      "bytes": 639
+    },
+    "gear-compat341-smoke-raid-current.json": {
+      "sha256": "a7b96030bab590b1e925661ba2e706a3d0ec617c238f09affa8c93a8c93f7757",
+      "bytes": 449052
+    },
+    "gear-compat341-smoke-raid-current.run.log": {
+      "sha256": "ede0714a473330f80968b19156983fe5972a8916f3eba01a6c2ec21b37be0ddd",
+      "bytes": 1298
+    },
+    "gear-compat341-smoke-raid-current.simc": {
+      "sha256": "0400a39d2f039f2b34932cfae1cfb2bb70d484f5c33e752e8cea8af31c6f0aa4",
+      "bytes": 2081
+    },
+    "gear-compat341-smoke-raid-current.txt": {
+      "sha256": "151ff169f499ee93c288a19bde918c1a668bc92f714541baf4d373832039d5d4",
+      "bytes": 34661
+    },
+    "gear-compat341-smoke-raid-current.validation.json": {
+      "sha256": "511ba7863a565981d5e45de5ab274f769d4b1834bc5be701541414ab9d508598",
+      "bytes": 639
+    },
+    "gear-compat341-smoke-slice-current.json": {
+      "sha256": "1413b96192264ea9d39d270f090456229513a934842e715a9c5f5d89fce2af07",
+      "bytes": 659748
+    },
+    "gear-compat341-smoke-slice-current.run.log": {
+      "sha256": "87dade8a9d0358d5737d030f6a032833f0e9000609fcad4330f685ea9ab4e844",
+      "bytes": 1242
+    },
+    "gear-compat341-smoke-slice-current.simc": {
+      "sha256": "57830716df5c71ad6b7ce0dbafb9b29277d680a0d6a23c585029a69ba132294d",
+      "bytes": 2084
+    },
+    "gear-compat341-smoke-slice-current.txt": {
+      "sha256": "ddcc3f2138cf5d4dc98ea951b4bfd7fdd7c20568fa74b9ea82343ea79491c014",
+      "bytes": 43697
+    },
+    "gear-compat341-smoke-slice-current.validation.json": {
+      "sha256": "a8bba05b91eed6794c8b1e9ae1b93733857f0359cde3bbcef65b5e940fff29e6",
+      "bytes": 640
+    },
+    "gear-compat341-unbuffed-current.json": {
+      "sha256": "ca798e4b77d953906dc4eab0d5fa58cf664192890e412bee49c069d0256e26f0",
+      "bytes": 445794
+    },
+    "gear-compat341-unbuffed-current.run.log": {
+      "sha256": "7558d8934a61d7dcbd3df649e5f26f748ed6ad1a2efd3e1b3158a79f515f4360",
+      "bytes": 1237
+    },
+    "gear-compat341-unbuffed-current.simc": {
+      "sha256": "88ba96ec3ab3f1c6ca4a2e32b10c6ebffea815083b3084008ebb24a3e5e9b8d2",
+      "bytes": 2007
+    },
+    "gear-compat341-unbuffed-current.txt": {
+      "sha256": "5e6799a518bb26344b5f83d6ae22e440def756834a4fa97976cf863f96aba1a2",
+      "bytes": 33883
+    },
+    "gear-compat341-unbuffed-current.validation.json": {
+      "sha256": "af53c3961cb91221f49e57428c39234993e0f6219ba0caafeb5df55dbd0c93f4",
+      "bytes": 637
+    },
+    "gear-compat341-unbuffed-elite_full.json": {
+      "sha256": "b270a45c06b17d339e3435a49050ac64f83085455ae7c1f0a16b6ba11e95f187",
+      "bytes": 426697
+    },
+    "gear-compat341-unbuffed-elite_full.run.log": {
+      "sha256": "6f4d7b51f987469833099324c90b3a31bd810d32bfe49fafc68ab6d604380b74",
+      "bytes": 1184
+    },
+    "gear-compat341-unbuffed-elite_full.simc": {
+      "sha256": "1f7fc98bf354b65758cd33903421b3514f8e984dfab9889512a5c7a32ab19f69",
+      "bytes": 1880
+    },
+    "gear-compat341-unbuffed-elite_full.txt": {
+      "sha256": "f36937bbdaa75c707d20ceda1f6790b3abe46964e64026575e8447954b8dd27d",
+      "bytes": 33556
+    },
+    "gear-compat341-unbuffed-elite_full.validation.json": {
+      "sha256": "89943dd60d6007b90dde6483cf86010aa2267fccff851c8e56fffa4ecefa9357",
+      "bytes": 474
+    },
+    "gear-compat341-unbuffed-literal-current.json": {
+      "sha256": "5f9787113250ac2c5e4748612a149bf2f4737716c43cf5738862c3e55973210a",
+      "bytes": 445316
+    },
+    "gear-compat341-unbuffed-literal-current.run.log": {
+      "sha256": "73a933f852f7725e38a5e4444cd40ead22a63991611c837fd637264a8be5055a",
+      "bytes": 1238
+    },
+    "gear-compat341-unbuffed-literal-current.simc": {
+      "sha256": "ab344ad4c67a3f070e8da3571f2b6b7fd46ca0ea79ff8966f291a23fed2d8700",
+      "bytes": 1842
+    },
+    "gear-compat341-unbuffed-literal-current.txt": {
+      "sha256": "8073eb5ae9f7c74307c6c265daefe46b6198ea4cd1f60008eb754fa74eef75f9",
+      "bytes": 33881
+    },
+    "gear-compat341-unbuffed-literal-current.validation.json": {
+      "sha256": "c54b170e3718f63e22f92e31812127d7e93bd1f49b96729308e094a19fcba181",
+      "bytes": 645
+    },
+    "gear-compat341.py": {
+      "sha256": "dfbdaf13e934ea3ec6e0ee2f25ff2554ed1fa7246b0cbfc5ce8db36fec654207",
+      "bytes": 4755
+    },
+    "gear-elite-items.json": {
+      "sha256": "b5d5ba39461a5ecea2853f0a233a3ad01e0df10686dc59912e1afcdf3827ce10",
+      "bytes": 8841
+    },
+    "gear-elite-smoke-raid.json": {
+      "sha256": "d4b5a22aa4790d5d06bc414515171ecae0c345e3e4718edce3079ad32f905282",
+      "bytes": 433249
+    },
+    "gear-elite-smoke-raid.run.log": {
+      "sha256": "aea15878b1b0e074ca21e4f63b10fc6d2a26ffdfe64d3dfd1955a454c04adf7c",
+      "bytes": 1184
+    },
+    "gear-elite-smoke-raid.simc": {
+      "sha256": "66e7b7af3d310cf1af12ae471cfe2e55dec9959f9fd2f1d1e4f682ca1a0bf7ac",
+      "bytes": 1814
+    },
+    "gear-elite-smoke-raid.txt": {
+      "sha256": "0f7b475394f03be36702312e2995e3477758bcb0496014b2807eab6de9fee453",
+      "bytes": 34077
+    },
+    "gear-elite-smoke-raid.validation.json": {
+      "sha256": "d1e971d8921c86bfbae3844cc64d916ee1439a6f40276e16609324ca491bf957",
+      "bytes": 461
+    },
+    "gear-elite-smoke-slice.json": {
+      "sha256": "72eb83c262f2c83468304ca3340070013701e9f48b7c9c99bd811b894f60fcbc",
+      "bytes": 646784
+    },
+    "gear-elite-smoke-slice.run.log": {
+      "sha256": "4c58847f523f09e72aec1a8a98889476769f65a3521f86fcaa43a5bd4739dc15",
+      "bytes": 1127
+    },
+    "gear-elite-smoke-slice.simc": {
+      "sha256": "2ed229111acc85fcce0fe0e7d464343864284c965fd3398c64e026fd36a8a250",
+      "bytes": 1817
+    },
+    "gear-elite-smoke-slice.txt": {
+      "sha256": "8043871ef416a8d9b41365667d8bff4e6d3e89bd4b1ed83e12199a1577cf766e",
+      "bytes": 43233
+    },
+    "gear-elite-smoke-slice.validation.json": {
+      "sha256": "1969e86b7b2303398e2101a94d296de8cffa5de0fc27211b0e36650600df1446",
+      "bytes": 462
+    },
+    "gear-elite-unbuffed.json": {
+      "sha256": "217c89e17d712eadd631e4c3c6bd5775455c42155a5aaa0d5f9669d557f15d8a",
+      "bytes": 429311
+    },
+    "gear-elite-unbuffed.run.log": {
+      "sha256": "c7cd2935f1444f6b187d957d49d3496c68150063c085974617d7173efd062abf",
+      "bytes": 1184
+    },
+    "gear-elite-unbuffed.simc": {
+      "sha256": "d86e03f7d2a966c8be6c5e8ebc24df7ed05faf30ad211ac287421dde33ec09f3",
+      "bytes": 1740
+    },
+    "gear-elite-unbuffed.txt": {
+      "sha256": "016fabb84abce41ec1fe5cdfb2245e3455af7516f31e94e9414c9f3fb46cdf3f",
+      "bytes": 33549
+    },
+    "gear-elite-unbuffed.validation.json": {
+      "sha256": "671c776630cb842d84ece6492377d674b88f2c1e9e94752094f77ae3a2ad6a14",
+      "bytes": 459
+    },
+    "gear-final-validation.json": {
+      "sha256": "44a7b7ed9f417b21ee33428b3e6af479e62852116ae6396672427445fff5d75b",
+      "bytes": 394
+    },
+    "gear-items.json": {
+      "sha256": "f81259054b56c62deb18429bedd683a6a5c31a7e3b40cae076df3ccd704cc95c",
+      "bytes": 8820
+    },
+    "gear-level-evidence.json": {
+      "sha256": "ac29a519334dce69a6de630133c8da283c0d124ba2c5154b3cbcf46579949d29",
+      "bytes": 49904
+    },
+    "gear-manifest.json": {
+      "sha256": "b8b8b387fea5b2e3ba50d0760ab5767979201e06041def21333e3ac6cd931c53",
+      "bytes": 5256
+    },
+    "gear-review.md": {
+      "sha256": "aea9b62c4577753b361126f32ef572c4144f7cfdafa8bdf2f42bc53fd4cfaa7c",
+      "bytes": 24173
+    },
+    "gear-run.py": {
+      "sha256": "71b6292f0ad578638fe6340dcbf08529ee18187ed7334951d4855a5edab01669",
+      "bytes": 10434
+    },
+    "gear-screen-literal-raid-current.json": {
+      "sha256": "5c84e4c21d7fa61fed1e4932a401ebfa0b91b77255e65cb783263ffee47f3efe",
+      "bytes": 458079
+    },
+    "gear-screen-literal-raid-current.run.log": {
+      "sha256": "f280362da3552fa84675205cedaca8a475ab36716f84edd1a119fe736a61b924",
+      "bytes": 7350
+    },
+    "gear-screen-literal-raid-current.simc": {
+      "sha256": "60675d232a3cb81f91c8bf92451f39b5c8660c690719f32a47fc83716d144b27",
+      "bytes": 1789
+    },
+    "gear-screen-literal-raid-current.txt": {
+      "sha256": "13ddb5ceef600245164d8fddfa805fc376c70519f6dec62cb6db30d560a634d3",
+      "bytes": 34700
+    },
+    "gear-screen-literal-raid-current.validation.json": {
+      "sha256": "5b4a52dba1d28c96ebecdd124cb1082dc54c6fb0e03882a12df46f933a1cc1d7",
+      "bytes": 638
+    },
+    "gear-screen-literal-slice-current.json": {
+      "sha256": "5aaa89a8c0306a13b5f29050babb2e99108561d49b440e61b4419a7b9624752b",
+      "bytes": 703154
+    },
+    "gear-screen-literal-slice-current.run.log": {
+      "sha256": "0298247243eac508748ee3db6c5c3f26f6d63b72a1d09f7354b7815baf63f068",
+      "bytes": 7380
+    },
+    "gear-screen-literal-slice-current.simc": {
+      "sha256": "5525050fd2d83579ad94e6688431a378dff7ec6b6c1bc7c120f3f9070c00baed",
+      "bytes": 1792
+    },
+    "gear-screen-literal-slice-current.txt": {
+      "sha256": "1392856525acc1120d4db284c64a7f7556dad30dc383c4a98511bdd4507f9491",
+      "bytes": 43590
+    },
+    "gear-screen-literal-slice-current.validation.json": {
+      "sha256": "d3a1f89f379a499c8ecc2d18a8e3367164bd502c179776eecea93a3f77a14b99",
+      "bytes": 639
+    },
+    "gear-screen-raid-all_crafts_hm.json": {
+      "sha256": "98c2bdf7db0a50f8599dcf1d837a5ec0dc0dbe8ba46d13d77360b92e89d4a96e",
+      "bytes": 454179
+    },
+    "gear-screen-raid-all_crafts_hm.run.log": {
+      "sha256": "0c3b8942230b6c91c3d674ea043d78f5d45846435d7c164c91bb85e7ee5a7e3a",
+      "bytes": 7349
+    },
+    "gear-screen-raid-all_crafts_hm.simc": {
+      "sha256": "17c8cdd83fd4b4486e27849cc8bbe84de0e3828a815906397e34d59371f48881",
+      "bytes": 1954
+    },
+    "gear-screen-raid-all_crafts_hm.txt": {
+      "sha256": "a4b3a0e324b25b1630475d0c998f692bd88ab878a320a0d8b038677b3a6bd051",
+      "bytes": 34703
+    },
+    "gear-screen-raid-all_crafts_hm.validation.json": {
+      "sha256": "aab7b5fd9fb8867b4becbb40a03ae264348ff56f08af9735eac561c8515a2671",
+      "bytes": 636
+    },
+    "gear-screen-raid-cloak_hm.json": {
+      "sha256": "cdf9e8c87a35cc7811d5b97d6871cddfcf320bf95d1bfce5f370f0e3d47e7848",
+      "bytes": 456026
+    },
+    "gear-screen-raid-cloak_hm.run.log": {
+      "sha256": "a6b9be7e71b4c9f6d9136bcd2e022d9b60ac1a863f214b4b0670b7da2295c7e4",
+      "bytes": 7279
+    },
+    "gear-screen-raid-cloak_hm.simc": {
+      "sha256": "7e8a342f550276573ae0c24fce03d174e3e35237615776dcfd0b2ef98a08babb",
+      "bytes": 1954
+    },
+    "gear-screen-raid-cloak_hm.txt": {
+      "sha256": "fb202d42ff845b526896bcaaed8602bf5d7f24b3d44354344262e31f936f9478",
+      "bytes": 34695
+    },
+    "gear-screen-raid-cloak_hm.validation.json": {
+      "sha256": "dd256f4bf0f0b7aaf1c7bc70ea48330af86e5a1ccfa6264124b29a226a5835b3",
+      "bytes": 631
+    },
+    "gear-screen-raid-current.json": {
+      "sha256": "5b294e45946b147f7de2e9942ebbb3ac52c7275b730d1706b0052319a601bf76",
+      "bytes": 459198
+    },
+    "gear-screen-raid-current.run.log": {
+      "sha256": "646ea7328606923f432dd1c543eb06a8b71528fcac7a797dac7c13d2178ef949",
+      "bytes": 7422
+    },
+    "gear-screen-raid-current.simc": {
+      "sha256": "193c3f26ff4b9540fd8c09fdbbc8443842da8c44d3435950c64a46db554838e5",
+      "bytes": 1954
+    },
+    "gear-screen-raid-current.txt": {
+      "sha256": "077bfa7c09640fe0240277c4b4c637f775006f489c89c47a0b919fa945c76c21",
+      "bytes": 34696
+    },
+    "gear-screen-raid-current.validation.json": {
+      "sha256": "c05cd55de04fe6bbb42dcbbe95bd3bc6480e37b812ef206f65c461d0cdb9a6da",
+      "bytes": 630
+    },
+    "gear-screen-raid-elite_full.json": {
+      "sha256": "665219514b7a3713e3ba51482106f0380ef57dd876f9fa0a878e69c9395efc62",
+      "bytes": 448464
+    },
+    "gear-screen-raid-elite_full.run.log": {
+      "sha256": "48f5d94d2efa61814b86ec058de96766d7e20cbf7262acba8fd80b6f5de9c653",
+      "bytes": 7167
+    },
+    "gear-screen-raid-elite_full.simc": {
+      "sha256": "4e007a9b792997302fff509224422cc642bf7b818dafacb12588c200b2247b6d",
+      "bytes": 1816
+    },
+    "gear-screen-raid-elite_full.txt": {
+      "sha256": "2fcd86a34cc6090fae68f27bc37884d03fc8a7c3f5ad8eae5627264ab80fd419",
+      "bytes": 34225
+    },
+    "gear-screen-raid-elite_full.validation.json": {
+      "sha256": "2214d07c5760dc8a234aa07d5591c544e392888309882687cb9250f6fb6d6450",
+      "bytes": 467
+    },
+    "gear-screen-raid-one_gem_hm.json": {
+      "sha256": "aa2d97ba65e41a1735839f38f29ce19728a3af3ddea942d0368f1d5a5a9a47aa",
+      "bytes": 454985
+    },
+    "gear-screen-raid-one_gem_hm.run.log": {
+      "sha256": "08505fe03a4239087e1e10efcd2c14520101539afa6101e1a7563b63535370fd",
+      "bytes": 7280
+    },
+    "gear-screen-raid-one_gem_hm.simc": {
+      "sha256": "b39325371f6fe4e9e4da049e3c09ac1012e5bfc07ffc3073f6f02ba20a19048e",
+      "bytes": 1954
+    },
+    "gear-screen-raid-one_gem_hm.txt": {
+      "sha256": "f52ae2fd4bbaae0ca37c9b6c4f66c6895ea58a268238c8893f9e13e830767d3e",
+      "bytes": 34696
+    },
+    "gear-screen-raid-one_gem_hm.validation.json": {
+      "sha256": "30fc0ba713dd255c43bb247be16965daff938fb5d1e6f4295ce9edd306d8744b",
+      "bytes": 633
+    },
+    "gear-screen-raid-raid_ring_334.json": {
+      "sha256": "ef703f310495b851b1179120060cd6047c1498efdd2a16a79b14642618b96432",
+      "bytes": 461653
+    },
+    "gear-screen-raid-raid_ring_334.run.log": {
+      "sha256": "d89f072273b0107af00c2ed4271734ba14701f1cdd8e9a75b4dd980f13a0827f",
+      "bytes": 7280
+    },
+    "gear-screen-raid-raid_ring_334.simc": {
+      "sha256": "45684cef09ff830c55e0eaabceb3406821f5bb0587b4a25f91d163042eb5e6e9",
+      "bytes": 1936
+    },
+    "gear-screen-raid-raid_ring_334.txt": {
+      "sha256": "1f86dcaecf4c6909014f6b2ccd7bf9c37533ccfbb0bf02b3003c130598475bf4",
+      "bytes": 34433
+    },
+    "gear-screen-raid-raid_ring_334.validation.json": {
+      "sha256": "cd6bfd63509037307b07ead33eb1ffa3810bc4a4ac54adf2678887609b2df608",
+      "bytes": 636
+    },
+    "gear-screen-raid-ring_hm.json": {
+      "sha256": "c4e92878b602b384ea34ece2b3590d37a919ccf9bfb790007a015bb7952f210c",
+      "bytes": 462855
+    },
+    "gear-screen-raid-ring_hm.run.log": {
+      "sha256": "33736b1769eb91aac756328d61f5d451756f2aef12433eeb0ca26e8ce88cf25b",
+      "bytes": 6884
+    },
+    "gear-screen-raid-ring_hm.simc": {
+      "sha256": "6ebc255a2baaf30b64a3df8c39c49688f912920b679194dd0bb6a8c8e14570b4",
+      "bytes": 1954
+    },
+    "gear-screen-raid-ring_hm.txt": {
+      "sha256": "1291b1e5f509bbcda756e1ea2bfe4f5e8f1d1c0fcb9f7832d441ba77687d734b",
+      "bytes": 34696
+    },
+    "gear-screen-raid-ring_hm.validation.json": {
+      "sha256": "2d8474ad543711d67fd0ab744d8b3cbead31d5ecfa3a2168da561ab67be6df2e",
+      "bytes": 630
+    },
+    "gear-screen-raid-waist_331_cm.json": {
+      "sha256": "4f0e31c1c6815163cd38abd0d01cd9380119d146fd1eec7aa1bc53bf49190cfc",
+      "bytes": 457576
+    },
+    "gear-screen-raid-waist_331_cm.run.log": {
+      "sha256": "2a75ae23f93559de55d72b57ef78951b9a74acfcef129400e8fcdcfb5f20f54e",
+      "bytes": 7280
+    },
+    "gear-screen-raid-waist_331_cm.simc": {
+      "sha256": "443f87ac7a6987d2155b4db6f0166e0371a84e95485fe9a891918402d87292de",
+      "bytes": 1918
+    },
+    "gear-screen-raid-waist_331_cm.txt": {
+      "sha256": "38a41767daff42596a3cf2465764d917dc8d78f211cf243a56e55bf46631e8cb",
+      "bytes": 34567
+    },
+    "gear-screen-raid-waist_331_cm.validation.json": {
+      "sha256": "3cc31495472e06181562115668dedeb67e9d7bd2275981cfa477f0e726b26441",
+      "bytes": 635
+    },
+    "gear-screen-slice-all_crafts_hm.json": {
+      "sha256": "95b9014f0dda5434e7961679401cbba2be5dec04959fe60fc4241a24a10347ff",
+      "bytes": 715684
+    },
+    "gear-screen-slice-all_crafts_hm.run.log": {
+      "sha256": "59170e6778b0a98acea477f650b12cab796f54f78f477fa336861399045ae5b2",
+      "bytes": 7355
+    },
+    "gear-screen-slice-all_crafts_hm.simc": {
+      "sha256": "0766ba5fda08fc75fc4200810783afb5ec08e2eccae8bae08fd74aac697f6e3d",
+      "bytes": 1957
+    },
+    "gear-screen-slice-all_crafts_hm.txt": {
+      "sha256": "7611adbe4b0f817da76995b308cffd95fd06582d04f3a7449bf72e6043738e53",
+      "bytes": 43591
+    },
+    "gear-screen-slice-all_crafts_hm.validation.json": {
+      "sha256": "20722fbe1e0ef958bb5e4af78192d395e12b975a0c6323cd5980f8f1b4357c77",
+      "bytes": 637
+    },
+    "gear-screen-slice-cloak_hm.json": {
+      "sha256": "1245946ea038541808a204d2c75b8c1cbf5e0c601018d1762fb1af05252ebc32",
+      "bytes": 704838
+    },
+    "gear-screen-slice-cloak_hm.run.log": {
+      "sha256": "2c913b6ba91c5786bc178f7354a2e255cecf76634ce3a980e50cd189ebc04539",
+      "bytes": 7379
+    },
+    "gear-screen-slice-cloak_hm.simc": {
+      "sha256": "0e5ca7045f2cfb00765d6480a26ed69d3fc63d1288c2ef7e4143fed6cfe52067",
+      "bytes": 1957
+    },
+    "gear-screen-slice-cloak_hm.txt": {
+      "sha256": "4b705b6e5bf7c124fdb0102d2c9c524f76ca15212d3f71006c55d3f9f2b85f3d",
+      "bytes": 43855
+    },
+    "gear-screen-slice-cloak_hm.validation.json": {
+      "sha256": "5a1d87abb199cd9c6f1d6d4479471e2f20db5020883daf16cf369c99c1360ce8",
+      "bytes": 632
+    },
+    "gear-screen-slice-current.json": {
+      "sha256": "04af140703fcdcbcd662ec19f6c9dfd73c199fe91d93b549cb31a1f7db06f9b5",
+      "bytes": 707923
+    },
+    "gear-screen-slice-current.run.log": {
+      "sha256": "69cbefd2ed5a5f9ca50e6c77ff622eb0eec97852dc399e1330bd6ce84fc918a6",
+      "bytes": 7353
+    },
+    "gear-screen-slice-current.simc": {
+      "sha256": "3a20a37fde24385660b0b0df7704bfd3967f42de0a699a8a61936d99fef6d3ea",
+      "bytes": 1957
+    },
+    "gear-screen-slice-current.txt": {
+      "sha256": "ae7f5d32d07ca171f292792bcac3c74180d6fb576aeb0b7401186d7a74f0ce28",
+      "bytes": 43718
+    },
+    "gear-screen-slice-current.validation.json": {
+      "sha256": "d9a4530f530537a93a4ae240a134ff3c1bffeb5ad7dddc065d3f71464255f022",
+      "bytes": 631
+    },
+    "gear-screen-slice-elite_full.json": {
+      "sha256": "0804834bc72c18c9b294b20de4374bf6fa26db86656ff34be369fb4e974cf0e7",
+      "bytes": 691460
+    },
+    "gear-screen-slice-elite_full.run.log": {
+      "sha256": "ffba5577fce355dd797e73ef07aa461bebae9bf9eb2e584f66aa10a58172a723",
+      "bytes": 7266
+    },
+    "gear-screen-slice-elite_full.simc": {
+      "sha256": "9d42a903d28b8fe50d3f4d8e08054fbabd4d667ba3985cb4d1dc8a52e9250252",
+      "bytes": 1819
+    },
+    "gear-screen-slice-elite_full.txt": {
+      "sha256": "79337c7574052b1b167f52c5246462bdaada58d7e922f6ac90492965b22d1b37",
+      "bytes": 43259
+    },
+    "gear-screen-slice-elite_full.validation.json": {
+      "sha256": "0fd2664a3d0a6b16901bb562d94452e983e13455c3a5e227c77714ac801c8be0",
+      "bytes": 468
+    },
+    "gear-screen-slice-one_gem_hm.json": {
+      "sha256": "204af7b636c6fb33a5b6b37a0046e3b83d51a1e1e6b144bed61ffd89b6b73680",
+      "bytes": 704578
+    },
+    "gear-screen-slice-one_gem_hm.run.log": {
+      "sha256": "2fd505cb65be0fb8915dd37fd629ee58394d51624c117341c9a8fbb50a337013",
+      "bytes": 7234
+    },
+    "gear-screen-slice-one_gem_hm.simc": {
+      "sha256": "984ed8e20cb8214761008d6b320271fd2cd13c302a44b8eaf527a60376bdbf20",
+      "bytes": 1957
+    },
+    "gear-screen-slice-one_gem_hm.txt": {
+      "sha256": "10f1f95f21e4c618bf5bd63321ab7332d5a50ad9c3229164f9d1a8b12ba579a8",
+      "bytes": 43723
+    },
+    "gear-screen-slice-one_gem_hm.validation.json": {
+      "sha256": "54d1a272c1e9718036d86bf93dd26dcc1ecc8a6797259420e021dbe27c001765",
+      "bytes": 634
+    },
+    "gear-screen-slice-raid_ring_334.json": {
+      "sha256": "f667b0ffc57d21c42b9aa36d08ccb341f36fea1f568649d7c026fe810af081fb",
+      "bytes": 697920
+    },
+    "gear-screen-slice-raid_ring_334.run.log": {
+      "sha256": "cac2ba103ce9cae1e1ad9e2102754822e27ba31ceb592f44c9a58d647ffd70e7",
+      "bytes": 7380
+    },
+    "gear-screen-slice-raid_ring_334.simc": {
+      "sha256": "b5b2a520b0edeb5d965946eb44fa787b9fc50c881d09996e791ca450a355fc11",
+      "bytes": 1939
+    },
+    "gear-screen-slice-raid_ring_334.txt": {
+      "sha256": "26ee1fbb2c5041c5be57cc644e03b8e2dc9d082fce42b37a48e0db05bea15f51",
+      "bytes": 43721
+    },
+    "gear-screen-slice-raid_ring_334.validation.json": {
+      "sha256": "db906bbba54360b762c54f415339026dd8ef34f8fbf5b31683c161bd6ca68dae",
+      "bytes": 637
+    },
+    "gear-screen-slice-ring_hm.json": {
+      "sha256": "d139a2ddf739ac6e7241464282cfe17f301be8eaa98c4a73c9a84ed4e577e340",
+      "bytes": 701263
+    },
+    "gear-screen-slice-ring_hm.run.log": {
+      "sha256": "3234f141cfd2cc3a082d6aa91a9ae71b1f875cb123cb67e6471e64718db81c37",
+      "bytes": 7286
+    },
+    "gear-screen-slice-ring_hm.simc": {
+      "sha256": "1bae1bb4befbe6d19991dfe57f4e2e226c7c26b2191900c61e1b5b1cad368178",
+      "bytes": 1957
+    },
+    "gear-screen-slice-ring_hm.txt": {
+      "sha256": "3407803676d121d06bb705b69c1d8facd8b93dce78275eff8ba5231ee16ebb4f",
+      "bytes": 43727
+    },
+    "gear-screen-slice-ring_hm.validation.json": {
+      "sha256": "bddc1f8cb5765d83599f6b396270e2040b735fea23a0525deca9fc9b009e8b08",
+      "bytes": 631
+    },
+    "gear-screen-slice-waist_331_cm.json": {
+      "sha256": "32bab4491ca4781527d75b82d1f37dffdd3cd06a0ac913f36c479f1b2a1e685d",
+      "bytes": 704191
+    },
+    "gear-screen-slice-waist_331_cm.run.log": {
+      "sha256": "04386b32055a21cffa176a521f3499587fb8cf2648064285a5160db671ccd28f",
+      "bytes": 7446
+    },
+    "gear-screen-slice-waist_331_cm.simc": {
+      "sha256": "90ce451248120845830bbe547a69899ebb97c297ab4374d0841dcb776634cb4e",
+      "bytes": 1921
+    },
+    "gear-screen-slice-waist_331_cm.txt": {
+      "sha256": "03799f3a2281df07c152430a10dde178f085928a6d13e5cf7227f3c6365c8eee",
+      "bytes": 43722
+    },
+    "gear-screen-slice-waist_331_cm.validation.json": {
+      "sha256": "c1f0641c49a156d8720102e01368ed2259ae36fc152e5b182eba5c59be3fe9ba",
+      "bytes": 636
+    },
+    "gear-smoke-aoe.json": {
+      "sha256": "a9b389f9a465a71afeeed1bf4ab14aff0b667ac7d618b6eedd80c4977ae38b26",
+      "bytes": 264404
+    },
+    "gear-smoke-aoe.run.log": {
+      "sha256": "1203f70cd05d4f550859b1674a5b40ebf77a7a8b054f850c48e69ef4c029b21c",
+      "bytes": 1296
+    },
+    "gear-smoke-aoe.simc": {
+      "sha256": "879bc066f7291402af961ae3fc550c6f2ee24a814ce40a4c0e3aef31ed887166",
+      "bytes": 1951
+    },
+    "gear-smoke-aoe.txt": {
+      "sha256": "1db4ff95d973e0c8a26d9623eb535efc8b04c2fa8ffdd68fde1482506f99a673",
+      "bytes": 39685
+    },
+    "gear-smoke-aoe.validation.json": {
+      "sha256": "f442082cacca2100c3674d68921049fb9e5311ea3e6f802cc3e7f7788a47e8e8",
+      "bytes": 620
+    },
+    "gear-smoke-raid.json": {
+      "sha256": "583d3562fa269ca06fdaeb42a07bef01dc3da4a19850ac0a2516b5890e22d72b",
+      "bytes": 449731
+    },
+    "gear-smoke-raid.run.log": {
+      "sha256": "834173a72f15f264b256e68f7c6f7555fc2bbaf7ffdea40b8f10571b570f083b",
+      "bytes": 1237
+    },
+    "gear-smoke-raid.simc": {
+      "sha256": "eb83d562a3a2f580d9288fc054ca13d91e899a9477c351429cb2ce1799d0944b",
+      "bytes": 1952
+    },
+    "gear-smoke-raid.txt": {
+      "sha256": "a6cf3f14737f7ae2e0738d65d8ad4b1f85fc06eb8c0a9afa77ef95cb972f3520",
+      "bytes": 34543
+    },
+    "gear-smoke-raid.validation.json": {
+      "sha256": "68a213b3d513e696dc4b404a837c886449c66085abda201991a371d522bae52c",
+      "bytes": 621
+    },
+    "gear-smoke-raw.json": {
+      "sha256": "79cbcaecdbfb874318efb87c73a8162914b7acfad13b3bd631ce670506212023",
+      "bytes": 430991
+    },
+    "gear-smoke-raw.run.log": {
+      "sha256": "cd605726894ea282dfd14d37decc12006398377f4a486464b6c4523a78905004",
+      "bytes": 1176
+    },
+    "gear-smoke-raw.simc": {
+      "sha256": "cf666a2cea462f2400152012afc388a8acb74c03ef93c2c33c2e50650841a5b6",
+      "bytes": 1898
+    },
+    "gear-smoke-raw.txt": {
+      "sha256": "fa5684da8801d7c3a7e6f3aab5d9e8b8046c469bafb806a7ff1c2dd4cafce595",
+      "bytes": 33882
+    },
+    "gear-smoke-slice.json": {
+      "sha256": "acea6800ffb09168b6d701f0c4074828645a890222c83d6f23b36b137c3458d3",
+      "bytes": 656412
+    },
+    "gear-smoke-slice.run.log": {
+      "sha256": "8ea4cdebddcb7eeebf9ea79c93670980c8b4575ca3df8555ea0256adc098b6e2",
+      "bytes": 1241
+    },
+    "gear-smoke-slice.simc": {
+      "sha256": "2bd7ccafe5c7a3c042862ed437842a87b6a1ee726449f92effc57e0dd40712f4",
+      "bytes": 1955
+    },
+    "gear-smoke-slice.txt": {
+      "sha256": "d2876c43804eaa957a3b54a3a03b778495093f0d6d70319e43444554aeee65ca",
+      "bytes": 43697
+    },
+    "gear-smoke-slice.validation.json": {
+      "sha256": "cce4204ac523cd6a03bb2b8804956a51889ef9d03c20bf8c5539599407cee6ff",
+      "bytes": 622
+    },
+    "gear-source-evidence.json": {
+      "sha256": "fce917dd4380e49fada1633801b562b797f820c352f7c2da27af929dbf1c949d",
+      "bytes": 16068
+    },
+    "gear-summarize.py": {
+      "sha256": "2b79a27615fcedc175b44076caeeab1719aa6b04b78dee334461ff7eca20f4da",
+      "bytes": 24264
+    },
+    "gear-summary-original-bonus.json": {
+      "sha256": "be6b018de8d54b98c8c7e2533103d9fb925e7f8d99fea48deffea472a7408a15",
+      "bytes": 110130
+    },
+    "gear-summary.json": {
+      "sha256": "f70409485e91b264f5b8eb94f4231ebdb9607517681a9f17eaa20ad7552a0b25",
+      "bytes": 210914
+    },
+    "gear-talent-control.py": {
+      "sha256": "4a80564e64d6e0904dc58604435ffe0bfe0990d49a0ae5d793510f6230af12d6",
+      "bytes": 2161
+    },
+    "gear-talent-manifest.json": {
+      "sha256": "8d08666d0c244d3c56f5715c76fc15d94f128274e931a81c4820ba5258294516",
+      "bytes": 1932
+    },
+    "gear-talents-raid-bisset.json": {
+      "sha256": "aea88f7a6cbda7ea452dc95fe56348fcd6c1c404c5098d4f744bc75051dbd8ad",
+      "bytes": 465130
+    },
+    "gear-talents-raid-bisset.run.log": {
+      "sha256": "5971083e22a635aad6e3a151f7d48983bfb4973f3091cee9e79a255e5ef6d262",
+      "bytes": 7350
+    },
+    "gear-talents-raid-bisset.simc": {
+      "sha256": "ff83f01349a941e0ba5d425e27b368e648eb2179f79036f212b3adc6647bb644",
+      "bytes": 2155
+    },
+    "gear-talents-raid-bisset.txt": {
+      "sha256": "3671ee80a18cfcdba15fb10a2e333b99b4238202debeac7c5773614852caf70a",
+      "bytes": 34734
+    },
+    "gear-talents-raid-bisset.validation.json": {
+      "sha256": "8abdecaca31049955428599353fcf74889bad2bf633c4e76a7c9046de8a3639f",
+      "bytes": 630
+    },
+    "gear-talents-raid-user.json": {
+      "sha256": "8b9f4321b88dbdfc4d18f8c36e742935b3d85b2f279e03fee15b20c5d4af847d",
+      "bytes": 459563
+    },
+    "gear-talents-raid-user.run.log": {
+      "sha256": "f6cf6a95c0b6b23abb007c1e14ecd96eaee34deaa8be6c88b95ede611eada4e4",
+      "bytes": 7350
+    },
+    "gear-talents-raid-user.simc": {
+      "sha256": "d92edc7010ac4bdf41e51738fa558096dfed2caab6c0511ffbacefddd13d2c30",
+      "bytes": 2156
+    },
+    "gear-talents-raid-user.txt": {
+      "sha256": "c016bb5c9e9000cc35ac83b5a94fb084a93dcd3812fcbea79b7f24dac9c0fcd2",
+      "bytes": 34701
+    },
+    "gear-talents-raid-user.validation.json": {
+      "sha256": "c9d47a781f8a662d10fc29e349cf6f9476b5514ffa92caa5e6bbf40c6b7ea376",
+      "bytes": 628
+    },
+    "gear-talents-slice-bisset.json": {
+      "sha256": "b55fd40d135c52484346f2176d7351cacf3a55350b9d9b75cc9953fdd757d05d",
+      "bytes": 701897
+    },
+    "gear-talents-slice-bisset.run.log": {
+      "sha256": "e95ee297d44c8ae3d471570256bd7b2948a48a981d4e6705b384f55c27ba85b1",
+      "bytes": 7380
+    },
+    "gear-talents-slice-bisset.simc": {
+      "sha256": "644456c2e33e58a8a41951be4002d9bd96189fda111bc4d23e2a27974821afb9",
+      "bytes": 2158
+    },
+    "gear-talents-slice-bisset.txt": {
+      "sha256": "2e83cd1b48260a18c3918be9b03d6c162f5c78384ca8d2869244af736a058b2e",
+      "bytes": 43643
+    },
+    "gear-talents-slice-bisset.validation.json": {
+      "sha256": "b0ebe131cfb88aab5a23f4fca88195807731a278de49438ed30871551b842c27",
+      "bytes": 631
+    },
+    "gear-talents-slice-user.json": {
+      "sha256": "8f5957450863a422812c19469192d10553fca125cf220d3a962f2f9571280992",
+      "bytes": 706864
+    },
+    "gear-talents-slice-user.run.log": {
+      "sha256": "cd09d0355b8260df2f142abab3b9154b948cc58777d350cb118506581dae63c5",
+      "bytes": 7378
+    },
+    "gear-talents-slice-user.simc": {
+      "sha256": "949b162d6f230e2ed671e3ea5dc77b04e0d3d9a539aeceefb2af6593aaa125b5",
+      "bytes": 2159
+    },
+    "gear-talents-slice-user.txt": {
+      "sha256": "10c5cafe4fc63f4a66b8422589b314941b2b33ac7cb49cf2c85c37888dfd7e6b",
+      "bytes": 43726
+    },
+    "gear-talents-slice-user.validation.json": {
+      "sha256": "a047fbd64fd124f577b70481468e96addb21521302ec593785c3fad9b38e0fcd",
+      "bytes": 629
+    },
+    "gear-tooltips.json": {
+      "sha256": "635c7900b809a7c7ee2a1ade96f5a1b77746954b5a5002d1364d53d0932bc46b",
+      "bytes": 6487
+    },
+    "gear-unbuffed.json": {
+      "sha256": "09e12820d17b0ac9de095401de376a5f382bbf0298edfd2c32af029d8e14bf87",
+      "bytes": 434995
+    },
+    "gear-unbuffed.run.log": {
+      "sha256": "03d6e9a69e1202afdf40dce2bda749c6b7fe4d0f459fe2918f8b2b2c8a8a2cf3",
+      "bytes": 1360
+    },
+    "gear-unbuffed.simc": {
+      "sha256": "8e38e03e247ee6542255a02e1e487706e057dd1e98b7508bfc49dcdf10a6b9a0",
+      "bytes": 1878
+    },
+    "gear-unbuffed.txt": {
+      "sha256": "8fbc860140f67f78fb6ee248927e05d8d83ca92e83de3ccefc8827daa3f46afe",
+      "bytes": 33883
+    },
+    "gear-unbuffed.validation.json": {
+      "sha256": "144eea9261fd80469b9dedb64f32e31b89fb34766ad2e78ac9d9afb52d270de4",
+      "bytes": 619
+    },
+    "gear-verify-raid-current.json": {
+      "sha256": "e3ec3dd0e9c58b94672eb120acbf3f17f0296c6cc86170cede28dc568d278944",
+      "bytes": 453618
+    },
+    "gear-verify-raid-current.run.log": {
+      "sha256": "5062446765cbc2832f26eafb1254def1351eff7435a43509f153bc2baa3bfefa",
+      "bytes": 7509
+    },
+    "gear-verify-raid-current.simc": {
+      "sha256": "d7d2821c6dd0016986f634654d76821e6aadacee5bfe0a28228fe0740e1aba7b",
+      "bytes": 1954
+    },
+    "gear-verify-raid-current.txt": {
+      "sha256": "f183bff79c95cb83e71cc94d0ab7225082589125569190c8c6f23cde238fea35",
+      "bytes": 34696
+    },
+    "gear-verify-raid-current.validation.json": {
+      "sha256": "244fd97f85826bc68223c0e04e578092b6df37f0af89a80999d984ccc5e4e511",
+      "bytes": 630
+    },
+    "gear-verify-raid-raid_ring_334.json": {
+      "sha256": "f7903f892d492241639e6f5c080a1f2de8c0b71c88870fc1510a4902feafd9ad",
+      "bytes": 455535
+    },
+    "gear-verify-raid-raid_ring_334.run.log": {
+      "sha256": "e25880f9ecdf750cbf808f7a4e62abaf63837c24ec50741d585c3536cf61598d",
+      "bytes": 7595
+    },
+    "gear-verify-raid-raid_ring_334.simc": {
+      "sha256": "f8c5fbc2f3300a20426d773a718185d4b242c75da23d9ad7b33f5431753f5949",
+      "bytes": 1936
+    },
+    "gear-verify-raid-raid_ring_334.txt": {
+      "sha256": "ff780e64d50a686d029d937c0ed6b42c350772cb10623a5ad55286c86ff9651f",
+      "bytes": 34570
+    },
+    "gear-verify-raid-raid_ring_334.validation.json": {
+      "sha256": "94fd755a517ca46f611b4c92661af44c03e0e41ce2584b2ec0874dda1b5f8493",
+      "bytes": 636
+    },
+    "gear-verify-raid-waist_331_cm.json": {
+      "sha256": "697c9e6143a97d2d37ad4d874c12634fc7b363fccb0baf2503928f5e30e16d0b",
+      "bytes": 461487
+    },
+    "gear-verify-raid-waist_331_cm.run.log": {
+      "sha256": "326abf47121a29f4ac4734cbad196262589b598c09a24380459fbed699836aff",
+      "bytes": 7515
+    },
+    "gear-verify-raid-waist_331_cm.simc": {
+      "sha256": "40996d99974d38ddd094b8c03e0d9ec3e986c1e2b0bbea65b422d3f8ce2479ed",
+      "bytes": 1918
+    },
+    "gear-verify-raid-waist_331_cm.txt": {
+      "sha256": "2dcc3013f70b59449d48041520c920de2859aa2e662fc86222d15d5400bf96db",
+      "bytes": 34698
+    },
+    "gear-verify-raid-waist_331_cm.validation.json": {
+      "sha256": "5770e7f0f6dd5b9b32b073e2e4f801a0d859c160cdd1b953fa514811dc0ad319",
+      "bytes": 635
+    },
+    "gear-verify-slice-current.json": {
+      "sha256": "98638a49b43e05fdee8067466df57cc34499f5e7aa05c83e07ede6961c7cc554",
+      "bytes": 706605
+    },
+    "gear-verify-slice-current.run.log": {
+      "sha256": "49c9d5b8c13a7d2cf618adfadea795116311c8643d70e787e34c00174811e6e4",
+      "bytes": 7600
+    },
+    "gear-verify-slice-current.simc": {
+      "sha256": "badf2a166358043544c16b01d292dce74cc612faeb8d0fdf0ac98744ae9223b2",
+      "bytes": 1957
+    },
+    "gear-verify-slice-current.txt": {
+      "sha256": "93ce0eea3e95a724d8b6e10c07cbb6da8fb2637bf5c886c032d7835df469b82d",
+      "bytes": 43724
+    },
+    "gear-verify-slice-current.validation.json": {
+      "sha256": "d19c7ef130487f979770e902acee21f62a61a9f70bb7106937724b8057de9340",
+      "bytes": 631
+    },
+    "gear-verify-slice-raid_ring_334.json": {
+      "sha256": "2782928001eb31817809ec7d5fabeb36c01996e9aee01d2d80c3964c5357cc8a",
+      "bytes": 716764
+    },
+    "gear-verify-slice-raid_ring_334.run.log": {
+      "sha256": "caa1d0605b789e974fa17f40821f29aa998d666202acf97d6444cecd1a1437ec",
+      "bytes": 7600
+    },
+    "gear-verify-slice-raid_ring_334.simc": {
+      "sha256": "c060cadbc9436fd7f109396a5bf7d7fc6be33ae22d1a82325c670f5087e39edb",
+      "bytes": 1939
+    },
+    "gear-verify-slice-raid_ring_334.txt": {
+      "sha256": "92de72782545c12cbda0b62a9586ef167d510f5c024f1deedcd0f70a373af2ca",
+      "bytes": 43857
+    },
+    "gear-verify-slice-raid_ring_334.validation.json": {
+      "sha256": "6264131ab0fbdee3d2ea8370bf952cf61f818bfbbd28a5751b7f583f8fe76edc",
+      "bytes": 637
+    },
+    "gear-verify-slice-waist_331_cm.json": {
+      "sha256": "357c538203d8f4c53a4805ca1db2544e011b22d59d89b92ffe08886050c9a15c",
+      "bytes": 702779
+    },
+    "gear-verify-slice-waist_331_cm.run.log": {
+      "sha256": "52c47d55d49dc1647c586215f58cfd9d124063c3476cace469f35be022dac4b9",
+      "bytes": 7600
+    },
+    "gear-verify-slice-waist_331_cm.simc": {
+      "sha256": "75436e08e87245201f86fbc29ee5dbed518ff807fa5816b715a38e8633dee4e1",
+      "bytes": 1921
+    },
+    "gear-verify-slice-waist_331_cm.txt": {
+      "sha256": "54c8cc747aa8bef9d29ad97ff5591d76fb64bb8c58a1aecf041c7c04c6e5ce6d",
+      "bytes": 43729
+    },
+    "gear-verify-slice-waist_331_cm.validation.json": {
+      "sha256": "c484d3de81e779c4542c4e042f9ea5c22d847d7db4621c5e04c293b9a74c82b8",
+      "bytes": 636
+    },
+    "mechanics-review.md": {
+      "sha256": "231832177ee72096687d0626d3fd42f602226ab48ffd29b6a664d07dc6697461",
+      "bytes": 38016
+    },
+    "nga-source.json": {
+      "sha256": "dc0818b0253f880b0b2308d857c13c29a737547f2b8e8daa53c148405b050243",
+      "bytes": 13186
+    },
+    "review-desktop.png": {
+      "sha256": "ef3d4e07c89400a2d9df9aeb33b9ace2a22ab5c92a1cdf82c0561cb6bb0d6c5a",
+      "bytes": 127558
+    },
+    "review-mobile.png": {
+      "sha256": "90264e66d724f5840241b5fe87970957c0e6ab52428bcd57f206d7442824aa94",
+      "bytes": 51917
+    },
+    "review.html": {
+      "sha256": "ec800048a63dcbfabe01fc222ea0aa0fd94fee0758695aa690e8c5bba0eaa6c8",
+      "bytes": 1291345
+    },
+    "review.md": {
+      "sha256": "fb596d6c3d5b93ffee3ca776e2f129019905c15afef60e091fde35e460be941a",
+      "bytes": 11175
+    },
+    "verify-review.js": {
+      "sha256": "f2483b62250bfa2010d4a9b3f3dfe3a14c64f3b7ac3775c038863a873166443c",
+      "bytes": 3748
+    },
+    "wcl-elite-altar.html": {
+      "sha256": "71c6ade53a00edc7b5d740b1352fdabc0cd028be33921d6df50cf07d0949caeb",
+      "bytes": 106666
+    },
+    "wcl-elite-buffs.json": {
+      "sha256": "96590f2c1d558e166fb1e75d97e005275feee0a249f9765a50288ba01d18c05c",
+      "bytes": 8659884
+    },
+    "wcl-elite-casts-events-1.html": {
+      "sha256": "cc9169d72fe1ecb819b527ece376e97bbf231545ca184185c764455777cd0ec7",
+      "bytes": 168209
+    },
+    "wcl-elite-casts-table.html": {
+      "sha256": "919160071145c89a71c55dd4ee8a4a9479941d3f500d24a41bd82a504bf93d0e",
+      "bytes": 150548
+    },
+    "wcl-elite-casts.json": {
+      "sha256": "10dc29b7b79e0b6d1f15b97e75a792e543e6ccce6d135961cf46fb2dcdebd953",
+      "bytes": 765855
+    },
+    "wcl-elite-combatant.json": {
+      "sha256": "9a8605d0ea104609a63350d7fb53bf8553905c1dd0cfd5d6ba62783f783fc1ac",
+      "bytes": 16673
+    },
+    "wcl-elite-damage-185099.json": {
+      "sha256": "dabcfa795c94b177a5ca15525db0af959c597fa6b20a9ad676babbe28662fd82",
+      "bytes": 81106
+    },
+    "wcl-elite-damage-392959.json": {
+      "sha256": "8db7cf271be30d532523e2991b42becfa1196dd64f3ac2640cd471a4b0d181ce",
+      "bytes": 38562
+    },
+    "wcl-elite-damage-page.txt": {
+      "sha256": "92b4083f21c97a15e039dc880d6231813d58e796d824a3cf064f05c8ae8c332e",
+      "bytes": 9262
+    },
+    "wcl-elite-damage-table.html": {
+      "sha256": "97b21537e5d7486fbb2d287eb44e3c70084c0a2bd1e0a44fece35c52214d6024",
+      "bytes": 394032
+    },
+    "wcl-elite-damage-table.json": {
+      "sha256": "8b192c1b06a715f90d15536be021d7862d0444bcc1ea6c8833774173f0dd0c07",
+      "bytes": 10442
+    },
+    "wcl-elite-deaths-response.txt": {
+      "sha256": "d801aa1fb7ddcc330a5e3173372ea6af4a3d08ec58074478e85aa5603e926658",
+      "bytes": 14
+    },
+    "wcl-elite-fight-summary.txt": {
+      "sha256": "b5ad3d86bbc3915fe6f0740032f792be6ea43cfb8ae5bc77852b57670ef38ac2",
+      "bytes": 22072
+    },
+    "wcl-elite-fof-damage.json": {
+      "sha256": "21a65c2ebb2208a4907fa08da9fc1c744f8324a3428a93da99d2fe0eca5d02de",
+      "bytes": 3241103
+    },
+    "wcl-elite-metadata.json": {
+      "sha256": "8d7e93480ca3e6d9b95d655376601da94a6ba2c3232b4dd5da711ce7ee1e2596",
+      "bytes": 122555
+    },
+    "wcl-elite-opening-damage.json": {
+      "sha256": "89af655e67f6e01a0cbc49dd920d1453ade2bb43dd5a971b477bb1e3343522e1",
+      "bytes": 1753295
+    },
+    "wcl-elite-page.json": {
+      "sha256": "0783182c885195d9d3f0249bc79c3e34b19dafd7e1f2fe933855a8f39b3f1a14",
+      "bytes": 14770
+    },
+    "wcl-elite-profile.simc": {
+      "sha256": "c517d3a845a33684f576b94bbbc0d5aea5f79e86859db86cd72c8d69328bda15",
+      "bytes": 1387
+    },
+    "wcl-elite-report-page.json": {
+      "sha256": "db38d90d7416d84a16bf140807545df3002f491c5bb2e7baa7d1b863a2bb7726",
+      "bytes": 176547
+    },
+    "wcl-shaseng-altar.html": {
+      "sha256": "2f66ce9c1d5bfc1fd5ae3681e163a1c9435af2dcb7144f5383ac8420ee4ff70f",
+      "bytes": 77147
+    },
+    "wcl-shaseng-buffs.json": {
+      "sha256": "dccd4d0ad5562bce86959fceee495c8bfd93e2f35351ca9cd12013785615242b",
+      "bytes": 6015005
+    },
+    "wcl-shaseng-casts-events-1.html": {
+      "sha256": "483bacdcd6bca51f514ed94bec55bc299ced5e5046682784fe5717b9588a047c",
+      "bytes": 166909
+    },
+    "wcl-shaseng-casts-table.html": {
+      "sha256": "30e7ad8b39e7fd447a234bc2b5c4e42b79ecc3b61a185da31d7047922b2234a3",
+      "bytes": 128760
+    },
+    "wcl-shaseng-casts.json": {
+      "sha256": "a1c3357cd04e8d85f9f78f39b4779db696f0f73dd0def5d14004cd6befeaf970",
+      "bytes": 592470
+    },
+    "wcl-shaseng-combatant.json": {
+      "sha256": "0db738862e622e9f3935abdbde30afb5a533045ae31d1f762953f5591168cc53",
+      "bytes": 16375
+    },
+    "wcl-shaseng-damage-185099.json": {
+      "sha256": "8e56eaea9aa5744e7aa025dbe3f9e109ed51cd195cd1a7d18beea1111ac1df52",
+      "bytes": 76943
+    },
+    "wcl-shaseng-damage-392959.json": {
+      "sha256": "4085e282de64008b0defb2a09808629993eb6d139c2a55780518c5dff8a7e270",
+      "bytes": 40089
+    },
+    "wcl-shaseng-damage-page.txt": {
+      "sha256": "3e4c41ca9d69818afa0a898ad01c10935f014a05717375458ba2745ccaf53bce",
+      "bytes": 11223
+    },
+    "wcl-shaseng-damage-table.html": {
+      "sha256": "97b1eb2fb8ce39cb442570910c410c862b7d7a20f7333fba2d409c95cb17604b",
+      "bytes": 403835
+    },
+    "wcl-shaseng-damage-table.json": {
+      "sha256": "cefba23c2c7b99f5398cd521d3a186fadd956c31b126ca6e0e454e5cf148db38",
+      "bytes": 10664
+    },
+    "wcl-shaseng-deaths-response.txt": {
+      "sha256": "d801aa1fb7ddcc330a5e3173372ea6af4a3d08ec58074478e85aa5603e926658",
+      "bytes": 14
+    },
+    "wcl-shaseng-fight-summary.txt": {
+      "sha256": "059a8b0191a45cc435502f1c858a3b43cb47ba243e85bd61fc139b0240b3d522",
+      "bytes": 24165
+    },
+    "wcl-shaseng-fof-damage.json": {
+      "sha256": "b33afb86add3f1e35b4bcdb4ecce4e5e8e5c77bc21b587349a3357e540fd4d20",
+      "bytes": 2049947
+    },
+    "wcl-shaseng-metadata.json": {
+      "sha256": "a1cfbe2119b9b9f97ba08fa69e4a5dab7814ddfbc348271e69c1ef6a8b715c79",
+      "bytes": 70966
+    },
+    "wcl-shaseng-opening-damage.json": {
+      "sha256": "04cc634f25816b076e7417734aae9acab8e0f849962cb475bc97f5ed2f9404e7",
+      "bytes": 1845088
+    },
+    "wcl-shaseng-page.json": {
+      "sha256": "8c933d280968e321e3b057be76261c71d32b212b4ab154bc51ab136ca783bb89",
+      "bytes": 16080
+    },
+    "wcl-shaseng-profile.simc": {
+      "sha256": "a237f1e99d16fc0f5f713cbbc2f7e9c07943c41d2d33b966038fa74ac42598e0",
+      "bytes": 1377
+    },
+    "wcl-shaseng-report-page.json": {
+      "sha256": "0314ccd63ee6dd5b8c9793b0b2d1ee98d55daf53c7d26513b3c8f3426dd12d8a",
+      "bytes": 212170
+    }
+  },
+  "effective_buff_duration_check": {
+    "status": "pass",
+    "ordinary_azure_approx_seconds": 6,
+    "great_azure_seconds": 6,
+    "zenith_azure_seconds": 4,
+    "raw_DBC_is_not_effective_runtime": true,
+    "active_mismatch": false
+  },
+  "tier_consumption_check": {
+    "user_removals": 132,
+    "paired_sck": 123,
+    "paired_rsk": 5,
+    "paired_rwk": 4,
+    "trash_non_sck_review_candidates": 6,
+    "instantaneous_target_count_not_inferred": true
+  }
+}

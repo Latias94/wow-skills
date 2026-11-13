@@ -1,0 +1,21 @@
+{
+  "name": "tuning-tendril-aoe-craft_cm_pair_mastery_gems-12000-26102951",
+  "started_at": "2026-10-29T17:56:43.502521+08:00",
+  "ended_at": "2026-10-29T17:57:06.788679+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 747280.2506264547,
+  "ci95": 409.1648485395309,
+  "samples": 11999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

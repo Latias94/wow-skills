@@ -1,0 +1,258 @@
+{
+  "updated_at": "2026-10-29T20:40:34.161044+08:00",
+  "confirmed": "User has redeemed the agreed Labyrinth shoulder. Current level, Catalyst and equipped state not reported.",
+  "recommendation": "Keep owned cloak CH + wrist CM double Arcanoweave. Shoes CM, hands HM and ring CM already crafted331. Ordinary extra belt331 CM only if still missing H7 belt; do not force two new crafts.",
+  "future_branch": "If actually acquiring a better noncrafted cloak, move its Arcanoweave lining to the owned shoes; wrist+shoe is a valid alternative, not a proved mandatory BiS.",
+  "new_current_evidence": null,
+  "sample_refresh": {
+    "url": "https://murlok.io/monk/windwalker/conduit-of-the-celestials/m%2B",
+    "retrieved_date": "2026-10-29",
+    "scope": "50 hero-filtered characters, US/EU/KR/TW, current page refreshed12minutes ago at check",
+    "crafted_wrists": 42,
+    "crafted_feet": 45,
+    "crafted_cloak": 20,
+    "crafted_waist": 6,
+    "arcanoweave_instances": 96,
+    "interpretation": "Usage is not a mandatory slot assignment; do not merge with earlier50-player refresh."
+  },
+  "measurements": {
+    "craft-placement-slice-shoulder334_owned-6000-26102991": {
+      "name": "craft-placement-slice-shoulder334_owned-6000-26102991",
+      "started_at": "2026-10-29T20:37:36.124531+08:00",
+      "ended_at": "2026-10-29T20:37:48.829520+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 307640.47535556444,
+      "ci95": 364.3614463821504,
+      "samples": 5999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.0
+    },
+    "craft-placement-slice-shoulder334_belt331-6000-26102991": {
+      "name": "craft-placement-slice-shoulder334_belt331-6000-26102991",
+      "started_at": "2026-10-29T20:37:48.834139+08:00",
+      "ended_at": "2026-10-29T20:38:01.618488+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 310384.95168438955,
+      "ci95": 355.8855525770342,
+      "samples": 5999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.8921050865147384
+    },
+    "craft-placement-slice-shoulder334_raidcloak-6000-26102991": {
+      "name": "craft-placement-slice-shoulder334_raidcloak-6000-26102991",
+      "started_at": "2026-10-29T20:38:01.620584+08:00",
+      "ended_at": "2026-10-29T20:38:14.815779+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 308895.3615194301,
+      "ci95": 356.40629781519925,
+      "samples": 5999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.4079067172209072
+    },
+    "craft-placement-slice-armor334_owned-6000-26102991": {
+      "name": "craft-placement-slice-armor334_owned-6000-26102991",
+      "started_at": "2026-10-29T20:38:14.820373+08:00",
+      "ended_at": "2026-10-29T20:38:28.310760+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 312839.572346705,
+      "ci95": 365.3496202459441,
+      "samples": 5999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.0
+    },
+    "craft-placement-slice-armor334_raidcloak-6000-26102991": {
+      "name": "craft-placement-slice-armor334_raidcloak-6000-26102991",
+      "started_at": "2026-10-29T20:38:28.313062+08:00",
+      "ended_at": "2026-10-29T20:38:41.754786+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 313596.0179104048,
+      "ci95": 367.4767235769559,
+      "samples": 5999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.24179983306633623
+    },
+    "craft-placement-aoe-shoulder334_owned-6000-26102991": {
+      "name": "craft-placement-aoe-shoulder334_owned-6000-26102991",
+      "started_at": "2026-10-29T20:38:41.761404+08:00",
+      "ended_at": "2026-10-29T20:38:46.740639+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 705678.196745388,
+      "ci95": 581.6752165865981,
+      "samples": 5999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.0
+    },
+    "craft-placement-aoe-shoulder334_belt331-6000-26102991": {
+      "name": "craft-placement-aoe-shoulder334_belt331-6000-26102991",
+      "started_at": "2026-10-29T20:38:46.744323+08:00",
+      "ended_at": "2026-10-29T20:38:51.622662+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 712173.0929361591,
+      "ci95": 561.9795273180442,
+      "samples": 5999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.9203764861555719
+    },
+    "craft-placement-aoe-shoulder334_raidcloak-6000-26102991": {
+      "name": "craft-placement-aoe-shoulder334_raidcloak-6000-26102991",
+      "started_at": "2026-10-29T20:38:51.625962+08:00",
+      "ended_at": "2026-10-29T20:38:56.575062+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 707676.6692631649,
+      "ci95": 553.902783892733,
+      "samples": 5999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.28319884715071186
+    },
+    "craft-placement-aoe-armor334_owned-6000-26102991": {
+      "name": "craft-placement-aoe-armor334_owned-6000-26102991",
+      "started_at": "2026-10-29T20:38:56.577589+08:00",
+      "ended_at": "2026-10-29T20:39:01.622456+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 715901.9457483058,
+      "ci95": 554.4153388579383,
+      "samples": 5999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.0
+    },
+    "craft-placement-aoe-armor334_raidcloak-6000-26102991": {
+      "name": "craft-placement-aoe-armor334_raidcloak-6000-26102991",
+      "started_at": "2026-10-29T20:39:01.636073+08:00",
+      "ended_at": "2026-10-29T20:39:06.487113+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 714254.6177887054,
+      "ci95": 561.145170647859,
+      "samples": 5999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": -0.23010524966216028
+    }
+  },
+  "model": "Same user talents, consumables and native70575 engine as personal-study;6000requested5999effective seed26102991. Shoulder334/conversion is hypothetical. Other runs also assume H7legs/belt334.",
+  "additional_two_crafts": {
+    "first_new_craft": {
+      "id": 244573,
+      "name": "银月城特工的多功能腰带",
+      "target_ilvl": 331,
+      "stats": [
+        "crit",
+        "mastery"
+      ],
+      "embellishment": null,
+      "scope": "If still wearing the supplied321 waist; skip if H7 belt already acquired."
+    },
+    "second_new_craft": "No unconditional second new craft is justified by these candidates. Do not assume old tier gloves still owned; crafted legs only legal with a fourth tier item elsewhere.",
+    "owned_crafts": "331 shoes/gloves/ring/cloak/wrist already equipped in latest raw snapshot. Sufficient sparks do not raise their current armor/ring cap.",
+    "future_route": "Continue H7legs/belt334; keep cloak+wrist lining. A new full import may reveal a different second purchase."
+  },
+  "two_crafts_evidence": "two-crafts-summary.json"
+}

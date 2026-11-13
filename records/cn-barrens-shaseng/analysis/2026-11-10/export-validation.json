@@ -1,0 +1,30 @@
+[
+  {
+    "input": "current-equipped.simc",
+    "reference_candidate": "current",
+    "accepted": true,
+    "gear_identical": true,
+    "valid_fight_style": true
+  },
+  {
+    "input": "recommended-dungeon.simc",
+    "reference_candidate": "target_mh_keep_crafted_ring",
+    "accepted": true,
+    "gear_identical": true,
+    "valid_fight_style": true
+  },
+  {
+    "input": "alternate-raid-ring.simc",
+    "reference_candidate": "target_mc_sockets",
+    "accepted": true,
+    "gear_identical": true,
+    "valid_fight_style": true
+  },
+  {
+    "input": "comparison-single-target.simc",
+    "reference_candidate": "target_mh_keep_crafted_ring",
+    "accepted": true,
+    "gear_identical": true,
+    "valid_fight_style": true
+  }
+]

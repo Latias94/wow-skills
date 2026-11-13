@@ -1,0 +1,21 @@
+{
+  "name": "talents-zuljin-slice-method_mplus-baseline-3000-26102961",
+  "started_at": "2026-10-29T18:38:28.542715+08:00",
+  "ended_at": "2026-10-29T18:38:35.192969+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 314222.6616052696,
+  "ci95": 507.6427637166989,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

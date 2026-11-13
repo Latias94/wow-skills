@@ -1,0 +1,22 @@
+{
+  "name": "gear-compat341-raid-literal-current",
+  "started_at": "2026-10-26T13:17:03.634724+08:00",
+  "ended_at": "2026-10-26T13:17:11.913325+08:00",
+  "exit_code": 0,
+  "accepted": true,
+  "valid_fight_style": [
+    true
+  ],
+  "severe": [],
+  "severe_in_text": false,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

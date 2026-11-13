@@ -1,0 +1,20 @@
+# Repeated native text/progress output and Python runtime caches remain local.
+/*.run.log
+/*.txt
+/__pycache__/
+/*.py[cod]
+
+# Superseded 70529 damage screens; retain their static identity snapshots.
+/aoe-*.json
+/slice-*.json
+/st-*.json
+
+# Exploratory native 70575 runs. Final 7000/12000/10000/6000/8000 runs stay.
+/native70575-*-3000-*.json
+/native70575-*-40-*.json
+/tuning-*-3000-*.json
+/talents-*-3000-*.json
+/two-crafts-*-3500-*.json
+!/native70575-stats-*.json
+!/native70575-literal-stats-*.json
+!/*.validation.json

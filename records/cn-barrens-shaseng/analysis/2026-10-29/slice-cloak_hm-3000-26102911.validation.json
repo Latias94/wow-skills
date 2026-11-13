@@ -1,0 +1,21 @@
+{
+  "name": "slice-cloak_hm-3000-26102911",
+  "started_at": "2026-10-29T15:09:54.736850+08:00",
+  "ended_at": "2026-10-29T15:10:02.785885+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 306977.2162430485,
+  "ci95": 493.57380643034503,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

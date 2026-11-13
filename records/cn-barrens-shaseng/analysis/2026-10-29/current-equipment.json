@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "source": "native70575-stats-current-40-26102901.json",
+  "gear": {
+    "head": {
+      "name": "monkey_kings_unyielding_visage",
+      "encoded_item": "monkey_kings_unyielding_visage,id=271519,bonus_id=1587/6652/12854/13334/13692/13696/13698/13847,enchant_id=8017,redirected_base_stats=271875",
+      "ilevel": 334,
+      "agiint": 189,
+      "haste_rating": 201,
+      "stamina": 3910
+    },
+    "neck": {
+      "name": "aqirbane_reliquary",
+      "encoded_item": "aqirbane_reliquary,id=268265,bonus_id=6652/12856/13334/13668/13987,gem_id=240983/240892",
+      "ilevel": 341,
+      "crit_rating": 105,
+      "haste_rating": 105,
+      "mastery_rating": 105,
+      "stamina": 2382,
+      "versatility_rating": 105
+    },
+    "shoulders": {
+      "name": "tassels_of_the_monkey_king",
+      "encoded_item": "tassels_of_the_monkey_king,id=271517,bonus_id=1574/6652/12846/13440/13694/13697,enchant_id=8001,redirected_base_stats=251146",
+      "ilevel": 321,
+      "agiint": 125,
+      "crit_rating": 59,
+      "stamina": 2527,
+      "versatility_rating": 84
+    },
+    "chest": {
+      "name": "battle_gi_of_the_monkey_king",
+      "encoded_item": "battle_gi_of_the_monkey_king,id=271522,bonus_id=6652/12854/13334/13690/13698/14049,enchant_id=7987,redirected_base_stats=281236",
+      "ilevel": 334,
+      "agiint": 189,
+      "crit_rating": 58,
+      "haste_rating": 143,
+      "stamina": 3910
+    },
+    "waist": {
+      "name": "agile_cord_of_the_monkey_king",
+      "encoded_item": "agile_cord_of_the_monkey_king,id=271516,bonus_id=1574/6652/12846/13334/13696,crafted_stats=36/49,redirected_base_stats=271436",
+      "ilevel": 321,
+      "agiint": 125,
+      "haste_rating": 98,
+      "mastery_rating": 45,
+      "stamina": 2527
+    },
+    "legs": {
+      "name": "pantaloons_of_the_monkey_king",
+      "encoded_item": "pantaloons_of_the_monkey_king,id=271518,bonus_id=6652/12846/13440/13693/13698,enchant_id=8159,redirected_base_stats=251130",
+      "ilevel": 321,
+      "agiint": 167,
+      "crit_rating": 112,
+      "mastery_rating": 79,
+      "stamina": 3369
+    },
+    "feet": {
+      "name": "silvermoon_agents_sneakers",
+      "encoded_item": "silvermoon_agents_sneakers,id=244569,bonus_id=8791/12214/13667/13751/13836/14001/12497,enchant_id=7963",
+      "ilevel": 331,
+      "agiint": 138,
+      "crit_rating": 74,
+      "mastery_rating": 74,
+      "stamina": 2832
+    },
+    "wrists": {
+      "name": "silvermoon_agents_deflectors",
+      "encoded_item": "silvermoon_agents_deflectors,id=244576,bonus_id=8791/8960/12214/12384/13667/13696/13751/13836/14001/12497",
+      "ilevel": 331,
+      "agiint": 103,
+      "crit_rating": 56,
+      "mastery_rating": 56,
+      "stamina": 2124
+    },
+    "hands": {
+      "name": "silvermoon_agents_handwraps",
+      "encoded_item": "silvermoon_agents_handwraps,id=244575,bonus_id=8793/12214/13667/13751/13836/14001/12497",
+      "ilevel": 331,
+      "agiint": 138,
+      "haste_rating": 74,
+      "mastery_rating": 74,
+      "stamina": 2832
+    },
+    "finger1": {
+      "name": "band_of_the_swarmcaller",
+      "encoded_item": "band_of_the_swarmcaller,id=281029,bonus_id=6652/12854/13334/13668,gem_id=240908,enchant_id=7967",
+      "ilevel": 334,
+      "haste_rating": 110,
+      "mastery_rating": 295,
+      "stamina": 2199
+    },
+    "finger2": {
+      "name": "masterwork_sindorei_band",
+      "encoded_item": "masterwork_sindorei_band,id=240949,bonus_id=8791/12214/13667/13751/13836/14001/12497,gem_id=240908,enchant_id=7967",
+      "ilevel": 331,
+      "crit_rating": 199,
+      "mastery_rating": 199,
+      "stamina": 2124
+    },
+    "trinket1": {
+      "name": "voracious_heart_of_ulatek",
+      "encoded_item": "voracious_heart_of_ulatek,id=270175,bonus_id=6652/12856/13334",
+      "ilevel": 341,
+      "crit_rating": 148
+    },
+    "trinket2": {
+      "name": "zuljins_guillotine_technique",
+      "encoded_item": "zuljins_guillotine_technique,id=270173,bonus_id=6652/12856/13334",
+      "ilevel": 341,
+      "stragi": 191
+    },
+    "back": {
+      "name": "adherents_silken_shroud",
+      "encoded_item": "adherents_silken_shroud,id=239656,bonus_id=8790/8960/12214/12384/13667/13751/13836/14001/12497",
+      "ilevel": 331,
+      "crit_rating": 56,
+      "haste_rating": 56,
+      "stamina": 2124,
+      "stragiint": 103
+    },
+    "main_hand": {
+      "name": "abyssal_broodfiends_bardiche",
+      "encoded_item": "abyssal_broodfiends_bardiche,id=268215,bonus_id=6652/12856/13334/13846,enchant_id=8689",
+      "ilevel": 341,
+      "agility": 201,
+      "mastery_rating": 207,
+      "stamina": 4235
+    }
+  },
+  "unbuffed_snapshot": {
+    "attribute": {
+      "strength": 267.0,
+      "agility": 2530.0,
+      "stamina": 44146.0,
+      "intellect": 620.0
+    },
+    "resources": {
+      "energy": 150.0,
+      "chi": 6.0
+    },
+    "stats": {
+      "attack_power": 2530.0,
+      "spell_crit": 0.33543478260869564,
+      "attack_crit": 0.33543478260869564,
+      "spell_haste": 0.8456659619450316,
+      "attack_haste": 0.8456659619450316,
+      "spell_cast_speed": 0.8456659619450316,
+      "auto_attack_speed": 0.8456659619450316,
+      "mastery_value": 0.77101875,
+      "damage_versatility": 0.035,
+      "heal_versatility": 0.035,
+      "mitigation_versatility": 0.0175,
+      "crit_rating": 899.0,
+      "crit_pct": 0.33543478260869564,
+      "haste_rating": 803.0,
+      "haste_pct": 0.1825000000000001,
+      "mastery_rating": 1155.0,
+      "mastery_pct": 0.77101875,
+      "versatility_rating": 189.0,
+      "versatility_pct": 0.035,
+      "avoidance_rating": 167.0,
+      "avoidance_pct": 0.04537978699848076,
+      "speed_pct": 7.0,
+      "armor": 1125.0,
+      "dodge": 0.14818893170949016,
+      "parry": 0.03
+    }
+  },
+  "precursor_evidence": "User confirmation plus October23 matching equipped precursor continuity; not a new full-addon export."
+}

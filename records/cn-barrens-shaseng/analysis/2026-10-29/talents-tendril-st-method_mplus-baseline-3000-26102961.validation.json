@@ -1,0 +1,21 @@
+{
+  "name": "talents-tendril-st-method_mplus-baseline-3000-26102961",
+  "started_at": "2026-10-29T18:39:03.754810+08:00",
+  "ended_at": "2026-10-29T18:39:07.245904+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 183634.23292537653,
+  "ci95": 177.87127977804406,
+  "samples": 2999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

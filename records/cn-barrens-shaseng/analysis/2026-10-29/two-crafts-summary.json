@@ -1,0 +1,540 @@
+{
+  "updated_at": "2026-10-29T20:58:59.313519+08:00",
+  "user_constraint": "Two additional crafts affordable; sufficient sparks, exact balance not provided.",
+  "recommendation": {
+    "first_new_craft": {
+      "id": 244573,
+      "name": "银月城特工的多功能腰带",
+      "target_ilvl": 331,
+      "stats": [
+        "crit",
+        "mastery"
+      ],
+      "embellishment": null,
+      "scope": "If still wearing the supplied321 waist; skip if H7 belt already acquired."
+    },
+    "second_new_craft": "No unconditional second new craft is justified by these candidates. Do not assume old tier gloves still owned; crafted legs only legal with a fourth tier item elsewhere.",
+    "owned_crafts": "331 shoes/gloves/ring/cloak/wrist already equipped in latest raw snapshot. Sufficient sparks do not raise their current armor/ring cap.",
+    "future_route": "Continue H7legs/belt334; keep cloak+wrist lining. A new full import may reveal a different second purchase."
+  },
+  "assumptions": [
+    "Redeemed shoulder modeled as catalyzed334 for controlled comparisons; actual current rank and conversion still unknown.",
+    "User original talents fixed; no assumed adoption of proposed short-cooldown build.",
+    "Old321 tier gloves taken from10/26 historical equipped input, modeled conditionally, not current bag inventory.",
+    "Loa ring331 proc verified active; cloak lining removed and wrist retained, giving ring+lining=two embellishments.",
+    "Both ordinary new crafts stop331 in this model; no armor ascension to337 assumed."
+  ],
+  "measurements": {
+    "two-crafts-user-slice-baseline-3500-261029101": {
+      "name": "two-crafts-user-slice-baseline-3500-261029101",
+      "started_at": "2026-10-29T20:50:34.948950+08:00",
+      "ended_at": "2026-10-29T20:50:42.488322+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 307436.1319878306,
+      "ci95": 469.9511417334719,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.0,
+      "stage": "screen"
+    },
+    "two-crafts-user-slice-belt_cm-3500-261029101": {
+      "name": "two-crafts-user-slice-belt_cm-3500-261029101",
+      "started_at": "2026-10-29T20:50:45.321995+08:00",
+      "ended_at": "2026-10-29T20:50:53.104445+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 310236.2040580833,
+      "ci95": 482.58956870806514,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.9107817133099827,
+      "stage": "screen"
+    },
+    "two-crafts-user-slice-belt_hm-3500-261029101": {
+      "name": "two-crafts-user-slice-belt_hm-3500-261029101",
+      "started_at": "2026-10-29T20:50:55.995499+08:00",
+      "ended_at": "2026-10-29T20:51:03.965570+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 309607.08698908886,
+      "ci95": 468.9140185482621,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.7061482940281527,
+      "stage": "screen"
+    },
+    "two-crafts-user-slice-belt_legs_cm_oldhands-3500-261029101": {
+      "name": "two-crafts-user-slice-belt_legs_cm_oldhands-3500-261029101",
+      "started_at": "2026-10-29T20:51:06.895258+08:00",
+      "ended_at": "2026-10-29T20:51:14.641234+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 309733.6608308165,
+      "ci95": 478.7500190996079,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.7473190701855481,
+      "stage": "screen"
+    },
+    "two-crafts-user-slice-belt_legs_hm_gloves334-3500-261029101": {
+      "name": "two-crafts-user-slice-belt_legs_hm_gloves334-3500-261029101",
+      "started_at": "2026-10-29T20:51:39.780001+08:00",
+      "ended_at": "2026-10-29T20:51:47.891059+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 310031.06486351776,
+      "ci95": 466.7440327543868,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.8440559211140064,
+      "stage": "screen"
+    },
+    "two-crafts-user-slice-belt_legs_hm_oldhands-3500-261029101": {
+      "name": "two-crafts-user-slice-belt_legs_hm_oldhands-3500-261029101",
+      "started_at": "2026-10-29T20:51:17.697577+08:00",
+      "ended_at": "2026-10-29T20:51:25.633268+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 307942.2578753096,
+      "ci95": 478.1570125993521,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.16462797791738648,
+      "stage": "screen"
+    },
+    "two-crafts-user-slice-belt_loa-3500-261029101": {
+      "name": "two-crafts-user-slice-belt_loa-3500-261029101",
+      "started_at": "2026-10-29T20:51:28.553379+08:00",
+      "ended_at": "2026-10-29T20:51:36.764575+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 309561.995591573,
+      "ci95": 470.6985159670972,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.6914813785864782,
+      "stage": "screen"
+    },
+    "two-crafts-user-aoe-baseline-3500-261029101": {
+      "name": "two-crafts-user-aoe-baseline-3500-261029101",
+      "started_at": "2026-10-29T20:50:42.491843+08:00",
+      "ended_at": "2026-10-29T20:50:45.317903+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 706181.8752676814,
+      "ci95": 754.1689150534478,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.0,
+      "stage": "screen"
+    },
+    "two-crafts-user-aoe-belt_cm-3500-261029101": {
+      "name": "two-crafts-user-aoe-belt_cm-3500-261029101",
+      "started_at": "2026-10-29T20:50:53.108008+08:00",
+      "ended_at": "2026-10-29T20:50:55.992977+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 713437.6749179461,
+      "ci95": 732.3996437922084,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 1.027468971433776,
+      "stage": "screen"
+    },
+    "two-crafts-user-aoe-belt_hm-3500-261029101": {
+      "name": "two-crafts-user-aoe-belt_hm-3500-261029101",
+      "started_at": "2026-10-29T20:51:03.968672+08:00",
+      "ended_at": "2026-10-29T20:51:06.890549+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 711190.0023321607,
+      "ci95": 718.8292780456275,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.7091837442841475,
+      "stage": "screen"
+    },
+    "two-crafts-user-aoe-belt_legs_cm_oldhands-3500-261029101": {
+      "name": "two-crafts-user-aoe-belt_legs_cm_oldhands-3500-261029101",
+      "started_at": "2026-10-29T20:51:14.644788+08:00",
+      "ended_at": "2026-10-29T20:51:17.692993+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 710554.3806480634,
+      "ci95": 745.3679680163516,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.6191755316184766,
+      "stage": "screen"
+    },
+    "two-crafts-user-aoe-belt_legs_hm_gloves334-3500-261029101": {
+      "name": "two-crafts-user-aoe-belt_legs_hm_gloves334-3500-261029101",
+      "started_at": "2026-10-29T20:51:47.894099+08:00",
+      "ended_at": "2026-10-29T20:51:50.874457+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 709301.2759039543,
+      "ci95": 763.4211693341759,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.44172765480428033,
+      "stage": "screen"
+    },
+    "two-crafts-user-aoe-belt_legs_hm_oldhands-3500-261029101": {
+      "name": "two-crafts-user-aoe-belt_legs_hm_oldhands-3500-261029101",
+      "started_at": "2026-10-29T20:51:25.636486+08:00",
+      "ended_at": "2026-10-29T20:51:28.551370+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 706564.4057272045,
+      "ci95": 743.3836027646927,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.05416883000262107,
+      "stage": "screen"
+    },
+    "two-crafts-user-aoe-belt_loa-3500-261029101": {
+      "name": "two-crafts-user-aoe-belt_loa-3500-261029101",
+      "started_at": "2026-10-29T20:51:36.769357+08:00",
+      "ended_at": "2026-10-29T20:51:39.775772+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 712519.0830857325,
+      "ci95": 724.0982726670803,
+      "samples": 3499,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.8973903239372971,
+      "stage": "screen"
+    },
+    "two-crafts-user-slice-baseline-8000-261029111": {
+      "name": "two-crafts-user-slice-baseline-8000-261029111",
+      "started_at": "2026-10-29T20:55:51.137685+08:00",
+      "ended_at": "2026-10-29T20:56:07.665227+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 307688.0821885139,
+      "ci95": 309.5806815074521,
+      "samples": 7999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.0,
+      "stage": "verify"
+    },
+    "two-crafts-user-slice-belt_cm-8000-261029111": {
+      "name": "two-crafts-user-slice-belt_cm-8000-261029111",
+      "started_at": "2026-10-29T20:56:13.430316+08:00",
+      "ended_at": "2026-10-29T20:56:30.418814+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 310598.2480275438,
+      "ci95": 313.79326533852776,
+      "samples": 7999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.9458168864814764,
+      "stage": "verify"
+    },
+    "two-crafts-user-slice-belt_hm-8000-261029111": {
+      "name": "two-crafts-user-slice-belt_hm-8000-261029111",
+      "started_at": "2026-10-29T20:56:36.281422+08:00",
+      "ended_at": "2026-10-29T20:56:53.353185+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 309731.1576870643,
+      "ci95": 312.2548943585084,
+      "samples": 7999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.6640086557849534,
+      "stage": "verify"
+    },
+    "two-crafts-user-slice-belt_legs_cm_oldhands-8000-261029111": {
+      "name": "two-crafts-user-slice-belt_legs_cm_oldhands-8000-261029111",
+      "started_at": "2026-10-29T20:56:59.441764+08:00",
+      "ended_at": "2026-10-29T20:57:16.951758+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 309405.1461657879,
+      "ci95": 309.4882315611309,
+      "samples": 7999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.55805345629929,
+      "stage": "verify"
+    },
+    "two-crafts-user-aoe-baseline-8000-261029111": {
+      "name": "two-crafts-user-aoe-baseline-8000-261029111",
+      "started_at": "2026-10-29T20:56:07.667535+08:00",
+      "ended_at": "2026-10-29T20:56:13.427805+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 706640.0901896757,
+      "ci95": 493.033824678028,
+      "samples": 7999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.0,
+      "stage": "verify"
+    },
+    "two-crafts-user-aoe-belt_cm-8000-261029111": {
+      "name": "two-crafts-user-aoe-belt_cm-8000-261029111",
+      "started_at": "2026-10-29T20:56:30.423917+08:00",
+      "ended_at": "2026-10-29T20:56:36.278899+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 713119.9386152908,
+      "ci95": 486.1698352775521,
+      "samples": 7999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.9169941693905059,
+      "stage": "verify"
+    },
+    "two-crafts-user-aoe-belt_hm-8000-261029111": {
+      "name": "two-crafts-user-aoe-belt_hm-8000-261029111",
+      "started_at": "2026-10-29T20:56:53.355698+08:00",
+      "ended_at": "2026-10-29T20:56:59.440037+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 711344.7626059382,
+      "ci95": 488.1531967721491,
+      "samples": 7999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.665780569426766,
+      "stage": "verify"
+    },
+    "two-crafts-user-aoe-belt_legs_cm_oldhands-8000-261029111": {
+      "name": "two-crafts-user-aoe-belt_legs_cm_oldhands-8000-261029111",
+      "started_at": "2026-10-29T20:57:16.956775+08:00",
+      "ended_at": "2026-10-29T20:57:22.986523+08:00",
+      "accepted": true,
+      "exit_code": 0,
+      "valid_fight_style": true,
+      "dps": 711268.6094178148,
+      "ci95": 482.65713661272554,
+      "samples": 7999,
+      "logs": [
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+        },
+        {
+          "level": "implementation_not_yet_verified",
+          "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+        }
+      ],
+      "delta": 0.6550037695846944,
+      "stage": "verify"
+    }
+  },
+  "sources": [
+    "https://www.method.gg/guides/windwalker-monk/gearing",
+    "https://www.wowhead.com/guide/midnight/matrix-catalyst-crafting-tier-set",
+    "two-crafts-tooltips.json"
+  ]
+}

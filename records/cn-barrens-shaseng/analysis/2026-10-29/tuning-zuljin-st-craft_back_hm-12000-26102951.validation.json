@@ -1,0 +1,21 @@
+{
+  "name": "tuning-zuljin-st-craft_back_hm-12000-26102951",
+  "started_at": "2026-10-29T17:56:41.842098+08:00",
+  "ended_at": "2026-10-29T17:57:17.180773+08:00",
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "dps": 180661.5866925022,
+  "ci95": 88.49237077061167,
+  "samples": 11999,
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Battle Gi of the Monkey King: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}
