@@ -1,0 +1,3678 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "as_of": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "completed_at": "2026-11-13T05:37:24.588Z",
+  "target": {
+    "record_id": "cn-argus-zhengjitu",
+    "name": "正极兔",
+    "region": "CN",
+    "realm": "Argus",
+    "specialization": "Elemental Shaman",
+    "hero_tree": "Farseer",
+    "hero_tree_status": "Confirmed by user/main thread in this session, not inferred from the 2026-10-23 record",
+    "hero_confirmation_user_report": [
+      "70783 native smoke contains ancestor pet",
+      "call_of_the_ancestors",
+      "ancestral_swiftness"
+    ],
+    "remote_head_user_report": {
+      "commit": "de11f57",
+      "date": "2026-11-08",
+      "independently_checked": false
+    },
+    "unbuffed_secondary_percent_user_report": {
+      "critical_strike": 24.24,
+      "haste": 24.02,
+      "mastery": 62.08,
+      "versatility": 2.24
+    },
+    "secondary_ratings_user_report": null,
+    "tier_pieces_user_report": 5,
+    "single_non_tier_replacement_can_preserve_four_piece_user_report": true
+  },
+  "version_context": {
+    "requested_patch": "12.1.5",
+    "requested_build": 70783,
+    "murlok_displayed_patch": "12.1",
+    "author_guides_displayed_patch": "12.1.5",
+    "exact_build_confirmed_by_sources": false,
+    "china_hotfix_equivalence_confirmed": false
+  },
+  "constraints": {
+    "primary_content": "Mythic+",
+    "acquisition": "Heroic raid plus Heroic bonus rolls, M+ / Great Vault, and crafting comparisons",
+    "exclude": [
+      "Mythic raid bosses 7/8 9/6 versions"
+    ],
+    "simulations_executed": false,
+    "character_profile_modified": false,
+    "bonus_roll_pool_and_kindo_jan_research": "Delegated elsewhere by user; no pool reconstruction here",
+    "authorized_output_files": [
+      "records/cn-argus-zhengjitu/analysis/2026-11-13/elite-evidence.json",
+      "records/cn-argus-zhengjitu/analysis/2026-11-13/elite-sources.md"
+    ]
+  },
+  "methodology": {
+    "snapshot_policy": "Use retained direct-HTTP Murlok snapshots, not mixed later web index rankings. Filtered Farseer and overall have the same 50 members.",
+    "time_semantics": "UTC ISO timestamps; direct-HTTPS retrieved_at is request-start time. Browser retrieved_at is DOM extraction time or fetch request-start time.",
+    "sample_unit": "Unique current character PvE API gear snapshot ranked by M+ score; not damage logs, not necessarily gear used in the best run.",
+    "population_warning": "Do not compute 50/(50+8) as global hero-tree share. The two pages are separately filtered capped samples.",
+    "percent_denominator": "Each item count divided by number of characters; dual-slot categories may sum to 200%.",
+    "omissions": "Website limits visible gear rows in some slots. Coverage is retained per slot; do not assign zero to an absent item in an incomplete category.",
+    "stats_warning": "Murlok percentages are rounded integers; buff state and rounding method are not established. Do not convert percentages to ratings or treat page optimal stats as a target/cap.",
+    "tier_warning": "Displayed tier item ID/name does not establish original item, inherited stats, cantrip, item level, upgrade track or bonus IDs.",
+    "craft_warning": "Explicit Craft badges plus individually shown embellishment hosts establish the documented crafting rows. Missing badges are not proof of non-crafted origin.",
+    "availability_warning": "Top-player observed versions can exceed the user acquisition ceiling. Candidate IDs must be rebuilt with legal H+R+/M+/Vault/craft bonuses; no 9/6 copied."
+  },
+  "sources": [
+    {
+      "source_id": "all",
+      "url": "https://murlok.io/shaman/elemental/m+",
+      "retrieved_at": "2026-11-13T05:24:46.608Z",
+      "http_date": "Fri, 13 Nov 2026 05:24:46 GMT",
+      "http_status": 200,
+      "transport": "direct_https_fetch",
+      "sha256": "2704773529915d9d8a8f0c5598878862de684e0222df64f002bae988d7a52ede",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "overall_elemental_top50",
+      "publication_date": null
+    },
+    {
+      "source_id": "farseer",
+      "url": "https://murlok.io/shaman/elemental/farseer/m+",
+      "retrieved_at": "2026-11-13T05:25:03.814Z",
+      "http_date": "Fri, 13 Nov 2026 05:25:04 GMT",
+      "http_status": 200,
+      "transport": "direct_https_fetch",
+      "sha256": "8cabf9d26e62b01e53a29dd3d8f4e899f7c209cae873e67753cf6c0afb261f6a",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "farseer_top50",
+      "publication_date": null
+    },
+    {
+      "source_id": "stormbringer",
+      "url": "https://murlok.io/shaman/elemental/stormbringer/m+",
+      "retrieved_at": "2026-11-13T05:25:03.819Z",
+      "http_date": "Fri, 13 Nov 2026 05:25:04 GMT",
+      "http_status": 200,
+      "transport": "direct_https_fetch",
+      "sha256": "4a08496ca0033f0009772b19b7b8448269919e11f6ba8d9fc1f3f7cc9bc54d6d",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "stormbringer_8",
+      "publication_date": null
+    },
+    {
+      "source_id": "far1",
+      "url": "https://murlok.io/character/eu/twisting-nether/sjelemental/pve",
+      "retrieved_at": "2026-11-13T05:25:21.482Z",
+      "http_date": "Fri, 13 Nov 2026 05:25:21 GMT",
+      "http_status": 200,
+      "transport": "direct_https_fetch",
+      "sha256": "6c77a1204f466faf932a2889fc0e5dc2a37184a4fe084c7d2ce1bcb95041df61",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "one_character_current_pve_api_snapshot",
+      "publication_date": null
+    },
+    {
+      "source_id": "far2",
+      "url": "https://murlok.io/character/eu/kazzak/freaksh/pve",
+      "retrieved_at": "2026-11-13T05:25:21.484Z",
+      "http_date": "Fri, 13 Nov 2026 05:25:21 GMT",
+      "http_status": 200,
+      "transport": "direct_https_fetch",
+      "sha256": "5531c841d8113211387f1ff883d76db618cc4e71b96af92c3775228d39213a59",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "one_character_current_pve_api_snapshot",
+      "publication_date": null
+    },
+    {
+      "source_id": "far3",
+      "url": "https://murlok.io/character/eu/tarren-mill/hearthjacke/pve",
+      "retrieved_at": "2026-11-13T05:25:21.484Z",
+      "http_date": "Fri, 13 Nov 2026 05:25:22 GMT",
+      "http_status": 200,
+      "transport": "direct_https_fetch",
+      "sha256": "6fb654808cc770646d546e5a86f088fb344185b12a298183164a1f9cbc916f6b",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "one_character_current_pve_api_snapshot",
+      "publication_date": null
+    },
+    {
+      "source_id": "far4",
+      "url": "https://murlok.io/character/us/illidan/bondd/pve",
+      "retrieved_at": "2026-11-13T05:25:21.485Z",
+      "http_date": "Fri, 13 Nov 2026 05:25:21 GMT",
+      "http_status": 200,
+      "transport": "direct_https_fetch",
+      "sha256": "c0adef02c6577dcec480833fcf3256695671d1577aad2566c2c0d88b6171947d",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "one_character_current_pve_api_snapshot",
+      "publication_date": null
+    },
+    {
+      "source_id": "far5",
+      "url": "https://murlok.io/character/eu/tarren-mill/stoveteacher/pve",
+      "retrieved_at": "2026-11-13T05:25:21.485Z",
+      "http_date": "Fri, 13 Nov 2026 05:25:21 GMT",
+      "http_status": 200,
+      "transport": "direct_https_fetch",
+      "sha256": "564a68eb7daed8cbb17692fdc8f283bdf2b41d6dc7722fe3caa6d8391aadb0b8",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "one_character_current_pve_api_snapshot",
+      "publication_date": null
+    },
+    {
+      "source_id": "methodgear",
+      "url": "https://www.method.gg/guides/elemental-shaman/gearing",
+      "retrieved_at": "2026-11-13T05:24:46.635Z",
+      "http_date": "Fri, 13 Nov 2026 05:24:46 GMT",
+      "http_status": 200,
+      "transport": "direct_https_fetch",
+      "sha256": "918f511ae5bfe4064d5f08d13f37f2358456ee65c90fb46572c09c7c0d2ef980",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "author_guide",
+      "publication_date": "2026-10-14"
+    },
+    {
+      "source_id": "methodstats",
+      "url": "https://www.method.gg/guides/elemental-shaman/stats-races-and-consumables",
+      "retrieved_at": "2026-11-13T05:24:46.636Z",
+      "http_date": "Fri, 13 Nov 2026 05:24:47 GMT",
+      "http_status": 200,
+      "transport": "direct_https_fetch",
+      "sha256": "576f20e6827ac76f78801c97c55ad7b63d4841e4d07d11aa97ae30bcd50fc92e",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "author_guide",
+      "publication_date": "2026-10-14"
+    },
+    {
+      "source_id": "liveIcyGear",
+      "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot",
+      "retrieved_at": "2026-11-13T05:28:50.552Z",
+      "http_date": null,
+      "http_status": null,
+      "transport": "dedicated_disposable_headless_browser",
+      "sha256": "d1e545ac4195de15952fcda8d6e9607b7b422ac5e355b303601984b01ec14649",
+      "sha256_basis": "extracted_visible_text",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "author_guide",
+      "publication_date": "2026-10-12"
+    },
+    {
+      "source_id": "liveIcyStats",
+      "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-stat-priority",
+      "retrieved_at": "2026-11-13T05:28:50.599Z",
+      "http_date": "Fri, 13 Nov 2026 05:28:50 GMT",
+      "http_status": 200,
+      "transport": "dedicated_disposable_headless_browser",
+      "sha256": "33b6b6a253d1cb67e5601a71c79aa48ad03d740a47c196911f08781c3f1b2bb8",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "author_guide",
+      "publication_date": "2026-10-12"
+    },
+    {
+      "source_id": "liveWowheadGear",
+      "url": "https://www.wowhead.com/guide/classes/shaman/elemental/bis-gear",
+      "retrieved_at": "2026-11-13T05:27:56.166Z",
+      "http_date": null,
+      "http_status": null,
+      "transport": "dedicated_disposable_headless_browser",
+      "sha256": "1e5a9160f0c8afec0c136e7a56fdc45a53163ea53cbf920f2b1a81e818800a35",
+      "sha256_basis": "extracted_visible_text",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "author_guide",
+      "publication_date": "2026-10-13"
+    },
+    {
+      "source_id": "liveWowheadStats",
+      "url": "https://www.wowhead.com/guide/classes/shaman/elemental/stat-priority-pve-dps",
+      "retrieved_at": "2026-11-13T05:28:15.805Z",
+      "http_date": "Fri, 13 Nov 2026 05:27:56 GMT",
+      "http_status": 200,
+      "transport": "dedicated_disposable_headless_browser",
+      "sha256": "dbe55a7a97e9a8a6265830fa302b0e252d1a26f7f4e8c00aa61b83a00bca06b1",
+      "sha256_basis": "http_response_body",
+      "snapshot_clock": "UTC",
+      "snapshot_scope": "author_guide",
+      "publication_date": "2026-10-13"
+    },
+    {
+      "source_id": "wowheadVexhul",
+      "url": "https://www.wowhead.com/item=270170/vexhuls-everflowing-gland",
+      "retrieved_at": "2026-11-13T05:31:58Z",
+      "retrieval_completed_at": "2026-11-13T05:32:01Z",
+      "transport": "web_browse",
+      "http_status": null,
+      "snapshot_scope": "item identity, unscaled tooltip mechanics and drop label",
+      "crawl_freshness": "cached crawl; tool returned 3 days ago on this retrieval; not an independently fresh live game-data query"
+    },
+    {
+      "source_id": "wowheadFreight",
+      "url": "https://www.wowhead.com/item=250215/freightrunners-flask",
+      "retrieved_at": "2026-11-13T05:31:58Z",
+      "retrieval_completed_at": "2026-11-13T05:32:01Z",
+      "transport": "web_browse",
+      "http_status": null,
+      "snapshot_scope": "item identity, unscaled tooltip mechanics and drop label",
+      "crawl_freshness": "tool returned crawled today"
+    }
+  ],
+  "murlok": {
+    "overall": {
+      "source_id": "all",
+      "characters": 50,
+      "hero_tree_counts": {
+        "Farseer": 50
+      },
+      "regions": {
+        "EU": 38,
+        "US": 9,
+        "TW": 3
+      },
+      "china_included": false,
+      "same_members_as_farseer": true,
+      "score_range": [
+        4180,
+        4390
+      ]
+    },
+    "farseer": {
+      "source_id": "farseer",
+      "characters": 50,
+      "regions_in_scope": [
+        "US",
+        "EU",
+        "KR",
+        "TW"
+      ],
+      "china_included": false,
+      "displayed_patch": "12.1",
+      "season": "Midnight Season 2",
+      "freshness_display": "3 hours ago",
+      "score_range": [
+        4180,
+        4390
+      ],
+      "heroes": {
+        "Farseer": 50
+      },
+      "region_counts": {
+        "EU": 38,
+        "US": 9,
+        "TW": 3
+      },
+      "displayed_secondary_stats": [
+        {
+          "stat": "Critical Strike",
+          "percent": 25,
+          "rating": 927
+        },
+        {
+          "stat": "Haste",
+          "percent": 22,
+          "rating": 795
+        },
+        {
+          "stat": "Mastery",
+          "percent": 66,
+          "rating": 1105
+        },
+        {
+          "stat": "Versatility",
+          "percent": 3,
+          "rating": 168
+        }
+      ],
+      "displayed_stat_priority": [
+        "Mastery",
+        "Critical Strike",
+        "Haste",
+        "Versatility"
+      ],
+      "gear_distribution": [
+        {
+          "slot": "Head",
+          "rows": [
+            {
+              "item_id": 271483,
+              "name": "Serpent Crown of the Ophidian Oracle",
+              "displayed_count": 49,
+              "site_marks_crafted": false,
+              "site_marks_tier": true,
+              "raw_label": "Set 49",
+              "character_share_percent": 98
+            },
+            {
+              "item_id": 268230,
+              "name": "Crown of the Eternal Fang",
+              "displayed_count": 1,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "1",
+              "character_share_percent": 2
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 50
+        },
+        {
+          "slot": "Neck",
+          "rows": [
+            {
+              "item_id": 268265,
+              "name": "Aqirbane Reliquary",
+              "displayed_count": 50,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "50",
+              "character_share_percent": 100
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 50
+        },
+        {
+          "slot": "Shoulders",
+          "rows": [
+            {
+              "item_id": 271481,
+              "name": "Hissing Mantle of the Ophidian Oracle",
+              "displayed_count": 46,
+              "site_marks_crafted": false,
+              "site_marks_tier": true,
+              "raw_label": "Set 46",
+              "character_share_percent": 92
+            },
+            {
+              "item_id": 244580,
+              "name": "Farstrider's Brilliant Plumes",
+              "displayed_count": 2,
+              "site_marks_crafted": true,
+              "site_marks_tier": false,
+              "raw_label": "Craft 2",
+              "character_share_percent": 4
+            },
+            {
+              "item_id": 268231,
+              "name": "Soulslither Spaulders",
+              "displayed_count": 2,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "2",
+              "character_share_percent": 4
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 50
+        },
+        {
+          "slot": "Back",
+          "rows": [
+            {
+              "item_id": 239656,
+              "name": "Adherent's Silken Shroud",
+              "displayed_count": 18,
+              "site_marks_crafted": true,
+              "site_marks_tier": false,
+              "raw_label": "Craft 18",
+              "character_share_percent": 36
+            },
+            {
+              "item_id": 268253,
+              "name": "Silken Voodoo Drape",
+              "displayed_count": 18,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "18",
+              "character_share_percent": 36
+            },
+            {
+              "item_id": 271478,
+              "name": "Ritual Drape of the Ophidian Oracle",
+              "displayed_count": 7,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "7",
+              "character_share_percent": 14
+            },
+            {
+              "item_id": 272230,
+              "name": "Pledgebearer's Pall",
+              "displayed_count": 4,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "4",
+              "character_share_percent": 8
+            },
+            {
+              "item_id": 268248,
+              "name": "Amani Summoning Shawl",
+              "displayed_count": 1,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "1",
+              "character_share_percent": 2
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 48
+        },
+        {
+          "slot": "Chest",
+          "rows": [
+            {
+              "item_id": 271486,
+              "name": "Fanged Raiment of the Ophidian Oracle",
+              "displayed_count": 49,
+              "site_marks_crafted": false,
+              "site_marks_tier": true,
+              "raw_label": "Set 49",
+              "character_share_percent": 98
+            },
+            {
+              "item_id": 271876,
+              "name": "Awoken Dreadfang Cuirass",
+              "displayed_count": 1,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "1",
+              "character_share_percent": 2
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 50
+        },
+        {
+          "slot": "Wrist",
+          "rows": [
+            {
+              "item_id": 244584,
+              "name": "Farstrider's Plated Bracers",
+              "displayed_count": 40,
+              "site_marks_crafted": true,
+              "site_marks_tier": false,
+              "raw_label": "Craft 40",
+              "character_share_percent": 80
+            },
+            {
+              "item_id": 268217,
+              "name": "Rising Tide Wristguards",
+              "displayed_count": 9,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "9",
+              "character_share_percent": 18
+            },
+            {
+              "item_id": 271479,
+              "name": "Wristbands of the Ophidian Oracle",
+              "displayed_count": 1,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "1",
+              "character_share_percent": 2
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 50
+        },
+        {
+          "slot": "Hands",
+          "rows": [
+            {
+              "item_id": 271484,
+              "name": "Hexing Grips of the Ophidian Oracle",
+              "displayed_count": 47,
+              "site_marks_crafted": false,
+              "site_marks_tier": true,
+              "raw_label": "Set 47",
+              "character_share_percent": 94
+            },
+            {
+              "item_id": 281238,
+              "name": "Aberrant Commander's Gauntlets",
+              "displayed_count": 3,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "3",
+              "character_share_percent": 6
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 50
+        },
+        {
+          "slot": "Waist",
+          "rows": [
+            {
+              "item_id": 244581,
+              "name": "Farstrider's Trophy Belt",
+              "displayed_count": 23,
+              "site_marks_crafted": true,
+              "site_marks_tier": false,
+              "raw_label": "Craft 23",
+              "character_share_percent": 46
+            },
+            {
+              "item_id": 268254,
+              "name": "Serpentine Mixing Belt",
+              "displayed_count": 16,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "16",
+              "character_share_percent": 32
+            },
+            {
+              "item_id": 271480,
+              "name": "Venomous Belt of the Ophidian Oracle",
+              "displayed_count": 5,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "5",
+              "character_share_percent": 10
+            },
+            {
+              "item_id": 268216,
+              "name": "Cursed Reliquary Cincture",
+              "displayed_count": 4,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "4",
+              "character_share_percent": 8
+            },
+            {
+              "item_id": 251228,
+              "name": "Behemoth Waistband",
+              "displayed_count": 1,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "1",
+              "character_share_percent": 2
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 49
+        },
+        {
+          "slot": "Legs",
+          "rows": [
+            {
+              "item_id": 271482,
+              "name": "Leggings of the Ophidian Oracle",
+              "displayed_count": 30,
+              "site_marks_crafted": false,
+              "site_marks_tier": true,
+              "raw_label": "Set 30",
+              "character_share_percent": 60
+            },
+            {
+              "item_id": 244582,
+              "name": "Farstrider's Reinforced Faulds",
+              "displayed_count": 13,
+              "site_marks_crafted": true,
+              "site_marks_tier": false,
+              "raw_label": "Craft 13",
+              "character_share_percent": 26
+            },
+            {
+              "item_id": 268237,
+              "name": "Cuisses of the Uncoiled Union",
+              "displayed_count": 7,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "7",
+              "character_share_percent": 14
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 50
+        },
+        {
+          "slot": "Feet",
+          "rows": [
+            {
+              "item_id": 271440,
+              "name": "Greaves of the Noxious Depths",
+              "displayed_count": 13,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "13",
+              "character_share_percent": 26
+            },
+            {
+              "item_id": 268258,
+              "name": "Boots of the Reckless Wayfarer",
+              "displayed_count": 12,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "12",
+              "character_share_percent": 24
+            },
+            {
+              "item_id": 271485,
+              "name": "Scaled Shoes of the Ophidian Oracle",
+              "displayed_count": 10,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "10",
+              "character_share_percent": 20
+            },
+            {
+              "item_id": 244577,
+              "name": "Farstrider's Razor Talons",
+              "displayed_count": 9,
+              "site_marks_crafted": true,
+              "site_marks_tier": false,
+              "raw_label": "Craft 9",
+              "character_share_percent": 18
+            },
+            {
+              "item_id": 268233,
+              "name": "Ferocious Scaleboots",
+              "displayed_count": 4,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "4",
+              "character_share_percent": 8
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 48
+        },
+        {
+          "slot": "Rings",
+          "rows": [
+            {
+              "item_id": 281029,
+              "name": "Band of the Swarmcaller",
+              "displayed_count": 48,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "48",
+              "character_share_percent": 96
+            },
+            {
+              "item_id": 268252,
+              "name": "Apex Brute's Claw Ring",
+              "displayed_count": 28,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "28",
+              "character_share_percent": 56
+            },
+            {
+              "item_id": 240949,
+              "name": "Masterwork Sin'dorei Band",
+              "displayed_count": 10,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "10",
+              "character_share_percent": 20
+            },
+            {
+              "item_id": 251513,
+              "name": "Loa Worshiper's Band",
+              "displayed_count": 4,
+              "site_marks_crafted": true,
+              "site_marks_tier": false,
+              "raw_label": "Craft 4",
+              "character_share_percent": 8
+            },
+            {
+              "item_id": 272148,
+              "name": "Anguine Gyre",
+              "displayed_count": 3,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "3",
+              "character_share_percent": 6
+            }
+          ],
+          "expected_equipment_occurrences": 100,
+          "displayed_equipment_occurrences": 93
+        },
+        {
+          "slot": "Trinkets",
+          "rows": [
+            {
+              "item_id": 281215,
+              "name": "Twisted Horror's Tendril",
+              "displayed_count": 49,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "49",
+              "character_share_percent": 98
+            },
+            {
+              "item_id": 270164,
+              "name": "Gebbo's Bottomless Bag",
+              "displayed_count": 33,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "33",
+              "character_share_percent": 66
+            },
+            {
+              "item_id": 273796,
+              "name": "Vile Vial of Volatile Venom",
+              "displayed_count": 17,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "17",
+              "character_share_percent": 34
+            },
+            {
+              "item_id": 270167,
+              "name": "Wavecaller's Seastone",
+              "displayed_count": 1,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "1",
+              "character_share_percent": 2
+            }
+          ],
+          "expected_equipment_occurrences": 100,
+          "displayed_equipment_occurrences": 100
+        },
+        {
+          "slot": "Main Hand",
+          "rows": [
+            {
+              "item_id": 271092,
+              "name": "Jan'thrazet, the Soul Fang",
+              "displayed_count": 50,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "50",
+              "character_share_percent": 100
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 50
+        },
+        {
+          "slot": "Off Hand",
+          "rows": [
+            {
+              "item_id": 268196,
+              "name": "Venom-Slashed Scuteward",
+              "displayed_count": 28,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "28",
+              "character_share_percent": 56
+            },
+            {
+              "item_id": 268262,
+              "name": "Bubblefin Splash Guard",
+              "displayed_count": 15,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "15",
+              "character_share_percent": 30
+            },
+            {
+              "item_id": 237831,
+              "name": "Spellbreaker's Rebuke",
+              "displayed_count": 4,
+              "site_marks_crafted": true,
+              "site_marks_tier": false,
+              "raw_label": "Craft 4",
+              "character_share_percent": 8
+            },
+            {
+              "item_id": 272276,
+              "name": "Wailing Bulwark",
+              "displayed_count": 2,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "2",
+              "character_share_percent": 4
+            },
+            {
+              "item_id": 268197,
+              "name": "Spine of the Hissing Abyss",
+              "displayed_count": 1,
+              "site_marks_crafted": false,
+              "site_marks_tier": false,
+              "raw_label": "1",
+              "character_share_percent": 2
+            }
+          ],
+          "expected_equipment_occurrences": 50,
+          "displayed_equipment_occurrences": 50
+        }
+      ],
+      "ranking": [
+        {
+          "url": "https://murlok.io/character/eu/twisting-nether/sjelemental/pve",
+          "display": "1 Sjelemental Twisting Nether (EU) Dwarf | Farseer | 338 ilvl 4390"
+        },
+        {
+          "url": "https://murlok.io/character/eu/kazzak/freaksh/pve",
+          "display": "2 Freaksh Kazzak (EU) Dwarf | Farseer | 338 ilvl 4346"
+        },
+        {
+          "url": "https://murlok.io/character/eu/tarren-mill/hearthjacke/pve",
+          "display": "3 Hearthjacke Tarren Mill (EU) Dwarf | Farseer | 338 ilvl 4340"
+        },
+        {
+          "url": "https://murlok.io/character/us/illidan/bondd/pve",
+          "display": "4 Bondd Illidan (US) Dwarf | Farseer | 338 ilvl 4323"
+        },
+        {
+          "url": "https://murlok.io/character/eu/tarren-mill/stoveteacher/pve",
+          "display": "5 Stoveteacher Tarren Mill (EU) Dwarf | Farseer | 339 ilvl 4309"
+        },
+        {
+          "url": "https://murlok.io/character/us/illidan/itsgg/pve",
+          "display": "6 Itsgg Illidan (US) Dwarf | Farseer | 338 ilvl 4305"
+        },
+        {
+          "url": "https://murlok.io/character/eu/stormreaver/fauni/pve",
+          "display": "7 Fauni Stormreaver (EU) Dwarf | Farseer | 338 ilvl 4290"
+        },
+        {
+          "url": "https://murlok.io/character/eu/kazzak/mikfedesvin/pve",
+          "display": "8 Mikfedesvin Kazzak (EU) Dwarf | Farseer | 336 ilvl 4290"
+        },
+        {
+          "url": "https://murlok.io/character/eu/draenor/fnrsham/pve",
+          "display": "9 Fnrsham Draenor (EU) Dwarf | Farseer | 338 ilvl 4287"
+        },
+        {
+          "url": "https://murlok.io/character/eu/eversong/петко/pve",
+          "display": "10 Петко Eversong (EU) Dwarf | Farseer | 338 ilvl 4276"
+        },
+        {
+          "url": "https://murlok.io/character/eu/twisting-nether/malegusxd/pve",
+          "display": "11 Malegusxd Twisting Nether (EU) Dwarf | Farseer | 339 ilvl 4265"
+        },
+        {
+          "url": "https://murlok.io/character/us/illidan/ashine/pve",
+          "display": "12 Ashine Illidan (US) Dwarf | Farseer | 339 ilvl 4261"
+        },
+        {
+          "url": "https://murlok.io/character/eu/kazzak/sktchsmn/pve",
+          "display": "13 Sktchsmn Kazzak (EU) Dwarf | Farseer | 338 ilvl 4256"
+        },
+        {
+          "url": "https://murlok.io/character/eu/blackrock/spongêbob/pve",
+          "display": "14 Spongêbob Blackrock (EU) Dwarf | Farseer | 335 ilvl 4254"
+        },
+        {
+          "url": "https://murlok.io/character/us/frostmourne/damastius/pve",
+          "display": "15 Damastius Frostmourne (US) Dwarf | Farseer | 338 ilvl 4253"
+        },
+        {
+          "url": "https://murlok.io/character/eu/tarren-mill/chasik/pve",
+          "display": "16 Chasik Tarren Mill (EU) Dwarf | Farseer | 335 ilvl 4253"
+        },
+        {
+          "url": "https://murlok.io/character/eu/kazzak/nqdudu/pve",
+          "display": "17 Nqdudu Kazzak (EU) Dwarf | Farseer | 338 ilvl 4252"
+        },
+        {
+          "url": "https://murlok.io/character/us/azralon/gatogato/pve",
+          "display": "18 Gatogato Azralon (US) Dwarf | Farseer | 335 ilvl 4251"
+        },
+        {
+          "url": "https://murlok.io/character/eu/twisting-nether/trbbstd/pve",
+          "display": "19 Trbbstd Twisting Nether (EU) Dwarf | Farseer | 339 ilvl 4251"
+        },
+        {
+          "url": "https://murlok.io/character/eu/tarren-mill/jisserafim/pve",
+          "display": "20 Jisserafim Tarren Mill (EU) Dwarf | Farseer | 336 ilvl 4250"
+        },
+        {
+          "url": "https://murlok.io/character/eu/outland/juky/pve",
+          "display": "21 Juky Outland (EU) Dwarf | Farseer | 336 ilvl 4250"
+        },
+        {
+          "url": "https://murlok.io/character/eu/silvermoon/shalixone/pve",
+          "display": "22 Shalixone Silvermoon (EU) Dwarf | Farseer | 336 ilvl 4249"
+        },
+        {
+          "url": "https://murlok.io/character/eu/ragnaros/kullingen/pve",
+          "display": "23 Kullingen Ragnaros (EU) Dwarf | Farseer | 339 ilvl 4249"
+        },
+        {
+          "url": "https://murlok.io/character/eu/drakthul/swagintosh/pve",
+          "display": "24 Swagintosh Drakthul (EU) Dwarf | Farseer | 336 ilvl 4249"
+        },
+        {
+          "url": "https://murlok.io/character/eu/twisting-nether/fuzedsham/pve",
+          "display": "25 Fuzedsham Twisting Nether (EU) Dwarf | Farseer | 335 ilvl 4248"
+        },
+        {
+          "url": "https://murlok.io/character/eu/tarren-mill/sushishaman/pve",
+          "display": "26 Sushishaman Tarren Mill (EU) Dwarf | Farseer | 335 ilvl 4244"
+        },
+        {
+          "url": "https://murlok.io/character/eu/kazzak/hawkesh/pve",
+          "display": "27 Hawkesh Kazzak (EU) Dwarf | Farseer | 338 ilvl 4237"
+        },
+        {
+          "url": "https://murlok.io/character/eu/kazzak/petkosham/pve",
+          "display": "28 Petkosham Kazzak (EU) Dwarf | Farseer | 335 ilvl 4236"
+        },
+        {
+          "url": "https://murlok.io/character/eu/burning-legion/deervars/pve",
+          "display": "29 Deervars Burning Legion (EU) Dwarf | Farseer | 338 ilvl 4236"
+        },
+        {
+          "url": "https://murlok.io/character/eu/howling-fjord/флэйтрис/pve",
+          "display": "30 Флэйтрис Howling Fjord (EU) Dwarf | Farseer | 338 ilvl 4232"
+        },
+        {
+          "url": "https://murlok.io/character/eu/twisting-nether/huntoshammy/pve",
+          "display": "31 Huntoshammy Twisting Nether (EU) Dwarf | Farseer | 335 ilvl 4229"
+        },
+        {
+          "url": "https://murlok.io/character/us/tichondrius/corysham/pve",
+          "display": "32 Corysham Tichondrius (US) Dwarf | Farseer | 336 ilvl 4224"
+        },
+        {
+          "url": "https://murlok.io/character/tw/shadowmoon/小雞短短/pve",
+          "display": "33 小雞短短 Shadowmoon (TW) Dwarf | Farseer | 338 ilvl 4222"
+        },
+        {
+          "url": "https://murlok.io/character/eu/kazzak/veilman/pve",
+          "display": "34 Veilman Kazzak (EU) Dwarf | Farseer | 338 ilvl 4222"
+        },
+        {
+          "url": "https://murlok.io/character/eu/ravencrest/stormwrath/pve",
+          "display": "35 Stormwrath Ravencrest (EU) Dwarf | Farseer | 335 ilvl 4220"
+        },
+        {
+          "url": "https://murlok.io/character/eu/deathwing/miyahturbo/pve",
+          "display": "36 Miyahturbo Deathwing (EU) Dwarf | Farseer | 336 ilvl 4220"
+        },
+        {
+          "url": "https://murlok.io/character/eu/taerar/futter/pve",
+          "display": "37 Futter Taerar (EU) Dwarf | Farseer | 339 ilvl 4209"
+        },
+        {
+          "url": "https://murlok.io/character/eu/tarren-mill/pepepko/pve",
+          "display": "38 Pepepko Tarren Mill (EU) Dwarf | Farseer | 338 ilvl 4208"
+        },
+        {
+          "url": "https://murlok.io/character/eu/blackrock/sheffy/pve",
+          "display": "39 Sheffy Blackrock (EU) Dwarf | Farseer | 338 ilvl 4206"
+        },
+        {
+          "url": "https://murlok.io/character/us/illidan/dendrenz/pve",
+          "display": "40 Dendrenz Illidan (US) Dwarf | Farseer | 337 ilvl 4204"
+        },
+        {
+          "url": "https://murlok.io/character/tw/shadowmoon/kathymouse/pve",
+          "display": "41 Kathymouse Shadowmoon (TW) Dwarf | Farseer | 337 ilvl 4204"
+        },
+        {
+          "url": "https://murlok.io/character/eu/ravencrest/zeusgodx/pve",
+          "display": "42 Zeusgodx Ravencrest (EU) Dwarf | Farseer | 335 ilvl 4204"
+        },
+        {
+          "url": "https://murlok.io/character/eu/blackrock/schoesch/pve",
+          "display": "43 Schoesch Blackrock (EU) Dwarf | Farseer | 335 ilvl 4201"
+        },
+        {
+          "url": "https://murlok.io/character/eu/twisting-nether/ethuwiels/pve",
+          "display": "44 Ethuwiels Twisting Nether (EU) Dwarf | Farseer | 335 ilvl 4197"
+        },
+        {
+          "url": "https://murlok.io/character/us/area-52/ellìemental/pve",
+          "display": "45 Ellìemental Area 52 (US) Dwarf | Farseer | 335 ilvl 4195"
+        },
+        {
+          "url": "https://murlok.io/character/eu/kazzak/somaxshaman/pve",
+          "display": "46 Somaxshaman Kazzak (EU) Dwarf | Farseer | 336 ilvl 4194"
+        },
+        {
+          "url": "https://murlok.io/character/eu/blackhand/yappah/pve",
+          "display": "47 Yappah Blackhand (EU) Dwarf | Farseer | 335 ilvl 4189"
+        },
+        {
+          "url": "https://murlok.io/character/us/illidan/raiton/pve",
+          "display": "48 Raiton Illidan (US) Dwarf | Farseer | 338 ilvl 4184"
+        },
+        {
+          "url": "https://murlok.io/character/tw/nightsong/flto/pve",
+          "display": "49 Flto Nightsong (TW) Dwarf | Farseer | 335 ilvl 4182"
+        },
+        {
+          "url": "https://murlok.io/character/eu/ysondre/lfgmasochist/pve",
+          "display": "50 Lfgmasochist Ysondre (EU) Dwarf | Farseer | 335 ilvl 4180"
+        }
+      ],
+      "embellishment_counts_raw": "Arcanoweave Lining 95 Loa Worshiper's Band 4"
+    },
+    "stormbringer_overview": {
+      "source_id": "stormbringer",
+      "characters": 8,
+      "score_range": [
+        2270,
+        3658
+      ],
+      "china_included": false,
+      "interpretation": "Reference only; no further Stormbringer research after Farseer confirmation."
+    }
+  },
+  "farseer_top_five": [
+    {
+      "rank": 1,
+      "name": "Sjelemental",
+      "realm": "Twisting Nether",
+      "region": "EU",
+      "race": "Dwarf",
+      "hero_tree": "Farseer",
+      "equipped_average_item_level": 338,
+      "mplus_score": 4390,
+      "source_id": "far1",
+      "source_url": "https://murlok.io/character/eu/twisting-nether/sjelemental/pve",
+      "retrieved_at": "2026-11-13T05:25:21.482Z",
+      "updated_display": "5 hours ago",
+      "secondary_stats": [
+        {
+          "stat": "Critical Strike",
+          "percent": 25,
+          "rating": 901
+        },
+        {
+          "stat": "Haste",
+          "percent": 22,
+          "rating": 829
+        },
+        {
+          "stat": "Mastery",
+          "percent": 62,
+          "rating": 1013
+        },
+        {
+          "stat": "Versatility",
+          "percent": 5,
+          "rating": 268
+        }
+      ],
+      "minor_stats": [
+        {
+          "stat": "Avoidance",
+          "percent": 6,
+          "rating": 232
+        },
+        {
+          "stat": "Leech",
+          "percent": 0,
+          "rating": 0
+        },
+        {
+          "stat": "Speed",
+          "percent": 6,
+          "rating": 0
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Head",
+          "slot_index": null,
+          "item_id": 271483,
+          "name": "Serpent Crown of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271483",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Neck",
+          "slot_index": null,
+          "item_id": 268265,
+          "name": "Aqirbane Reliquary",
+          "item_reference_url": "https://www.wowhead.com/item=268265",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Shoulders",
+          "slot_index": null,
+          "item_id": 271481,
+          "name": "Hissing Mantle of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271481",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Back",
+          "slot_index": null,
+          "item_id": 239656,
+          "name": "Adherent's Silken Shroud",
+          "item_reference_url": "https://www.wowhead.com/item=239656",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Chest",
+          "slot_index": null,
+          "item_id": 271486,
+          "name": "Fanged Raiment of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271486",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Wrist",
+          "slot_index": null,
+          "item_id": 244584,
+          "name": "Farstrider's Plated Bracers",
+          "item_reference_url": "https://www.wowhead.com/item=244584",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Hands",
+          "slot_index": null,
+          "item_id": 271484,
+          "name": "Hexing Grips of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271484",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Waist",
+          "slot_index": null,
+          "item_id": 268254,
+          "name": "Serpentine Mixing Belt",
+          "item_reference_url": "https://www.wowhead.com/item=268254",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Legs",
+          "slot_index": null,
+          "item_id": 268237,
+          "name": "Cuisses of the Uncoiled Union",
+          "item_reference_url": "https://www.wowhead.com/item=268237",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Feet",
+          "slot_index": null,
+          "item_id": 271440,
+          "name": "Greaves of the Noxious Depths",
+          "item_reference_url": "https://www.wowhead.com/item=271440",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Rings",
+          "slot_index": 1,
+          "item_id": 281029,
+          "name": "Band of the Swarmcaller",
+          "item_reference_url": "https://www.wowhead.com/item=281029",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Rings",
+          "slot_index": 2,
+          "item_id": 272148,
+          "name": "Anguine Gyre",
+          "item_reference_url": "https://www.wowhead.com/item=272148",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Trinkets",
+          "slot_index": 1,
+          "item_id": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "item_reference_url": "https://www.wowhead.com/item=270164",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Trinkets",
+          "slot_index": 2,
+          "item_id": 281215,
+          "name": "Twisted Horror's Tendril",
+          "item_reference_url": "https://www.wowhead.com/item=281215",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Main Hand",
+          "slot_index": null,
+          "item_id": 271092,
+          "name": "Jan'thrazet, the Soul Fang",
+          "item_reference_url": "https://www.wowhead.com/item=271092",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Off Hand",
+          "slot_index": null,
+          "item_id": 268196,
+          "name": "Venom-Slashed Scuteward",
+          "item_reference_url": "https://www.wowhead.com/item=268196",
+          "source_id": "far1",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        }
+      ],
+      "displayed_tier_item_ids": [
+        271483,
+        271481,
+        271486,
+        271484
+      ],
+      "verified_tier_precursors": [],
+      "embellishments": [
+        {
+          "applied_to_equipped_item_id": 239656,
+          "name": "Arcanoweave Lining",
+          "reagent_item_id": 240167,
+          "reagent_id_source": "methodgear/liveWowheadGear; Murlok links are equipped items, not reagent IDs"
+        },
+        {
+          "applied_to_equipped_item_id": 244584,
+          "name": "Arcanoweave Lining",
+          "reagent_item_id": 240167,
+          "reagent_id_source": "methodgear/liveWowheadGear; Murlok links are equipped items, not reagent IDs"
+        }
+      ],
+      "crafted_item_ids_from_explicit_evidence": [
+        239656,
+        244584
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Freaksh",
+      "realm": "Kazzak",
+      "region": "EU",
+      "race": "Dwarf",
+      "hero_tree": "Farseer",
+      "equipped_average_item_level": 338,
+      "mplus_score": 4346,
+      "source_id": "far2",
+      "source_url": "https://murlok.io/character/eu/kazzak/freaksh/pve",
+      "retrieved_at": "2026-11-13T05:25:21.484Z",
+      "updated_display": "4 hours ago",
+      "secondary_stats": [
+        {
+          "stat": "Critical Strike",
+          "percent": 25,
+          "rating": 911
+        },
+        {
+          "stat": "Haste",
+          "percent": 24,
+          "rating": 902
+        },
+        {
+          "stat": "Mastery",
+          "percent": 64,
+          "rating": 1075
+        },
+        {
+          "stat": "Versatility",
+          "percent": 2,
+          "rating": 123
+        }
+      ],
+      "minor_stats": [
+        {
+          "stat": "Avoidance",
+          "percent": 8,
+          "rating": 301
+        },
+        {
+          "stat": "Leech",
+          "percent": 1,
+          "rating": 86
+        },
+        {
+          "stat": "Speed",
+          "percent": 0,
+          "rating": 0
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Head",
+          "slot_index": null,
+          "item_id": 271483,
+          "name": "Serpent Crown of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271483",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Neck",
+          "slot_index": null,
+          "item_id": 268265,
+          "name": "Aqirbane Reliquary",
+          "item_reference_url": "https://www.wowhead.com/item=268265",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Shoulders",
+          "slot_index": null,
+          "item_id": 271481,
+          "name": "Hissing Mantle of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271481",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Back",
+          "slot_index": null,
+          "item_id": 239656,
+          "name": "Adherent's Silken Shroud",
+          "item_reference_url": "https://www.wowhead.com/item=239656",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Chest",
+          "slot_index": null,
+          "item_id": 271486,
+          "name": "Fanged Raiment of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271486",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Wrist",
+          "slot_index": null,
+          "item_id": 244584,
+          "name": "Farstrider's Plated Bracers",
+          "item_reference_url": "https://www.wowhead.com/item=244584",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Hands",
+          "slot_index": null,
+          "item_id": 271484,
+          "name": "Hexing Grips of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271484",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Waist",
+          "slot_index": null,
+          "item_id": 271480,
+          "name": "Venomous Belt of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271480",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Legs",
+          "slot_index": null,
+          "item_id": 271482,
+          "name": "Leggings of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271482",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Feet",
+          "slot_index": null,
+          "item_id": 271440,
+          "name": "Greaves of the Noxious Depths",
+          "item_reference_url": "https://www.wowhead.com/item=271440",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Rings",
+          "slot_index": 1,
+          "item_id": 268252,
+          "name": "Apex Brute's Claw Ring",
+          "item_reference_url": "https://www.wowhead.com/item=268252",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Rings",
+          "slot_index": 2,
+          "item_id": 281029,
+          "name": "Band of the Swarmcaller",
+          "item_reference_url": "https://www.wowhead.com/item=281029",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Trinkets",
+          "slot_index": 1,
+          "item_id": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "item_reference_url": "https://www.wowhead.com/item=270164",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Trinkets",
+          "slot_index": 2,
+          "item_id": 281215,
+          "name": "Twisted Horror's Tendril",
+          "item_reference_url": "https://www.wowhead.com/item=281215",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Main Hand",
+          "slot_index": null,
+          "item_id": 271092,
+          "name": "Jan'thrazet, the Soul Fang",
+          "item_reference_url": "https://www.wowhead.com/item=271092",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Off Hand",
+          "slot_index": null,
+          "item_id": 268196,
+          "name": "Venom-Slashed Scuteward",
+          "item_reference_url": "https://www.wowhead.com/item=268196",
+          "source_id": "far2",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        }
+      ],
+      "displayed_tier_item_ids": [
+        271483,
+        271481,
+        271486,
+        271484,
+        271482
+      ],
+      "verified_tier_precursors": [],
+      "embellishments": [
+        {
+          "applied_to_equipped_item_id": 239656,
+          "name": "Arcanoweave Lining",
+          "reagent_item_id": 240167,
+          "reagent_id_source": "methodgear/liveWowheadGear; Murlok links are equipped items, not reagent IDs"
+        },
+        {
+          "applied_to_equipped_item_id": 244584,
+          "name": "Arcanoweave Lining",
+          "reagent_item_id": 240167,
+          "reagent_id_source": "methodgear/liveWowheadGear; Murlok links are equipped items, not reagent IDs"
+        }
+      ],
+      "crafted_item_ids_from_explicit_evidence": [
+        239656,
+        244584
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Hearthjacke",
+      "realm": "Tarren Mill",
+      "region": "EU",
+      "race": "Dwarf",
+      "hero_tree": "Farseer",
+      "equipped_average_item_level": 338,
+      "mplus_score": 4340,
+      "source_id": "far3",
+      "source_url": "https://murlok.io/character/eu/tarren-mill/hearthjacke/pve",
+      "retrieved_at": "2026-11-13T05:25:21.484Z",
+      "updated_display": "5 hours ago",
+      "secondary_stats": [
+        {
+          "stat": "Critical Strike",
+          "percent": 23,
+          "rating": 823
+        },
+        {
+          "stat": "Haste",
+          "percent": 22,
+          "rating": 815
+        },
+        {
+          "stat": "Mastery",
+          "percent": 60,
+          "rating": 961
+        },
+        {
+          "stat": "Versatility",
+          "percent": 8,
+          "rating": 435
+        }
+      ],
+      "minor_stats": [
+        {
+          "stat": "Avoidance",
+          "percent": 10,
+          "rating": 384
+        },
+        {
+          "stat": "Leech",
+          "percent": 0,
+          "rating": 0
+        },
+        {
+          "stat": "Speed",
+          "percent": 0,
+          "rating": 0
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Head",
+          "slot_index": null,
+          "item_id": 271483,
+          "name": "Serpent Crown of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271483",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Neck",
+          "slot_index": null,
+          "item_id": 268265,
+          "name": "Aqirbane Reliquary",
+          "item_reference_url": "https://www.wowhead.com/item=268265",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Shoulders",
+          "slot_index": null,
+          "item_id": 271481,
+          "name": "Hissing Mantle of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271481",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Back",
+          "slot_index": null,
+          "item_id": 268248,
+          "name": "Amani Summoning Shawl",
+          "item_reference_url": "https://www.wowhead.com/item=268248",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Chest",
+          "slot_index": null,
+          "item_id": 271486,
+          "name": "Fanged Raiment of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271486",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Wrist",
+          "slot_index": null,
+          "item_id": 244584,
+          "name": "Farstrider's Plated Bracers",
+          "item_reference_url": "https://www.wowhead.com/item=244584",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Hands",
+          "slot_index": null,
+          "item_id": 271484,
+          "name": "Hexing Grips of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271484",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Waist",
+          "slot_index": null,
+          "item_id": 244581,
+          "name": "Farstrider's Trophy Belt",
+          "item_reference_url": "https://www.wowhead.com/item=244581",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Legs",
+          "slot_index": null,
+          "item_id": 271482,
+          "name": "Leggings of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271482",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Feet",
+          "slot_index": null,
+          "item_id": 271440,
+          "name": "Greaves of the Noxious Depths",
+          "item_reference_url": "https://www.wowhead.com/item=271440",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Rings",
+          "slot_index": 1,
+          "item_id": 272148,
+          "name": "Anguine Gyre",
+          "item_reference_url": "https://www.wowhead.com/item=272148",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Rings",
+          "slot_index": 2,
+          "item_id": 281029,
+          "name": "Band of the Swarmcaller",
+          "item_reference_url": "https://www.wowhead.com/item=281029",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Trinkets",
+          "slot_index": 1,
+          "item_id": 281215,
+          "name": "Twisted Horror's Tendril",
+          "item_reference_url": "https://www.wowhead.com/item=281215",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Trinkets",
+          "slot_index": 2,
+          "item_id": 273796,
+          "name": "Vile Vial of Volatile Venom",
+          "item_reference_url": "https://www.wowhead.com/item=273796",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Main Hand",
+          "slot_index": null,
+          "item_id": 271092,
+          "name": "Jan'thrazet, the Soul Fang",
+          "item_reference_url": "https://www.wowhead.com/item=271092",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Off Hand",
+          "slot_index": null,
+          "item_id": 268196,
+          "name": "Venom-Slashed Scuteward",
+          "item_reference_url": "https://www.wowhead.com/item=268196",
+          "source_id": "far3",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        }
+      ],
+      "displayed_tier_item_ids": [
+        271483,
+        271481,
+        271486,
+        271484,
+        271482
+      ],
+      "verified_tier_precursors": [],
+      "embellishments": [
+        {
+          "applied_to_equipped_item_id": 244584,
+          "name": "Arcanoweave Lining",
+          "reagent_item_id": 240167,
+          "reagent_id_source": "methodgear/liveWowheadGear; Murlok links are equipped items, not reagent IDs"
+        },
+        {
+          "applied_to_equipped_item_id": 244581,
+          "name": "Arcanoweave Lining",
+          "reagent_item_id": 240167,
+          "reagent_id_source": "methodgear/liveWowheadGear; Murlok links are equipped items, not reagent IDs"
+        }
+      ],
+      "crafted_item_ids_from_explicit_evidence": [
+        244584,
+        244581
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Bondd",
+      "realm": "Illidan",
+      "region": "US",
+      "race": "Dwarf",
+      "hero_tree": "Farseer",
+      "equipped_average_item_level": 338,
+      "mplus_score": 4323,
+      "source_id": "far4",
+      "source_url": "https://murlok.io/character/us/illidan/bondd/pve",
+      "retrieved_at": "2026-11-13T05:25:21.485Z",
+      "updated_display": "4 hours ago",
+      "secondary_stats": [
+        {
+          "stat": "Critical Strike",
+          "percent": 25,
+          "rating": 933
+        },
+        {
+          "stat": "Haste",
+          "percent": 24,
+          "rating": 884
+        },
+        {
+          "stat": "Mastery",
+          "percent": 65,
+          "rating": 1091
+        },
+        {
+          "stat": "Versatility",
+          "percent": 2,
+          "rating": 123
+        }
+      ],
+      "minor_stats": [
+        {
+          "stat": "Avoidance",
+          "percent": 6,
+          "rating": 232
+        },
+        {
+          "stat": "Leech",
+          "percent": 0,
+          "rating": 0
+        },
+        {
+          "stat": "Speed",
+          "percent": 0,
+          "rating": 0
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Head",
+          "slot_index": null,
+          "item_id": 271483,
+          "name": "Serpent Crown of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271483",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Neck",
+          "slot_index": null,
+          "item_id": 268265,
+          "name": "Aqirbane Reliquary",
+          "item_reference_url": "https://www.wowhead.com/item=268265",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Shoulders",
+          "slot_index": null,
+          "item_id": 271481,
+          "name": "Hissing Mantle of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271481",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Back",
+          "slot_index": null,
+          "item_id": 268253,
+          "name": "Silken Voodoo Drape",
+          "item_reference_url": "https://www.wowhead.com/item=268253",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Chest",
+          "slot_index": null,
+          "item_id": 271486,
+          "name": "Fanged Raiment of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271486",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Wrist",
+          "slot_index": null,
+          "item_id": 244584,
+          "name": "Farstrider's Plated Bracers",
+          "item_reference_url": "https://www.wowhead.com/item=244584",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Hands",
+          "slot_index": null,
+          "item_id": 271484,
+          "name": "Hexing Grips of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271484",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Waist",
+          "slot_index": null,
+          "item_id": 268254,
+          "name": "Serpentine Mixing Belt",
+          "item_reference_url": "https://www.wowhead.com/item=268254",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Legs",
+          "slot_index": null,
+          "item_id": 271482,
+          "name": "Leggings of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271482",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Feet",
+          "slot_index": null,
+          "item_id": 244577,
+          "name": "Farstrider's Razor Talons",
+          "item_reference_url": "https://www.wowhead.com/item=244577",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Rings",
+          "slot_index": 1,
+          "item_id": 268252,
+          "name": "Apex Brute's Claw Ring",
+          "item_reference_url": "https://www.wowhead.com/item=268252",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Rings",
+          "slot_index": 2,
+          "item_id": 281029,
+          "name": "Band of the Swarmcaller",
+          "item_reference_url": "https://www.wowhead.com/item=281029",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Trinkets",
+          "slot_index": 1,
+          "item_id": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "item_reference_url": "https://www.wowhead.com/item=270164",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Trinkets",
+          "slot_index": 2,
+          "item_id": 281215,
+          "name": "Twisted Horror's Tendril",
+          "item_reference_url": "https://www.wowhead.com/item=281215",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Main Hand",
+          "slot_index": null,
+          "item_id": 271092,
+          "name": "Jan'thrazet, the Soul Fang",
+          "item_reference_url": "https://www.wowhead.com/item=271092",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Off Hand",
+          "slot_index": null,
+          "item_id": 268262,
+          "name": "Bubblefin Splash Guard",
+          "item_reference_url": "https://www.wowhead.com/item=268262",
+          "source_id": "far4",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        }
+      ],
+      "displayed_tier_item_ids": [
+        271483,
+        271481,
+        271486,
+        271484,
+        271482
+      ],
+      "verified_tier_precursors": [],
+      "embellishments": [
+        {
+          "applied_to_equipped_item_id": 244584,
+          "name": "Arcanoweave Lining",
+          "reagent_item_id": 240167,
+          "reagent_id_source": "methodgear/liveWowheadGear; Murlok links are equipped items, not reagent IDs"
+        },
+        {
+          "applied_to_equipped_item_id": 244577,
+          "name": "Arcanoweave Lining",
+          "reagent_item_id": 240167,
+          "reagent_id_source": "methodgear/liveWowheadGear; Murlok links are equipped items, not reagent IDs"
+        }
+      ],
+      "crafted_item_ids_from_explicit_evidence": [
+        244584,
+        244577
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Stoveteacher",
+      "realm": "Tarren Mill",
+      "region": "EU",
+      "race": "Dwarf",
+      "hero_tree": "Farseer",
+      "equipped_average_item_level": 339,
+      "mplus_score": 4309,
+      "source_id": "far5",
+      "source_url": "https://murlok.io/character/eu/tarren-mill/stoveteacher/pve",
+      "retrieved_at": "2026-11-13T05:25:21.485Z",
+      "updated_display": "4 hours ago",
+      "secondary_stats": [
+        {
+          "stat": "Critical Strike",
+          "percent": 27,
+          "rating": 1000
+        },
+        {
+          "stat": "Haste",
+          "percent": 23,
+          "rating": 847
+        },
+        {
+          "stat": "Mastery",
+          "percent": 63,
+          "rating": 1038
+        },
+        {
+          "stat": "Versatility",
+          "percent": 2,
+          "rating": 107
+        }
+      ],
+      "minor_stats": [
+        {
+          "stat": "Avoidance",
+          "percent": 6,
+          "rating": 217
+        },
+        {
+          "stat": "Leech",
+          "percent": 0,
+          "rating": 0
+        },
+        {
+          "stat": "Speed",
+          "percent": 6,
+          "rating": 0
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Head",
+          "slot_index": null,
+          "item_id": 271483,
+          "name": "Serpent Crown of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271483",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Neck",
+          "slot_index": null,
+          "item_id": 268265,
+          "name": "Aqirbane Reliquary",
+          "item_reference_url": "https://www.wowhead.com/item=268265",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Shoulders",
+          "slot_index": null,
+          "item_id": 271481,
+          "name": "Hissing Mantle of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271481",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Back",
+          "slot_index": null,
+          "item_id": 271478,
+          "name": "Ritual Drape of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271478",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Chest",
+          "slot_index": null,
+          "item_id": 271486,
+          "name": "Fanged Raiment of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271486",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Wrist",
+          "slot_index": null,
+          "item_id": 244584,
+          "name": "Farstrider's Plated Bracers",
+          "item_reference_url": "https://www.wowhead.com/item=244584",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Hands",
+          "slot_index": null,
+          "item_id": 271484,
+          "name": "Hexing Grips of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271484",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Waist",
+          "slot_index": null,
+          "item_id": 244581,
+          "name": "Farstrider's Trophy Belt",
+          "item_reference_url": "https://www.wowhead.com/item=244581",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Legs",
+          "slot_index": null,
+          "item_id": 271482,
+          "name": "Leggings of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271482",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Feet",
+          "slot_index": null,
+          "item_id": 271485,
+          "name": "Scaled Shoes of the Ophidian Oracle",
+          "item_reference_url": "https://www.wowhead.com/item=271485",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Rings",
+          "slot_index": 1,
+          "item_id": 281029,
+          "name": "Band of the Swarmcaller",
+          "item_reference_url": "https://www.wowhead.com/item=281029",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Rings",
+          "slot_index": 2,
+          "item_id": 268252,
+          "name": "Apex Brute's Claw Ring",
+          "item_reference_url": "https://www.wowhead.com/item=268252",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Trinkets",
+          "slot_index": 1,
+          "item_id": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "item_reference_url": "https://www.wowhead.com/item=270164",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Trinkets",
+          "slot_index": 2,
+          "item_id": 281215,
+          "name": "Twisted Horror's Tendril",
+          "item_reference_url": "https://www.wowhead.com/item=281215",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Main Hand",
+          "slot_index": null,
+          "item_id": 271092,
+          "name": "Jan'thrazet, the Soul Fang",
+          "item_reference_url": "https://www.wowhead.com/item=271092",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        },
+        {
+          "slot": "Off Hand",
+          "slot_index": null,
+          "item_id": 268196,
+          "name": "Venom-Slashed Scuteward",
+          "item_reference_url": "https://www.wowhead.com/item=268196",
+          "source_id": "far5",
+          "bonus_ids": null,
+          "item_level": null,
+          "catalyst_precursor_item_id": null,
+          "preserved_cantrip": null
+        }
+      ],
+      "displayed_tier_item_ids": [
+        271483,
+        271481,
+        271486,
+        271484,
+        271482
+      ],
+      "verified_tier_precursors": [],
+      "embellishments": [
+        {
+          "applied_to_equipped_item_id": 244584,
+          "name": "Arcanoweave Lining",
+          "reagent_item_id": 240167,
+          "reagent_id_source": "methodgear/liveWowheadGear; Murlok links are equipped items, not reagent IDs"
+        },
+        {
+          "applied_to_equipped_item_id": 244581,
+          "name": "Arcanoweave Lining",
+          "reagent_item_id": 240167,
+          "reagent_id_source": "methodgear/liveWowheadGear; Murlok links are equipped items, not reagent IDs"
+        }
+      ],
+      "crafted_item_ids_from_explicit_evidence": [
+        244584,
+        244581
+      ]
+    }
+  ],
+  "farseer_top_five_distributions": {
+    "sample_size": 5,
+    "items": [
+      {
+        "slot": "Head",
+        "item_id": 271483,
+        "name": "Serpent Crown of the Ophidian Oracle",
+        "count": 5,
+        "character_share_percent": 100,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Neck",
+        "item_id": 268265,
+        "name": "Aqirbane Reliquary",
+        "count": 5,
+        "character_share_percent": 100,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Shoulders",
+        "item_id": 271481,
+        "name": "Hissing Mantle of the Ophidian Oracle",
+        "count": 5,
+        "character_share_percent": 100,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Back",
+        "item_id": 239656,
+        "name": "Adherent's Silken Shroud",
+        "count": 2,
+        "character_share_percent": 40,
+        "source_ids": [
+          "far1",
+          "far2"
+        ]
+      },
+      {
+        "slot": "Chest",
+        "item_id": 271486,
+        "name": "Fanged Raiment of the Ophidian Oracle",
+        "count": 5,
+        "character_share_percent": 100,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Wrist",
+        "item_id": 244584,
+        "name": "Farstrider's Plated Bracers",
+        "count": 5,
+        "character_share_percent": 100,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Hands",
+        "item_id": 271484,
+        "name": "Hexing Grips of the Ophidian Oracle",
+        "count": 5,
+        "character_share_percent": 100,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Waist",
+        "item_id": 268254,
+        "name": "Serpentine Mixing Belt",
+        "count": 2,
+        "character_share_percent": 40,
+        "source_ids": [
+          "far1",
+          "far4"
+        ]
+      },
+      {
+        "slot": "Legs",
+        "item_id": 268237,
+        "name": "Cuisses of the Uncoiled Union",
+        "count": 1,
+        "character_share_percent": 20,
+        "source_ids": [
+          "far1"
+        ]
+      },
+      {
+        "slot": "Feet",
+        "item_id": 271440,
+        "name": "Greaves of the Noxious Depths",
+        "count": 3,
+        "character_share_percent": 60,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3"
+        ]
+      },
+      {
+        "slot": "Rings",
+        "item_id": 281029,
+        "name": "Band of the Swarmcaller",
+        "count": 5,
+        "character_share_percent": 100,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Rings",
+        "item_id": 272148,
+        "name": "Anguine Gyre",
+        "count": 2,
+        "character_share_percent": 40,
+        "source_ids": [
+          "far1",
+          "far3"
+        ]
+      },
+      {
+        "slot": "Trinkets",
+        "item_id": 270164,
+        "name": "Gebbo's Bottomless Bag",
+        "count": 4,
+        "character_share_percent": 80,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Trinkets",
+        "item_id": 281215,
+        "name": "Twisted Horror's Tendril",
+        "count": 5,
+        "character_share_percent": 100,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Main Hand",
+        "item_id": 271092,
+        "name": "Jan'thrazet, the Soul Fang",
+        "count": 5,
+        "character_share_percent": 100,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Off Hand",
+        "item_id": 268196,
+        "name": "Venom-Slashed Scuteward",
+        "count": 4,
+        "character_share_percent": 80,
+        "source_ids": [
+          "far1",
+          "far2",
+          "far3",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Waist",
+        "item_id": 271480,
+        "name": "Venomous Belt of the Ophidian Oracle",
+        "count": 1,
+        "character_share_percent": 20,
+        "source_ids": [
+          "far2"
+        ]
+      },
+      {
+        "slot": "Legs",
+        "item_id": 271482,
+        "name": "Leggings of the Ophidian Oracle",
+        "count": 4,
+        "character_share_percent": 80,
+        "source_ids": [
+          "far2",
+          "far3",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Rings",
+        "item_id": 268252,
+        "name": "Apex Brute's Claw Ring",
+        "count": 3,
+        "character_share_percent": 60,
+        "source_ids": [
+          "far2",
+          "far4",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Back",
+        "item_id": 268248,
+        "name": "Amani Summoning Shawl",
+        "count": 1,
+        "character_share_percent": 20,
+        "source_ids": [
+          "far3"
+        ]
+      },
+      {
+        "slot": "Waist",
+        "item_id": 244581,
+        "name": "Farstrider's Trophy Belt",
+        "count": 2,
+        "character_share_percent": 40,
+        "source_ids": [
+          "far3",
+          "far5"
+        ]
+      },
+      {
+        "slot": "Trinkets",
+        "item_id": 273796,
+        "name": "Vile Vial of Volatile Venom",
+        "count": 1,
+        "character_share_percent": 20,
+        "source_ids": [
+          "far3"
+        ]
+      },
+      {
+        "slot": "Back",
+        "item_id": 268253,
+        "name": "Silken Voodoo Drape",
+        "count": 1,
+        "character_share_percent": 20,
+        "source_ids": [
+          "far4"
+        ]
+      },
+      {
+        "slot": "Feet",
+        "item_id": 244577,
+        "name": "Farstrider's Razor Talons",
+        "count": 1,
+        "character_share_percent": 20,
+        "source_ids": [
+          "far4"
+        ]
+      },
+      {
+        "slot": "Off Hand",
+        "item_id": 268262,
+        "name": "Bubblefin Splash Guard",
+        "count": 1,
+        "character_share_percent": 20,
+        "source_ids": [
+          "far4"
+        ]
+      },
+      {
+        "slot": "Back",
+        "item_id": 271478,
+        "name": "Ritual Drape of the Ophidian Oracle",
+        "count": 1,
+        "character_share_percent": 20,
+        "source_ids": [
+          "far5"
+        ]
+      },
+      {
+        "slot": "Feet",
+        "item_id": 271485,
+        "name": "Scaled Shoes of the Ophidian Oracle",
+        "count": 1,
+        "character_share_percent": 20,
+        "source_ids": [
+          "far5"
+        ]
+      }
+    ],
+    "trinket_pairs": [
+      {
+        "item_ids": [
+          270164,
+          281215
+        ],
+        "characters": 4,
+        "character_names": [
+          "Sjelemental",
+          "Freaksh",
+          "Bondd",
+          "Stoveteacher"
+        ]
+      },
+      {
+        "item_ids": [
+          273796,
+          281215
+        ],
+        "characters": 1,
+        "character_names": [
+          "Hearthjacke"
+        ]
+      }
+    ],
+    "displayed_tier_id_counts": {
+      "4": 1,
+      "5": 4
+    },
+    "craft_host_pairs": [
+      {
+        "item_ids": [
+          239656,
+          244584
+        ],
+        "characters": 2
+      },
+      {
+        "item_ids": [
+          244584,
+          244581
+        ],
+        "characters": 2
+      },
+      {
+        "item_ids": [
+          244584,
+          244577
+        ],
+        "characters": 1
+      }
+    ],
+    "all_five_have_two_arcanoweave_linings": true,
+    "stat_ranges": [
+      {
+        "stat": "Critical Strike",
+        "rating_min": 823,
+        "rating_max": 1000,
+        "displayed_percent_min": 23,
+        "displayed_percent_max": 27
+      },
+      {
+        "stat": "Haste",
+        "rating_min": 815,
+        "rating_max": 902,
+        "displayed_percent_min": 22,
+        "displayed_percent_max": 24
+      },
+      {
+        "stat": "Mastery",
+        "rating_min": 961,
+        "rating_max": 1091,
+        "displayed_percent_min": 60,
+        "displayed_percent_max": 65
+      },
+      {
+        "stat": "Versatility",
+        "rating_min": 107,
+        "rating_max": 435,
+        "displayed_percent_min": 2,
+        "displayed_percent_max": 8
+      }
+    ]
+  },
+  "farseer_top50_crafting": {
+    "explicit_craft_badge_rows": [
+      {
+        "slot": "Shoulders",
+        "item_id": 244580,
+        "name": "Farstrider's Brilliant Plumes",
+        "displayed_count": 2,
+        "site_marks_crafted": true,
+        "site_marks_tier": false,
+        "raw_label": "Craft 2",
+        "character_share_percent": 4
+      },
+      {
+        "slot": "Back",
+        "item_id": 239656,
+        "name": "Adherent's Silken Shroud",
+        "displayed_count": 18,
+        "site_marks_crafted": true,
+        "site_marks_tier": false,
+        "raw_label": "Craft 18",
+        "character_share_percent": 36
+      },
+      {
+        "slot": "Wrist",
+        "item_id": 244584,
+        "name": "Farstrider's Plated Bracers",
+        "displayed_count": 40,
+        "site_marks_crafted": true,
+        "site_marks_tier": false,
+        "raw_label": "Craft 40",
+        "character_share_percent": 80
+      },
+      {
+        "slot": "Waist",
+        "item_id": 244581,
+        "name": "Farstrider's Trophy Belt",
+        "displayed_count": 23,
+        "site_marks_crafted": true,
+        "site_marks_tier": false,
+        "raw_label": "Craft 23",
+        "character_share_percent": 46
+      },
+      {
+        "slot": "Legs",
+        "item_id": 244582,
+        "name": "Farstrider's Reinforced Faulds",
+        "displayed_count": 13,
+        "site_marks_crafted": true,
+        "site_marks_tier": false,
+        "raw_label": "Craft 13",
+        "character_share_percent": 26
+      },
+      {
+        "slot": "Feet",
+        "item_id": 244577,
+        "name": "Farstrider's Razor Talons",
+        "displayed_count": 9,
+        "site_marks_crafted": true,
+        "site_marks_tier": false,
+        "raw_label": "Craft 9",
+        "character_share_percent": 18
+      },
+      {
+        "slot": "Rings",
+        "item_id": 251513,
+        "name": "Loa Worshiper's Band",
+        "displayed_count": 4,
+        "site_marks_crafted": true,
+        "site_marks_tier": false,
+        "raw_label": "Craft 4",
+        "character_share_percent": 8
+      },
+      {
+        "slot": "Off Hand",
+        "item_id": 237831,
+        "name": "Spellbreaker's Rebuke",
+        "displayed_count": 4,
+        "site_marks_crafted": true,
+        "site_marks_tier": false,
+        "raw_label": "Craft 4",
+        "character_share_percent": 8
+      }
+    ],
+    "unclassified_relevant_row": {
+      "item_id": 240949,
+      "name": "Masterwork Sin'dorei Band",
+      "displayed_count": 10,
+      "site_marks_crafted": false,
+      "classification": "not included in the explicit-Craft-badge total; current fetched item text does not establish its recipe, so no recipe inference from name"
+    },
+    "embellishments": [
+      {
+        "name": "Arcanoweave Lining",
+        "displayed_occurrences": 95,
+        "reagent_item_id": 240167
+      },
+      {
+        "name": "Loa Worshiper's Band",
+        "displayed_occurrences": 4,
+        "item_id": 251513
+      }
+    ],
+    "embellishment_unit": "Equipped effect occurrences, not unique characters; no paired-combination distribution is exposed for all 50."
+  },
+  "requested_trinket_check": {
+    "top50_category_coverage": {
+      "displayed_equipment_occurrences": 100,
+      "expected_equipment_occurrences": 100,
+      "complete_for_snapshot": true
+    },
+    "items": [
+      {
+        "item_id": 270170,
+        "name": "Vexhul's Everflowing Gland",
+        "top5_characters": 0,
+        "top50_characters": 0,
+        "icy_grade": "A",
+        "icy_context": "Mythic+ option",
+        "wowhead_displayed_grade": "B",
+        "wowhead_mode_filter_verified": false,
+        "source_ids": [
+          "farseer",
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5",
+          "liveIcyGear",
+          "liveWowheadGear",
+          "wowheadVexhul"
+        ],
+        "mechanics_from_item_page": {
+          "use_cooldown_seconds": 180,
+          "damage_scales_with_target_remaining_health": true,
+          "enemy_defeat_reduces_cooldown_seconds": 5,
+          "scaled_damage_not_used": true
+        }
+      },
+      {
+        "item_id": 250215,
+        "name": "Freightrunner's Flask",
+        "top5_characters": 0,
+        "top50_characters": 0,
+        "icy_grade": "S",
+        "wowhead_displayed_grade": "S",
+        "wowhead_mode_filter_verified": false,
+        "method_in_shortlist": true,
+        "source_ids": [
+          "farseer",
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5",
+          "methodgear",
+          "liveIcyGear",
+          "liveWowheadGear",
+          "wowheadFreight"
+        ],
+        "mechanics_from_item_page": {
+          "use_cooldown_seconds": 90,
+          "critical_strike_buff_duration_seconds": 15,
+          "scaled_rating_not_used": true
+        }
+      },
+      {
+        "item_id": 251513,
+        "name": "Loa Worshiper's Band",
+        "top5_characters": 0,
+        "top50_characters": 4,
+        "top50_character_share_percent": 8,
+        "source_ids": [
+          "farseer",
+          "far1",
+          "far2",
+          "far3",
+          "far4",
+          "far5",
+          "liveWowheadGear"
+        ],
+        "embellishment_occurrences_in_top50": 4,
+        "interpretation": "Minority option, not common in the top five. No popularity-based reason to prioritize another simulation in the mature current setup.",
+        "effect_and_bonus_ids_resolved": false
+      }
+    ],
+    "interpretation": "Observed absence is not proof of inferiority at equal obtainable item levels. Keep both requested trinkets as comparators; do not replace them using popularity alone."
+  },
+  "author_guides": [
+    {
+      "provider": "Method",
+      "author": "Celz",
+      "last_updated": "2026-10-14",
+      "patch": "12.1.5",
+      "source_ids": [
+        "methodstats",
+        "methodgear"
+      ],
+      "stat_advice": {
+        "Farseer": "Mastery > Haste >= Critical Strike > Versatility",
+        "Stormbringer": "Mastery > Critical Strike > Haste > Versatility"
+      },
+      "equipment_advice": "Trinket shortlist: 273796, 281215, 270164, 250215, 270167. Long term: two Arcanoweave Linings; cloak is worth considering when Mythic raid cloak access is excluded.",
+      "freight_timing_advice": "250215 has a 90-second cooldown; author suggests holding 30 seconds when pairing with a two-minute Ascendance.",
+      "caution": "Some item hyperlinks still target PTR/ptr-2. IDs were cross-checked against the live Wowhead guide where possible; linked PTR tooltips were not used as live build proof."
+    },
+    {
+      "provider": "Icy Veins",
+      "author": "Stormy",
+      "last_updated_display": "Oct 12, 2026 - 4:30 PM",
+      "last_updated": "2026-10-12",
+      "patch": "12.1.5",
+      "source_ids": [
+        "liveIcyStats",
+        "liveIcyGear"
+      ],
+      "stat_advice": "Intellect is primary; secondary order Mastery > Haste > Critical Strike > Versatility.",
+      "equipment_advice": "S tier includes 281215, 270164, 250215, 270167, 273796. 270170 is A tier and described as a Mythic+ option. Craft 244584 plus a suitable armor slot with two Linings.",
+      "catalyst_advice": "Guide explicitly recommends 271876 as the chest precursor and states that catalysis retains its cantrip; this does not identify any sampled player precursor."
+    },
+    {
+      "provider": "Wowhead",
+      "author": "HawkCorrigan",
+      "last_updated": "2026-10-13",
+      "patch": "12.1.5",
+      "source_ids": [
+        "liveWowheadStats",
+        "liveWowheadGear"
+      ],
+      "stat_advice": "Gear page: Mastery > Haste = Critical Strike >> Versatility; substantial Intellect/item-level gains matter. Stats page lists 1200 Mastery rating, then Haste/Crit for both trees.",
+      "equipment_advice": "Displayed trinket table: 281215/270164/250215/273796 at S, 270170 at B. Recommends two Linings on 244577 and 244584.",
+      "internal_cautions": [
+        "Stats prose mentions 72%, a soft-cap discussion and Root Warden's Regalia; the gear page instead recommends two Arcanoweave Linings. Do not transfer the Root Warden condition to the current setup.",
+        "Stats ordered list places Intellect last, contrary to the gear page's item-level explanation. Preserve as a source inconsistency, not a character weight.",
+        "The captured trinket text did not establish the selected mode tab as Mythic Plus; S/B labels are retained as displayed, not asserted as a verified M+-filtered table."
+      ]
+    }
+  ],
+  "catalyst_candidates": {
+    "precursors": [
+      {
+        "slot": "Head",
+        "precursor_item_id": 251220,
+        "displayed_tier_item_id": 271483,
+        "name": "Voidscarred Crown",
+        "source": "Voidscar Arena",
+        "source_ids": [
+          "methodgear",
+          "liveWowheadGear"
+        ]
+      },
+      {
+        "slot": "Shoulders",
+        "precursor_item_id": 268231,
+        "displayed_tier_item_id": 271481,
+        "name": "Soulslither Spaulders",
+        "source": "The Coiled Altar",
+        "source_ids": [
+          "methodgear",
+          "liveWowheadGear"
+        ]
+      },
+      {
+        "slot": "Chest",
+        "precursor_item_id": 271876,
+        "displayed_tier_item_id": 271486,
+        "name": "Awoken Dreadfang Cuirass",
+        "source": "Ula'tek",
+        "source_ids": [
+          "methodgear",
+          "liveWowheadGear",
+          "liveIcyGear"
+        ]
+      },
+      {
+        "slot": "Hands",
+        "precursor_item_id": 281238,
+        "displayed_tier_item_id": 271484,
+        "name": "Aberrant Commander's Gauntlets",
+        "source": "Kith'ix",
+        "source_ids": [
+          "methodgear",
+          "liveWowheadGear"
+        ]
+      },
+      {
+        "slot": "Legs",
+        "precursor_item_id": 268237,
+        "displayed_tier_item_id": 271482,
+        "name": "Cuisses of the Uncoiled Union",
+        "source": "The Coiled Altar",
+        "source_ids": [
+          "methodgear",
+          "liveWowheadGear"
+        ]
+      }
+    ],
+    "sampled_player_precursors_known": false,
+    "cantrip_effect_provenance": "The chest-retention claim is from the Icy guide, not inferred from the five displayed 271486 tier items.",
+    "sampled_tier_item_bonus_ids": null
+  },
+  "character_assessment": {
+    "stat_comparison": "24.24% crit / 24.02% haste / 62.08% mastery / 2.24% versatility broadly overlaps the top-five rounded displays. This is not evidence of a fixed missing stat target.",
+    "rating_comparison": "No current character ratings were supplied; no reverse conversion was attempted.",
+    "tier_comparison": "User confirmed five tier pieces. A single ordinary off-piece substitution is eligible for a four-piece-preserving comparison; do not replace a second tier slot without checking the actual four-piece.",
+    "no_simulation_conclusion": true
+  },
+  "simulation_handoff": {
+    "candidate_items": [
+      {
+        "slot": "Trinkets",
+        "item_id": 281215,
+        "name": "Twisted Horror's Tendril",
+        "group": "first_pass",
+        "allowed_acquisition_category": "Heroic Kith'ix / permitted Heroic bonus-roll version",
+        "why_test": "5/5 and 49/50 observed",
+        "reference_url": "https://www.wowhead.com/item=281215",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Trinkets",
+        "item_id": 270164,
+        "name": "Gebbo's Bottomless Bag",
+        "group": "first_pass",
+        "allowed_acquisition_category": "Heroic Lost Explorers / permitted Heroic bonus-roll version",
+        "why_test": "4/5 and 33/50 observed",
+        "reference_url": "https://www.wowhead.com/item=270164",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Trinkets",
+        "item_id": 273796,
+        "name": "Vile Vial of Volatile Venom",
+        "group": "first_pass",
+        "allowed_acquisition_category": "Altar of Fangs M+ / Great Vault",
+        "why_test": "1/5 and 17/50 observed",
+        "reference_url": "https://www.wowhead.com/item=273796",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Trinkets",
+        "item_id": 250215,
+        "name": "Freightrunner's Flask",
+        "group": "requested_comparator",
+        "allowed_acquisition_category": "M+ / Great Vault; item drop label Zaen Bladesorrow",
+        "why_test": "0/5 and 0/50; still in guide shortlist",
+        "reference_url": "https://www.wowhead.com/item=250215",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Trinkets",
+        "item_id": 270170,
+        "name": "Vexhul's Everflowing Gland",
+        "group": "requested_comparator",
+        "allowed_acquisition_category": "Heroic raid; item drop label Vexhul",
+        "why_test": "0/5 and 0/50; Icy A versus displayed Wowhead B",
+        "reference_url": "https://www.wowhead.com/item=270170",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Main Hand",
+        "item_id": 271092,
+        "name": "Jan'thrazet, the Soul Fang",
+        "group": "first_pass",
+        "allowed_acquisition_category": "Heroic Ula'tek / permitted Heroic bonus-roll version",
+        "why_test": "5/5 and 50/50 observed",
+        "reference_url": "https://www.wowhead.com/item=271092",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Neck",
+        "item_id": 268265,
+        "name": "Aqirbane Reliquary",
+        "group": "first_pass",
+        "allowed_acquisition_category": "Heroic Ula'tek / permitted Heroic bonus-roll version",
+        "why_test": "5/5 and 50/50 observed",
+        "reference_url": "https://www.wowhead.com/item=268265",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Off Hand",
+        "item_id": 268196,
+        "name": "Venom-Slashed Scuteward",
+        "group": "first_pass",
+        "allowed_acquisition_category": "Heroic Lost Explorers / permitted Heroic bonus-roll version",
+        "why_test": "4/5 and 28/50 observed",
+        "reference_url": "https://www.wowhead.com/item=268196",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Off Hand",
+        "item_id": 268262,
+        "name": "Bubblefin Splash Guard",
+        "group": "first_pass",
+        "allowed_acquisition_category": "Heroic Nymrissa Wavecaller / permitted Heroic bonus-roll version",
+        "why_test": "1/5 and 15/50 observed",
+        "reference_url": "https://www.wowhead.com/item=268262",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Wrist",
+        "item_id": 244584,
+        "name": "Farstrider's Plated Bracers",
+        "group": "craft_compare",
+        "allowed_acquisition_category": "Crafting",
+        "why_test": "5/5 and 40/50 explicitly marked Craft",
+        "reference_url": "https://www.wowhead.com/item=244584",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Back",
+        "item_id": 239656,
+        "name": "Adherent's Silken Shroud",
+        "group": "craft_compare",
+        "allowed_acquisition_category": "Crafting",
+        "why_test": "2/5 and 18/50 explicitly marked Craft",
+        "reference_url": "https://www.wowhead.com/item=239656",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Waist",
+        "item_id": 244581,
+        "name": "Farstrider's Trophy Belt",
+        "group": "craft_compare",
+        "allowed_acquisition_category": "Crafting",
+        "why_test": "2/5 and 23/50 explicitly marked Craft",
+        "reference_url": "https://www.wowhead.com/item=244581",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Feet",
+        "item_id": 244577,
+        "name": "Farstrider's Razor Talons",
+        "group": "craft_compare",
+        "allowed_acquisition_category": "Crafting",
+        "why_test": "1/5 and 9/50 explicitly marked Craft",
+        "reference_url": "https://www.wowhead.com/item=244577",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Head",
+        "item_id": 251220,
+        "name": "Voidscarred Crown",
+        "group": "single_slot_and_catalyst_compare",
+        "allowed_acquisition_category": "M+ / Great Vault",
+        "why_test": "Explicit guide precursor; not reconstructed from sampled tier name",
+        "displayed_tier_item_id": 271483,
+        "source_ids": [
+          "methodgear",
+          "liveWowheadGear"
+        ],
+        "reference_url": "https://www.wowhead.com/item=251220",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Shoulders",
+        "item_id": 268231,
+        "name": "Soulslither Spaulders",
+        "group": "single_slot_and_catalyst_compare",
+        "allowed_acquisition_category": "Heroic raid / permitted Heroic bonus-roll version",
+        "why_test": "Explicit guide precursor; not reconstructed from sampled tier name",
+        "displayed_tier_item_id": 271481,
+        "source_ids": [
+          "methodgear",
+          "liveWowheadGear"
+        ],
+        "reference_url": "https://www.wowhead.com/item=268231",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Chest",
+        "item_id": 271876,
+        "name": "Awoken Dreadfang Cuirass",
+        "group": "single_slot_and_catalyst_compare",
+        "allowed_acquisition_category": "Heroic raid / permitted Heroic bonus-roll version",
+        "why_test": "Explicit guide precursor; not reconstructed from sampled tier name",
+        "displayed_tier_item_id": 271486,
+        "source_ids": [
+          "methodgear",
+          "liveWowheadGear",
+          "liveIcyGear"
+        ],
+        "reference_url": "https://www.wowhead.com/item=271876",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Hands",
+        "item_id": 281238,
+        "name": "Aberrant Commander's Gauntlets",
+        "group": "single_slot_and_catalyst_compare",
+        "allowed_acquisition_category": "Heroic raid / permitted Heroic bonus-roll version",
+        "why_test": "Explicit guide precursor; not reconstructed from sampled tier name",
+        "displayed_tier_item_id": 271484,
+        "source_ids": [
+          "methodgear",
+          "liveWowheadGear"
+        ],
+        "reference_url": "https://www.wowhead.com/item=281238",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      },
+      {
+        "slot": "Legs",
+        "item_id": 268237,
+        "name": "Cuisses of the Uncoiled Union",
+        "group": "single_slot_and_catalyst_compare",
+        "allowed_acquisition_category": "Heroic raid / permitted Heroic bonus-roll version",
+        "why_test": "Explicit guide precursor; not reconstructed from sampled tier name",
+        "displayed_tier_item_id": 271482,
+        "source_ids": [
+          "methodgear",
+          "liveWowheadGear"
+        ],
+        "reference_url": "https://www.wowhead.com/item=268237",
+        "resolved_bonus_ids": null,
+        "resolved_item_level": null,
+        "ready_to_run": false
+      }
+    ],
+    "embellishment_reagent_item_id": 240167,
+    "additional_reference_trinket_id": 270167,
+    "run_here": false,
+    "required_before_run": [
+      "Resolve item level, difficulty, upgrade rank and all bonus IDs inside the user acquisition limit.",
+      "Preserve real current tier count and any inherited effects from actual export or explicit item data.",
+      "Keep current Farseer talents; use the confirmed native build/APL compatibility in the main thread.",
+      "For 270170 distinguish encounter/add-death assumptions; no DPS result is supplied by this research."
+    ],
+    "unproved_claims": [
+      "No winner or DPS delta is asserted.",
+      "No end-boss Mythic 9/6 item version is proposed."
+    ],
+    "reference_trinket_pairs": [
+      [
+        281215,
+        270164
+      ],
+      [
+        281215,
+        273796
+      ],
+      [
+        281215,
+        250215
+      ],
+      [
+        281215,
+        270170
+      ]
+    ],
+    "no_trinket_retest_requested": true,
+    "pending_research_required_tests": [],
+    "optional_low_priority_candidate": {
+      "item_id": 251513,
+      "name": "Loa Worshiper's Band",
+      "why": "Observed 4/50 Farseers, 0/5 leaders; optional comparison only if the main thread finds a plausible item-level/stat/embellishment advantage.",
+      "source_ids": [
+        "farseer",
+        "liveWowheadGear"
+      ],
+      "must_account_for": "One of two embellishment slots; compare against the displaced Lining and ring stats together, not as a free extra effect.",
+      "reference_url": "https://www.wowhead.com/item=251513/loa-worshipers-band",
+      "ready_to_run": false
+    },
+    "catalogue_note": "The previously gathered IDs are an evidence catalogue, not a request to rerun already completed comparisons. The user reported the major trinkets are already tested."
+  },
+  "limitations": [
+    "Murlok scope is US/EU/KR/TW and excludes CN. These observations do not rank 正极兔 against CN characters.",
+    "Murlok patch label is 12.1, not exact 12.1.5.70783; guide headers show 12.1.5 but no build.",
+    "Authors were updated in October; retrieval today is not publication today.",
+    "No sampled original catalyst item or carried effect was reconstructed from a tier name.",
+    "No fresh Kindo'jan or Bonus Roll pool analysis was performed.",
+    "Item-page web retrieval may be cached. Numeric base-level tooltip magnitudes were not used as max-level evidence."
+  ],
+  "transport_log": {
+    "direct_http_attempts": [
+      {
+        "key": "all",
+        "url": "https://murlok.io/shaman/elemental/m+",
+        "requested_url": "https://murlok.io/shaman/elemental/m+",
+        "retrieved_at": "2026-11-13T05:24:46.608Z",
+        "http_status": 200,
+        "http_date": "Fri, 13 Nov 2026 05:24:46 GMT",
+        "error": null
+      },
+      {
+        "key": "methodstats",
+        "url": "https://www.method.gg/guides/elemental-shaman/stats-races-and-consumables",
+        "requested_url": "https://www.method.gg/guides/elemental-shaman/stats-races-and-consumables",
+        "retrieved_at": "2026-11-13T05:24:46.636Z",
+        "http_status": 200,
+        "http_date": "Fri, 13 Nov 2026 05:24:47 GMT",
+        "error": null
+      },
+      {
+        "key": "icystats",
+        "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-stat-priority",
+        "requested_url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-stat-priority",
+        "retrieved_at": "2026-11-13T05:24:46.638Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:24:47 GMT",
+        "error": null
+      },
+      {
+        "key": "icygear",
+        "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot",
+        "requested_url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot",
+        "retrieved_at": "2026-11-13T05:24:46.637Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:24:47 GMT",
+        "error": null
+      },
+      {
+        "key": "methodgear",
+        "url": "https://www.method.gg/guides/elemental-shaman/gearing",
+        "requested_url": "https://www.method.gg/guides/elemental-shaman/gearing",
+        "retrieved_at": "2026-11-13T05:24:46.635Z",
+        "http_status": 200,
+        "http_date": "Fri, 13 Nov 2026 05:24:46 GMT",
+        "error": null
+      },
+      {
+        "key": "wowheadstats",
+        "url": "https://www.wowhead.com/guide/classes/shaman/elemental/stat-priority-pve-dps",
+        "requested_url": "https://www.wowhead.com/guide/classes/shaman/elemental/stat-priority-pve-dps",
+        "retrieved_at": "2026-11-13T05:25:03.822Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:25:03 GMT",
+        "error": null
+      },
+      {
+        "key": "wowheadgear",
+        "url": "https://www.wowhead.com/guide/classes/shaman/elemental/bis-gear",
+        "requested_url": "https://www.wowhead.com/guide/classes/shaman/elemental/bis-gear",
+        "retrieved_at": "2026-11-13T05:25:03.821Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:25:04 GMT",
+        "error": null
+      },
+      {
+        "key": "stormbringer",
+        "url": "https://murlok.io/shaman/elemental/stormbringer/m+",
+        "requested_url": "https://murlok.io/shaman/elemental/stormbringer/m+",
+        "retrieved_at": "2026-11-13T05:25:03.819Z",
+        "http_status": 200,
+        "http_date": "Fri, 13 Nov 2026 05:25:04 GMT",
+        "error": null
+      },
+      {
+        "key": "farseer",
+        "url": "https://murlok.io/shaman/elemental/farseer/m+",
+        "requested_url": "https://murlok.io/shaman/elemental/farseer/m+",
+        "retrieved_at": "2026-11-13T05:25:03.814Z",
+        "http_status": 200,
+        "http_date": "Fri, 13 Nov 2026 05:25:04 GMT",
+        "error": null
+      },
+      {
+        "key": "far5",
+        "url": "https://murlok.io/character/eu/tarren-mill/stoveteacher/pve",
+        "requested_url": "https://murlok.io/character/eu/tarren-mill/stoveteacher/pve",
+        "retrieved_at": "2026-11-13T05:25:21.485Z",
+        "http_status": 200,
+        "http_date": "Fri, 13 Nov 2026 05:25:21 GMT",
+        "error": null
+      },
+      {
+        "key": "far2",
+        "url": "https://murlok.io/character/eu/kazzak/freaksh/pve",
+        "requested_url": "https://murlok.io/character/eu/kazzak/freaksh/pve",
+        "retrieved_at": "2026-11-13T05:25:21.484Z",
+        "http_status": 200,
+        "http_date": "Fri, 13 Nov 2026 05:25:21 GMT",
+        "error": null
+      },
+      {
+        "key": "far4",
+        "url": "https://murlok.io/character/us/illidan/bondd/pve",
+        "requested_url": "https://murlok.io/character/us/illidan/bondd/pve",
+        "retrieved_at": "2026-11-13T05:25:21.485Z",
+        "http_status": 200,
+        "http_date": "Fri, 13 Nov 2026 05:25:21 GMT",
+        "error": null
+      },
+      {
+        "key": "far1",
+        "url": "https://murlok.io/character/eu/twisting-nether/sjelemental/pve",
+        "requested_url": "https://murlok.io/character/eu/twisting-nether/sjelemental/pve",
+        "retrieved_at": "2026-11-13T05:25:21.482Z",
+        "http_status": 200,
+        "http_date": "Fri, 13 Nov 2026 05:25:21 GMT",
+        "error": null
+      },
+      {
+        "key": "far3",
+        "url": "https://murlok.io/character/eu/tarren-mill/hearthjacke/pve",
+        "requested_url": "https://murlok.io/character/eu/tarren-mill/hearthjacke/pve",
+        "retrieved_at": "2026-11-13T05:25:21.484Z",
+        "http_status": 200,
+        "http_date": "Fri, 13 Nov 2026 05:25:22 GMT",
+        "error": null
+      },
+      {
+        "key": "item271092",
+        "url": "https://nether.wowhead.com/tooltip/item/271092?dataEnv=1&locale=0",
+        "requested_url": "https://nether.wowhead.com/tooltip/item/271092?dataEnv=1&locale=0",
+        "retrieved_at": "2026-11-13T05:27:05.301Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:27:05 GMT",
+        "error": null
+      },
+      {
+        "key": "item268196",
+        "url": "https://nether.wowhead.com/tooltip/item/268196?dataEnv=1&locale=0",
+        "requested_url": "https://nether.wowhead.com/tooltip/item/268196?dataEnv=1&locale=0",
+        "retrieved_at": "2026-11-13T05:27:05.307Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:27:05 GMT",
+        "error": null
+      },
+      {
+        "key": "item281238",
+        "url": "https://nether.wowhead.com/tooltip/item/281238?dataEnv=1&locale=0",
+        "requested_url": "https://nether.wowhead.com/tooltip/item/281238?dataEnv=1&locale=0",
+        "retrieved_at": "2026-11-13T05:27:05.305Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:27:05 GMT",
+        "error": null
+      },
+      {
+        "key": "item271876",
+        "url": "https://nether.wowhead.com/tooltip/item/271876?dataEnv=1&locale=0",
+        "requested_url": "https://nether.wowhead.com/tooltip/item/271876?dataEnv=1&locale=0",
+        "retrieved_at": "2026-11-13T05:27:05.304Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:27:05 GMT",
+        "error": null
+      },
+      {
+        "key": "item268265",
+        "url": "https://nether.wowhead.com/tooltip/item/268265?dataEnv=1&locale=0",
+        "requested_url": "https://nether.wowhead.com/tooltip/item/268265?dataEnv=1&locale=0",
+        "retrieved_at": "2026-11-13T05:27:05.303Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:27:05 GMT",
+        "error": null
+      },
+      {
+        "key": "item281215",
+        "url": "https://nether.wowhead.com/tooltip/item/281215?dataEnv=1&locale=0",
+        "requested_url": "https://nether.wowhead.com/tooltip/item/281215?dataEnv=1&locale=0",
+        "retrieved_at": "2026-11-13T05:27:05.306Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:27:05 GMT",
+        "error": null
+      },
+      {
+        "key": "item273796",
+        "url": "https://nether.wowhead.com/tooltip/item/273796?dataEnv=1&locale=0",
+        "requested_url": "https://nether.wowhead.com/tooltip/item/273796?dataEnv=1&locale=0",
+        "retrieved_at": "2026-11-13T05:27:05.306Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:27:05 GMT",
+        "error": null
+      },
+      {
+        "key": "item270164",
+        "url": "https://nether.wowhead.com/tooltip/item/270164?dataEnv=1&locale=0",
+        "requested_url": "https://nether.wowhead.com/tooltip/item/270164?dataEnv=1&locale=0",
+        "retrieved_at": "2026-11-13T05:27:05.306Z",
+        "http_status": 403,
+        "http_date": "Fri, 13 Nov 2026 05:27:05 GMT",
+        "error": null
+      }
+    ],
+    "fallback": "Direct Wowhead and Icy requests returned 403. A new unnamed disposable headless Stealth instance successfully read the author guides; the instance was then closed.",
+    "retry_policy": "No automated retry/backoff loop; changed transport after explicit 403. An oversized HTML transfer was reduced to text and metadata.",
+    "external_domains": [
+      "murlok.io",
+      "www.method.gg",
+      "www.icy-veins.com",
+      "www.wowhead.com",
+      "nether.wowhead.com"
+    ]
+  },
+  "main_thread_progress_user_report": {
+    "major_trinkets_already_tested": true,
+    "comparison": "Bag 334 is close to Flask 334 / Vile Vial 334",
+    "h5_ring_improvement_percent_range": [
+      0.5,
+      0.7
+    ],
+    "current_setup_assessment": "Mature",
+    "independently_reproduced_by_this_research": false
+  }
+}

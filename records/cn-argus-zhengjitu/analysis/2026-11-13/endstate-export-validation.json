@@ -1,0 +1,34 @@
+[
+  {
+    "name": "endstate-dungeon.simc",
+    "gear_equal": true,
+    "valid": true,
+    "no_severe": true,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "endstate-single-target.simc",
+    "gear_equal": true,
+    "valid": true,
+    "no_severe": true,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "endstate-claw.simc",
+    "gear_equal": true,
+    "valid": true,
+    "no_severe": true,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "endstate-vial.simc",
+    "gear_equal": true,
+    "valid": true,
+    "no_severe": true,
+    "exit_code": 0,
+    "passed": true
+  }
+]

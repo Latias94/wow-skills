@@ -1,0 +1,50 @@
+[
+  {
+    "file": "live70783-aoe-ascend_chest_341-1500-26111331.validation.json",
+    "reason": "Unobtainable armor ascension: official CN12.1.5 notes restrict stones to weapons/trinkets/necklaces. SimC ilevel override parsing alone is insufficient. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-aoe-ascend_chest_341-6000-26111353.validation.json",
+    "reason": "Unobtainable armor ascension: official CN12.1.5 notes restrict stones to weapons/trinkets/necklaces. SimC ilevel override parsing alone is insufficient. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-aoe-target_chest341-1500-26111331.validation.json",
+    "reason": "Unobtainable armor ascension: official CN12.1.5 notes restrict stones to weapons/trinkets/necklaces. SimC ilevel override parsing alone is insufficient. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-aoe-vendor_cloak_272228-1500-26111331.validation.json",
+    "reason": "Illegal slot: item272228 is a neck item (inventory_type2), not a cloak. Native import parsing did not reject this. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-aoe-vendor_legs-1500-26111331.validation.json",
+    "reason": "Illegal slot: item272250 is a head item (inventory_type1), not legs. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-long-ascend_chest_341-6000-26111353.validation.json",
+    "reason": "Unobtainable armor ascension: official CN12.1.5 notes restrict stones to weapons/trinkets/necklaces. SimC ilevel override parsing alone is insufficient. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-st-ascend_chest_341-1500-26111331.validation.json",
+    "reason": "Unobtainable armor ascension: official CN12.1.5 notes restrict stones to weapons/trinkets/necklaces. SimC ilevel override parsing alone is insufficient. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-st-ascend_chest_341-6000-26111353.validation.json",
+    "reason": "Unobtainable armor ascension: official CN12.1.5 notes restrict stones to weapons/trinkets/necklaces. SimC ilevel override parsing alone is insufficient. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-st-target_chest341-1500-26111331.validation.json",
+    "reason": "Unobtainable armor ascension: official CN12.1.5 notes restrict stones to weapons/trinkets/necklaces. SimC ilevel override parsing alone is insufficient. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-st-vendor_cloak_272228-1500-26111331.validation.json",
+    "reason": "Illegal slot: item272228 is a neck item (inventory_type2), not a cloak. Native import parsing did not reject this. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-st-vendor_legs-1500-26111331.validation.json",
+    "reason": "Illegal slot: item272250 is a head item (inventory_type1), not legs. Excluded from all recommendations."
+  },
+  {
+    "file": "live70783-stats-ascend_chest_341-20-26111355.validation.json",
+    "reason": "Unobtainable armor ascension: official CN12.1.5 notes restrict stones to weapons/trinkets/necklaces. SimC ilevel override parsing alone is insufficient. Excluded from all recommendations."
+  }
+]

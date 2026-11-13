@@ -1,0 +1,11 @@
+# Preserve the byte-level provenance of the dated simulation archive on Windows.
+analysis/2026-11-13/*.simc text eol=lf
+analysis/2026-11-13/*.json text eol=lf
+analysis/2026-11-13/*.py text eol=lf
+analysis/2026-11-13/*.html text eol=lf
+analysis/2026-11-13/*.md text eol=lf
+analysis/2026-11-13/.gitignore text eol=lf
+analysis/2026-11-13/*.png -text
+snapshots/2026-11-13-1320.simc text eol=lf
+snapshots/2026-11-13-1320.items.json text eol=lf
+weeks/2026-11-12.json text eol=lf

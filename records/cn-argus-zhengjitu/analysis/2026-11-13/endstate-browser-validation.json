@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-11-13T07:23:26.179Z",
+  "desktop": {
+    "success": true,
+    "result": {
+      "width": 1422,
+      "overflow": false,
+      "allImages": true,
+      "currentRows": 16,
+      "targetRows": 16,
+      "comparisons": 12,
+      "models": [
+        {
+          "id": "aoe",
+          "shown": true
+        },
+        {
+          "id": "long",
+          "shown": true
+        },
+        {
+          "id": "st",
+          "shown": true
+        }
+      ],
+      "downloads": [
+        {
+          "label": "终局A大米参考SimC",
+          "status": 200
+        },
+        {
+          "label": "终局A保存单体天赋参考",
+          "status": 200
+        },
+        {
+          "label": "只替换H5爪戒的同套对照",
+          "status": 200
+        },
+        {
+          "label": "334披风＋神话大毒液341备选",
+          "status": 200
+        },
+        {
+          "label": "全部终局数据与逐模型差异",
+          "status": 200
+        },
+        {
+          "label": "终局输入与来源范围",
+          "status": 200
+        },
+        {
+          "label": "来源审查与获取条件",
+          "status": 200
+        },
+        {
+          "label": "前一版本周方案",
+          "status": 200
+        }
+      ],
+      "nativeTitles": 0
+    },
+    "error": null
+  },
+  "mobile": {
+    "success": true,
+    "result": {
+      "width": 390,
+      "overflow": false,
+      "allImages": true,
+      "navScrollable": true
+    },
+    "error": null
+  },
+  "export_reimports_passed": 4,
+  "final_comparisons": 36,
+  "owned_R_balance_unchanged": 1,
+  "current_vendor_redemptions_unchanged": 1,
+  "screenshots": [
+    "endstate-desktop.png",
+    "endstate-mobile.png"
+  ]
+}

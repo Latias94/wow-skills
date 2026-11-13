@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-argus-zhengjitu",
+  "reset_date": "2026-11-12",
+  "observed_at": "2026-11-13T13:20:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "patch": "12.1.5.70783",
+  "season": "Midnight Season2",
+  "budget": {
+    "reported_balance": 1,
+    "reported_at": "2026-11-13T13:20:00+08:00",
+    "current_balance": 1,
+    "raw_currencies": {
+      "3418": 1,
+      "3511": 0
+    },
+    "evidence": "bonus_roll_currencies=3418:1/3511:0",
+    "accounting": "New baseline, all preceding history already included."
+  },
+  "resources": {
+    "venomstones": 8,
+    "venomstone_item_id": 280562,
+    "tidal_sparks": 3,
+    "tidal_spark_item_id": 274476,
+    "mythic_crests": 105,
+    "mythic_crest_currency_id": 3446,
+    "current_catalyst_charges": 8,
+    "catalyst_currency_id": 3465,
+    "socket_tools": null,
+    "socket_tools_note": "The earlier one-tool declaration belongs to warrior Suoergelin, not this character. No Elemental ownership inferred.",
+    "raw_upgrade_currencies": "c:2122:5/c:3442:889/c:3445:225/c:3443:860/c:1813:3530/c:3444:728/c:3446:105/i:210233:6/i:230906:2/i:268552:3/i:280562:8/i:224072:1/i:274476:3/i:231756:2/i:204276:16/i:232875:6/i:211296:8"
+  },
+  "vault": {
+    "status": "offered",
+    "candidates": [
+      {
+        "source": "raid",
+        "index": 1,
+        "item_id": 268254,
+        "name": "蛇形调配腰带",
+        "item_level": 318,
+        "upgrade_track": "Myth1/6",
+        "bonus_ids": null,
+        "evidence": "User Great Vault screenshot; exact tooltip not supplied",
+        "normal_max_item_level": 334,
+        "track_evidence": "User confirmed 神话1/6 in current conversation."
+      },
+      {
+        "source": "raid",
+        "index": 2,
+        "item_id": 270170,
+        "name": "维克苏尔的涌流腺体",
+        "item_level": 318,
+        "upgrade_track": "Myth1/6",
+        "bonus_ids": null,
+        "evidence": "User Great Vault screenshot; exact tooltip not supplied",
+        "normal_max_item_level": 334,
+        "track_evidence": "User confirmed 神话1/6 in current conversation."
+      },
+      {
+        "source": "raid",
+        "index": 3,
+        "item_id": 268248,
+        "name": "阿曼尼召唤披巾",
+        "item_level": 318,
+        "upgrade_track": "Myth1/6",
+        "bonus_ids": null,
+        "evidence": "User Great Vault screenshot; exact tooltip not supplied",
+        "normal_max_item_level": 334,
+        "track_evidence": "User confirmed 神话1/6 in current conversation."
+      },
+      {
+        "source": "dungeon",
+        "index": 1,
+        "item_id": 250215,
+        "name": "货运者水壶",
+        "item_level": 318,
+        "upgrade_track": "Myth1/6",
+        "bonus_ids": null,
+        "evidence": "User Great Vault screenshot; exact tooltip not supplied",
+        "normal_max_item_level": 334,
+        "track_evidence": "User confirmed 神话1/6 in current conversation."
+      },
+      {
+        "source": "dungeon",
+        "index": 2,
+        "item_id": 273780,
+        "name": "毒液蚀刻新月刃",
+        "item_level": 318,
+        "upgrade_track": "Myth1/6",
+        "bonus_ids": null,
+        "evidence": "User Great Vault screenshot; exact tooltip not supplied",
+        "normal_max_item_level": 334,
+        "track_evidence": "User confirmed 神话1/6 in current conversation."
+      }
+    ],
+    "chosen_event_id": null,
+    "export_candidates_empty": true,
+    "evidence": "Screenshot overrides empty Weekly Reward Choices export for offer availability."
+  },
+  "kindo_jan": {
+    "status": "unclaimed",
+    "remaining_redemptions": 1,
+    "available_rewards": null,
+    "evidence": "User: 金多赞的我也还没兑换",
+    "owned_fragments": 3,
+    "payment_item_id": 285065,
+    "per_item_price": 3,
+    "start_item_level": 321,
+    "start_track": "Myth2/6",
+    "normal_max_item_level": 334,
+    "catalogue_evidence": "../analysis/2026-11-13/reward-source-evidence.json"
+  },
+  "rules": {
+    "raid_roll_cost": 1,
+    "remaining_pool_verified": false,
+    "exclusion_scope": null,
+    "vault_merit_for_five_unlocked_slots": 6,
+    "socket_tool_merit_cost": 6,
+    "vault_direct_R_alternative": 1,
+    "ascension_allowed_slots": [
+      "weapons",
+      "trinkets",
+      "necklaces"
+    ]
+  },
+  "pools": [
+    {
+      "pool_key": "H5_Sszorak",
+      "user_alias": "H5",
+      "boss_name_en": "Sszorak",
+      "npc_id": null,
+      "source_cache_item_id": 278288,
+      "difficulty": "Heroic",
+      "difficulty_id": 15,
+      "ordinary_heroic_drop": {
+        "item_level": 311,
+        "track": "Hero 3/6",
+        "very_rare_variants_require_individual_tooltip": true
+      },
+      "bonus_roll_reward": {
+        "currency_id": 3418,
+        "cost": 1,
+        "item_level": 318,
+        "track": "Myth 1/6",
+        "normal_cap": 334
+      },
+      "ordinary_loot": {
+        "item_ids": [
+          268201,
+          268206,
+          268233,
+          268234,
+          268252,
+          268257,
+          270163,
+          270174,
+          270918,
+          270919,
+          270920,
+          270921
+        ],
+        "completeness": "Complete gear/token source set in fetched Raidbots snapshot; excludes cosmetics and does not certify in-game R."
+      },
+      "loot_spec_filtered_ordinary_ids": {
+        "262": [
+          268233,
+          268252,
+          270920
+        ],
+        "264": [
+          268233,
+          268252,
+          270920
+        ]
+      },
+      "derived_bonus_roll_candidate_ids": {
+        "262": [
+          268233,
+          268252,
+          270920
+        ],
+        "264": [
+          268233,
+          268252,
+          270920
+        ]
+      },
+      "filter_method": "Explicit specs for role-limited items/tokens; otherwise caster stat, weapon proficiency and primary armor proficiency. This is a database-derived filter, not a live EJ or character Bonus Loot query.",
+      "role_limited_item_masks": [
+        {
+          "item_id": 270163,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270174,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270918,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270919,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270920,
+          "shaman_caster_specs": [
+            262,
+            264
+          ]
+        },
+        {
+          "item_id": 270921,
+          "shaman_caster_specs": []
+        }
+      ],
+      "tokens_or_curios": [
+        {
+          "item_id": 270920,
+          "equipment_item": false,
+          "can_simulate_token_directly": false,
+          "bonus_roll_acquisition_confirmed_in_supplied_history": true,
+          "nonrollable_maintainer_report": false
+        }
+      ],
+      "historical_rolls": [
+        {
+          "raw": "3418:278288:95:3:270920:262",
+          "currency_id": 3418,
+          "source_item_id": 278288,
+          "context": 95,
+          "key_level": 3,
+          "item_id": 270920,
+          "spec_id": 262,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        }
+      ],
+      "actual_remaining_R_pool": {
+        "item_ids": null,
+        "count": null,
+        "exclusion_context_5_95_shared": null,
+        "exclusion_across_loot_specs_verified": null,
+        "collection_cycle_or_reset": null,
+        "current_week_eligible": null,
+        "weights": null,
+        "probability": null
+      },
+      "notes": [
+        "268206 is an Agility one-handed mace, not an Intellect caster candidate. 270163 is strength-role and270174 tank-role."
+      ],
+      "source_ids": [
+        "raidbots_live",
+        "sszorak_guide",
+        "current_voidforge_guide"
+      ],
+      "raidbots_source_instance_id": 1320,
+      "raidbots_source_encounter_id": 2871
+    }
+  ],
+  "plan": {
+    "status": "proposed_not_executed",
+    "analysis": "../analysis/2026-11-13/report.html",
+    "coins_allocated_now": 0,
+    "coins_reserved": 1,
+    "vendor_fragments_planned": 3,
+    "vendor_item_id": 272148,
+    "vault_planned_choice": "6merit_to_one_socket_tool",
+    "socket_planned_slot": "wrist",
+    "socket_planned_gem": 240890,
+    "new_sockets_planned": 1,
+    "sparks_planned": 0,
+    "venomstones_planned_now": 0,
+    "sequence": [
+      "Exchange3 confirmed fragments for Myth2/6 AnguineGyre272148; upgrade334 then replace321Amani.",
+      "Claim6VaultMerit, buy one current-season socket tool; socket the retained Arcanoweave wrist once.",
+      "Use hasteflask2 with this complete candidate; retain other gems and gear.",
+      "Keep the existing1R unless actualH5 reward preview makes the smallClawRing target compelling.",
+      "At10venomstones consider the owned334GebboBag to341,not armor ascension."
+    ],
+    "H5_spec": "Elemental262 andRestoration264 have the same database-derived pool; no restoration shrink advantage.",
+    "H5_if_target_obtained_first": "Do not auto-spend the unique vendor redemption on wrists; final full-set comparison versus keeping the owned wrist is near uncertainty.",
+    "stop": "No H8weapon/neck/chest orH10tendril/Swarmcaller/glove chasing; those cores are already owned.",
+    "accounting": "A proposal only; current1R,3fragments,unclaimedVault,8stones remain unchanged."
+  },
+  "events": [
+    {
+      "event_id": "addon-history-7c4845cdddccddc6",
+      "reported_at": "2026-11-13T13:20:00+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "item_id": 268265,
+      "loot_spec_id": 264,
+      "source_id": 278284,
+      "item_context": 5,
+      "treasure_context_level": 4,
+      "currency_id": 3418,
+      "outcome": "item",
+      "raw": "3418:278284:5:4:268265:264",
+      "evidence": "Current full SimC addon bonus_roll_items export",
+      "budget_effect_now": 0,
+      "accounting": "Historical acquisition already included in the newly reported one-coin balance; do not deduct again."
+    },
+    {
+      "event_id": "addon-history-87810643af122b66",
+      "reported_at": "2026-11-13T13:20:00+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "item_id": 271092,
+      "loot_spec_id": 264,
+      "source_id": 278284,
+      "item_context": 5,
+      "treasure_context_level": 4,
+      "currency_id": 3418,
+      "outcome": "item",
+      "raw": "3418:278284:5:4:271092:264",
+      "evidence": "Current full SimC addon bonus_roll_items export",
+      "budget_effect_now": 0,
+      "accounting": "Historical acquisition already included in the newly reported one-coin balance; do not deduct again."
+    },
+    {
+      "event_id": "addon-history-68b095809ab8bc8f",
+      "reported_at": "2026-11-13T13:20:00+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "item_id": 271876,
+      "loot_spec_id": 264,
+      "source_id": 278284,
+      "item_context": 5,
+      "treasure_context_level": 4,
+      "currency_id": 3418,
+      "outcome": "item",
+      "raw": "3418:278284:5:4:271876:264",
+      "evidence": "Current full SimC addon bonus_roll_items export",
+      "budget_effect_now": 0,
+      "accounting": "Historical acquisition already included in the newly reported one-coin balance; do not deduct again."
+    },
+    {
+      "event_id": "addon-history-fa6f7376d94282c3",
+      "reported_at": "2026-11-13T13:20:00+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "item_id": 268196,
+      "loot_spec_id": 262,
+      "source_id": 278286,
+      "item_context": 95,
+      "treasure_context_level": 2,
+      "currency_id": 3418,
+      "outcome": "item",
+      "raw": "3418:278286:95:2:268196:262",
+      "evidence": "Current full SimC addon bonus_roll_items export",
+      "budget_effect_now": 0,
+      "accounting": "Historical acquisition already included in the newly reported one-coin balance; do not deduct again."
+    },
+    {
+      "event_id": "addon-history-77a49796c28e3a2a",
+      "reported_at": "2026-11-13T13:20:00+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "item_id": 268258,
+      "loot_spec_id": 262,
+      "source_id": 278286,
+      "item_context": 95,
+      "treasure_context_level": 2,
+      "currency_id": 3418,
+      "outcome": "item",
+      "raw": "3418:278286:95:2:268258:262",
+      "evidence": "Current full SimC addon bonus_roll_items export",
+      "budget_effect_now": 0,
+      "accounting": "Historical acquisition already included in the newly reported one-coin balance; do not deduct again."
+    },
+    {
+      "event_id": "addon-history-c64b78d98dfa2e0a",
+      "reported_at": "2026-11-13T13:20:00+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "item_id": 270924,
+      "loot_spec_id": 262,
+      "source_id": 278286,
+      "item_context": 95,
+      "treasure_context_level": 2,
+      "currency_id": 3418,
+      "outcome": "item",
+      "raw": "3418:278286:95:2:270924:262",
+      "evidence": "Current full SimC addon bonus_roll_items export",
+      "budget_effect_now": 0,
+      "accounting": "Historical acquisition already included in the newly reported one-coin balance; do not deduct again."
+    },
+    {
+      "event_id": "addon-history-8d9613b85ff67acc",
+      "reported_at": "2026-11-13T13:20:00+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "item_id": 270920,
+      "loot_spec_id": 262,
+      "source_id": 278288,
+      "item_context": 95,
+      "treasure_context_level": 3,
+      "currency_id": 3418,
+      "outcome": "item",
+      "raw": "3418:278288:95:3:270920:262",
+      "evidence": "Current full SimC addon bonus_roll_items export",
+      "budget_effect_now": 0,
+      "accounting": "Historical acquisition already included in the newly reported one-coin balance; do not deduct again."
+    },
+    {
+      "event_id": "addon-history-a161ef8859326a13",
+      "reported_at": "2026-11-13T13:20:00+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "item_id": 281238,
+      "loot_spec_id": 262,
+      "source_id": 286019,
+      "item_context": 5,
+      "treasure_context_level": 3,
+      "currency_id": 3418,
+      "outcome": "item",
+      "raw": "3418:286019:5:3:281238:262",
+      "evidence": "Current full SimC addon bonus_roll_items export",
+      "budget_effect_now": 0,
+      "accounting": "Historical acquisition already included in the newly reported one-coin balance; do not deduct again."
+    },
+    {
+      "event_id": "addon-history-98475f3854b7f592",
+      "reported_at": "2026-11-13T13:20:00+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "item_id": 281029,
+      "loot_spec_id": 262,
+      "source_id": 286019,
+      "item_context": 95,
+      "treasure_context_level": 3,
+      "currency_id": 3418,
+      "outcome": "item",
+      "raw": "3418:286019:95:3:281029:262",
+      "evidence": "Current full SimC addon bonus_roll_items export",
+      "budget_effect_now": 0,
+      "accounting": "Historical acquisition already included in the newly reported one-coin balance; do not deduct again."
+    },
+    {
+      "event_id": "addon-history-b980a22a4af5a5eb",
+      "reported_at": "2026-11-13T13:20:00+08:00",
+      "occurred_at": null,
+      "kind": "bonus_roll",
+      "status": "confirmed",
+      "item_id": 281215,
+      "loot_spec_id": 262,
+      "source_id": 286019,
+      "item_context": 95,
+      "treasure_context_level": 3,
+      "currency_id": 3418,
+      "outcome": "item",
+      "raw": "3418:286019:95:3:281215:262",
+      "evidence": "Current full SimC addon bonus_roll_items export",
+      "budget_effect_now": 0,
+      "accounting": "Historical acquisition already included in the newly reported one-coin balance; do not deduct again."
+    }
+  ],
+  "earlier_history_records": [
+    "2026-10-22.json"
+  ],
+  "unresolved": [
+    "Current selected-spec remaining R preview and weekly eligibility",
+    "Server exclusion sharing across context5/95 and loot specs",
+    "Gold/recraft and actual upgrade discounts",
+    "Selected merchant item full bonus chain and socket preview; full Vault item links"
+  ],
+  "endstate_plan": {
+    "status": "proposed_not_executed",
+    "analysis": "../analysis/2026-11-13/endstate-report.html",
+    "primary_ring": 272148,
+    "claw_is_mandatory": false,
+    "future_bag_level": 341,
+    "future_wrist_and_waist_sockets": true,
+    "lining_layout_options": [
+      [
+        "back",
+        "wrist"
+      ],
+      [
+        "wrist",
+        "waist"
+      ]
+    ],
+    "future_vendor_cap": 2,
+    "current_owned_fragments": 3,
+    "current_available_redemptions": 1,
+    "current_R_balance": 1,
+    "R_optional_target_ids": [
+      268252,
+      268233
+    ],
+    "no_spending_or_acquisition_recorded": true
+  }
+}

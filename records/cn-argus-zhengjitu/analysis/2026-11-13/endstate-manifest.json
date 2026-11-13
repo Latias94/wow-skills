@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-11-13T15:17:08.673451+08:00",
+  "scope": "Future attainableBiS,not weekly affordability;ordinary334/crafted331/qualifying341;two vendor items at most in the full quest chain,onlyone currently reported.",
+  "raw_sha256": "68f74d08ed2abdcab1af182ce9805ef93eccbd12163f13b12d6a069266230f22",
+  "engine_sha256": "57c6858151630ea8e70b8f714d18c94a172aaf0e2bad5699d9bf5cf613674160",
+  "source_commit": "de11f57df75dda668bae6ac7043a43b98831fa96",
+  "models": {
+    "long": [
+      5,
+      180
+    ],
+    "aoe": [
+      5,
+      90
+    ],
+    "st": [
+      1,
+      240
+    ]
+  },
+  "screen_seed": 26111371,
+  "sockets": "Head1,neck2,rings1each,wrist1,waist1;one diamond maximum;no extra head/neck/ring sockets.",
+  "limitations": "Fixed-target supported Patchwerk only. Gloves/Swarmcaller damage splitting and rune targets unverified. Future source and socket eligibility qualified separately."
+}

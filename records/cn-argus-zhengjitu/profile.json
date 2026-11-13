@@ -9,34 +9,46 @@
   "combat_spec": "elemental",
   "target_spec": "elemental",
   "hero_talents": "farseer",
-  "hero_talents_evidence": "Current full talent string decoded against local 12.1.5 SimC trait data; active hero subtree 56, corroborated by ancestor pet/call_of_the_ancestors in smoke output.",
+  "hero_talents_evidence": "2026-11-13 native Live70783 smoke: ancestor pet, call_of_the_ancestors and ancestral_swiftness. Current and saved single-target talents preserved separately.",
   "primary_content": "mythic_plus",
-  "goal": "Compare personal current improvements and attainable complete Mythic+ and raid loadouts, then derive crafting/ascension/roll routes.",
+  "goal": "Prioritize attainable complete Farseer end-state power, then derive weekly actions; keep current-week affordability separate.",
   "constraints": {
     "comparison_loot_ilvl": 334,
     "comparison_crafted_ilvl": 331,
     "ascended_mythic_ilvl": 341,
     "ascended_crafted_ilvl": 337,
-    "ascended_model": "Oct 23 screenshot rule explicitly overrides Oct 22 engine item levels; pending native DBC",
-    "mythic_overcap_loot_assumed": false
+    "ascended_model": "Native Live70783 DBC with explicit current bonus IDs; remote midnight SHA de11f57df75dda668bae6ac7043a43b98831fa96 matched on 2026-11-13.",
+    "mythic_overcap_loot_assumed": false,
+    "exclude": "Mythic raid bosses7/8 9/6 versions; acquisition range carried forward from conversation.",
+    "ascension_allowed_slots": [
+      "weapons",
+      "trinkets",
+      "necklaces"
+    ]
   },
-  "latest_simc": "snapshots/2026-10-23.simc",
-  "latest_items": "snapshots/2026-10-23.items.json",
-  "roll_history_coverage": "partial",
-  "notes": "Character is separate from Shaseng. No roll acquisition method is inferred from gear. Raid uses saved 单体 talents; dungeon uses exported active talents. Both trees are Farseer; gear comparisons keep chosen mode talents and race fixed. User subsequently confirms H3 bag270164 was bonus-rolled and H7 has never been bonus-rolled; other history remains incomplete.",
-  "snapshot_sha256": "11540efcd8f44631c9031ee47463d6c6d04bb3e227df0f5c1b7d828193cebbee",
-  "latest_analysis": "analysis/2026-10-23/dashboard.html",
-  "latest_recommendation": "analysis/2026-10-23/recommendation.md",
-  "recommended_raid_simc": "analysis/2026-10-23/recommended-raid.simc",
-  "recommended_dungeon_reference_simc": "analysis/2026-10-23/recommended-dungeon.simc",
+  "latest_simc": "snapshots/2026-11-13-1320.simc",
+  "latest_items": "snapshots/2026-11-13-1320.items.json",
+  "roll_history_coverage": "partial_exported_ten_rows_plus_earlier_user_confirmations",
+  "notes": "Current snapshot replaces older gear and budget assumptions. Existing 334 Gebbo bag and 341 dagger/neck/tendril are owned. Vault offers and Kindo'jan redemption are unclaimed. Imported addon roll rows do not establish complete remaining pools or cross-context/shared-spec exclusion.",
+  "snapshot_sha256": "68f74d08ed2abdcab1af182ce9805ef93eccbd12163f13b12d6a069266230f22",
+  "latest_analysis": "analysis/2026-11-13/report.html",
+  "latest_recommendation": "analysis/2026-11-13/review.md",
+  "recommended_raid_simc": "analysis/2026-11-13/recommended-raid-reference.simc",
+  "recommended_dungeon_reference_simc": "analysis/2026-11-13/recommended-dungeon.simc",
   "model_constraints": {
-    "raid": "Patchwerk 1 target, 240 seconds, saved single-target talents",
-    "dungeon_reference": "Supported Patchwerk 5 targets, 90 seconds; sensitivity 5/8 targets 40 seconds and 1 target 180 seconds, exported active talents. Not an actual dungeon route.",
+    "raid": "Supported Patchwerk1 target240s; supplied saved single-target talents, no raid buffs/bloodlust for controlled gear comparison.",
+    "dungeon_reference": "Supported Patchwerk5 targets90s and180s; burst sensitivity8 targets40s, supplied active talents. Not an actual dungeon route.",
     "rejected": [
       "DungeonSlice",
       "DungeonRoute"
     ],
     "rejection_reason": "Elemental module explicitly rejects these models; old DungeonSlice outputs archived and excluded from recommendations."
   },
-  "latest_roll_followup": "analysis/2026-10-23/followup-comparison.md"
+  "latest_roll_followup": "analysis/2026-10-23/followup-comparison.md",
+  "previous_analysis": "analysis/2026-10-23/dashboard.html",
+  "target_slot_map": "analysis/2026-11-13/target-slot-map.json",
+  "target_loadouts_status": "Best-tested bounded practical candidates,not acquisitions or globally optimizedBiS.",
+  "latest_endstate_analysis": "analysis/2026-11-13/endstate-report.html",
+  "endstate_dungeon_simc": "analysis/2026-11-13/endstate-dungeon.simc",
+  "endstate_slot_map": "analysis/2026-11-13/endstate-slot-map.json"
 }

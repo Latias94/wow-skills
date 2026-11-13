@@ -1,0 +1,254 @@
+[
+  {
+    "key": "cloak268248_ww_claw_ch",
+    "base": "ww_claw_ch",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "cloak272225_ww_claw_ch",
+    "base": "ww_claw_ch",
+    "changes": {
+      "back": "back=,id=272225,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "cloak272226_ww_claw_ch",
+    "base": "ww_claw_ch",
+    "changes": {
+      "back": "back=,id=272226,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "cloak268248_ww_serpent_ch",
+    "base": "ww_serpent_ch",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "cloak272225_ww_serpent_ch",
+    "base": "ww_serpent_ch",
+    "changes": {
+      "back": "back=,id=272225,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "cloak272226_ww_serpent_ch",
+    "base": "ww_serpent_ch",
+    "changes": {
+      "back": "back=,id=272226,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "cloak268248_ww_amani_ch",
+    "base": "ww_amani_ch",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "cloak272225_ww_amani_ch",
+    "base": "ww_amani_ch",
+    "changes": {
+      "back": "back=,id=272225,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "cloak272226_ww_amani_ch",
+    "base": "ww_amani_ch",
+    "changes": {
+      "back": "back=,id=272226,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "core_vial_ww_claw_ch",
+    "base": "ww_claw_ch",
+    "changes": {
+      "trinket2": "trinket2=,id=273796,ilevel=341,bonus_id=13334/12856"
+    }
+  },
+  {
+    "key": "core_flask_ww_claw_ch",
+    "base": "ww_claw_ch",
+    "changes": {
+      "trinket2": "trinket2=,id=250215,ilevel=341,bonus_id=13334/12856"
+    }
+  },
+  {
+    "key": "core_seastone_ww_claw_ch",
+    "base": "ww_claw_ch",
+    "changes": {
+      "trinket2": "trinket2=,id=270167,ilevel=341,bonus_id=13334/12856"
+    }
+  },
+  {
+    "key": "core_emblem_ww_claw_ch",
+    "base": "ww_claw_ch",
+    "changes": {
+      "trinket2": "trinket2=,id=273649,ilevel=341,bonus_id=13334/12856"
+    }
+  },
+  {
+    "key": "boots268233_ww_claw_ch",
+    "base": "ww_claw_ch",
+    "changes": {
+      "feet": "feet=,id=268233,ilevel=334,bonus_id=13334/12854,enchant_id=7963"
+    }
+  },
+  {
+    "key": "shield268262_ww_claw_ch",
+    "base": "ww_claw_ch",
+    "changes": {
+      "off_hand": "off_hand=,id=268262,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "head251220_ww_claw_ch",
+    "base": "ww_claw_ch",
+    "changes": {
+      "head": "head=,id=271483,enchant_id=8017,gem_id=240906,bonus_id=13334/6652/13695/13692/13698/12854,redirected_base_stats=251220"
+    }
+  },
+  {
+    "key": "finish_vaultcloak_claw",
+    "base": "tune_ww_claw_ch_mixed_crit",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "finish_vendorcloak_claw",
+    "base": "tune_ww_claw_ch_mixed_crit",
+    "changes": {
+      "back": "back=,id=272225,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "finish_vaultcloak_serpent",
+    "base": "tune_ww_claw_ch_mixed_crit",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854",
+      "finger1": "finger1=,id=272148,ilevel=334,bonus_id=13334/12854/13668,gem_id=240898,enchant_id=7967"
+    }
+  },
+  {
+    "key": "finish_vaultcloak_H5boots",
+    "base": "tune_ww_claw_ch_mixed_crit",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854",
+      "feet": "feet=,id=268233,ilevel=334,bonus_id=13334/12854,enchant_id=7963"
+    }
+  },
+  {
+    "key": "finish_vaultcloak_shield",
+    "base": "tune_ww_claw_ch_mixed_crit",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854",
+      "off_hand": "off_hand=,id=268262,ilevel=334,bonus_id=13334/12854"
+    }
+  },
+  {
+    "key": "finish_vaultcloak_head",
+    "base": "tune_ww_claw_ch_mixed_crit",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854",
+      "head": "head=,id=271483,enchant_id=8017,gem_id=240906,bonus_id=13334/6652/13695/13692/13698/12854,redirected_base_stats=251220"
+    }
+  },
+  {
+    "key": "finish_vaultcloak_vial",
+    "base": "tune_ww_claw_ch_mixed_crit",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854",
+      "trinket2": "trinket2=,id=273796,ilevel=341,bonus_id=13334/12856"
+    }
+  },
+  {
+    "key": "finish_vaultcloak_flask",
+    "base": "tune_ww_claw_ch_mixed_crit",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854",
+      "trinket2": "trinket2=,id=250215,ilevel=341,bonus_id=13334/12856"
+    }
+  },
+  {
+    "key": "finish_vaultcloak_wristCM",
+    "base": "tune_ww_claw_ch_mixed_crit",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854",
+      "wrist": "wrist=,id=244584,ilevel=331,bonus_id=12214/13667/12497/13751/14001/13836/8960/12384/13695,crafting_quality=5,content_tuning=3615,crafted_stats=32/49,gem_id=240890"
+    }
+  },
+  {
+    "key": "finish_vaultcloak_waistCM",
+    "base": "tune_ww_claw_ch_mixed_crit",
+    "changes": {
+      "back": "back=,id=268248,ilevel=334,bonus_id=13334/12854",
+      "waist": "waist=,id=244581,ilevel=331,bonus_id=12214/13667/12497/13751/14001/13836/8960/12384/13695,crafting_quality=5,content_tuning=3615,crafted_stats=32/49,gem_id=240898"
+    }
+  },
+  {
+    "key": "finish_staff337",
+    "base": "finish_vaultcloak_claw",
+    "changes": {
+      "main_hand": "main_hand=,id=245770,enchant_id=8689,bonus_id=12214/13667/12497/13751/14004/13771/8960/13836,content_tuning=3615,crafted_stats=32/36,crafting_quality=5,ilevel=337",
+      "waist": "waist=,id=268254,ilevel=334,bonus_id=13334/12854/13695,gem_id=240898"
+    },
+    "remove_slots": [
+      "off_hand"
+    ]
+  },
+  {
+    "key": "finish_ritual_offhand331",
+    "base": "finish_vaultcloak_claw",
+    "changes": {
+      "off_hand": "off_hand=,id=245769,ilevel=331,bonus_id=12214/13667/12497/13751/14001/13836/8960/13771,crafting_quality=5,content_tuning=3615,crafted_stats=32/36",
+      "waist": "waist=,id=268254,ilevel=334,bonus_id=13334/12854/13695,gem_id=240898"
+    }
+  },
+  {
+    "key": "finish_loa331",
+    "base": "finish_vaultcloak_claw",
+    "changes": {
+      "finger1": "finger1=,id=251513,ilevel=331,bonus_id=12214/13667/12497/13751/14001/13836,crafting_quality=5,content_tuning=3615,crafted_stats=32/49,gem_id=240898,enchant_id=7967",
+      "waist": "waist=,id=268254,ilevel=334,bonus_id=13334/12854/13695,gem_id=240898"
+    }
+  },
+  {
+    "key": "finish_head_boots",
+    "base": "finish_vaultcloak_head",
+    "changes": {
+      "feet": "feet=,id=268233,ilevel=334,bonus_id=13334/12854,enchant_id=7963"
+    }
+  },
+  {
+    "key": "gift_feet_currenthead",
+    "base": "finish_vaultcloak_claw",
+    "changes": {
+      "feet": "feet=,id=272248,ilevel=334,bonus_id=13334/12854,enchant_id=7963"
+    }
+  },
+  {
+    "key": "gift_shoulder_currenthead",
+    "base": "finish_vaultcloak_claw",
+    "changes": {
+      "shoulder": "shoulder=,id=272252,ilevel=334,bonus_id=13334/12854,enchant_id=8001"
+    }
+  },
+  {
+    "key": "gift_feet_dungeonhead",
+    "base": "finish_vaultcloak_head",
+    "changes": {
+      "feet": "feet=,id=272248,ilevel=334,bonus_id=13334/12854,enchant_id=7963"
+    }
+  },
+  {
+    "key": "gift_shoulder_dungeonhead",
+    "base": "finish_vaultcloak_head",
+    "changes": {
+      "shoulder": "shoulder=,id=272252,ilevel=334,bonus_id=13334/12854,enchant_id=8001"
+    }
+  }
+]

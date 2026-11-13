@@ -1,0 +1,15 @@
+# Local exploratory outputs remain available but are not part of the archive.
+*.run.log
+*.txt
+*.reimport.log
+*.reimport.json
+
+# Keep inputs, validation records, final raw results and unbuffed snapshots.
+live70783-*.json
+endstate70783-*.json
+!live70783-*.validation.json
+!endstate70783-*.validation.json
+!live70783-*-6000-*.json
+!endstate70783-*-6000-*.json
+!live70783-stats-*.json
+!endstate70783-stats-*.json

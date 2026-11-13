@@ -1,0 +1,269 @@
+{
+  "candidate": "target_vial_334",
+  "model": "aoe",
+  "iterations": 1500,
+  "seed": 26111331,
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "tier_count": 5,
+  "lining_count": 2,
+  "dps": 718826.9878193894,
+  "samples": 1499,
+  "ci95": 2311.353562463259,
+  "stats": {
+    "attribute": {
+      "strength": 363.0,
+      "agility": 618.0,
+      "stamina": 49568.0,
+      "intellect": 3663.0
+    },
+    "resources": {
+      "mana": 275000.0,
+      "maelstrom": 175.0
+    },
+    "stats": {
+      "spell_power": 3663.0,
+      "attack_power": 618.0,
+      "spell_crit": 0.24239130434782608,
+      "attack_crit": 0.24239130434782608,
+      "spell_haste": 0.806312695393389,
+      "attack_haste": 0.806312695393389,
+      "spell_cast_speed": 0.806312695393389,
+      "auto_attack_speed": 0.806312695393389,
+      "mastery_value": 0.6880434782608696,
+      "damage_versatility": 0.02240740740740741,
+      "heal_versatility": 0.02240740740740741,
+      "mitigation_versatility": 0.011203703703703705,
+      "crit_rating": 885.0,
+      "crit_pct": 0.24239130434782608,
+      "haste_rating": 898.0,
+      "haste_pct": 0.24021363636363624,
+      "mastery_rating": 1182.0,
+      "mastery_pct": 0.6880434782608696,
+      "versatility_rating": 121.0,
+      "versatility_pct": 0.02240740740740741,
+      "avoidance_rating": 253.0,
+      "avoidance_pct": 0.06874901862644091,
+      "speed_pct": 7.28,
+      "manareg_per_second": 2560.0,
+      "armor": 2954.0,
+      "dodge": 0.0623057147759712
+    }
+  },
+  "gear": {
+    "head": {
+      "name": "serpent_crown_of_the_ophidian_oracle",
+      "encoded_item": "serpent_crown_of_the_ophidian_oracle,id=271483,bonus_id=6652/12854/13334/13692/13695/13698,gem_id=240906,enchant_id=8017,redirected_base_stats=268230",
+      "ilevel": 334,
+      "agiint": 189,
+      "crit_rating": 136,
+      "mastery_rating": 64,
+      "stamina": 3910
+    },
+    "neck": {
+      "name": "aqirbane_reliquary",
+      "encoded_item": "aqirbane_reliquary,id=268265,bonus_id=6652/12856/13334/13668/13987,gem_id=240967/240914",
+      "ilevel": 341,
+      "crit_rating": 105,
+      "haste_rating": 105,
+      "mastery_rating": 105,
+      "stamina": 2382,
+      "versatility_rating": 105
+    },
+    "shoulders": {
+      "name": "hissing_mantle_of_the_ophidian_oracle",
+      "encoded_item": "hissing_mantle_of_the_ophidian_oracle,id=271481,bonus_id=6652/12854/13334/13694/13697,enchant_id=8001,redirected_base_stats=268231",
+      "ilevel": 334,
+      "agiint": 141,
+      "crit_rating": 46,
+      "mastery_rating": 105,
+      "stamina": 2932
+    },
+    "chest": {
+      "name": "fanged_raiment_of_the_ophidian_oracle",
+      "encoded_item": "fanged_raiment_of_the_ophidian_oracle,id=271486,bonus_id=6652/12854/13334/13690/13698/13846,enchant_id=7987,redirected_base_stats=271876",
+      "ilevel": 334,
+      "agiint": 189,
+      "mastery_rating": 201,
+      "stamina": 3910
+    },
+    "waist": {
+      "name": "farstriders_trophy_belt",
+      "encoded_item": "farstriders_trophy_belt,id=244581,bonus_id=8791/12214/13667/13696/13751/13836/14001/12497,crafted_stats=32/40,content_tuning=3615",
+      "ilevel": 331,
+      "agiint": 138,
+      "crit_rating": 74,
+      "mastery_rating": 74,
+      "stamina": 2832
+    },
+    "legs": {
+      "name": "leggings_of_the_ophidian_oracle",
+      "encoded_item": "leggings_of_the_ophidian_oracle,id=271482,bonus_id=40/12854/13334/13693/13698,enchant_id=7935,redirected_base_stats=268237",
+      "ilevel": 334,
+      "agiint": 189,
+      "avoidance_rating": 86,
+      "haste_rating": 139,
+      "mastery_rating": 62,
+      "stamina": 3910
+    },
+    "feet": {
+      "name": "boots_of_the_reckless_wayfarer",
+      "encoded_item": "boots_of_the_reckless_wayfarer,id=268258,bonus_id=6652/12854/13334/13662,enchant_id=7963",
+      "ilevel": 334,
+      "agiint": 141,
+      "crit_rating": 101,
+      "mastery_rating": 50,
+      "stamina": 2932
+    },
+    "wrists": {
+      "name": "farstriders_plated_bracers",
+      "encoded_item": "farstriders_plated_bracers,id=244584,bonus_id=8790/8960/12214/12384/13667/13696/13751/13836/14001/12497,crafted_stats=32/49,content_tuning=3615",
+      "ilevel": 331,
+      "agiint": 103,
+      "crit_rating": 56,
+      "haste_rating": 56,
+      "stamina": 2124
+    },
+    "hands": {
+      "name": "hexing_grips_of_the_ophidian_oracle",
+      "encoded_item": "hexing_grips_of_the_ophidian_oracle,id=271484,bonus_id=6652/12854/13334/13691/13697/14049,redirected_base_stats=281238",
+      "ilevel": 334,
+      "agiint": 141,
+      "crit_rating": 105,
+      "mastery_rating": 45,
+      "stamina": 2932
+    },
+    "finger1": {
+      "name": "band_of_the_amani_warlord",
+      "encoded_item": "band_of_the_amani_warlord,id=273792,bonus_id=6652/12699/12846/13440/13668,gem_id=240898,enchant_id=7967,content_tuning=1279",
+      "ilevel": 321,
+      "crit_rating": 136,
+      "haste_rating": 239,
+      "stamina": 1895
+    },
+    "finger2": {
+      "name": "band_of_the_swarmcaller",
+      "encoded_item": "band_of_the_swarmcaller,id=281029,bonus_id=6652/12854/13334/13668,gem_id=240890,enchant_id=7967",
+      "ilevel": 334,
+      "haste_rating": 110,
+      "mastery_rating": 295,
+      "stamina": 2199
+    },
+    "trinket1": {
+      "name": "twisted_horrors_tendril",
+      "encoded_item": "twisted_horrors_tendril,id=281215,bonus_id=6652/12856/13334",
+      "ilevel": 341,
+      "stragiint": 191
+    },
+    "trinket2": {
+      "name": "vile_vial_of_volatile_venom",
+      "encoded_item": "vile_vial_of_volatile_venom,id=273796,bonus_id=12854/13334,ilevel=334",
+      "ilevel": 334,
+      "stragiint": 179
+    },
+    "back": {
+      "name": "adherents_silken_shroud",
+      "encoded_item": "adherents_silken_shroud,id=239656,bonus_id=8790/8960/12214/12384/13667/13751/13836/14001/12497,crafted_stats=49/36,content_tuning=3615",
+      "ilevel": 331,
+      "crit_rating": 56,
+      "haste_rating": 56,
+      "stamina": 2124,
+      "stragiint": 103
+    },
+    "main_hand": {
+      "name": "janthrazet_the_soul_fang",
+      "encoded_item": "janthrazet_the_soul_fang,id=271092,bonus_id=6652/12856/13334,enchant_id=8689",
+      "ilevel": 341,
+      "haste_rating": 103,
+      "intellect": 586,
+      "stamina": 2118
+    },
+    "off_hand": {
+      "name": "venomslashed_scuteward",
+      "encoded_item": "venomslashed_scuteward,id=268196,bonus_id=6652/12854/13334",
+      "ilevel": 334,
+      "crit_rating": 33,
+      "haste_rating": 67,
+      "intellect": 289,
+      "stamina": 1955,
+      "strength": 94
+    }
+  },
+  "logs": [
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Hexing Grips of the Ophidian Oracle: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ],
+  "buff_names": [
+    "akilzons_rite",
+    "ancestral_swiftness",
+    "arcanoweave_insight",
+    "ascendance",
+    "call_of_the_ancestors",
+    "debilitating_venom_Crit",
+    "debilitating_venom_Haste",
+    "debilitating_venom_Mastery",
+    "debilitating_venom_Vers",
+    "devastating_power",
+    "elemental_blast_critical_strike",
+    "elemental_blast_haste",
+    "elemental_blast_mastery",
+    "empowering_venom_Crit",
+    "empowering_venom_Haste",
+    "empowering_venom_Mastery",
+    "empowering_venom_Vers",
+    "fire_elemental",
+    "fireblood",
+    "flowing_elements",
+    "halazzis_rite",
+    "janalais_rite",
+    "lava_surge",
+    "lights_potential",
+    "master_of_the_elements",
+    "nalorakks_rite",
+    "overcharge_tier",
+    "purging_flames",
+    "rune_of_masterful_cunning",
+    "soul_fang_alacrity",
+    "storm_elemental",
+    "stormkeeper",
+    "venomcursed_ascendance",
+    "venomcursed_mastery",
+    "wind_gust",
+    "call_lightning",
+    "flask_of_the_magisters",
+    "harandar_celebration",
+    "lightning_shield",
+    "voidtouched"
+  ],
+  "action_names": [
+    "acidbrood_scourge",
+    "ancestral_swiftness",
+    "ascendance",
+    "augmentation",
+    "chain_lightning",
+    "earthquake",
+    "fireblood",
+    "flame_shock",
+    "flametongue_weapon",
+    "flask",
+    "food",
+    "lava_burst",
+    "lightning_shield",
+    "potion",
+    "rune_of_unleashed_fire",
+    "stormkeeper",
+    "void_eruption",
+    "voltaic_blaze"
+  ]
+}

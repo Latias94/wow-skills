@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-13T14:09:18.367434+08:00",
+  "desktop": {
+    "width": 1422,
+    "overflow": false,
+    "all_images_loaded": true,
+    "current_rows": 16,
+    "target_rows": 16,
+    "comparison_rows": 13,
+    "native_titles": 0,
+    "three_model_tabs": true,
+    "download_links_http200": 10,
+    "source_filter_visible_raid_rows": 4,
+    "item_tooltip_chinese_name_icon_whitespace": true
+  },
+  "mobile": {
+    "width": 390,
+    "overflow": false,
+    "all_images_loaded": true,
+    "navigation_scrollable": true,
+    "gear_rows": 32
+  },
+  "export_reimports_passed": 4,
+  "accepted_final_comparisons": 66,
+  "owned_R_balance_unchanged": 1,
+  "owned_fragments_unchanged": 3,
+  "vault_claimed": false,
+  "new_socket_planned": 1,
+  "primary_deltas_percent": {
+    "five_targets90s": 1.44649,
+    "five_targets180s": 1.54163,
+    "single_target240s": 1.55477
+  },
+  "screenshots": [
+    "report-desktop.png",
+    "report-mobile.png"
+  ]
+}

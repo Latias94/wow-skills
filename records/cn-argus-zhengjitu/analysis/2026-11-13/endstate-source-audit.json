@@ -1,0 +1,1198 @@
+{
+  "schema_version": 1,
+  "status": "complete_bounded_audit",
+  "as_of": {
+    "date": "2026-11-13",
+    "timezone": "Asia/Shanghai",
+    "region": "CN",
+    "patch": "12.1.5",
+    "build": 70783,
+    "build_basis": "user_and_today_cache",
+    "started_at": "2026-11-13T06:52:20Z",
+    "completed_at": "2026-11-13T07:04:10Z",
+    "retrieval_window_utc": {
+      "from": "2026-11-13T06:53:08Z",
+      "to": "2026-11-13T06:58:51Z"
+    },
+    "elapsed_seconds": 710,
+    "requested_timebox_seconds": 600,
+    "timebox_exceeded": true
+  },
+  "scope": {
+    "character": "cn-argus-zhengjitu",
+    "spec": "Elemental / Farseer",
+    "allowed": [
+      "Heroic raids and eligible Heroic R",
+      "Myth-track M+ Great Vault; documented +10 R is an optional route, not required by this audit",
+      "Crafting",
+      "Labyrinth of Kindo'jan"
+    ],
+    "excluded": [
+      "Mythic M7/M8 elevated9/6",
+      "AH purchases unless separately admitted"
+    ],
+    "main_route_preserved": {
+      "main_hand": {
+        "item_id": 271092,
+        "ilevel": 341
+      },
+      "shield": {
+        "item_id": 268196,
+        "ilevel": 334
+      },
+      "neck": {
+        "item_id": 268265,
+        "ilevel": 341
+      },
+      "chest_precursor": {
+        "item_id": 271876,
+        "ilevel": 334
+      },
+      "hands_precursor": {
+        "item_id": 281238,
+        "ilevel": 334
+      },
+      "tier_minimum": 4
+    },
+    "simulation_run": false,
+    "top_five_refetched": false,
+    "only_authored_files": [
+      "endstate-source-audit.json",
+      "endstate-sources.md"
+    ],
+    "profile_weekly_original_report_modified_by_this_audit": false
+  },
+  "main_thread_priority_findings": [
+    "Do not assume271440 is an in-scope334 boot with selectable secondaries; source is randomized raid-trash BoE. Mythic BoE AH acquisition is a separate conditional scope extension.",
+    "Keep268233 as a real H5 end-state target beside268252:334 mail feet, haste47/mastery104; Heroic R/Myth-track Vault route.",
+    "Correct vendor cloak IDs:272225,272226,272227,272230.272228 is a necklace.",
+    "Six documented steps fund two total vendor items, not two today or one infinitely repeatable reward each three weeks.",
+    "Weapon/trinket/neck ascension only; retain armor/rings/cloaks/shields at their verified normal cap."
+  ],
+  "item_271440": {
+    "name_cn": "剧毒深渊护胫",
+    "name_en": "Greaves of the Noxious Depths",
+    "slot": "feet",
+    "armor_type": "mail",
+    "actual_source": "The Venomous Abyss zone-trash / raid lieutenants; BoE family",
+    "observed_drop_npcs": [
+      {
+        "id": 261490,
+        "name": "Venomfang Seer",
+        "recorded_difficulties": [
+          0,
+          14
+        ]
+      },
+      {
+        "id": 263594,
+        "name": "Venomweaver Vexhiss",
+        "recorded_difficulties": [
+          0,
+          15,
+          17
+        ]
+      }
+    ],
+    "random_secondaries": true,
+    "selectable_secondaries_on_drop": false,
+    "verified_secondary_reroll_method": "unknown",
+    "tooltip_334": {
+      "armor": 181,
+      "primary_adaptive": 141,
+      "stamina": 2932,
+      "random_stat_1": 106,
+      "random_stat_2": 45,
+      "query_bonus": 12854,
+      "actual_secondary_bonus_ids": "unknown"
+    },
+    "in_scope_334_confirmed": false,
+    "in_scope_decision": "exclude_as_guaranteed_endstate_candidate",
+    "heroic_trash_route": "Hero-track BoE; no documented Heroic-trash-to-Myth track conversion or boss-R pool source.",
+    "vault_or_R_source": "unknown; no positive inclusion evidence; do not assume",
+    "conditional_334_route": "Acquire an actual Myth-track raid-trash BoE (self-farmed Mythic trash, or AH after trading unlock) and upgrade to Myth6/6. These are outside the explicit current source list.",
+    "mythic_trash_does_not_require_M7_M8_kill": true,
+    "AH_listing_availability_price_and_exact_stat_suffix": "unknown",
+    "current_tooltip_bop_vs_tradeable_report": "Current selected tooltip says BoP; live Sep1 report states Mythic BoEs are tradable. A specific CN listing/item link is required before treating a purchasable copy as real.",
+    "source_ids": [
+      "boots_live",
+      "boe_live_report",
+      "boe_ptr_context",
+      "current_upgrade_guide"
+    ]
+  },
+  "normal_source_candidates": [
+    {
+      "item_id": 268231,
+      "name_cn": "游魂护肩",
+      "slot": "shoulder",
+      "armor_type": "mail",
+      "armor_rating_at_334": 199,
+      "secondary_ratings_at_334": {
+        "crit": 46,
+        "mastery": 105
+      },
+      "primary_stat": "adaptive_including_intellect",
+      "source": "The Coiled Altar (H7)",
+      "route_to_334": "heroic_R_or_raid_vault",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/268231?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1320,
+          "encounterId": 2883
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 73,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 49,
+          "alloc": 4859
+        },
+        {
+          "id": 32,
+          "alloc": 2141
+        }
+      ],
+      "notes": [
+        "Non-tier shoulder; a loadout using it must retain four tier pieces in head/chest/hands/legs."
+      ]
+    },
+    {
+      "item_id": 159380,
+      "name_cn": "电弧琉璃护腕",
+      "slot": "wrist",
+      "armor_type": "mail",
+      "armor_rating_at_334": 144,
+      "secondary_ratings_at_334": {
+        "crit": 69,
+        "haste": 44
+      },
+      "primary_stat": "adaptive_including_intellect",
+      "source": "Temple of Sethraliss / Adderis and Aspix",
+      "route_to_334": "mplus_myth_vault_or_R",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/159380?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1030,
+          "encounterId": 2142
+        },
+        {
+          "instanceId": -1,
+          "encounterId": 1030
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 73,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 32,
+          "alloc": 4250
+        },
+        {
+          "id": 36,
+          "alloc": 2750
+        }
+      ],
+      "notes": []
+    },
+    {
+      "item_id": 251200,
+      "name_cn": "杀叶者护手",
+      "slot": "wrist",
+      "armor_type": "mail",
+      "armor_rating_at_334": 144,
+      "secondary_ratings_at_334": {
+        "crit": 42,
+        "haste": 71
+      },
+      "primary_stat": "adaptive_including_intellect",
+      "source": "The Blinding Vale / Ziekket",
+      "route_to_334": "mplus_myth_vault_or_R",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/251200?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1309,
+          "encounterId": 2772
+        },
+        {
+          "instanceId": -1,
+          "encounterId": 1309
+        },
+        {
+          "instanceId": -32,
+          "encounterId": 1309
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 73,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 36,
+          "alloc": 4400
+        },
+        {
+          "id": 32,
+          "alloc": 2600
+        }
+      ],
+      "notes": []
+    },
+    {
+      "item_id": 273775,
+      "name_cn": "多头蛇鳞护腕",
+      "slot": "wrist",
+      "armor_type": "mail",
+      "armor_rating_at_334": 144,
+      "secondary_ratings_at_334": {
+        "mastery": 61,
+        "versatility": 52
+      },
+      "primary_stat": "adaptive_including_intellect",
+      "source": "Altar of Fangs / Rav'i",
+      "route_to_334": "mplus_myth_vault_or_R",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/273775?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1322,
+          "encounterId": 2878
+        },
+        {
+          "instanceId": -1,
+          "encounterId": 1322
+        },
+        {
+          "instanceId": -32,
+          "encounterId": 1322
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 73,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 49,
+          "alloc": 3800
+        },
+        {
+          "id": 40,
+          "alloc": 3200
+        }
+      ],
+      "notes": []
+    },
+    {
+      "item_id": 268254,
+      "name_cn": "蛇形调配腰带",
+      "slot": "waist",
+      "armor_type": "mail",
+      "armor_rating_at_334": 163,
+      "secondary_ratings_at_334": {
+        "haste": 47,
+        "mastery": 103
+      },
+      "primary_stat": "adaptive_including_intellect",
+      "source": "Vashnik the Malignant (H3)",
+      "route_to_334": "heroic_R_or_raid_vault",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/268254?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1320,
+          "encounterId": 2882
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 73,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 49,
+          "alloc": 4802
+        },
+        {
+          "id": 36,
+          "alloc": 2198
+        }
+      ],
+      "notes": []
+    },
+    {
+      "item_id": 268233,
+      "name_cn": "凶暴鳞靴",
+      "slot": "feet",
+      "armor_type": "mail",
+      "armor_rating_at_334": 181,
+      "secondary_ratings_at_334": {
+        "haste": 47,
+        "mastery": 104
+      },
+      "primary_stat": "adaptive_including_intellect",
+      "source": "Sszorak (H5)",
+      "route_to_334": "heroic_R_or_raid_vault",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/268233?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1320,
+          "encounterId": 2871
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 73,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 49,
+          "alloc": 4838
+        },
+        {
+          "id": 36,
+          "alloc": 2162
+        }
+      ],
+      "notes": [
+        "Retain as a real H5 end-state target alongside ring268252; source audit does not rank their DPS.",
+        "Method Overall recommendation was supplied by the main thread, not re-fetched here."
+      ]
+    },
+    {
+      "item_id": 268258,
+      "name_cn": "鲁莽旅人战靴",
+      "slot": "feet",
+      "armor_type": "mail",
+      "armor_rating_at_334": 181,
+      "secondary_ratings_at_334": {
+        "crit": 101,
+        "mastery": 50
+      },
+      "primary_stat": "adaptive_including_intellect",
+      "source": "The Lost Explorers / Mor'zahi (H4)",
+      "route_to_334": "heroic_R_or_raid_vault",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/268258?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1320,
+          "encounterId": 2894
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 73,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 32,
+          "alloc": 4682
+        },
+        {
+          "id": 49,
+          "alloc": 2318
+        }
+      ],
+      "notes": []
+    },
+    {
+      "item_id": 268253,
+      "name_cn": "丝质巫毒斗篷",
+      "slot": "back",
+      "armor_type": "cloth_cloak",
+      "armor_rating_at_334": 78,
+      "secondary_ratings_at_334": {
+        "haste": 33,
+        "mastery": 80
+      },
+      "primary_stat": "adaptive_including_intellect",
+      "source": "The Coiled Altar (H7)",
+      "route_to_334": "heroic_R_or_raid_vault",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/268253?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1320,
+          "encounterId": 2883
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 71,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 49,
+          "alloc": 4941
+        },
+        {
+          "id": 36,
+          "alloc": 2059
+        }
+      ],
+      "notes": []
+    },
+    {
+      "item_id": 268248,
+      "name_cn": "阿曼尼召唤披巾",
+      "slot": "back",
+      "armor_type": "cloth_cloak",
+      "armor_rating_at_334": 78,
+      "secondary_ratings_at_334": {
+        "crit": 78,
+        "versatility": 35
+      },
+      "primary_stat": "adaptive_including_intellect",
+      "source": "Nek'zali the Soulcoiler (H1)",
+      "route_to_334": "heroic_R_or_raid_vault",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/268248?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1320,
+          "encounterId": 2888
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 71,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 32,
+          "alloc": 4857
+        },
+        {
+          "id": 40,
+          "alloc": 2143
+        }
+      ],
+      "notes": [
+        "Actual offered Vault item is cached; its 318 item level alone does not establish Myth versus Hero track."
+      ]
+    },
+    {
+      "item_id": 268196,
+      "name_cn": "毒痕鳞甲盾",
+      "slot": "off_hand",
+      "armor_type": "shield",
+      "armor_rating_at_334": 1274,
+      "secondary_ratings_at_334": {
+        "crit": 33,
+        "haste": 67
+      },
+      "primary_stat": "intellect_and_strength; caster_usable",
+      "source": "The Lost Explorers / Mor'zahi (H4)",
+      "route_to_334": "heroic_R_or_raid_vault",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/268196?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1320,
+          "encounterId": 2894
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 4,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 36,
+          "alloc": 4698
+        },
+        {
+          "id": 32,
+          "alloc": 2302
+        },
+        {
+          "id": 5,
+          "alloc": 16132
+        }
+      ],
+      "notes": []
+    },
+    {
+      "item_id": 251150,
+      "name_cn": "风暴庇护",
+      "slot": "off_hand",
+      "armor_type": "shield",
+      "armor_rating_at_334": 1274,
+      "secondary_ratings_at_334": {
+        "haste": 63,
+        "mastery": 37
+      },
+      "primary_stat": "intellect_and_strength; caster_usable",
+      "source": "Den of Nalorakk / Sentinel of Winter",
+      "route_to_334": "mplus_myth_vault_or_R",
+      "normal_max_item_level": 334,
+      "ascension_to_341_eligible": false,
+      "tooltip_url": "https://nether.wowhead.com/tooltip/item/251150?dataEnv=1&locale=4&bonus=12854",
+      "tooltip_rank_bonus_id": 12854,
+      "source_coordinates": [
+        {
+          "instanceId": 1311,
+          "encounterId": 2777
+        },
+        {
+          "instanceId": -1,
+          "encounterId": 1311
+        },
+        {
+          "instanceId": -32,
+          "encounterId": 1311
+        }
+      ],
+      "native_stat_allocations": [
+        {
+          "id": 4,
+          "alloc": 5259
+        },
+        {
+          "id": 7,
+          "alloc": 7889
+        },
+        {
+          "id": 36,
+          "alloc": 4400
+        },
+        {
+          "id": 49,
+          "alloc": 2600
+        },
+        {
+          "id": 5,
+          "alloc": 16132
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "source_route_rules": {
+    "heroic_R": {
+      "start_ilevel": 318,
+      "start_track": "Myth1/6",
+      "normal_cap": 334,
+      "cost_core_3418": 1,
+      "actual_remaining_pool": "unknown"
+    },
+    "mplus": {
+      "needed_for_334": "Obtain a Myth-track version from qualifying Great Vault or eligible +10 R, then upgrade to Myth6/6.",
+      "end_of_dungeon_hero_track_is_not_334": true,
+      "exact_character_key_level_and_track": "unknown; cached318 Vault offer unresolved"
+    },
+    "tooltip_caveat": "All334 numerical stat observations use explicit rank bonus12854. This establishes scaled native stats; source eligibility is separately joined to encounter data and current rules. These are not complete importable bonus chains."
+  },
+  "jindozan": {
+    "vendor_npc_id": 264886,
+    "payment_item_id": 285065,
+    "price_per_item": 3,
+    "start_ilevel": 321,
+    "start_track": "Myth2/6",
+    "normal_cap": 334,
+    "documented_chain": {
+      "steps": 6,
+      "fragments_per_step": 1,
+      "total_fragments": 6,
+      "total_rewards": 2,
+      "repeatability": "finite_six_step_chain; do not model completed steps as indefinitely repeatable weeklies",
+      "repeatability_basis": "Publisher guide explicitly limits the Mythical fragments to six; storyline describes six steps/two rewards. No raw client quest-repeatability flag dump was acquired.",
+      "raw_quest_repeatability_flags": "unknown",
+      "future_additional_fragment_sources": "unknown",
+      "character_vs_warband_lockout_scope": "unknown",
+      "sequential_missed_step_catchup": true,
+      "current_database_quest_ids": [
+        98951,
+        98963,
+        98962,
+        98961
+      ],
+      "last_two_step_ids": "unknown"
+    },
+    "date_bound": {
+      "CN_launch_date": "2026-10-15",
+      "current_reset_week": "2026-11-12",
+      "theoretical_current_step": 5,
+      "theoretical_fragment_cap_if_caught_up": 5,
+      "theoretical_total_purchases_available_now": 1,
+      "theoretical_second_purchase_earliest": "2026-11-19",
+      "basis": "Calendar inference from CN launch and one new step each reset, not authenticated character quest state.",
+      "character_fragment_count": "unknown",
+      "character_completed_steps": "unknown",
+      "actual_affordable_now": "unknown; user says reward not claimed"
+    },
+    "actual_cloak_ids": [
+      272225,
+      272226,
+      272227,
+      272230
+    ],
+    "not_a_cloak": {
+      "item_id": 272228,
+      "name_cn": "呢喃颈饰",
+      "slot": "neck"
+    },
+    "bounded_vendor_candidates": [
+      {
+        "item_id": 272225,
+        "name_cn": "蹈火者的披风",
+        "slot": "back",
+        "armor_type": "cloth_cloak",
+        "armor_rating_at_334": 78,
+        "secondary_ratings_at_334": {
+          "crit": 42,
+          "haste": 71
+        },
+        "source": "Wah'du NPC264886; 3 Mythical Soul Fragments285065",
+        "start_item_level": 321,
+        "start_track": "Myth 2/6",
+        "normal_max_item_level": 334,
+        "ascension_to_341_eligible": false,
+        "tooltip_url": "https://nether.wowhead.com/tooltip/item/272225?dataEnv=1&locale=4&bonus=12854",
+        "source_ids": [
+          "cached_reward_sources",
+          "labyrinth_current_news"
+        ]
+      },
+      {
+        "item_id": 272226,
+        "name_cn": "雾猎者的斗篷",
+        "slot": "back",
+        "armor_type": "cloth_cloak",
+        "armor_rating_at_334": 78,
+        "secondary_ratings_at_334": {
+          "crit": 71,
+          "versatility": 42
+        },
+        "source": "Wah'du NPC264886; 3 Mythical Soul Fragments285065",
+        "start_item_level": 321,
+        "start_track": "Myth 2/6",
+        "normal_max_item_level": 334,
+        "ascension_to_341_eligible": false,
+        "tooltip_url": "https://nether.wowhead.com/tooltip/item/272226?dataEnv=1&locale=4&bonus=12854",
+        "source_ids": [
+          "cached_reward_sources",
+          "labyrinth_current_news"
+        ]
+      },
+      {
+        "item_id": 272227,
+        "name_cn": "驭风者的披纱",
+        "slot": "back",
+        "armor_type": "cloth_cloak",
+        "armor_rating_at_334": 78,
+        "secondary_ratings_at_334": {
+          "crit": 71,
+          "versatility": 42
+        },
+        "source": "Wah'du NPC264886; 3 Mythical Soul Fragments285065",
+        "start_item_level": 321,
+        "start_track": "Myth 2/6",
+        "normal_max_item_level": 334,
+        "ascension_to_341_eligible": false,
+        "tooltip_url": "https://nether.wowhead.com/tooltip/item/272227?dataEnv=1&locale=4&bonus=12854",
+        "source_ids": [
+          "cached_reward_sources",
+          "labyrinth_current_news"
+        ]
+      },
+      {
+        "item_id": 272230,
+        "name_cn": "誓言使者挂披",
+        "slot": "back",
+        "armor_type": "cloth_cloak",
+        "armor_rating_at_334": 78,
+        "secondary_ratings_at_334": {
+          "crit": 42,
+          "haste": 71
+        },
+        "source": "Wah'du NPC264886; 3 Mythical Soul Fragments285065",
+        "start_item_level": 321,
+        "start_track": "Myth 2/6",
+        "normal_max_item_level": 334,
+        "ascension_to_341_eligible": false,
+        "tooltip_url": "https://nether.wowhead.com/tooltip/item/272230?dataEnv=1&locale=4&bonus=12854",
+        "source_ids": [
+          "cached_reward_sources",
+          "labyrinth_current_news"
+        ]
+      },
+      {
+        "item_id": 272252,
+        "name_cn": "驭风者的护肩",
+        "slot": "shoulder",
+        "armor_type": "mail",
+        "armor_rating_at_334": 199,
+        "secondary_ratings_at_334": {
+          "crit": 90,
+          "mastery": 60
+        },
+        "source": "Wah'du NPC264886; 3 Mythical Soul Fragments285065",
+        "start_item_level": 321,
+        "start_track": "Myth 2/6",
+        "normal_max_item_level": 334,
+        "ascension_to_341_eligible": false,
+        "tooltip_url": "https://nether.wowhead.com/tooltip/item/272252?dataEnv=1&locale=4&bonus=12854",
+        "source_ids": [
+          "cached_reward_sources",
+          "labyrinth_current_news"
+        ]
+      },
+      {
+        "item_id": 272254,
+        "name_cn": "驭风者网甲护腕",
+        "slot": "wrist",
+        "armor_type": "mail",
+        "armor_rating_at_334": 144,
+        "secondary_ratings_at_334": {
+          "crit": 70,
+          "haste": 43
+        },
+        "source": "Wah'du NPC264886; 3 Mythical Soul Fragments285065",
+        "start_item_level": 321,
+        "start_track": "Myth 2/6",
+        "normal_max_item_level": 334,
+        "ascension_to_341_eligible": false,
+        "tooltip_url": "https://nether.wowhead.com/tooltip/item/272254?dataEnv=1&locale=4&bonus=12854",
+        "source_ids": [
+          "cached_reward_sources",
+          "labyrinth_current_news"
+        ]
+      },
+      {
+        "item_id": 272253,
+        "name_cn": "驭风者锁甲裙",
+        "slot": "waist",
+        "armor_type": "mail",
+        "armor_rating_at_334": 163,
+        "secondary_ratings_at_334": {
+          "versatility": 92,
+          "mastery": 58
+        },
+        "source": "Wah'du NPC264886; 3 Mythical Soul Fragments285065",
+        "start_item_level": 321,
+        "start_track": "Myth 2/6",
+        "normal_max_item_level": 334,
+        "ascension_to_341_eligible": false,
+        "tooltip_url": "https://nether.wowhead.com/tooltip/item/272253?dataEnv=1&locale=4&bonus=12854",
+        "source_ids": [
+          "cached_reward_sources",
+          "labyrinth_current_news"
+        ]
+      },
+      {
+        "item_id": 272248,
+        "name_cn": "驭风者护足",
+        "slot": "feet",
+        "armor_type": "mail",
+        "armor_rating_at_334": 181,
+        "secondary_ratings_at_334": {
+          "crit": 58,
+          "mastery": 93
+        },
+        "source": "Wah'du NPC264886; 3 Mythical Soul Fragments285065",
+        "start_item_level": 321,
+        "start_track": "Myth 2/6",
+        "normal_max_item_level": 334,
+        "ascension_to_341_eligible": false,
+        "tooltip_url": "https://nether.wowhead.com/tooltip/item/272248?dataEnv=1&locale=4&bonus=12854",
+        "source_ids": [
+          "cached_reward_sources",
+          "labyrinth_current_news"
+        ]
+      },
+      {
+        "item_id": 272276,
+        "name_cn": "哀嚎壁垒",
+        "slot": "off_hand",
+        "armor_type": "shield",
+        "armor_rating_at_334": 1274,
+        "secondary_ratings_at_334": {
+          "haste": 63,
+          "versatility": 38
+        },
+        "source": "Wah'du NPC264886; 3 Mythical Soul Fragments285065",
+        "start_item_level": 321,
+        "start_track": "Myth 2/6",
+        "normal_max_item_level": 334,
+        "ascension_to_341_eligible": false,
+        "tooltip_url": "https://nether.wowhead.com/tooltip/item/272276?dataEnv=1&locale=4&bonus=12854",
+        "source_ids": [
+          "cached_reward_sources",
+          "labyrinth_current_news"
+        ]
+      }
+    ],
+    "source_ids": [
+      "cached_reward_sources",
+      "labyrinth_current_news",
+      "labyrinth_storyline",
+      "labyrinth_guide",
+      "quest_98951"
+    ]
+  },
+  "second_trinkets": [
+    {
+      "item_id": 270164,
+      "source": "The Venomous Abyss / The Lost Explorers / Mor'zahi",
+      "route": "Heroic R or eligible Myth-track raid Vault -> 334 -> 10 Ascendant Venomstones -> 341",
+      "mechanics": [
+        "Passive randomized spell/ability procs; the selected secondary effect cannot be chosen.",
+        "Current component spell data includes ramping crit with self-bleed, all-secondary buff, haste/speed buff, fading versatility, fading mastery, and an all-secondary debuff.",
+        "The 750ms shown in tooltips is not evidence of one proc every 750ms; exact proc frequency and outcome weights are unknown.",
+        "No charges or finite-lifetime exhaustion is documented; fish wording is flavor, not a proven use limit."
+      ],
+      "already_owned_334_from_cache": true,
+      "source_item_url": "https://www.wowhead.com/item=270164",
+      "normal_myth_cap": 334,
+      "ascended_myth_cap": 341,
+      "unique_equipped": true,
+      "elemental_loot_spec": "270164 already owned; other two caster usability supported by adaptive primary stats and current M+ pool, actual character reward preview unknown",
+      "hero_track_only_route_cap_after_ascension": 328,
+      "restrictions": [
+        "Requires a qualifying Season 2 item fully upgraded on Myth track before 341 ascension.",
+        "A normal Hero-track drop does not become Myth track by spending ordinary upgrade crests.",
+        "R availability and actual remaining pool require character reward preview; do not infer exact odds from this catalogue."
+      ]
+    },
+    {
+      "item_id": 273796,
+      "source": "Altar of Fangs / Rav'i",
+      "route": "Myth-track M+ Vault -> 334 -> 10 Ascendant Venomstones -> 341",
+      "mechanics": [
+        "120-second on-use cooldown.",
+        "Random secondary buff for 15 seconds, followed by a different random secondary penalty for 15 seconds.",
+        "Do not treat it as a chosen-stat buff or silently omit its penalty.",
+        "Zero-versatility/debuff-removal anecdotes are not established Elemental-shaman planning rules."
+      ],
+      "source_item_url": "https://www.wowhead.com/item=273796",
+      "normal_myth_cap": 334,
+      "ascended_myth_cap": 341,
+      "unique_equipped": true,
+      "elemental_loot_spec": "270164 already owned; other two caster usability supported by adaptive primary stats and current M+ pool, actual character reward preview unknown",
+      "hero_track_only_route_cap_after_ascension": 328,
+      "restrictions": [
+        "Requires a qualifying Season 2 item fully upgraded on Myth track before 341 ascension.",
+        "A normal Hero-track drop does not become Myth track by spending ordinary upgrade crests.",
+        "R availability and actual remaining pool require character reward preview; do not infer exact odds from this catalogue."
+      ]
+    },
+    {
+      "item_id": 250215,
+      "source": "Murder Row / Zaen Bladesorrow",
+      "route": "Myth-track M+ Vault -> 334 -> 10 Ascendant Venomstones -> 341",
+      "mechanics": [
+        "90-second on-use cooldown; crit buff lasts 15 seconds.",
+        "No usage-charge or six-step lifetime reward cap is documented.",
+        "Current offered318Vault copy was subsequently user-confirmed Myth1/6 and can reach334 then341."
+      ],
+      "source_item_url": "https://www.wowhead.com/item=250215",
+      "normal_myth_cap": 334,
+      "ascended_myth_cap": 341,
+      "unique_equipped": true,
+      "elemental_loot_spec": "270164 already owned; other two caster usability supported by adaptive primary stats and current M+ pool, actual character reward preview unknown",
+      "hero_track_only_route_cap_after_ascension": 328,
+      "restrictions": [
+        "Requires a qualifying Season 2 item fully upgraded on Myth track before 341 ascension.",
+        "A normal Hero-track drop does not become Myth track by spending ordinary upgrade crests.",
+        "R availability and actual remaining pool require character reward preview; do not infer exact odds from this catalogue."
+      ]
+    }
+  ],
+  "bag_component_spells": [
+    {
+      "spell_id": 1292299,
+      "name_cn": "极其锋利的海贝",
+      "url": "https://nether.wowhead.com/tooltip/spell/1292299?dataEnv=1&locale=4",
+      "scope": "Live component existence/mechanism only; raw default spell numbers are not341 scaled values."
+    },
+    {
+      "spell_id": 1308013,
+      "name_cn": "50磅重的午夜鲑鱼",
+      "url": "https://nether.wowhead.com/tooltip/spell/1308013?dataEnv=1&locale=4",
+      "scope": "Live component existence/mechanism only; raw default spell numbers are not341 scaled values."
+    },
+    {
+      "spell_id": 1308012,
+      "name_cn": "溜滑的格罗尔石",
+      "url": "https://nether.wowhead.com/tooltip/spell/1308012?dataEnv=1&locale=4",
+      "scope": "Live component existence/mechanism only; raw default spell numbers are not341 scaled values."
+    },
+    {
+      "spell_id": 1292300,
+      "name_cn": "易碎的托加图腾",
+      "url": "https://nether.wowhead.com/tooltip/spell/1292300?dataEnv=1&locale=4",
+      "scope": "Live component existence/mechanism only; raw default spell numbers are not341 scaled values."
+    },
+    {
+      "spell_id": 1308014,
+      "name_cn": "腐烂的虚空鳍鱼",
+      "url": "https://nether.wowhead.com/tooltip/spell/1308014?dataEnv=1&locale=4",
+      "scope": "Live component existence/mechanism only; raw default spell numbers are not341 scaled values."
+    },
+    {
+      "spell_id": 1306870,
+      "name_cn": "残破的始祖龟卷轴",
+      "url": "https://nether.wowhead.com/tooltip/spell/1306870?dataEnv=1&locale=4",
+      "scope": "Live component existence/mechanism only; raw default spell numbers are not341 scaled values."
+    }
+  ],
+  "ascension": {
+    "official_eligible_slots": [
+      "weapon",
+      "trinket",
+      "neck"
+    ],
+    "excluded_by_default": [
+      "head",
+      "shoulder",
+      "chest",
+      "wrist",
+      "hands",
+      "waist",
+      "legs",
+      "feet",
+      "back",
+      "finger",
+      "shield"
+    ],
+    "stones_per_item": 10,
+    "unlock_requirement": "Complete current Orin research/ascension quest; cached ownership does not prove every unlock.",
+    "qualifying_items": "Season2 fully upgraded Hero or Myth; highest-quality Tidal-crafted eligible slot.",
+    "verified_endpoints": {
+      "Hero321": 328,
+      "Myth334": 341,
+      "Myth_crafted331": 337
+    },
+    "overcap344_excluded": true,
+    "not_an_upgrade_track_conversion": true,
+    "official_source_id": "official_cn_1215",
+    "numeric_endpoint_source_id": "current_upgrade_guide",
+    "database_rendering_warning": "The current guide contains a stale340 inline example while its rule table says341. Use official slot restriction plus the rule table and current item data; do not use the stale inline example to raise armor or shield caps."
+  },
+  "limitations": [
+    "Global live database queried today; no authenticated CN70783 reward preview or actual vendor/BoE item link observed.",
+    "No item-value/DPS assessment or simulation performed.",
+    "H5 feet and ring are both legitimate targets; acquisition audit cannot classify either as DPS filler.",
+    "Existing original reports/profile/weekly may be edited concurrently by the main thread; this audit authored only its two requested files."
+  ],
+  "sources": [
+    {
+      "id": "cached_reward_sources",
+      "path": "reward-source-evidence.json",
+      "retrieved_date": "2026-11-13",
+      "type": "same_day_local_cache",
+      "used_for": "Character anchors, H R rewards/pools, Labyrinth catalogue and calendar; no repeated top-player fetch."
+    },
+    {
+      "id": "cached_elite",
+      "path": "elite-evidence.json",
+      "retrieved_date": "2026-11-13",
+      "type": "same_day_local_cache",
+      "used_for": "Existing trinket identity/mechanics and candidate IDs only; usage does not establish acquisition."
+    },
+    {
+      "id": "official_cn_1215",
+      "url": "https://wow.blizzard.cn/news/24304162/",
+      "published_date": "2026-10-02",
+      "type": "official_CN",
+      "used_for": "Eligible ascension slots, 10-stone cost, fully upgraded requirement, CN unlock and stone sources.",
+      "retrieved_date": "2026-11-13",
+      "retrieval_time_basis": "within recorded browser retrieval window; exact per-request timestamp not captured"
+    },
+    {
+      "id": "official_cn_s2",
+      "url": "https://wow.blizzard.cn/news/24293281/index.html",
+      "published_date": "2026-08-07",
+      "type": "official_CN",
+      "used_for": "Current season and M+ dungeon rotation; R rules corroborated with cached evidence.",
+      "retrieved_date": "2026-11-13",
+      "retrieval_time_basis": "within recorded browser retrieval window; exact per-request timestamp not captured"
+    },
+    {
+      "id": "current_upgrade_guide",
+      "url": "https://www.wowhead.com/guide/midnight/bonus-rolls-item-upgrades",
+      "updated_date": "2026-10-22",
+      "type": "database_publisher_guide",
+      "used_for": "Myth334 -> 341; Hero321 -> 328; craftedMyth331 ->337; +10 R and Heroic R give Myth1/6 318.",
+      "retrieved_date": "2026-11-13",
+      "retrieval_time_basis": "within recorded browser retrieval window; exact per-request timestamp not captured"
+    },
+    {
+      "id": "boots_live",
+      "url": "https://www.wowhead.com/item=271440",
+      "retrieved_at": "2026-11-13T06:55:07.399Z",
+      "type": "live_item_database",
+      "used_for": "Mail feet, random secondary placeholders, zone-trash source; selected tooltip version is not acquisition proof."
+    },
+    {
+      "id": "boe_live_report",
+      "url": "https://www.wowhead.com/news/mythic-boes-no-longer-bop-with-weekly-reset-list-on-the-ah-for-quick-gold-382712",
+      "published_date": "2026-09-01",
+      "type": "database_publisher_first_hand_live_report",
+      "used_for": "Mythic raid BoEs became tradable; list includes271440; lieutenants drop them.",
+      "retrieved_date": "2026-11-13",
+      "retrieval_time_basis": "within recorded browser retrieval window; exact per-request timestamp not captured"
+    },
+    {
+      "id": "boe_ptr_context",
+      "url": "https://www.wowhead.com/news/the-venomous-abyss-raid-boes-datamined-382391",
+      "published_date": "2026-08-16",
+      "type": "PTR_historical_not_cap_authority",
+      "used_for": "Historical random-secondary design only, corroborated by live tooltip; not used to establish present item levels.",
+      "retrieved_date": "2026-11-13",
+      "retrieval_time_basis": "within recorded browser retrieval window; exact per-request timestamp not captured"
+    },
+    {
+      "id": "raidbots_live",
+      "url": "https://www.raidbots.com/static/data/live/encounter-items.json",
+      "retrieved_at": "2026-11-13T06:55:07.349Z",
+      "type": "current_game_data_export",
+      "used_for": "Native stat allocations, armor subtypes, source coordinates, current dungeon pools."
+    },
+    {
+      "id": "raidbots_instances",
+      "url": "https://www.raidbots.com/static/data/live/instances.json",
+      "type": "current_game_data_export",
+      "used_for": "Dungeon/encounter names and season M+ pool mapping.",
+      "retrieved_date": "2026-11-13",
+      "retrieval_time_basis": "within recorded browser retrieval window; exact per-request timestamp not captured"
+    },
+    {
+      "id": "labyrinth_storyline",
+      "url": "https://www.wowhead.com/storyline/the-labyrinth-of-kindojan-6385",
+      "type": "live_storyline_database",
+      "used_for": "Six-step weekly-unlocked chain and two total rewards; current returned quest listing exposes only four IDs.",
+      "retrieved_date": "2026-11-13",
+      "retrieval_time_basis": "within recorded browser retrieval window; exact per-request timestamp not captured"
+    },
+    {
+      "id": "labyrinth_current_news",
+      "url": "https://www.wowhead.com/news/myth-2-6-piece-of-loot-now-available-from-labyrinths-383603",
+      "published_date": "2026-10-28",
+      "type": "database_publisher_live_report",
+      "used_for": "Three fragments per chosen item, Myth2/6 321, sequential catch-up, exact cloak/vendor catalogue.",
+      "retrieved_date": "2026-11-13",
+      "retrieval_time_basis": "within recorded browser retrieval window; exact per-request timestamp not captured"
+    },
+    {
+      "id": "labyrinth_guide",
+      "url": "https://www.wowhead.com/guide/midnight/delves/labyrinth-of-kindojan-megadelve-nemesis-rewards",
+      "updated_date": "2026-10-21",
+      "type": "database_publisher_guide",
+      "used_for": "Finite maximum of six Mythical fragments and catch-up; stale318/limited-slot paragraph superseded by Oct28 live catalogue.",
+      "retrieved_date": "2026-11-13",
+      "retrieval_time_basis": "within recorded browser retrieval window; exact per-request timestamp not captured"
+    },
+    {
+      "id": "quest_98951",
+      "url": "https://www.wowhead.com/quest=98951/akilzons-roost",
+      "type": "live_quest_database",
+      "used_for": "First step, one285065 reward, Tier8+ objective; no explicit repeatable label; raw repeatability flags not exported here.",
+      "retrieved_date": "2026-11-13",
+      "retrieval_time_basis": "within recorded browser retrieval window; exact per-request timestamp not captured"
+    }
+  ],
+  "tool_call_brief": {
+    "service": "stealth-chrome-devtools-mcp",
+    "trigger": "Fill bounded gaps in today's two caches",
+    "inputs": "Official CN12.1.5 notes; targeted item/quest/vendor data; current Raidbots source tables; no top-player re-fetch",
+    "parameters": {
+      "headless": true,
+      "disposable_profile": true,
+      "tooltip_dataEnv": 1,
+      "tooltip_locale": 4,
+      "tooltip_rank_bonus": 12854,
+      "finite_batch_requests": true
+    },
+    "result": "Resolved all five topics with explicit unknowns; two requested artifacts only.",
+    "retry_and_fallback": [
+      "Direct Python HTTPS to Raidbots failed certificate validation; changed to browser transport without disabling TLS verification.",
+      "Two browser script syntax errors while compacting source maps; simplified script and succeeded; no automated retry/backoff loop."
+    ],
+    "domains": [
+      "wow.blizzard.cn",
+      "www.wowhead.com",
+      "nether.wowhead.com",
+      "www.raidbots.com"
+    ],
+    "timestamp": "2026-11-13T07:04:10Z"
+  },
+  "user_confirmed_state": {
+    "vault_318_upgrade_track": "Myth1/6",
+    "kindojan_fragments": 3,
+    "available_redemptions_now": 1,
+    "evidence": "Current conversation user replies; supersedes older cache track-unknown prose."
+  }
+}

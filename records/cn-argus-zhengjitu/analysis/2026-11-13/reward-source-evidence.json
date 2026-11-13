@@ -1,0 +1,5898 @@
+{
+  "schema_version": 1,
+  "as_of": {
+    "date": "2026-11-13",
+    "timezone": "Asia/Shanghai",
+    "region": "CN",
+    "patch": "12.1.5",
+    "build": "70783",
+    "build_source": "user",
+    "retrieved_at": "2026-11-13T13:33:00.669142+08:00",
+    "web_data_scope": "Global live database and official CN notes; no authenticated CN game UI or build-pinned export was observed."
+  },
+  "scope": {
+    "task": "Bounded reward-source evidence for Elemental/Restoration shaman 正极兔",
+    "writes_authorized": [
+      "analysis/2026-11-13/reward-source-evidence.json",
+      "analysis/2026-11-13/reward-sources.md"
+    ],
+    "simulation_run": false,
+    "profile_modified": false,
+    "simulation_script_modified": false
+  },
+  "character_facts": {
+    "source": "latest user report, not stale profile",
+    "character_id": "cn-argus-zhengjitu",
+    "name": "正极兔",
+    "combat_spec_id": 262,
+    "alternative_loot_spec_id": 264,
+    "currencies": [
+      {
+        "id": 3418,
+        "quantity": 1,
+        "name": "R / Nebulous Voidcore"
+      },
+      {
+        "id": 3446,
+        "quantity": 105,
+        "name": "Myth Mistcrests",
+        "id_basis": "Season 2 mapping; the user provided the quantity and currency name."
+      }
+    ],
+    "items": [
+      {
+        "id": 280562,
+        "quantity": 8
+      },
+      {
+        "id": 274476,
+        "quantity": 3
+      }
+    ],
+    "labyrinth_reward_claimed": false,
+    "mythical_soul_fragment_285065_quantity": null,
+    "labyrinth_quest_step": null,
+    "equipped_or_owned_anchors": [
+      {
+        "id": 271092,
+        "ilevel": 341,
+        "slot": "main_hand",
+        "cantrip": true
+      },
+      {
+        "id": 268196,
+        "ilevel": 334,
+        "slot": "off_hand_shield"
+      },
+      {
+        "id": 281215,
+        "ilevel": 341,
+        "slot": "trinket"
+      },
+      {
+        "id": 270164,
+        "ilevel": 334,
+        "slot": "trinket"
+      },
+      {
+        "id": 268265,
+        "ilevel": 341,
+        "slot": "neck",
+        "venomcursed": true
+      },
+      {
+        "id": 271876,
+        "ilevel": 334,
+        "slot": "chest_precursor",
+        "venomcursed": true,
+        "actual_equipped_or_catalyzed_item_id": null
+      }
+    ],
+    "actual_full_equipment_bonus_ids": null
+  },
+  "main_thread_handoff": {
+    "source": "user steering during this investigation",
+    "vault_items_already_simulated": [
+      270170,
+      250215,
+      268254,
+      273780
+    ],
+    "vault_track_question_already_asked_by_main_thread": true,
+    "reported_not_independently_measured": [
+      "334 bag and flask are close in initial screening.",
+      "Gland was lower in a fixed-target model that lacks kill-triggered cooldown reduction.",
+      "Current one-core route leans toward Apex ring268252 or saving."
+    ],
+    "additional_known_candidate_ids": [
+      270169,
+      273649
+    ],
+    "emblem_273649_boss_alias_verified_here": false,
+    "no_new_DPS_values_asserted": true
+  },
+  "jindozan": {
+    "identity": {
+      "name_cn": "金多赞的迷宫",
+      "canonical_en": "Labyrinth of Kindo'jan",
+      "user_alias": "Jin'dozan",
+      "vendor_name_cn": "瓦杜",
+      "vendor_name_en": "Wah'du",
+      "vendor_npc_id": 264886,
+      "source_ids": [
+        "cn_launch",
+        "wahdu_player_catalogue"
+      ]
+    },
+    "exchange": {
+      "payment_item_id": 285065,
+      "payment_name_cn": "神话灵魂残片",
+      "per_item_price": 3,
+      "currency_3418_used": false,
+      "selection": "Choose a specific listed merchant item with fixed secondary allocation.",
+      "start_ilevel": 321,
+      "start_track": "Myth 2/6",
+      "normal_max_ilevel": 334,
+      "quest_line_total_steps": 6,
+      "fragments_per_completed_step": 1,
+      "lifetime_rewards_from_documented_chain": 2,
+      "missed_step_catchup": true,
+      "unlock_condition": "Current live reporting: specified chamber completed at Tier8 or above.",
+      "heroic_soul_fragment_system_is_separate": true,
+      "old_combine_to_armament_tooltip_not_used": true,
+      "source_ids": [
+        "labyrinth_live_report",
+        "fragment_live_db",
+        "six_step_storyline"
+      ]
+    },
+    "date_bound": {
+      "cn_first_week": "2026-10-15",
+      "reset_week_dates": [
+        "2026-10-15",
+        "2026-10-22",
+        "2026-10-29",
+        "2026-11-05",
+        "2026-11-12",
+        "2026-11-19"
+      ],
+      "theoretical_current_step_if_one_new_step_per_reset": 5,
+      "theoretical_available_fragments_if_caught_up_and_unspent": 5,
+      "theoretical_exchange_count_now": 1,
+      "theoretical_second_item_earliest": "2026-11-19",
+      "status": "Calendar inference from CN release date and published weekly chain; not an observed CN character quest state.",
+      "actual_affordable_count": null,
+      "do_not_assume_two_rewards_available_on_2026_11_13": true
+    },
+    "catalogue": {
+      "published_union_item_ids": [
+        272147,
+        272148,
+        272149,
+        272150,
+        272225,
+        272226,
+        272227,
+        272228,
+        272229,
+        272230,
+        272231,
+        272232,
+        272233,
+        272234,
+        272235,
+        272236,
+        272237,
+        272238,
+        272239,
+        272240,
+        272241,
+        272242,
+        272243,
+        272244,
+        272245,
+        272246,
+        272247,
+        272248,
+        272249,
+        272250,
+        272251,
+        272252,
+        272253,
+        272254,
+        272255,
+        272256,
+        272257,
+        272258,
+        272259,
+        272260,
+        272261,
+        272262,
+        272266,
+        272267,
+        272268,
+        272269,
+        272270,
+        272271,
+        272272,
+        272273,
+        272274,
+        272275,
+        272276,
+        272277,
+        272278,
+        272280,
+        272283
+      ],
+      "published_union_count": 57,
+      "published_news_list_count": 56,
+      "additional_current_player_report_id": 272283,
+      "actual_CN_merchant_catalogue_complete": false,
+      "pool_types": [
+        "32 armor items across four armor classes",
+        "4 cloaks",
+        "2 necks",
+        "4 rings",
+        "15 weapons/offhands in the union of published lists"
+      ],
+      "trinkets_in_published_catalogue": [],
+      "shaman_caster_candidate_ids": [
+        272147,
+        272148,
+        272149,
+        272150,
+        272225,
+        272226,
+        272227,
+        272228,
+        272229,
+        272230,
+        272247,
+        272248,
+        272249,
+        272250,
+        272251,
+        272252,
+        272253,
+        272254,
+        272266,
+        272270,
+        272273,
+        272276
+      ],
+      "shaman_caster_items": [
+        {
+          "item_id": 272147,
+          "name_cn": "游蛇之环",
+          "name_en": "Colubrine Band",
+          "inventory_type": 11,
+          "item_subclass": 0,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "haste": 258,
+            "mastery": 118
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272147?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": true,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272148,
+          "name_cn": "长蛇绕环",
+          "name_en": "Anguine Gyre",
+          "inventory_type": 11,
+          "item_subclass": 0,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 242,
+            "versatility": 134
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272148?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": true,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272149,
+          "name_cn": "妖术指环",
+          "name_en": "Hex Loop",
+          "inventory_type": 11,
+          "item_subclass": 0,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 113,
+            "mastery": 263
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272149?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": true,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272150,
+          "name_cn": "衔尾蛇印玺",
+          "name_en": "Ouroboric Signet",
+          "inventory_type": 11,
+          "item_subclass": 0,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "haste": 140,
+            "mastery": 236
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272150?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": true,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272225,
+          "name_cn": "蹈火者的披风",
+          "name_en": "Pyrewalker's Mantle",
+          "inventory_type": 16,
+          "item_subclass": 1,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 40,
+            "haste": 67
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272225?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272226,
+          "name_cn": "雾猎者的斗篷",
+          "name_en": "Miststalker's Shroud",
+          "inventory_type": 16,
+          "item_subclass": 1,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 67,
+            "versatility": 40
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272226?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272227,
+          "name_cn": "驭风者的披纱",
+          "name_en": "Galerider's Veil",
+          "inventory_type": 16,
+          "item_subclass": 1,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 67,
+            "versatility": 40
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272227?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272228,
+          "name_cn": "呢喃颈饰",
+          "name_en": "Whispering Periapt",
+          "inventory_type": 2,
+          "item_subclass": 0,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "versatility": 156,
+            "mastery": 220
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272228?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": true,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272229,
+          "name_cn": "蛇纹护符",
+          "name_en": "Serpentine Talisman",
+          "inventory_type": 2,
+          "item_subclass": 0,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 220,
+            "haste": 156
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272229?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": true,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272230,
+          "name_cn": "誓言使者挂披",
+          "name_en": "Pledgebearer's Pall",
+          "inventory_type": 16,
+          "item_subclass": 1,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 40,
+            "haste": 67
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272230?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272247,
+          "name_cn": "驭风者锁衫",
+          "name_en": "Galerider's Byrnie",
+          "inventory_type": 5,
+          "item_subclass": 3,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "haste": 75,
+            "mastery": 115
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272247?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272248,
+          "name_cn": "驭风者护足",
+          "name_en": "Galerider's Footguards",
+          "inventory_type": 8,
+          "item_subclass": 3,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 55,
+            "mastery": 88
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272248?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272249,
+          "name_cn": "驭风者链扣护手",
+          "name_en": "Galerider's Chain Clasps",
+          "inventory_type": 10,
+          "item_subclass": 3,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 91,
+            "haste": 52
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272249?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272250,
+          "name_cn": "驭风者视面盔",
+          "name_en": "Galerider's Gaze",
+          "inventory_type": 1,
+          "item_subclass": 3,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "versatility": 122,
+            "mastery": 69
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272250?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272251,
+          "name_cn": "驭风者的护胫",
+          "name_en": "Galerider's Chausses",
+          "inventory_type": 7,
+          "item_subclass": 3,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "haste": 113,
+            "versatility": 78
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272251?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272252,
+          "name_cn": "驭风者的护肩",
+          "name_en": "Galerider's Mantle",
+          "inventory_type": 3,
+          "item_subclass": 3,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 85,
+            "mastery": 57
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272252?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272253,
+          "name_cn": "驭风者锁甲裙",
+          "name_en": "Galerider's Mail Skirt",
+          "inventory_type": 6,
+          "item_subclass": 3,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "versatility": 88,
+            "mastery": 55
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272253?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272254,
+          "name_cn": "驭风者网甲护腕",
+          "name_en": "Galerider's Mesh Wraps",
+          "inventory_type": 9,
+          "item_subclass": 3,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 66,
+            "haste": 41
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272254?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272266,
+          "name_cn": "被遗忘的幻灵匕首",
+          "name_en": "Forgotten Eidolon's Dagger",
+          "inventory_type": 13,
+          "item_subclass": 15,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 58,
+            "haste": 37
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272266?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272270,
+          "name_cn": "骨粉研杵",
+          "name_en": "Bonedust Pestle",
+          "inventory_type": 13,
+          "item_subclass": 4,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "crit": 37,
+            "haste": 58
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272270?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272273,
+          "name_cn": "入龛仪祭权杖",
+          "name_en": "Enshrined Ceremonial Scepter",
+          "inventory_type": 17,
+          "item_subclass": 10,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "versatility": 75,
+            "mastery": 115
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272273?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        },
+        {
+          "item_id": 272276,
+          "name_cn": "哀嚎壁垒",
+          "name_en": "Wailing Bulwark",
+          "inventory_type": 14,
+          "item_subclass": 6,
+          "caster_shaman_usable": true,
+          "usable_specs": [
+            262,
+            264
+          ],
+          "merchant_class_filter_observed": false,
+          "price": {
+            "item_id": 285065,
+            "count": 3,
+            "source_ids": [
+              "labyrinth_live_report",
+              "wahdu_player_catalogue"
+            ]
+          },
+          "start_item_level": 321,
+          "start_track": "Myth 2/6",
+          "normal_max_item_level": 334,
+          "rank_bonus_id": 12850,
+          "actual_full_bonus_ids": null,
+          "secondary_ratings_at_321": {
+            "haste": 60,
+            "versatility": 36
+          },
+          "cantrip_in_rank_tooltip": false,
+          "tooltip_url": "https://nether.wowhead.com/tooltip/item/272276?dataEnv=1&locale=4&bonus=12850",
+          "jewelry_socket": {
+            "reported_by_player": false,
+            "verified_on_actual_merchant_link": false
+          }
+        }
+      ],
+      "limits": [
+        "22 caster-shaman usable candidates were individually rechecked via live rank2 tooltips.",
+        "Usability is separate from which items the character's class-filtered merchant currently shows.",
+        "Full merchant bonus chains, sockets, tertiaries and source variants remain unknown.",
+        "News list omits272283 and calls wand272271 a strength sword; use actual item type, not that label."
+      ]
+    },
+    "compatibility_with_R": {
+      "can_plan_as_independent_sources": true,
+      "evidence_type": "Different payment items and independent published systems; no current exclusivity rule found.",
+      "vendor_purchase_marks_R_collection": null,
+      "accounting_rule": "Treat the purchase as ownership, not a bonus-roll exclusion, unless actual character preview confirms that exclusion.",
+      "practical_combinations": [
+        {
+          "vendor_alternative_ids": [
+            272252,
+            272254,
+            272248,
+            272249
+          ],
+          "R_target_id": 268252,
+          "condition": "At least three actual fragments; at most one current R; retained tier and cantrip slots checked."
+        },
+        {
+          "vendor_alternative_ids": [
+            272147,
+            272148,
+            272149,
+            272150
+          ],
+          "R_action": "save",
+          "condition": "Only if measured complete-loadout improvement justifies replacing a ring; no result is supplied by this investigation."
+        }
+      ],
+      "avoid_automatic_replacements": [
+        "Do not replace existing341 cantrip dagger or341 cantrip/venomcursed neck merely because a selectable item exists.",
+        "Vendor gloves272249 compete with Kith'ix cantrip gloves281238 and a tier slot.",
+        "Vendor chest272247 competes with the owned venomcursed precursor271876."
+      ]
+    },
+    "resources": {
+      "myth2_to_myth6_nominal_crests": 80,
+      "myth1_to_myth6_nominal_crests": 100,
+      "current_105_nominal_remainder_after_one_myth2_item": 25,
+      "current_105_nominal_remainder_after_one_myth1_item": 5,
+      "actual_crest_quote": null,
+      "discounts_must_be_checked": true,
+      "stones_required_for_one_ascension": 10,
+      "current_stones": 8,
+      "shortfall": 2,
+      "ascensions_affordable_now": 0,
+      "weapon_and_neck_ascension_after_full_upgrade": 341,
+      "shield_specific_ascension_eligibility_verified_here": false,
+      "source_ids": [
+        "upgrade_rules",
+        "cn_1215",
+        "current_voidforge_guide"
+      ],
+      "primary_armor_cloaks_rings_venomstone_ascension": false
+    }
+  },
+  "vault": {
+    "status": "offered_as_reported; not claimed",
+    "item_level_reported": 318,
+    "track_verified": false,
+    "possible_tracks": [
+      "Myth 1/6",
+      "Hero 5/6"
+    ],
+    "items": [
+      {
+        "item_id": 250215,
+        "name_cn": "货运者水壶",
+        "url": "https://www.wowhead.com/cn/item=250215",
+        "reported_ilevel": 318,
+        "actual_full_bonus_ids": null,
+        "identity_verified": true,
+        "already_simulated_by_main_thread": true
+      },
+      {
+        "item_id": 268248,
+        "name_cn": "阿曼尼召唤披巾",
+        "url": "https://www.wowhead.com/cn/item=268248",
+        "reported_ilevel": 318,
+        "actual_full_bonus_ids": null,
+        "identity_verified": true,
+        "already_simulated_by_main_thread": false
+      },
+      {
+        "item_id": 268254,
+        "name_cn": "蛇形调配腰带",
+        "url": "https://www.wowhead.com/cn/item=268254",
+        "reported_ilevel": 318,
+        "actual_full_bonus_ids": null,
+        "identity_verified": true,
+        "already_simulated_by_main_thread": true
+      },
+      {
+        "item_id": 270170,
+        "name_cn": "维克苏尔的涌流腺体（数据库另译维克斯胡尔）",
+        "url": "https://www.wowhead.com/cn/item=270170",
+        "reported_ilevel": 318,
+        "actual_full_bonus_ids": null,
+        "identity_verified": true,
+        "already_simulated_by_main_thread": true
+      },
+      {
+        "item_id": 273780,
+        "name_cn": "毒液蚀刻新月刃",
+        "url": "https://www.wowhead.com/cn/item=273780",
+        "reported_ilevel": 318,
+        "actual_full_bonus_ids": null,
+        "identity_verified": true,
+        "already_simulated_by_main_thread": true
+      }
+    ],
+    "warning": "318 alone does not establish the upgrade track. Main thread already requested this information; do not ask twice."
+  },
+  "R_rules": {
+    "raid_roll_currency_id": 3418,
+    "raid_roll_cost": 1,
+    "heroic_reward_ilevel": 318,
+    "heroic_reward_track": "Myth 1/6",
+    "ordinary_heroic_drops_are_not_R_reward_levels": true,
+    "current_balance_is_baseline_not_income_rate": true,
+    "historical_rolls_not_subtracted_again": true,
+    "weekly_opportunity_limited_by_loot_eligibility": true,
+    "current_live_source_box_collection_rule": "Per difficulty and loot-specialization-compatible possibilities; repeat rewards become possible after collection completion. This does not document numeric-context normalization or cross-spec implementation.",
+    "raw_history_format": [
+      "currency",
+      "source",
+      "context",
+      "keyLevel",
+      "itemId",
+      "specId"
+    ],
+    "fourth_field_is_raid_difficulty": false,
+    "context_5_95": {
+      "user_describes_both_as_heroic_family": true,
+      "shared_exclusion_verified": null,
+      "normalization_verified": false,
+      "do_not_merge_for_exact_remaining_probability": true
+    },
+    "historical_rows": [
+      {
+        "raw": "3418:278284:5:4:268265:264",
+        "currency_id": 3418,
+        "source_item_id": 278284,
+        "context": 5,
+        "key_level": 4,
+        "item_id": 268265,
+        "spec_id": 264,
+        "occurred_at": null,
+        "source": "user_supplied_raw_history",
+        "status": "user_reported_actual_roll",
+        "active_exclusion_verified": false
+      },
+      {
+        "raw": "3418:278284:5:4:271092:264",
+        "currency_id": 3418,
+        "source_item_id": 278284,
+        "context": 5,
+        "key_level": 4,
+        "item_id": 271092,
+        "spec_id": 264,
+        "occurred_at": null,
+        "source": "user_supplied_raw_history",
+        "status": "user_reported_actual_roll",
+        "active_exclusion_verified": false
+      },
+      {
+        "raw": "3418:278284:5:4:271876:264",
+        "currency_id": 3418,
+        "source_item_id": 278284,
+        "context": 5,
+        "key_level": 4,
+        "item_id": 271876,
+        "spec_id": 264,
+        "occurred_at": null,
+        "source": "user_supplied_raw_history",
+        "status": "user_reported_actual_roll",
+        "active_exclusion_verified": false
+      },
+      {
+        "raw": "3418:278286:95:2:268196:262",
+        "currency_id": 3418,
+        "source_item_id": 278286,
+        "context": 95,
+        "key_level": 2,
+        "item_id": 268196,
+        "spec_id": 262,
+        "occurred_at": null,
+        "source": "user_supplied_raw_history",
+        "status": "user_reported_actual_roll",
+        "active_exclusion_verified": false
+      },
+      {
+        "raw": "3418:278286:95:2:268258:262",
+        "currency_id": 3418,
+        "source_item_id": 278286,
+        "context": 95,
+        "key_level": 2,
+        "item_id": 268258,
+        "spec_id": 262,
+        "occurred_at": null,
+        "source": "user_supplied_raw_history",
+        "status": "user_reported_actual_roll",
+        "active_exclusion_verified": false
+      },
+      {
+        "raw": "3418:278286:95:2:270924:262",
+        "currency_id": 3418,
+        "source_item_id": 278286,
+        "context": 95,
+        "key_level": 2,
+        "item_id": 270924,
+        "spec_id": 262,
+        "occurred_at": null,
+        "source": "user_supplied_raw_history",
+        "status": "user_reported_actual_roll",
+        "active_exclusion_verified": false
+      },
+      {
+        "raw": "3418:278288:95:3:270920:262",
+        "currency_id": 3418,
+        "source_item_id": 278288,
+        "context": 95,
+        "key_level": 3,
+        "item_id": 270920,
+        "spec_id": 262,
+        "occurred_at": null,
+        "source": "user_supplied_raw_history",
+        "status": "user_reported_actual_roll",
+        "active_exclusion_verified": false
+      },
+      {
+        "raw": "3418:286019:5:3:281238:262",
+        "currency_id": 3418,
+        "source_item_id": 286019,
+        "context": 5,
+        "key_level": 3,
+        "item_id": 281238,
+        "spec_id": 262,
+        "occurred_at": null,
+        "source": "user_supplied_raw_history",
+        "status": "user_reported_actual_roll",
+        "active_exclusion_verified": false
+      },
+      {
+        "raw": "3418:286019:95:3:281029:262",
+        "currency_id": 3418,
+        "source_item_id": 286019,
+        "context": 95,
+        "key_level": 3,
+        "item_id": 281029,
+        "spec_id": 262,
+        "occurred_at": null,
+        "source": "user_supplied_raw_history",
+        "status": "user_reported_actual_roll",
+        "active_exclusion_verified": false
+      },
+      {
+        "raw": "3418:286019:95:3:281215:262",
+        "currency_id": 3418,
+        "source_item_id": 286019,
+        "context": 95,
+        "key_level": 3,
+        "item_id": 281215,
+        "spec_id": 262,
+        "occurred_at": null,
+        "source": "user_supplied_raw_history",
+        "status": "user_reported_actual_roll",
+        "active_exclusion_verified": false
+      }
+    ],
+    "history_coverage": "partial; no dates or current collection cycle",
+    "legacy_bag_statement": {
+      "item_id": 270164,
+      "reported_date": "2026-10-23",
+      "local_reference": "records/cn-argus-zhengjitu/weeks/2026-10-22.json",
+      "old_activity_alias": "H3 / The Lost Explorers",
+      "actual_source_alias_in_latest_report": "H4 / source278286",
+      "apply_to_current_collection": false
+    }
+  },
+  "encounter_pools": [
+    {
+      "pool_key": "H3_Vashnik",
+      "user_alias": "H3",
+      "boss_name_en": "Vashnik the Malignant",
+      "npc_id": 266403,
+      "source_cache_item_id": null,
+      "difficulty": "Heroic",
+      "difficulty_id": 15,
+      "ordinary_heroic_drop": {
+        "item_level": 311,
+        "track": "Hero 3/6",
+        "very_rare_variants_require_individual_tooltip": true
+      },
+      "bonus_roll_reward": {
+        "currency_id": 3418,
+        "cost": 1,
+        "item_level": 318,
+        "track": "Myth 1/6",
+        "normal_cap": 334
+      },
+      "ordinary_loot": {
+        "item_ids": [
+          268205,
+          268214,
+          268246,
+          268249,
+          268254,
+          268260,
+          270161,
+          270166,
+          270926,
+          270927,
+          270928,
+          270929
+        ],
+        "completeness": "Complete gear/token source set in fetched Raidbots snapshot; excludes cosmetics and does not certify in-game R."
+      },
+      "loot_spec_filtered_ordinary_ids": {
+        "262": [
+          268205,
+          268249,
+          268254,
+          270161,
+          270928
+        ],
+        "264": [
+          268205,
+          268249,
+          268254,
+          270928
+        ]
+      },
+      "derived_bonus_roll_candidate_ids": {
+        "262": [
+          268205,
+          268249,
+          268254,
+          270161,
+          270928
+        ],
+        "264": [
+          268205,
+          268249,
+          268254,
+          270928
+        ]
+      },
+      "filter_method": "Explicit specs for role-limited items/tokens; otherwise caster stat, weapon proficiency and primary armor proficiency. This is a database-derived filter, not a live EJ or character Bonus Loot query.",
+      "role_limited_item_masks": [
+        {
+          "item_id": 270161,
+          "shaman_caster_specs": [
+            262
+          ]
+        },
+        {
+          "item_id": 270166,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270926,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270927,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270928,
+          "shaman_caster_specs": [
+            262,
+            264
+          ]
+        },
+        {
+          "item_id": 270929,
+          "shaman_caster_specs": []
+        }
+      ],
+      "tokens_or_curios": [
+        {
+          "item_id": 270928,
+          "equipment_item": false,
+          "can_simulate_token_directly": false,
+          "bonus_roll_acquisition_confirmed_in_supplied_history": false,
+          "nonrollable_maintainer_report": false
+        }
+      ],
+      "historical_rolls": [],
+      "actual_remaining_R_pool": {
+        "item_ids": null,
+        "count": null,
+        "exclusion_context_5_95_shared": null,
+        "exclusion_across_loot_specs_verified": null,
+        "collection_cycle_or_reset": null,
+        "current_week_eligible": null,
+        "weights": null,
+        "probability": null
+      },
+      "notes": [
+        "H3 is provisionally Vashnik because the supplied H4 cache is positively identified as Lost Explorers. Old character files call Lost Explorers H3; do not merge by number."
+      ],
+      "source_ids": [
+        "raidbots_live",
+        "vashnik_guide",
+        "current_voidforge_guide"
+      ],
+      "raidbots_source_instance_id": 1320,
+      "raidbots_source_encounter_id": 2882
+    },
+    {
+      "pool_key": "H5_Sszorak",
+      "user_alias": "H5",
+      "boss_name_en": "Sszorak",
+      "npc_id": null,
+      "source_cache_item_id": 278288,
+      "difficulty": "Heroic",
+      "difficulty_id": 15,
+      "ordinary_heroic_drop": {
+        "item_level": 311,
+        "track": "Hero 3/6",
+        "very_rare_variants_require_individual_tooltip": true
+      },
+      "bonus_roll_reward": {
+        "currency_id": 3418,
+        "cost": 1,
+        "item_level": 318,
+        "track": "Myth 1/6",
+        "normal_cap": 334
+      },
+      "ordinary_loot": {
+        "item_ids": [
+          268201,
+          268206,
+          268233,
+          268234,
+          268252,
+          268257,
+          270163,
+          270174,
+          270918,
+          270919,
+          270920,
+          270921
+        ],
+        "completeness": "Complete gear/token source set in fetched Raidbots snapshot; excludes cosmetics and does not certify in-game R."
+      },
+      "loot_spec_filtered_ordinary_ids": {
+        "262": [
+          268233,
+          268252,
+          270920
+        ],
+        "264": [
+          268233,
+          268252,
+          270920
+        ]
+      },
+      "derived_bonus_roll_candidate_ids": {
+        "262": [
+          268233,
+          268252,
+          270920
+        ],
+        "264": [
+          268233,
+          268252,
+          270920
+        ]
+      },
+      "filter_method": "Explicit specs for role-limited items/tokens; otherwise caster stat, weapon proficiency and primary armor proficiency. This is a database-derived filter, not a live EJ or character Bonus Loot query.",
+      "role_limited_item_masks": [
+        {
+          "item_id": 270163,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270174,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270918,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270919,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270920,
+          "shaman_caster_specs": [
+            262,
+            264
+          ]
+        },
+        {
+          "item_id": 270921,
+          "shaman_caster_specs": []
+        }
+      ],
+      "tokens_or_curios": [
+        {
+          "item_id": 270920,
+          "equipment_item": false,
+          "can_simulate_token_directly": false,
+          "bonus_roll_acquisition_confirmed_in_supplied_history": true,
+          "nonrollable_maintainer_report": false
+        }
+      ],
+      "historical_rolls": [
+        {
+          "raw": "3418:278288:95:3:270920:262",
+          "currency_id": 3418,
+          "source_item_id": 278288,
+          "context": 95,
+          "key_level": 3,
+          "item_id": 270920,
+          "spec_id": 262,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        }
+      ],
+      "actual_remaining_R_pool": {
+        "item_ids": null,
+        "count": null,
+        "exclusion_context_5_95_shared": null,
+        "exclusion_across_loot_specs_verified": null,
+        "collection_cycle_or_reset": null,
+        "current_week_eligible": null,
+        "weights": null,
+        "probability": null
+      },
+      "notes": [
+        "268206 is an Agility one-handed mace, not an Intellect caster candidate. 270163 is strength-role and270174 tank-role."
+      ],
+      "source_ids": [
+        "raidbots_live",
+        "sszorak_guide",
+        "current_voidforge_guide"
+      ],
+      "raidbots_source_instance_id": 1320,
+      "raidbots_source_encounter_id": 2871
+    },
+    {
+      "pool_key": "H7_Coiled_Altar",
+      "user_alias": "H7",
+      "boss_name_en": "The Coiled Altar",
+      "npc_id": 259854,
+      "source_cache_item_id": null,
+      "difficulty": "Heroic",
+      "difficulty_id": 15,
+      "ordinary_heroic_drop": {
+        "item_level": 315,
+        "track": "Hero 4/6",
+        "very_rare_variants_require_individual_tooltip": true
+      },
+      "bonus_roll_reward": {
+        "currency_id": 3418,
+        "cost": 1,
+        "item_level": 318,
+        "track": "Myth 1/6",
+        "normal_cap": 334
+      },
+      "ordinary_loot": {
+        "item_ids": [
+          268209,
+          268211,
+          268213,
+          268222,
+          268225,
+          268231,
+          268237,
+          268243,
+          268253,
+          268255,
+          268256,
+          268259,
+          270169,
+          270173
+        ],
+        "completeness": "Complete gear/token source set in fetched Raidbots snapshot; excludes cosmetics and does not certify in-game R."
+      },
+      "loot_spec_filtered_ordinary_ids": {
+        "262": [
+          268231,
+          268237,
+          268253,
+          270169
+        ],
+        "264": [
+          268231,
+          268237,
+          268253,
+          270169
+        ]
+      },
+      "derived_bonus_roll_candidate_ids": {
+        "262": [
+          268231,
+          268237,
+          268253,
+          270169
+        ],
+        "264": [
+          268231,
+          268237,
+          268253,
+          270169
+        ]
+      },
+      "filter_method": "Explicit specs for role-limited items/tokens; otherwise caster stat, weapon proficiency and primary armor proficiency. This is a database-derived filter, not a live EJ or character Bonus Loot query.",
+      "role_limited_item_masks": [
+        {
+          "item_id": 268213,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270169,
+          "shaman_caster_specs": [
+            262,
+            264
+          ]
+        },
+        {
+          "item_id": 270173,
+          "shaman_caster_specs": []
+        }
+      ],
+      "tokens_or_curios": [],
+      "historical_rolls": [],
+      "actual_remaining_R_pool": {
+        "item_ids": null,
+        "count": null,
+        "exclusion_context_5_95_shared": null,
+        "exclusion_across_loot_specs_verified": null,
+        "collection_cycle_or_reset": null,
+        "current_week_eligible": null,
+        "weights": null,
+        "probability": null
+      },
+      "notes": [
+        "270169 is eligible in both explicit caster-spec masks; switching to Restoration does not remove a listed filler item.268231 is ordinary mail shoulders, not a tier token."
+      ],
+      "source_ids": [
+        "raidbots_live",
+        "coiled_guide",
+        "current_voidforge_guide"
+      ],
+      "raidbots_source_instance_id": 1320,
+      "raidbots_source_encounter_id": 2883
+    },
+    {
+      "pool_key": "H8_Ulatek",
+      "user_alias": "H8",
+      "boss_name_en": "Ula'tek",
+      "npc_id": null,
+      "source_cache_item_id": 278284,
+      "difficulty": "Heroic",
+      "difficulty_id": 15,
+      "ordinary_heroic_drop": {
+        "item_level": 315,
+        "track": "Hero 4/6",
+        "very_rare_variants_require_individual_tooltip": true
+      },
+      "bonus_roll_reward": {
+        "currency_id": 3418,
+        "cost": 1,
+        "item_level": 318,
+        "track": "Myth 1/6",
+        "normal_cap": 334
+      },
+      "ordinary_loot": {
+        "item_ids": [
+          268202,
+          268207,
+          268215,
+          268265,
+          270168,
+          270175,
+          270909,
+          271092,
+          271093,
+          271874,
+          271875,
+          271876,
+          271878
+        ],
+        "completeness": "Complete gear/token source set in fetched Raidbots snapshot; excludes cosmetics and does not certify in-game R."
+      },
+      "loot_spec_filtered_ordinary_ids": {
+        "262": [
+          268265,
+          270168,
+          270909,
+          271092,
+          271876
+        ],
+        "264": [
+          268265,
+          270909,
+          271092,
+          271876
+        ]
+      },
+      "derived_bonus_roll_candidate_ids": {
+        "262": [
+          268265,
+          270168,
+          271092,
+          271876
+        ],
+        "264": [
+          268265,
+          271092,
+          271876
+        ]
+      },
+      "filter_method": "Explicit specs for role-limited items/tokens; otherwise caster stat, weapon proficiency and primary armor proficiency. This is a database-derived filter, not a live EJ or character Bonus Loot query.",
+      "role_limited_item_masks": [
+        {
+          "item_id": 270168,
+          "shaman_caster_specs": [
+            262
+          ]
+        },
+        {
+          "item_id": 270175,
+          "shaman_caster_specs": []
+        }
+      ],
+      "tokens_or_curios": [
+        {
+          "item_id": 270909,
+          "equipment_item": false,
+          "can_simulate_token_directly": false,
+          "bonus_roll_acquisition_confirmed_in_supplied_history": false,
+          "nonrollable_maintainer_report": true
+        }
+      ],
+      "historical_rolls": [
+        {
+          "raw": "3418:278284:5:4:268265:264",
+          "currency_id": 3418,
+          "source_item_id": 278284,
+          "context": 5,
+          "key_level": 4,
+          "item_id": 268265,
+          "spec_id": 264,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        },
+        {
+          "raw": "3418:278284:5:4:271092:264",
+          "currency_id": 3418,
+          "source_item_id": 278284,
+          "context": 5,
+          "key_level": 4,
+          "item_id": 271092,
+          "spec_id": 264,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        },
+        {
+          "raw": "3418:278284:5:4:271876:264",
+          "currency_id": 3418,
+          "source_item_id": 278284,
+          "context": 5,
+          "key_level": 4,
+          "item_id": 271876,
+          "spec_id": 264,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        }
+      ],
+      "actual_remaining_R_pool": {
+        "item_ids": null,
+        "count": null,
+        "exclusion_context_5_95_shared": null,
+        "exclusion_across_loot_specs_verified": null,
+        "collection_cycle_or_reset": null,
+        "current_week_eligible": null,
+        "weights": null,
+        "probability": null
+      },
+      "notes": [
+        "Curio270909 belongs to ordinary loot but is excluded from the derived R list on the maintainer's first-hand report. Three supplied Restoration results match all three derived R entries: collection completion/reset is possible, not an empty permanent pool."
+      ],
+      "source_ids": [
+        "raidbots_live",
+        "ulatek_guide",
+        "current_voidforge_guide",
+        "specloot_maintainer"
+      ],
+      "raidbots_source_instance_id": 1320,
+      "raidbots_source_encounter_id": 2895
+    },
+    {
+      "pool_key": "H4_Lost_Explorers_legacy_H3",
+      "user_alias": "H4 in new raw history; H3 in older files",
+      "boss_name_en": "The Lost Explorers / Tortollan Explorers",
+      "npc_id": 267077,
+      "source_cache_item_id": 278286,
+      "difficulty": "Heroic",
+      "difficulty_id": 15,
+      "ordinary_heroic_drop": {
+        "item_level": 308,
+        "track": "Hero 2/6",
+        "very_rare_variants_require_individual_tooltip": true
+      },
+      "bonus_roll_reward": {
+        "currency_id": 3418,
+        "cost": 1,
+        "item_level": 318,
+        "track": "Myth 1/6",
+        "normal_cap": 334
+      },
+      "ordinary_loot": {
+        "item_ids": [
+          268196,
+          268200,
+          268210,
+          268227,
+          268239,
+          268242,
+          268258,
+          270160,
+          270164,
+          270922,
+          270923,
+          270924,
+          270925
+        ],
+        "completeness": "Complete gear/token source set in fetched Raidbots snapshot; excludes cosmetics and does not certify in-game R."
+      },
+      "loot_spec_filtered_ordinary_ids": {
+        "262": [
+          268196,
+          268210,
+          268258,
+          270164,
+          270924
+        ],
+        "264": [
+          268196,
+          268210,
+          268258,
+          270164,
+          270924
+        ]
+      },
+      "derived_bonus_roll_candidate_ids": {
+        "262": [
+          268196,
+          268210,
+          268258,
+          270164,
+          270924
+        ],
+        "264": [
+          268196,
+          268210,
+          268258,
+          270164,
+          270924
+        ]
+      },
+      "filter_method": "Explicit specs for role-limited items/tokens; otherwise caster stat, weapon proficiency and primary armor proficiency. This is a database-derived filter, not a live EJ or character Bonus Loot query.",
+      "role_limited_item_masks": [
+        {
+          "item_id": 270160,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270922,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270923,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 270924,
+          "shaman_caster_specs": [
+            262,
+            264
+          ]
+        },
+        {
+          "item_id": 270925,
+          "shaman_caster_specs": []
+        }
+      ],
+      "tokens_or_curios": [
+        {
+          "item_id": 270924,
+          "equipment_item": false,
+          "can_simulate_token_directly": false,
+          "bonus_roll_acquisition_confirmed_in_supplied_history": true,
+          "nonrollable_maintainer_report": false
+        }
+      ],
+      "historical_rolls": [
+        {
+          "raw": "3418:278286:95:2:268196:262",
+          "currency_id": 3418,
+          "source_item_id": 278286,
+          "context": 95,
+          "key_level": 2,
+          "item_id": 268196,
+          "spec_id": 262,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        },
+        {
+          "raw": "3418:278286:95:2:268258:262",
+          "currency_id": 3418,
+          "source_item_id": 278286,
+          "context": 95,
+          "key_level": 2,
+          "item_id": 268258,
+          "spec_id": 262,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        },
+        {
+          "raw": "3418:278286:95:2:270924:262",
+          "currency_id": 3418,
+          "source_item_id": 278286,
+          "context": 95,
+          "key_level": 2,
+          "item_id": 270924,
+          "spec_id": 262,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        }
+      ],
+      "actual_remaining_R_pool": {
+        "item_ids": null,
+        "count": null,
+        "exclusion_context_5_95_shared": null,
+        "exclusion_across_loot_specs_verified": null,
+        "collection_cycle_or_reset": null,
+        "current_week_eligible": null,
+        "weights": null,
+        "probability": null
+      },
+      "notes": [
+        "Included to resolve the H3/H4 naming conflict and preserve the supplied shield/boots/shoulder-token history. Older bag confirmation270164 has unknown acquisition date and active collection cycle."
+      ],
+      "source_ids": [
+        "raidbots_live",
+        "current_voidforge_guide"
+      ],
+      "raidbots_source_instance_id": 1320,
+      "raidbots_source_encounter_id": 2894
+    },
+    {
+      "pool_key": "Kithix_new_raid",
+      "user_alias": "new raid / older H10 label",
+      "boss_name_en": "Kith'ix / The Unbinding of Kith'ix",
+      "npc_id": 267861,
+      "source_cache_item_id": 286019,
+      "difficulty": "Heroic",
+      "difficulty_id": 15,
+      "ordinary_heroic_drop": {
+        "item_level": 311,
+        "track": "Hero 3/6",
+        "very_rare_variants_require_individual_tooltip": true
+      },
+      "bonus_roll_reward": {
+        "currency_id": 3418,
+        "cost": 1,
+        "item_level": 318,
+        "track": "Myth 1/6",
+        "normal_cap": 334
+      },
+      "ordinary_loot": {
+        "item_ids": [
+          280617,
+          280799,
+          280835,
+          281029,
+          281056,
+          281215,
+          281235,
+          281236,
+          281238,
+          281239
+        ],
+        "completeness": "Complete gear/token source set in fetched Raidbots snapshot; excludes cosmetics and does not certify in-game R."
+      },
+      "loot_spec_filtered_ordinary_ids": {
+        "262": [
+          281029,
+          281215,
+          281238
+        ],
+        "264": [
+          280835,
+          281029,
+          281238
+        ]
+      },
+      "derived_bonus_roll_candidate_ids": {
+        "262": [
+          281029,
+          281215,
+          281238
+        ],
+        "264": [
+          280835,
+          281029,
+          281238
+        ]
+      },
+      "filter_method": "Explicit specs for role-limited items/tokens; otherwise caster stat, weapon proficiency and primary armor proficiency. This is a database-derived filter, not a live EJ or character Bonus Loot query.",
+      "role_limited_item_masks": [
+        {
+          "item_id": 280617,
+          "shaman_caster_specs": []
+        },
+        {
+          "item_id": 280835,
+          "shaman_caster_specs": [
+            264
+          ]
+        },
+        {
+          "item_id": 281215,
+          "shaman_caster_specs": [
+            262
+          ]
+        }
+      ],
+      "tokens_or_curios": [],
+      "historical_rolls": [
+        {
+          "raw": "3418:286019:5:3:281238:262",
+          "currency_id": 3418,
+          "source_item_id": 286019,
+          "context": 5,
+          "key_level": 3,
+          "item_id": 281238,
+          "spec_id": 262,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        },
+        {
+          "raw": "3418:286019:95:3:281029:262",
+          "currency_id": 3418,
+          "source_item_id": 286019,
+          "context": 95,
+          "key_level": 3,
+          "item_id": 281029,
+          "spec_id": 262,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        },
+        {
+          "raw": "3418:286019:95:3:281215:262",
+          "currency_id": 3418,
+          "source_item_id": 286019,
+          "context": 95,
+          "key_level": 3,
+          "item_id": 281215,
+          "spec_id": 262,
+          "occurred_at": null,
+          "source": "user_supplied_raw_history",
+          "status": "user_reported_actual_roll",
+          "active_exclusion_verified": false
+        }
+      ],
+      "actual_remaining_R_pool": {
+        "item_ids": null,
+        "count": null,
+        "exclusion_context_5_95_shared": null,
+        "exclusion_across_loot_specs_verified": null,
+        "collection_cycle_or_reset": null,
+        "current_week_eligible": null,
+        "weights": null,
+        "probability": null
+      },
+      "notes": [
+        "Current explicit game-data masks put Tendril281215 in262, not264; Eclipse280835 in264, not262. The three supplied262 results span both contexts and match the entire derived262 pool; family sharing and collection reset are unverified."
+      ],
+      "source_ids": [
+        "raidbots_live",
+        "kithix_guide",
+        "current_voidforge_guide"
+      ],
+      "raidbots_source_instance_id": 1324,
+      "raidbots_source_encounter_id": 2896,
+      "addon_reported_encounter_id": 3513,
+      "encounter_id_namespace_note": "Raidbots source2896 and addon-reported3513 are retained separately; no unverified namespace conversion is applied."
+    }
+  ],
+  "simulation_handoff": {
+    "immediate_vendor_complement_ids": [
+      272252,
+      272254,
+      272248,
+      272249,
+      272147,
+      272148,
+      272149,
+      272150
+    ],
+    "secondary_vendor_caster_ids": [
+      272225,
+      272226,
+      272227,
+      272228,
+      272229,
+      272230,
+      272247,
+      272250,
+      272251,
+      272253,
+      272266,
+      272270,
+      272273,
+      272276
+    ],
+    "raid_equipment_ids": [
+      268196,
+      268205,
+      268210,
+      268231,
+      268233,
+      268237,
+      268249,
+      268252,
+      268253,
+      268254,
+      268258,
+      268265,
+      270161,
+      270164,
+      270168,
+      270169,
+      271092,
+      271876,
+      280835,
+      281029,
+      281215,
+      281238
+    ],
+    "token_rewards": [
+      {
+        "token_id": 270928,
+        "shaman_equipment_id": 271486,
+        "slot": "chest"
+      },
+      {
+        "token_id": 270920,
+        "shaman_equipment_id": 271482,
+        "slot": "legs"
+      },
+      {
+        "token_id": 270924,
+        "shaman_equipment_id": null,
+        "slot": "shoulders",
+        "needs": "Actual class-item link; token itself must not be used as wearable gear."
+      }
+    ],
+    "current_candidate_variant_scenarios": {
+      "vendor": [
+        321,
+        334
+      ],
+      "heroic_R": [
+        318,
+        334
+      ],
+      "qualifying_future_ascended": [
+        341
+      ],
+      "owned_chest_precursor": [
+        334
+      ]
+    },
+    "variant_requirements": [
+      "These are candidate identities, not measured winners or confirmed available R outcomes.",
+      "For cantrip/venomcursed or Catalyst-derived items, preserve the source effect and actual complete bonus chain/redirected secondary stats.",
+      "Rank bonus12850 demonstrates Myth2, not the complete real merchant item link.",
+      "For weapon comparisons retain the complete existing341 dagger +334 shield setup as the reference.",
+      "The main thread's fixed-target Gland result omits kill-driven cooldown reduction; do not generalize it to actual dungeon pulls.",
+      "Gloves281238 have conditional15% additional proc damage while Venomcursed; ring281029 has its own damaging proc. Preserve both in vendor comparisons."
+    ],
+    "simulation_run_here": false
+  },
+  "minimum_missing_information": [
+    {
+      "priority": 1,
+      "needed": "Actual count of item285065 and the current Wah'du quest name/step.",
+      "reason": "Determines zero/one current exchange; unclaimed is not proof of sufficient fragments."
+    },
+    {
+      "priority": 2,
+      "needed": "Merchant tooltip/item link for the selected shortlist item, showing321 Myth2/6 and three-fragment price; upgrade UI quote if crest budget matters.",
+      "reason": "Confirms current CN selection, full bonuses/sockets and actual discounted crest cost."
+    },
+    {
+      "priority": 3,
+      "needed": "Actual remaining Bonus Loot previews for the named target boss in262 and264, plus this week's loot eligibility.",
+      "reason": "Required only to finalize R allocation/remaining pool. The supplied raw history need not be requested again."
+    },
+    {
+      "priority": 4,
+      "needed": "Name intended by H3 if different from Vashnik.",
+      "reason": "Old file shorthand conflicts with latest source-bound H4; both named pools are retained."
+    }
+  ],
+  "evidence_observations": {
+    "tooltip_observations": [
+      {
+        "item_id": 272147,
+        "name_cn": "游蛇之环",
+        "url": "https://nether.wowhead.com/tooltip/item/272147?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:06.964674+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "haste": 258,
+          "mastery": 118
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272148,
+        "name_cn": "长蛇绕环",
+        "url": "https://nether.wowhead.com/tooltip/item/272148?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:07.489303+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 242,
+          "versatility": 134
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272149,
+        "name_cn": "妖术指环",
+        "url": "https://nether.wowhead.com/tooltip/item/272149?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:07.423175+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 113,
+          "mastery": 263
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272150,
+        "name_cn": "衔尾蛇印玺",
+        "url": "https://nether.wowhead.com/tooltip/item/272150?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:08.627749+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "haste": 140,
+          "mastery": 236
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272225,
+        "name_cn": "蹈火者的披风",
+        "url": "https://nether.wowhead.com/tooltip/item/272225?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:09.881598+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 40,
+          "haste": 67
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272226,
+        "name_cn": "雾猎者的斗篷",
+        "url": "https://nether.wowhead.com/tooltip/item/272226?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:11.342352+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 67,
+          "versatility": 40
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272227,
+        "name_cn": "驭风者的披纱",
+        "url": "https://nether.wowhead.com/tooltip/item/272227?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:10.723963+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 67,
+          "versatility": 40
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272228,
+        "name_cn": "呢喃颈饰",
+        "url": "https://nether.wowhead.com/tooltip/item/272228?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:11.672889+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "versatility": 156,
+          "mastery": 220
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272229,
+        "name_cn": "蛇纹护符",
+        "url": "https://nether.wowhead.com/tooltip/item/272229?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:12.817760+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 220,
+          "haste": 156
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272230,
+        "name_cn": "誓言使者挂披",
+        "url": "https://nether.wowhead.com/tooltip/item/272230?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:13.929246+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 40,
+          "haste": 67
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272247,
+        "name_cn": "驭风者锁衫",
+        "url": "https://nether.wowhead.com/tooltip/item/272247?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:14.451137+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "haste": 75,
+          "mastery": 115
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272248,
+        "name_cn": "驭风者护足",
+        "url": "https://nether.wowhead.com/tooltip/item/272248?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:14.784460+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 55,
+          "mastery": 88
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272249,
+        "name_cn": "驭风者链扣护手",
+        "url": "https://nether.wowhead.com/tooltip/item/272249?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:16.011335+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 91,
+          "haste": 52
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272250,
+        "name_cn": "驭风者视面盔",
+        "url": "https://nether.wowhead.com/tooltip/item/272250?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:17.402748+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "versatility": 122,
+          "mastery": 69
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272251,
+        "name_cn": "驭风者的护胫",
+        "url": "https://nether.wowhead.com/tooltip/item/272251?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:17.403272+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "haste": 113,
+          "versatility": 78
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272252,
+        "name_cn": "驭风者的护肩",
+        "url": "https://nether.wowhead.com/tooltip/item/272252?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:17.687945+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 85,
+          "mastery": 57
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272253,
+        "name_cn": "驭风者锁甲裙",
+        "url": "https://nether.wowhead.com/tooltip/item/272253?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:19.140009+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "versatility": 88,
+          "mastery": 55
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272254,
+        "name_cn": "驭风者网甲护腕",
+        "url": "https://nether.wowhead.com/tooltip/item/272254?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:21.102994+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 66,
+          "haste": 41
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272266,
+        "name_cn": "被遗忘的幻灵匕首",
+        "url": "https://nether.wowhead.com/tooltip/item/272266?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:20.769975+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 58,
+          "haste": 37
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272270,
+        "name_cn": "骨粉研杵",
+        "url": "https://nether.wowhead.com/tooltip/item/272270?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:20.808887+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "crit": 37,
+          "haste": 58
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272273,
+        "name_cn": "入龛仪祭权杖",
+        "url": "https://nether.wowhead.com/tooltip/item/272273?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:22.092987+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "versatility": 75,
+          "mastery": 115
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 272276,
+        "name_cn": "哀嚎壁垒",
+        "url": "https://nether.wowhead.com/tooltip/item/272276?dataEnv=1&locale=4&bonus=12850",
+        "retrieved_at": "2026-11-13T13:33:23.551478+08:00",
+        "rank_bonus_query": 12850,
+        "rendered_item_level": 321,
+        "rendered_upgrade_rank": "2/6",
+        "secondary_ratings": {
+          "haste": 60,
+          "versatility": 36
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 268206,
+        "name_cn": "游蛇蛮兵之槌",
+        "url": "https://nether.wowhead.com/tooltip/item/268206?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:24.701635+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 341,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {
+          "crit": 71,
+          "mastery": 32
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": true,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 268205,
+        "name_cn": "毒术师的飞翼导能杖",
+        "url": "https://nether.wowhead.com/tooltip/item/268205?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:24.319534+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 341,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {
+          "haste": 65,
+          "mastery": 142
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": true,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 270161,
+        "name_cn": "幽影恶念之牙",
+        "url": "https://nether.wowhead.com/tooltip/item/270161?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:25.483776+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 341,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": true,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 270168,
+        "name_cn": "剧毒狂怒之泉",
+        "url": "https://nether.wowhead.com/tooltip/item/270168?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:25.752681+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 344,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {
+          "mastery": 149
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 270169,
+        "name_cn": "妖术领主的厄运神像",
+        "url": "https://nether.wowhead.com/tooltip/item/270169?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:26.564974+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 344,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {
+          "haste": 149
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 280835,
+        "name_cn": "日蚀临世之印",
+        "url": "https://nether.wowhead.com/tooltip/item/280835?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:27.075308+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 341,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": true,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 281215,
+        "name_cn": "扭曲恐兽触须",
+        "url": "https://nether.wowhead.com/tooltip/item/281215?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:27.540771+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 341,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": true,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 271876,
+        "name_cn": "觉醒恐牙胸甲",
+        "url": "https://nether.wowhead.com/tooltip/item/271876?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:28.462052+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 344,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {
+          "mastery": 209
+        },
+        "venomcursed_label_rendered": true,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 268265,
+        "name_cn": "亚基克星藏骨匣",
+        "url": "https://nether.wowhead.com/tooltip/item/268265?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:28.918076+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 344,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {
+          "crit": 107,
+          "haste": 107,
+          "versatility": 107,
+          "mastery": 107
+        },
+        "venomcursed_label_rendered": true,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 270170,
+        "name_cn": "维克苏尔的涌流腺体",
+        "url": "https://nether.wowhead.com/tooltip/item/270170?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:30.406147+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 341,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": true,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 250215,
+        "name_cn": "货运者水壶",
+        "url": "https://nether.wowhead.com/tooltip/item/250215?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:29.710844+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 341,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": true,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 273780,
+        "name_cn": "毒液蚀刻新月刃",
+        "url": "https://nether.wowhead.com/tooltip/item/273780?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:31.452115+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 341,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {
+          "crit": 49,
+          "mastery": 55
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": true,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 268248,
+        "name_cn": "阿曼尼召唤披巾",
+        "url": "https://nether.wowhead.com/tooltip/item/268248?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:32.048722+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 334,
+        "rendered_upgrade_rank": "6/6",
+        "secondary_ratings": {
+          "crit": 78,
+          "versatility": 35
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 268254,
+        "name_cn": "蛇形调配腰带",
+        "url": "https://nether.wowhead.com/tooltip/item/268254?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:32.478245+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 334,
+        "rendered_upgrade_rank": "6/6",
+        "secondary_ratings": {
+          "haste": 47,
+          "mastery": 103
+        },
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 278284,
+        "name_cn": "晦暗虚空宝箱：乌拉特克",
+        "url": "https://nether.wowhead.com/tooltip/item/278284?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:32.885953+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 297,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 278286,
+        "name_cn": "晦暗虚空宝箱：始祖龟探险者",
+        "url": "https://nether.wowhead.com/tooltip/item/278286?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:33.899774+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 297,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 278288,
+        "name_cn": "晦暗虚空宝箱：斯索拉克",
+        "url": "https://nether.wowhead.com/tooltip/item/278288?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:35.048082+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 297,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 286019,
+        "name_cn": "晦暗虚空宝箱：基希克斯",
+        "url": "https://nether.wowhead.com/tooltip/item/286019?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:35.574457+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 297,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 285065,
+        "name_cn": "神话灵魂残片",
+        "url": "https://nether.wowhead.com/tooltip/item/285065?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:36.179076+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 1,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 280562,
+        "name_cn": "晋升毒液石",
+        "url": "https://nether.wowhead.com/tooltip/item/280562?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:36.490786+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 1,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 274476,
+        "name_cn": "潮汐火花",
+        "url": "https://nether.wowhead.com/tooltip/item/274476?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:33:37.270417+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 90,
+        "rendered_upgrade_rank": null,
+        "secondary_ratings": {},
+        "venomcursed_label_rendered": false,
+        "ascended_label_rendered": false,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Tooltip renderer observation only; unspecified defaults can be ascended/overcap. Never infer this character's item level or acquisition from this rendering."
+      },
+      {
+        "item_id": 281238,
+        "name_cn": "畸变指挥官护手",
+        "url": "https://nether.wowhead.com/tooltip/item/281238?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:42:58.245881+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 334,
+        "rendered_upgrade_rank": "6/6",
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Identity and effect observation only; this default rendering is not a character item link."
+      },
+      {
+        "item_id": 281029,
+        "name_cn": "虫群召唤者指环",
+        "url": "https://nether.wowhead.com/tooltip/item/281029?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:42:58.090241+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 334,
+        "rendered_upgrade_rank": "6/6",
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Identity and effect observation only; this default rendering is not a character item link."
+      },
+      {
+        "item_id": 270928,
+        "name_cn": "毒锻圣像",
+        "url": "https://nether.wowhead.com/tooltip/item/270928?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:42:58.080124+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 219,
+        "rendered_upgrade_rank": null,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Identity and effect observation only; this default rendering is not a character item link."
+      },
+      {
+        "item_id": 270924,
+        "name_cn": "毒锻残骸",
+        "url": "https://nether.wowhead.com/tooltip/item/270924?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:42:57.466884+08:00",
+        "rank_bonus_query": null,
+        "rendered_item_level": 219,
+        "rendered_upgrade_rank": null,
+        "is_actual_character_or_merchant_link": false,
+        "scope": "Identity and effect observation only; this default rendering is not a character item link."
+      }
+    ],
+    "ordinary_game_data": [
+      {
+        "item_id": 268196,
+        "name_en": "Venom-Slashed Scuteward",
+        "item_class": 4,
+        "item_subclass": 6,
+        "inventory_type": 14,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 4,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4698
+          },
+          {
+            "id": 32,
+            "alloc": 2302
+          },
+          {
+            "id": 5,
+            "alloc": 16132
+          }
+        ]
+      },
+      {
+        "item_id": 268200,
+        "name_en": "Gebbo's Backup Blaster",
+        "item_class": 2,
+        "item_subclass": 3,
+        "inventory_type": 26,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 3,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4851
+          },
+          {
+            "id": 49,
+            "alloc": 2149
+          }
+        ]
+      },
+      {
+        "item_id": 268201,
+        "name_en": "Venomous Boneglaive",
+        "item_class": 2,
+        "item_subclass": 9,
+        "inventory_type": 13,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4854
+          },
+          {
+            "id": 32,
+            "alloc": 2146
+          },
+          {
+            "id": 5,
+            "alloc": 25370
+          }
+        ]
+      },
+      {
+        "item_id": 268202,
+        "name_en": "Jaw of the Shackled Goddess",
+        "item_class": 2,
+        "item_subclass": 7,
+        "inventory_type": 13,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13847
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 4,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 7000
+          }
+        ]
+      },
+      {
+        "item_id": 268205,
+        "name_en": "Venomancer's Winged Channeler",
+        "item_class": 2,
+        "item_subclass": 10,
+        "inventory_type": 17,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4801
+          },
+          {
+            "id": 36,
+            "alloc": 2199
+          },
+          {
+            "id": 5,
+            "alloc": 18121
+          }
+        ]
+      },
+      {
+        "item_id": 268206,
+        "name_en": "Slithering Savage's Gavel",
+        "item_class": 2,
+        "item_subclass": 4,
+        "inventory_type": 13,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 3,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 4843
+          },
+          {
+            "id": 49,
+            "alloc": 2157
+          }
+        ]
+      },
+      {
+        "item_id": 268207,
+        "name_en": "Caustic Repose Greatbow",
+        "item_class": 2,
+        "item_subclass": 2,
+        "inventory_type": 15,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13708
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 3,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 7000
+          }
+        ]
+      },
+      {
+        "item_id": 268209,
+        "name_en": "Aman'muso, Warlord's Vengeance",
+        "item_class": 2,
+        "item_subclass": 0,
+        "inventory_type": 21,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883,
+            "veryRare": true
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 72,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4900
+          },
+          {
+            "id": 36,
+            "alloc": 2100
+          }
+        ]
+      },
+      {
+        "item_id": 268210,
+        "name_en": "Malevolent Spiritcudgel",
+        "item_class": 2,
+        "item_subclass": 4,
+        "inventory_type": 13,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4893
+          },
+          {
+            "id": 32,
+            "alloc": 2107
+          },
+          {
+            "id": 5,
+            "alloc": 25370
+          }
+        ]
+      },
+      {
+        "item_id": 268211,
+        "name_en": "Baleful Hexblade",
+        "item_class": 2,
+        "item_subclass": 7,
+        "inventory_type": 13,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4765
+          },
+          {
+            "id": 49,
+            "alloc": 2235
+          },
+          {
+            "id": 5,
+            "alloc": 25370
+          }
+        ]
+      },
+      {
+        "item_id": 268213,
+        "name_en": "Maze-roa, Warlord's Fury",
+        "item_class": 2,
+        "item_subclass": 1,
+        "inventory_type": 17,
+        "explicit_specs": [
+          70,
+          71,
+          72,
+          250,
+          251,
+          252,
+          255,
+          1455
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883,
+            "veryRare": true
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 72,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 4950
+          },
+          {
+            "id": 49,
+            "alloc": 2050
+          }
+        ]
+      },
+      {
+        "item_id": 268214,
+        "name_en": "Malignant Toothed Edge",
+        "item_class": 2,
+        "item_subclass": 8,
+        "inventory_type": 17,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 4,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4650
+          },
+          {
+            "id": 49,
+            "alloc": 2350
+          }
+        ]
+      },
+      {
+        "item_id": 268215,
+        "name_en": "Abyssal Broodfiend's Bardiche",
+        "item_class": 2,
+        "item_subclass": 6,
+        "inventory_type": 17,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13846
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 3,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 7000
+          }
+        ]
+      },
+      {
+        "item_id": 268222,
+        "name_en": "Reckless Spirit Breastplate",
+        "item_class": 4,
+        "item_subclass": 4,
+        "inventory_type": 5,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 74,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4996
+          },
+          {
+            "id": 49,
+            "alloc": 2004
+          }
+        ]
+      },
+      {
+        "item_id": 268225,
+        "name_en": "Coiled Hex Legguards",
+        "item_class": 4,
+        "item_subclass": 2,
+        "inventory_type": 7,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4800
+          },
+          {
+            "id": 36,
+            "alloc": 2200
+          }
+        ]
+      },
+      {
+        "item_id": 268227,
+        "name_en": "Unpossessed Skullsash",
+        "item_class": 4,
+        "item_subclass": 2,
+        "inventory_type": 6,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 4985
+          },
+          {
+            "id": 49,
+            "alloc": 2015
+          }
+        ]
+      },
+      {
+        "item_id": 268231,
+        "name_en": "Soulslither Spaulders",
+        "item_class": 4,
+        "item_subclass": 3,
+        "inventory_type": 3,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4859
+          },
+          {
+            "id": 32,
+            "alloc": 2141
+          }
+        ]
+      },
+      {
+        "item_id": 268233,
+        "name_en": "Ferocious Scaleboots",
+        "item_class": 4,
+        "item_subclass": 3,
+        "inventory_type": 8,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4838
+          },
+          {
+            "id": 36,
+            "alloc": 2162
+          }
+        ]
+      },
+      {
+        "item_id": 268234,
+        "name_en": "Ruthless Slaughtergrips",
+        "item_class": 4,
+        "item_subclass": 2,
+        "inventory_type": 10,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4761
+          },
+          {
+            "id": 32,
+            "alloc": 2239
+          }
+        ]
+      },
+      {
+        "item_id": 268237,
+        "name_en": "Cuisses of the Uncoiled Union",
+        "item_class": 4,
+        "item_subclass": 3,
+        "inventory_type": 7,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4839
+          },
+          {
+            "id": 49,
+            "alloc": 2161
+          }
+        ]
+      },
+      {
+        "item_id": 268239,
+        "name_en": "Shellbound Bracers",
+        "item_class": 4,
+        "item_subclass": 4,
+        "inventory_type": 9,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 74,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4869
+          },
+          {
+            "id": 32,
+            "alloc": 2131
+          }
+        ]
+      },
+      {
+        "item_id": 268242,
+        "name_en": "Errant Scrollsage's Hood",
+        "item_class": 4,
+        "item_subclass": 1,
+        "inventory_type": 1,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4997
+          },
+          {
+            "id": 32,
+            "alloc": 2003
+          }
+        ]
+      },
+      {
+        "item_id": 268243,
+        "name_en": "Grasps of the Eternal Shadow",
+        "item_class": 4,
+        "item_subclass": 1,
+        "inventory_type": 10,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4918
+          },
+          {
+            "id": 32,
+            "alloc": 2082
+          }
+        ]
+      },
+      {
+        "item_id": 268246,
+        "name_en": "Frothing Venom Spaulders",
+        "item_class": 4,
+        "item_subclass": 2,
+        "inventory_type": 3,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 4605
+          },
+          {
+            "id": 49,
+            "alloc": 2395
+          }
+        ]
+      },
+      {
+        "item_id": 268249,
+        "name_en": "Vile Alchemist's Band",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 11,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13668
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 14350
+          },
+          {
+            "id": 32,
+            "alloc": 3150
+          }
+        ]
+      },
+      {
+        "item_id": 268252,
+        "name_en": "Apex Brute's Claw Ring",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 11,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13668
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 14600
+          },
+          {
+            "id": 36,
+            "alloc": 2900
+          }
+        ]
+      },
+      {
+        "item_id": 268253,
+        "name_en": "Silken Voodoo Drape",
+        "item_class": 4,
+        "item_subclass": 1,
+        "inventory_type": 16,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 71,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4941
+          },
+          {
+            "id": 36,
+            "alloc": 2059
+          }
+        ]
+      },
+      {
+        "item_id": 268254,
+        "name_en": "Serpentine Mixing Belt",
+        "item_class": 4,
+        "item_subclass": 3,
+        "inventory_type": 6,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4802
+          },
+          {
+            "id": 36,
+            "alloc": 2198
+          }
+        ]
+      },
+      {
+        "item_id": 268255,
+        "name_en": "Cackling Soultreads",
+        "item_class": 4,
+        "item_subclass": 1,
+        "inventory_type": 8,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4698
+          },
+          {
+            "id": 49,
+            "alloc": 2302
+          }
+        ]
+      },
+      {
+        "item_id": 268256,
+        "name_en": "Sash of the Forlorn Vessel",
+        "item_class": 4,
+        "item_subclass": 2,
+        "inventory_type": 6,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4803
+          },
+          {
+            "id": 36,
+            "alloc": 2197
+          }
+        ]
+      },
+      {
+        "item_id": 268257,
+        "name_en": "Caustic Chain-Wrapped Sash",
+        "item_class": 4,
+        "item_subclass": 1,
+        "inventory_type": 6,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4744
+          },
+          {
+            "id": 49,
+            "alloc": 2256
+          }
+        ]
+      },
+      {
+        "item_id": 268258,
+        "name_en": "Boots of the Reckless Wayfarer",
+        "item_class": 4,
+        "item_subclass": 3,
+        "inventory_type": 8,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 4682
+          },
+          {
+            "id": 49,
+            "alloc": 2318
+          }
+        ]
+      },
+      {
+        "item_id": 268259,
+        "name_en": "Girdle of Toxic Regret",
+        "item_class": 4,
+        "item_subclass": 4,
+        "inventory_type": 6,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 74,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 4932
+          },
+          {
+            "id": 49,
+            "alloc": 2068
+          }
+        ]
+      },
+      {
+        "item_id": 268260,
+        "name_en": "Scaled Fiend's Warboots",
+        "item_class": 4,
+        "item_subclass": 4,
+        "inventory_type": 8,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 74,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4818
+          },
+          {
+            "id": 36,
+            "alloc": 2182
+          }
+        ]
+      },
+      {
+        "item_id": 268265,
+        "name_en": "Aqirbane Reliquary",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 2,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13987,
+          13668
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 4375
+          },
+          {
+            "id": 49,
+            "alloc": 4375
+          },
+          {
+            "id": 36,
+            "alloc": 4375
+          },
+          {
+            "id": 40,
+            "alloc": 4375
+          }
+        ]
+      },
+      {
+        "item_id": 270160,
+        "name_en": "First Mate's Shellward",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          66,
+          73,
+          104,
+          250,
+          268,
+          581
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 72,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 270161,
+        "name_en": "Fang of Umbral Malignance",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          62,
+          63,
+          64,
+          102,
+          258,
+          262,
+          265,
+          266,
+          267,
+          1467,
+          1473,
+          1480
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 270163,
+        "name_en": "Sszorak's Ferocity",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          66,
+          70,
+          71,
+          72,
+          73,
+          250,
+          251,
+          252
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 4,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 270164,
+        "name_en": "Gebbo's Bottomless Bag",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 71,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 270166,
+        "name_en": "Vashnik's Sanguine Rancor",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          103,
+          253,
+          254,
+          255,
+          259,
+          260,
+          261,
+          263,
+          269,
+          577
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 3,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 270168,
+        "name_en": "Font of Venomous Rage",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          62,
+          63,
+          64,
+          70,
+          71,
+          72,
+          102,
+          103,
+          251,
+          252,
+          253,
+          254,
+          255,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          265,
+          266,
+          267,
+          269,
+          577,
+          1467,
+          1473,
+          1480
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 49,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 270169,
+        "name_en": "Hex Lord's Dooming Idol",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          62,
+          63,
+          64,
+          65,
+          102,
+          105,
+          256,
+          257,
+          258,
+          262,
+          264,
+          265,
+          266,
+          267,
+          270,
+          1467,
+          1468,
+          1473,
+          1480
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 36,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 270173,
+        "name_en": "Zul'jin's Guillotine Technique",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          66,
+          70,
+          71,
+          72,
+          73,
+          103,
+          104,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          259,
+          260,
+          261,
+          263,
+          268,
+          269,
+          577,
+          581
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2883
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 72,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 270174,
+        "name_en": "Idol of the Howling Nexus",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          66,
+          73,
+          104,
+          250,
+          268,
+          581
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 49,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 270175,
+        "name_en": "Voracious Heart of Ula'tek",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          66,
+          70,
+          71,
+          72,
+          73,
+          103,
+          104,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          259,
+          260,
+          261,
+          263,
+          268,
+          269,
+          577,
+          581
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 32,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 270909,
+        "name_en": "Slumbering Coil Curio",
+        "item_class": 5,
+        "item_subclass": 2,
+        "inventory_type": null,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270918,
+        "name_en": "Venomwoven Relic",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          62,
+          63,
+          64,
+          256,
+          257,
+          258,
+          265,
+          266,
+          267
+        ],
+        "allowable_classes": [
+          5,
+          8,
+          9
+        ],
+        "source_bonus_lists": [
+          13693
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270919,
+        "name_en": "Venomcured Relic",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          102,
+          103,
+          104,
+          105,
+          259,
+          260,
+          261,
+          268,
+          269,
+          270,
+          577,
+          581,
+          1480
+        ],
+        "allowable_classes": [
+          4,
+          10,
+          11,
+          12
+        ],
+        "source_bonus_lists": [
+          13693
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270920,
+        "name_en": "Venomcast Relic",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          253,
+          254,
+          255,
+          262,
+          263,
+          264,
+          1444,
+          1448,
+          1465,
+          1467,
+          1468,
+          1473
+        ],
+        "allowable_classes": [
+          3,
+          7,
+          13
+        ],
+        "source_bonus_lists": [
+          13693
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270921,
+        "name_en": "Venomforged Relic",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          65,
+          66,
+          70,
+          71,
+          72,
+          73,
+          250,
+          251,
+          252
+        ],
+        "allowable_classes": [
+          1,
+          2,
+          6
+        ],
+        "source_bonus_lists": [
+          13693
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2871
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270922,
+        "name_en": "Venomwoven Remnant",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          62,
+          63,
+          64,
+          256,
+          257,
+          258,
+          265,
+          266,
+          267
+        ],
+        "allowable_classes": [
+          5,
+          8,
+          9
+        ],
+        "source_bonus_lists": [
+          13694
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270923,
+        "name_en": "Venomcured Remnant",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          102,
+          103,
+          104,
+          105,
+          259,
+          260,
+          261,
+          268,
+          269,
+          270,
+          577,
+          581,
+          1480
+        ],
+        "allowable_classes": [
+          4,
+          10,
+          11,
+          12
+        ],
+        "source_bonus_lists": [
+          13694
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270924,
+        "name_en": "Venomcast Remnant",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          253,
+          254,
+          255,
+          262,
+          263,
+          264,
+          1444,
+          1448,
+          1465,
+          1467,
+          1468,
+          1473
+        ],
+        "allowable_classes": [
+          3,
+          7,
+          13
+        ],
+        "source_bonus_lists": [
+          13694
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270925,
+        "name_en": "Venomforged Remnant",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          65,
+          66,
+          70,
+          71,
+          72,
+          73,
+          250,
+          251,
+          252
+        ],
+        "allowable_classes": [
+          1,
+          2,
+          6
+        ],
+        "source_bonus_lists": [
+          13694
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2894
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270926,
+        "name_en": "Venomwoven Icon",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          62,
+          63,
+          64,
+          256,
+          257,
+          258,
+          265,
+          266,
+          267
+        ],
+        "allowable_classes": [
+          5,
+          8,
+          9
+        ],
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270927,
+        "name_en": "Venomcured Icon",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          102,
+          103,
+          104,
+          105,
+          259,
+          260,
+          261,
+          268,
+          269,
+          270,
+          577,
+          581,
+          1480
+        ],
+        "allowable_classes": [
+          4,
+          10,
+          11,
+          12
+        ],
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270928,
+        "name_en": "Venomcast Icon",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          253,
+          254,
+          255,
+          262,
+          263,
+          264,
+          1444,
+          1448,
+          1465,
+          1467,
+          1468,
+          1473
+        ],
+        "allowable_classes": [
+          3,
+          7,
+          13
+        ],
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 270929,
+        "name_en": "Venomforged Icon",
+        "item_class": 15,
+        "item_subclass": 0,
+        "inventory_type": null,
+        "explicit_specs": [
+          65,
+          66,
+          70,
+          71,
+          72,
+          73,
+          250,
+          251,
+          252
+        ],
+        "allowable_classes": [
+          1,
+          2,
+          6
+        ],
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2882
+          }
+        ],
+        "stats_allocations": null
+      },
+      {
+        "item_id": 271092,
+        "name_en": "Jan'thrazet, the Soul Fang",
+        "item_class": 2,
+        "item_subclass": 15,
+        "inventory_type": 13,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895,
+            "veryRare": true
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 7000
+          },
+          {
+            "id": 5,
+            "alloc": 25370
+          }
+        ]
+      },
+      {
+        "item_id": 271093,
+        "name_en": "Zatha'tek, Breath of Corruption",
+        "item_class": 2,
+        "item_subclass": 15,
+        "inventory_type": 13,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895,
+            "veryRare": true
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 3,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 7000
+          }
+        ]
+      },
+      {
+        "item_id": 271874,
+        "name_en": "Venomkeeper's Horrific Cowl",
+        "item_class": 4,
+        "item_subclass": 1,
+        "inventory_type": 1,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13846
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 7000
+          }
+        ]
+      },
+      {
+        "item_id": 271875,
+        "name_en": "Gaze of the Coiled Watcher",
+        "item_class": 4,
+        "item_subclass": 2,
+        "inventory_type": 1,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13847
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 7000
+          }
+        ]
+      },
+      {
+        "item_id": 271876,
+        "name_en": "Awoken Dreadfang Cuirass",
+        "item_class": 4,
+        "item_subclass": 3,
+        "inventory_type": 5,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13846
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 7000
+          }
+        ]
+      },
+      {
+        "item_id": 271878,
+        "name_en": "Chausses of Unbound Rancor",
+        "item_class": 4,
+        "item_subclass": 4,
+        "inventory_type": 7,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13708
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1320,
+            "encounterId": 2895
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 74,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 7000
+          }
+        ]
+      },
+      {
+        "item_id": 280617,
+        "name_en": "Lightbearer's Shield Fragment",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          66,
+          73,
+          104,
+          250,
+          268,
+          581
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1324,
+            "encounterId": 2896
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 72,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 280799,
+        "name_en": "Lu'selama, Light's Justice",
+        "item_class": 2,
+        "item_subclass": 8,
+        "inventory_type": 17,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1324,
+            "encounterId": 2896
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 4,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          }
+        ]
+      },
+      {
+        "item_id": 280835,
+        "name_en": "Sigil of the Impending Eclipse",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          65,
+          105,
+          256,
+          257,
+          264,
+          270,
+          1468
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1324,
+            "encounterId": 2896
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 281029,
+        "name_en": "Band of the Swarmcaller",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 11,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          13668
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1324,
+            "encounterId": 2896
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 12750
+          },
+          {
+            "id": 36,
+            "alloc": 4750
+          }
+        ]
+      },
+      {
+        "item_id": 281056,
+        "name_en": "Sanctified Knight's Phoenixblade",
+        "item_class": 2,
+        "item_subclass": 7,
+        "inventory_type": 13,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1324,
+            "encounterId": 2896
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 3800
+          },
+          {
+            "id": 32,
+            "alloc": 3200
+          },
+          {
+            "id": 5,
+            "alloc": 25370
+          }
+        ]
+      },
+      {
+        "item_id": 281215,
+        "name_en": "Twisted Horror's Tendril",
+        "item_class": 4,
+        "item_subclass": 0,
+        "inventory_type": 12,
+        "explicit_specs": [
+          62,
+          63,
+          64,
+          70,
+          71,
+          72,
+          102,
+          103,
+          251,
+          252,
+          253,
+          254,
+          255,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          265,
+          266,
+          267,
+          269,
+          577,
+          1467,
+          1473,
+          1480
+        ],
+        "allowable_classes": null,
+        "source_bonus_lists": null,
+        "source_encounters": [
+          {
+            "instanceId": 1324,
+            "encounterId": 2896
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 71,
+            "alloc": 6666
+          }
+        ]
+      },
+      {
+        "item_id": 281235,
+        "name_en": "Voidweaver's Leggings",
+        "item_class": 4,
+        "item_subclass": 1,
+        "inventory_type": 7,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          14049
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1324,
+            "encounterId": 2896
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 5,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4877
+          },
+          {
+            "id": 32,
+            "alloc": 2123
+          }
+        ]
+      },
+      {
+        "item_id": 281236,
+        "name_en": "Chestwrap of Palpable Terror",
+        "item_class": 4,
+        "item_subclass": 2,
+        "inventory_type": 5,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          14049
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1324,
+            "encounterId": 2896
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 36,
+            "alloc": 4974
+          },
+          {
+            "id": 32,
+            "alloc": 2026
+          }
+        ]
+      },
+      {
+        "item_id": 281238,
+        "name_en": "Aberrant Commander's Gauntlets",
+        "item_class": 4,
+        "item_subclass": 3,
+        "inventory_type": 10,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          14049
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1324,
+            "encounterId": 2896
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 73,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 32,
+            "alloc": 4888
+          },
+          {
+            "id": 49,
+            "alloc": 2112
+          }
+        ]
+      },
+      {
+        "item_id": 281239,
+        "name_en": "Corroded Hulk's Skullcap",
+        "item_class": 4,
+        "item_subclass": 4,
+        "inventory_type": 1,
+        "explicit_specs": null,
+        "allowable_classes": null,
+        "source_bonus_lists": [
+          14049
+        ],
+        "source_encounters": [
+          {
+            "instanceId": 1324,
+            "encounterId": 2896
+          }
+        ],
+        "stats_allocations": [
+          {
+            "id": 74,
+            "alloc": 5259
+          },
+          {
+            "id": 7,
+            "alloc": 7889
+          },
+          {
+            "id": 49,
+            "alloc": 4900
+          },
+          {
+            "id": 36,
+            "alloc": 2100
+          }
+        ]
+      }
+    ],
+    "ordinary_game_data_scope": "74 equipment/token entries across six explicitly named encounters; no unbounded global loot crawling.",
+    "special_effect_observations": [
+      {
+        "item_id": 281238,
+        "name_cn": "畸变指挥官护手",
+        "observed_tooltip_ilevel": 334,
+        "source_url": "https://nether.wowhead.com/tooltip/item/281238?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:42:58.245881+08:00",
+        "effect_summary": "Attacks can proc nearby-enemy Shadow damage; damage is increased by15% while the wearer is in the Venomcursed state.",
+        "condition_note": "Owned venomcursed pieces can make the condition relevant; do not assume100% uptime or a permanent15% increase.",
+        "source_native_bonus_list": [
+          14049
+        ]
+      },
+      {
+        "item_id": 281029,
+        "name_cn": "虫群召唤者指环",
+        "observed_tooltip_ilevel": 334,
+        "source_url": "https://nether.wowhead.com/tooltip/item/281029?dataEnv=1&locale=4",
+        "retrieved_at": "2026-11-13T13:42:58.090241+08:00",
+        "effect_summary": "Attacks can summon a bug that explodes near the target for Nature damage.",
+        "condition_note": "A vendor ring comparison must preserve this proc on the reference ring."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "cn_s2_rules",
+      "url": "https://wow.blizzard.cn/news/24293281/index.html",
+      "published_date": "2026-08-07",
+      "type": "official_CN_season_2_notes",
+      "supports": [
+        "Raid bonus roll costs one core; rewards match Vault scaling; Heroic raid Vault is Myth 1/6.",
+        "Catalyst inherits source secondaries, tertiaries and selected effects."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "cn_1215",
+      "url": "https://wow.blizzard.cn/news/24304162/",
+      "published_date": "2026-10-02",
+      "type": "official_CN_patch_notes",
+      "supports": [
+        "Ten stones, fully upgraded qualifying Season 2 items; CN stone unlock October 22; crest caps removed.",
+        "Additional weekly core is separate from Labyrinth fragments."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "cn_launch",
+      "url": "https://wow.blizzard.cn/news/24307306/index.html",
+      "published_date": "2026-10-15",
+      "type": "official_CN_release_notice",
+      "supports": [
+        "CN October 15 maintenance launch; nine-chamber Labyrinth and separate Kith'ix raid."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "labyrinth_live_report",
+      "url": "https://www.wowhead.com/news/myth-2-6-piece-of-loot-now-available-from-labyrinths-383603",
+      "published_date": "2026-10-28",
+      "type": "first_hand_live_database_publisher_reporting",
+      "supports": [
+        "Wah'du sells chosen Myth 2/6 items for three fragments; T8+ chamber quests; sequential missed-step catch-up.",
+        "Published list includes weapons, shields, jewelry, cloaks, armor; it is not restricted to armor."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "fragment_live_db",
+      "url": "https://www.wowhead.com/cn/item=285065",
+      "published_date": null,
+      "type": "live_item_database_with_separately_identified_player_comments",
+      "supports": [
+        "Base tooltip names Wah'du and Myth 2/6 rewards.",
+        "Player reports describe six total fragments; comments are not a Blizzard merchant API."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "six_step_storyline",
+      "url": "https://www.wowhead.com/storyline/the-labyrinth-of-kindojan-6385",
+      "published_date": null,
+      "type": "live_storyline_database",
+      "supports": [
+        "Six weekly-unlocked steps; two total selectable Myth rewards."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "wahdu_player_catalogue",
+      "url": "https://www.wowhead.com/npc=264886/wahdu",
+      "published_date": null,
+      "type": "first_person_player_catalogue_on_live_NPC_database_page",
+      "supports": [
+        "SenpaiSark's item catalogue, three-fragment prices and October 24 weapon availability report.",
+        "Includes Swordsman's Emanation 272283, omitted from the 56-item news list."
+      ],
+      "limits": [
+        "Not an observed CN character-filtered merchant window.",
+        "Guaranteed jewelry socket statement is a player report; rank-only tooltip queries do not prove the complete merchant bonus chain."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "raidbots_live",
+      "url": "https://www.raidbots.com/static/data/live/encounter-items.json",
+      "published_date": null,
+      "last_modified": "Tue, 10 Nov 2026 14:19:40 GMT",
+      "sha256": "43e869cf4ecf85a065264193611239a37112ac6f3e38646c472cdc9d48416e3c",
+      "type": "current_game_data_export",
+      "supports": [
+        "Ordinary encounter gear/token source sets, item types, native stat allocations and explicit specialization masks."
+      ],
+      "limits": [
+        "Global live endpoint, not a CN 70783-pinned client dump.",
+        "Absent specs fields are not proof of universal loot eligibility; common items require a stated proficiency/stat derivation.",
+        "No character-specific bonus-roll collection, weights or weekly eligibility."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "upgrade_rules",
+      "url": "https://www.wowhead.com/cn/guide/midnight/item-level-gear-upgrades-dawncrests",
+      "published_date": "2026-08-13",
+      "type": "current_12_1_5_database_publisher_guide",
+      "supports": [
+        "Twenty matching crests per ordinary rank; 100 for 1/6 to 6/6; slot and Warband discounts."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "current_voidforge_guide",
+      "url": "https://www.wowhead.com/guide/midnight/bonus-rolls-item-upgrades",
+      "published_date": "2026-10-22",
+      "type": "current_12_1_5_database_publisher_guide",
+      "supports": [
+        "Heroic raid R gives 318 Myth 1/6; one core per roll; eligible loot opportunity required.",
+        "Ten stones: Myth 334 becomes 341; Myth crafted 331 becomes 337.",
+        "Actual possible rewards are shown in the Bonus Loot hover preview."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "raid_eligibility_blue",
+      "url": "https://us.forums.blizzard.com/en/wow/t/raid-bonus-roll-update/2341990",
+      "published_date": "2026-08-28",
+      "type": "official_Blizzard_current_season_blue_post",
+      "supports": [
+        "No bonus-roll opportunity from repeat kills once weekly loot-locked at that difficulty."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "source_box_278284",
+      "url": "https://nether.wowhead.com/tooltip/item/278284?dataEnv=1&locale=4",
+      "published_date": null,
+      "type": "current_live_source_item_tooltip",
+      "supports": [
+        "Source is the Ula'tek bonus cache; selects loot specialization; per-difficulty collection lasts until all current-spec possibilities have been reforged."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "source_box_278286",
+      "url": "https://nether.wowhead.com/tooltip/item/278286?dataEnv=1&locale=4",
+      "published_date": null,
+      "type": "current_live_source_item_tooltip",
+      "supports": [
+        "Source is the Tortollan/Lost Explorers bonus cache."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "source_box_278288",
+      "url": "https://nether.wowhead.com/tooltip/item/278288?dataEnv=1&locale=4",
+      "published_date": null,
+      "type": "current_live_source_item_tooltip",
+      "supports": [
+        "Source is Sszorak's bonus cache."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "source_box_286019",
+      "url": "https://nether.wowhead.com/tooltip/item/286019?dataEnv=1&locale=4",
+      "published_date": null,
+      "type": "current_live_source_item_tooltip",
+      "supports": [
+        "Source is Kith'ix's bonus cache; same per-difficulty/current-spec collection wording."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "vashnik_guide",
+      "url": "https://www.wowhead.com/guide/midnight/raids/venomous-abyss-vashnik-the-malignant-boss-strategy-abilities",
+      "published_date": "2026-08-18",
+      "type": "current_patch_encounter_guide",
+      "supports": [
+        "Boss name, ordinary gear and chest tokens; ordering varies with route."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "sszorak_guide",
+      "url": "https://www.wowhead.com/guide/midnight/raids/venomous-abyss-sszorak-boss-strategy-abilities",
+      "published_date": "2026-08-26",
+      "type": "current_patch_encounter_guide",
+      "supports": [
+        "Ordinary gear and leg tokens; Heroic ordinary drops 311 Hero 3/6."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "coiled_guide",
+      "url": "https://www.wowhead.com/guide/midnight/raids/venomous-abyss-coiled-altar-boss-strategy-abilities",
+      "published_date": "2026-08-20",
+      "type": "current_patch_encounter_guide",
+      "supports": [
+        "Fourteen ordinary gear entries; mail shoulders and legs, cloak and caster idol."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "ulatek_guide",
+      "url": "https://www.wowhead.com/guide/midnight/raids/venomous-abyss-ulatek-boss-strategy-abilities",
+      "published_date": "2026-10-29",
+      "type": "current_patch_encounter_guide",
+      "supports": [
+        "Ordinary equipment/Curio and cantrip daggers; H315 Hero 4/6; Mythic344 overcap."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "kithix_guide",
+      "url": "https://www.wowhead.com/guide/midnight/raids/the-unbinding-of-kithix-boss-strategy-abilities-rewards",
+      "published_date": "2026-11-09",
+      "type": "current_patch_encounter_guide",
+      "supports": [
+        "Ten ordinary items, no tier token; current ordinary Heroic311 Hero3/6 and Mythic324 Myth3/6."
+      ],
+      "limits": [
+        "Do not import earlier PTR claims that this raid normally drops344."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "specloot_maintainer",
+      "url": "https://github.com/cptlemons/SpecLoot/releases",
+      "published_date": "2026-10-13",
+      "relevant_prior_release_date": "2026-09-22",
+      "type": "primary_addon_maintainer_implementation_and_release_report",
+      "supports": [
+        "Maintainer excludes Curio270909 from R mode while retaining it in normal loot.",
+        "Current release distinguishes Kith'ix healer280835, DPS281215 and tank280617."
+      ],
+      "limits": [
+        "Corroboration, not an executed EJ query or Blizzard rule for this character.",
+        "Addon manual per-spec marking is not authoritative for server-side cross-spec/context exclusions."
+      ],
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "id": "cn_ascension_hotfix",
+      "url": "https://wow.blizzard.cn/24266320/index.html",
+      "published_date": "2026-10-27",
+      "type": "official_CN_cumulative_hotfixes",
+      "supports": [
+        "Incorrect ascended item levels corrected; earlier PTR endpoints must not override current values."
+      ],
+      "retrieved_date": "2026-11-13"
+    }
+  ],
+  "limitations": [
+    "No in-game merchant, filtered EJ, collection preview, server-side context normalization, complete raw history, weekly lockout, or exact merchant item links were observed.",
+    "Current global database data are not proof that every CN70783 hotfix is identical.",
+    "The current live source-box descriptions support collection completion; they do not establish whether5/95 share the same collection or how switching specs resets it.",
+    "No exact remaining counts, probability, equal weights, or guaranteed R outcome are asserted.",
+    "Curio R exclusion is backed by a primary addon maintainer report, not a new official item-specific rule.",
+    "Default live tooltip rendering varied between base, ascended341 and overcap344; none of those defaults replace supplied character item levels.",
+    "Quest98960/98959 live tooltip retrieval returned404; later-step localized titles and CN activation were not established from those endpoints.",
+    "No second Labyrinth reward is budgeted for November13 merely from the six-step total."
+  ],
+  "tool_call_brief": {
+    "date": "2026-11-13",
+    "time_range_timezone": "Asia/Shanghai",
+    "tools": [
+      "web.run search/open/click/find",
+      "PowerShell/Python read-only local inspection and bounded public HTTP retrieval",
+      "apply_patch"
+    ],
+    "external_service_policy": "One web-research service; public Wowhead/Nether, Blizzard and Raidbots data were also read over HTTP. GitHub maintainer release is corroboration.",
+    "search_query_batch_max": 4,
+    "live_ordinary_rows_retained": 74,
+    "item_tooltip_observations_retained": 47,
+    "per_tooltip_HTTP_timeout_seconds": 16,
+    "max_HTTP_workers": 4,
+    "retries": "No automatic retry/backoff loop. Some web opens/finds or direct requests returned403/timeout; alternate public item-tooltip/database URLs were used. A few exploratory repository/metadata URLs returned404 and were not used as evidence.",
+    "source_domains": [
+      "wow.blizzard.cn",
+      "worldofwarcraft.blizzard.com",
+      "us.forums.blizzard.com",
+      "wowhead.com",
+      "nether.wowhead.com",
+      "raidbots.com",
+      "github.com"
+    ],
+    "sensitive_information_saved": false,
+    "last_item_tooltip_observed_at": "2026-11-13T13:42:58.245881+08:00"
+  }
+}
