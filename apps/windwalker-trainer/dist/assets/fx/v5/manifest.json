@@ -1,0 +1,119 @@
+{
+  "version": 6,
+  "source": "Historical host image generation; Agent Sprite Forge geometry/alpha processing",
+  "characterStatus": "Friendly round red-and-gold panda monk based on the user-supplied screenshot",
+  "assets": [
+    {
+      "src": "assets/fx/v5/sun.webp",
+      "size": [
+        640,
+        640
+      ],
+      "bytes": 36842,
+      "sha256": "1342cd85493e62158a388efe614a72e789e8f3d4a489b062f267547405baf2ed",
+      "sourceSha256": "975d36f25a0784279fd49e83b989d20db5af06cb8e4317ea3ea364a9255766a4",
+      "action": "sun",
+      "forgeQa": "pass"
+    },
+    {
+      "src": "assets/fx/v5/fists.webp",
+      "size": [
+        960,
+        640
+      ],
+      "bytes": 74862,
+      "sha256": "027f6f3044e50ea437870a000f5378fcc0f1e35b6e21ab74a69dd72003296bc2",
+      "sourceSha256": "de847e78f9478d5252024233004e0a6a8cbe79e414e54060702e29ef46d5aae0",
+      "action": "fists",
+      "forgeQa": "pass"
+    },
+    {
+      "src": "assets/fx/v5/crane.webp",
+      "size": [
+        640,
+        640
+      ],
+      "bytes": 22666,
+      "sha256": "e78802427fd1563f3a4d88f16648291c01e4265c4a96e2aa6c446f64d0ef76b5",
+      "sourceSha256": "27f192f4a8973ffc09900a956265dc5d0a05c3495ed4469e43030f60786b4c5a",
+      "action": "crane",
+      "forgeQa": "pass"
+    },
+    {
+      "src": "assets/fx/v5/conduit.webp",
+      "size": [
+        640,
+        640
+      ],
+      "bytes": 72328,
+      "sha256": "6085769e5154cc3c07d7e04c3a7e19efe77db92ca01ffdd8f59eddadd76323a4",
+      "sourceSha256": "64f1721aa833bb60a46fee6d72d538682ff5ad7db8203cc1a10294204e4d2080",
+      "action": "conduit",
+      "forgeQa": "pass"
+    },
+    {
+      "src": "assets/fx/v5/tiger.webp",
+      "size": [
+        640,
+        640
+      ],
+      "bytes": 57878,
+      "sha256": "9e189d2dad23a6d52a484bfe6d54244c11aee074485a757215a225736b6079dd",
+      "sourceSha256": "34aa38d53fa9103324cacef4aee999496b3872feee864125f2dbd6cc1d12814e",
+      "action": "tiger",
+      "forgeQa": "pass"
+    },
+    {
+      "src": "assets/fx/v5/blackout.webp",
+      "size": [
+        640,
+        640
+      ],
+      "bytes": 30712,
+      "sha256": "691e08599d5389365c24fe51cc319c486734efc7447c3d85b0054a57b9509b3d",
+      "sourceSha256": "ffd8eef1e81b9ef5267ed4c52d66fa5f98247c57791be771c39edf7c9fc4d3c1",
+      "action": "blackout",
+      "forgeQa": "pass"
+    },
+    {
+      "src": "assets/fx/v5/wind.webp",
+      "size": [
+        640,
+        640
+      ],
+      "bytes": 36930,
+      "sha256": "1929227851d98792600e1453708a06526f09337f8aa7e240cbf89be585c49b47",
+      "sourceSha256": "c7b66e2d0524f6104191d17e5f89bf55d8a7a9f36f64017234d8872f9250f16b",
+      "action": "wind",
+      "forgeQa": "pass"
+    },
+    {
+      "src": "assets/scenes/v5/dojo.webp",
+      "size": [
+        1086,
+        1448
+      ],
+      "bytes": 367394,
+      "sha256": "25ec6e3c099a9ac7c09a959a601dfe36a2722c724874f39c78c2eb37310bd192",
+      "sourceSha256": "66632952271562371a4f3e65bb333cbe57d542495456dc5e15813fdbe4c1cd7c",
+      "action": "dojo"
+    },
+    {
+      "src": "assets/scenes/v5/dummy.webp",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 227594,
+      "sha256": "e1e4d27aa2dbf8106379b986eb0e80985fce0089281028a5770e18f91e81cc04",
+      "sourceSha256": "17bce49dcb796fd599187136218e8218321f6a4d9381d0ceb49f647a458aab1c",
+      "action": "dummy"
+    }
+  ],
+  "limits": [
+    "The dedicated dragon source failed cross-cell spill QC and is not shipped.",
+    "Dragon, Jade and Zenith share the reviewed conduit energy sheet.",
+    "Palm shares the golden fist sheet; Stomp shares the jade ground ring.",
+    "No new character video generation succeeded after the two historical pilot clips."
+  ]
+}

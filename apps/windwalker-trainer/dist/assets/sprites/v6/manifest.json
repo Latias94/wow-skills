@@ -1,0 +1,315 @@
+{
+  "version": 6,
+  "style": "Friendly round red-and-gold panda monk based on the user-supplied screenshot",
+  "source": "Host image generation reference edits; Agent Sprite Forge single-pose alpha and registration processing",
+  "notice": "Generated practice artwork; not extracted game models or full character animation",
+  "motion": "Single key pose per action with independently animated spell effects",
+  "actions": [
+    {
+      "action": "idle",
+      "src": "assets/sprites/v6/idle.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 1.6,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          75,
+          98,
+          309,
+          365
+        ]
+      ],
+      "sha256": "ae468fdf1d1a1a59eb96cd3afd3f816944c4dcfa09e5220917f63c8471dec607",
+      "sourceSha256": "562dd242d8ad3a0da28ce1661df6e8f0390f84951dc26d9fd4e3faf8b1956b9e",
+      "forgeQa": "pass",
+      "warnings": []
+    },
+    {
+      "action": "palm",
+      "src": "assets/sprites/v6/palm.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.72,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          49,
+          94,
+          354,
+          367
+        ]
+      ],
+      "sha256": "7ffab36f54fa21060743369e752d2a3bbadfb8dd855e3f0af3c37f866d9b1ace",
+      "sourceSha256": "4b0e73d3b5461b10d661274d0d5692e73d6a779cbddc5be62663a2ca67837c95",
+      "forgeQa": "pass",
+      "warnings": []
+    },
+    {
+      "action": "blackout",
+      "src": "assets/sprites/v6/blackout.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.72,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          35,
+          89,
+          354,
+          368
+        ]
+      ],
+      "sha256": "03c3b2ecdf847ff82e8176c4da00748117b2751f526a4b202d46d22cdc0a1595",
+      "sourceSha256": "dd067a7298db00be28eb1ee52be2116e6b153f69f85e5be0b3a91606f4b73e69",
+      "forgeQa": "pass",
+      "warnings": []
+    },
+    {
+      "action": "sun",
+      "src": "assets/sprites/v6/sun.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.72,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          40,
+          86,
+          348,
+          368
+        ]
+      ],
+      "sha256": "6c6935fc1dd7404707fbdca464fdc5e2200c297ab1324957cd1c0ec8d01a7ed0",
+      "sourceSha256": "bac3eae6e28c27a7c87ab246c5bafa926f0745482f897c07d5334fcf8ecda277",
+      "forgeQa": "pass",
+      "warnings": []
+    },
+    {
+      "action": "fists",
+      "src": "assets/sprites/v6/fists.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.72,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          38,
+          96,
+          354,
+          365
+        ]
+      ],
+      "sha256": "7731c0503fec1844846c7b6d115d7880eb6cdd8da0f1ad6849358f3d2cd06a61",
+      "sourceSha256": "1258b445d1e531500dfa26dfff7f58d94bcd7997d2538c2e4f5dd597a3416d62",
+      "forgeQa": "pass",
+      "warnings": []
+    },
+    {
+      "action": "crane",
+      "src": "assets/sprites/v6/crane.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.72,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          31,
+          80,
+          355,
+          373
+        ]
+      ],
+      "sha256": "e18cddbc0b675e691788d915b4d59c5ed688915e3cee27e1d08ffc7097026b7a",
+      "sourceSha256": "67f3c728fbe87a630783534831d5e8d02355e8f7baabccc096ff85974225233e",
+      "forgeQa": "pass",
+      "warnings": []
+    },
+    {
+      "action": "dragon",
+      "src": "assets/sprites/v6/dragon.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.9,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          38,
+          84,
+          354,
+          325
+        ]
+      ],
+      "sha256": "7526462f9fa667084b8168111d63e140913e7e5b2c9cb2b3567ef68165c76241",
+      "sourceSha256": "2380a6fba399a7f7f3559d720223907cd1488c64883354e6989bdf01ca200c5c",
+      "forgeQa": "pass",
+      "warnings": []
+    },
+    {
+      "action": "tiger",
+      "src": "assets/sprites/v6/tiger.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.72,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          66,
+          84,
+          343,
+          372
+        ]
+      ],
+      "sha256": "d8ef223202379f7b36542c548f2c45570c21da72b2ddf2298669e17f5c61598a",
+      "sourceSha256": "df627f31d676d5fc59bc2918eb9dc59e8c6fe3408978332a2633f8581061c706",
+      "forgeQa": "pass",
+      "warnings": []
+    },
+    {
+      "action": "conduit",
+      "src": "assets/sprites/v6/conduit.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.72,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          63,
+          84,
+          340,
+          357
+        ]
+      ],
+      "sha256": "60e2279e235ecef6978e93edb45165de2a208d8fb875e3831c50d42ed1bc05f3",
+      "sourceSha256": "ada6f3c0edeb393ed386e5c262358d5c7d1d1459c0232fa87b7060bf8af286e1",
+      "forgeQa": "pass",
+      "warnings": []
+    },
+    {
+      "action": "stomp",
+      "src": "assets/sprites/v6/stomp.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.72,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          59,
+          89,
+          335,
+          370
+        ]
+      ],
+      "sha256": "00f7ad2030722a5e3e5bb22f154319a6a0033d108c077dd81bc2a72af1742383",
+      "sourceSha256": "a22c08c3fc1445adb869507257a248241ef41e9cacbafaaa2d7e43947f419390",
+      "forgeQa": "pass",
+      "warnings": []
+    },
+    {
+      "action": "wind",
+      "src": "assets/sprites/v6/blackout.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.72,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          35,
+          89,
+          354,
+          368
+        ]
+      ],
+      "sha256": "03c3b2ecdf847ff82e8176c4da00748117b2751f526a4b202d46d22cdc0a1595",
+      "sourceSha256": "dd067a7298db00be28eb1ee52be2116e6b153f69f85e5be0b3a91606f4b73e69",
+      "forgeQa": "pass",
+      "warnings": [],
+      "sharedPose": "blackout"
+    },
+    {
+      "action": "zenith",
+      "src": "assets/sprites/v6/tiger.webp",
+      "cols": 1,
+      "rows": 1,
+      "frames": 1,
+      "cellSize": 384,
+      "duration": 0.72,
+      "anchor": [
+        192,
+        365
+      ],
+      "alphaBboxes": [
+        [
+          66,
+          84,
+          343,
+          372
+        ]
+      ],
+      "sha256": "d8ef223202379f7b36542c548f2c45570c21da72b2ddf2298669e17f5c61598a",
+      "sourceSha256": "df627f31d676d5fc59bc2918eb9dc59e8c6fe3408978332a2633f8581061c706",
+      "forgeQa": "pass",
+      "warnings": [],
+      "sharedPose": "tiger"
+    }
+  ],
+  "limits": [
+    "Wind shares the Blackout body pose; Zenith shares the invocation body pose.",
+    "Character bodies are held key poses, not video-derived animation."
+  ]
+}

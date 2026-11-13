@@ -1,0 +1,1537 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-27T11:00:41.577521+00:00",
+  "purpose": "Observed natural RNG branches and default-APL continuations; mechanism/APL evidence, not global optimality or identical-state counterfactuals.",
+  "provenance": {
+    "source": {
+      "path": "E:/github/simc",
+      "sha": "73a372b76188c703e48729caded3258cdc5b726b",
+      "worktreeCleanWhenCollected": true
+    },
+    "executable": {
+      "path": "E:/github/wow-skills/.local/simc-build/Release/simc.exe",
+      "sha256": "934cfeb8fe672baee8bd88678bd7dd0788c1755b608c1d25aa30b96f29925633",
+      "version": "1210-01",
+      "gitRevisionInReport": "73a372b761",
+      "liveDBC": {
+        "build_level": 70529,
+        "wow_version": "12.1.5.70529",
+        "hotfix_date": "2026-10-22",
+        "hotfix_build": 70529,
+        "hotfix_hash": "9a6321a532c6718f554c0236fa8c35caefa375da04be3ee0a5a650226d26177c"
+      }
+    },
+    "baseInput": {
+      "path": ".local/windwalker-v4-simc/base.simc",
+      "sha256": "e7339a1b57eb396d19c9bfec29b9da32b78582bdeb671b109e9dbf5700ed4eec"
+    },
+    "inheritedProfile": {
+      "path": ".local/trainer-v3-assessment/default-apl.simc",
+      "sha256": "a1fb123a6258c4aae239718b1ecc81e97b8cbceefd45001ac1792ae77d0ecd5a"
+    },
+    "sourceRefs": [
+      ["engine/class_modules/monk/sc_monk.cpp", 949, "Main and Dawn share base damage impact: each primary-target crit adjusts FoF."],
+      ["engine/class_modules/monk/sc_monk.cpp", 989, "Dawn proc roll uses composite melee haste and executes a separate damage action."],
+      ["engine/class_modules/monk/sc_monk.cpp", 1603, "SCK ground-effect expiration reduces FoF by distinct target count, subject to cap."],
+      ["engine/class_modules/monk/sc_monk.cpp", 1908, "WDP triggers ordinary Heart of the Jade Serpent."],
+      ["engine/class_modules/monk/sc_monk.cpp", 3984, "Zenith triggers its Jade window and resets RSK."],
+      ["engine/class_modules/monk/sc_monk.cpp", 6497, "Unity Within expiration triggers Great Jade."],
+      ["engine/class_modules/apl/apl_monk.cpp", 232, "Conduit eligibility and cancel_if."],
+      ["engine/class_modules/apl/apl_monk.cpp", 236, "Zenith priority and target/Bloodlust conditions."],
+      ["engine/sim/cooldown.cpp", 254, "FoF adjustment is scaled by recharge rate; ready cooldown returns without logging; reset sentinel is not a duration."],
+      ["engine/sim/cooldown.cpp", 142, "Dynamic recovery multiplier changes rescale remaining cooldown."],
+      ["engine/sim/sim.cpp", 2645, "Explicit nonzero seed initializes RNG; deterministic=0 avoids iteration reseed."],
+      ["engine/sim/sim.cpp", 4396, "debug enables log; log forces a single iteration and thread."],
+      ["engine/player/player.cpp", 7392, "Foreground action sequence is captured after queueing, before execution."],
+      ["engine/player/player_collected_data.cpp", 47, "Full states capture only cooldowns that are down."]
+    ]
+  },
+  "settings": {
+    "talents": "C0QAQnG51S19isUJoJoTeJ/IKPzYMgxYZmZ2mBAAAAAAAAAAAYZYmmxMMMGMMMzMzwshZYWegJAgFmNmxMzMDEALmZZ2GTQAAzYAMDwYZAMzMbG",
+    "race": "pandaren",
+    "level": 90,
+    "fightStyle": "Patchwerk",
+    "lifetimeSeconds": 300,
+    "evidenceWindowSeconds": [0, 45],
+    "iterations": 1,
+    "threads": 1,
+    "fixedTime": true,
+    "varyCombatLength": 0,
+    "optimalRaid": 0,
+    "initialChi": 2,
+    "deterministic": 0,
+    "apl": "Pinned engine default; no actions override.",
+    "baselineStats": {
+      "haste_pct": 0.18999999999999995,
+      "haste_rating": 836.0,
+      "crit_pct": 0.33891304347826084,
+      "crit_rating": 915.0,
+      "mastery_value": 0.8170874999999999,
+      "versatility_pct": 0.04462962962962963,
+      "attack_power": 2635.0
+    },
+    "consumables": {
+      "potion": "potion_of_recklessness_2",
+      "flask": "flask_of_the_magisters_2",
+      "food": "harandar_celebration",
+      "augmentation": "void_touched",
+      "temporary_enchant": "main_hand:thalassian_phoenix_oil_2/off_hand:thalassian_phoenix_oil_2"
+    },
+    "lagSeconds": {
+      "queue_lag": 0.005,
+      "queue_lag_stddev": 0.001,
+      "gcd_lag": 0.15,
+      "gcd_lag_stddev": 0.037,
+      "channel_lag": 0.25,
+      "channel_lag_stddev": 0.062,
+      "world_lag": 0.1,
+      "world_lag_stddev": 0.01
+    }
+  },
+  "sweep": {
+    "seedRangeInclusive": [1, 64],
+    "attempted": 64,
+    "branchCounts": {
+      "no-dawn": 42,
+      "dawn-only-crit": 3,
+      "double-crit": 12,
+      "no-crit": 5,
+      "main-only-crit": 2
+    },
+    "commonCorePrefix": ["tiger_palm", "invoke_xuen_the_white_tiger", "zenith", "fists_of_fury", "rising_sun_kick"],
+    "commonCorePrefixCount": 59,
+    "otherPrefixCount": 5,
+    "summary": {
+      "path": ".local/windwalker-v4-simc/sweep-summary.json",
+      "sha256": "6d0400728a7a4259b3e9d65c426e8493df3b192e20ac6bba98e61fd6304da055"
+    }
+  },
+  "columns": {
+    "coreCasts": ["actualCastTime", "spell", "logLine"],
+    "jadeBuffEvents": ["time", "gainsOrLoses", "buff", "logLine"],
+    "activeBuffs": ["name", "stacks", "remainingSecondsAtSelection"],
+    "fofDynamicCooldownRefs": ["time", "logLine"],
+    "conduitCancelRefs": ["time", "logLine"]
+  },
+  "limitations": ["All log lines are one-based in the referenced original full 300-second log. Timestamps are logged at millisecond precision.", "Action-sequence snapshots describe selection/queue time. These first-RSK selection times match execution to log precision; later coreCasts always use actual performs Action lines.", "reportedCoreCooldownRemains null means omitted/not directly reported. Full-state reports omit ready cooldowns and cannot supply exact charge state from absence.", "observedAfterSeconds null is not an observed zero. No-crit has no immediate post-hit FoF readout; AoE reset logs contain -3600 ready sentinels, not physical negative cooldowns.", "Seeds share configuration and selected core opener, not identical RNG state, buffs, energy, cooldown or offsets. Equipment, potion and other passive procs remain enabled.", "Baseline haste is 19%; momentum, temporary haste procs and Bloodlust can change effective in-combat haste. Recovery buffs also rescale FoF independently.", "Compatibility ilevel=341 overrides and historical redirected_base_stats/crafted_stats are preserved assumptions, not new live-client item-stat measurements.", "optimal_raid=0 differs from the trainer calibration raid-buff context; no damage or whole-model parity is claimed.", "Battle Gi of the Monkey King and Band of the Swarmcaller emit engine implementation-not-yet-verified damage-splitting notices.", "Single-iteration samples establish possible observed behavior and default-APL continuations, not branch probabilities, DPS ranking or live-client correctness."],
+  "samples": [
+    {
+      "id": "st-no-dawn-seed-001",
+      "branch": "no-dawn",
+      "seed": 1,
+      "targets": 1,
+      "bloodlust": false,
+      "command": "& \"E:/github/wow-skills/.local/simc-build/Release/simc.exe\" \"E:/github/wow-skills/.local/windwalker-v4-simc/st-no-dawn-seed-001-debug.simc\"",
+      "input": {
+        "path": ".local/windwalker-v4-simc/st-no-dawn-seed-001-debug.simc",
+        "sha256": "bc387a613bb2fd8f93962f515d1021c23945759d3124d69daaaaa890d4de9b98"
+      },
+      "log": {
+        "path": ".local/windwalker-v4-simc/st-no-dawn-seed-001-debug.log",
+        "sha256": "b852aca6270410565db5e8662f33d7903f8191dbcf46f3f95ffc65496f8509d5"
+      },
+      "report": {
+        "path": ".local/windwalker-v4-simc/st-no-dawn-seed-001-debug.json",
+        "sha256": "57485f3edcfa113b78ca065daf7e2d770e82ac661e444f4d1987e2f8197aad62"
+      },
+      "excerpt": {
+        "path": ".local/windwalker-v4-simc/st-no-dawn-seed-001-debug.evidence.txt",
+        "sha256": "e626d059c27d2c91119b50a2bae494bbb55d763e644683a525e07fc763438568"
+      },
+      "debugMatchesSweep": true,
+      "fullStatesMatchesPriorRun": true,
+      "firstRSK": {
+        "time": 3.64,
+        "castLine": 5329,
+        "main": {
+          "result": "crit",
+          "amount": 323797.773093,
+          "line": 5371,
+          "text": "3.640 Player 'Timing' Action 'rising_sun_kick_damage' (185099) hits Enemy 'Fluffy_Pillow' for 323797.773093 physical damage (crit)"
+        },
+        "dawn": {
+          "present": false,
+          "result": null,
+          "amount": null,
+          "line": null,
+          "text": null
+        },
+        "critCount": 1,
+        "chi": {
+          "atSelection": 5.0,
+          "afterCost": 4.0,
+          "costLine": 5339,
+          "afterDawn": null,
+          "dawnGainLine": null
+        },
+        "rskCooldownStart": {
+          "durationSeconds": 4.365,
+          "line": 5335,
+          "text": "3.640 Player 'Timing' starts cooldown rising_sun_kick with duration 4.365"
+        },
+        "fofCooldown": {
+          "atSelectionSeconds": 8.688,
+          "adjustments": [
+            {
+              "cause": "rising_sun_kick_damage",
+              "causeHitLine": 5371,
+              "line": 5376,
+              "text": "3.640 Timing cooldown fists_of_fury adjustment=-2.285, remains=6.403, ready=10.043",
+              "adjustmentSeconds": -2.285,
+              "rawRemainsSeconds": 6.403,
+              "rawReadyTime": 10.043,
+              "resetSentinel": false
+            }
+          ],
+          "observedAfterSeconds": {
+            "seconds": 6.403,
+            "line": 5376
+          },
+          "unobservedReason": null
+        },
+        "selectionSnapshot": {
+          "time": 3.64,
+          "jsonPointer": "/sim/players/0/collected_data/action_sequence/8",
+          "energy": 144.99,
+          "activeBuffs": [
+            ["teachings_of_the_monastery", 1, 16.36],
+            ["hit_combo", 4, 28.212],
+            ["invoke_xuen_the_white_tiger", 1, 17.366],
+            ["momentum_boost_speed", 1, 7.741],
+            ["zenith", 1, 18.212],
+            ["zenith_stomp", 2, 28.212],
+            ["tigereye_brew_1", 1, 118.212],
+            ["unbroken_rhythm", 6, 19.74],
+            ["celestial_conduit", 1, 57.366],
+            ["courage_of_the_white_tiger", 1, 27.366],
+            ["heart_of_the_jade_serpent_yulons_avatar", 1, 2.212],
+            ["devoured_strength", 3, 19.74],
+            ["voracious_heart_of_ulatek", 1, 18.212],
+            ["potion_of_recklessness_Mastery", 1, 28.212],
+            ["potion_of_recklessness_penalty_Vers", 1, 28.212]
+          ],
+          "reportedCoreCooldownRemains": {
+            "celestial_conduit": null,
+            "fists_of_fury": 8.688,
+            "rising_sun_kick": null,
+            "whirling_dragon_punch": null,
+            "zenith": null
+          }
+        }
+      },
+      "highlights": {
+        "firstWDP": {
+          "time": 4.645,
+          "spell": "whirling_dragon_punch",
+          "line": 5572
+        },
+        "firstConduit": {
+          "time": 11.778,
+          "spell": "celestial_conduit",
+          "line": 8907
+        },
+        "firstConduitCancel": [12.618, 9280],
+        "firstFoFAfterRSK": {
+          "time": 7.891,
+          "spell": "fists_of_fury",
+          "line": 7002
+        },
+        "secondZenith": {
+          "time": 22.169,
+          "spell": "zenith",
+          "line": 13783
+        }
+      },
+      "coreCasts": [
+        [0.0, "tiger_palm", 3744],
+        [1.006, "invoke_xuen_the_white_tiger", 3839],
+        [1.852, "zenith", 4224],
+        [1.852, "fists_of_fury", 4333],
+        [3.64, "rising_sun_kick", 5329],
+        [4.645, "whirling_dragon_punch", 5572],
+        [5.65, "spinning_crane_kick", 6045],
+        [6.887, "rising_sun_kick", 6744],
+        [7.891, "fists_of_fury", 7002],
+        [9.671, "spinning_crane_kick", 7978],
+        [10.774, "zenith_stomp_cast", 8530],
+        [11.778, "celestial_conduit", 8907],
+        [12.558, "zenith_stomp_cast", 9211],
+        [13.563, "rising_sun_kick", 9843],
+        [14.567, "blackout_kick", 10132],
+        [15.57, "fists_of_fury", 10508],
+        [17.406, "rushing_wind_kick", 11713],
+        [18.41, "rising_sun_kick", 12015],
+        [19.558, "whirling_dragon_punch", 12337],
+        [20.565, "fists_of_fury", 12830],
+        [22.169, "zenith", 13783],
+        [22.169, "spinning_crane_kick", 13898],
+        [23.481, "rising_sun_kick", 14411],
+        [24.486, "fists_of_fury", 14598],
+        [25.706, "spinning_crane_kick", 15277],
+        [26.781, "rising_sun_kick", 15765],
+        [27.786, "blackout_kick", 15997],
+        [28.789, "rushing_wind_kick", 16139],
+        [29.84, "fists_of_fury", 16271],
+        [33.245, "spinning_crane_kick", 17374],
+        [34.268, "rising_sun_kick", 17854],
+        [35.271, "blackout_kick", 18140],
+        [36.273, "tiger_palm", 18314],
+        [37.276, "rushing_wind_kick", 18432],
+        [38.28, "rising_sun_kick", 18593],
+        [39.285, "fists_of_fury", 18721],
+        [42.69, "whirling_dragon_punch", 19677],
+        [43.696, "spinning_crane_kick", 19947]
+      ],
+      "jadeBuffEvents": [
+        [1.852, "gains", "heart_of_the_jade_serpent_yulons_avatar", 4205],
+        [4.645, "gains", "heart_of_the_jade_serpent", 5636],
+        [5.852, "loses", "heart_of_the_jade_serpent_yulons_avatar", 6252],
+        [10.645, "loses", "heart_of_the_jade_serpent", 8491],
+        [12.618, "gains", "heart_of_the_jade_serpent_unity_within", 9362],
+        [18.618, "loses", "heart_of_the_jade_serpent_unity_within", 12134],
+        [19.558, "gains", "heart_of_the_jade_serpent", 12399],
+        [22.169, "gains", "heart_of_the_jade_serpent_yulons_avatar", 13762],
+        [25.558, "loses", "heart_of_the_jade_serpent", 15217],
+        [26.169, "loses", "heart_of_the_jade_serpent_yulons_avatar", 15554],
+        [42.69, "gains", "heart_of_the_jade_serpent", 19737]
+      ],
+      "fofDynamicCooldownRefs": [
+        [4.645, 5644],
+        [5.852, 6260],
+        [10.645, 8499],
+        [12.618, 9370],
+        [12.891, 9583],
+        [16.0, 10996],
+        [18.618, 12142],
+        [19.41, 12281],
+        [19.558, 12407],
+        [20.919, 13189],
+        [22.169, 13770],
+        [25.558, 15225],
+        [26.169, 15562],
+        [31.41, 16773],
+        [32.919, 17207],
+        [33.781, 17677],
+        [35.268, 18097],
+        [36.165, 18253],
+        [40.877, 19260],
+        [40.877, 19275],
+        [42.69, 19745]
+      ],
+      "conduitCancelRefs": [
+        [12.618, 9280]
+      ]
+    },
+    {
+      "id": "st-dawn-only-crit-seed-005",
+      "branch": "dawn-only-crit",
+      "seed": 5,
+      "targets": 1,
+      "bloodlust": false,
+      "command": "& \"E:/github/wow-skills/.local/simc-build/Release/simc.exe\" \"E:/github/wow-skills/.local/windwalker-v4-simc/st-dawn-only-crit-seed-005-debug.simc\"",
+      "input": {
+        "path": ".local/windwalker-v4-simc/st-dawn-only-crit-seed-005-debug.simc",
+        "sha256": "eaeb450019d6d2e56724e8ff57e3ea9f2b7d571c9443dff55c593d7cc265628a"
+      },
+      "log": {
+        "path": ".local/windwalker-v4-simc/st-dawn-only-crit-seed-005-debug.log",
+        "sha256": "ca6a5c002648715fbc189dedc225a50616293cd44893aeb3d965e456fd1a6cc2"
+      },
+      "report": {
+        "path": ".local/windwalker-v4-simc/st-dawn-only-crit-seed-005-debug.json",
+        "sha256": "f10b79330e427e4c5ba0cb7df00d01074e113cb84a154b5aaa9d119eb4f67f27"
+      },
+      "excerpt": {
+        "path": ".local/windwalker-v4-simc/st-dawn-only-crit-seed-005-debug.evidence.txt",
+        "sha256": "d4eb3092f9c0fc4d45798da2bddac67ff9fed4364310dd5ae533fa9f9845bb08"
+      },
+      "debugMatchesSweep": true,
+      "fullStatesMatchesPriorRun": true,
+      "firstRSK": {
+        "time": 3.581,
+        "castLine": 5271,
+        "main": {
+          "result": "hit",
+          "amount": 150345.424585,
+          "line": 5312,
+          "text": "3.581 Player 'Timing' Action 'rising_sun_kick_damage' (185099) hits Enemy 'Fluffy_Pillow' for 150345.424585 physical damage (hit)"
+        },
+        "dawn": {
+          "present": true,
+          "result": "crit",
+          "amount": 71516.01464,
+          "line": 5339,
+          "text": "3.581 Player 'Timing' Action 'glory_of_the_dawn_rising_sun_kick_damage' (392959) hits Enemy 'Fluffy_Pillow' for 71516.014640 physical damage (crit)"
+        },
+        "critCount": 1,
+        "chi": {
+          "atSelection": 5.0,
+          "afterCost": 4.0,
+          "costLine": 5281,
+          "afterDawn": 5.0,
+          "dawnGainLine": 5349
+        },
+        "rskCooldownStart": {
+          "durationSeconds": 4.331,
+          "line": 5277,
+          "text": "3.581 Player 'Timing' starts cooldown rising_sun_kick with duration 4.331"
+        },
+        "fofCooldown": {
+          "atSelectionSeconds": 8.647,
+          "adjustments": [
+            {
+              "cause": "glory_of_the_dawn_rising_sun_kick_damage",
+              "causeHitLine": 5339,
+              "line": 5342,
+              "text": "3.581 Timing cooldown fists_of_fury adjustment=-2.285, remains=6.362, ready=9.943",
+              "adjustmentSeconds": -2.285,
+              "rawRemainsSeconds": 6.362,
+              "rawReadyTime": 9.943,
+              "resetSentinel": false
+            }
+          ],
+          "observedAfterSeconds": {
+            "seconds": 6.362,
+            "line": 5342
+          },
+          "unobservedReason": null
+        },
+        "selectionSnapshot": {
+          "time": 3.581,
+          "jsonPointer": "/sim/players/0/collected_data/action_sequence/8",
+          "energy": 144.84,
+          "activeBuffs": [
+            ["teachings_of_the_monastery", 1, 16.419],
+            ["hit_combo", 4, 28.253],
+            ["invoke_xuen_the_white_tiger", 1, 17.424],
+            ["momentum_boost_speed", 1, 7.77],
+            ["zenith", 1, 18.253],
+            ["zenith_stomp", 2, 28.253],
+            ["tigereye_brew_1", 1, 118.253],
+            ["unbroken_rhythm", 6, 19.769],
+            ["celestial_conduit", 1, 57.424],
+            ["courage_of_the_white_tiger", 1, 27.424],
+            ["heart_of_the_jade_serpent_yulons_avatar", 1, 2.253],
+            ["devoured_strength", 1, 18.253],
+            ["voracious_heart_of_ulatek", 1, 18.253],
+            ["venomcursed_mastery", 1, 10.253],
+            ["potion_of_recklessness_Mastery", 1, 28.253],
+            ["potion_of_recklessness_penalty_Vers", 1, 28.253]
+          ],
+          "reportedCoreCooldownRemains": {
+            "celestial_conduit": null,
+            "fists_of_fury": 8.647,
+            "rising_sun_kick": null,
+            "whirling_dragon_punch": null,
+            "zenith": null
+          }
+        }
+      },
+      "highlights": {
+        "firstWDP": {
+          "time": 4.585,
+          "spell": "whirling_dragon_punch",
+          "line": 5502
+        },
+        "firstConduit": {
+          "time": 10.802,
+          "spell": "celestial_conduit",
+          "line": 8334
+        },
+        "firstConduitCancel": [11.664, 8743],
+        "firstFoFAfterRSK": {
+          "time": 8.963,
+          "spell": "fists_of_fury",
+          "line": 7220
+        },
+        "secondZenith": {
+          "time": 25.209,
+          "spell": "zenith",
+          "line": 14608
+        }
+      },
+      "coreCasts": [
+        [0.0, "tiger_palm", 3748],
+        [1.005, "invoke_xuen_the_white_tiger", 3845],
+        [1.834, "zenith", 4265],
+        [1.834, "fists_of_fury", 4374],
+        [3.581, "rising_sun_kick", 5271],
+        [4.585, "whirling_dragon_punch", 5502],
+        [5.59, "spinning_crane_kick", 5983],
+        [6.953, "rising_sun_kick", 6671],
+        [7.958, "blackout_kick", 6943],
+        [8.963, "fists_of_fury", 7220],
+        [10.802, "celestial_conduit", 8334],
+        [11.584, "zenith_stomp_cast", 8642],
+        [12.59, "rushing_wind_kick", 9221],
+        [13.594, "rising_sun_kick", 9572],
+        [14.6, "fists_of_fury", 9827],
+        [16.299, "spinning_crane_kick", 10891],
+        [17.337, "rising_sun_kick", 11591],
+        [18.343, "blackout_kick", 12105],
+        [19.441, "whirling_dragon_punch", 12424],
+        [20.445, "zenith_stomp_cast", 12789],
+        [21.449, "fists_of_fury", 13078],
+        [23.164, "spinning_crane_kick", 13900],
+        [24.205, "rising_sun_kick", 14369],
+        [25.209, "zenith", 14608],
+        [25.209, "rising_sun_kick", 14740],
+        [26.213, "blackout_kick", 14912],
+        [27.217, "spinning_crane_kick", 15035],
+        [28.268, "rising_sun_kick", 15463],
+        [29.272, "fists_of_fury", 15728],
+        [32.886, "spinning_crane_kick", 16639],
+        [33.906, "blackout_kick", 17035],
+        [34.911, "rushing_wind_kick", 17342],
+        [35.916, "rising_sun_kick", 17494],
+        [36.92, "tiger_palm", 17643],
+        [37.924, "spinning_crane_kick", 17858],
+        [38.984, "blackout_kick", 18313],
+        [39.989, "tiger_palm", 18687],
+        [40.994, "fists_of_fury", 18920],
+        [44.733, "zenith_stomp_cast", 19889]
+      ],
+      "jadeBuffEvents": [
+        [1.834, "gains", "heart_of_the_jade_serpent_yulons_avatar", 4246],
+        [4.585, "gains", "heart_of_the_jade_serpent", 5564],
+        [5.834, "loses", "heart_of_the_jade_serpent_yulons_avatar", 6191],
+        [10.585, "loses", "heart_of_the_jade_serpent", 8252],
+        [11.664, "gains", "heart_of_the_jade_serpent_unity_within", 8824],
+        [17.664, "loses", "heart_of_the_jade_serpent_unity_within", 11859],
+        [19.441, "gains", "heart_of_the_jade_serpent", 12486],
+        [25.209, "gains", "heart_of_the_jade_serpent_yulons_avatar", 14587],
+        [25.441, "loses", "heart_of_the_jade_serpent", 14823],
+        [29.209, "loses", "heart_of_the_jade_serpent_yulons_avatar", 15676]
+      ],
+      "fofDynamicCooldownRefs": [
+        [4.585, 5572],
+        [5.581, 5921],
+        [5.834, 6199],
+        [10.585, 8260],
+        [11.664, 8832],
+        [17.581, 11801],
+        [17.664, 11867],
+        [21.831, 13390],
+        [25.209, 14595],
+        [25.441, 14831],
+        [32.0, 16424],
+        [40.0, 18808],
+        [42.809, 19504]
+      ],
+      "conduitCancelRefs": [
+        [11.664, 8743]
+      ]
+    },
+    {
+      "id": "st-double-crit-seed-012",
+      "branch": "double-crit",
+      "seed": 12,
+      "targets": 1,
+      "bloodlust": false,
+      "command": "& \"E:/github/wow-skills/.local/simc-build/Release/simc.exe\" \"E:/github/wow-skills/.local/windwalker-v4-simc/st-double-crit-seed-012-debug.simc\"",
+      "input": {
+        "path": ".local/windwalker-v4-simc/st-double-crit-seed-012-debug.simc",
+        "sha256": "a21eb153a332f1c8ad4db660b6f276b770dc715d38eb4289c3f13db25099af69"
+      },
+      "log": {
+        "path": ".local/windwalker-v4-simc/st-double-crit-seed-012-debug.log",
+        "sha256": "9daa09fbc4169bbb36dc993cb75f7f2bd5d868dc3c9413902f0680930599a7ba"
+      },
+      "report": {
+        "path": ".local/windwalker-v4-simc/st-double-crit-seed-012-debug.json",
+        "sha256": "1ca1b888a2489fb4bace51abe6a8fd65df065f5402e1a777b5c78e59915fb30f"
+      },
+      "excerpt": {
+        "path": ".local/windwalker-v4-simc/st-double-crit-seed-012-debug.evidence.txt",
+        "sha256": "2fa514aaf785d9ed87c6e10a91212e889f8a5cdca2deaf10c1235c1fda883030"
+      },
+      "debugMatchesSweep": true,
+      "fullStatesMatchesPriorRun": true,
+      "firstRSK": {
+        "time": 3.543,
+        "castLine": 5274,
+        "main": {
+          "result": "crit",
+          "amount": 319631.683089,
+          "line": 5316,
+          "text": "3.543 Player 'Timing' Action 'rising_sun_kick_damage' (185099) hits Enemy 'Fluffy_Pillow' for 319631.683089 physical damage (crit)"
+        },
+        "dawn": {
+          "present": true,
+          "result": "crit",
+          "amount": 69460.988154,
+          "line": 5344,
+          "text": "3.543 Player 'Timing' Action 'glory_of_the_dawn_rising_sun_kick_damage' (392959) hits Enemy 'Fluffy_Pillow' for 69460.988154 physical damage (crit)"
+        },
+        "critCount": 2,
+        "chi": {
+          "atSelection": 5.0,
+          "afterCost": 4.0,
+          "costLine": 5284,
+          "afterDawn": 5.0,
+          "dawnGainLine": 5354
+        },
+        "rskCooldownStart": {
+          "durationSeconds": 4.279,
+          "line": 5280,
+          "text": "3.543 Player 'Timing' starts cooldown rising_sun_kick with duration 4.279"
+        },
+        "fofCooldown": {
+          "atSelectionSeconds": 8.559000000000001,
+          "adjustments": [
+            {
+              "cause": "rising_sun_kick_damage",
+              "causeHitLine": 5316,
+              "line": 5321,
+              "text": "3.543 Timing cooldown fists_of_fury adjustment=-2.285, remains=6.274, ready=9.817",
+              "adjustmentSeconds": -2.285,
+              "rawRemainsSeconds": 6.274,
+              "rawReadyTime": 9.817,
+              "resetSentinel": false
+            },
+            {
+              "cause": "glory_of_the_dawn_rising_sun_kick_damage",
+              "causeHitLine": 5344,
+              "line": 5347,
+              "text": "3.543 Timing cooldown fists_of_fury adjustment=-2.285, remains=3.989, ready=7.532",
+              "adjustmentSeconds": -2.285,
+              "rawRemainsSeconds": 3.989,
+              "rawReadyTime": 7.532,
+              "resetSentinel": false
+            }
+          ],
+          "observedAfterSeconds": {
+            "seconds": 3.989,
+            "line": 5347
+          },
+          "unobservedReason": null
+        },
+        "selectionSnapshot": {
+          "time": 3.543,
+          "jsonPointer": "/sim/players/0/collected_data/action_sequence/8",
+          "energy": 144.59,
+          "activeBuffs": [
+            ["teachings_of_the_monastery", 1, 16.457],
+            ["hit_combo", 4, 28.288],
+            ["invoke_xuen_the_white_tiger", 1, 17.461],
+            ["momentum_boost_speed", 1, 7.785],
+            ["zenith", 1, 18.288],
+            ["zenith_stomp", 2, 28.288],
+            ["tigereye_brew_1", 1, 118.288],
+            ["unbroken_rhythm", 6, 19.784],
+            ["celestial_conduit", 1, 57.461],
+            ["courage_of_the_white_tiger", 1, 27.461],
+            ["heart_of_the_jade_serpent_yulons_avatar", 1, 2.288],
+            ["devoured_strength", 2, 19.784],
+            ["voracious_heart_of_ulatek", 1, 18.288],
+            ["potion_of_recklessness_Mastery", 1, 28.288],
+            ["potion_of_recklessness_penalty_Vers", 1, 28.288]
+          ],
+          "reportedCoreCooldownRemains": {
+            "celestial_conduit": null,
+            "fists_of_fury": 8.559000000000001,
+            "rising_sun_kick": null,
+            "whirling_dragon_punch": null,
+            "zenith": null
+          }
+        }
+      },
+      "highlights": {
+        "firstWDP": {
+          "time": 4.548,
+          "spell": "whirling_dragon_punch",
+          "line": 5512
+        },
+        "firstConduit": {
+          "time": 10.676,
+          "spell": "celestial_conduit",
+          "line": 8791
+        },
+        "firstConduitCancel": [11.462, 9075],
+        "firstFoFAfterRSK": {
+          "time": 6.884,
+          "spell": "fists_of_fury",
+          "line": 6750
+        },
+        "secondZenith": {
+          "time": 22.115,
+          "spell": "zenith",
+          "line": 13685
+        }
+      },
+      "coreCasts": [
+        [0.0, "tiger_palm", 3746],
+        [1.004, "invoke_xuen_the_white_tiger", 3843],
+        [1.831, "zenith", 4228],
+        [1.831, "fists_of_fury", 4336],
+        [3.543, "rising_sun_kick", 5274],
+        [4.548, "whirling_dragon_punch", 5512],
+        [5.552, "spinning_crane_kick", 6059],
+        [6.884, "fists_of_fury", 6750],
+        [8.609, "spinning_crane_kick", 7738],
+        [9.673, "rising_sun_kick", 8419],
+        [10.676, "celestial_conduit", 8791],
+        [11.697, "zenith_stomp_cast", 9300],
+        [12.701, "fists_of_fury", 9476],
+        [14.405, "spinning_crane_kick", 10518],
+        [15.442, "rising_sun_kick", 11101],
+        [16.445, "blackout_kick", 11492],
+        [17.452, "fists_of_fury", 11838],
+        [19.102, "rushing_wind_kick", 12827],
+        [20.107, "zenith_stomp_cast", 13144],
+        [21.112, "rising_sun_kick", 13411],
+        [22.115, "zenith", 13685],
+        [22.115, "whirling_dragon_punch", 13790],
+        [23.119, "rising_sun_kick", 14061],
+        [24.124, "fists_of_fury", 14207],
+        [25.441, "spinning_crane_kick", 14981],
+        [26.687, "rising_sun_kick", 15547],
+        [27.691, "blackout_kick", 15677],
+        [28.697, "rushing_wind_kick", 15817],
+        [29.703, "rising_sun_kick", 15945],
+        [30.705, "fists_of_fury", 16112],
+        [34.354, "zenith_stomp_cast", 16904],
+        [35.358, "spinning_crane_kick", 17034],
+        [36.456, "tiger_palm", 17549],
+        [37.459, "blackout_kick", 17935],
+        [38.463, "rising_sun_kick", 18101],
+        [39.466, "tiger_palm", 18264],
+        [40.471, "zenith_stomp_cast", 18382],
+        [41.476, "spinning_crane_kick", 18496],
+        [42.501, "whirling_dragon_punch", 18965],
+        [43.505, "spinning_crane_kick", 19497],
+        [44.827, "fists_of_fury", 19956]
+      ],
+      "jadeBuffEvents": [
+        [1.831, "gains", "heart_of_the_jade_serpent_yulons_avatar", 4209],
+        [4.548, "gains", "heart_of_the_jade_serpent", 5575],
+        [5.831, "loses", "heart_of_the_jade_serpent_yulons_avatar", 6266],
+        [10.548, "loses", "heart_of_the_jade_serpent", 8717],
+        [11.462, "gains", "heart_of_the_jade_serpent_unity_within", 9156],
+        [17.462, "loses", "heart_of_the_jade_serpent_unity_within", 12065],
+        [22.115, "gains", "heart_of_the_jade_serpent_yulons_avatar", 13664],
+        [22.115, "gains", "heart_of_the_jade_serpent", 13843],
+        [26.115, "loses", "heart_of_the_jade_serpent_yulons_avatar", 15379],
+        [28.115, "loses", "heart_of_the_jade_serpent", 15775],
+        [42.501, "gains", "heart_of_the_jade_serpent", 19026]
+      ],
+      "fofDynamicCooldownRefs": [
+        [4.548, 5583],
+        [5.831, 6274],
+        [8.0, 7431],
+        [10.548, 8725],
+        [11.462, 9164],
+        [17.462, 12073],
+        [18.543, 12542],
+        [22.115, 13672],
+        [22.115, 13851],
+        [25.124, 14892],
+        [26.115, 15387],
+        [28.115, 15783],
+        [32.0, 16481],
+        [34.354, 16953],
+        [37.124, 17839],
+        [40.0, 18328],
+        [42.501, 19034]
+      ],
+      "conduitCancelRefs": [
+        [11.462, 9075]
+      ]
+    },
+    {
+      "id": "st-no-crit-seed-013",
+      "branch": "no-crit",
+      "seed": 13,
+      "targets": 1,
+      "bloodlust": false,
+      "command": "& \"E:/github/wow-skills/.local/simc-build/Release/simc.exe\" \"E:/github/wow-skills/.local/windwalker-v4-simc/st-no-crit-seed-013-debug.simc\"",
+      "input": {
+        "path": ".local/windwalker-v4-simc/st-no-crit-seed-013-debug.simc",
+        "sha256": "ba10631bace5d616db89a02fb5abdc92f34a908531085b2975012c6fe930b41d"
+      },
+      "log": {
+        "path": ".local/windwalker-v4-simc/st-no-crit-seed-013-debug.log",
+        "sha256": "6bcb202bc8834a4bf2c444623c669e9429465cc7ee83e2e9ddb60206cbbf733d"
+      },
+      "report": {
+        "path": ".local/windwalker-v4-simc/st-no-crit-seed-013-debug.json",
+        "sha256": "0914ae310e1eaf1bfcc412a486081418a00d527ab0d0bc786462f80276c23feb"
+      },
+      "excerpt": {
+        "path": ".local/windwalker-v4-simc/st-no-crit-seed-013-debug.evidence.txt",
+        "sha256": "d15a18067996e12e9a02297cd114f60ba1fe493f6e99669ef51d839234439ee7"
+      },
+      "debugMatchesSweep": true,
+      "fullStatesMatchesPriorRun": true,
+      "firstRSK": {
+        "time": 3.611,
+        "castLine": 5328,
+        "main": {
+          "result": "hit",
+          "amount": 155075.524174,
+          "line": 5369,
+          "text": "3.611 Player 'Timing' Action 'rising_sun_kick_damage' (185099) hits Enemy 'Fluffy_Pillow' for 155075.524174 physical damage (hit)"
+        },
+        "dawn": {
+          "present": true,
+          "result": "hit",
+          "amount": 33700.348612,
+          "line": 5395,
+          "text": "3.611 Player 'Timing' Action 'glory_of_the_dawn_rising_sun_kick_damage' (392959) hits Enemy 'Fluffy_Pillow' for 33700.348612 physical damage (hit)"
+        },
+        "critCount": 0,
+        "chi": {
+          "atSelection": 5.0,
+          "afterCost": 4.0,
+          "costLine": 5338,
+          "afterDawn": 5.0,
+          "dawnGainLine": 5404
+        },
+        "rskCooldownStart": {
+          "durationSeconds": 4.417,
+          "line": 5334,
+          "text": "3.611 Player 'Timing' starts cooldown rising_sun_kick with duration 4.417"
+        },
+        "fofCooldown": {
+          "atSelectionSeconds": 8.84,
+          "adjustments": [],
+          "observedAfterSeconds": null,
+          "unobservedReason": "No FoF adjustment was logged at this RSK. No immediate post-hit cooldown point was captured."
+        },
+        "selectionSnapshot": {
+          "time": 3.611,
+          "jsonPointer": "/sim/players/0/collected_data/action_sequence/8",
+          "energy": 144.14000000000001,
+          "activeBuffs": [
+            ["teachings_of_the_monastery", 1, 16.389],
+            ["hit_combo", 4, 28.238],
+            ["invoke_xuen_the_white_tiger", 1, 17.394],
+            ["momentum_boost_speed", 1, 7.787],
+            ["zenith", 1, 18.238],
+            ["zenith_stomp", 2, 28.238],
+            ["tigereye_brew_1", 1, 118.238],
+            ["unbroken_rhythm", 6, 19.786],
+            ["celestial_conduit", 1, 57.394],
+            ["courage_of_the_white_tiger", 1, 27.394],
+            ["heart_of_the_jade_serpent_yulons_avatar", 1, 2.238],
+            ["devoured_strength", 2, 19.786],
+            ["voracious_heart_of_ulatek", 1, 18.238],
+            ["venomcursed_mastery", 1, 9.394],
+            ["potion_of_recklessness_Mastery", 1, 28.238],
+            ["potion_of_recklessness_penalty_Vers", 1, 28.238]
+          ],
+          "reportedCoreCooldownRemains": {
+            "celestial_conduit": null,
+            "fists_of_fury": 8.84,
+            "rising_sun_kick": null,
+            "whirling_dragon_punch": null,
+            "zenith": null
+          }
+        }
+      },
+      "highlights": {
+        "firstWDP": {
+          "time": 4.618,
+          "spell": "whirling_dragon_punch",
+          "line": 5591
+        },
+        "firstConduit": {
+          "time": 12.116,
+          "spell": "celestial_conduit",
+          "line": 9186
+        },
+        "firstConduitCancel": [12.95, 9520],
+        "firstFoFAfterRSK": {
+          "time": 10.312,
+          "spell": "fists_of_fury",
+          "line": 8155
+        },
+        "secondZenith": {
+          "time": 22.066,
+          "spell": "zenith",
+          "line": 14140
+        }
+      },
+      "coreCasts": [
+        [0.0, "tiger_palm", 3743],
+        [1.005, "invoke_xuen_the_white_tiger", 3837],
+        [1.849, "zenith", 4263],
+        [1.849, "fists_of_fury", 4372],
+        [3.611, "rising_sun_kick", 5328],
+        [4.618, "whirling_dragon_punch", 5591],
+        [5.622, "spinning_crane_kick", 6086],
+        [6.918, "rising_sun_kick", 6742],
+        [7.924, "blackout_kick", 7032],
+        [8.927, "spinning_crane_kick", 7330],
+        [10.312, "fists_of_fury", 8155],
+        [12.116, "celestial_conduit", 9186],
+        [13.192, "zenith_stomp_cast", 9828],
+        [14.198, "spinning_crane_kick", 10065],
+        [15.199, "rising_sun_kick", 10680],
+        [16.204, "blackout_kick", 11347],
+        [17.209, "fists_of_fury", 11743],
+        [19.055, "spinning_crane_kick", 12925],
+        [20.056, "zenith_stomp_cast", 13487],
+        [21.061, "rising_sun_kick", 13930],
+        [22.066, "zenith", 14140],
+        [22.066, "whirling_dragon_punch", 14263],
+        [23.07, "fists_of_fury", 14545],
+        [24.412, "spinning_crane_kick", 15285],
+        [25.687, "rising_sun_kick", 15776],
+        [26.69, "fists_of_fury", 15975],
+        [28.429, "spinning_crane_kick", 16681],
+        [29.492, "blackout_kick", 17095],
+        [30.497, "rushing_wind_kick", 17350],
+        [31.501, "rising_sun_kick", 17475],
+        [32.506, "blackout_kick", 17701],
+        [33.51, "rising_sun_kick", 17809],
+        [34.511, "fists_of_fury", 18003],
+        [37.834, "spinning_crane_kick", 19182],
+        [38.937, "tiger_palm", 19699],
+        [39.939, "blackout_kick", 20042],
+        [40.944, "zenith_stomp_cast", 20180],
+        [41.948, "rising_sun_kick", 20295],
+        [42.953, "whirling_dragon_punch", 20450],
+        [43.957, "fists_of_fury", 20728]
+      ],
+      "jadeBuffEvents": [
+        [1.849, "gains", "heart_of_the_jade_serpent_yulons_avatar", 4244],
+        [4.618, "gains", "heart_of_the_jade_serpent", 5653],
+        [5.849, "loses", "heart_of_the_jade_serpent_yulons_avatar", 6311],
+        [10.618, "loses", "heart_of_the_jade_serpent", 8442],
+        [12.95, "gains", "heart_of_the_jade_serpent_unity_within", 9601],
+        [18.95, "loses", "heart_of_the_jade_serpent_unity_within", 12854],
+        [22.066, "gains", "heart_of_the_jade_serpent_yulons_avatar", 14120],
+        [22.066, "gains", "heart_of_the_jade_serpent", 14316],
+        [26.066, "loses", "heart_of_the_jade_serpent_yulons_avatar", 15917],
+        [28.066, "loses", "heart_of_the_jade_serpent", 16502],
+        [42.953, "gains", "heart_of_the_jade_serpent", 20514]
+      ],
+      "fofDynamicCooldownRefs": [
+        [4.618, 5661],
+        [5.849, 6319],
+        [8.0, 7140],
+        [10.618, 8450],
+        [12.95, 9609],
+        [16.0, 11144],
+        [16.199, 11258],
+        [18.95, 12862],
+        [20.056, 13548],
+        [22.066, 14128],
+        [22.066, 14324],
+        [23.518, 14918],
+        [28.066, 16510],
+        [28.199, 16626],
+        [40.0, 20128]
+      ],
+      "conduitCancelRefs": [
+        [12.95, 9520]
+      ]
+    },
+    {
+      "id": "st-main-only-crit-seed-036",
+      "branch": "main-only-crit",
+      "seed": 36,
+      "targets": 1,
+      "bloodlust": false,
+      "command": "& \"E:/github/wow-skills/.local/simc-build/Release/simc.exe\" \"E:/github/wow-skills/.local/windwalker-v4-simc/st-main-only-crit-seed-036-debug.simc\"",
+      "input": {
+        "path": ".local/windwalker-v4-simc/st-main-only-crit-seed-036-debug.simc",
+        "sha256": "9f664d6c902abbb6370f9934f6cf187325f6f0d35f0dbbd469336897d9a390a6"
+      },
+      "log": {
+        "path": ".local/windwalker-v4-simc/st-main-only-crit-seed-036-debug.log",
+        "sha256": "71a69df8d87491953873a1dd2a0e5855236b5165590179d005cdb30510031450"
+      },
+      "report": {
+        "path": ".local/windwalker-v4-simc/st-main-only-crit-seed-036-debug.json",
+        "sha256": "b5c2dcee8a835f692f38871f2375d3957e99a59ed1058fa6c0bb85e3c6bfff1c"
+      },
+      "excerpt": {
+        "path": ".local/windwalker-v4-simc/st-main-only-crit-seed-036-debug.evidence.txt",
+        "sha256": "aae9fdac814af6827e3a0648280cb595a047abbb5429ee89e6971978fe31ec46"
+      },
+      "debugMatchesSweep": true,
+      "fullStatesMatchesPriorRun": true,
+      "firstRSK": {
+        "time": 3.637,
+        "castLine": 5270,
+        "main": {
+          "result": "crit",
+          "amount": 315388.44327,
+          "line": 5312,
+          "text": "3.637 Player 'Timing' Action 'rising_sun_kick_damage' (185099) hits Enemy 'Fluffy_Pillow' for 315388.443270 physical damage (crit)"
+        },
+        "dawn": {
+          "present": true,
+          "result": "hit",
+          "amount": 31312.299191,
+          "line": 5339,
+          "text": "3.637 Player 'Timing' Action 'glory_of_the_dawn_rising_sun_kick_damage' (392959) hits Enemy 'Fluffy_Pillow' for 31312.299191 physical damage (hit)"
+        },
+        "critCount": 1,
+        "chi": {
+          "atSelection": 5.0,
+          "afterCost": 4.0,
+          "costLine": 5280,
+          "afterDawn": 5.0,
+          "dawnGainLine": 5348
+        },
+        "rskCooldownStart": {
+          "durationSeconds": 4.279,
+          "line": 5276,
+          "text": "3.637 Player 'Timing' starts cooldown rising_sun_kick with duration 4.279"
+        },
+        "fofCooldown": {
+          "atSelectionSeconds": 8.468,
+          "adjustments": [
+            {
+              "cause": "rising_sun_kick_damage",
+              "causeHitLine": 5312,
+              "line": 5317,
+              "text": "3.637 Timing cooldown fists_of_fury adjustment=-2.285, remains=6.183, ready=9.820",
+              "adjustmentSeconds": -2.285,
+              "rawRemainsSeconds": 6.183,
+              "rawReadyTime": 9.82,
+              "resetSentinel": false
+            }
+          ],
+          "observedAfterSeconds": {
+            "seconds": 6.183,
+            "line": 5317
+          },
+          "unobservedReason": null
+        },
+        "selectionSnapshot": {
+          "time": 3.637,
+          "jsonPointer": "/sim/players/0/collected_data/action_sequence/8",
+          "energy": 145.97,
+          "activeBuffs": [
+            ["teachings_of_the_monastery", 1, 16.363],
+            ["hit_combo", 4, 28.197],
+            ["invoke_xuen_the_white_tiger", 1, 17.369],
+            ["momentum_boost_speed", 1, 7.694],
+            ["zenith", 1, 18.197],
+            ["zenith_stomp", 2, 28.197],
+            ["tigereye_brew_1", 1, 118.197],
+            ["unbroken_rhythm", 6, 19.693],
+            ["celestial_conduit", 1, 57.369],
+            ["courage_of_the_white_tiger", 1, 27.369],
+            ["heart_of_the_jade_serpent_yulons_avatar", 1, 2.197],
+            ["devoured_strength", 1, 18.197],
+            ["voracious_heart_of_ulatek", 1, 18.197],
+            ["potion_of_recklessness_Mastery", 1, 28.197],
+            ["potion_of_recklessness_penalty_Vers", 1, 28.197]
+          ],
+          "reportedCoreCooldownRemains": {
+            "celestial_conduit": null,
+            "fists_of_fury": 8.468,
+            "rising_sun_kick": null,
+            "whirling_dragon_punch": null,
+            "zenith": null
+          }
+        }
+      },
+      "highlights": {
+        "firstWDP": {
+          "time": 4.642,
+          "spell": "whirling_dragon_punch",
+          "line": 5504
+        },
+        "firstConduit": {
+          "time": 10.708,
+          "spell": "celestial_conduit",
+          "line": 8315
+        },
+        "firstConduitCancel": [11.548, 8745],
+        "firstFoFAfterRSK": {
+          "time": 8.9,
+          "spell": "fists_of_fury",
+          "line": 7234
+        },
+        "secondZenith": {
+          "time": 22.715,
+          "spell": "zenith",
+          "line": 13568
+        }
+      },
+      "coreCasts": [
+        [0.0, "tiger_palm", 3747],
+        [1.006, "invoke_xuen_the_white_tiger", 3842],
+        [1.834, "zenith", 4233],
+        [1.834, "fists_of_fury", 4341],
+        [3.637, "rising_sun_kick", 5270],
+        [4.642, "whirling_dragon_punch", 5504],
+        [5.646, "spinning_crane_kick", 5944],
+        [6.891, "rising_sun_kick", 6677],
+        [7.894, "blackout_kick", 6948],
+        [8.9, "fists_of_fury", 7234],
+        [10.708, "celestial_conduit", 8315],
+        [11.713, "rushing_wind_kick", 8930],
+        [12.718, "rising_sun_kick", 9175],
+        [13.725, "spinning_crane_kick", 9567],
+        [14.78, "blackout_kick", 10170],
+        [15.784, "fists_of_fury", 10633],
+        [17.618, "spinning_crane_kick", 11752],
+        [18.697, "rising_sun_kick", 12418],
+        [19.702, "zenith_stomp_cast", 12832],
+        [20.707, "whirling_dragon_punch", 13050],
+        [21.71, "zenith_stomp_cast", 13427],
+        [22.715, "zenith", 13568],
+        [22.715, "rising_sun_kick", 13686],
+        [23.718, "fists_of_fury", 13844],
+        [25.027, "spinning_crane_kick", 14628],
+        [26.222, "rising_sun_kick", 15133],
+        [27.227, "blackout_kick", 15362],
+        [28.231, "rushing_wind_kick", 15495],
+        [29.235, "rising_sun_kick", 15630],
+        [30.238, "fists_of_fury", 15783],
+        [33.581, "spinning_crane_kick", 17083],
+        [34.621, "tiger_palm", 17555],
+        [35.625, "blackout_kick", 17886],
+        [36.63, "rising_sun_kick", 18019],
+        [37.633, "tiger_palm", 18186],
+        [38.638, "spinning_crane_kick", 18290],
+        [39.734, "blackout_kick", 18786],
+        [40.738, "zenith_stomp_cast", 19176],
+        [41.742, "whirling_dragon_punch", 19319],
+        [42.748, "fists_of_fury", 19572],
+        [44.528, "tiger_palm", 20199]
+      ],
+      "jadeBuffEvents": [
+        [1.834, "gains", "heart_of_the_jade_serpent_yulons_avatar", 4214],
+        [4.642, "gains", "heart_of_the_jade_serpent", 5567],
+        [5.834, "loses", "heart_of_the_jade_serpent_yulons_avatar", 6205],
+        [10.642, "loses", "heart_of_the_jade_serpent", 8269],
+        [11.548, "gains", "heart_of_the_jade_serpent_unity_within", 8825],
+        [17.548, "loses", "heart_of_the_jade_serpent_unity_within", 11697],
+        [20.707, "gains", "heart_of_the_jade_serpent", 13113],
+        [22.715, "gains", "heart_of_the_jade_serpent_yulons_avatar", 13547],
+        [26.707, "loses", "heart_of_the_jade_serpent", 15295],
+        [26.715, "loses", "heart_of_the_jade_serpent_yulons_avatar", 15311],
+        [41.742, "gains", "heart_of_the_jade_serpent", 19380]
+      ],
+      "fofDynamicCooldownRefs": [
+        [4.642, 5575],
+        [5.834, 6213],
+        [10.642, 8277],
+        [11.548, 8833],
+        [15.784, 10780],
+        [17.548, 11705],
+        [19.697, 12800],
+        [20.707, 13121],
+        [21.207, 13355],
+        [22.715, 13555],
+        [26.707, 15303],
+        [26.715, 15319],
+        [30.784, 16070],
+        [31.697, 16343],
+        [32.0, 16524],
+        [33.207, 16861],
+        [40.0, 18967]
+      ],
+      "conduitCancelRefs": [
+        [11.548, 8745]
+      ]
+    },
+    {
+      "id": "aoe3-lust-seed-001",
+      "branch": "double-crit",
+      "seed": 1,
+      "targets": 3,
+      "bloodlust": true,
+      "command": "& \"E:/github/wow-skills/.local/simc-build/Release/simc.exe\" \"E:/github/wow-skills/.local/windwalker-v4-simc/aoe3-lust-seed-001-debug.simc\"",
+      "input": {
+        "path": ".local/windwalker-v4-simc/aoe3-lust-seed-001-debug.simc",
+        "sha256": "e7a0906b3a7193c36a3caa92664b80673277f64cf1368d38cf27a3811b865e38"
+      },
+      "log": {
+        "path": ".local/windwalker-v4-simc/aoe3-lust-seed-001-debug.log",
+        "sha256": "047c224b2df5e70e2ae4132ed47ce8b015b1b8aa5998c5f908460080d18769d9"
+      },
+      "report": {
+        "path": ".local/windwalker-v4-simc/aoe3-lust-seed-001-debug.json",
+        "sha256": "573196731e8dcabf090d4c30e9a8a82eace27ed0e4810eb8b162703ead424408"
+      },
+      "excerpt": {
+        "path": ".local/windwalker-v4-simc/aoe3-lust-seed-001-debug.evidence.txt",
+        "sha256": "947f1ea7636ac8078693a0792e4335c3b8177685167f4b2beab08f250b28d841"
+      },
+      "debugMatchesSweep": null,
+      "fullStatesMatchesPriorRun": true,
+      "firstRSK": {
+        "time": 5.274,
+        "castLine": 7720,
+        "main": {
+          "result": "crit",
+          "amount": 202373.608183,
+          "line": 7766,
+          "text": "5.274 Player 'Timing' Action 'rising_sun_kick_damage' (185099) hits Enemy 'Fluffy_Pillow' for 202373.608183 physical damage (crit)"
+        },
+        "dawn": {
+          "present": true,
+          "result": "crit",
+          "amount": 70366.344987,
+          "line": 7820,
+          "text": "5.274 Player 'Timing' Action 'glory_of_the_dawn_rising_sun_kick_damage' (392959) hits Enemy 'Fluffy_Pillow' for 70366.344987 physical damage (crit)"
+        },
+        "critCount": 2,
+        "chi": {
+          "atSelection": 4.0,
+          "afterCost": 3.0,
+          "costLine": 7730,
+          "afterDawn": 4.0,
+          "dawnGainLine": 7829
+        },
+        "rskCooldownStart": {
+          "durationSeconds": 1.221,
+          "line": 7726,
+          "text": "5.274 Player 'Timing' starts cooldown rising_sun_kick with duration 1.221"
+        },
+        "fofCooldown": {
+          "atSelectionSeconds": 0.41400000000000003,
+          "adjustments": [
+            {
+              "cause": "rising_sun_kick_damage",
+              "causeHitLine": 7766,
+              "line": 7771,
+              "text": "5.274 Timing cooldown fists_of_fury adjustment=-0.914, remains=-3605.274, ready=-3600.000",
+              "adjustmentSeconds": -0.914,
+              "rawRemainsSeconds": -3605.274,
+              "rawReadyTime": -3600.0,
+              "resetSentinel": true
+            }
+          ],
+          "observedAfterSeconds": null,
+          "unobservedReason": "Cooldown reset to ready; negative ready/remains fields are internal sentinels."
+        },
+        "selectionSnapshot": {
+          "time": 5.274,
+          "jsonPointer": "/sim/players/0/collected_data/action_sequence/10",
+          "energy": 150.0,
+          "activeBuffs": [
+            ["teachings_of_the_monastery", 3, 17.134],
+            ["hit_combo", 5, 28.678],
+            ["invoke_xuen_the_white_tiger", 1, 15.732],
+            ["momentum_boost_speed", 1, 6.021],
+            ["zenith", 1, 17.484],
+            ["zenith_stomp", 2, 27.484],
+            ["tigereye_brew_1", 1, 117.484],
+            ["celestial_conduit", 1, 55.732],
+            ["courage_of_the_white_tiger", 1, 25.732],
+            ["heart_of_the_jade_serpent_yulons_avatar", 1, 1.484],
+            ["heart_of_the_jade_serpent_unity_within", 1, 3.134],
+            ["jade_sanctuary", 1, 5.134],
+            ["bloodlust", 1, 34.726],
+            ["devoured_strength", 3, 18.978],
+            ["voracious_heart_of_ulatek", 1, 16.488],
+            ["potion_of_recklessness_Mastery", 1, 26.488],
+            ["potion_of_recklessness_penalty_Vers", 1, 26.488]
+          ],
+          "reportedCoreCooldownRemains": {
+            "celestial_conduit": 86.488,
+            "fists_of_fury": 0.41400000000000003,
+            "rising_sun_kick": null,
+            "whirling_dragon_punch": null,
+            "zenith": null
+          }
+        }
+      },
+      "highlights": {
+        "firstWDP": {
+          "time": 9.761,
+          "spell": "whirling_dragon_punch",
+          "line": 10553
+        },
+        "firstConduit": {
+          "time": 1.762,
+          "spell": "celestial_conduit",
+          "line": 4374
+        },
+        "firstConduitCancel": [2.408, 4890],
+        "firstFoFAfterRSK": {
+          "time": 6.278,
+          "spell": "fists_of_fury",
+          "line": 8074
+        },
+        "secondZenith": {
+          "time": 23.633,
+          "spell": "zenith",
+          "line": 18912
+        }
+      },
+      "coreCasts": [
+        [0.0, "tiger_palm", 3853],
+        [1.006, "invoke_xuen_the_white_tiger", 3951],
+        [1.762, "celestial_conduit", 4374],
+        [2.758, "zenith", 5233],
+        [2.758, "fists_of_fury", 5384],
+        [3.952, "spinning_crane_kick", 6754],
+        [5.274, "rising_sun_kick", 7720],
+        [6.278, "fists_of_fury", 8074],
+        [7.469, "spinning_crane_kick", 9203],
+        [8.756, "rising_sun_kick", 10092],
+        [9.761, "whirling_dragon_punch", 10553],
+        [10.766, "fists_of_fury", 11085],
+        [12.219, "zenith_stomp_cast", 12325],
+        [13.223, "spinning_crane_kick", 12855],
+        [14.357, "zenith_stomp_cast", 13735],
+        [15.36, "spinning_crane_kick", 14058],
+        [16.426, "rising_sun_kick", 14885],
+        [17.431, "fists_of_fury", 15362],
+        [20.155, "spinning_crane_kick", 17130],
+        [21.336, "blackout_kick", 17972],
+        [22.339, "spinning_crane_kick", 18282],
+        [23.633, "zenith", 18912],
+        [23.633, "spinning_crane_kick", 19067],
+        [24.847, "zenith_stomp_cast", 19613],
+        [25.853, "fists_of_fury", 19706],
+        [27.18, "spinning_crane_kick", 20791],
+        [28.427, "zenith_stomp_cast", 21328],
+        [29.431, "spinning_crane_kick", 21469],
+        [30.742, "rising_sun_kick", 22069],
+        [31.746, "fists_of_fury", 22273],
+        [34.62, "whirling_dragon_punch", 23337],
+        [35.626, "spinning_crane_kick", 23697],
+        [36.862, "rising_sun_kick", 24367],
+        [37.867, "fists_of_fury", 24582],
+        [39.299, "spinning_crane_kick", 25528],
+        [40.585, "rising_sun_kick", 26149],
+        [41.59, "spinning_crane_kick", 26331],
+        [42.601, "blackout_kick", 26813],
+        [43.606, "rushing_wind_kick", 27131],
+        [44.609, "tiger_palm", 27372]
+      ],
+      "jadeBuffEvents": [
+        [2.408, "gains", "heart_of_the_jade_serpent_unity_within", 5015],
+        [2.758, "gains", "heart_of_the_jade_serpent_yulons_avatar", 5214],
+        [6.758, "loses", "heart_of_the_jade_serpent_yulons_avatar", 8805],
+        [8.408, "loses", "heart_of_the_jade_serpent_unity_within", 9935],
+        [9.761, "gains", "heart_of_the_jade_serpent", 10616],
+        [15.761, "loses", "heart_of_the_jade_serpent", 14576],
+        [23.633, "gains", "heart_of_the_jade_serpent_yulons_avatar", 18892],
+        [27.633, "loses", "heart_of_the_jade_serpent_yulons_avatar", 21183],
+        [34.62, "gains", "heart_of_the_jade_serpent", 23398],
+        [40.62, "loses", "heart_of_the_jade_serpent", 26253]
+      ],
+      "fofDynamicCooldownRefs": [
+        [6.758, 8813],
+        [8.408, 9943],
+        [10.766, 11301],
+        [14.094, 13598],
+        [15.761, 14584],
+        [16.0, 14670],
+        [22.766, 18694],
+        [23.633, 18900],
+        [24.0, 19430],
+        [26.094, 20048],
+        [27.633, 21191],
+        [34.62, 23406],
+        [40.0, 25963],
+        [40.62, 26261],
+        [42.742, 26912]
+      ],
+      "conduitCancelRefs": [
+        [2.408, 4890]
+      ]
+    },
+    {
+      "id": "aoe5-lust-seed-001",
+      "branch": "double-crit",
+      "seed": 1,
+      "targets": 5,
+      "bloodlust": true,
+      "command": "& \"E:/github/wow-skills/.local/simc-build/Release/simc.exe\" \"E:/github/wow-skills/.local/windwalker-v4-simc/aoe5-lust-seed-001-debug.simc\"",
+      "input": {
+        "path": ".local/windwalker-v4-simc/aoe5-lust-seed-001-debug.simc",
+        "sha256": "9c870c5dcf70e45e0644ebec773912b6df68d25fb869e0b8fc473c4dd78fa380"
+      },
+      "log": {
+        "path": ".local/windwalker-v4-simc/aoe5-lust-seed-001-debug.log",
+        "sha256": "ceead1ca7e3f72732441b24bbb3cd6d40f3a4e89e749ba506b95eb74213d3c29"
+      },
+      "report": {
+        "path": ".local/windwalker-v4-simc/aoe5-lust-seed-001-debug.json",
+        "sha256": "449c308e3083d46597c8311a37cb05282f74761dd46c76c1c6ae4616a952a19c"
+      },
+      "excerpt": {
+        "path": ".local/windwalker-v4-simc/aoe5-lust-seed-001-debug.evidence.txt",
+        "sha256": "ea4f152192d23af3a06e9eec3c7147f2195fc7a17c2d36479dfc91dc1c3245c7"
+      },
+      "debugMatchesSweep": null,
+      "fullStatesMatchesPriorRun": true,
+      "firstRSK": {
+        "time": 5.304,
+        "castLine": 8395,
+        "main": {
+          "result": "crit",
+          "amount": 199769.801931,
+          "line": 8441,
+          "text": "5.304 Player 'Timing' Action 'rising_sun_kick_damage' (185099) hits Enemy 'Fluffy_Pillow' for 199769.801931 physical damage (crit)"
+        },
+        "dawn": {
+          "present": true,
+          "result": "crit",
+          "amount": 69460.988154,
+          "line": 8517,
+          "text": "5.304 Player 'Timing' Action 'glory_of_the_dawn_rising_sun_kick_damage' (392959) hits Enemy 'Fluffy_Pillow' for 69460.988154 physical damage (crit)"
+        },
+        "critCount": 2,
+        "chi": {
+          "atSelection": 4.0,
+          "afterCost": 3.0,
+          "costLine": 8405,
+          "afterDawn": 4.0,
+          "dawnGainLine": 8526
+        },
+        "rskCooldownStart": {
+          "durationSeconds": 1.221,
+          "line": 8401,
+          "text": "5.304 Player 'Timing' starts cooldown rising_sun_kick with duration 1.221"
+        },
+        "fofCooldown": {
+          "atSelectionSeconds": 0.439,
+          "adjustments": [
+            {
+              "cause": "rising_sun_kick_damage",
+              "causeHitLine": 8441,
+              "line": 8446,
+              "text": "5.304 Timing cooldown fists_of_fury adjustment=-0.914, remains=-3605.304, ready=-3600.000",
+              "adjustmentSeconds": -0.914,
+              "rawRemainsSeconds": -3605.304,
+              "rawReadyTime": -3600.0,
+              "resetSentinel": true
+            }
+          ],
+          "observedAfterSeconds": null,
+          "unobservedReason": "Cooldown reset to ready; negative ready/remains fields are internal sentinels."
+        },
+        "selectionSnapshot": {
+          "time": 5.304,
+          "jsonPointer": "/sim/players/0/collected_data/action_sequence/10",
+          "energy": 150.0,
+          "activeBuffs": [
+            ["teachings_of_the_monastery", 3, 17.104],
+            ["hit_combo", 5, 28.764],
+            ["invoke_xuen_the_white_tiger", 1, 15.702],
+            ["momentum_boost_speed", 1, 6.046],
+            ["zenith", 1, 17.509],
+            ["zenith_stomp", 2, 27.509],
+            ["tigereye_brew_1", 1, 117.509],
+            ["celestial_conduit", 1, 55.702],
+            ["courage_of_the_white_tiger", 1, 25.702],
+            ["heart_of_the_jade_serpent_yulons_avatar", 1, 1.509],
+            ["heart_of_the_jade_serpent_unity_within", 1, 3.104],
+            ["jade_sanctuary", 1, 5.104],
+            ["bloodlust", 1, 34.696],
+            ["devoured_strength", 2, 18.864],
+            ["voracious_heart_of_ulatek", 1, 16.458],
+            ["potion_of_recklessness_Mastery", 1, 26.458],
+            ["potion_of_recklessness_penalty_Vers", 1, 26.458]
+          ],
+          "reportedCoreCooldownRemains": {
+            "celestial_conduit": 86.458,
+            "fists_of_fury": 0.439,
+            "rising_sun_kick": null,
+            "whirling_dragon_punch": null,
+            "zenith": null
+          }
+        }
+      },
+      "highlights": {
+        "firstWDP": {
+          "time": 10.729,
+          "spell": "whirling_dragon_punch",
+          "line": 12050
+        },
+        "firstConduit": {
+          "time": 1.762,
+          "spell": "celestial_conduit",
+          "line": 4470
+        },
+        "firstConduitCancel": [2.408, 5050],
+        "firstFoFAfterRSK": {
+          "time": 6.309,
+          "spell": "fists_of_fury",
+          "line": 8776
+        },
+        "secondZenith": {
+          "time": 22.364,
+          "spell": "zenith",
+          "line": 20234
+        }
+      },
+      "coreCasts": [
+        [0.0, "tiger_palm", 3941],
+        [1.006, "invoke_xuen_the_white_tiger", 4041],
+        [1.762, "celestial_conduit", 4470],
+        [2.813, "zenith", 5499],
+        [2.813, "fists_of_fury", 5696],
+        [4.068, "spinning_crane_kick", 7333],
+        [5.304, "rising_sun_kick", 8395],
+        [6.309, "fists_of_fury", 8776],
+        [7.477, "spinning_crane_kick", 10150],
+        [8.718, "rising_sun_kick", 11161],
+        [9.724, "zenith_stomp_cast", 11711],
+        [10.729, "whirling_dragon_punch", 12050],
+        [11.734, "fists_of_fury", 12610],
+        [13.132, "zenith_stomp_cast", 14231],
+        [14.137, "spinning_crane_kick", 14547],
+        [15.233, "rising_sun_kick", 15456],
+        [16.237, "fists_of_fury", 15855],
+        [17.725, "spinning_crane_kick", 17388],
+        [19.029, "blackout_kick", 18388],
+        [20.033, "spinning_crane_kick", 18861],
+        [21.36, "rising_sun_kick", 19983],
+        [22.364, "zenith", 20234],
+        [22.364, "fists_of_fury", 20390],
+        [23.859, "zenith_stomp_cast", 21495],
+        [24.862, "spinning_crane_kick", 21664],
+        [26.127, "zenith_stomp_cast", 22399],
+        [27.131, "spinning_crane_kick", 22569],
+        [28.377, "rising_sun_kick", 23262],
+        [29.382, "fists_of_fury", 23471],
+        [32.168, "spinning_crane_kick", 25291],
+        [33.404, "whirling_dragon_punch", 25944],
+        [34.407, "spinning_crane_kick", 26404],
+        [35.593, "blackout_kick", 27109],
+        [36.598, "fists_of_fury", 27296],
+        [38.2, "tiger_palm", 28624],
+        [39.205, "spinning_crane_kick", 28842],
+        [40.479, "rising_sun_kick", 29603],
+        [41.484, "spinning_crane_kick", 29843],
+        [42.484, "tiger_palm", 30468],
+        [43.49, "fists_of_fury", 30808]
+      ],
+      "jadeBuffEvents": [
+        [2.408, "gains", "heart_of_the_jade_serpent_unity_within", 5220],
+        [2.813, "gains", "heart_of_the_jade_serpent_yulons_avatar", 5480],
+        [6.813, "loses", "heart_of_the_jade_serpent_yulons_avatar", 9716],
+        [8.408, "loses", "heart_of_the_jade_serpent_unity_within", 11019],
+        [10.729, "gains", "heart_of_the_jade_serpent", 12112],
+        [16.729, "loses", "heart_of_the_jade_serpent", 16548],
+        [22.364, "gains", "heart_of_the_jade_serpent_yulons_avatar", 20214],
+        [26.364, "loses", "heart_of_the_jade_serpent_yulons_avatar", 22495],
+        [33.404, "gains", "heart_of_the_jade_serpent", 26004],
+        [39.404, "loses", "heart_of_the_jade_serpent", 29151]
+      ],
+      "fofDynamicCooldownRefs": [
+        [6.813, 9724],
+        [8.408, 11027],
+        [16.0, 15781],
+        [16.729, 16556],
+        [22.652, 20891],
+        [23.228, 21238],
+        [24.0, 21581],
+        [26.364, 22503],
+        [33.404, 26012],
+        [35.228, 26972],
+        [39.404, 29159],
+        [40.0, 29436]
+      ],
+      "conduitCancelRefs": [
+        [2.408, 5050]
+      ]
+    }
+  ]
+}
