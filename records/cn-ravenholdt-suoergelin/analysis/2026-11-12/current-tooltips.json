@@ -1,0 +1,428 @@
+{
+  "271456": {
+    "name": "翡翠督军的淬火战角",
+    "quality": 4,
+    "icon": "inv_helm_plate_raidwarriorulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">翡翠督军的淬火战角</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>头部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->326护甲</span><br><span><!--stat74-->+189 [力量 or 智力]</span><br><span><!--stat7-->+3,910 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->140暴击</span><br><span class=\"q2\">+<!--rtg36-->61急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><br /><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><!--ps--><br /><br />耐久: 100 / 100<div class=\"wowhead-tooltip-item-classes\">职业：<a href=\"/cn/class=1/战士\" class=\"c1\">战士</a></div></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1310208\" class=\"q2\">你的攻击有几率爆发出虚空能量，对附近所有敌人造成(<!--sp137028:0--><!--sp137028--><!--sp137023:0--><!--sp137023--><!--sp137010:0--><!--sp137010--><!--sp212613:0--><!--sp212613--><!--sp137008:0--><!--sp137008--><!--sp137039:0--><!--sp137039--><!--sp137031:0--><!--sp137031--><!--sp137032:0--><!--sp137032--><!--sp137029:0--><!--sp137029--><!--sp137024:0--><!--sp137024--><!--sp356810:0--><!--sp356810--><!--sp137012:0--><!--sp137012--><!--sp137048:0-->1<!--sp137048--> * <!--pts1:0:0:1310208:7.36735-->5163<!---->)点暗影伤害。若你处于毒咒状态，此伤害提高15%。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br /><br /><span class=\"q\"><a href=\"/cn/item-set=2067/翡翠督军的统御\" class=\"q\">翡翠督军的统御</a> (0/5)</span><div class=\"q0 indent\"><span><!--si271459--><a href=\"/cn/item=271459/翡翠督军胸铠\">翡翠督军胸铠</a></span><br /><span><!--si271457--><a href=\"/cn/item=271457/翡翠督军的镶玉护手\">翡翠督军的镶玉护手</a></span><br /><span><!--si271456--><a href=\"/cn/item=271456/翡翠督军的淬火战角\">翡翠督军的淬火战角</a></span><br /><span><!--si271455--><a href=\"/cn/item=271455/翡翠督军腿铠\">翡翠督军腿铠</a></span><br /><span><!--si271454--><a href=\"/cn/item=271454/翡翠督军的狂怒肩铠\">翡翠督军的狂怒肩铠</a></span></div><br /><span class=\"q0\"><!--itemeffectspec71:0--><span>(2) 组合 武器: <a href=\"/cn/spell=1296643/warrior-arms-12-1-class-set-2pc\">致死打击和斩杀的伤害提高10%，且当你对目标施放猛击时，猛击还会对该目标8码范围内的敌人造成([100% of Attack Power])点伤害。目标超过5个时伤害降低。</a></span><!--itemeffectspec--><br /><!--itemeffectspec72:0--><span>(2) 组合 狂怒: <a href=\"/cn/spell=1296645/warrior-fury-12-1-class-set-2pc\">怒击的伤害提高15%。在鲁莽期间，怒击使鲁莽的持续时间延长2秒，最多延长6秒。</a></span><!--itemeffectspec--><br /><!--itemeffectspec73:0--><span>(2) 组合 防护: <a href=\"/cn/spell=1296647/warrior-protection-12-1-class-set-2pc\">你不消耗资源的复仇造成的伤害提高15%，并使你的下一次盾牌猛击造成的伤害提高20%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec71:0--><span>(4) 组合 武器: <a href=\"/cn/spell=1296644/warrior-arms-12-1-class-set-4pc\">压制的伤害提高15%。致死打击和压制使你的下一次猛击造成的伤害提高20%，最多可叠加5层。（500毫秒 冷却）</a></span><!--itemeffectspec--><br /><!--itemeffectspec72:0--><span>(4) 组合 狂怒: <a href=\"/cn/spell=1296646/warrior-fury-12-1-class-set-4pc\">嗜血的伤害提高10%。在鲁莽期间，嗜血使鲁莽的爆击加成提高3%，最多叠加至6%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec73:0--><span>(4) 组合 防护: <a href=\"/cn/spell=1296648/warrior-protection-12-1-class-set-4pc\">破坏者和你不消耗怒气的复仇使所有目标流血，在12秒内造成([304.745% of Attack Power])点伤害。破坏者的冷却时间缩短30秒。</a></span><!--itemeffectspec--></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">47</span> <span class=\"moneysilver\">7</span> <span class=\"moneycopper\">72</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/271456?dataEnv=1&locale=4&bonus=13334:6652:14049:13696:13692:13698:12854:13695",
+    "queried_at": "2026-11-12T18:07:35.673917+08:00",
+    "item_id": 271456
+  },
+  "268265": {
+    "name": "亚基克星藏骨匣",
+    "quality": 4,
+    "icon": "inv_121_jewelry_neck03_green",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">亚基克星藏骨匣</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span><br><span style=\"color: #00BF0D\">晋升毒液铸造：史诗</span><br><span style=\"color: #00BF0D\">毒咒</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->341</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>颈部</td><th><!--scstart4:-3--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat7-->+2,382 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->105暴击</span><br><span class=\"q2\">+<!--rtg36-->105急速</span><br><span class=\"q2\">+<!--rtg40-->105全能</span><br><span class=\"q2\">+<!--rtg49-->105精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><br /><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><!--ps--><br /><br /></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1305838\" class=\"q2\"><a href=\"/cn/spell=1305830/解除盘卷守卫结界\" target=\"_blank\">在盘卷蛇岛与烈毒之渊中，受到致命剧毒的伤害降低7%。</a></a><!--useEffect:1--></span><!--useText:1--><br><br><!--useText:0:2--><span id=\"useText2\" class=\"q2\">装备： <!--useEffect:0:2--><a href=\"/cn/spell=1317582\" class=\"q2\">你的法术和技能有几率使你的一项随机次要属性提高<!--pts1:0:0:1317582:0.997962-->427<!---->，但会使你的其他次要属性降低<!--pts2:0:0:1317582:0.167881-->72<!---->，持续12秒。</a><!--useEffect:2--></span><!--useText:2--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;亚基虫群在她暴虐的攻势下败走，然而她身后溃流的毒液之河却无差别地剥夺着生灵。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">25</span> <span class=\"moneysilver\">1</span> <span class=\"moneycopper\">92</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 乌拉特克</div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/268265?dataEnv=1&locale=4&bonus=6652:13668:13334:13987:12856",
+    "queried_at": "2026-11-12T18:07:36.943407+08:00",
+    "item_id": 268265
+  },
+  "271454": {
+    "name": "翡翠督军的狂怒肩铠",
+    "quality": 4,
+    "icon": "inv_shoulder_plate_raidwarriorulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">翡翠督军的狂怒肩铠</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>肩部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->299护甲</span><br><span><!--stat74-->+141 [力量 or 智力]</span><br><span><!--stat7-->+2,932 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->46暴击</span><br><span class=\"q2\">+<!--rtg49-->105精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 100 / 100<div class=\"wowhead-tooltip-item-classes\">职业：<a href=\"/cn/class=1/战士\" class=\"c1\">战士</a></div></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br /><br /><span class=\"q\"><a href=\"/cn/item-set=2067/翡翠督军的统御\" class=\"q\">翡翠督军的统御</a> (0/5)</span><div class=\"q0 indent\"><span><!--si271459--><a href=\"/cn/item=271459/翡翠督军胸铠\">翡翠督军胸铠</a></span><br /><span><!--si271457--><a href=\"/cn/item=271457/翡翠督军的镶玉护手\">翡翠督军的镶玉护手</a></span><br /><span><!--si271456--><a href=\"/cn/item=271456/翡翠督军的淬火战角\">翡翠督军的淬火战角</a></span><br /><span><!--si271455--><a href=\"/cn/item=271455/翡翠督军腿铠\">翡翠督军腿铠</a></span><br /><span><!--si271454--><a href=\"/cn/item=271454/翡翠督军的狂怒肩铠\">翡翠督军的狂怒肩铠</a></span></div><br /><span class=\"q0\"><!--itemeffectspec71:0--><span>(2) 组合 武器: <a href=\"/cn/spell=1296643/warrior-arms-12-1-class-set-2pc\">致死打击和斩杀的伤害提高10%，且当你对目标施放猛击时，猛击还会对该目标8码范围内的敌人造成([100% of Attack Power])点伤害。目标超过5个时伤害降低。</a></span><!--itemeffectspec--><br /><!--itemeffectspec72:0--><span>(2) 组合 狂怒: <a href=\"/cn/spell=1296645/warrior-fury-12-1-class-set-2pc\">怒击的伤害提高15%。在鲁莽期间，怒击使鲁莽的持续时间延长2秒，最多延长6秒。</a></span><!--itemeffectspec--><br /><!--itemeffectspec73:0--><span>(2) 组合 防护: <a href=\"/cn/spell=1296647/warrior-protection-12-1-class-set-2pc\">你不消耗资源的复仇造成的伤害提高15%，并使你的下一次盾牌猛击造成的伤害提高20%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec71:0--><span>(4) 组合 武器: <a href=\"/cn/spell=1296644/warrior-arms-12-1-class-set-4pc\">压制的伤害提高15%。致死打击和压制使你的下一次猛击造成的伤害提高20%，最多可叠加5层。（500毫秒 冷却）</a></span><!--itemeffectspec--><br /><!--itemeffectspec72:0--><span>(4) 组合 狂怒: <a href=\"/cn/spell=1296646/warrior-fury-12-1-class-set-4pc\">嗜血的伤害提高10%。在鲁莽期间，嗜血使鲁莽的爆击加成提高3%，最多叠加至6%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec73:0--><span>(4) 组合 防护: <a href=\"/cn/spell=1296648/warrior-protection-12-1-class-set-4pc\">破坏者和你不消耗怒气的复仇使所有目标流血，在12秒内造成([304.745% of Attack Power])点伤害。破坏者的冷却时间缩短30秒。</a></span><!--itemeffectspec--></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">46</span> <span class=\"moneysilver\">74</span> <span class=\"moneycopper\">90</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/271454?dataEnv=1&locale=4&bonus=12854:13694:13697:1587",
+    "queried_at": "2026-11-12T18:07:35.854217+08:00",
+    "item_id": 271454
+  },
+  "268253": {
+    "name": "丝质巫毒斗篷",
+    "quality": 4,
+    "icon": "inv_cape_leather_raidrogueulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">丝质巫毒斗篷</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>背部</td></tr></table><!--rf--><span><!--amr-->78护甲</span><br><span><!--stat71-->+106 [敏捷 or 力量 or 智力]</span><br><span><!--stat7-->+2,199 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg36-->33急速</span><br><span class=\"q2\">+<!--rtg49-->80精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">44</span> <span class=\"moneysilver\">87</span> <span class=\"moneycopper\">40</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/268253?dataEnv=1&locale=4&bonus=6652:13662:13334:12854",
+    "queried_at": "2026-11-12T18:07:35.737117+08:00",
+    "item_id": 268253
+  },
+  "271459": {
+    "name": "翡翠督军胸铠",
+    "quality": 4,
+    "icon": "inv_chest_plate_raidwarriorulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">翡翠督军胸铠</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->321</span><br><span class=\"q\">升级：英雄 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>胸部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->398护甲</span><br><span><!--stat74-->+167 [力量 or 智力]</span><br><span><!--stat7-->+3,369 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->56暴击</span><br><span class=\"q2\">+<!--rtg49-->134精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 165 / 165<div class=\"wowhead-tooltip-item-classes\">职业：<a href=\"/cn/class=1/战士\" class=\"c1\">战士</a></div></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br /><br /><span class=\"q\"><a href=\"/cn/item-set=2067/翡翠督军的统御\" class=\"q\">翡翠督军的统御</a> (0/5)</span><div class=\"q0 indent\"><span><!--si271459--><a href=\"/cn/item=271459/翡翠督军胸铠\">翡翠督军胸铠</a></span><br /><span><!--si271457--><a href=\"/cn/item=271457/翡翠督军的镶玉护手\">翡翠督军的镶玉护手</a></span><br /><span><!--si271456--><a href=\"/cn/item=271456/翡翠督军的淬火战角\">翡翠督军的淬火战角</a></span><br /><span><!--si271455--><a href=\"/cn/item=271455/翡翠督军腿铠\">翡翠督军腿铠</a></span><br /><span><!--si271454--><a href=\"/cn/item=271454/翡翠督军的狂怒肩铠\">翡翠督军的狂怒肩铠</a></span></div><br /><span class=\"q0\"><!--itemeffectspec71:0--><span>(2) 组合 武器: <a href=\"/cn/spell=1296643/warrior-arms-12-1-class-set-2pc\">致死打击和斩杀的伤害提高10%，且当你对目标施放猛击时，猛击还会对该目标8码范围内的敌人造成([100% of Attack Power])点伤害。目标超过5个时伤害降低。</a></span><!--itemeffectspec--><br /><!--itemeffectspec72:0--><span>(2) 组合 狂怒: <a href=\"/cn/spell=1296645/warrior-fury-12-1-class-set-2pc\">怒击的伤害提高15%。在鲁莽期间，怒击使鲁莽的持续时间延长2秒，最多延长6秒。</a></span><!--itemeffectspec--><br /><!--itemeffectspec73:0--><span>(2) 组合 防护: <a href=\"/cn/spell=1296647/warrior-protection-12-1-class-set-2pc\">你不消耗资源的复仇造成的伤害提高15%，并使你的下一次盾牌猛击造成的伤害提高20%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec71:0--><span>(4) 组合 武器: <a href=\"/cn/spell=1296644/warrior-arms-12-1-class-set-4pc\">压制的伤害提高15%。致死打击和压制使你的下一次猛击造成的伤害提高20%，最多可叠加5层。（500毫秒 冷却）</a></span><!--itemeffectspec--><br /><!--itemeffectspec72:0--><span>(4) 组合 狂怒: <a href=\"/cn/spell=1296646/warrior-fury-12-1-class-set-4pc\">嗜血的伤害提高10%。在鲁莽期间，嗜血使鲁莽的爆击加成提高3%，最多叠加至6%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec73:0--><span>(4) 组合 防护: <a href=\"/cn/spell=1296648/warrior-protection-12-1-class-set-4pc\">破坏者和你不消耗怒气的复仇使所有目标流血，在12秒内造成([304.745% of Attack Power])点伤害。破坏者的冷却时间缩短30秒。</a></span><!--itemeffectspec--></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">57</span> <span class=\"moneysilver\">16</span> <span class=\"moneycopper\">48</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/271459?dataEnv=1&locale=4&bonus=6652:13690:13698:12846",
+    "queried_at": "2026-11-12T18:07:37.512655+08:00",
+    "item_id": 271459
+  },
+  "237834": {
+    "name": "破法者的护腕",
+    "quality": 4,
+    "icon": "inv_plate_questbloodelf_b_01_bracer",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">破法者的护腕</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #19FF19\">潮汐制造</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->331</span><!--bo--><br>拾取后绑定<!--ue--><br>装备唯一：美化（2）<!--ue--><table width=\"100%\"><tr><td>腕部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->213护甲</span><br><span><!--stat74-->+103 [力量 or 智力]</span><br><span><!--stat7-->+2,124 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->56暴击</span><br><span class=\"q2\">+<!--rtg36-->56急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1283697\" class=\"q2\">你的法术和技能有几率吸引一只法力浮龙，以<span style=\"color:#FFFFFF\">奥纹洞察</span>强化你和一名盟友，使你的[Primary Stat]提高(<!--pts1:0:0:1283697:0.24066-->84<!----> * 80 / 100)点，盟友的主要属性提高(<!--pts1:0:0:1283697:0.24066-->84<!----> * 20 / 100)点。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br>品质：<img style=\"vertical-align: middle\" src=\"https://wow.zamimg.com/images/wow/TextureAtlas/live/professions-chaticon-quality-tier2.png\"><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">100</span> <span class=\"moneysilver\">8</span> <span class=\"moneycopper\">52</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/237834?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8960:12384:8790:13836:13696",
+    "queried_at": "2026-11-12T18:07:37.561810+08:00",
+    "item_id": 237834
+  },
+  "271457": {
+    "name": "翡翠督军的镶玉护手",
+    "quality": 4,
+    "icon": "inv_glove_plate_raidwarriorulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">翡翠督军的镶玉护手</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>手部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->245护甲</span><br><span><!--stat74-->+141 [力量 or 智力]</span><br><span><!--stat7-->+2,932 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->101暴击</span><br><span class=\"q2\">+<!--rtg36-->50急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55<div class=\"wowhead-tooltip-item-classes\">职业：<a href=\"/cn/class=1/战士\" class=\"c1\">战士</a></div></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br /><br /><span class=\"q\"><a href=\"/cn/item-set=2067/翡翠督军的统御\" class=\"q\">翡翠督军的统御</a> (0/5)</span><div class=\"q0 indent\"><span><!--si271459--><a href=\"/cn/item=271459/翡翠督军胸铠\">翡翠督军胸铠</a></span><br /><span><!--si271457--><a href=\"/cn/item=271457/翡翠督军的镶玉护手\">翡翠督军的镶玉护手</a></span><br /><span><!--si271456--><a href=\"/cn/item=271456/翡翠督军的淬火战角\">翡翠督军的淬火战角</a></span><br /><span><!--si271455--><a href=\"/cn/item=271455/翡翠督军腿铠\">翡翠督军腿铠</a></span><br /><span><!--si271454--><a href=\"/cn/item=271454/翡翠督军的狂怒肩铠\">翡翠督军的狂怒肩铠</a></span></div><br /><span class=\"q0\"><!--itemeffectspec71:0--><span>(2) 组合 武器: <a href=\"/cn/spell=1296643/warrior-arms-12-1-class-set-2pc\">致死打击和斩杀的伤害提高10%，且当你对目标施放猛击时，猛击还会对该目标8码范围内的敌人造成([100% of Attack Power])点伤害。目标超过5个时伤害降低。</a></span><!--itemeffectspec--><br /><!--itemeffectspec72:0--><span>(2) 组合 狂怒: <a href=\"/cn/spell=1296645/warrior-fury-12-1-class-set-2pc\">怒击的伤害提高15%。在鲁莽期间，怒击使鲁莽的持续时间延长2秒，最多延长6秒。</a></span><!--itemeffectspec--><br /><!--itemeffectspec73:0--><span>(2) 组合 防护: <a href=\"/cn/spell=1296647/warrior-protection-12-1-class-set-2pc\">你不消耗资源的复仇造成的伤害提高15%，并使你的下一次盾牌猛击造成的伤害提高20%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec71:0--><span>(4) 组合 武器: <a href=\"/cn/spell=1296644/warrior-arms-12-1-class-set-4pc\">压制的伤害提高15%。致死打击和压制使你的下一次猛击造成的伤害提高20%，最多可叠加5层。（500毫秒 冷却）</a></span><!--itemeffectspec--><br /><!--itemeffectspec72:0--><span>(4) 组合 狂怒: <a href=\"/cn/spell=1296646/warrior-fury-12-1-class-set-4pc\">嗜血的伤害提高10%。在鲁莽期间，嗜血使鲁莽的爆击加成提高3%，最多叠加至6%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec73:0--><span>(4) 组合 防护: <a href=\"/cn/spell=1296648/warrior-protection-12-1-class-set-4pc\">破坏者和你不消耗怒气的复仇使所有目标流血，在12秒内造成([304.745% of Attack Power])点伤害。破坏者的冷却时间缩短30秒。</a></span><!--itemeffectspec--></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">28</span> <span class=\"moneysilver\">71</span> <span class=\"moneycopper\">26</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/271457?dataEnv=1&locale=4&bonus=13334:6652:13691:13697:12854",
+    "queried_at": "2026-11-12T18:07:38.329092+08:00",
+    "item_id": 271457
+  },
+  "268259": {
+    "name": "剧毒悔恨束带",
+    "quality": 4,
+    "icon": "inv_belt_plate_raidpaladinulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">剧毒悔恨束带</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腰部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->245护甲</span><br><span><!--stat74-->+141 [力量 or 智力]</span><br><span><!--stat7-->+2,932 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->106暴击</span><br><span class=\"q2\">+<!--rtg49-->45精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">31</span> <span class=\"moneysilver\">60</span> <span class=\"moneycopper\">93</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/268259?dataEnv=1&locale=4&bonus=6652:13696:13662:13334:12854",
+    "queried_at": "2026-11-12T18:07:37.735262+08:00",
+    "item_id": 268259
+  },
+  "159435": {
+    "name": "充能二元腿铠",
+    "quality": 4,
+    "icon": "inv_pant_plate_zandalardungeon_c_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">充能二元腿铠</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗钥石</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->321</span><br><span class=\"q\">升级：英雄 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腿部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->348护甲</span><br><span><!--stat74-->+167 [力量 or 智力]</span><br><span><!--stat7-->+3,369 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->71暴击</span><br><span class=\"q2\">+<!--rtg40-->120全能</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 120 / 120</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">61</span> <span class=\"moneysilver\">76</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/159435?dataEnv=1&locale=4&bonus=13440:6652:13662:12699:12846",
+    "queried_at": "2026-11-12T18:07:38.770766+08:00",
+    "item_id": 159435
+  },
+  "237828": {
+    "name": "破法者的步伐",
+    "quality": 4,
+    "icon": "inv_plate_questbloodelf_b_01_boot",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">破法者的步伐</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #19FF19\">潮汐制造</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->331</span><!--bo--><br>拾取后绑定<!--ue--><br>装备唯一：美化（2）<!--ue--><table width=\"100%\"><tr><td>脚部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->266护甲</span><br><span><!--stat74-->+138 [力量 or 智力]</span><br><span><!--stat7-->+2,832 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->74暴击</span><br><span class=\"q2\">+<!--rtg36-->74急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 80 / 80</td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1283697\" class=\"q2\">你的法术和技能有几率吸引一只法力浮龙，以<span style=\"color:#FFFFFF\">奥纹洞察</span>强化你和一名盟友，使你的[Primary Stat]提高(<!--pts1:0:0:1283697:0.24066-->84<!----> * 80 / 100)点，盟友的主要属性提高(<!--pts1:0:0:1283697:0.24066-->84<!----> * 20 / 100)点。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br>品质：<img style=\"vertical-align: middle\" src=\"https://wow.zamimg.com/images/wow/TextureAtlas/live/professions-chaticon-quality-tier2.png\"><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">100</span> <span class=\"moneysilver\">8</span> <span class=\"moneycopper\">19</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/237828?dataEnv=1&locale=4&bonus=12214:13667:12497:13751:14001:8960:12384:8790:13836",
+    "queried_at": "2026-11-12T18:07:38.932968+08:00",
+    "item_id": 237828
+  },
+  "281029": {
+    "name": "虫群召唤者指环",
+    "quality": 4,
+    "icon": "8268560",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">虫群召唤者指环</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->318</span><br><span class=\"q\">升级：神话 <!--uindex-->1/6</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>手指</td><th><!--scstart4:-2--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat7-->+1,830 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg36-->100急速</span><br><span class=\"q2\">+<!--rtg49-->269精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><br /><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><!--ps--><br /><br /></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1310082\" class=\"q2\">你的攻击有几率放大指环中的低语，召唤一只酸巢灾虫。灾虫会飞向你的目标并引爆，对附近所有敌人造成(<!--sp137028:0--><!--sp137028--><!--sp137023:0--><!--sp137023--><!--sp137010:0--><!--sp137010--><!--sp212613:0--><!--sp212613--><!--sp137008:0--><!--sp137008--><!--sp137039:0--><!--sp137039--><!--sp137031:0--><!--sp137031--><!--sp137032:0--><!--sp137032--><!--sp137029:0--><!--sp137029--><!--sp137024:0--><!--sp137024--><!--sp356810:0--><!--sp356810--><!--sp137012:0--><!--sp137012--><!--sp137048:0-->1<!--sp137048--> * <!--pts1:0:0:1310082:9.82314-->5490<!---->)点自然伤害。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;指环中传出不祥的低语，虽隐约可闻，却怎么也听不真切。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">38</span> <span class=\"moneysilver\">56</span> <span class=\"moneycopper\">1</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 基希克斯</div><div class=\"whtt-extra whtt-dropchance\">掉落几率: 34.23%</div></td></tr></table>",
+    "spells": {
+      "137008": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137010": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137012": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137023": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137024": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137028": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137029": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137031": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137032": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137039": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137048": [
+        [
+          "1",
+          "0.66",
+          ""
+        ]
+      ],
+      "212613": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "356810": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ]
+    },
+    "source_url": "https://nether.wowhead.com/tooltip/item/281029?dataEnv=1&locale=4&bonus=6652:13668:13334:12849",
+    "queried_at": "2026-11-12T18:07:39.250101+08:00",
+    "item_id": 281029
+  },
+  "273792": {
+    "name": "阿曼尼督军的指环",
+    "quality": 4,
+    "icon": "inv_121_jewelry_ring02_green",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">阿曼尼督军的指环</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗钥石</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->321</span><br><span class=\"q\">升级：英雄 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>手指</td><th><!--scstart4:-2--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat7-->+1,895 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->136暴击</span><br><span class=\"q2\">+<!--rtg36-->239急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><br /><br><a href=\"/cn/items/gems?filter=81;9;0\" class=\"socket-prismatic q0\">棱彩插槽</a><!--ps--><br /><br /></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;一枚朴实却耐用的戒指，曾由督军祖尔金亲自佩戴。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">35</span> <span class=\"moneysilver\">94</span> <span class=\"moneycopper\">34</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 祖尔加</div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/273792?dataEnv=1&locale=4&bonus=13440:6652:13668:12699:12846",
+    "queried_at": "2026-11-12T18:07:39.976907+08:00",
+    "item_id": 273792
+  },
+  "281215": {
+    "name": "扭曲恐兽触须",
+    "quality": 4,
+    "icon": "8268563",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">扭曲恐兽触须</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span><br><span style=\"color: #00BF0D\">晋升毒液铸造：史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->341</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>饰品</td><th><!--scstart4:-4--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat71-->+191 [敏捷 or 力量 or 智力]</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1310404\" class=\"q2\">你的伤害有极高几率与触须产生共鸣，获得毁灭之力，使你的爆击提高<!--pts1:0:0:1310404:0.119862-->35<!---->，持续15秒。多次施加可以重叠生效。<br /><br />每5秒，你对新目标的第一次攻击必定获得3层毁灭之力。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;这截断肢散发着一股难以抑制的凶戾气息。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">53</span> <span class=\"moneysilver\">20</span> <span class=\"moneycopper\">4</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 基希克斯</div><div class=\"whtt-extra whtt-dropchance\">掉落几率: 33.64%</div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/281215?dataEnv=1&locale=4&bonus=6652:13334:12856",
+    "queried_at": "2026-11-12T18:07:40.173906+08:00",
+    "item_id": 281215
+  },
+  "270173": {
+    "name": "祖尔金的处斩技法",
+    "quality": 4,
+    "icon": "inv_121_trinket_raid_ulatek_trolltablet",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">祖尔金的处斩技法</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span><br><span style=\"color: #00BF0D\">晋升毒液铸造：史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->341</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>饰品</td><th><!--scstart4:-4--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><span><!--stat72-->+191 [敏捷 or 力量]</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1291728\" class=\"q2\">你的攻击有几率随后触发处斩，朝你的目标掷出一把巨大的战斧，造成(<!--pts1:0:0:1291728:62.7886-->48494<!----> * <!--sp137028:0--><!--sp137028--><!--sp137023:0--><!--sp137023--><!--sp137010:0--><!--sp137010--><!--sp212613:0--><!--sp212613--><!--sp137008:0--><!--sp137008--><!--sp137039:0--><!--sp137039--><!--sp137031:0--><!--sp137031--><!--sp137032:0--><!--sp137032--><!--sp137029:0--><!--sp137029--><!--sp137024:0--><!--sp137024--><!--sp356810:0--><!--sp356810--><!--sp137012:0--><!--sp137012--><!--sp137048:0-->1<!--sp137048-->)点物理伤害。<br /><br />目标每损失1%的生命值，伤害就会提高2%。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;你想要斧头吗？&quot;</span><br /><br /><span class=\"q\"><a href=\"/cn/item-set=2070/祖尔加之咬\" class=\"q\">祖尔加之咬</a> (0/3)</span><div class=\"q0 indent\"><span><!--si270173--><a href=\"/cn/item=270173/祖尔金的处斩技法\">祖尔金的处斩技法</a></span><br /><span><!--si268209--><a href=\"/cn/item=268209/阿曼穆索-督军的复仇\">阿曼穆索，督军的复仇</a></span><br /><span><!--si268213--><a href=\"/cn/item=268213/迈兹罗阿-督军的狂怒\">迈兹罗阿，督军的狂怒</a></span></div><br /><span class=\"q0\"><span>(2) 组合 : <a href=\"/cn/spell=1291726\">完善你的处斩技巧，使其弹射至附近的第二名敌人，造成100%的伤害并对两个目标施加毒牙。</a></span></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">52</span> <span class=\"moneysilver\">74</span> <span class=\"moneycopper\">5</span></div></td></tr></table>",
+    "spells": {
+      "137008": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137010": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137012": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137023": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137024": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137028": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137029": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137031": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137032": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137039": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137048": [
+        [
+          "1",
+          "0.66",
+          ""
+        ]
+      ],
+      "212613": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "356810": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ]
+    },
+    "source_url": "https://nether.wowhead.com/tooltip/item/270173?dataEnv=1&locale=4&bonus=6652:13334:12856",
+    "queried_at": "2026-11-12T18:07:40.424484+08:00",
+    "item_id": 270173
+  },
+  "268213": {
+    "name": "迈兹罗阿，督军的狂怒",
+    "quality": 4,
+    "icon": "inv_axe_2h_ulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">迈兹罗阿，督军的狂怒</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">英雄</span><br><span style=\"color: #00BF0D\">晋升毒液铸造：史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->341</span><!--bo--><br>拾取后绑定<br>装备唯一<!--ue--><!--ue--><table width=\"100%\"><tr><td>双手</td><th><!--scstart2:1--><span class=\"q1\">斧</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->354 - 736点伤害</span></td>\n    <th>速度 <!--spd-->3.60</th>\n</tr></table><!--dps-->（每秒伤害151.4点）<br><span><!--stat72-->+201 [敏捷 or 力量]</span><br><span><!--stat7-->+4,235 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->146暴击</span><br><span class=\"q2\">+<!--rtg49-->60精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 120 / 120</td></tr></table><table><tr><td><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">装备： <!--useEffect:0:1--><a href=\"/cn/spell=1291718\" class=\"q2\">你的攻击有很高的几率施加毒牙，在6秒内造成(<!--pts1:0:0:1291718:1.2478-->964<!----> * 6 * <!--sp137028:0--><!--sp137028--><!--sp137023:0--><!--sp137023--><!--sp137010:0--><!--sp137010--><!--sp212613:0--><!--sp212613--><!--sp137008:0--><!--sp137008--><!--sp137039:0--><!--sp137039--><!--sp137031:0--><!--sp137031--><!--sp137032:0--><!--sp137032--><!--sp137029:0--><!--sp137029--><!--sp137024:0--><!--sp137024--><!--sp356810:0--><!--sp356810--><!--sp137012:0--><!--sp137012--><!--sp137048:0-->1<!--sp137048-->)点自然伤害，随后爆发并对附近的敌人造成<!--pts2:0:0:1291718:3.27486-->2529<!---->点自然伤害。多次施加的效果可以重叠。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br>\b需要等级 <!--rlvl-->90<br><span class=\"q\">&quot;洛阿神灵说我们的祖父，伟大的祖尔金，背叛了他们。可凭什么信他们？&quot;</span><br /><br /><span class=\"q\"><a href=\"/cn/item-set=2070/祖尔加之咬\" class=\"q\">祖尔加之咬</a> (0/3)</span><div class=\"q0 indent\"><span><!--si270173--><a href=\"/cn/item=270173/祖尔金的处斩技法\">祖尔金的处斩技法</a></span><br /><span><!--si268209--><a href=\"/cn/item=268209/阿曼穆索-督军的复仇\">阿曼穆索，督军的复仇</a></span><br /><span><!--si268213--><a href=\"/cn/item=268213/迈兹罗阿-督军的狂怒\">迈兹罗阿，督军的狂怒</a></span></div><br /><span class=\"q0\"><span>(2) 组合 : <a href=\"/cn/spell=1291726\">完善你的处斩技巧，使其弹射至附近的第二名敌人，造成100%的伤害并对两个目标施加毒牙。</a></span></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">107</span> <span class=\"moneysilver\">44</span> <span class=\"moneycopper\">36</span></div></td></tr></table>",
+    "spells": {
+      "137008": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137010": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137012": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137023": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137024": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137028": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137029": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137031": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137032": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137039": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "137048": [
+        [
+          "1",
+          "0.66",
+          ""
+        ]
+      ],
+      "212613": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ],
+      "356810": [
+        [
+          "",
+          "0.66",
+          ""
+        ]
+      ]
+    },
+    "source_url": "https://nether.wowhead.com/tooltip/item/268213?dataEnv=1&locale=4&bonus=6652:13334:12856",
+    "queried_at": "2026-11-12T18:07:40.970993+08:00",
+    "item_id": 268213
+  }
+}

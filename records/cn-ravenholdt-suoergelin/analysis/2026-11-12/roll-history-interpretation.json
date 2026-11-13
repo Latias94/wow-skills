@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "source_checked_at": "2026-11-12T18:40:31.5893236+08:00",
+  "scope": "Historical bonus-roll semantics only; no simulation or coin-spending recommendation.",
+  "character": {
+    "record_id": "cn-ravenholdt-suoergelin",
+    "name": "索尔葛林",
+    "specialization": "arms",
+    "specialization_id": 71
+  },
+  "input": {
+    "snapshot": "records/cn-ravenholdt-suoergelin/snapshots/2026-11-12-1829.simc",
+    "snapshot_sha256": "34e5e588fb1fc2880af4d477272d1998d768d9bde2cdfb8704ca5f2f8312a0c1",
+    "addon_version": "12.1.5-04",
+    "client_version": "12.1.5.70783",
+    "toc": 120105,
+    "history_line": 196,
+    "exported_history_entry_count": 10,
+    "h7_h8_entry_count": 6,
+    "currency_line": 194,
+    "raw_bonus_roll_currencies": "3418:1/3511:0",
+    "current_currency_3418_count": 1,
+    "heart": {
+      "item_id": 270175,
+      "name": "乌拉特克贪婪之心",
+      "item_level": 334,
+      "in_bags": true,
+      "bag_evidence_lines": [145, 146],
+      "recorded_bonus_roll_tuple": "3418:278284:5:4:270175:71",
+      "missing_acquisition_target": false
+    },
+    "latest_user_inventory_context": {
+      "source": "User follow-up in this task; recorded as context without further investigation.",
+      "ascendant_venomstone_count": 10,
+      "current_season_spark_count": 10,
+      "vault_socket_item_count": 1,
+      "effect_on_history_scope": "None established by the inspected sources."
+    },
+    "source_label_mapping": {
+      "278290": "H7 / 盘卷祭坛",
+      "278284": "H8 / 乌拉特克",
+      "provenance": "User task and existing roll-pools.json; not an encounter-ID mapping defined by simc-addon."
+    }
+  },
+  "version_match": {
+    "official_simc_addon_tag": "12.1.5-04",
+    "official_simc_addon_commit": "83fdb00762fa0fb9ba3e3251a8fa7f3e4a92edba",
+    "master_and_tag_identical_when_read": {
+      "bonusrolls.lua": true,
+      "core.lua": true
+    },
+    "retrieved_utf8_source_sha256": {
+      "bonusrolls.lua": "e5849ecb2649531d8bda2bcd4fb9cb701306bd4dc5a68a3c88f8380300e20866",
+      "core.lua": "76ea0937bfa4bf050645de76e85ab511eb19dd63ee780bd8158d81e2c6741431"
+    },
+    "blizzard_ui_mirror": {
+      "repository": "Gethe/wow-ui-source",
+      "commit": "297d7aaaa736f346b3e036f38ee088eaf7f8c07f",
+      "commit_subject": "12.1.5 (70783)",
+      "matches_snapshot_build": true,
+      "provenance": "Mirror of Blizzard-authored client UI source; not a Blizzard-hosted repository."
+    },
+    "enum_dump": {
+      "repository": "Ketho/BlizzardInterfaceResources",
+      "commit": "f3b334b33bd19fa6a0250f7922ecfa83db7fe356",
+      "client_version": "12.1.5.70448",
+      "matches_snapshot_patch": true,
+      "matches_snapshot_build": false,
+      "provenance": "Primary client-resource dump produced with KethoDoc, as documented by its README; third-party hosting, not an official Blizzard publication.",
+      "limitation": "Numeric enum definitions were not found in the inspected Blizzard API documentation. The 5/95 names are supported by this same-patch runtime dump; no live query of the user's build 70783 was performed."
+    },
+    "line_number_basis": "One-based physical lines from raw files retrieved directly; web text extraction collapses blank lines."
+  },
+  "tuple_schema": {
+    "status": "confirmed_in_exact_addon_tag",
+    "format": "currency:source:context:keyLevel:itemId:specId",
+    "tuple_delimiter": "/",
+    "field_delimiter": ":",
+    "fields": [
+      {
+        "position": 1,
+        "name": "currency",
+        "definition": "Bonus-roll currency ID from prompt entry.currencyID; 0 if unavailable.",
+        "example": 3418,
+        "example_name": "Nebulous Voidcore",
+        "evidence": ["S1:47-60", "S1:74-81", "S3:433-435"]
+      },
+      {
+        "position": 2,
+        "name": "source",
+        "definition": "Prompt entry.displayItemID, or 0. This is a displayed source item ID, not an encounterID.",
+        "examples": [278290, 278284],
+        "evidence": ["S1:47-60", "S1:74-81", "S4:293-323"]
+      },
+      {
+        "position": 3,
+        "name": "context",
+        "definition": "Prompt entry.itemContext; fallback to won item-link field 12, then 0.",
+        "examples": [5, 95],
+        "context_origin_exported": false,
+        "evidence": ["S1:47-60", "S1:74-81", "S2:46", "S2:222-240"]
+      },
+      {
+        "position": 4,
+        "name": "keyLevel",
+        "definition": "Prompt entry.treasureContextLevel, or 0; keyLevel is the addon's field name.",
+        "example": 4,
+        "raid_specific_meaning_of_4": "unknown",
+        "caution": "Not the separately supplied difficultyID; do not interpret this raid value as Mythic+ level 4.",
+        "evidence": ["S1:47-60", "S1:74-81", "S4:293-323", "S4:558-564"]
+      },
+      {
+        "position": 5,
+        "name": "itemId",
+        "definition": "Won item ID parsed from the BONUS_ROLL_RESULT item link.",
+        "example": 270175,
+        "evidence": ["S1:64-81", "S5:67-82"]
+      },
+      {
+        "position": 6,
+        "name": "specId",
+        "definition": "BONUS_ROLL_RESULT specID; fallback to selected loot specialization, then active specialization, then 0.",
+        "values_in_scope": {
+          "71": "Arms",
+          "73": "Protection"
+        },
+        "evidence": ["S1:17-27", "S1:64-90", "S3:142-145", "S5:67-82"]
+      }
+    ],
+    "export_behavior": {
+      "season_filter": "Stored season equals current season helper result; all specializations are exported.",
+      "current_season_helper": "C_SeasonInfo.GetCurrentDisplaySeasonID, falling back to C_MythicPlus.GetCurrentSeason, then 0.",
+      "ordering": "Lexicographic tuple sort, not roll chronology.",
+      "timestamp_exported": false,
+      "season_id_exported": false,
+      "knockout_cycle_id_exported": false,
+      "difficulty_id_exported": false,
+      "deduplicates_history": false,
+      "complete_server_history_guaranteed": false,
+      "authoritative_current_exclusion_state": false,
+      "caution": "Saved addon observations of item wins are not a server knockout-state export.",
+      "evidence": ["S1:30-43", "S1:64-112", "S2:149-155", "S2:1526-1531"]
+    }
+  },
+  "context_interpretation": {
+    "enum_name": "Enum.ItemCreationContext",
+    "requested_name_note": "The inspected client dump uses ItemCreationContext, not Enum.ItemContext; itemContext is the prompt/link field name.",
+    "values": {
+      "5": {
+        "name": "RaidHeroic",
+        "description": "Heroic raid item creation context.",
+        "evidence": ["S6:4526-4533"]
+      },
+      "95": {
+        "name": "RaidHeroicExtended_3",
+        "description": "A distinct extended Heroic raid item creation context.",
+        "evidence": ["S6:4620-4623"]
+      }
+    },
+    "same_numeric_context": false,
+    "same_broad_heroic_item_source_family": true,
+    "heroic_family_conclusion_basis": "Descriptive classification from the client enum names, subject to the enum dump build limitation above.",
+    "same_complete_reward_pool": "unknown",
+    "same_server_knockout_scope": "unknown",
+    "extended_3_meaning_beyond_enum_name": "unknown",
+    "normalization_for_server_exclusion_permitted": false,
+    "explanation": "Heroic-family classification does not establish identical reward lists, shared exclusions, or a common reset cycle. Different enum values also do not prove separate server pools."
+  },
+  "server_scope_findings": {
+    "public_rule_confirmed": false,
+    "context_5_and_95_share_exclusions": "unknown",
+    "spec_71_and_73_share_exclusions": "unknown",
+    "current_knockout_cycle_contains_all_recorded_wins": "unknown",
+    "addon_pool_comment": {
+      "location": "S1:12-14",
+      "summary": "The addon describes pools using spec, encounter, context and keyLevel, and credits other addons for research.",
+      "authority": "Addon-side model/comment, not a Blizzard server contract."
+    },
+    "client_api_boundary": "The inspected BonusRoll event payload and UI wrappers supply observations and presentation inputs. They do not expose a documented 5/95 or cross-spec exclusion-sharing rule.",
+    "do_not_infer": [
+      "5 and 95 are interchangeable knockout keys because both names contain RaidHeroic.",
+      "95 records do not count because their context differs from 5.",
+      "All current-season wins still belong to the current exclusion cycle.",
+      "An item missing from the addon history is currently eligible.",
+      "Possessing an item, by itself, proves it is currently excluded."
+    ],
+    "evidence": ["S1:12-14", "S1:86-112", "S4:293-323", "S4:558-564", "S5:67-82"]
+  },
+  "boss_history": [
+    {
+      "boss": "H7 / 盘卷祭坛",
+      "currency": 3418,
+      "source": 278290,
+      "keyLevel": 4,
+      "entries": [
+        { "tuple": "3418:278290:5:4:268259:71", "context": 5, "itemId": 268259, "specId": 71 },
+        { "tuple": "3418:278290:5:4:270173:71", "context": 5, "itemId": 270173, "specId": 71 },
+        { "tuple": "3418:278290:95:4:268213:71", "context": 95, "itemId": 268213, "specId": 71 },
+        { "tuple": "3418:278290:95:4:268253:71", "context": 95, "itemId": 268253, "specId": 71 }
+      ],
+      "confirmed_history_item_ids_for_arms": [268259, 270173, 268213, 268253],
+      "reliable_conclusion": "Four recorded Arms item wins from source 278290, split across two Heroic-family contexts.",
+      "all_four_currently_excluded": "unknown",
+      "existing_target_item_id": 268222,
+      "target_id_provenance": "Existing roll-pools.json; not independently re-audited as part of this historical-semantics task.",
+      "only_268222_remains": "unknown",
+      "current_remaining_preview_verified": false,
+      "exact_remaining_ids": null,
+      "exact_probability": null,
+      "needed_to_resolve": "Current Heroic Arms bonus-roll reward preview must show the effective eligible list and exclusion states, including all four recorded items and 268222. Generic journal loot alone is insufficient."
+    },
+    {
+      "boss": "H8 / 乌拉特克",
+      "currency": 3418,
+      "source": 278284,
+      "keyLevel": 4,
+      "entries": [
+        { "tuple": "3418:278284:5:4:270175:71", "context": 5, "itemId": 270175, "specId": 71 },
+        { "tuple": "3418:278284:95:4:268265:73", "context": 95, "itemId": 268265, "specId": 73 }
+      ],
+      "confirmed_history_item_ids_for_arms": [270175],
+      "confirmed_history_item_ids_for_protection": [268265],
+      "reliable_conclusion": "Heart 270175 is a recorded Arms bonus-roll win and is already owned at item level 334. The 268265 win was recorded for Protection, not Arms.",
+      "heart_is_missing_acquisition_target": false,
+      "heart_currently_excluded_from_arms_pool": "unknown",
+      "protection_win_268265_currently_excluded_from_arms_pool": "unknown",
+      "existing_target_item_id": 271878,
+      "target_id_provenance": "Existing roll-pools.json; not independently re-audited as part of this historical-semantics task.",
+      "current_remaining_preview_verified": false,
+      "exact_remaining_ids": null,
+      "exact_probability": null,
+      "needed_to_resolve": "Current Heroic Arms bonus-roll preview must establish eligibility of 270175, 268265, 271878 and any other rewards. Neither cross-context nor cross-spec exclusion sharing is assumed."
+    }
+  ],
+  "current_preview_requirements": {
+    "status": "required_for_current_eligibility_not_for_parsing_the_history",
+    "capture_context": [
+      "Current character, selected Arms loot specialization and Heroic source.",
+      "Current bonus-roll reward container/prompt, including source item, itemContext and treasureContextLevel when available.",
+      "Complete effective reward list with obtained/disabled versus eligible states and capture time."
+    ],
+    "claims_still_unresolved": [
+      "Whether H7 currently excludes all four recorded Arms wins across contexts 5 and 95.",
+      "Whether H7 currently has 268222 as its sole eligible equipment outcome.",
+      "Whether H8 currently excludes the already-owned Arms Heart win.",
+      "Whether the Protection 268265 win affects the current Arms pool.",
+      "Exact remaining reward IDs and probabilities for H7 or H8."
+    ],
+    "preview_limit": "A current effective list can settle the immediate eligibility decision; one observed list does not establish a universal server sharing rule or an undocumented probability model."
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "type": "official_simulationcraft_addon_source",
+      "url": "https://github.com/simulationcraft/simc-addon/blob/83fdb00762fa0fb9ba3e3251a8fa7f3e4a92edba/bonusrolls.lua",
+      "raw_url": "https://raw.githubusercontent.com/simulationcraft/simc-addon/83fdb00762fa0fb9ba3e3251a8fa7f3e4a92edba/bonusrolls.lua",
+      "relevant_lines": [[12, 27], [30, 60], [64, 112]]
+    },
+    {
+      "id": "S2",
+      "type": "official_simulationcraft_addon_source",
+      "url": "https://github.com/simulationcraft/simc-addon/blob/83fdb00762fa0fb9ba3e3251a8fa7f3e4a92edba/core.lua",
+      "raw_url": "https://raw.githubusercontent.com/simulationcraft/simc-addon/83fdb00762fa0fb9ba3e3251a8fa7f3e4a92edba/core.lua",
+      "relevant_lines": [[46, 46], [149, 155], [222, 240], [845, 855], [1520, 1531]]
+    },
+    {
+      "id": "S3",
+      "type": "official_simulationcraft_addon_source",
+      "url": "https://github.com/simulationcraft/simc-addon/blob/83fdb00762fa0fb9ba3e3251a8fa7f3e4a92edba/extras.lua",
+      "relevant_lines": [[142, 145], [433, 435]]
+    },
+    {
+      "id": "S4",
+      "type": "blizzard_authored_ui_source_third_party_mirror",
+      "url": "https://github.com/Gethe/wow-ui-source/blob/297d7aaaa736f346b3e036f38ee088eaf7f8c07f/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua",
+      "relevant_lines": [[293, 323], [558, 564]],
+      "build": 70783
+    },
+    {
+      "id": "S5",
+      "type": "blizzard_authored_api_documentation_third_party_mirror",
+      "url": "https://github.com/Gethe/wow-ui-source/blob/297d7aaaa736f346b3e036f38ee088eaf7f8c07f/Interface/AddOns/Blizzard_APIDocumentationGenerated/LootDocumentation.lua",
+      "relevant_lines": [[67, 82]],
+      "build": 70783
+    },
+    {
+      "id": "S6",
+      "type": "primary_client_enum_dump_third_party_hosted",
+      "url": "https://github.com/Ketho/BlizzardInterfaceResources/blob/f3b334b33bd19fa6a0250f7922ecfa83db7fe356/Resources/LuaEnum.lua",
+      "raw_url": "https://raw.githubusercontent.com/Ketho/BlizzardInterfaceResources/f3b334b33bd19fa6a0250f7922ecfa83db7fe356/Resources/LuaEnum.lua",
+      "relevant_lines": [[4526, 4533], [4620, 4623]],
+      "build": 70448
+    },
+    {
+      "id": "S7",
+      "type": "enum_dump_provenance_and_build_metadata",
+      "url": "https://github.com/Ketho/BlizzardInterfaceResources/blob/f3b334b33bd19fa6a0250f7922ecfa83db7fe356/README.md",
+      "supports": "Client-resource extraction method and GetBuildInfo for 12.1.5 build 70448."
+    },
+    {
+      "id": "S8",
+      "type": "official_simulationcraft_tag_metadata",
+      "url": "https://api.github.com/repos/simulationcraft/simc-addon/git/ref/tags/12.1.5-04",
+      "toc_url": "https://github.com/simulationcraft/simc-addon/blob/83fdb00762fa0fb9ba3e3251a8fa7f3e4a92edba/Simulationcraft.toc",
+      "supports": "Exact tag commit, addon version and support for TOC 120105."
+    }
+  ],
+  "execution": {
+    "only_output_file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/roll-history-interpretation.json",
+    "profile_modified": false,
+    "snapshot_modified": false,
+    "reports_modified": false,
+    "simulation_scripts_modified": false,
+    "simc_run": false,
+    "commit_created": false
+  },
+  "tool_call_brief": {
+    "tools": ["web.run", "exec_command", "apply_patch"],
+    "purpose": "Read public primary sources and the local snapshot; write this JSON only.",
+    "external_service": "Public GitHub API/raw source; web search used for source discovery.",
+    "source_domains": ["github.com", "api.github.com", "raw.githubusercontent.com"],
+    "parameters": "Exact addon tag/commit; exact UI build 70783; same-patch enum dump build 70448; six scoped history tuples.",
+    "result": "Tuple fields confirmed; both contexts have Heroic-family enum names; shared server knockout scope unknown.",
+    "retrieval_fallback": "Web access to GitHub tag API failed; direct read-only PowerShell request succeeded. Candidate Blizzard-hosted and BonusRollDocumentation.lua paths returned 404; repository-tree discovery found the actual mirrored UI and LootDocumentation.lua paths.",
+    "retry_backoff": "No repeated retry loop or timed backoff; changed retrieval path/source after failures.",
+    "timestamp": "2026-11-12T18:40:31.5893236+08:00"
+  }
+}

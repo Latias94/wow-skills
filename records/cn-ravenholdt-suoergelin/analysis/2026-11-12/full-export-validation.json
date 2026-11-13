@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-12T18:59:29.840423+08:00",
+  "exports": [
+    {
+      "input": "current-full-equipped.simc",
+      "accepted": true,
+      "gear_identical": true,
+      "valid_fight_style": true
+    },
+    {
+      "input": "recommended-dungeon.simc",
+      "accepted": true,
+      "gear_identical": true,
+      "valid_fight_style": true
+    },
+    {
+      "input": "alternative-h5-ring.simc",
+      "accepted": true,
+      "gear_identical": true,
+      "valid_fight_style": true
+    },
+    {
+      "input": "reference-single-target.simc",
+      "accepted": true,
+      "gear_identical": true,
+      "valid_fight_style": true
+    }
+  ]
+}

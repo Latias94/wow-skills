@@ -1,0 +1,70 @@
+{
+  "recorded_at": "2026-11-12T18:51:33.705676+08:00",
+  "source_commit": "de11f57df75dda668bae6ac7043a43b98831fa96",
+  "engine_sha256": "57c6858151630ea8e70b8f714d18c94a172aaf0e2bad5699d9bf5cf613674160",
+  "raw_sha256": "34e5e588fb1fc2880af4d477272d1998d768d9bde2cdfb8704ca5f2f8312a0c1",
+  "live_build": "12.1.5.70783",
+  "models": {
+    "slice": [
+      "DungeonSlice",
+      360,
+      1
+    ],
+    "st": [
+      "Patchwerk",
+      240,
+      1
+    ],
+    "aoe": [
+      "Patchwerk",
+      90,
+      5
+    ]
+  },
+  "candidates": [
+    "current",
+    "ring_fill",
+    "swarm334",
+    "one_socket",
+    "ready",
+    "ready_h7",
+    "ready_h8",
+    "h7_chest",
+    "h8_legs",
+    "crafted_legs331",
+    "bag_tier_legs",
+    "bag_atroxus_ring2",
+    "bag_atroxus_ring1",
+    "bag_stolen_ring2",
+    "ring_h5",
+    "ring_crafted331",
+    "ring_amani334",
+    "shoulder_ch",
+    "weapon_h10_341",
+    "flask_crit",
+    "flask_mastery",
+    "core",
+    "core_crafted_ring",
+    "core_h5_ring",
+    "core_keep_amani334",
+    "core_owned_atroxus",
+    "core_owned_stolen",
+    "heart334_replace_tendril",
+    "heart334_replace_zuljin",
+    "heart341_replace_tendril",
+    "heart341_replace_zuljin",
+    "keeper341_replace_tendril",
+    "keeper341_replace_zuljin",
+    "target_haste",
+    "target_haste_h5",
+    "target_haste_shoulder",
+    "target_crit",
+    "target_crit_h5",
+    "target_crit_shoulder",
+    "target_haste_keep_owned_amani",
+    "target_crit_craft_cm"
+  ],
+  "boundaries": "OrdinaryMyth334/Crafted331/ascended341;one owned socket token;supplied talents andOmnium fixed;no M7/M8 9/6.",
+  "ring_assumption": "New dropped rings one socket;crafted ring retains native socket. Existing empty Swarmcaller preparation measured separately.",
+  "resources": "10 current-season sparks,10 ascendant venomstones,1 roll core;gold and crest purchase availability remain separate."
+}

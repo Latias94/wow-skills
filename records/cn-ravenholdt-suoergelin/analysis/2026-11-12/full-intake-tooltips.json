@@ -1,0 +1,110 @@
+{
+  "274476": {
+    "name": "潮汐火花",
+    "quality": 4,
+    "icon": "inv_12_profession_questandcrafting_sparkwhole_green",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">潮汐火花</b><!--nend--><!--ndstart--><br /><span style=\"color: #19FF19\">“至暗之夜”第2赛季</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->90</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><span class=\"toycolor\">附加制作材料</span><br><br><div class=\"q2\">提供下列属性：根据制作品质设置初始物品等级（292-305），并标记为潮汐制造。</div><span class=\"q\">&quot;一种独特的制造材料，注入了天蓝色流水。可以通过周常任务或满级活动获得，用于通过专业制造最强大的装备。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 1000</div><div class=\"whtt-sellprice\">售价: <span class=\"moneysilver\">2</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/274476?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12T18:33:08.718350+08:00",
+    "item_id": 274476
+  },
+  "280562": {
+    "name": "晋升毒液石",
+    "quality": 4,
+    "icon": "inv_1205_voidforge_sovereignvoidcorefragments_green",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">晋升毒液石</b><!--nend--><!--ndstart--><br /><span style=\"color: #19FF19\">“至暗之夜”第2赛季</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->1</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=1309282\" class=\"q2\">消耗10枚晋升毒液石，使一件“至暗之夜”第2赛季中已完全升级的英雄或神话装备，或最高品质的潮汐制造武器、饰品或项链提升物品等级。</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><span class=\"q\">&quot;可前往银月城的化生台，在奥林的协助下将毒液石的力量织入强大的装备。从“至暗之夜”第2赛季的强敌身上获得。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 100</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">10</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/280562?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12T18:33:08.945957+08:00",
+    "item_id": 280562
+  },
+  "232875": {
+    "name": "光耀火花",
+    "quality": 4,
+    "icon": "inv_12_profession_questandcrafting_sparkwhole_gold",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">光耀火花</b><!--nend--><!--ndstart--><br /><span style=\"color: #19FF19\">“至暗之夜”第1赛季</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->24</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><span class=\"toycolor\">附加制作材料</span><br><br><div class=\"q2\">提供下列属性：根据制作品质设置初始物品等级（246-259），并标记为光耀制造。</div><span class=\"q\">&quot;一种独特的制造材料，散发着炽烈的光芒。可以通过周常任务或满级活动获得，用于通过专业制造最强大的装备。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 1000</div><div class=\"whtt-sellprice\">售价: <span class=\"moneysilver\">2</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/232875?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12T18:33:08.740358+08:00",
+    "item_id": 232875
+  },
+  "211296": {
+    "name": "征兆火花",
+    "quality": 4,
+    "icon": "inv_spark_whole_violet",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">征兆火花</b><!--nend--><!--ndstart--><br /><span style=\"color: #19FF19\">“地心之战”第1赛季</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->21</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><span class=\"toycolor\">附加制作材料</span><br><br><div class=\"q2\">提供下列属性：根据制作品质设置初始物品等级（地心之战 - 第1赛季 - 勇士），并标记为征兆制造。</div><span class=\"q\">&quot;这是一种独特的制作材料，可以使物品达到凡人无法企及的高度。&quot;</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 1000</div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/211296?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12T18:33:08.804155+08:00",
+    "item_id": 211296
+  },
+  "271455": {
+    "name": "翡翠督军腿铠",
+    "quality": 4,
+    "icon": "inv_pant_plate_raidwarriorulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">翡翠督军腿铠</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>腿部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->380护甲</span><br><span><!--stat74-->+189 [力量 or 智力]</span><br><span><!--stat7-->+3,910 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg40-->135全能</span><br><span class=\"q2\">+<!--rtg49-->66精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 120 / 120<div class=\"wowhead-tooltip-item-classes\">职业：<a href=\"/cn/class=1/战士\" class=\"c1\">战士</a></div></td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br /><br /><span class=\"q\"><a href=\"/cn/item-set=2067/翡翠督军的统御\" class=\"q\">翡翠督军的统御</a> (0/5)</span><div class=\"q0 indent\"><span><!--si271459--><a href=\"/cn/item=271459/翡翠督军胸铠\">翡翠督军胸铠</a></span><br /><span><!--si271457--><a href=\"/cn/item=271457/翡翠督军的镶玉护手\">翡翠督军的镶玉护手</a></span><br /><span><!--si271456--><a href=\"/cn/item=271456/翡翠督军的淬火战角\">翡翠督军的淬火战角</a></span><br /><span><!--si271455--><a href=\"/cn/item=271455/翡翠督军腿铠\">翡翠督军腿铠</a></span><br /><span><!--si271454--><a href=\"/cn/item=271454/翡翠督军的狂怒肩铠\">翡翠督军的狂怒肩铠</a></span></div><br /><span class=\"q0\"><!--itemeffectspec71:0--><span>(2) 组合 武器: <a href=\"/cn/spell=1296643/warrior-arms-12-1-class-set-2pc\">致死打击和斩杀的伤害提高10%，且当你对目标施放猛击时，猛击还会对该目标8码范围内的敌人造成([100% of Attack Power])点伤害。目标超过5个时伤害降低。</a></span><!--itemeffectspec--><br /><!--itemeffectspec72:0--><span>(2) 组合 狂怒: <a href=\"/cn/spell=1296645/warrior-fury-12-1-class-set-2pc\">怒击的伤害提高15%。在鲁莽期间，怒击使鲁莽的持续时间延长2秒，最多延长6秒。</a></span><!--itemeffectspec--><br /><!--itemeffectspec73:0--><span>(2) 组合 防护: <a href=\"/cn/spell=1296647/warrior-protection-12-1-class-set-2pc\">你不消耗资源的复仇造成的伤害提高15%，并使你的下一次盾牌猛击造成的伤害提高20%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec71:0--><span>(4) 组合 武器: <a href=\"/cn/spell=1296644/warrior-arms-12-1-class-set-4pc\">压制的伤害提高15%。致死打击和压制使你的下一次猛击造成的伤害提高20%，最多可叠加5层。（500毫秒 冷却）</a></span><!--itemeffectspec--><br /><!--itemeffectspec72:0--><span>(4) 组合 狂怒: <a href=\"/cn/spell=1296646/warrior-fury-12-1-class-set-4pc\">嗜血的伤害提高10%。在鲁莽期间，嗜血使鲁莽的爆击加成提高3%，最多叠加至6%。</a></span><!--itemeffectspec--><br /><!--itemeffectspec73:0--><span>(4) 组合 防护: <a href=\"/cn/spell=1296648/warrior-protection-12-1-class-set-4pc\">破坏者和你不消耗怒气的复仇使所有目标流血，在12秒内造成([304.745% of Attack Power])点伤害。破坏者的冷却时间缩短30秒。</a></span><!--itemeffectspec--></span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">62</span> <span class=\"moneysilver\">66</span> <span class=\"moneycopper\">72</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/271455?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12T18:33:09.504171+08:00",
+    "item_id": 271455
+  },
+  "272260": {
+    "name": "誓言使者肩铠",
+    "quality": 4,
+    "icon": "inv_shoulder_plate_outdooramaniloa_c_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">誓言使者肩铠</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->321</span><br><span class=\"q\">升级：英雄 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>肩部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->274护甲</span><br><span><!--stat74-->+125 [力量 or 智力]</span><br><span><!--stat7-->+2,527 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->53暴击</span><br><span class=\"q2\">+<!--rtg49-->89精通</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 100 / 100</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">45</span> <span class=\"moneysilver\">61</span> <span class=\"moneycopper\">97</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/272260?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12T18:33:09.488225+08:00",
+    "item_id": 272260
+  },
+  "272255": {
+    "name": "誓言使者胸甲",
+    "quality": 4,
+    "icon": "inv_chest_plate_outdooramaniloa_c_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">誓言使者胸甲</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->321</span><br><span class=\"q\">升级：英雄 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>胸部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->398护甲</span><br><span><!--stat74-->+167 [力量 or 智力]</span><br><span><!--stat7-->+3,369 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg36-->71急速</span><br><span class=\"q2\">+<!--rtg40-->119全能</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 165 / 165</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">58</span> <span class=\"moneysilver\">26</span> <span class=\"moneycopper\">29</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 阿兹塔雷克</div><div class=\"whtt-extra whtt-dropchance\">掉落几率: 1.82%</div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/272255?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12T18:33:09.716023+08:00",
+    "item_id": 272255
+  },
+  "268220": {
+    "name": "鳞甲锁喉护手",
+    "quality": 4,
+    "icon": "inv_glove_plate_raidpaladinulatek_d_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">鳞甲锁喉护手</b><!--nend--><!--ndstart--><br /><span><span style=\"color: #00FF00\">史诗</span></span><!--ndend--><span class=\"q\"><br>物品等级：<!--ilvl-->334</span><br><span class=\"q\">升级：神话 <!--uindex-->6/6</span><!--bo--><br>拾取后绑定<!--ue--><!--ue--><table width=\"100%\"><tr><td>手部</td><th><!--scstart4:4--><span class=\"q1\">板甲</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->245护甲</span><br><span><!--stat74-->+141 [力量 or 智力]</span><br><span><!--stat7-->+2,932 耐力</span><!--ebstats--><br><span class=\"q2\">+<!--rtg32-->100暴击</span><br><span class=\"q2\">+<!--rtg36-->50急速</span><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>耐久: 55 / 55</td></tr></table><table><tr><td><!--rr--><!--itemEffects:0-->\b需要等级 <!--rlvl-->90<br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">30</span> <span class=\"moneysilver\">92</span> <span class=\"moneycopper\">66</span></div><div class=\"whtt-extra whtt-droppedby\">掉落于: 维克苏尔</div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/268220?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12T18:33:09.590454+08:00",
+    "item_id": 268220
+  },
+  "240906": {
+    "name": "无瑕迅捷榴石",
+    "quality": 3,
+    "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕迅捷榴石</b><!--nend--><!--ndstart--><br /><span style=\"color: #EA4B4B\">榴石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->16 <!----> 爆击和+<!--gem2-->7 <!----> 急速<!--i?240906:0:80:90:-15:476:208:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+    "spells": {
+      "436341": [
+        [
+          "",
+          "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+          ""
+        ]
+      ]
+    },
+    "source_url": "https://nether.wowhead.com/tooltip/item/240906?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12T18:33:10.377099+08:00",
+    "item_id": 240906
+  },
+  "240967": {
+    "name": "强能之永歌钻石",
+    "quality": 4,
+    "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_orange",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q4\">强能之永歌钻石</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><br>装备唯一：萨拉斯钻石（1）<!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br /><span class=\"q1\">+<!--gem1-->23 <!----> 主属性，每种不同的至暗之夜宝石颜色+0.15%爆击效果</span><!--i?240967:0:80:90:-15:684:0:0--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">6</span></div></td></tr></table>",
+    "spells": [],
+    "source_url": "https://nether.wowhead.com/tooltip/item/240967?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12T18:33:10.216897+08:00",
+    "item_id": 240967
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "recorded_at": "2026-11-12T18:12:21.650642+08:00",
+  "history_evidence": "User: 可以。这个赛季R到的，身上的所有团本装备都是R到的。",
+  "history_coverage": "Blanket acquisition statement;not a full per-difficulty/current-cycle addon history.",
+  "pools": [
+    {
+      "boss": "H7 / 盘卷祭坛",
+      "loot_spec": "arms",
+      "source": "h7-modern-wowhead-loot.json",
+      "derived_arms_spec_ids": [
+        268213,
+        268222,
+        268253,
+        268259,
+        270173
+      ],
+      "reported_rolled_owned_ids": [
+        268213,
+        268253,
+        268259,
+        270173
+      ],
+      "current_target_ids": [
+        268222
+      ],
+      "history_difficulty_separately_confirmed": false,
+      "current_remaining_preview_verified": false,
+      "exact_remaining_ids": null,
+      "exact_probability": null,
+      "decision": "If all four previous results belong to the current Heroic exclusion scope and the preview only contains268222,spend the next core here;otherwise inspect remaining outcomes before committing."
+    },
+    {
+      "boss": "H8 / 乌拉特克",
+      "loot_spec": "arms",
+      "source": "h8-wowhead-loot.json",
+      "reported_rolled_owned_ids": [
+        268265
+      ],
+      "current_target_ids": [
+        271878
+      ],
+      "other_normal_loot_requiring_preview_check": [
+        270175,
+        270168,
+        270909
+      ],
+      "current_remaining_preview_verified": false,
+      "exact_remaining_ids": null,
+      "exact_probability": null,
+      "decision": "Target theVenomcursed plate legs;do not assume all remaining outcomes are legs or Heart. Current341 Tendril+Zuljin is a valid high-key pair."
+    },
+    {
+      "boss": "H5 / 斯索拉克",
+      "loot_spec": "arms",
+      "current_target_ids": [
+        268252
+      ],
+      "history_coverage": "unknown",
+      "current_remaining_preview_verified": false,
+      "exact_probability": null,
+      "decision": "Secondary-ring alternative after chest/legs;compare crafted331 or Myth-track dungeon/Vault ring before spending on a pool with one main target."
+    },
+    {
+      "boss": "H10 / 基希克斯",
+      "loot_spec": "arms",
+      "reported_rolled_owned_ids": [
+        281029,
+        281215
+      ],
+      "equipped_head_effect": 14049,
+      "inferred_head_source": 281239,
+      "head_predecessor_status": "inferred from unique raid effect,not supplied by the WCL export",
+      "current_target_ids": [],
+      "alternative_weapon_id": 280799,
+      "decision": "Existing341 Maze-roa is retained;upgrade the owned318 Swarmcaller instead of rolling it again. H10 is currently low priority."
+    }
+  ]
+}

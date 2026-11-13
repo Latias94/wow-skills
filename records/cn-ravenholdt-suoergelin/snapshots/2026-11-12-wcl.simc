@@ -1,0 +1,28 @@
+# Warcraft Logs: https://www.warcraftlogs.com/CN/ravenholdt/%E7%B4%A2%E5%B0%94%E8%91%9B%E6%9E%97
+# Date: 1794476649000
+
+warrior="索尔葛林"
+level=90
+race=矮人
+region=cn
+server=拉文霍德
+role=dps
+spec=arms
+
+talents=CcEASWsDSHNyPDXnbxuIhH3ZdjZmZmFzYmZGAAAghphZGzMbmZmZGmxMDAAAAgxyMDMhxy2ALgBMDTIzgNwMDDDmlZ2GgZGAMDDA
+
+head=,id=271456,enchant_id=8017,bonus_id=13334/6652/14049/13696/13692/13698/12854/13695,gem_id=240890
+neck=,id=268265,bonus_id=6652/13668/13334/13987/12856,gem_id=240983/240890
+shoulder=,id=271454,enchant_id=8001,bonus_id=12854/13694/13697/1587
+back=,id=268253,bonus_id=6652/13662/13334/12854
+chest=,id=271459,enchant_id=7987,bonus_id=6652/13690/13698/12846
+wrist=,id=237834,bonus_id=12214/13667/12497/13751/14001/8960/12384/8790/13836/13696
+hands=,id=271457,bonus_id=13334/6652/13691/13697/12854
+waist=,id=268259,bonus_id=6652/13696/13662/13334/12854
+legs=,id=159435,enchant_id=8163,bonus_id=13440/6652/13662/12699/12846
+feet=,id=237828,bonus_id=12214/13667/12497/13751/14001/8960/12384/8790/13836
+finger1=,id=281029,bonus_id=6652/13668/13334/12849,gem_id=0
+finger2=,id=273792,enchant_id=7967,bonus_id=13440/6652/13668/12699/12846,gem_id=240890
+trinket1=,id=281215,bonus_id=6652/13334/12856
+trinket2=,id=270173,bonus_id=6652/13334/12856
+main_hand=,id=268213,enchant_id=8689,bonus_id=6652/13334/12856

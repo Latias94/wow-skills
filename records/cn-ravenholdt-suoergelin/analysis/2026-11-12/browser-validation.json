@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-11-12T18:15:00+08:00",
+  "desktop": {
+    "width": 1342,
+    "overflow": false,
+    "currentRows": 15,
+    "targetRows": 15,
+    "images": true,
+    "nativeTitles": 0,
+    "elitePlayers": 5,
+    "currentCoinUnknown": true,
+    "noPublishedDps": true,
+    "downloads": [
+      {
+        "label": "原始WCL完整实装文本",
+        "status": 200
+      },
+      {
+        "label": "逐件完整bonus/装等查验",
+        "status": 200
+      },
+      {
+        "label": "当前高手实装及来源更新时间",
+        "status": 200
+      },
+      {
+        "label": "可获取目标槽位与备选（非已获得）",
+        "status": 200
+      },
+      {
+        "label": "R池与历史局限",
+        "status": 200
+      },
+      {
+        "label": "当前周计划与已报告事实",
+        "status": 200
+      }
+    ],
+    "targetNav": true
+  },
+  "mobile": {
+    "width": 390,
+    "overflow": false,
+    "images": true,
+    "navigationScrollable": true
+  },
+  "venomcursed_leg_tooltip_observed": true,
+  "screenshots": [
+    "report-desktop.png",
+    "report-mobile.png"
+  ],
+  "personal_dps_ranking_published": false
+}

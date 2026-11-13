@@ -1,0 +1,2067 @@
+{
+  "source_url": "https://www.wowhead.com/npc=268956/ulatek",
+  "retrieved_at": "2026-11-12",
+  "arms_loot_spec": 71,
+  "all_drops": [
+    {
+      "appearances": {
+        "0": [
+          732988,
+          ""
+        ],
+        "1": [
+          732989,
+          ""
+        ],
+        "3": [
+          732986,
+          ""
+        ],
+        "4": [
+          732985,
+          ""
+        ]
+      },
+      "bonustrees": [
+        6108,
+        6107
+      ],
+      "classs": 2,
+      "displayName": "Jaw of the Shackled Goddess",
+      "displayid": 732988,
+      "dps": 36.65,
+      "flags2": 8192,
+      "id": 268202,
+      "level": 219,
+      "name": "Jaw of the Shackled Goddess",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 13,
+      "slotbak": 13,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "specs": [
+        251,
+        1451,
+        66,
+        73,
+        1446
+      ],
+      "speed": 2.6,
+      "subclass": 7,
+      "bonuses": [
+        13847
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "appearances": {
+        "0": [
+          732790,
+          ""
+        ],
+        "1": [
+          732794,
+          ""
+        ],
+        "3": [
+          732792,
+          ""
+        ],
+        "4": [
+          732791,
+          ""
+        ]
+      },
+      "bonustrees": [
+        6108,
+        6017
+      ],
+      "classs": 2,
+      "displayName": "Caustic Repose Greatbow",
+      "displayid": 732790,
+      "dps": 48.66,
+      "flags2": 8192,
+      "id": 268207,
+      "level": 219,
+      "name": "Caustic Repose Greatbow",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 15,
+      "slotbak": 15,
+      "source": [
+        2,
+        16
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        },
+        {
+          "z": 16915
+        }
+      ],
+      "specs": [
+        253,
+        1448,
+        254
+      ],
+      "speed": 3,
+      "subclass": 2,
+      "bonuses": [
+        13708
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "appearances": {
+        "0": [
+          745494,
+          ""
+        ],
+        "1": [
+          745496,
+          ""
+        ],
+        "3": [
+          745493,
+          ""
+        ],
+        "4": [
+          745492,
+          ""
+        ]
+      },
+      "bonustrees": [
+        6108,
+        6106
+      ],
+      "classs": 2,
+      "displayName": "Abyssal Broodfiend's Bardiche",
+      "displayid": 745494,
+      "dps": 48.68,
+      "flags2": 8192,
+      "id": 268215,
+      "level": 219,
+      "name": "Abyssal Broodfiend's Bardiche",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 17,
+      "slotbak": 17,
+      "source": [
+        2,
+        16
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        },
+        {
+          "z": 16915
+        }
+      ],
+      "specs": [
+        255,
+        103,
+        104,
+        1447,
+        268,
+        269
+      ],
+      "speed": 3.6,
+      "subclass": 6,
+      "bonuses": [
+        13846
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "armor": 0,
+      "bonustrees": [
+        6108,
+        6214
+      ],
+      "classs": 4,
+      "displayName": "Aqirbane Reliquary",
+      "flags2": 8192,
+      "id": 268265,
+      "level": 219,
+      "name": "Aqirbane Reliquary",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 2,
+      "slotbak": 2,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "subclass": -3,
+      "bonuses": [
+        13668,
+        13987
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "armor": 0,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Font of Venomous Rage",
+      "flags2": 8192,
+      "id": 270168,
+      "level": 219,
+      "name": "Font of Venomous Rage",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 12,
+      "slotbak": 12,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "subclass": -4,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "armor": 0,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Voracious Heart of Ula'tek",
+      "flags2": 8192,
+      "id": 270175,
+      "level": 219,
+      "name": "Voracious Heart of Ula'tek",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 12,
+      "slotbak": 12,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "subclass": -4,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "bonustrees": [
+        6012,
+        5741
+      ],
+      "classs": 15,
+      "displayName": "Slumbering Coil Curio",
+      "flags2": 12288,
+      "flags5": 1,
+      "id": 270909,
+      "level": 219,
+      "name": "Slumbering Coil Curio",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 0,
+      "source": [
+        2,
+        16
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        },
+        {
+          "z": 16915
+        }
+      ],
+      "subclass": 1,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "appearances": {
+        "0": [
+          740681,
+          ""
+        ]
+      },
+      "bonustrees": [
+        6108
+      ],
+      "classs": 2,
+      "displayName": "Jan'thrazet, the Soul Fang",
+      "displayid": 740681,
+      "dps": 18.27,
+      "flags2": 8704,
+      "id": 271092,
+      "level": 219,
+      "name": "Jan'thrazet, the Soul Fang",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 13,
+      "slotbak": 13,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "specs": [
+        62,
+        102,
+        258,
+        105,
+        256,
+        63,
+        64,
+        257,
+        262,
+        264,
+        265,
+        266,
+        267,
+        1454,
+        1465,
+        1467,
+        1468,
+        1473,
+        1480
+      ],
+      "speed": 1.8,
+      "subclass": 15,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "appearances": {
+        "0": [
+          729610,
+          ""
+        ]
+      },
+      "bonustrees": [
+        6108
+      ],
+      "classs": 2,
+      "displayName": "Zatha'tek, Breath of Corruption",
+      "displayid": 729610,
+      "dps": 36.74,
+      "flags2": 8192,
+      "id": 271093,
+      "level": 219,
+      "name": "Zatha'tek, Breath of Corruption",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 13,
+      "slotbak": 13,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "specs": [
+        259,
+        1453,
+        261,
+        255
+      ],
+      "speed": 1.8,
+      "subclass": 15,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "appearances": {
+        "0": [
+          732000,
+          ""
+        ],
+        "1": [
+          732001,
+          ""
+        ],
+        "153": [
+          732005,
+          ""
+        ],
+        "154": [
+          732006,
+          ""
+        ],
+        "155": [
+          732007,
+          ""
+        ],
+        "156": [
+          732002,
+          ""
+        ],
+        "3": [
+          732008,
+          ""
+        ],
+        "4": [
+          731999,
+          ""
+        ]
+      },
+      "armor": 45,
+      "bonustrees": [
+        6108,
+        6106
+      ],
+      "classs": 4,
+      "displayName": "Venomkeeper's Horrific Cowl",
+      "displayid": 732000,
+      "flags2": 8192,
+      "id": 271874,
+      "level": 219,
+      "name": "Venomkeeper's Horrific Cowl",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 1,
+      "slotbak": 1,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "specs": [
+        62,
+        1449,
+        1452,
+        256,
+        63,
+        64,
+        265,
+        257,
+        258,
+        266,
+        267,
+        1454
+      ],
+      "subclass": 1,
+      "bonuses": [
+        13663,
+        13846
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "appearances": {
+        "0": [
+          747819,
+          ""
+        ],
+        "1": [
+          747817,
+          ""
+        ],
+        "153": [
+          747828,
+          ""
+        ],
+        "154": [
+          747820,
+          ""
+        ],
+        "155": [
+          747818,
+          ""
+        ],
+        "156": [
+          747823,
+          ""
+        ],
+        "3": [
+          747824,
+          ""
+        ],
+        "4": [
+          747827,
+          ""
+        ]
+      },
+      "armor": 77,
+      "bonustrees": [
+        6108,
+        6107
+      ],
+      "classs": 4,
+      "displayName": "Gaze of the Coiled Watcher",
+      "displayid": 747819,
+      "flags2": 8192,
+      "id": 271875,
+      "level": 219,
+      "name": "Gaze of the Coiled Watcher",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 1,
+      "slotbak": 1,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "specs": [
+        102,
+        1447,
+        105,
+        270,
+        1450,
+        581,
+        268,
+        1456,
+        1480,
+        577,
+        103,
+        104,
+        269,
+        259,
+        1453,
+        260,
+        261
+      ],
+      "subclass": 2,
+      "bonuses": [
+        13663,
+        13847
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "appearances": {
+        "0": [
+          739523,
+          ""
+        ],
+        "1": [
+          739541,
+          ""
+        ],
+        "153": [
+          739580,
+          ""
+        ],
+        "154": [
+          739571,
+          ""
+        ],
+        "155": [
+          739577,
+          ""
+        ],
+        "156": [
+          739559,
+          ""
+        ],
+        "3": [
+          739583,
+          ""
+        ],
+        "4": [
+          739550,
+          ""
+        ]
+      },
+      "armor": 140,
+      "bonustrees": [
+        6108,
+        6106
+      ],
+      "classs": 4,
+      "displayName": "Awoken Dreadfang Cuirass",
+      "displayid": 739523,
+      "flags2": 8192,
+      "id": 271876,
+      "level": 219,
+      "name": "Awoken Dreadfang Cuirass",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 5,
+      "slotbak": 5,
+      "source": [
+        2,
+        16
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        },
+        {
+          "z": 16915
+        }
+      ],
+      "specs": [
+        253,
+        262,
+        1468,
+        1444,
+        264,
+        1473,
+        1465,
+        1467,
+        1448,
+        254,
+        255,
+        263
+      ],
+      "subclass": 3,
+      "bonuses": [
+        13663,
+        13846
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "appearances": {
+        "0": [
+          739767,
+          ""
+        ],
+        "1": [
+          739768,
+          ""
+        ],
+        "153": [
+          739766,
+          ""
+        ],
+        "154": [
+          739767,
+          ""
+        ],
+        "155": [
+          739768,
+          ""
+        ],
+        "156": [
+          739765,
+          ""
+        ],
+        "3": [
+          739765,
+          ""
+        ],
+        "4": [
+          739766,
+          ""
+        ]
+      },
+      "armor": 184,
+      "bonustrees": [
+        6108,
+        6017
+      ],
+      "classs": 4,
+      "displayName": "Chausses of Unbound Rancor",
+      "displayid": 739767,
+      "flags2": 8192,
+      "id": 271878,
+      "level": 219,
+      "name": "Chausses of Unbound Rancor",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 7,
+      "slotbak": 7,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "specs": [
+        65,
+        1451,
+        66,
+        250,
+        251,
+        1455,
+        252,
+        70,
+        71,
+        72,
+        1446,
+        73
+      ],
+      "subclass": 4,
+      "bonuses": [
+        13663,
+        13708
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "classs": 20,
+      "displayName": "The Venomous Abyss Gleaming Trophy",
+      "flags2": 139328,
+      "id": 279129,
+      "level": 1,
+      "name": "The Venomous Abyss Gleaming Trophy",
+      "namedesc": "Housing Decor",
+      "quality": 4,
+      "slot": 0,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "bd": 1,
+          "n": "Ula'tek",
+          "t": 1,
+          "ti": 268956,
+          "z": 16915
+        }
+      ],
+      "subclass": 0,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    },
+    {
+      "classs": 20,
+      "displayName": "&quot;Rage of the Shackled&quot; Mural",
+      "flags2": 139264,
+      "id": 279500,
+      "level": 1,
+      "name": "\"Rage of the Shackled\" Mural",
+      "namedesc": "Housing Decor",
+      "quality": 3,
+      "slot": 0,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "subclass": 0,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    }
+  ],
+  "arms_spec_items": [
+    {
+      "appearances": {
+        "0": [
+          739767,
+          ""
+        ],
+        "1": [
+          739768,
+          ""
+        ],
+        "153": [
+          739766,
+          ""
+        ],
+        "154": [
+          739767,
+          ""
+        ],
+        "155": [
+          739768,
+          ""
+        ],
+        "156": [
+          739765,
+          ""
+        ],
+        "3": [
+          739765,
+          ""
+        ],
+        "4": [
+          739766,
+          ""
+        ]
+      },
+      "armor": 184,
+      "bonustrees": [
+        6108,
+        6017
+      ],
+      "classs": 4,
+      "displayName": "Chausses of Unbound Rancor",
+      "displayid": 739767,
+      "flags2": 8192,
+      "id": 271878,
+      "level": 219,
+      "name": "Chausses of Unbound Rancor",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 7,
+      "slotbak": 7,
+      "source": [
+        2
+      ],
+      "sourcemore": [
+        {
+          "z": 16915
+        }
+      ],
+      "specs": [
+        65,
+        1451,
+        66,
+        250,
+        251,
+        1455,
+        252,
+        70,
+        71,
+        72,
+        1446,
+        73
+      ],
+      "subclass": 4,
+      "bonuses": [
+        13663,
+        13708
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": -12,
+          "outof": 0
+        },
+        "14": {
+          "count": -2,
+          "outof": 0
+        },
+        "15": {
+          "count": -2,
+          "outof": 0
+        },
+        "16": {
+          "count": -2,
+          "outof": 0
+        },
+        "17": {
+          "count": -2,
+          "outof": 0
+        },
+        "220": {
+          "count": -2,
+          "outof": 0
+        },
+        "241": {
+          "count": -2,
+          "outof": 0
+        }
+      },
+      "count": -12,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": -12,
+              "outof": 0
+            },
+            "14": {
+              "count": -2,
+              "outof": 0
+            },
+            "15": {
+              "count": -2,
+              "outof": 0
+            },
+            "16": {
+              "count": -2,
+              "outof": 0
+            },
+            "17": {
+              "count": -2,
+              "outof": 0
+            },
+            "220": {
+              "count": -2,
+              "outof": 0
+            },
+            "241": {
+              "count": -2,
+              "outof": 0
+            }
+          }
+        }
+      },
+      "outof": 0
+    }
+  ],
+  "limitations": "NPC normal-loot metadata and spec eligibility;not the character-specific remaining bonus-roll preview."
+}

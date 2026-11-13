@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-12",
+  "url": "https://api.github.com/repos/simulationcraft/simc/commits?sha=midnight&per_page=8",
+  "commits": [
+    {
+      "sha": "de11f57df75dda668bae6ac7043a43b98831fa96",
+      "date": "2026-11-08T19:21:24Z",
+      "subject": "[DK] Fix some ready_trigger issues"
+    },
+    {
+      "sha": "5c5653a16913be4be0497c5438747a9bf75245d1",
+      "date": "2026-11-08T18:15:15Z",
+      "subject": "[DK] Fix Ghoul APL ordering"
+    },
+    {
+      "sha": "d38855b608bae1edc7a56db0f58f2ef9b2c48f18",
+      "date": "2026-11-05T18:15:49Z",
+      "subject": "[test] Game data update (Build 70740) (#11993)"
+    },
+    {
+      "sha": "c20e2ad52e4c33711f74272309a5748125175fe8",
+      "date": "2026-11-04T16:43:36Z",
+      "subject": "[live] Game data update (Build 70783) (#11992)"
+    },
+    {
+      "sha": "36e21fecf8e1eac46a121d2bd0d9d2879ba574e1",
+      "date": "2026-11-02T19:39:30Z",
+      "subject": "Update Generated Files ff0d07f"
+    },
+    {
+      "sha": "ff0d07f18de3646eed964b004c38d0484b7e6ac5",
+      "date": "2026-11-02T19:11:02Z",
+      "subject": "[dbc] attempted fix for non-MSVC compilers"
+    },
+    {
+      "sha": "5b3d96b674f1f4d5403d9dc6c5f34cd60577ca34",
+      "date": "2026-11-02T18:49:05Z",
+      "subject": "[gear] update wowv_t checks in unique_gear_midnight.cpp"
+    },
+    {
+      "sha": "f249a2835bb1628acd76b574da390b921d5c624d",
+      "date": "2026-11-02T18:48:31Z",
+      "subject": "[dbc] add consteval string-based wowv_t"
+    }
+  ]
+}

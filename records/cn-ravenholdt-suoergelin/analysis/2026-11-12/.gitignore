@@ -1,0 +1,11 @@
+# Duplicate native text reports and progress logs remain available locally.
+*.run.log
+*.txt
+*-reimport.log
+*-reimport.json
+
+# Keep every input and validation; omit only exploratory native raw JSON.
+full70783-*-2000-*.json
+!full70783-*-2000-*.validation.json
+
+# Final 6000-iteration results, static snapshots and identity JSON stay archived.

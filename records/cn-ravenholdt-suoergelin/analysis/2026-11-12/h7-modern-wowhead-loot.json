@@ -1,0 +1,2659 @@
+{
+  "source_url": "https://www.wowhead.com/npc=259854/hex-lord-malacrass",
+  "retrieved_at": "2026-11-12T18:05:52.900726+08:00",
+  "all_current_drops": [
+    {
+      "appearances": {
+        "0": [
+          733684,
+          ""
+        ],
+        "1": [
+          733686,
+          ""
+        ],
+        "3": [
+          733688,
+          ""
+        ],
+        "4": [
+          733689,
+          ""
+        ]
+      },
+      "bonustrees": [
+        6108
+      ],
+      "classs": 2,
+      "displayName": "Aman'muso, Warlord's Vengeance",
+      "displayid": 733684,
+      "dps": 36.69,
+      "flags2": 8192,
+      "id": 268209,
+      "level": 219,
+      "name": "Aman'muso, Warlord's Vengeance",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 21,
+      "slotbak": 21,
+      "source": [
+        2
+      ],
+      "specs": [
+        577,
+        255,
+        251,
+        260,
+        268,
+        581,
+        1450,
+        269,
+        263,
+        1451,
+        66,
+        1446,
+        73
+      ],
+      "speed": 2.6,
+      "subclass": 0,
+      "modes": {
+        "mode": [
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 106,
+          "outof": 1203
+        },
+        "15": {
+          "count": 74,
+          "outof": 854
+        },
+        "16": {
+          "count": 1,
+          "outof": 11
+        },
+        "17": {
+          "count": 24,
+          "outof": 217
+        }
+      },
+      "count": 106,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 106,
+              "outof": 1203
+            },
+            "15": {
+              "count": 74,
+              "outof": 854
+            },
+            "16": {
+              "count": 1,
+              "outof": 11
+            },
+            "17": {
+              "count": 24,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          732988,
+          ""
+        ],
+        "1": [
+          732989,
+          ""
+        ],
+        "3": [
+          732986,
+          ""
+        ],
+        "4": [
+          732985,
+          ""
+        ]
+      },
+      "bonustrees": [
+        6108
+      ],
+      "classs": 2,
+      "displayName": "Baleful Hexblade",
+      "displayid": 732988,
+      "dps": 18.42,
+      "flags2": 8704,
+      "id": 268211,
+      "level": 219,
+      "name": "Baleful Hexblade",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 13,
+      "slotbak": 13,
+      "source": [
+        2
+      ],
+      "specs": [
+        62,
+        63,
+        1451,
+        64,
+        270,
+        266,
+        65,
+        265,
+        267,
+        1454,
+        1465,
+        1467,
+        1468,
+        1473,
+        1480
+      ],
+      "speed": 2.6,
+      "subclass": 7,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 315,
+          "outof": 1203
+        },
+        "14": {
+          "count": 31,
+          "outof": 121
+        },
+        "15": {
+          "count": 210,
+          "outof": 854
+        },
+        "16": {
+          "count": 1,
+          "outof": 11
+        },
+        "17": {
+          "count": 73,
+          "outof": 217
+        }
+      },
+      "count": 315,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 315,
+              "outof": 1203
+            },
+            "14": {
+              "count": 31,
+              "outof": 121
+            },
+            "15": {
+              "count": 210,
+              "outof": 854
+            },
+            "16": {
+              "count": 1,
+              "outof": 11
+            },
+            "17": {
+              "count": 73,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          733580,
+          ""
+        ],
+        "1": [
+          747765,
+          ""
+        ],
+        "3": [
+          733584,
+          ""
+        ],
+        "4": [
+          733585,
+          ""
+        ]
+      },
+      "bonustrees": [
+        6108
+      ],
+      "classs": 2,
+      "displayName": "Maze-roa, Warlord's Fury",
+      "displayid": 733580,
+      "dps": 48.58,
+      "flags2": 8192,
+      "id": 268213,
+      "level": 219,
+      "name": "Maze-roa, Warlord's Fury",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 17,
+      "slotbak": 17,
+      "source": [
+        2
+      ],
+      "specs": [
+        71,
+        255,
+        250,
+        251,
+        252,
+        1455,
+        70,
+        72
+      ],
+      "speed": 3.6,
+      "subclass": 1,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          17
+        ],
+        "0": {
+          "count": 115,
+          "outof": 1203
+        },
+        "14": {
+          "count": 12,
+          "outof": 121
+        },
+        "15": {
+          "count": 74,
+          "outof": 854
+        },
+        "17": {
+          "count": 29,
+          "outof": 217
+        }
+      },
+      "count": 115,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 115,
+              "outof": 1203
+            },
+            "14": {
+              "count": 12,
+              "outof": 121
+            },
+            "15": {
+              "count": 74,
+              "outof": 854
+            },
+            "17": {
+              "count": 29,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          730396,
+          ""
+        ],
+        "1": [
+          730414,
+          ""
+        ],
+        "153": [
+          730423,
+          ""
+        ],
+        "154": [
+          730396,
+          ""
+        ],
+        "155": [
+          730414,
+          ""
+        ],
+        "156": [
+          730387,
+          ""
+        ],
+        "3": [
+          730387,
+          ""
+        ],
+        "4": [
+          730423,
+          ""
+        ]
+      },
+      "armor": 211,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Reckless Spirit Breastplate",
+      "displayid": 730396,
+      "flags2": 8192,
+      "id": 268222,
+      "level": 219,
+      "name": "Reckless Spirit Breastplate",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 5,
+      "slotbak": 5,
+      "source": [
+        2
+      ],
+      "specs": [
+        65,
+        1451,
+        66,
+        250,
+        251,
+        1455,
+        252,
+        70,
+        71,
+        72,
+        1446,
+        73
+      ],
+      "subclass": 4,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 321,
+          "outof": 1203
+        },
+        "14": {
+          "count": 35,
+          "outof": 121
+        },
+        "15": {
+          "count": 208,
+          "outof": 854
+        },
+        "16": {
+          "count": 4,
+          "outof": 11
+        },
+        "17": {
+          "count": 74,
+          "outof": 217
+        }
+      },
+      "count": 321,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 321,
+              "outof": 1203
+            },
+            "14": {
+              "count": 35,
+              "outof": 121
+            },
+            "15": {
+              "count": 208,
+              "outof": 854
+            },
+            "16": {
+              "count": 4,
+              "outof": 11
+            },
+            "17": {
+              "count": 74,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          730861,
+          ""
+        ],
+        "1": [
+          732709,
+          ""
+        ],
+        "153": [
+          730860,
+          ""
+        ],
+        "154": [
+          730861,
+          ""
+        ],
+        "155": [
+          732709,
+          ""
+        ],
+        "156": [
+          730858,
+          ""
+        ],
+        "3": [
+          730858,
+          ""
+        ],
+        "4": [
+          730860,
+          ""
+        ]
+      },
+      "armor": 83,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Coiled Hex Legguards",
+      "displayid": 730861,
+      "flags2": 8192,
+      "id": 268225,
+      "level": 219,
+      "name": "Coiled Hex Legguards",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 7,
+      "slotbak": 7,
+      "source": [
+        2
+      ],
+      "specs": [
+        102,
+        1447,
+        105,
+        270,
+        1450,
+        581,
+        268,
+        1456,
+        1480,
+        577,
+        103,
+        104,
+        269,
+        259,
+        1453,
+        260,
+        261
+      ],
+      "subclass": 2,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          17
+        ],
+        "0": {
+          "count": 276,
+          "outof": 1203
+        },
+        "14": {
+          "count": 27,
+          "outof": 121
+        },
+        "15": {
+          "count": 189,
+          "outof": 854
+        },
+        "17": {
+          "count": 60,
+          "outof": 217
+        }
+      },
+      "count": 276,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 276,
+              "outof": 1203
+            },
+            "14": {
+              "count": 27,
+              "outof": 121
+            },
+            "15": {
+              "count": 189,
+              "outof": 854
+            },
+            "17": {
+              "count": 60,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          749465,
+          ""
+        ],
+        "1": [
+          749459,
+          ""
+        ],
+        "153": [
+          749462,
+          ""
+        ],
+        "154": [
+          749470,
+          ""
+        ],
+        "155": [
+          749460,
+          ""
+        ],
+        "156": [
+          749467,
+          ""
+        ],
+        "3": [
+          749466,
+          ""
+        ],
+        "4": [
+          749461,
+          ""
+        ]
+      },
+      "armor": 105,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Soulslither Spaulders",
+      "displayid": 749465,
+      "flags2": 8192,
+      "id": 268231,
+      "level": 219,
+      "name": "Soulslither Spaulders",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 3,
+      "slotbak": 3,
+      "source": [
+        2
+      ],
+      "specs": [
+        253,
+        262,
+        1468,
+        1444,
+        264,
+        1473,
+        1465,
+        1467,
+        1448,
+        254,
+        255,
+        263
+      ],
+      "subclass": 3,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 298,
+          "outof": 1203
+        },
+        "14": {
+          "count": 25,
+          "outof": 121
+        },
+        "15": {
+          "count": 185,
+          "outof": 854
+        },
+        "16": {
+          "count": 3,
+          "outof": 11
+        },
+        "17": {
+          "count": 85,
+          "outof": 217
+        }
+      },
+      "count": 298,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 298,
+              "outof": 1203
+            },
+            "14": {
+              "count": 25,
+              "outof": 121
+            },
+            "15": {
+              "count": 185,
+              "outof": 854
+            },
+            "16": {
+              "count": 3,
+              "outof": 11
+            },
+            "17": {
+              "count": 85,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          739524,
+          ""
+        ],
+        "1": [
+          739542,
+          ""
+        ],
+        "153": [
+          739551,
+          ""
+        ],
+        "154": [
+          739524,
+          ""
+        ],
+        "155": [
+          739542,
+          ""
+        ],
+        "156": [
+          739560,
+          ""
+        ],
+        "3": [
+          739560,
+          ""
+        ],
+        "4": [
+          739551,
+          ""
+        ]
+      },
+      "armor": 123,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Cuisses of the Uncoiled Union",
+      "displayid": 739524,
+      "flags2": 8192,
+      "id": 268237,
+      "level": 219,
+      "name": "Cuisses of the Uncoiled Union",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 7,
+      "slotbak": 7,
+      "source": [
+        2
+      ],
+      "specs": [
+        253,
+        262,
+        1468,
+        1444,
+        264,
+        1473,
+        1465,
+        1467,
+        1448,
+        254,
+        255,
+        263
+      ],
+      "subclass": 3,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 319,
+          "outof": 1203
+        },
+        "14": {
+          "count": 26,
+          "outof": 121
+        },
+        "15": {
+          "count": 217,
+          "outof": 854
+        },
+        "16": {
+          "count": 1,
+          "outof": 11
+        },
+        "17": {
+          "count": 75,
+          "outof": 217
+        }
+      },
+      "count": 319,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 319,
+              "outof": 1203
+            },
+            "14": {
+              "count": 26,
+              "outof": 121
+            },
+            "15": {
+              "count": 217,
+              "outof": 854
+            },
+            "16": {
+              "count": 1,
+              "outof": 11
+            },
+            "17": {
+              "count": 75,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          731947,
+          ""
+        ],
+        "1": [
+          731956,
+          ""
+        ],
+        "153": [
+          731938,
+          ""
+        ],
+        "154": [
+          731947,
+          ""
+        ],
+        "155": [
+          731956,
+          ""
+        ],
+        "156": [
+          731965,
+          ""
+        ],
+        "3": [
+          731965,
+          ""
+        ],
+        "4": [
+          731938,
+          ""
+        ]
+      },
+      "armor": 35,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Grasps of the Eternal Shadow",
+      "displayid": 731947,
+      "flags2": 8192,
+      "id": 268243,
+      "level": 219,
+      "name": "Grasps of the Eternal Shadow",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 10,
+      "slotbak": 10,
+      "source": [
+        2
+      ],
+      "specs": [
+        62,
+        1449,
+        1452,
+        256,
+        63,
+        64,
+        265,
+        257,
+        258,
+        266,
+        267,
+        1454
+      ],
+      "subclass": 1,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 328,
+          "outof": 1203
+        },
+        "14": {
+          "count": 29,
+          "outof": 121
+        },
+        "15": {
+          "count": 219,
+          "outof": 854
+        },
+        "16": {
+          "count": 2,
+          "outof": 11
+        },
+        "17": {
+          "count": 78,
+          "outof": 217
+        }
+      },
+      "count": 328,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 328,
+              "outof": 1203
+            },
+            "14": {
+              "count": 29,
+              "outof": 121
+            },
+            "15": {
+              "count": 219,
+              "outof": 854
+            },
+            "16": {
+              "count": 2,
+              "outof": 11
+            },
+            "17": {
+              "count": 78,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          734333,
+          ""
+        ],
+        "1": [
+          734360,
+          ""
+        ],
+        "153": [
+          734315,
+          ""
+        ],
+        "154": [
+          734333,
+          ""
+        ],
+        "155": [
+          734360,
+          ""
+        ],
+        "156": [
+          734324,
+          ""
+        ],
+        "3": [
+          734324,
+          ""
+        ],
+        "4": [
+          734315,
+          ""
+        ]
+      },
+      "armor": 28,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Silken Voodoo Drape",
+      "displayid": 734333,
+      "flags2": 8192,
+      "id": 268253,
+      "level": 219,
+      "name": "Silken Voodoo Drape",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 16,
+      "slotbak": 16,
+      "source": [
+        2
+      ],
+      "specs": [
+        261,
+        254,
+        62,
+        1449,
+        102,
+        1447,
+        105,
+        255,
+        577,
+        63,
+        64,
+        270,
+        262,
+        1450,
+        65,
+        1451,
+        256,
+        250,
+        257,
+        1452,
+        73,
+        258,
+        264,
+        1444,
+        66,
+        265,
+        1446,
+        266,
+        267,
+        1454,
+        1465,
+        1467,
+        1468,
+        1473,
+        1480,
+        268,
+        1456,
+        581,
+        103,
+        104,
+        253,
+        260,
+        1448,
+        70,
+        269,
+        259,
+        1453,
+        263,
+        251,
+        252,
+        1455,
+        71,
+        72
+      ],
+      "subclass": -6,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 325,
+          "outof": 1203
+        },
+        "14": {
+          "count": 23,
+          "outof": 121
+        },
+        "15": {
+          "count": 221,
+          "outof": 854
+        },
+        "16": {
+          "count": 1,
+          "outof": 11
+        },
+        "17": {
+          "count": 80,
+          "outof": 217
+        }
+      },
+      "count": 325,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 325,
+              "outof": 1203
+            },
+            "14": {
+              "count": 23,
+              "outof": 121
+            },
+            "15": {
+              "count": 221,
+              "outof": 854
+            },
+            "16": {
+              "count": 1,
+              "outof": 11
+            },
+            "17": {
+              "count": 80,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          743375,
+          ""
+        ],
+        "1": [
+          743420,
+          ""
+        ],
+        "153": [
+          743393,
+          ""
+        ],
+        "154": [
+          743375,
+          ""
+        ],
+        "155": [
+          743420,
+          ""
+        ],
+        "156": [
+          743411,
+          ""
+        ],
+        "3": [
+          743411,
+          ""
+        ],
+        "4": [
+          743393,
+          ""
+        ]
+      },
+      "armor": 38,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Cackling Soultreads",
+      "displayid": 743375,
+      "flags2": 8192,
+      "id": 268255,
+      "level": 219,
+      "name": "Cackling Soultreads",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 8,
+      "slotbak": 8,
+      "source": [
+        2
+      ],
+      "specs": [
+        62,
+        1449,
+        1452,
+        256,
+        63,
+        64,
+        265,
+        257,
+        258,
+        266,
+        267,
+        1454
+      ],
+      "subclass": 1,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 292,
+          "outof": 1203
+        },
+        "14": {
+          "count": 24,
+          "outof": 121
+        },
+        "15": {
+          "count": 197,
+          "outof": 854
+        },
+        "16": {
+          "count": 2,
+          "outof": 11
+        },
+        "17": {
+          "count": 69,
+          "outof": 217
+        }
+      },
+      "count": 292,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 292,
+              "outof": 1203
+            },
+            "14": {
+              "count": 24,
+              "outof": 121
+            },
+            "15": {
+              "count": 197,
+              "outof": 854
+            },
+            "16": {
+              "count": 2,
+              "outof": 11
+            },
+            "17": {
+              "count": 69,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          744239,
+          ""
+        ],
+        "1": [
+          744230,
+          ""
+        ],
+        "153": [
+          744275,
+          ""
+        ],
+        "154": [
+          744239,
+          ""
+        ],
+        "155": [
+          744230,
+          ""
+        ],
+        "156": [
+          744257,
+          ""
+        ],
+        "3": [
+          744257,
+          ""
+        ],
+        "4": [
+          744275,
+          ""
+        ]
+      },
+      "armor": 53,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Sash of the Forlorn Vessel",
+      "displayid": 744239,
+      "flags2": 8192,
+      "id": 268256,
+      "level": 219,
+      "name": "Sash of the Forlorn Vessel",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 6,
+      "slotbak": 6,
+      "source": [
+        2
+      ],
+      "specs": [
+        102,
+        1447,
+        105,
+        270,
+        1450,
+        581,
+        268,
+        1456,
+        1480,
+        577,
+        103,
+        104,
+        269,
+        259,
+        1453,
+        260,
+        261
+      ],
+      "subclass": 2,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 262,
+          "outof": 1203
+        },
+        "14": {
+          "count": 24,
+          "outof": 121
+        },
+        "15": {
+          "count": 179,
+          "outof": 854
+        },
+        "16": {
+          "count": 1,
+          "outof": 11
+        },
+        "17": {
+          "count": 58,
+          "outof": 217
+        }
+      },
+      "count": 262,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 262,
+              "outof": 1203
+            },
+            "14": {
+              "count": 24,
+              "outof": 121
+            },
+            "15": {
+              "count": 179,
+              "outof": 854
+            },
+            "16": {
+              "count": 1,
+              "outof": 11
+            },
+            "17": {
+              "count": 58,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          743288,
+          ""
+        ],
+        "1": [
+          743293,
+          ""
+        ],
+        "153": [
+          743289,
+          ""
+        ],
+        "154": [
+          743288,
+          ""
+        ],
+        "155": [
+          743293,
+          ""
+        ],
+        "156": [
+          743290,
+          ""
+        ],
+        "3": [
+          743290,
+          ""
+        ],
+        "4": [
+          743289,
+          ""
+        ]
+      },
+      "armor": 119,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Girdle of Toxic Regret",
+      "displayid": 743288,
+      "flags2": 8192,
+      "id": 268259,
+      "level": 219,
+      "name": "Girdle of Toxic Regret",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 6,
+      "slotbak": 6,
+      "source": [
+        2
+      ],
+      "specs": [
+        65,
+        1451,
+        66,
+        250,
+        251,
+        1455,
+        252,
+        70,
+        71,
+        72,
+        1446,
+        73
+      ],
+      "subclass": 4,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 307,
+          "outof": 1203
+        },
+        "14": {
+          "count": 26,
+          "outof": 121
+        },
+        "15": {
+          "count": 206,
+          "outof": 854
+        },
+        "16": {
+          "count": 6,
+          "outof": 11
+        },
+        "17": {
+          "count": 69,
+          "outof": 217
+        }
+      },
+      "count": 307,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 307,
+              "outof": 1203
+            },
+            "14": {
+              "count": 26,
+              "outof": 121
+            },
+            "15": {
+              "count": 206,
+              "outof": 854
+            },
+            "16": {
+              "count": 6,
+              "outof": 11
+            },
+            "17": {
+              "count": 69,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "armor": 0,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Hex Lord's Dooming Idol",
+      "flags2": 8192,
+      "id": 270169,
+      "level": 219,
+      "name": "Hex Lord's Dooming Idol",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 12,
+      "slotbak": 12,
+      "source": [
+        2
+      ],
+      "subclass": -4,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 304,
+          "outof": 1203
+        },
+        "14": {
+          "count": 22,
+          "outof": 121
+        },
+        "15": {
+          "count": 202,
+          "outof": 854
+        },
+        "16": {
+          "count": 3,
+          "outof": 11
+        },
+        "17": {
+          "count": 77,
+          "outof": 217
+        }
+      },
+      "count": 304,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 304,
+              "outof": 1203
+            },
+            "14": {
+              "count": 22,
+              "outof": 121
+            },
+            "15": {
+              "count": 202,
+              "outof": 854
+            },
+            "16": {
+              "count": 3,
+              "outof": 11
+            },
+            "17": {
+              "count": 77,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "armor": 0,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Zul'jin's Guillotine Technique",
+      "flags2": 8192,
+      "id": 270173,
+      "level": 219,
+      "name": "Zul'jin's Guillotine Technique",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 12,
+      "slotbak": 12,
+      "source": [
+        2
+      ],
+      "specs": [
+        103,
+        255,
+        577,
+        260,
+        1448,
+        581,
+        268,
+        1456,
+        104,
+        1447,
+        253,
+        261,
+        254,
+        1450,
+        70,
+        269,
+        259,
+        1453,
+        263,
+        1444,
+        250,
+        251,
+        252,
+        1455,
+        1451,
+        66,
+        71,
+        72,
+        1446,
+        73
+      ],
+      "subclass": -4,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 331,
+          "outof": 1203
+        },
+        "14": {
+          "count": 25,
+          "outof": 121
+        },
+        "15": {
+          "count": 225,
+          "outof": 854
+        },
+        "16": {
+          "count": 2,
+          "outof": 11
+        },
+        "17": {
+          "count": 79,
+          "outof": 217
+        }
+      },
+      "count": 331,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 331,
+              "outof": 1203
+            },
+            "14": {
+              "count": 25,
+              "outof": 121
+            },
+            "15": {
+              "count": 225,
+              "outof": 854
+            },
+            "16": {
+              "count": 2,
+              "outof": 11
+            },
+            "17": {
+              "count": 79,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "classs": 20,
+      "displayName": "Pillar of the Coiled Isle",
+      "flags2": 139264,
+      "id": 279131,
+      "level": 1,
+      "name": "Pillar of the Coiled Isle",
+      "namedesc": "Housing Decor",
+      "quality": 3,
+      "slot": 0,
+      "source": [
+        2
+      ],
+      "subclass": 0,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 168,
+          "outof": 1203
+        },
+        "14": {
+          "count": 15,
+          "outof": 121
+        },
+        "15": {
+          "count": 113,
+          "outof": 854
+        },
+        "16": {
+          "count": 1,
+          "outof": 11
+        },
+        "17": {
+          "count": 39,
+          "outof": 217
+        }
+      },
+      "count": 168,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 168,
+              "outof": 1203
+            },
+            "14": {
+              "count": 15,
+              "outof": 121
+            },
+            "15": {
+              "count": 113,
+              "outof": 854
+            },
+            "16": {
+              "count": 1,
+              "outof": 11
+            },
+            "17": {
+              "count": 39,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    }
+  ],
+  "explicit_arms_specs": [
+    {
+      "appearances": {
+        "0": [
+          733580,
+          ""
+        ],
+        "1": [
+          747765,
+          ""
+        ],
+        "3": [
+          733584,
+          ""
+        ],
+        "4": [
+          733585,
+          ""
+        ]
+      },
+      "bonustrees": [
+        6108
+      ],
+      "classs": 2,
+      "displayName": "Maze-roa, Warlord's Fury",
+      "displayid": 733580,
+      "dps": 48.58,
+      "flags2": 8192,
+      "id": 268213,
+      "level": 219,
+      "name": "Maze-roa, Warlord's Fury",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 17,
+      "slotbak": 17,
+      "source": [
+        2
+      ],
+      "specs": [
+        71,
+        255,
+        250,
+        251,
+        252,
+        1455,
+        70,
+        72
+      ],
+      "speed": 3.6,
+      "subclass": 1,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          17
+        ],
+        "0": {
+          "count": 115,
+          "outof": 1203
+        },
+        "14": {
+          "count": 12,
+          "outof": 121
+        },
+        "15": {
+          "count": 74,
+          "outof": 854
+        },
+        "17": {
+          "count": 29,
+          "outof": 217
+        }
+      },
+      "count": 115,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 115,
+              "outof": 1203
+            },
+            "14": {
+              "count": 12,
+              "outof": 121
+            },
+            "15": {
+              "count": 74,
+              "outof": 854
+            },
+            "17": {
+              "count": 29,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          730396,
+          ""
+        ],
+        "1": [
+          730414,
+          ""
+        ],
+        "153": [
+          730423,
+          ""
+        ],
+        "154": [
+          730396,
+          ""
+        ],
+        "155": [
+          730414,
+          ""
+        ],
+        "156": [
+          730387,
+          ""
+        ],
+        "3": [
+          730387,
+          ""
+        ],
+        "4": [
+          730423,
+          ""
+        ]
+      },
+      "armor": 211,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Reckless Spirit Breastplate",
+      "displayid": 730396,
+      "flags2": 8192,
+      "id": 268222,
+      "level": 219,
+      "name": "Reckless Spirit Breastplate",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 5,
+      "slotbak": 5,
+      "source": [
+        2
+      ],
+      "specs": [
+        65,
+        1451,
+        66,
+        250,
+        251,
+        1455,
+        252,
+        70,
+        71,
+        72,
+        1446,
+        73
+      ],
+      "subclass": 4,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 321,
+          "outof": 1203
+        },
+        "14": {
+          "count": 35,
+          "outof": 121
+        },
+        "15": {
+          "count": 208,
+          "outof": 854
+        },
+        "16": {
+          "count": 4,
+          "outof": 11
+        },
+        "17": {
+          "count": 74,
+          "outof": 217
+        }
+      },
+      "count": 321,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 321,
+              "outof": 1203
+            },
+            "14": {
+              "count": 35,
+              "outof": 121
+            },
+            "15": {
+              "count": 208,
+              "outof": 854
+            },
+            "16": {
+              "count": 4,
+              "outof": 11
+            },
+            "17": {
+              "count": 74,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          734333,
+          ""
+        ],
+        "1": [
+          734360,
+          ""
+        ],
+        "153": [
+          734315,
+          ""
+        ],
+        "154": [
+          734333,
+          ""
+        ],
+        "155": [
+          734360,
+          ""
+        ],
+        "156": [
+          734324,
+          ""
+        ],
+        "3": [
+          734324,
+          ""
+        ],
+        "4": [
+          734315,
+          ""
+        ]
+      },
+      "armor": 28,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Silken Voodoo Drape",
+      "displayid": 734333,
+      "flags2": 8192,
+      "id": 268253,
+      "level": 219,
+      "name": "Silken Voodoo Drape",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 16,
+      "slotbak": 16,
+      "source": [
+        2
+      ],
+      "specs": [
+        261,
+        254,
+        62,
+        1449,
+        102,
+        1447,
+        105,
+        255,
+        577,
+        63,
+        64,
+        270,
+        262,
+        1450,
+        65,
+        1451,
+        256,
+        250,
+        257,
+        1452,
+        73,
+        258,
+        264,
+        1444,
+        66,
+        265,
+        1446,
+        266,
+        267,
+        1454,
+        1465,
+        1467,
+        1468,
+        1473,
+        1480,
+        268,
+        1456,
+        581,
+        103,
+        104,
+        253,
+        260,
+        1448,
+        70,
+        269,
+        259,
+        1453,
+        263,
+        251,
+        252,
+        1455,
+        71,
+        72
+      ],
+      "subclass": -6,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 325,
+          "outof": 1203
+        },
+        "14": {
+          "count": 23,
+          "outof": 121
+        },
+        "15": {
+          "count": 221,
+          "outof": 854
+        },
+        "16": {
+          "count": 1,
+          "outof": 11
+        },
+        "17": {
+          "count": 80,
+          "outof": 217
+        }
+      },
+      "count": 325,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 325,
+              "outof": 1203
+            },
+            "14": {
+              "count": 23,
+              "outof": 121
+            },
+            "15": {
+              "count": 221,
+              "outof": 854
+            },
+            "16": {
+              "count": 1,
+              "outof": 11
+            },
+            "17": {
+              "count": 80,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "appearances": {
+        "0": [
+          743288,
+          ""
+        ],
+        "1": [
+          743293,
+          ""
+        ],
+        "153": [
+          743289,
+          ""
+        ],
+        "154": [
+          743288,
+          ""
+        ],
+        "155": [
+          743293,
+          ""
+        ],
+        "156": [
+          743290,
+          ""
+        ],
+        "3": [
+          743290,
+          ""
+        ],
+        "4": [
+          743289,
+          ""
+        ]
+      },
+      "armor": 119,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Girdle of Toxic Regret",
+      "displayid": 743288,
+      "flags2": 8192,
+      "id": 268259,
+      "level": 219,
+      "name": "Girdle of Toxic Regret",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 6,
+      "slotbak": 6,
+      "source": [
+        2
+      ],
+      "specs": [
+        65,
+        1451,
+        66,
+        250,
+        251,
+        1455,
+        252,
+        70,
+        71,
+        72,
+        1446,
+        73
+      ],
+      "subclass": 4,
+      "bonuses": [
+        13663
+      ],
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 307,
+          "outof": 1203
+        },
+        "14": {
+          "count": 26,
+          "outof": 121
+        },
+        "15": {
+          "count": 206,
+          "outof": 854
+        },
+        "16": {
+          "count": 6,
+          "outof": 11
+        },
+        "17": {
+          "count": 69,
+          "outof": 217
+        }
+      },
+      "count": 307,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 307,
+              "outof": 1203
+            },
+            "14": {
+              "count": 26,
+              "outof": 121
+            },
+            "15": {
+              "count": 206,
+              "outof": 854
+            },
+            "16": {
+              "count": 6,
+              "outof": 11
+            },
+            "17": {
+              "count": 69,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "armor": 0,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Zul'jin's Guillotine Technique",
+      "flags2": 8192,
+      "id": 270173,
+      "level": 219,
+      "name": "Zul'jin's Guillotine Technique",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 12,
+      "slotbak": 12,
+      "source": [
+        2
+      ],
+      "specs": [
+        103,
+        255,
+        577,
+        260,
+        1448,
+        581,
+        268,
+        1456,
+        104,
+        1447,
+        253,
+        261,
+        254,
+        1450,
+        70,
+        269,
+        259,
+        1453,
+        263,
+        1444,
+        250,
+        251,
+        252,
+        1455,
+        1451,
+        66,
+        71,
+        72,
+        1446,
+        73
+      ],
+      "subclass": -4,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 331,
+          "outof": 1203
+        },
+        "14": {
+          "count": 25,
+          "outof": 121
+        },
+        "15": {
+          "count": 225,
+          "outof": 854
+        },
+        "16": {
+          "count": 2,
+          "outof": 11
+        },
+        "17": {
+          "count": 79,
+          "outof": 217
+        }
+      },
+      "count": 331,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 331,
+              "outof": 1203
+            },
+            "14": {
+              "count": 25,
+              "outof": 121
+            },
+            "15": {
+              "count": 225,
+              "outof": 854
+            },
+            "16": {
+              "count": 2,
+              "outof": 11
+            },
+            "17": {
+              "count": 79,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    }
+  ],
+  "missing_specs": [
+    {
+      "armor": 0,
+      "bonustrees": [
+        6108
+      ],
+      "classs": 4,
+      "displayName": "Hex Lord's Dooming Idol",
+      "flags2": 8192,
+      "id": 270169,
+      "level": 219,
+      "name": "Hex Lord's Dooming Idol",
+      "quality": 4,
+      "reqlevel": 90,
+      "slot": 12,
+      "slotbak": 12,
+      "source": [
+        2
+      ],
+      "subclass": -4,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 304,
+          "outof": 1203
+        },
+        "14": {
+          "count": 22,
+          "outof": 121
+        },
+        "15": {
+          "count": 202,
+          "outof": 854
+        },
+        "16": {
+          "count": 3,
+          "outof": 11
+        },
+        "17": {
+          "count": 77,
+          "outof": 217
+        }
+      },
+      "count": 304,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 304,
+              "outof": 1203
+            },
+            "14": {
+              "count": 22,
+              "outof": 121
+            },
+            "15": {
+              "count": 202,
+              "outof": 854
+            },
+            "16": {
+              "count": 3,
+              "outof": 11
+            },
+            "17": {
+              "count": 77,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    },
+    {
+      "classs": 20,
+      "displayName": "Pillar of the Coiled Isle",
+      "flags2": 139264,
+      "id": 279131,
+      "level": 1,
+      "name": "Pillar of the Coiled Isle",
+      "namedesc": "Housing Decor",
+      "quality": 3,
+      "slot": 0,
+      "source": [
+        2
+      ],
+      "subclass": 0,
+      "modes": {
+        "mode": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "0": {
+          "count": 168,
+          "outof": 1203
+        },
+        "14": {
+          "count": 15,
+          "outof": 121
+        },
+        "15": {
+          "count": 113,
+          "outof": 854
+        },
+        "16": {
+          "count": 1,
+          "outof": 11
+        },
+        "17": {
+          "count": 39,
+          "outof": 217
+        }
+      },
+      "count": 168,
+      "stack": [
+        1,
+        1
+      ],
+      "specificDrop": true,
+      "itemSeasonPhaseData": {
+        "0": {
+          "0": {
+            "0": {
+              "count": 168,
+              "outof": 1203
+            },
+            "14": {
+              "count": 15,
+              "outof": 121
+            },
+            "15": {
+              "count": 113,
+              "outof": 854
+            },
+            "16": {
+              "count": 1,
+              "outof": 11
+            },
+            "17": {
+              "count": 39,
+              "outof": 217
+            }
+          }
+        }
+      },
+      "outof": 1203
+    }
+  ],
+  "limitations": "Normal-loot spec metadata plus universal/missing-spec items;current character remaining bonus-roll UI still unverified."
+}

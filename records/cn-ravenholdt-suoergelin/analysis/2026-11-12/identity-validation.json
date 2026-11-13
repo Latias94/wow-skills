@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-12T18:12:21.650642+08:00",
+  "native_build": "12.1.5.70783",
+  "source_commit": "de11f57df75dda668bae6ac7043a43b98831fa96",
+  "hero_tree": "Slayer",
+  "hero_evidence": "SlayerStrike19 samples,106 total executes",
+  "single_target_valid": true,
+  "dungeon_slice_valid": true,
+  "current_tier_pieces": 4,
+  "lining_instances": 2,
+  "personal_dps_ranking_published": false,
+  "user_panel_stats_verified": false,
+  "omnium_supplied": false,
+  "catalyst_predecessors_supplied": false,
+  "source_freshness": "source-freshness.json",
+  "scope": "Short native identity only;raw default tier stats are provisional."
+}

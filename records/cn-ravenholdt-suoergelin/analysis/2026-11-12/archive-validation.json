@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-13T16:55:32.351774+08:00",
+  "scope": "Archive preparation within records/cn-ravenholdt-suoergelin only; existing reports, scientific conclusions and character resources preserved.",
+  "checks": {
+    "original_files": {
+      "count": 480,
+      "unchanged_sha256": 480,
+      "modified": 0,
+      "deleted": 0
+    },
+    "json_syntax": {
+      "files_checked_before_this_artifact": 202,
+      "passed": true
+    },
+    "python_syntax": {
+      "files_checked": 4,
+      "passed": true,
+      "files": [
+        "analysis/2026-11-12/personal-study.py",
+        "analysis/2026-11-12/build-report.py",
+        "analysis/2026-11-12/build-full-report.py",
+        "../cn-barrens-shaseng/analysis/2026-10-29/build-report.py"
+      ],
+      "execution": "compile only; no historical builder or simulation runner executed"
+    },
+    "native_validation_reconciliation": {
+      "runs": 83,
+      "screening_2000": 39,
+      "final_6000": 39,
+      "static_20": 5,
+      "accepted": 83,
+      "severe_diagnostics": 0,
+      "fields_matched": [
+        "DPS mean",
+        "sample count",
+        "95% confidence half-width",
+        "valid fight style",
+        "native gear",
+        "native buffed_stats",
+        "diagnostics",
+        "requested input iterations",
+        "seed"
+      ],
+      "combined_all_runs_match": true,
+      "finalists": 13,
+      "models": 3
+    },
+    "export_reimports": {
+      "count": 4,
+      "gear_matches_original_final_result": true,
+      "valid_fight_styles": true,
+      "evidence": "full-export-validation.json and compact native observations in screening-summary.json"
+    },
+    "report_rendering": {
+      "method": "Shared renderer imported with bytecode writes disabled; archived data and historical target-table insertions rendered in memory. No outputs written.",
+      "results": [
+        {
+          "report": "report.html",
+          "matches_after_universal_newlines": true
+        },
+        {
+          "report": "full-report.html",
+          "matches_after_universal_newlines": true
+        }
+      ]
+    },
+    "download_links": {
+      "count": 16,
+      "all_exist": true,
+      "all_selected_for_archive": true,
+      "data_and_html_download_lists_match": true
+    },
+    "git_byte_preservation": {
+      "files_checked_before_this_artifact": 267,
+      "passed": true,
+      "method": "git hash-object --stdin-paths without -w matched raw Git blob SHA-1 for every selected file; no index or object writes"
+    },
+    "new_file_whitespace": {
+      "files_checked": [
+        "records/cn-ravenholdt-suoergelin/.gitattributes",
+        "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/README.md",
+        "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/.gitignore",
+        "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/build-report.py",
+        "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/build-full-report.py",
+        "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/full-report-icons.json",
+        "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/screening-summary.json"
+      ],
+      "passed": true,
+      "method": "git diff --no-index --check against NUL; one terminal newline and no extra EOF blank lines"
+    },
+    "raw_source_html_whitespace": {
+      "files": [
+        "h7-chest-wowhead-source.html",
+        "h7-wowhead-source.html",
+        "h8-wowhead-source.html"
+      ],
+      "original_trailing_space_lines": 11,
+      "bytes_preserved": true,
+      "scoped_exception": "*-wowhead-source.html whitespace=-blank-at-eol,cr-at-eol",
+      "checks_passed": true
+    }
+  },
+  "archive_selection": {
+    "files_including_this_artifact": 268,
+    "simulation_inputs": 91,
+    "run_validations": 83,
+    "final_native_json": 39,
+    "static_native_json": 5,
+    "identity_native_json": 3,
+    "ignored_files": 220,
+    "ignored_bytes": 32617511,
+    "ignored_categories": {
+      "export_reimport_raw_json": 4,
+      "screening_raw_json": 39,
+      "progress_log": 87,
+      "duplicate_text": 90
+    },
+    "ignored_files_remain_on_disk": true
+  },
+  "preserved_character_state": [
+    {
+      "path": "records/cn-ravenholdt-suoergelin/profile.json",
+      "bytes": 2336,
+      "sha256": "cb9fe37030f18f4e6e7da75d17050a23e76e31852777342e0a52ff1629a7d36d"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/snapshots/2026-11-12-1829.items.json",
+      "bytes": 19461,
+      "sha256": "a1a95faab79f00d218c994a57b486e270cd728b1a61e9474083cbf260f322748"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/snapshots/2026-11-12-1829.simc",
+      "bytes": 8238,
+      "sha256": "34e5e588fb1fc2880af4d477272d1998d768d9bde2cdfb8704ca5f2f8312a0c1"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/snapshots/2026-11-12-wcl.items.json",
+      "bytes": 8750,
+      "sha256": "c42ef3eeacde70a80c6f515343488f5e681bcd484f03c9421bfa00ccc50dc5d4"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/snapshots/2026-11-12-wcl.simc",
+      "bytes": 1325,
+      "sha256": "7b21cddfa45303287e7513da5c964557637487bc6e964e3468cd60c78d3d8d9f"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/weeks/2026-11-12.json",
+      "bytes": 7850,
+      "sha256": "11f03234edbd37c39aaf0c3589fd2b30b2efba1db3c34f3992e14a74bfc184fe"
+    }
+  ],
+  "native_provenance": {
+    "live_build": "12.1.5.70783",
+    "source_commit": "de11f57df75dda668bae6ac7043a43b98831fa96",
+    "current_source_commit_matches": true,
+    "engine_sha256": "57c6858151630ea8e70b8f714d18c94a172aaf0e2bad5699d9bf5cf613674160",
+    "current_executable_sha256_matches": true,
+    "full_export_sha256": "34e5e588fb1fc2880af4d477272d1998d768d9bde2cdfb8704ca5f2f8312a0c1",
+    "manifest_raw_sha256_matches": true,
+    "source_and_executable_archived": false
+  },
+  "generator_provenance": {
+    "initial": {
+      "source": ".local/build-arms-report-20261112.py",
+      "archived": "build-report.py",
+      "source_sha256": "9229f00558a77922c23e8edfb4b8e487250020dbd027aae617571f45e7456f79",
+      "archived_sha256": "9229f00558a77922c23e8edfb4b8e487250020dbd027aae617571f45e7456f79",
+      "byte_identical": true
+    },
+    "full": {
+      "source": ".local/build-arms-full-report-20261112.py",
+      "archived": "build-full-report.py",
+      "source_sha256": "d6d53398720e973ba99219598f2bf675774000ceaeb5abcce2934f0b8040f7f0",
+      "archived_sha256": "11ba11577743288c2b332b23ff17c91f1d4f798fd211352fd5edd1be62efa501",
+      "only_change": "icons.update now reads HERE/'full-report-icons.json' instead of the cross-character 2026-11-10 item-icons.json"
+    },
+    "icons": {
+      "source": "records/cn-barrens-shaseng/analysis/2026-11-10/item-icons.json",
+      "archived": "full-report-icons.json",
+      "source_sha256": "e3620f65f10e89d1054c3d24bfc5f489acd104069aed24430e51b23b73182d7d",
+      "archived_sha256": "e3620f65f10e89d1054c3d24bfc5f489acd104069aed24430e51b23b73182d7d",
+      "byte_identical": true
+    }
+  },
+  "external_report_dependency": {
+    "path": "records/cn-barrens-shaseng/analysis/2026-10-29/build-report.py",
+    "sha256": "0c66e6ba6a63a09993fbd028a29d666e169b717b77715e82cfc7f96bf75998b8",
+    "available": true,
+    "tracked_or_staged_at_check": false,
+    "commit_requirement": "Main thread is archiving this renderer; include it in the coordinated commit. No other character directory is needed by these archived report builders."
+  },
+  "reports": [
+    {
+      "report": "report.html",
+      "sha256": "9717b86fd9046956a61804614a22452bb7a8d045728e59e0ad8ed27bdd79ffba",
+      "data": "report-data.json",
+      "data_sha256": "9a171fc0a1a9f11568fa9464d29f81a39d05f0b4decfe3568a4e9d821d5f2c8e",
+      "local_links": [
+        {
+          "url": "../../snapshots/2026-11-12-wcl.simc",
+          "file": "records/cn-ravenholdt-suoergelin/snapshots/2026-11-12-wcl.simc",
+          "download": true,
+          "sha256": "7b21cddfa45303287e7513da5c964557637487bc6e964e3468cd60c78d3d8d9f"
+        },
+        {
+          "url": "../../snapshots/2026-11-12-wcl.items.json",
+          "file": "records/cn-ravenholdt-suoergelin/snapshots/2026-11-12-wcl.items.json",
+          "download": true,
+          "sha256": "c42ef3eeacde70a80c6f515343488f5e681bcd484f03c9421bfa00ccc50dc5d4"
+        },
+        {
+          "url": "elite-evidence.json",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/elite-evidence.json",
+          "download": true,
+          "sha256": "39c2f8b7511abb26bb74fc7aef421eb15e4af6653683962efe9e5f85b8cb8c03"
+        },
+        {
+          "url": "target-slot-map.json",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/target-slot-map.json",
+          "download": true,
+          "sha256": "bd75bc486f3af8d648d7ded2e4a1edee66fbe632f9a531a1227a3c1dc198d624"
+        },
+        {
+          "url": "roll-pools.json",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/roll-pools.json",
+          "download": true,
+          "sha256": "cfa2ae8f1c5d77fd2aee3d316352f4d66f2a1092cfdc219ce412021a3df215cb"
+        },
+        {
+          "url": "../../weeks/2026-11-12.json",
+          "file": "records/cn-ravenholdt-suoergelin/weeks/2026-11-12.json",
+          "download": true,
+          "sha256": "11f03234edbd37c39aaf0c3589fd2b30b2efba1db3c34f3992e14a74bfc184fe"
+        }
+      ],
+      "remote_scripts": [
+        "https://wow.zamimg.com/js/tooltips.js"
+      ]
+    },
+    {
+      "report": "full-report.html",
+      "sha256": "15d59b9c10fc0ad1c261f69e4324cfa0d554f65c5643af79bebbc90b315718b2",
+      "data": "full-report-data.json",
+      "data_sha256": "f4ff86af274b8e470d54c244f82e4a7967409e58f067c7acdc77e3e29a77d3a6",
+      "local_links": [
+        {
+          "url": "../../snapshots/2026-11-12-1829.simc",
+          "file": "records/cn-ravenholdt-suoergelin/snapshots/2026-11-12-1829.simc",
+          "download": true,
+          "sha256": "34e5e588fb1fc2880af4d477272d1998d768d9bde2cdfb8704ca5f2f8312a0c1"
+        },
+        {
+          "url": "current-full-equipped.simc",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/current-full-equipped.simc",
+          "download": true,
+          "sha256": "fd97e788356c703c2154abaa9b11901259a742c66635b77da99c1f2455d3ed73"
+        },
+        {
+          "url": "recommended-dungeon.simc",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/recommended-dungeon.simc",
+          "download": true,
+          "sha256": "6a0bf46262e190b5564231e1a7229bc5a7eccbf39b062bceedb21f2e09210bab"
+        },
+        {
+          "url": "alternative-h5-ring.simc",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/alternative-h5-ring.simc",
+          "download": true,
+          "sha256": "fe8fedb28386f53591d29b40614551d50e6612e0b190b5bba47d6feeb7e34cdd"
+        },
+        {
+          "url": "reference-single-target.simc",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/reference-single-target.simc",
+          "download": true,
+          "sha256": "223cf33dcacb790e55d79705dcd3e24657f845c521df789f679dc58cb975509b"
+        },
+        {
+          "url": "full-comparison-results.json",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/full-comparison-results.json",
+          "download": true,
+          "sha256": "ebb0c0fee86acfba4dedd411fb743091894387badd9f6de0b25924f2936d483b"
+        },
+        {
+          "url": "roll-history-interpretation.json",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/roll-history-interpretation.json",
+          "download": true,
+          "sha256": "710a1a8f5bc6037c5926ce14e60b064a9010c6d8b3ba31cd72b7e7d15cd106e8"
+        },
+        {
+          "url": "full-simc-manifest.json",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/full-simc-manifest.json",
+          "download": true,
+          "sha256": "c31850d0248f853705467c09fe94179948d803b3e4cf75fd9567113897059233"
+        },
+        {
+          "url": "elite-evidence.json",
+          "file": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/elite-evidence.json",
+          "download": true,
+          "sha256": "39c2f8b7511abb26bb74fc7aef421eb15e4af6653683962efe9e5f85b8cb8c03"
+        },
+        {
+          "url": "../../weeks/2026-11-12.json",
+          "file": "records/cn-ravenholdt-suoergelin/weeks/2026-11-12.json",
+          "download": true,
+          "sha256": "11f03234edbd37c39aaf0c3589fd2b30b2efba1db3c34f3992e14a74bfc184fe"
+        }
+      ],
+      "remote_scripts": [
+        "https://wow.zamimg.com/js/tooltips.js"
+      ]
+    }
+  ],
+  "added_files_before_this_artifact": [
+    {
+      "path": "records/cn-ravenholdt-suoergelin/.gitattributes",
+      "bytes": 959,
+      "sha256": "82ba9c2785bee4005bf34ae2ab5038cced40510295a29ac2b9553ae651bdc834"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/README.md",
+      "bytes": 7541,
+      "sha256": "e9771feb3f56929b728829a4a0b79a2e2e9b9e9852533e3c97e46fb7b6f928db"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/.gitignore",
+      "bytes": 341,
+      "sha256": "72da9cdaf4da1077dfd9495b1e3c8ffa08f0b779f78b436c44fa42cfd9f521a3"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/build-report.py",
+      "bytes": 30693,
+      "sha256": "9229f00558a77922c23e8edfb4b8e487250020dbd027aae617571f45e7456f79"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/build-full-report.py",
+      "bytes": 28178,
+      "sha256": "11ba11577743288c2b332b23ff17c91f1d4f798fd211352fd5edd1be62efa501"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/full-report-icons.json",
+      "bytes": 44896,
+      "sha256": "e3620f65f10e89d1054c3d24bfc5f489acd104069aed24430e51b23b73182d7d"
+    },
+    {
+      "path": "records/cn-ravenholdt-suoergelin/analysis/2026-11-12/screening-summary.json",
+      "bytes": 102393,
+      "sha256": "c6d759db316f09cfdff7a2b019f23e4d9287d4b4d676993ac2b6273eb13cccde"
+    }
+  ],
+  "reusable_validation": {
+    "identity": "identity-validation.json and three identity native JSON results; short identity only",
+    "final_comparisons": "39 retained 6000-iteration native JSON results, their validations and full-comparison-results.json",
+    "static_stats": "Five retained unbuffed native JSON snapshots and their validations",
+    "exports": "Four historical accepted clean-export reimports; omitted raw results are summarized and hashed",
+    "browser": "browser-validation.json and full-browser-validation.json with four screenshots; historical desktop/mobile/navigation/model/download checks"
+  },
+  "limits": [
+    "No DPS simulations, browser sessions or historical report builders were run during archive preparation.",
+    "Scratch rebuild instructions are documented; the full state-writing builders were syntax-checked, not executed. Equivalent report rendering from archived data was verified in memory.",
+    "The preliminary identity-dungeon70783.json has no separate retained input or exact invocation. Its native settings remain recorded; no missing command was invented.",
+    "personal-study.py skips an accepted validation even when the native raw JSON is absent. Use a fresh scratch run or invoke the retained .simc directly to regenerate an omitted raw result.",
+    "Shared renderer must accompany the coordinated main-thread commit; SimulationCraft source/executable stay local and are needed only for simulation reproduction.",
+    "Wowhead tooltip scripts require the network and were not rechecked; icons are embedded.",
+    "Server reward-preview/exclusion scope and native implementation_not_yet_verified item effects retain the scientific limits stated in full-review.md."
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "candidate": "ring_h5",
+  "model": "slice",
+  "iterations": 2000,
+  "seed": 26111231,
+  "accepted": true,
+  "exit_code": 0,
+  "valid_fight_style": true,
+  "tier_count": 4,
+  "lining_count": 2,
+  "dps": 273531.2894776846,
+  "samples": 1999,
+  "ci95": 722.6399296016942,
+  "stats": {
+    "attribute": {
+      "strength": 3141.0,
+      "agility": 426.0,
+      "stamina": 46030.0,
+      "intellect": 421.0
+    },
+    "resources": {
+      "rage": 130.0
+    },
+    "stats": {
+      "spell_power": 421.0,
+      "attack_power": 3235.0,
+      "spell_crit": 0.3067391304347826,
+      "attack_crit": 0.3067391304347826,
+      "spell_haste": 0.822445279351016,
+      "attack_haste": 0.822445279351016,
+      "spell_cast_speed": 0.822445279351016,
+      "auto_attack_speed": 0.822445279351016,
+      "mastery_value": 0.2778695652173913,
+      "damage_versatility": 0.0637037037037037,
+      "heal_versatility": 0.0637037037037037,
+      "mitigation_versatility": 0.03185185185185185,
+      "crit_rating": 1089.0,
+      "crit_pct": 0.3067391304347826,
+      "haste_rating": 845.0,
+      "haste_pct": 0.2158863636363635,
+      "mastery_rating": 794.0,
+      "mastery_pct": 0.2778695652173913,
+      "versatility_rating": 344.0,
+      "versatility_pct": 0.0637037037037037,
+      "avoidance_rating": 148.0,
+      "avoidance_pct": 0.040216817220210484,
+      "leech_pct": 0.03,
+      "speed_pct": 7.3500000000000005,
+      "armor": 2958.4500000000003,
+      "dodge": 0.03,
+      "parry": 0.17266011977556084,
+      "block": 0.1
+    }
+  },
+  "gear": {
+    "head": {
+      "name": "tempered_horns_of_the_jade_warlord",
+      "encoded_item": "tempered_horns_of_the_jade_warlord,id=271456,bonus_id=6652/12854/13334/13692/13695/13696/13698/14049,gem_id=240890,enchant_id=8017,redirected_base_stats=281239",
+      "ilevel": 334,
+      "haste_rating": 60,
+      "mastery_rating": 141,
+      "stamina": 3910,
+      "strint": 189
+    },
+    "neck": {
+      "name": "aqirbane_reliquary",
+      "encoded_item": "aqirbane_reliquary,id=268265,bonus_id=6652/12856/13334/13668/13987,gem_id=240983/240890",
+      "ilevel": 341,
+      "crit_rating": 105,
+      "haste_rating": 105,
+      "mastery_rating": 105,
+      "stamina": 2382,
+      "versatility_rating": 105
+    },
+    "shoulders": {
+      "name": "raging_pauldrons_of_the_jade_warlord",
+      "encoded_item": "raging_pauldrons_of_the_jade_warlord,id=271454,bonus_id=1587/12854/13694/13697,enchant_id=8001,redirected_base_stats=272260",
+      "ilevel": 334,
+      "crit_rating": 56,
+      "mastery_rating": 94,
+      "stamina": 2932,
+      "strint": 141
+    },
+    "chest": {
+      "name": "cuirass_of_the_jade_warlord",
+      "encoded_item": "cuirass_of_the_jade_warlord,id=271459,bonus_id=6652/12846/13690/13698,enchant_id=7987,redirected_base_stats=272255",
+      "ilevel": 321,
+      "haste_rating": 71,
+      "stamina": 3369,
+      "strint": 167,
+      "versatility_rating": 119
+    },
+    "waist": {
+      "name": "girdle_of_toxic_regret",
+      "encoded_item": "girdle_of_toxic_regret,id=268259,bonus_id=6652/12854/13334/13662/13696",
+      "ilevel": 334,
+      "crit_rating": 106,
+      "mastery_rating": 45,
+      "stamina": 2932,
+      "strint": 141
+    },
+    "legs": {
+      "name": "legplates_of_charged_duality",
+      "encoded_item": "legplates_of_charged_duality,id=159435,bonus_id=6652/12699/12846/13440/13662,enchant_id=8163,content_tuning=1279",
+      "ilevel": 321,
+      "crit_rating": 71,
+      "stamina": 3369,
+      "strint": 167,
+      "versatility_rating": 120
+    },
+    "feet": {
+      "name": "spellbreakers_march",
+      "encoded_item": "spellbreakers_march,id=237828,bonus_id=8790/8960/12214/12384/13667/13751/13836/14001/12497,crafted_stats=32/49,content_tuning=3615",
+      "ilevel": 331,
+      "crit_rating": 74,
+      "haste_rating": 74,
+      "stamina": 2832,
+      "strint": 138
+    },
+    "wrists": {
+      "name": "spellbreakers_bracers",
+      "encoded_item": "spellbreakers_bracers,id=237834,bonus_id=8790/8960/12214/12384/13667/13696/13751/13836/14001/12497,crafted_stats=49/36,content_tuning=3615",
+      "ilevel": 331,
+      "crit_rating": 56,
+      "haste_rating": 56,
+      "stamina": 2124,
+      "strint": 103
+    },
+    "hands": {
+      "name": "jeweled_gauntlets_of_the_jade_warlord",
+      "encoded_item": "jeweled_gauntlets_of_the_jade_warlord,id=271457,bonus_id=6652/12854/13334/13691/13697,redirected_base_stats=268220",
+      "ilevel": 334,
+      "crit_rating": 100,
+      "haste_rating": 50,
+      "stamina": 2932,
+      "strint": 141
+    },
+    "finger1": {
+      "name": "band_of_the_swarmcaller",
+      "encoded_item": "band_of_the_swarmcaller,id=281029,bonus_id=6652/12849/13334/13668",
+      "ilevel": 318,
+      "haste_rating": 100,
+      "mastery_rating": 269,
+      "stamina": 1830
+    },
+    "finger2": {
+      "name": "apex_brutes_claw_ring",
+      "encoded_item": "apex_brutes_claw_ring,id=268252,bonus_id=12854/13334/13668,ilevel=334,gem_id=240890,enchant_id=7967",
+      "ilevel": 334,
+      "crit_rating": 338,
+      "haste_rating": 67,
+      "stamina": 2199
+    },
+    "trinket1": {
+      "name": "twisted_horrors_tendril",
+      "encoded_item": "twisted_horrors_tendril,id=281215,bonus_id=6652/12856/13334",
+      "ilevel": 341,
+      "stragiint": 191
+    },
+    "trinket2": {
+      "name": "zuljins_guillotine_technique",
+      "encoded_item": "zuljins_guillotine_technique,id=270173,bonus_id=6652/12856/13334",
+      "ilevel": 341,
+      "stragi": 191
+    },
+    "back": {
+      "name": "silken_voodoo_drape",
+      "encoded_item": "silken_voodoo_drape,id=268253,bonus_id=6652/12854/13334/13662",
+      "ilevel": 334,
+      "haste_rating": 33,
+      "mastery_rating": 80,
+      "stamina": 2199,
+      "stragiint": 106
+    },
+    "main_hand": {
+      "name": "mazeroa_warlords_fury",
+      "encoded_item": "mazeroa_warlords_fury,id=268213,bonus_id=6652/12856/13334,enchant_id=8689",
+      "ilevel": 341,
+      "crit_rating": 146,
+      "mastery_rating": 60,
+      "stamina": 4235,
+      "stragi": 201
+    }
+  },
+  "logs": [
+    {
+      "level": "trivial",
+      "message": "Buff 'fury_mid2_4pc_crit' (0) initialized with max_stack < 1 (0). Setting max_stack to 1."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Tempered Horns of the Jade Warlord: Damage is assumed to not be split amongst targets hit."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Rune of Unleashed Fire: Procs are assumed to target the same unit that triggered them. Procs triggered by damage are assumed to proc damage. Procs triggered by healing/aura are assumed to proc heal."
+    },
+    {
+      "level": "implementation_not_yet_verified",
+      "message": "Band of the Swarmcaller: Damage is assumed to not be split amongst targets hit."
+    }
+  ]
+}

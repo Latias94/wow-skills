@@ -1,0 +1,590 @@
+{
+  "exported_at": "2026-11-12T18:29:00+08:00",
+  "game_build": "12.1.5.70783",
+  "gear": {
+    "head": {
+      "slot": "head",
+      "raw": "head=,id=271456,enchant_id=8017,gem_id=240890,bonus_id=13334/6652/14049/13696/13692/13698/12854/13695,redirected_base_stats=281239",
+      "name_level": "翡翠督军的淬火战角 (334)",
+      "modifiers": {
+        "id": "271456",
+        "enchant_id": "8017",
+        "gem_id": "240890",
+        "bonus_id": "13334/6652/14049/13696/13692/13698/12854/13695",
+        "redirected_base_stats": "281239"
+      }
+    },
+    "neck": {
+      "slot": "neck",
+      "raw": "neck=,id=268265,gem_id=240983/240890,bonus_id=6652/13668/13334/13987/12856",
+      "name_level": "亚基克星藏骨匣 (341)",
+      "modifiers": {
+        "id": "268265",
+        "gem_id": "240983/240890",
+        "bonus_id": "6652/13668/13334/13987/12856"
+      }
+    },
+    "shoulder": {
+      "slot": "shoulder",
+      "raw": "shoulder=,id=271454,enchant_id=8001,bonus_id=12854/13694/13697/1587,redirected_base_stats=272260",
+      "name_level": "翡翠督军的狂怒肩铠 (334)",
+      "modifiers": {
+        "id": "271454",
+        "enchant_id": "8001",
+        "bonus_id": "12854/13694/13697/1587",
+        "redirected_base_stats": "272260"
+      }
+    },
+    "back": {
+      "slot": "back",
+      "raw": "back=,id=268253,bonus_id=6652/13662/13334/12854",
+      "name_level": "丝质巫毒斗篷 (334)",
+      "modifiers": {
+        "id": "268253",
+        "bonus_id": "6652/13662/13334/12854"
+      }
+    },
+    "chest": {
+      "slot": "chest",
+      "raw": "chest=,id=271459,enchant_id=7987,bonus_id=6652/13690/13698/12846,redirected_base_stats=272255",
+      "name_level": "翡翠督军胸铠 (321)",
+      "modifiers": {
+        "id": "271459",
+        "enchant_id": "7987",
+        "bonus_id": "6652/13690/13698/12846",
+        "redirected_base_stats": "272255"
+      }
+    },
+    "wrist": {
+      "slot": "wrist",
+      "raw": "wrist=,id=237834,bonus_id=12214/13667/12497/13751/14001/8960/12384/8790/13836/13696,content_tuning=3615,crafted_stats=49/36,crafting_quality=5",
+      "name_level": "破法者的护腕 (331)",
+      "modifiers": {
+        "id": "237834",
+        "bonus_id": "12214/13667/12497/13751/14001/8960/12384/8790/13836/13696",
+        "content_tuning": "3615",
+        "crafted_stats": "49/36",
+        "crafting_quality": "5"
+      }
+    },
+    "hands": {
+      "slot": "hands",
+      "raw": "hands=,id=271457,bonus_id=13334/6652/13691/13697/12854,redirected_base_stats=268220",
+      "name_level": "翡翠督军的镶玉护手 (334)",
+      "modifiers": {
+        "id": "271457",
+        "bonus_id": "13334/6652/13691/13697/12854",
+        "redirected_base_stats": "268220"
+      }
+    },
+    "waist": {
+      "slot": "waist",
+      "raw": "waist=,id=268259,bonus_id=6652/13696/13662/13334/12854",
+      "name_level": "剧毒悔恨束带 (334)",
+      "modifiers": {
+        "id": "268259",
+        "bonus_id": "6652/13696/13662/13334/12854"
+      }
+    },
+    "legs": {
+      "slot": "legs",
+      "raw": "legs=,id=159435,enchant_id=8163,bonus_id=13440/6652/13662/12699/12846,content_tuning=1279",
+      "name_level": "充能二元腿铠 (321)",
+      "modifiers": {
+        "id": "159435",
+        "enchant_id": "8163",
+        "bonus_id": "13440/6652/13662/12699/12846",
+        "content_tuning": "1279"
+      }
+    },
+    "feet": {
+      "slot": "feet",
+      "raw": "feet=,id=237828,bonus_id=12214/13667/12497/13751/14001/8960/12384/8790/13836,content_tuning=3615,crafted_stats=32/49,crafting_quality=5",
+      "name_level": "破法者的步伐 (331)",
+      "modifiers": {
+        "id": "237828",
+        "bonus_id": "12214/13667/12497/13751/14001/8960/12384/8790/13836",
+        "content_tuning": "3615",
+        "crafted_stats": "32/49",
+        "crafting_quality": "5"
+      }
+    },
+    "finger1": {
+      "slot": "finger1",
+      "raw": "finger1=,id=281029,bonus_id=6652/13668/13334/12849",
+      "name_level": "虫群召唤者指环 (318)",
+      "modifiers": {
+        "id": "281029",
+        "bonus_id": "6652/13668/13334/12849"
+      }
+    },
+    "finger2": {
+      "slot": "finger2",
+      "raw": "finger2=,id=273792,enchant_id=7967,gem_id=240890,bonus_id=13440/6652/13668/12699/12846,content_tuning=1279",
+      "name_level": "阿曼尼督军的指环 (321)",
+      "modifiers": {
+        "id": "273792",
+        "enchant_id": "7967",
+        "gem_id": "240890",
+        "bonus_id": "13440/6652/13668/12699/12846",
+        "content_tuning": "1279"
+      }
+    },
+    "trinket1": {
+      "slot": "trinket1",
+      "raw": "trinket1=,id=281215,bonus_id=6652/13334/12856",
+      "name_level": "扭曲恐兽触须 (341)",
+      "modifiers": {
+        "id": "281215",
+        "bonus_id": "6652/13334/12856"
+      }
+    },
+    "trinket2": {
+      "slot": "trinket2",
+      "raw": "trinket2=,id=270173,bonus_id=6652/13334/12856",
+      "name_level": "祖尔金的处斩技法 (341)",
+      "modifiers": {
+        "id": "270173",
+        "bonus_id": "6652/13334/12856"
+      }
+    },
+    "main_hand": {
+      "slot": "main_hand",
+      "raw": "main_hand=,id=268213,enchant_id=8689,bonus_id=6652/13334/12856",
+      "name_level": "迈兹罗阿，督军的狂怒 (341)",
+      "modifiers": {
+        "id": "268213",
+        "enchant_id": "8689",
+        "bonus_id": "6652/13334/12856"
+      }
+    }
+  },
+  "bags": [
+    {
+      "slot": "head",
+      "raw": "head=,id=251229,bonus_id=12843/13440/6652/13696/13662/12699,content_tuning=1279",
+      "name_level": "掠食者面甲 (311)",
+      "modifiers": {
+        "id": "251229",
+        "bonus_id": "12843/13440/6652/13696/13662/12699",
+        "content_tuning": "1279"
+      }
+    },
+    {
+      "slot": "head",
+      "raw": "head=,id=281239,bonus_id=6652/13696/13662/13334/14049/12846",
+      "name_level": "侵蚀巨怪罩帽 (321)",
+      "modifiers": {
+        "id": "281239",
+        "bonus_id": "6652/13696/13662/13334/14049/12846"
+      }
+    },
+    {
+      "slot": "head",
+      "raw": "head=,id=281239,bonus_id=6652/13696/13662/13333/12835/11215/14049,content_tuning=7307",
+      "name_level": "侵蚀巨怪罩帽 (298)",
+      "modifiers": {
+        "id": "281239",
+        "bonus_id": "6652/13696/13662/13333/12835/11215/14049",
+        "content_tuning": "7307"
+      }
+    },
+    {
+      "slot": "head",
+      "raw": "head=,id=272242,bonus_id=12833/6652/13696/11215/13662,content_tuning=6015",
+      "name_level": "雾猎者风帽 (292)",
+      "modifiers": {
+        "id": "272242",
+        "bonus_id": "12833/6652/13696/11215/13662",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "neck",
+      "raw": "neck=,id=251142,bonus_id=12843/13440/6652/13668/12699,content_tuning=1279",
+      "name_level": "恶毒之怒吊坠 (311)",
+      "modifiers": {
+        "id": "251142",
+        "bonus_id": "12843/13440/6652/13668/12699",
+        "content_tuning": "1279"
+      }
+    },
+    {
+      "slot": "shoulder",
+      "raw": "shoulder=,id=271454,enchant_id=8031,bonus_id=13334/13694/6652/13697/12846,content_tuning=1040",
+      "name_level": "翡翠督军的狂怒肩铠 (321)",
+      "modifiers": {
+        "id": "271454",
+        "enchant_id": "8031",
+        "bonus_id": "13334/13694/6652/13697/12846",
+        "content_tuning": "1040"
+      }
+    },
+    {
+      "slot": "back",
+      "raw": "back=,id=155981,bonus_id=8902/7756/13662/12699/12846,content_tuning=440",
+      "name_level": "灭亡斗篷 (321)",
+      "modifiers": {
+        "id": "155981",
+        "bonus_id": "8902/7756/13662/12699/12846",
+        "content_tuning": "440"
+      }
+    },
+    {
+      "slot": "chest",
+      "raw": "chest=,id=272231,bonus_id=12833/6652/11215/13662,content_tuning=6015",
+      "name_level": "蹈火者的长衣 (292)",
+      "modifiers": {
+        "id": "272231",
+        "bonus_id": "12833/6652/11215/13662",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "chest",
+      "raw": "chest=,id=272231,bonus_id=12833/6652/11215/13662,content_tuning=6015",
+      "name_level": "蹈火者的长衣 (292)",
+      "modifiers": {
+        "id": "272231",
+        "bonus_id": "12833/6652/11215/13662",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "wrist",
+      "raw": "wrist=,id=159425,bonus_id=12843/13440/6652/13696/13662/12699,content_tuning=1279",
+      "name_level": "裂尖臂甲 (311)",
+      "modifiers": {
+        "id": "159425",
+        "bonus_id": "12843/13440/6652/13696/13662/12699",
+        "content_tuning": "1279"
+      }
+    },
+    {
+      "slot": "wrist",
+      "raw": "wrist=,id=268239,bonus_id=6652/13696/13662/13334/12846,content_tuning=7359",
+      "name_level": "缚壳臂甲 (321)",
+      "modifiers": {
+        "id": "268239",
+        "bonus_id": "6652/13696/13662/13334/12846",
+        "content_tuning": "7359"
+      }
+    },
+    {
+      "slot": "hands",
+      "raw": "hands=,id=272257,bonus_id=12841/6652/13662,content_tuning=6015",
+      "name_level": "誓言使者护手 (305)",
+      "modifiers": {
+        "id": "272257",
+        "bonus_id": "12841/6652/13662",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "hands",
+      "raw": "hands=,id=271457,bonus_id=13334/6652/13691/13697/12846,redirected_base_stats=268220",
+      "name_level": "翡翠督军的镶玉护手 (321)",
+      "modifiers": {
+        "id": "271457",
+        "bonus_id": "13334/6652/13691/13697/12846",
+        "redirected_base_stats": "268220"
+      }
+    },
+    {
+      "slot": "waist",
+      "raw": "waist=,id=272261,bonus_id=12833/6652/13695/11215/13662,content_tuning=6015",
+      "name_level": "誓言使者束带 (292)",
+      "modifiers": {
+        "id": "272261",
+        "bonus_id": "12833/6652/13695/11215/13662",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "waist",
+      "raw": "waist=,id=272261,bonus_id=12833/6652/13696/11215/13662,content_tuning=6015",
+      "name_level": "誓言使者束带 (292)",
+      "modifiers": {
+        "id": "272261",
+        "bonus_id": "12833/6652/13696/11215/13662",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "waist",
+      "raw": "waist=,id=276028,bonus_id=12826/6652/13696/13662,content_tuning=6145",
+      "name_level": "石皮腰铠 (282)",
+      "modifiers": {
+        "id": "276028",
+        "bonus_id": "12826/6652/13696/13662",
+        "content_tuning": "6145"
+      }
+    },
+    {
+      "slot": "waist",
+      "raw": "waist=,id=251144,bonus_id=13440/6652/13696/13662/12699/12846,content_tuning=1279",
+      "name_level": "秋日恩赐腰带 (321)",
+      "modifiers": {
+        "id": "251144",
+        "bonus_id": "13440/6652/13696/13662/12699/12846",
+        "content_tuning": "1279"
+      }
+    },
+    {
+      "slot": "waist",
+      "raw": "waist=,id=272237,bonus_id=12833/6652/13696/11215/13662,content_tuning=6015",
+      "name_level": "蹈火者的宽腰带 (292)",
+      "modifiers": {
+        "id": "272237",
+        "bonus_id": "12833/6652/13696/11215/13662",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "legs",
+      "raw": "legs=,id=272235,bonus_id=12826/6652/11215/13662,content_tuning=6015",
+      "name_level": "蹈火者的长裤 (282)",
+      "modifiers": {
+        "id": "272235",
+        "bonus_id": "12826/6652/11215/13662",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "legs",
+      "raw": "legs=,id=271455,enchant_id=8159,bonus_id=13693/13440/6652/13698/12846",
+      "name_level": "翡翠督军腿铠 (321)",
+      "modifiers": {
+        "id": "271455",
+        "enchant_id": "8159",
+        "bonus_id": "13693/13440/6652/13698/12846"
+      }
+    },
+    {
+      "slot": "legs",
+      "raw": "legs=,id=281235,bonus_id=6652/13662/13333/12835/11215/14049,content_tuning=7307",
+      "name_level": "虚空编织者护腿 (298)",
+      "modifiers": {
+        "id": "281235",
+        "bonus_id": "6652/13662/13333/12835/11215/14049",
+        "content_tuning": "7307"
+      }
+    },
+    {
+      "slot": "legs",
+      "raw": "legs=,id=272251,bonus_id=12833/6652/11215/13662,content_tuning=6015",
+      "name_level": "驭风者的护胫 (292)",
+      "modifiers": {
+        "id": "272251",
+        "bonus_id": "12833/6652/11215/13662",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "feet",
+      "raw": "feet=,id=268260,bonus_id=6652/13662/13334/12846",
+      "name_level": "鳞魔战靴 (321)",
+      "modifiers": {
+        "id": "268260",
+        "bonus_id": "6652/13662/13334/12846"
+      }
+    },
+    {
+      "slot": "finger1",
+      "raw": "finger1=,id=275526,enchant_id=7967,bonus_id=6652/13668/12838,content_tuning=5236",
+      "name_level": "猎捕手的指环 (308)",
+      "modifiers": {
+        "id": "275526",
+        "enchant_id": "7967",
+        "bonus_id": "6652/13668/12838",
+        "content_tuning": "5236"
+      }
+    },
+    {
+      "slot": "finger1",
+      "raw": "finger1=,id=162544,bonus_id=12843/13440/6652/13668/12699,content_tuning=1279",
+      "name_level": "翠玉盘蛇指环 (311)",
+      "modifiers": {
+        "id": "162544",
+        "bonus_id": "12843/13440/6652/13668/12699",
+        "content_tuning": "1279"
+      }
+    },
+    {
+      "slot": "finger1",
+      "raw": "finger1=,id=252258,enchant_id=7967,gem_id=240890,bonus_id=13440/6652/13668/12699/12846,content_tuning=1279",
+      "name_level": "阿特洛苏斯的腐化玺戒 (321)",
+      "modifiers": {
+        "id": "252258",
+        "enchant_id": "7967",
+        "gem_id": "240890",
+        "bonus_id": "13440/6652/13668/12699/12846",
+        "content_tuning": "1279"
+      }
+    },
+    {
+      "slot": "finger1",
+      "raw": "finger1=,id=251148,enchant_id=7967,gem_id=240890,bonus_id=13440/6652/13668/12699/12846,content_tuning=1279",
+      "name_level": "窃来的珍贵指环 (321)",
+      "modifiers": {
+        "id": "251148",
+        "enchant_id": "7967",
+        "gem_id": "240890",
+        "bonus_id": "13440/6652/13668/12699/12846",
+        "content_tuning": "1279"
+      }
+    },
+    {
+      "slot": "trinket1",
+      "raw": "trinket1=,id=270175,bonus_id=6652/13334/12854",
+      "name_level": "乌拉特克贪婪之心 (334)",
+      "modifiers": {
+        "id": "270175",
+        "bonus_id": "6652/13334/12854"
+      }
+    },
+    {
+      "slot": "trinket1",
+      "raw": "trinket1=,id=250245,bonus_id=12835/6652/12699/11215,content_tuning=1279",
+      "name_level": "虫群之瘤 (298)",
+      "modifiers": {
+        "id": "250245",
+        "bonus_id": "12835/6652/12699/11215",
+        "content_tuning": "1279"
+      }
+    },
+    {
+      "slot": "trinket1",
+      "raw": "trinket1=,id=274493,bonus_id=12826/6652/11215,content_tuning=6015",
+      "name_level": "乌拉特克信徒塑像 (282)",
+      "modifiers": {
+        "id": "274493",
+        "bonus_id": "12826/6652/11215",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "trinket1",
+      "raw": "trinket1=,id=280617,bonus_id=6652/13334/12854",
+      "name_level": "圣光使者之盾碎片 (334)",
+      "modifiers": {
+        "id": "280617",
+        "bonus_id": "6652/13334/12854"
+      }
+    },
+    {
+      "slot": "trinket1",
+      "raw": "trinket1=,id=250238,bonus_id=12843/13440/6652/12699,content_tuning=1279",
+      "name_level": "贪噬狂野之种 (311)",
+      "modifiers": {
+        "id": "250238",
+        "bonus_id": "12843/13440/6652/12699",
+        "content_tuning": "1279"
+      }
+    },
+    {
+      "slot": "trinket1",
+      "raw": "trinket1=,id=270174,bonus_id=6652/13334/12843",
+      "name_level": "呼啸枢纽神像 (311)",
+      "modifiers": {
+        "id": "270174",
+        "bonus_id": "6652/13334/12843"
+      }
+    },
+    {
+      "slot": "main_hand",
+      "raw": "main_hand=,id=268207,bonus_id=6652/13334/12844/13708,content_tuning=7359",
+      "name_level": "强酸安息巨弓 (315)",
+      "modifiers": {
+        "id": "268207",
+        "bonus_id": "6652/13334/12844/13708",
+        "content_tuning": "7359"
+      }
+    },
+    {
+      "slot": "main_hand",
+      "raw": "main_hand=,id=272274,bonus_id=6652/12846,content_tuning=6015",
+      "name_level": "界域撕裂者 (321)",
+      "modifiers": {
+        "id": "272274",
+        "bonus_id": "6652/12846",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "main_hand",
+      "raw": "main_hand=,id=271092,bonus_id=6652/13333/12838/11215,content_tuning=7359",
+      "name_level": "简斯拉泽，灵魂之牙 (308)",
+      "modifiers": {
+        "id": "271092",
+        "bonus_id": "6652/13333/12838/11215",
+        "content_tuning": "7359"
+      }
+    },
+    {
+      "slot": "main_hand",
+      "raw": "main_hand=,id=268202,enchant_id=8689,bonus_id=6652/13334/13847/12846,content_tuning=7359",
+      "name_level": "被缚女神之颚 (321)",
+      "modifiers": {
+        "id": "268202",
+        "enchant_id": "8689",
+        "bonus_id": "6652/13334/13847/12846",
+        "content_tuning": "7359"
+      }
+    },
+    {
+      "slot": "main_hand",
+      "raw": "main_hand=,id=272269,bonus_id=12833/6652/11215,content_tuning=6015",
+      "name_level": "封魂者的墓碑 (292)",
+      "modifiers": {
+        "id": "272269",
+        "bonus_id": "12833/6652/11215",
+        "content_tuning": "6015"
+      }
+    },
+    {
+      "slot": "main_hand",
+      "raw": "main_hand=,id=281056,bonus_id=6652/13333/12835/11215,content_tuning=7307",
+      "name_level": "圣洁骑士的凰刃 (298)",
+      "modifiers": {
+        "id": "281056",
+        "bonus_id": "6652/13333/12835/11215",
+        "content_tuning": "7307"
+      }
+    },
+    {
+      "slot": "off_hand",
+      "raw": "off_hand=,id=272276,bonus_id=6652/12846,content_tuning=4898",
+      "name_level": "哀嚎壁垒 (321)",
+      "modifiers": {
+        "id": "272276",
+        "bonus_id": "6652/12846",
+        "content_tuning": "4898"
+      }
+    }
+  ],
+  "raw_currency_lines": [
+    "catalyst_currencies=2813:8/3269:8/3116:8/3378:8/3465:5",
+    "upgrade_currencies=c:3442:269/c:3445:112/c:3443:70/c:1813:1000/c:3446:97/i:280562:10/i:274476:10/i:232875:11/i:211296:4",
+    "bonus_roll_currencies=3418:1/3511:0",
+    "bonus_roll_items=3418:278284:5:4:270175:71/3418:278284:95:4:268265:73/3418:278290:5:4:268259:71/3418:278290:5:4:270173:71/3418:278290:95:4:268213:71/3418:278290:95:4:268253:71/3418:286019:5:3:281239:71/3418:286019:95:3:280617:73/3418:286019:95:3:281029:73/3418:286019:95:3:281215:71"
+  ],
+  "reported_socket_tool": {
+    "quantity": 1,
+    "source": "User: 我还有个宝库兑换的打孔器",
+    "reported_at": "2026-11-12T18:38:39.189073+08:00"
+  },
+  "resources_verified_from_item_tooltips": {
+    "274476": {
+      "name": "潮汐火花",
+      "quantity": 10,
+      "season": 2
+    },
+    "280562": {
+      "name": "晋升毒液石",
+      "quantity": 10,
+      "cost_per_ascension": 10
+    }
+  },
+  "notes": "Raw crafted_stats placeholders do not override actual missive bonuses;native result stats are authoritative for the imported model."
+}

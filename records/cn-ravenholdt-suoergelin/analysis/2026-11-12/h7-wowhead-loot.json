@@ -1,0 +1,26 @@
+{
+  "source_url": "https://www.wowhead.com/npc=24239/hex-lord-malacrass",
+  "retrieved_at": "2026-11-12",
+  "journal_combat_source_ids": [
+    268209,
+    268211,
+    268213,
+    268222,
+    268225,
+    268231,
+    268237,
+    268243,
+    268253,
+    268255,
+    268256,
+    268259,
+    270169,
+    270173,
+    275937,
+    275938,
+    279131
+  ],
+  "all_current_drops": [],
+  "limitations": "Legacy NPC24239 data returned no current-journal items. Empty extraction is not an empty boss pool;use current journal and the character reward UI.",
+  "metadata_variant_mismatch": true
+}

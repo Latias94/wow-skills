@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-ravenholdt-suoergelin",
+  "name": "索尔葛林",
+  "region": "cn",
+  "server": "拉文霍德",
+  "timezone": "Asia/Shanghai",
+  "class": "warrior",
+  "combat_spec": "arms",
+  "target_spec": "arms",
+  "hero_talents": "slayer",
+  "hero_talents_evidence": "Native70783 imports supplied code and produces106 SlayerStrike executes across19 samples;ColossusSmash is a baselineArms ability,not proof of theColossus hero tree.",
+  "primary_content": "mythic_plus",
+  "goal": "Attainable Arms/Slayer Mythic+ source and stat plan,then allocate rolls using actual remaining reward previews.",
+  "constraints": {
+    "mythic_raid_7_8_access": false,
+    "exclude_9_of_6_raid_ceiling": true,
+    "comparison_loot_ilvl": 334,
+    "comparison_crafted_ilvl": 331,
+    "ascended_core_ilvl": 341,
+    "source": "User confirmed the previously stated H/R+M+/Vault scope."
+  },
+  "latest_simc": "snapshots/2026-11-12-1829.simc",
+  "latest_full_simc": "snapshots/2026-11-12-1829.simc",
+  "latest_items": "snapshots/2026-11-12-1829.items.json",
+  "latest_snapshot_scope": "Full addon12.1.5-04 export18:29:equipped gear,Catalyst predecessors,Omnium,bags,currencies andobserved R history;one socket tool separately user-reported.",
+  "latest_gear_review": "analysis/2026-11-12/full-report.html",
+  "latest_gear_evidence": "analysis/2026-11-12/full-review.md",
+  "target_slot_map": "analysis/2026-11-12/full-target-slot-map.json",
+  "target_loadouts_status": "Best-tested bounded full-import candidates,not acquisitions orglobalBiS;ordinary334/crafted331,one socket token,held341 core items. Primarycraft ring andH5alternative are near ties.",
+  "roll_history_coverage": "Ten observed addon tuples plususer statement;contexts5/95Heroic family,but exact server shared-exclusion scope/current previews unknown.",
+  "latest_acquisition_update": "weeks/2026-11-12.json#2026-11-12-current-raid-roll-history-confirmation",
+  "target_loadouts": {
+    "dungeon": "analysis/2026-11-12/recommended-dungeon.simc",
+    "alternative": "analysis/2026-11-12/alternative-h5-ring.simc",
+    "single_target_reference": "analysis/2026-11-12/reference-single-target.simc",
+    "evidence": "analysis/2026-11-12/full-report.html"
+  },
+  "initial_source_plan": "analysis/2026-11-12/report.html"
+}

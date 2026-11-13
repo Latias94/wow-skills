@@ -1,0 +1,19 @@
+# Preserve bytes and recognize historical CRLF as line endings in whitespace checks.
+analysis/2026-11-12/*.simc -text whitespace=cr-at-eol
+analysis/2026-11-12/*.json -text whitespace=cr-at-eol
+analysis/2026-11-12/*.html -text whitespace=cr-at-eol
+analysis/2026-11-12/*.png -text
+# Fetched upstream source HTML also retains its original trailing spaces.
+analysis/2026-11-12/*-wowhead-source.html whitespace=-blank-at-eol,cr-at-eol
+analysis/2026-11-12/review.md -text whitespace=cr-at-eol
+analysis/2026-11-12/full-review.md -text whitespace=cr-at-eol
+snapshots/2026-11-12-*.simc -text whitespace=cr-at-eol
+snapshots/2026-11-12-*.items.json -text whitespace=cr-at-eol
+profile.json -text whitespace=cr-at-eol
+weeks/2026-11-12.json -text whitespace=cr-at-eol
+
+# New archive documentation and Python sources use LF.
+analysis/2026-11-12/*.py text eol=lf
+analysis/2026-11-12/README.md text eol=lf
+analysis/2026-11-12/.gitignore text eol=lf
+.gitattributes text eol=lf

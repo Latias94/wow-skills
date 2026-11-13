@@ -1,0 +1,110 @@
+{
+  "240889": {
+    "name": "无瑕致命榄石",
+    "quality": 3,
+    "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕致命榄石</b><!--nend--><!--ndstart--><br /><span style=\"color: #43E023\">榄石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->278</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->14 <!----> 急速和+<!--gem2-->6 <!----> 爆击<!--i?240889:0:80:90:-15:416:178:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+    "spells": {
+      "436341": [
+        [
+          "",
+          "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+          ""
+        ]
+      ]
+    },
+    "source_url": "https://nether.wowhead.com/tooltip/item/240889?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12",
+    "item_id": 240889
+  },
+  "240890": {
+    "name": "无瑕致命榄石",
+    "quality": 3,
+    "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕致命榄石</b><!--nend--><!--ndstart--><br /><span style=\"color: #43E023\">榄石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->16 <!----> 急速和+<!--gem2-->7 <!----> 爆击<!--i?240890:0:80:90:-15:476:208:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+    "spells": {
+      "436341": [
+        [
+          "",
+          "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+          ""
+        ]
+      ]
+    },
+    "source_url": "https://nether.wowhead.com/tooltip/item/240890?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12",
+    "item_id": 240890
+  },
+  "240891": {
+    "name": "无瑕精湛榄石",
+    "quality": 3,
+    "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕精湛榄石</b><!--nend--><!--ndstart--><br /><span style=\"color: #43E023\">榄石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->278</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->14 <!----> 急速和+<!--gem2-->6 <!----> 精通<!--i?240891:0:80:90:-15:416:178:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+    "spells": {
+      "436341": [
+        [
+          "",
+          "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+          ""
+        ]
+      ]
+    },
+    "source_url": "https://nether.wowhead.com/tooltip/item/240891?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12",
+    "item_id": 240891
+  },
+  "240905": {
+    "name": "无瑕迅捷榴石",
+    "quality": 3,
+    "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕迅捷榴石</b><!--nend--><!--ndstart--><br /><span style=\"color: #EA4B4B\">榴石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->278</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->14 <!----> 爆击和+<!--gem2-->6 <!----> 急速<!--i?240905:0:80:90:-15:416:178:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+    "spells": {
+      "436341": [
+        [
+          "",
+          "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+          ""
+        ]
+      ]
+    },
+    "source_url": "https://nether.wowhead.com/tooltip/item/240905?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12",
+    "item_id": 240905
+  },
+  "240906": {
+    "name": "无瑕迅捷榴石",
+    "quality": 3,
+    "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕迅捷榴石</b><!--nend--><!--ndstart--><br /><span style=\"color: #EA4B4B\">榴石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->295</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->16 <!----> 爆击和+<!--gem2-->7 <!----> 急速<!--i?240906:0:80:90:-15:476:208:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+    "spells": {
+      "436341": [
+        [
+          "",
+          "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+          ""
+        ]
+      ]
+    },
+    "source_url": "https://nether.wowhead.com/tooltip/item/240906?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12",
+    "item_id": 240906
+  },
+  "240907": {
+    "name": "无瑕精湛榴石",
+    "quality": 3,
+    "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">无瑕精湛榴石</b><!--nend--><!--ndstart--><br /><span style=\"color: #EA4B4B\">榴石</span><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>物品等级：<!--ilvl-->278</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><br />+<!--gem1-->14 <!----> 爆击和+<!--gem2-->6 <!----> 精通<!--i?240907:0:80:90:-15:416:178:0--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">使用:  <!--useEffect:0:1--><a href=\"/cn/spell=460938\" class=\"q2\"><!--sp436341:0--><!--sp436341--></a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">最大叠加: 200</div><div class=\"whtt-sellprice\">售价: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">60</span></div></td></tr></table>",
+    "spells": {
+      "436341": [
+        [
+          "",
+          "在20秒内恢复(<!--pts1:1:0:460938-->180000<!----> / 5 * 20)点生命值和(<!--pts3:1:0:460938-->135000<!----> / 5 * 20)点法力值，并改变你的永久进食充分效果。摄入时必须保持坐姿。",
+          ""
+        ]
+      ]
+    },
+    "source_url": "https://nether.wowhead.com/tooltip/item/240907?dataEnv=1&locale=4",
+    "queried_at": "2026-11-12",
+    "item_id": 240907
+  }
+}

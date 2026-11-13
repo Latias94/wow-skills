@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "character_id": "cn-ravenholdt-suoergelin",
+  "reset_date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "patch": "12.1.5",
+  "season": "MidnightSeason2",
+  "reset_date_basis": "CN Thursday grouping used in established workspace records;no separate maintenance-time claim.",
+  "budget": {
+    "reported_balance": 1,
+    "currency_id": 3418,
+    "reported_at": "2026-11-12T18:29:00+08:00",
+    "evidence": "Full user export bonus_roll_currencies=3418:1/3511:0;latest baseline already includes all prior spending."
+  },
+  "snapshot": "snapshots/2026-11-12-1829.simc",
+  "vault": {
+    "status": "unknown",
+    "candidates": []
+  },
+  "pools": [
+    {
+      "boss": "H7 / 盘卷祭坛",
+      "loot_spec": "arms",
+      "source": "h7-modern-wowhead-loot.json",
+      "derived_arms_spec_ids": [
+        268213,
+        268222,
+        268253,
+        268259,
+        270173
+      ],
+      "reported_rolled_owned_ids": [
+        268213,
+        268253,
+        268259,
+        270173
+      ],
+      "current_target_ids": [
+        268222
+      ],
+      "history_difficulty_separately_confirmed": true,
+      "current_remaining_preview_verified": false,
+      "exact_remaining_ids": null,
+      "exact_probability": null,
+      "decision": "If all four previous results belong to the current Heroic exclusion scope and the preview only contains268222,spend the next core here;otherwise inspect remaining outcomes before committing.",
+      "heroic_context_family_observed": [
+        5,
+        95
+      ],
+      "history_loot_specs": [
+        71
+      ]
+    },
+    {
+      "boss": "H8 / 乌拉特克",
+      "loot_spec": "arms",
+      "source": "h8-wowhead-loot.json",
+      "reported_rolled_owned_ids": [
+        270175,
+        268265
+      ],
+      "current_target_ids": [
+        271878
+      ],
+      "other_normal_loot_requiring_preview_check": [
+        270175,
+        270168,
+        270909
+      ],
+      "current_remaining_preview_verified": false,
+      "exact_remaining_ids": null,
+      "exact_probability": null,
+      "decision": "Target theVenomcursed plate legs;do not assume all remaining outcomes are legs or Heart. Current341 Tendril+Zuljin is a valid high-key pair.",
+      "history_loot_specs": [
+        71,
+        73
+      ]
+    },
+    {
+      "boss": "H5 / 斯索拉克",
+      "loot_spec": "arms",
+      "current_target_ids": [
+        268252
+      ],
+      "history_coverage": "unknown",
+      "current_remaining_preview_verified": false,
+      "exact_probability": null,
+      "decision": "Secondary-ring alternative after chest/legs;compare crafted331 or Myth-track dungeon/Vault ring before spending on a pool with one main target."
+    },
+    {
+      "boss": "H10 / 基希克斯",
+      "loot_spec": "arms",
+      "reported_rolled_owned_ids": [
+        281239,
+        280617,
+        281029,
+        281215
+      ],
+      "equipped_head_effect": 14049,
+      "inferred_head_source": 281239,
+      "head_predecessor_status": "Confirmed by full user redirected_base_stats=281239.",
+      "current_target_ids": [],
+      "alternative_weapon_id": 280799,
+      "decision": "Existing341 Maze-roa is retained;upgrade the owned318 Swarmcaller instead of rolling it again. H10 is currently low priority.",
+      "confirmed_head_source": 281239
+    }
+  ],
+  "plan": {
+    "status": "proposed_not_spent",
+    "current_allocation": 1,
+    "ordered_priorities": [
+      "Prepare the ownedSwarmcaller anduse the owned socket tool on the retained334 waist.",
+      "If bothH7/H8 previews are clean,prioritizeH8Venomcursedlegs by measured value.",
+      "IfH8 has filler butH7 preview onlychest,prioritize the certainH7chest.",
+      "Hold10venomstones;do not force334Heart to341 for currentM+.",
+      "After chest/legs,compare the owned321Amani with crafted331 orH5ring;reserve crests for existing/new gear upgrades first."
+    ],
+    "stop_conditions": [
+      "Stop H7 after obtaining a suitable Myth-track chest.",
+      "Lower H8 priority after legs;Heart is not an unconditional M+ target.",
+      "Keep341 weapon/neck/trinkets and reassess after each actual acquisition."
+    ],
+    "evidence": "analysis/2026-11-12/full-report.html",
+    "allocation_status": "Conditional proposal,not spent"
+  },
+  "events": [
+    {
+      "event_id": "2026-11-12-current-raid-roll-history-confirmation",
+      "reported_at": "2026-11-12T18:12:21.650642+08:00",
+      "occurred_at": null,
+      "kind": "history_confirmation",
+      "acquisition_kind": "bonus_roll",
+      "status": "confirmed",
+      "evidence": "User blanket statement that all equipped raid-origin items came from bonus rolls.",
+      "identified_raid_base_ids": [
+        268265,
+        268253,
+        268259,
+        281029,
+        281215,
+        270173,
+        268213
+      ],
+      "difficulty": null,
+      "loot_spec_at_acquisition": null,
+      "cost_paid": null,
+      "tier_sources_not_assumed_from_tier_ids": [
+        271456,
+        271454,
+        271459,
+        271457
+      ]
+    }
+  ],
+  "unresolved": [
+    "Actual remainingH7/H8 preview andserver knockout scope",
+    "Exact crest discounts andgold/material costs at upgrade/craftUI",
+    "CurrentVault offers andactual upcoming acquisition results"
+  ],
+  "resources": {
+    "current_season_sparks": {
+      "item_id": 274476,
+      "quantity": 10
+    },
+    "ascendant_venomstones": {
+      "item_id": 280562,
+      "quantity": 10,
+      "cost_per_ascension": 10
+    },
+    "myth_mistcrests": {
+      "currency_id": 3446,
+      "quantity": 97
+    },
+    "socket_tool": {
+      "quantity": 1,
+      "status": "owned_unspent",
+      "evidence": "User: 我还有个宝库兑换的打孔器"
+    },
+    "catalyst_raw": "2813:8/3269:8/3116:8/3378:8/3465:5"
+  },
+  "observed_roll_history": [
+    {
+      "currency": 3418,
+      "source": 278284,
+      "context": 5,
+      "treasure_context_level": 4,
+      "item_id": 270175,
+      "loot_spec": 71
+    },
+    {
+      "currency": 3418,
+      "source": 278284,
+      "context": 95,
+      "treasure_context_level": 4,
+      "item_id": 268265,
+      "loot_spec": 73
+    },
+    {
+      "currency": 3418,
+      "source": 278290,
+      "context": 5,
+      "treasure_context_level": 4,
+      "item_id": 268259,
+      "loot_spec": 71
+    },
+    {
+      "currency": 3418,
+      "source": 278290,
+      "context": 5,
+      "treasure_context_level": 4,
+      "item_id": 270173,
+      "loot_spec": 71
+    },
+    {
+      "currency": 3418,
+      "source": 278290,
+      "context": 95,
+      "treasure_context_level": 4,
+      "item_id": 268213,
+      "loot_spec": 71
+    },
+    {
+      "currency": 3418,
+      "source": 278290,
+      "context": 95,
+      "treasure_context_level": 4,
+      "item_id": 268253,
+      "loot_spec": 71
+    },
+    {
+      "currency": 3418,
+      "source": 286019,
+      "context": 5,
+      "treasure_context_level": 3,
+      "item_id": 281239,
+      "loot_spec": 71
+    },
+    {
+      "currency": 3418,
+      "source": 286019,
+      "context": 95,
+      "treasure_context_level": 3,
+      "item_id": 280617,
+      "loot_spec": 73
+    },
+    {
+      "currency": 3418,
+      "source": 286019,
+      "context": 95,
+      "treasure_context_level": 3,
+      "item_id": 281029,
+      "loot_spec": 73
+    },
+    {
+      "currency": 3418,
+      "source": 286019,
+      "context": 95,
+      "treasure_context_level": 3,
+      "item_id": 281215,
+      "loot_spec": 71
+    }
+  ],
+  "history_interpretation": "All observed contexts5/95 areHeroic source family;server shared knockout across context/spec remains unverified. Do not double-debit old records."
+}

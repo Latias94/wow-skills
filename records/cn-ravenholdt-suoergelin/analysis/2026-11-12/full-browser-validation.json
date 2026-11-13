@@ -1,0 +1,101 @@
+{
+  "checked_at": "2026-11-12T19:01:00+08:00",
+  "desktop": {
+    "width": 1342,
+    "overflow": false,
+    "images": true,
+    "currentRows": 15,
+    "targetRows": 15,
+    "comparisonRows": 13,
+    "nativeTitles": 0,
+    "currentStats": [
+      [
+        "暴击",
+        25.93478260869565
+      ],
+      [
+        "急速",
+        21.38
+      ],
+      [
+        "精通",
+        27.786956521739132
+      ],
+      [
+        "全能",
+        6.37037037037037
+      ]
+    ],
+    "budget": "已确认：1枚R币、1个宝库打孔器、10枚晋升毒液石、10枚当季潮汐火花、97神话雾纹章。乌心334已在背包。当前未记录任何计划消耗。",
+    "modes": [
+      {
+        "id": "slice",
+        "active": true
+      },
+      {
+        "id": "st",
+        "active": true
+      },
+      {
+        "id": "aoe",
+        "active": true
+      }
+    ],
+    "downloads": [
+      {
+        "label": "18:29完整原始SimC（含背包/R历史）",
+        "status": 200
+      },
+      {
+        "label": "当前完整实装比较输入",
+        "status": 200
+      },
+      {
+        "label": "终局候选A：331暴急制作戒",
+        "status": 200
+      },
+      {
+        "label": "终局候选B：334H5爪戒",
+        "status": 200
+      },
+      {
+        "label": "候选A单体复测输入（非团本BiS声明）",
+        "status": 200
+      },
+      {
+        "label": "全部测量和最终对照",
+        "status": 200
+      },
+      {
+        "label": "历史字段语义与服务器排除局限",
+        "status": 200
+      },
+      {
+        "label": "引擎和输入哈希",
+        "status": 200
+      },
+      {
+        "label": "当日高手来源证据",
+        "status": 200
+      },
+      {
+        "label": "当前1币与材料记录",
+        "status": 200
+      }
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "overflow": false,
+    "images": true,
+    "navigationScrollable": true
+  },
+  "screenshots": [
+    "full-report-desktop.png",
+    "full-report-mobile.png"
+  ],
+  "export_reimports_passed": 4,
+  "finalist_model_comparisons": 39,
+  "reported_coin_balance": 1,
+  "owned_socket_tools": 1
+}
